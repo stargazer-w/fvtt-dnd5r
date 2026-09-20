@@ -1,0 +1,125 @@
+{
+  "name": "复仇之魂",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_vengeance_soul-of-vengeance.webp",
+  "system": {
+    "activities": {
+      "MMf9124bCMfcYhjz": {
+        "type": "utility",
+        "_id": "MMf9124bCMfcYhjz",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>受你@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.au4iZLc51iDDbaYO]{仇敌誓言}影响的生物在进行一次攻击以后，无论是否命中，只要其位于你的触及范围内，你可以立即以一个&amp;Reference[Reaction]{反应}对其进行一次近战攻击。</p><p class=\"item-original\">Soul of Vengeance</p>",
+      "chat": ""
+    },
+    "identifier": "soul-of-vengeance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "复仇之誓"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194963988,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "GRPgNFyRPsl94z4i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!GRPgNFyRPsl94z4i"
+}

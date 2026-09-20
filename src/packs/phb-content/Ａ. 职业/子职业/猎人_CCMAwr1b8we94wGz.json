@@ -1,0 +1,131 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "猎人",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/ranger_hunter.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>保护自然与人民免于毁灭</p></blockquote><p>你追逐猎物直到天涯海角，运用你的猎人的本领去保护自然与人民，使其不受灾祸的毁灭。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.80h94evzbL3MwLk1]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CCMAwr1b8we94wGz]{Hunter}</p>",
+      "chat": ""
+    },
+    "identifier": "hunter",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ymNNEaSwsBb8B8z8",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.URGA40NoheM6sHjJ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CLgFdNw7nN9uEUzj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "5wDqwzT4QaEixsFl"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.q7Fv7k3dYJjn7Xvz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "nvvwep8T0xXXcto9"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.BIlIGwUo8QOSjcxF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "DO32VniVwAqOKgHt"
+      }
+    ],
+    "classIdentifier": "ranger",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777576385624,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "CCMAwr1b8we94wGz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!CCMAwr1b8we94wGz"
+}

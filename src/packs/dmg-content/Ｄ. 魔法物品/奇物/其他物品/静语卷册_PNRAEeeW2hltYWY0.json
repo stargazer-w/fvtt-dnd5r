@@ -1,0 +1,158 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "静语卷册",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_tome-of-the-stilled-tongue.webp",
+  "system": {
+    "activities": {
+      "PLPKPzgRTw6SfSOd": {
+        "type": "utility",
+        "_id": "PLPKPzgRTw6SfSOd",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，传说（需法师同调）</em></p><p>这本厚重皮革包覆的卷册封面上钉着一条风干的舌头。卷册现存世 5 本，但无人知晓哪本才是原本。第一本<em>静语卷册</em>上的舌头来自一名背叛了巫妖维克那的仆人。其他四本复制品封面上的舌头则来自冒犯了维克那的其他施法者。每本卷册的前几页都写满了难以辨认的潦草字迹，其余页面则空白如新。</p><p>与此卷册同调期间，你可以将它作为法术书和法器。此外，持握卷册期间，你能够以一个&amp;Reference[BonusAction]{附赠动作}施展一道记录在卷册中的法术而无需言语或姿势成分，也无需消耗法术位。该词条一经使用，直至次日黎明你都无法再次使用。</p><p>只有你可以移除卷册封面的舌头。若如此做，书中记录的所有法术将被永久抹除。</p><p>维克那留意着任何使用卷册的人，还可以向卷册内写入密文。这些密文通常在被人阅读后即消失不见。</p><p class=\"item-original\">Tome of The Stilled Tongue</p>",
+      "chat": ""
+    },
+    "identifier": "tome-of-the-stilled-tongue",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895685521,
+    "modifiedTime": 1761895875083,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PNRAEeeW2hltYWY0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!PNRAEeeW2hltYWY0"
+}

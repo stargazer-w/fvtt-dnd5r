@@ -1,0 +1,178 @@
+{
+  "name": "急速弯刀",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_scimitar-of-speed.webp",
+  "system": {
+    "activities": {
+      "6kcmLnNRsDnAErcu": {
+        "_id": "6kcmLnNRsDnAErcu",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HlOvL5ont4BTTPoo]{弯刀}），极珍稀（需同调）</em></p><p>你用此魔法武器发动的攻击检定和伤害掷骰获得 +2 加值。此外，你在自己的每个回合中可以用一个&amp;Reference[Bonus Action]{附赠动作}以该弯刀发动一次攻击。</p><p class=\"item-original\">Scimitar of Speed</p>",
+      "chat": ""
+    },
+    "identifier": "scimitar-of-speed",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "martialM",
+      "baseItem": "scimitar"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": 2,
+    "properties": [
+      "fin",
+      "mgc",
+      "lgt"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "nick"
+  },
+  "effects": [],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758199227301,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "nDCb8nSUvCO5uD0I",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!nDCb8nSUvCO5uD0I"
+}

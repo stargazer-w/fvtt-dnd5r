@@ -1,0 +1,8 @@
+# compendium 包（LevelDB）必须按二进制处理。
+# Windows 默认的 core.autocrlf=true 会把 CURRENT 结尾的 LF 转成 CRLF，
+# LevelDB 切掉 \n 后会得到带 \r 的非法文件名，报 LEVEL_IO_ERROR / LEVEL_DATABASE_NOT_OPEN。
+reference/origin/packs/** binary
+dist/** binary
+
+# compendium 的 JSON 源文件统一使用 LF 换行
+src/packs/** text eol=lf

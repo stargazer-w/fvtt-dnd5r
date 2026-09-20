@@ -1,0 +1,57 @@
+{
+  "name": "特效训练",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_beast-master_exceptional-training.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>若你用你的附赠动作命令你的原初行侣执行动作时，你还可以让它以它自己的附赠动作执行&amp;Reference[Dash]{疾走}、&amp;Reference[Disengage]{撤离}、&amp;Reference[Dodge]{回避}或&amp;Reference[Help]{协助}动作。</p><p>此外，每当你的野兽以攻击击中目标并造成伤害时，你都可以选择是让它造成的伤害变为力场伤害，或是保持原本伤害类型。</p><p class=\"item-original\">Exceptional Training</p>",
+      "chat": ""
+    },
+    "identifier": "exceptional-training",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "驯兽师"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194962235,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "FQYA500VIVsDpsCF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!FQYA500VIVsDpsCF"
+}

@@ -1,0 +1,387 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "崇善之书",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_book-of-exalted-deeds.webp",
+  "system": {
+    "activities": {
+      "29yStHwXVVoKdbY9": {
+        "type": "utility",
+        "name": "神光",
+        "_id": "29yStHwXVVoKdbY9",
+        "sort": 100000,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Vpyygq2whJWQ6kSI"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "CzPBoWM9L7bo1Nl7": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@item.uses.max - @item.uses.value"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": "-1"
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "研读",
+          "formula": "@scaling"
+        },
+        "name": "研读",
+        "_id": "CzPBoWM9L7bo1Nl7"
+      }
+    },
+    "uses": {
+      "spent": 80,
+      "recovery": [],
+      "max": "80"
+    },
+    "description": {
+      "value": "<p><em>奇物，神器（需同调）</em></p><section class=\"item-quote\"><p>崇善之书是对多元宇宙中一切善行的权威论述，在多个宗教中都有着重要地位。这本书并非是针对特定信仰的圣经典籍，为其编作的作者在书页之间留下了他们对真实美德的看法，帮助指引众生击退邪恶。</p><p>崇善之书很少在某地长留。它会在被阅读完毕时自行消失，并在多元宇宙的另一角落重现，然后为濒临灭绝的世界带来道德的希望与明灯。曾经有人尝试复制这本巨著，但都无法成功捕捉到其魔法本质，也无法传达其对具有纯粹心灵和坚定信念者的神奇增益。</p></section><p>一把天使之翼样式的坚固锁扣守护着圣书的内页。只有与圣书成功同调的生物才能将其打开。一旦开启圣书，与之同调的生物必须花费 80 小时对其阅读研究，以理解其内容并从中获得增益。</p><p>其他生物也可以阅读书页内的文字，只是无法得知其深层的含义，也无法从中获得增益。试图阅读圣书的邪魔、亡灵或下层位面神明的侍从将受到[[/damage 24d6 radiant]]伤害，该伤害无视抗性和免疫，并且无法以任何方式减免。因此伤害生命值降至 0 的生物，将瞬间消失并被摧毁，只留下其所有物，然后书本消失，生物与其的同调结束。</p><p><em>崇善之书</em>的增益只会在你努力行善时持续。若你在 10 日内没有做出任何善举或慷慨的行为，又或者你主动实行一项邪恶行为，你将失去圣书所提供的所有增益。</p><details><summary><em><strong>天堂之谧。</strong></em></summary><p>与此书保持同调期间，你具有心灵伤害抗性与对魅惑和恐慌状态的免疫。在你花费足够的时间阅读研究此书后，该增益将变为永久生效。</p></details><details><summary><em><strong>神圣感知。</strong></em></summary><p>在你花费足够的时间阅读研究此书后，你的感知提升 2，至多提升至 24。</p></details><details><summary><em><strong>魔法启迪。</strong></em></summary><p>在你花费足够的时间阅读研究此书后，你用以施展法术而消耗的法术位均视为高一环的法术位。</p></details><details><summary><em><strong>神光。</strong></em></summary><p>在你花费足够的时间阅读研究此书后，你获得护体神光，该神光发出半径 10 尺的明亮光照以及额外 10 尺的微光光照，你能够以一个&amp;Reference[BonusAction]{附赠动作}令神光解除或显现。神光显现期间，其令你的魅力（游说）检定具有优势。此外，神光的明亮光照范围内的邪魔与亡灵对你的攻击检定具有劣势。</p></details><details><summary><em><strong>随机词条。</strong></em></summary><p><em>崇善之书</em>具有下列随机词条：</p><ul><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu]{次要增益词条}</li><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.OcWc8txQePfpNZG6]{主要增益词条}</li></ul></details><details><summary><em><strong>摧毁圣书。</strong></em></summary><p><em>崇善之书</em>无法被摧毁。然而，将圣书浸入冥河后，其内文字和图像将会消失殆尽，且在[[/r 1d100]]年里失去其力量。</p></details><p class=\"item-original\">Book of Exalted Deeds</p><section class=\"dc7-note\"><p>这个物品以其可用次数来跟踪你所研读它的时间。</p></section>",
+      "chat": ""
+    },
+    "identifier": "book-of-exalted-deeds",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "天堂之谧",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_expertise.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.CayyaNiQrowwOOLK",
+      "_id": "dovqfxM1sr1b6Sye",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761895891257,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!CayyaNiQrowwOOLK.dovqfxM1sr1b6Sye"
+    },
+    {
+      "name": "神圣感知",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.CayyaNiQrowwOOLK",
+      "_id": "soessngok9R2OiQV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.wis.value",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.int.max",
+          "mode": 4,
+          "value": "24",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761895891264,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!CayyaNiQrowwOOLK.soessngok9R2OiQV"
+    },
+    {
+      "name": "神光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_radiant.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.CayyaNiQrowwOOLK",
+      "transfer": false,
+      "_id": "Vpyygq2whJWQ6kSI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761895891267,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!CayyaNiQrowwOOLK.Vpyygq2whJWQ6kSI"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895718520,
+    "modifiedTime": 1761895873886,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "CayyaNiQrowwOOLK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!CayyaNiQrowwOOLK"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "木遁术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_transport-via-plants.webp",
+  "system": {
+    "activities": {
+      "1c2LUDDDlzSe7yO7": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "1c2LUDDDlzSe7yO7",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>该法术在施法距离内一棵大型或更大的未活化植物与同位面上任意距离外的另一棵植物之间创造一道魔法连接。施法时，你必须见过或触碰过出口植物至少一次。在持续时间内，任何生物都可以花费 5 尺移动力进入目标植物内，然后从出口植物处出来。</p><p class=\"item-original\">Transport via Plants</p>",
+      "chat": ""
+    },
+    "identifier": "transport-via-plants",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 6,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "10"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195030103,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zP3qpni16IDIqHuB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zP3qpni16IDIqHuB"
+}

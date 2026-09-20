@@ -1,0 +1,138 @@
+{
+  "name": "宝石 (5000 GP)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>5000 GP 宝石</p>",
+  "results": [
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_black-sapphire.webp",
+      "_id": "feyM9PoyN20PGLb3",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "黑色蓝宝石",
+      "documentUuid": "Compendium.dnd5e-collection-2024.dmg-content.Item.l353fyGWrnxk6cxe",
+      "description": "",
+      "_key": "!tables.results!ej2IjtKPbpUZEIc9.feyM9PoyN20PGLb3"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_diamond.webp",
+      "_id": "nlPoLTQN26xH9Xdo",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "钻石",
+      "documentUuid": "Compendium.dnd5e-collection-2024.dmg-content.Item.ql4BQfJUNS8Jw5aG",
+      "description": "",
+      "_key": "!tables.results!ej2IjtKPbpUZEIc9.nlPoLTQN26xH9Xdo"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_jacinth.webp",
+      "_id": "A6dTVbBFJbo8cApN",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "金红锆石",
+      "documentUuid": "Compendium.dnd5e-collection-2024.dmg-content.Item.4II7IODEVBW2Ho1P",
+      "description": "",
+      "_key": "!tables.results!ej2IjtKPbpUZEIc9.A6dTVbBFJbo8cApN"
+    },
+    {
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_ruby.webp",
+      "_id": "x33PisI59z715oQ0",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "name": "红宝石",
+      "documentUuid": "Compendium.dnd5e-collection-2024.dmg-content.Item.f5KJ3ioyqg4fymNc",
+      "description": "",
+      "_key": "!tables.results!ej2IjtKPbpUZEIc9.x33PisI59z715oQ0"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "SbjQTuq2DjwqeJlj",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750774619699,
+    "modifiedTime": 1750774634023,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d4",
+  "_id": "ej2IjtKPbpUZEIc9",
+  "sort": 31250,
+  "_key": "!tables!ej2IjtKPbpUZEIc9"
+}

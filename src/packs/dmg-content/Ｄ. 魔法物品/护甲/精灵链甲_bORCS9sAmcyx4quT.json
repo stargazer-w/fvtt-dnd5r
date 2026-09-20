@@ -1,0 +1,273 @@
+{
+  "folder": "6JMzhFrzTa0JCYLX",
+  "name": "精灵链甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_elven-chain.webp",
+  "system": {
+    "activities": {
+      "BkPINEZxU8JUWfsK": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "SOwJY2mXbSAMcFr4",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "opCrhS2cQtr83TJu",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "7Hb097h1wZNMi2Sa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "BkPINEZxU8JUWfsK"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ftP6TTzEyyPy15l3]{链甲}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0t7nCdX8kWIrDubL]{链甲衫}），珍稀</em></p><p>穿着这件护甲期间，你的 AC 获得 +1 加值。即使没有受训于中型护甲或重型护甲，你依然视为受训于该护甲。</p><p class=\"item-original\">Elven Chain</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "elven-chain",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": 1,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": 1
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "精灵链甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "7Hb097h1wZNMi2Sa",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "精灵{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀</em></p><p>穿着这件护甲期间，你的 AC 获得 +1 加值。即使没有受训于中型护甲或重型护甲，你依然视为受训于该护甲。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_elven-chain.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504693616,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bORCS9sAmcyx4quT.7Hb097h1wZNMi2Sa"
+    }
+  ],
+  "sort": 206250,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751526349749,
+    "modifiedTime": 1758199222725,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "bORCS9sAmcyx4quT",
+  "_key": "!items!bORCS9sAmcyx4quT"
+}

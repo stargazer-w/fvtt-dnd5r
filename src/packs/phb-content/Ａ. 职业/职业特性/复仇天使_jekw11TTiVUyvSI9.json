@@ -1,0 +1,265 @@
+{
+  "name": "复仇天使",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_vengeance_avenging-angel.webp",
+  "system": {
+    "activities": {
+      "se2NPES7DsUU6orj": {
+        "type": "utility",
+        "_id": "se2NPES7DsUU6orj",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "90Xrk2vQ0YoaMgvA"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Q0BobA28rKPoblk9": {
+        "type": "utility",
+        "name": "恢复充能",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复充能"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "Q0BobA28rKPoblk9"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以用原力盈满你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP]{守护灵光}，灵光获得下列的增益。持续 10 分钟或直到你将之提前结束（无需动作）。当你使用此特性后，直到你完成一次长休前都不能再次使用。你也可以消耗一个 5 环法术位恢复其使用次数（无需动作）。</p><p><em><strong>飞行。</strong></em>你的背后生出灵体双翼，获得 60 尺的飞行速度，并且可以悬浮。</p><p><em><strong>恐惧灵光。</strong></em>每个在灵光范围内开始其回合的敌人，必须成功通过一个[[/save wis dc=@attributes.spell.dc]]{感知豁免}，否则将陷入&amp;Reference[frightened]{恐慌}状态 1 分钟，或直到其受到伤害。此外，你对被恐慌生物发动的攻击检定具有优势。</p><p class=\"item-original\">Avenging Angel</p>",
+      "chat": ""
+    },
+    "identifier": "avenging-angel",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "复仇之誓"
+  },
+  "effects": [
+    {
+      "name": "复仇天使",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_vengeance_avenging-angel.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jekw11TTiVUyvSI9",
+      "transfer": false,
+      "_id": "90Xrk2vQ0YoaMgvA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 5,
+          "value": "60",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.hover",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内获得下列增益。</p><p><em><strong>飞行。</strong></em>你的背后生出灵体双翼，获得 60 尺的飞行速度，并且可以悬浮。</p><p><em><strong>恐惧灵光。</strong></em>每个在灵光范围内开始其回合的敌人，必须成功通过一个[[/save wis dc=@attributes.spell.dc]]{感知豁免}，否则将陷入&amp;Reference[frightened]{恐慌}状态 1 分钟，或直到其受到伤害。此外，你对被恐慌生物发动的攻击检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735572793199,
+        "modifiedTime": 1735572874391,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jekw11TTiVUyvSI9.90Xrk2vQ0YoaMgvA"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758468926793,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "jekw11TTiVUyvSI9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jekw11TTiVUyvSI9"
+}

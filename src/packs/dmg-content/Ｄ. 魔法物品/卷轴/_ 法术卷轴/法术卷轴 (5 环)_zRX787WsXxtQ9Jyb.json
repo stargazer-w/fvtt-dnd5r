@@ -1,0 +1,164 @@
+{
+  "name": "法术卷轴 (5 环)",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_SCROLL_spell-scroll.webp",
+  "system": {
+    "activities": {
+      "6TenG2x6VgOHy3R2": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "name": "",
+        "_id": "6TenG2x6VgOHy3R2"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>卷轴，珍稀</em></p><table style=\"text-align:center\"><thead><tr><th>法术环阶</th><th>豁免 DC</th><th>攻击加值</th></tr></thead><tbody><tr><td>5 环</td><td>17</td><td>+9</td></tr></tbody></table><p>每张法术卷轴都以神秘暗语记录了一道法术。如果这道法术在你的法术列表中，则你可以阅读该卷轴并施展其法术且无需任何材料成分；否则，你将无法理解该卷轴。通过阅读卷轴施展的法术同样需要遵循相应法术的正常施法时间。法术一经施展，卷轴本身就会化作尘土。如果施法被打断，则卷轴不会消失。</p><p>如果这道法术在你的法术列表中，但其环阶高于你当前能施展的水平，则你必须使用你的施法属性进行一次属性检定，以决定是否可以施展这道法术，DC 等于 10 + 这道法术的环阶。如果检定失败，则卷轴上记载的法术会消失，并且不会产生任何效果。</p><p><em><strong>将卷轴抄录入法术书。</strong></em>法术卷轴上的法师法术可以被抄录入法术书中。以此方式抄录法术时，抄录者必须进行一次 DC 等于 10 + 这道法术环阶的[[/skill arc format=long]]。检定成功时便能完成法术的抄录。无论检定成功与否，该法术卷轴都会被摧毁。</p><p class=\"item-original\">Spell Scroll</p>",
+      "chat": ""
+    },
+    "identifier": "spell-scroll",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 3000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": "wMdxxhOeTAG6bAcm",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752072536960,
+    "modifiedTime": 1758461544246,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zRX787WsXxtQ9Jyb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!zRX787WsXxtQ9Jyb"
+}

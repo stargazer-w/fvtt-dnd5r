@@ -1,0 +1,157 @@
+{
+  "name": "命令术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_command.webp",
+  "system": {
+    "activities": {
+      "uhY94A5cPJUsAFsY": {
+        "type": "save",
+        "name": "施法",
+        "_id": "uhY94A5cPJUsAFsY",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你对施法距离内一个你能看见的生物说出一个单词的命令。目标生物必须成功通过一次[[/save]]{感知豁免}，否则必须在其自己的下一回合服从该命令行事。从以下选项中选择一条命令：</p><p><strong>过来。</strong>目标以最短最直接的路线向你移动，并在到达距你 5 尺时结束其回合。</p><p><strong>放下。</strong>目标放下手中持握物并结束其回合。</p><p><strong>走开。</strong>目标利用其回合以最快最有效的方式远离你。</p><p><strong>趴下。</strong>目标陷入&amp;Reference[prone]{伏地}并结束其回合。</p><p><strong>立定。</strong>在其回合内，目标不移动且不作任何动作和附赠动作。</p><p><em><strong>升环施法。</strong></em>使用高于 1 环法术位施展该法术时，你使用的法术位每比 1 环高一环，法术就能多影响一个目标。</p><p class=\"item-original\">Command</p>",
+      "chat": ""
+    },
+    "identifier": "command",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535964999,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "MExq97njl4rCtG9x",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MExq97njl4rCtG9x"
+}

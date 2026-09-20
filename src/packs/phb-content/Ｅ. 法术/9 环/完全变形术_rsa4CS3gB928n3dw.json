@@ -1,0 +1,147 @@
+{
+  "name": "完全变形术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_true-polymorph.webp",
+  "system": {
+    "activities": {
+      "d0dRbowLmfQnV8mR": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "d0dRbowLmfQnV8mR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>选择施法距离内你可见的一名生物或一个非魔法物件。那名生物可以变形成一名不同的生物或一个非魔法物件，或者那个物件变形成一名生物（物件必须并未被着装或携带）。到持续时间结束或目标死亡或被摧毁为止，这一转变会一直持续，但如果你为此法术维持了最长时间的专注，则其持续时间会变为直至被解除。</p><p>一名非自愿生物可以进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}，若豁免成功则不会被此法术影响。</p><p><em><strong>生物变生物。</strong></em>如果你将生物变成另一种生物，则其新形态可以是你选择的挑战等级小于等于目标挑战等级或等级的任何种类。目标的游戏数据被新形态的数据所替代，但目标保留其生命值、生命值骰、阵营、性格。</p><p>目标获得等同于新形态生命值的临时生命值。</p><p>该生物只可做出其新形态的生理结构所允许的动作，不能说话也不能施法。</p><p>目标的装备融入新形态中。目标不能使用装备或者通过其他方式从装备中获得增益。</p><p><em><strong>物件变生物。</strong></em>你可以将一个物件变成任何一种符合下列要求的生物：生物的体型不能大于原物件，且生物的挑战等级必须小于等于 9。变形出的生物对你和你的同伴保持友善。而战斗中它将会在你的回合之后立刻进行其回合，且遵循你的命令。</p><p>如果该法术持续时间超过 1 小时，则你将不再控制该生物。此后，该生物将根据你对待它的方式决定是否对你保持友善。</p><p><em><strong>生物变物件。</strong></em>如果你将一名生物变形成一个物件，则它连同其穿着与携带物一起变成新的形态。变成物件的体型不能大于原生物。受术者的数据变成和该物件一样，在法术终止而受术者变回原形后，它将不会记得在变成物件时所发生的任何事情。</p><p class=\"item-original\">True Polymorph</p>",
+      "chat": ""
+    },
+    "identifier": "true-polymorph",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 9,
+    "materials": {
+      "value": "一滴水银、一团阿拉伯胶和一缕烟",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creatureOrObject",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "lyf0iwRTDbyfgEeq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195018743,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "rsa4CS3gB928n3dw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!rsa4CS3gB928n3dw"
+}

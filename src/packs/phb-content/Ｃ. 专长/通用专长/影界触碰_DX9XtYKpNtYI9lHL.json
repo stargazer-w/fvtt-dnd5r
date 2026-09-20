@@ -1,0 +1,132 @@
+{
+  "name": "影界触碰",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_shadow-touched.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+）</em></p><p>暴露于堕影冥界的魔法给予你以下增益。</p><p><em><strong>属性值提升。</strong></em>你的智力、感知或魅力提升 1，最多为 20。</p><p><em><strong>暗影魔法。</strong></em>你从幻术或死灵学派中选择一道 1 环法术，并始终准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK]{隐形术}</em>和所选法术。你可以在不消耗法术位的情况下施展这些法术各一次。当你以此法施展这两道法术之一后，你不能再次以此法施展那道法术，直至你完成一次长休。你也可以消耗合适的法术位来施展这些法术。这些法术的施法属性是你由此专长提升的属性。</p><p class=\"item-original\">Shadow-Touched</p>",
+      "chat": ""
+    },
+    "identifier": "shadow-touched",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 1,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的智力、感知或魅力提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "type": "ItemChoice",
+        "title": "暗影魔法",
+        "_id": "PPO43VpdUjAe21h7",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "0": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK"
+            }
+          ],
+          "restriction": {
+            "list": [],
+            "level": "1"
+          },
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 2
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": "你总是准备了隐形术和一道你自选的幻术系或死灵系的 1 环法术。你可以在不消耗法术位的情况下施展这些法术各一次。当你以此法施展某道法术后，你不能再次以此法施展该法术，直至你完成一次长休。你也可以消耗合适的法术位来施展这些法术。这些法术的施法属性是你由此专长提升的属性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "uXMklfeD4yRyPxoQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1775991665773,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "DX9XtYKpNtYI9lHL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!DX9XtYKpNtYI9lHL"
+}

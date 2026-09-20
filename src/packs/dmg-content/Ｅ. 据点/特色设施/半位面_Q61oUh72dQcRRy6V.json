@@ -1,0 +1,226 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "半位面",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {
+      "iUwnwkOU5VArgqJI": {
+        "type": "heal",
+        "name": "增强：奥术活力",
+        "_id": "iUwnwkOU5VArgqJI",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "增强：奥术活力"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": 0,
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@details.level * 5"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        }
+      },
+      "wQMioulrkO3L78T3": {
+        "type": "utility",
+        "_id": "wQMioulrkO3L78T3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "造物"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "造物"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>17 级据点设施</em></p><p><strong>先决条件：</strong>可以使用奥术法器或可以将工具作为施法法器<br /><strong>空间：</strong>庞大<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>增强</p><p>一个至多 5 尺宽，10 尺高的门出现在你据点里某个设施内的一个平坦，坚硬的表面。其位置由你选择。如果你位于你的据点内，你可以将这道门移动到另一个设施里。</p><p>只有你和你据点的雇员可以打开这扇门，它通往一个半位面，其形式类似于一个石质房间。半位面位于超维空间中，因此不在物理上与据点的其他部分相连。半位面本身和通往它的门都不能被解消。</p><p><em><strong>增强：奥术活力。</strong></em>当你对此设施下达增强指令时，魔法符文将在半位面的墙壁上浮现，持续 7 天时间。在符文消失前，如果你在半位面内进行了一整个长休，你将获得等同于你等级 5 倍的临时生命值。</p><p><em><strong>造物。</strong></em>位于半位面内时，你可以用一个&amp;Reference[Magic]{魔法}动作，凭空创造一个你所选择的非魔法物件。该物件会出现在半位面内的一个未被占据的空间。该物件不能在任何方向上超过 5 尺长，其价值不能超过 5 GP，并且必须由木头、石头、黏土、陶瓷、纸张、无价值的水晶或者非贵重金属构成。你不能再次使用该魔法动作，直至你完成一次长休。</p><p class=\"item-original\">Demiplane</p>",
+      "chat": ""
+    },
+    "identifier": "demiplane",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 17,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "demiplane"
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013118998,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Q61oUh72dQcRRy6V",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!Q61oUh72dQcRRy6V"
+}

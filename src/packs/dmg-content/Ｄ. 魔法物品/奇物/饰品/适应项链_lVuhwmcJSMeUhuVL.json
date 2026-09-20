@@ -1,0 +1,81 @@
+{
+  "folder": "5NVf38k4DKrbTt1b",
+  "name": "适应项链",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_necklace-of-adaptation.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通（需同调）</em></p><p>佩戴此项链期间，你能在任何环境中正常呼吸，并且你在为避免或结束中毒状态的豁免中具有优势。</p><p class=\"item-original\">Necklace of Adaptation</p>",
+      "chat": ""
+    },
+    "identifier": "necklace-of-adaptation",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758162211539,
+    "modifiedTime": 1758199226609,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "lVuhwmcJSMeUhuVL",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!lVuhwmcJSMeUhuVL"
+}

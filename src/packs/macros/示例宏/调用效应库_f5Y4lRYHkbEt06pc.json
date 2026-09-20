@@ -1,0 +1,28 @@
+{
+  "name": "调用效应库",
+  "type": "script",
+  "command": "// 设置合集效应库的 ID\nconst itemUUID = \"UUID\";\n\n// 检查效应库\nlet item = await fromUuid(itemUUID);\nif (!item) {\n    ui.notifications.error(\"效应库丢失！\");\n    return;\n}\n\n// 确认所调用效应的名称\nconst effectName = \"某效应\";\nlet effect = item.effects.find(e => e.name === effectName);\n\nif (!effect) {\n    ui.notifications.error(\"效应丢失！\");\n    return;\n}\n\n// 获取持续时间\nconst duration = effect.duration.seconds ? effect.duration.seconds : 0; // 确保其有持续时间\n\n// 为拓可添加效果\nawait selectedToken.actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n    name: effect.name,\n    img: effect.img,\n    duration: {\n        seconds: duration,\n        rounds: null,\n        turns: null,\n        startTime: null,\n        combat: null\n    },\n    changes: effect.changes, // 确保具体的效果值被应用\n    ...effect.system // 使用展开运算符确保所有其他效果属性被应用\n}]);",
+  "img": "icons/svg/dice-target.svg",
+  "_id": "f5Y4lRYHkbEt06pc",
+  "author": "Jqoj9dwIRPPEU1Xu",
+  "scope": "global",
+  "folder": "q9xXk9Ab8UzLooAI",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1729966734040,
+    "modifiedTime": 1732346501203,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_key": "!macros!f5Y4lRYHkbEt06pc"
+}

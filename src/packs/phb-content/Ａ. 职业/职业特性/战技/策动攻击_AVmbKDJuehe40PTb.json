@@ -1,0 +1,139 @@
+{
+  "name": "策动攻击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_battle-master_maneuver_maneuvering-attack.webp",
+  "system": {
+    "activities": {
+      "4gjlAz4vzKDYSa3Q": {
+        "type": "damage",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.battle-master.superiority.die"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "",
+        "_id": "4gjlAz4vzKDYSa3Q"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你以攻击检定命中一个生物时，可以消耗一枚卓越骰以让战友移动到更有利的位置。将所消耗的卓越骰加在此次攻击的伤害掷骰中，并指定一个能看见你或听到你声音的自愿生物。该生物可以用其&amp;Reference[Reaction]{反应}移动至多等于其速度一半的距离。本次移动不会引发本次所攻击目标的借机攻击。</p><p class=\"item-original\">Maneuvering Attack</p>",
+      "chat": ""
+    },
+    "identifier": "maneuvering-attack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "maneuver"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "nUMr2bMx2ExFlE8A",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681949852,
+    "modifiedTime": 1758194953889,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AVmbKDJuehe40PTb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!AVmbKDJuehe40PTb"
+}

@@ -1,0 +1,180 @@
+{
+  "name": "咒唤兽群",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_conjure-animals.webp",
+  "system": {
+    "activities": {
+      "mgqnTChH2Hk1GkZp": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "mgqnTChH2Hk1GkZp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "(@item.level - 3)d10",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "604eKFnmtgixA40V",
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.rWRrW9pJkQuepPxv",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将自然精魂咒唤在施法距离内一处你可见的未占据空间中，他们以幽灵般虚幻兽群的形象出现（占据大型空间）。兽群在持续时间内一直存在，并且你可以选择动物精魂的形态——例如狼群、蛇群或是鸟群。</p><p>在你位于兽群 5 尺内的期间，你的力量豁免具有优势。当你在你的回合移动时，你可以令兽群也移动至多 30 尺到一处你可见的未被占据的空间中。</p><p>每当兽群移动到一名你可见的生物 10 尺内时、一名你可见的生物进入位于兽群 10 尺内的空间或是在该空间结束其回合时，你都可以迫使该生物进行一次[[/save dex dc=@attributes.spell.dc]]{敏捷豁免}。失败则该生物受到 3d10 的挥砍伤害。一名生物一回合只需要进行一次该豁免。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 3 环高一环，法术造成的伤害就增加 1d10。</p><p class=\"item-original\">Conjure Animals</p>",
+      "chat": ""
+    },
+    "identifier": "conjure-animals",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 3,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194981522,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "TJdYum4ykwhcLIwi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!TJdYum4ykwhcLIwi"
+}

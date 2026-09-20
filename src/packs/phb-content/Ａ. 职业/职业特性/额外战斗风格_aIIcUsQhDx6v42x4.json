@@ -1,0 +1,87 @@
+{
+  "name": "额外战斗风格",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_fighting-style.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得另一个自选的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn.JournalEntryPage.sbHImaCB8ZMEHYkb]{战斗风格专长}。</p><p class=\"item-original\">Additional Fighting Style</p>",
+      "chat": ""
+    },
+    "identifier": "additional-fighting-style",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "勇士",
+    "advancement": [
+      {
+        "_id": "wQudv5AoWfRgUwox",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "7": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "fightingStyle",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "额外战斗风格",
+        "hint": "你获得另一个自选的战斗风格专长。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_fighting-style.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777570859254,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "aIIcUsQhDx6v42x4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!aIIcUsQhDx6v42x4"
+}

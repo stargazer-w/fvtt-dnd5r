@@ -1,0 +1,81 @@
+{
+  "folder": "5NVf38k4DKrbTt1b",
+  "name": "反侦护符",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_amulet-of-proof-against-detection-and-location.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通（需同调）</em></p><p>佩戴此护符期间，除非你允许，否则你不能成为预言法术的目标，也无法被魔法传感器察觉。</p><p class=\"item-original\">Amulet of Proof against Detection and Location</p>",
+      "chat": ""
+    },
+    "identifier": "amulet-of-proof-against-detection-and-location",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758162211539,
+    "modifiedTime": 1758199211473,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "8FvtsZPOJ24yQRas",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!8FvtsZPOJ24yQRas"
+}

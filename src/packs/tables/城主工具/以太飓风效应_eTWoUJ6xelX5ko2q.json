@@ -1,0 +1,108 @@
+{
+  "name": "以太飓风效应",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.bvIO05FoYfu0ljoy#以太飓风]{以太飓风}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        12
+      ],
+      "drawn": false,
+      "_id": "WU584RqQaai1Rcau",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "旅途延宕。同行的每名角色均需进行一次[[/save cha 15 format=long]]，若至少半数成功，则旅行时间延长[[/r 1d10]]小时；否则，行程时间加倍。",
+      "name": "",
+      "_key": "!tables.results!eTWoUJ6xelX5ko2q.WU584RqQaai1Rcau"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        18
+      ],
+      "drawn": false,
+      "_id": "LOVUi222fIRFfcQx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "被风暴卷至与随机位面重叠的边界以太中（掷@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.bvIO05FoYfu0ljoy#深层以太]{以太帷幕表}以决定位面）",
+      "name": "",
+      "_key": "!tables.results!eTWoUJ6xelX5ko2q.LOVUi222fIRFfcQx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_id": "miKXE3rLVoQBpXb8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "被抛入@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.lNqkZFfXDs9S3sft]{星光位面}的随机地点",
+      "name": "",
+      "_key": "!tables.results!eTWoUJ6xelX5ko2q.miKXE3rLVoQBpXb8"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750316563030,
+    "modifiedTime": 1759902604546,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "_id": "eTWoUJ6xelX5ko2q",
+  "sort": 2700000,
+  "_key": "!tables!eTWoUJ6xelX5ko2q"
+}

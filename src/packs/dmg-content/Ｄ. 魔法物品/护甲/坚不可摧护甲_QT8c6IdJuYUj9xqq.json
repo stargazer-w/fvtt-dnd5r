@@ -1,0 +1,294 @@
+{
+  "folder": "6JMzhFrzTa0JCYLX",
+  "name": "坚不可摧护甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_armor-of-invulnerability.webp",
+  "system": {
+    "activities": {
+      "6dIugrGc8L5e3JNF": {
+        "type": "utility",
+        "_id": "6dIugrGc8L5e3JNF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "金属外壳"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "W6SbYfqArFrnyFJQ"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "金属外壳",
+        "img": "",
+        "appliedEffects": [
+          "W6SbYfqArFrnyFJQ"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>护甲（板甲），传说（需同调）</em></p><p>着装此护甲期间，你具有对钝击、穿刺和挥砍伤害的抗性。</p><p><em><strong>金属外壳。</strong></em>你能够以一个&amp;Reference[Magic]{魔法}动作令你具有对钝击、穿刺和挥砍伤害的免疫，持续 10 分钟或在你不再着装该此护甲时提前结束。该词条一经使用，直至次日黎明你都无法再次使用。</p><p class=\"item-original\">Armor of Invulnerability</p>",
+      "chat": ""
+    },
+    "identifier": "armor-of-invulnerability",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": "",
+      "name": "未鉴定的 装备"
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 65,
+      "units": "lb"
+    },
+    "price": {
+      "value": 201500,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "heavy",
+      "baseItem": "plate"
+    },
+    "armor": {
+      "value": 18,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc",
+      "stealthDisadvantage"
+    ],
+    "strength": 15,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "金属外壳",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.QT8c6IdJuYUj9xqq",
+      "transfer": false,
+      "_id": "W6SbYfqArFrnyFJQ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你具有对钝击、穿刺和挥砍伤害的免疫。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751721484234,
+        "modifiedTime": 1751721484234,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!QT8c6IdJuYUj9xqq.W6SbYfqArFrnyFJQ"
+    },
+    {
+      "name": "坚不可摧",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.QT8c6IdJuYUj9xqq",
+      "_id": "OpKtlK7QTvQV5JWI",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751721486025,
+        "modifiedTime": 1751721486025,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!QT8c6IdJuYUj9xqq.OpKtlK7QTvQV5JWI"
+    }
+  ],
+  "sort": 253516,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751643305115,
+    "modifiedTime": 1758199219084,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "QT8c6IdJuYUj9xqq",
+  "_key": "!items!QT8c6IdJuYUj9xqq"
+}

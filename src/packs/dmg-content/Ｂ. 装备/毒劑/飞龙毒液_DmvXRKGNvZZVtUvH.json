@@ -1,0 +1,321 @@
+{
+  "name": "飞龙毒液",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_poison_wyvern-poison.webp",
+  "system": {
+    "activities": {
+      "mpqeZa7PMa3hm9fA": {
+        "type": "enchant",
+        "_id": "mpqeZa7PMa3hm9fA",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": ""
+        },
+        "effects": [
+          {
+            "_id": "FUPwzBcPyW72UjXT",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "yR7jVSWe3JWAKIwt"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "淬毒",
+        "img": "",
+        "appliedEffects": [
+          "FUPwzBcPyW72UjXT"
+        ]
+      },
+      "yR7jVSWe3JWAKIwt": {
+        "type": "save",
+        "_id": "yR7jVSWe3JWAKIwt",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 7,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "poison"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "14"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>损伤型毒药</em></p><p>受这种毒药影响的生物需要进行一次[[/save format=long]]，豁免失败则受到[[/damage activity=yR7jVSWe3JWAKIwt average]]伤害，豁免成功则伤害减半。</p><p class=\"item-original\">Wyvern Poison</p>",
+      "chat": ""
+    },
+    "identifier": "wyvern-poison",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1200,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "poison",
+      "subtype": "injury"
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "飞龙毒液",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_poison_wyvern-poison.webp",
+      "disabled": true,
+      "_id": "FUPwzBcPyW72UjXT",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "淬毒 {}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "<p>淬毒（@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DmvXRKGNvZZVtUvH]）。</p>",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1750869605305,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!DmvXRKGNvZZVtUvH.FUPwzBcPyW72UjXT"
+    }
+  ],
+  "folder": "ij4cMCt0sdIqPsJX",
+  "sort": 171875,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "yR7jVSWe3JWAKIwt"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.uEwoh9m8fpybhDoG",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750869570119,
+    "modifiedTime": 1759939708843,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DmvXRKGNvZZVtUvH",
+  "_key": "!items!DmvXRKGNvZZVtUvH"
+}

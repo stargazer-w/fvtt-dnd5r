@@ -1,0 +1,102 @@
+{
+  "name": "健壮",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_tough.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>起源专长</em></p><p>获得该专长时，你的生命值上限增加你当前角色等级两倍的数值。并且在你随后每次升级时，生命值上限都会额外加 2。</p><p class=\"item-original\">Tough</p>",
+      "chat": ""
+    },
+    "identifier": "tough",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [
+    {
+      "name": "健壮",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_tough.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Q8jfAvTZMB0HUjgB",
+      "_id": "xZVvugPZMeSHjTDN",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.level",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736656982642,
+        "modifiedTime": 1736656992314,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Q8jfAvTZMB0HUjgB.xZVvugPZMeSHjTDN"
+    }
+  ],
+  "folder": "WJNm1OA66HhmUxle",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731046918875,
+    "modifiedTime": 1758194977829,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Q8jfAvTZMB0HUjgB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Q8jfAvTZMB0HUjgB"
+}

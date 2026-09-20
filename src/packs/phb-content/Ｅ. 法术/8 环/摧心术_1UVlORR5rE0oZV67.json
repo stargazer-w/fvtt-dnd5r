@@ -1,0 +1,221 @@
+{
+  "name": "摧心术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_befuddlement.webp",
+  "system": {
+    "activities": {
+      "CwOxnfLh7iDRExtn": {
+        "type": "save",
+        "name": "施法",
+        "_id": "CwOxnfLh7iDRExtn",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "BQ1Z624Od21tnHlR",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 10,
+              "denomination": 12,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将一个施法距离内你可见的生物的心灵爆破。该目标必须进行一次[[/save]]{智力豁免}。</p><p>若豁免失败，目标受到 10d12 心灵伤害，并且无法施展法术也无法执行&amp;Reference[Magic]{魔法}动作。受术生物每过 30 日即可在当日结束时重复进行该豁免，豁免成功则此法术效应终止。此效应也可以被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kcI6qUFXpNjSLth5]{医疗术}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>法术终止。</p><p>若豁免成功，则目标只会受到一半伤害。</p><p class=\"item-original\">Befuddlement</p>",
+      "chat": ""
+    },
+    "identifier": "befuddlement",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 8,
+    "materials": {
+      "value": "一把没有钥匙的钥匙圈",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "150"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "摧残内心",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_befuddlement.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.1UVlORR5rE0oZV67",
+      "transfer": false,
+      "_id": "BQ1Z624Od21tnHlR",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你无法施展法术，也无法执行&amp;Reference[Magic]{魔法}动作。</p><p>你每过 30 日可以在当日结束时重复进行一次[[/save int dc=@attributes.spell.dc]]{智力豁免}，豁免成功则此法术效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733469374699,
+        "modifiedTime": 1734845695773,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1UVlORR5rE0oZV67.BQ1Z624Od21tnHlR"
+    }
+  ],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758529478696,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1UVlORR5rE0oZV67",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1UVlORR5rE0oZV67"
+}

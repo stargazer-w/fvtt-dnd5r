@@ -1,0 +1,993 @@
+{
+  "_id": "dmgCh3ArtHandout",
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Chase Conclusion",
+      "type": "image",
+      "_id": "eg86UdgKv22Vs4bA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一场扣人心弦的追逐接近尾声。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/chase-nears-conclusion.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728412926396,
+        "modifiedTime": 1750211737962,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.eg86UdgKv22Vs4bA"
+    },
+    {
+      "sort": 200000,
+      "name": "Ill-Advised Theft",
+      "type": "image",
+      "_id": "vEk4xgNeKbVXQfxy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一次不明智的尝试——试图偷走珊娜萨的宠物金鱼「斯莱嘉」，引发了一场激烈的追逐战。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/stealing-xanathars-goldfish-background.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728413062014,
+        "modifiedTime": 1750211984750,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.vEk4xgNeKbVXQfxy"
+    },
+    {
+      "sort": 300000,
+      "name": "Ship Battle",
+      "type": "image",
+      "_id": "qaDdDXIJ6iBD1daN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "你可以调整「水手」背景，以体现角色在灰鹰海域度过的年轻时光。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ships-in-battle.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728413131243,
+        "modifiedTime": 1750212158329,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.qaDdDXIJ6iBD1daN"
+    },
+    {
+      "sort": 400000,
+      "name": "Creating a Creature",
+      "type": "image",
+      "_id": "55Cc9Noqn9aMwozu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "芭芭雅嘎创造了一种新生物——一只会喷火的巨蟾蜍。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/baba-yaga-invents-fire-breathing-giant-toad.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728413206905,
+        "modifiedTime": 1750212237148,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.55Cc9Noqn9aMwozu"
+    },
+    {
+      "sort": 500000,
+      "name": "Creating a Spell",
+      "type": "image",
+      "_id": "C9NyBWQF6xjaR0FQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Ringlerun 的法术研究走向了意想不到的方向，他无意中创造出了一个会飞的小型凝胶方块。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ringlerun-researching-spells.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728414265102,
+        "modifiedTime": 1750212458120,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.C9NyBWQF6xjaR0FQ"
+    },
+    {
+      "sort": 600000,
+      "name": "Possessed Knight",
+      "type": "image",
+      "_id": "QjhSngIlMcWA4fg1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "恶魔附身的诅咒带来灾难性的影响。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/curse-of-demonic-possession.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728414420708,
+        "modifiedTime": 1750212527716,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.QjhSngIlMcWA4fg1"
+    },
+    {
+      "sort": 700000,
+      "name": "Trip with Death",
+      "type": "image",
+      "_id": "i7OFInJO9QVQk4XU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "有时候，死亡——甚至整个队伍的死亡——只是前往新冒险的一个旅程。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/death-is-a-passage-to-new-adventure.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728415216641,
+        "modifiedTime": 1750212676358,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.i7OFInJO9QVQk4XU"
+    },
+    {
+      "sort": 800000,
+      "name": "Giant Dungeon",
+      "type": "image",
+      "_id": "ej2xLVxTa00sJOmI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "由巨人建造的地城带来宏大的冒险体验。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/giant-dungeon.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728415415076,
+        "modifiedTime": 1750212706591,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.ej2xLVxTa00sJOmI"
+    },
+    {
+      "sort": 900000,
+      "name": "Storm-Tossed Ship",
+      "type": "image",
+      "_id": "wLbdSe59r8VgaXtP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一条友善的青铜龙警惕地守护着一艘在风暴中颠簸的船只。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/friendly-bronze-dragon-monitors-ship.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728415564071,
+        "modifiedTime": 1750212784665,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.wLbdSe59r8VgaXtP"
+    },
+    {
+      "sort": 1000000,
+      "name": "Fight, flight, or Freeze?",
+      "type": "image",
+      "_id": "jDyN6MD8C9oUVMec",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/fight-flight-or-freeze.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728415724853,
+        "modifiedTime": 1728415746269,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.jDyN6MD8C9oUVMec"
+    },
+    {
+      "sort": 1100000,
+      "name": "Firearms and Explosives",
+      "type": "image",
+      "_id": "EOYZn4EPinOPCEZo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "面对巨魔时，已经没有时间去琢磨如何正确持握霰弹枪了。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/fighter-with-shotgun.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728415801980,
+        "modifiedTime": 1750212847184,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.EOYZn4EPinOPCEZo"
+    },
+    {
+      "sort": 1200000,
+      "name": "Hazards",
+      "type": "image",
+      "_id": "iAmi29F475SC503b",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "希拉发现绿色粘液比看上去更加危险。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/green-slime-burns-sheila.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728416445199,
+        "modifiedTime": 1750212953885,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.iAmi29F475SC503b"
+    },
+    {
+      "sort": 1300000,
+      "name": "Webs",
+      "type": "image",
+      "_id": "v3zPmE7Vu2eU3fBK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一旦陷入蛛网，最好趁蜘蛛出现之前脱身。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/caught-in-a-web.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728416533921,
+        "modifiedTime": 1750212982540,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.v3zPmE7Vu2eU3fBK"
+    },
+    {
+      "sort": 1400000,
+      "name": "Medals",
+      "type": "image",
+      "_id": "Ue0tuQdx29lqXOhj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "塞勒涅的女王悠兰德感谢冒险者们的帮助。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/queen-yolande-awards-adventurers.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728416661094,
+        "modifiedTime": 1750213064404,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.Ue0tuQdx29lqXOhj"
+    },
+    {
+      "sort": 1500000,
+      "name": "NPCs",
+      "type": "image",
+      "_id": "3XAZBM9XAM5KoykR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "NPC 们形形色色，各有千秋。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/nonplayer-characters-shapes-sizes.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728417616693,
+        "modifiedTime": 1750213199263,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.3XAZBM9XAM5KoykR"
+    },
+    {
+      "sort": 1600000,
+      "name": "NPC Appearance",
+      "type": "image",
+      "_id": "IvD2dqQPC3dzc5g4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/character-looks-down-with-swords-in-hand.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728417947585,
+        "modifiedTime": 1728417959152,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.IvD2dqQPC3dzc5g4"
+    },
+    {
+      "sort": 1700000,
+      "name": "NPC Party Members",
+      "type": "image",
+      "_id": "RB11e9ZjD7A7Qei6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "作为另一支英雄团队的成员，Niko 最初作为 NPC 治疗者加入了希拉、戴安娜、埃里克和普雷斯托的队伍。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/npc-healer.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728418718645,
+        "modifiedTime": 1750213622635,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.RB11e9ZjD7A7Qei6"
+    },
+    {
+      "sort": 1800000,
+      "name": "Apply Poison",
+      "type": "image",
+      "_id": "x0x0RaDcQ23ImM1v",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "Zarak 给他的匕首涂上了毒药。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/zarak-applies-poison-to-dagger.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728418832724,
+        "modifiedTime": 1750213648890,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.x0x0RaDcQ23ImM1v"
+    },
+    {
+      "sort": 1900000,
+      "name": "Settlements",
+      "type": "image",
+      "_id": "kG86NvM0WOoqCROh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "城市生活充满了奇幻的惊喜！"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/fantastical-city-surprises.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728419625191,
+        "modifiedTime": 1750213668791,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.kG86NvM0WOoqCROh"
+    },
+    {
+      "sort": 2000000,
+      "name": "Keg Launcher",
+      "type": "image",
+      "_id": "XzjhjjRH4s5R8Vpt",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "毒桶抛掷器"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/keg-launcher.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728420810853,
+        "modifiedTime": 1750240168325,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.XzjhjjRH4s5R8Vpt"
+    },
+    {
+      "sort": 2100000,
+      "name": "Mangonel",
+      "type": "image",
+      "_id": "gpoij0cfWNBeplpU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "弹射投石机"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/mangonel.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728420855282,
+        "modifiedTime": 1750240180405,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.gpoij0cfWNBeplpU"
+    },
+    {
+      "sort": 2200000,
+      "name": "Supernatural Gifts",
+      "type": "image",
+      "_id": "973CU7FWLIYZJBqy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "像独角兽这样的魔法生物可能会降下超自然赠礼。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/unicorn-bestows-gift.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728421827223,
+        "modifiedTime": 1750213706306,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.973CU7FWLIYZJBqy"
+    },
+    {
+      "sort": 2300000,
+      "name": "Traps",
+      "type": "image",
+      "_id": "nLql1Vn3Gt7BUWuj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "鲍比和汉克险些被毒镖雨击中！"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bobby-hank-avoid-pusillade-poisoned-darts.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728422495333,
+        "modifiedTime": 1751197995969,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.nLql1Vn3Gt7BUWuj"
+    },
+    {
+      "sort": 0,
+      "name": "Chapter Start",
+      "type": "image",
+      "_id": "q2MqGFoMbLg7KNPy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一团湮灭之球袭击了艾伯伦世界中的高塔之城，沙恩。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ch-3-opener-blob-annihilation-eberron.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728501512432,
+        "modifiedTime": 1750211635035,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh3ArtHandout.q2MqGFoMbLg7KNPy"
+    }
+  ],
+  "folder": "D1QAn4ewY8x7EzoB",
+  "flags": {
+    "dnd5e": {
+      "append": 3,
+      "type": "special"
+    },
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776546477272,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgCh3ArtHandout"
+}

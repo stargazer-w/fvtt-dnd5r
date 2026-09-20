@@ -1,0 +1,206 @@
+{
+  "name": "恐惧术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_fear.webp",
+  "system": {
+    "activities": {
+      "5LeRJd5Cx5B6z1Qe": {
+        "type": "save",
+        "name": "施法",
+        "_id": "5LeRJd5Cx5B6z1Qe",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "6yIUdctDEOpW7cLF",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>30 尺锥状区域内的所有生物必须成功于一次[[/save]]{感知豁免}，豁免失败者将丢弃其所有持握物，并在法术持续时间内陷入&amp;Reference[frightened]{恐慌}状态。</p><p>以此法被恐慌的生物必须在其回合内执行&amp;Reference[Dash]{疾走}动作，并以此寻找最安全的路线远离你，直至其无路可走为止。如果该生物结束其回合时位于施法者视线之外的空间，则其可以再进行一次[[/save]]{感知豁免}，豁免成功则法术对该生物的效应终止。</p><p class=\"item-original\">Fear</p>",
+      "chat": ""
+    },
+    "identifier": "fear",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "一根白羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "ill",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cone",
+        "size": "30",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "骇人幻象",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_fear.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.gGgw5MhpAJKrtWFw",
+      "transfer": false,
+      "_id": "6yIUdctDEOpW7cLF",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内陷入&amp;Reference[frightened]{恐慌}状态。</p><p>你必须在你的回合内执行&amp;Reference[Dash]{疾走}动作，寻找最安全的路线远离施法者，直至无路可走为止。</p><p>如果你结束回合时位于施法者视线之外的空间，你可以再次进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。若豁免成功，法术效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732533404428,
+        "modifiedTime": 1734771427564,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!gGgw5MhpAJKrtWFw.6yIUdctDEOpW7cLF"
+    }
+  ],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535311691,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gGgw5MhpAJKrtWFw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gGgw5MhpAJKrtWFw"
+}

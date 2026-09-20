@@ -1,0 +1,153 @@
+{
+  "name": "昼明术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_daylight.webp",
+  "system": {
+    "activities": {
+      "Unt9P8u4TNbfIsH4": {
+        "type": "utility",
+        "_id": "Unt9P8u4TNbfIsH4",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>法术持续时间内，日光从施法距离内一点发散而出，填满一个 60 尺球状区域。日光区域视为&amp;Reference[Bright Light]{明亮光照}，且会再额外散发出 60 尺&amp;Reference[Dim Light]{微光光照}。</p><p>或者，你可以将此法术施展于一个未被着装或携带的物件上，使日光充斥以该物件为中心的 60 尺光环区域。将该物件用不透明的东西遮掩（比如用碗或头盔盖住）时，会将日光隔绝。</p><p>如果法术区域与任何 3 环或更低环阶法术创造的黑暗区域重叠，则这些造暗的法术将被解除。</p><p class=\"item-original\">Daylight</p>",
+      "chat": ""
+    },
+    "identifier": "daylight",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "sphere",
+        "size": "60",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195021765,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "u7IL5qlkhzAxCMFB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!u7IL5qlkhzAxCMFB"
+}

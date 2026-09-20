@@ -1,0 +1,63 @@
+{
+  "name": "放大镜",
+  "system": {
+    "description": {
+      "value": "<p>使用放大镜时，你为鉴定或检查精密物品所作的任何属性检定都会具有优势。想要使用放大镜点火，需要一束如同阳光般明亮的强光用于聚焦，还需要用于点燃的火绒，随后需要大约 5 分钟的时间来生火。</p><p class=\"item-original\">Magnifying Glass</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "magnifying-glass"
+  },
+  "type": "loot",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_magnifying-glass.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194993532,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "bwZrFum6gsPDs5p9",
+  "sort": 4200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!bwZrFum6gsPDs5p9"
+}

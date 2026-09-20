@@ -1,0 +1,180 @@
+{
+  "name": "咒唤妖精",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_conjure-fey.webp",
+  "system": {
+    "activities": {
+      "RGrFmT4G2Ex2yoA7": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "RGrFmT4G2Ex2yoA7",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "@mod + (2 * (@item.level - 6))d12",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "KZ9Z09yIsxVEv8JJ",
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.VR2OqbjRiAvtHhMX",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将来自妖精荒野的中型精魂咒唤在施法距离内一处你可见的未占据空间中。精魂在持续时间内一直存在，其外貌看起来像是一名你选择的妖精生物。当精魂显现时，你可以对位于精魂 5 尺内的一名生物进行一次近战法术攻击。命中则目标受到等于 3d12 + 你施法属性调整值总和的心灵伤害，并且直到你的下个回合开始为止，目标处于&amp;Reference[frightened]{恐慌}状态，你和精魂均是目标的恐惧源。</p><p>在后续的你的回合中，以一个&amp;Reference[Bonus Action]{附赠动作}，你可以将精魂传送至一处位于其原位置 30 尺内的你可见的未占据空间，并对位于精魂 5 尺内的一名生物进行上述攻击。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 6 环高一环，法术造成的伤害就增加 2d12。</p><p class=\"item-original\">Conjure Fey</p>",
+      "chat": ""
+    },
+    "identifier": "conjure-fey",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 6,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195021916,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "uB1tgawIqhw9RU5t",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!uB1tgawIqhw9RU5t"
+}

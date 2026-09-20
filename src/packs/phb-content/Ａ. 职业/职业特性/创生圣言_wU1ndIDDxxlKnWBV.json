@@ -1,0 +1,91 @@
+{
+  "name": "创生圣言",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_bard_words-of-creation.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你掌握了创生圣言的其中两字：“生”与“死”。因此，你总是准备了法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pOdOfRQFgdO6uSBA]{律令医疗}</em>和法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wGoB7uO7cFOnKJUQ]{律令死亡}</em>。当你施展这两道法术时，你可以选择第二个生物作为目标，那名生物必须位于第一个目标 10 尺内。</p><p class=\"item-original\">Words of Creation</p>",
+      "chat": ""
+    },
+    "identifier": "words-of-creation",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "吟游诗人",
+    "advancement": [
+      {
+        "_id": "XmxiWmkDZnlNm8yw",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.pOdOfRQFgdO6uSBA"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wGoB7uO7cFOnKJUQ"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 20,
+        "title": "创生圣言",
+        "hint": "你总是准备了法术律令医疗和法术律令死亡。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_bard_words-of-creation.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777196207294,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "wU1ndIDDxxlKnWBV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wU1ndIDDxxlKnWBV"
+}

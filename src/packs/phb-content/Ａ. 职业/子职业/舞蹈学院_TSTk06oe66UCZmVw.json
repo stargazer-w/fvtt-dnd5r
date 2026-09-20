@@ -1,0 +1,112 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "舞蹈学院",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/bard_dance.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>舞步节律谐宇宙</p></blockquote><p>舞蹈学院的吟游诗人们明白，创生圣言并非包含在演讲或歌唱之中——而是运动，圣言自星辰变幻中发出，在芥虫轻蠕中流淌。舞蹈学院的诗人们练习与旋转的宇宙谐频共振的手段，一种强调灵巧、速度又不失优雅的舞步。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.PPMt7mHlvqyFQ1mw]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TSTk06oe66UCZmVw]{College of Dance}</p>",
+      "chat": ""
+    },
+    "identifier": "dance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.8npBQQWXsmDh4x9P",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.hgDhXsT31YCx90uM"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1grI047H90ULRn3J"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "rxcFWotzbSa3NZVA"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ecHBuaz7oKr9UvYv"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "6vtNjwtMjtXopuiW"
+      }
+    ],
+    "classIdentifier": "bard",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777120361417,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "TSTk06oe66UCZmVw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!TSTk06oe66UCZmVw"
+}

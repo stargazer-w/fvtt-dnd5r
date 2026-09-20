@@ -1,0 +1,131 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "时械术法",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/sorcerer_clockwork.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>引导寰宇的秩序之力</p></blockquote><p>一股源自宇宙本身的秩序力量，从机械境或其他与之类似的钟表般高效的存在位面之中产生，并扩散到你的灵魂之中，使你充满了魔力。你或你宗族中的某个人也许已经卷入到魔冢这种居住在机械境的秩序生命的谋划之中。又或许，你的先祖甚至参与过魔冢长征。无论是何种起源，秩序的力量也许对旁人来说有些奇怪，但于你而言，它是一个宏伟而璀璨的系统的一部分。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.Uk7haOmnUX48CBuY]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyTAIhAl0z0JnHzD]{Clockwork Sorcery}</p>",
+      "chat": ""
+    },
+    "identifier": "clockwork",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.nZ2GyQNjwDnM054G",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.HglryWfQ0ndMJlsy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.qlUE5TzkWVIXYy0i",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "H5v2zhzmFzxApmkC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wTkF95v5LOdDYjNV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "9ZyYsY2shbhIf3IO"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fcMALb2RQ1fNCjc7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "nLBldnrEuYbY3foL"
+      }
+    ],
+    "classIdentifier": "sorcerer",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777579586368,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "UyTAIhAl0z0JnHzD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!UyTAIhAl0z0JnHzD"
+}

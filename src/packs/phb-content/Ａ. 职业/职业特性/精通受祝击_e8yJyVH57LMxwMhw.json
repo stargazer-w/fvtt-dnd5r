@@ -1,0 +1,57 @@
+{
+  "name": "精通受祝击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_improved-blessed-strike.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你所选择的受祝击变得更加强大。</p><p><em><strong>神圣打击。</strong></em>神圣打击的额外伤害提升至 2d8。</p><p><em><strong>强力施法。</strong></em>当你施展一道牧师戏法并用它对一个生物造成伤害时，你可以为你自己或你 60 尺内的另一个生物注入活力，使其获得等同于你感知调整值两倍的临时生命值。</p><p class=\"item-original\">Improved Blessed Strike</p>",
+      "chat": ""
+    },
+    "identifier": "improved-blessed-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "牧师"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194996274,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "e8yJyVH57LMxwMhw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!e8yJyVH57LMxwMhw"
+}

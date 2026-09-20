@@ -1,0 +1,255 @@
+{
+  "name": "缓慢术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_slow.webp",
+  "system": {
+    "activities": {
+      "KPX8rixuYZV6s95v": {
+        "type": "save",
+        "name": "施法",
+        "_id": "KPX8rixuYZV6s95v",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "gCRFMbqFHePGxrjv",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在施法距离内一处 40 尺立方区域内指定至多六个生物并扭曲其周围的时间流。每个目标都要进行一次[[/save]]{感知豁免}，豁免失败则受到该法术影响直至法术终止。</p><p>被影响的生物的速度减半，而其 AC 和敏捷豁免都具有 −2 减值，且不能执行反应。该生物在其回合内可以执行一个动作或一个附赠动作，但不能在一回合内同时执行以上两者。当它执行&amp;Reference[Attack]{攻击}动作时，它只能发动一次攻击。</p><p>如果该生物尝试施展一个具有姿势成分的法术，有[[/r 1d100cs&lt;=25]]{25%}的可能法术会因为生物的动作太慢而施展失败。</p><p>受术生物在每个其自己回合结束时可以再进行一次该[[/save]]{感知豁免}，豁免成功则终止其身上的该法术效应。</p><p class=\"item-original\">Slow</p>",
+      "chat": ""
+    },
+    "identifier": "slow",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "一滴糖浆",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cube",
+        "size": "40",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "迟缓",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_slow.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.3X7rLuY8NbIxfYzw",
+      "transfer": false,
+      "_id": "gCRFMbqFHePGxrjv",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "- 2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.dex.bonuses.save",
+          "mode": 2,
+          "value": "- 2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>在法术持续期间，你的速度减半，你的 AC 和敏捷豁免都会受到 −2 减值，并且你无法执行反应。</p><p>在每个回合内，你只能执行一个动作或一个附赠动作，而不能同时执行两者。当你执行攻击动作时，你只能发动一次攻击。</p><p>如果你尝试施展一个具有姿势成分的法术，有[[/r 1d100cs&lt;=25 #缓慢术 - 缓慢施法]]{25%}的可能性因为你的动作太慢而施展失败。</p><p>在每个你的回合结束时，你可以再次进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。如果豁免成功，该法术效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732503549834,
+        "modifiedTime": 1751727055073,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!3X7rLuY8NbIxfYzw.gCRFMbqFHePGxrjv"
+    }
+  ],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758530013490,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "3X7rLuY8NbIxfYzw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3X7rLuY8NbIxfYzw"
+}

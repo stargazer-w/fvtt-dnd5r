@@ -1,0 +1,144 @@
+{
+  "name": "激励之源",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_bard_font-of-inspiration.webp",
+  "system": {
+    "activities": {
+      "HOtzns6i1dfAg5Mf": {
+        "type": "utility",
+        "name": "恢复充能",
+        "_id": "HOtzns6i1dfAg5Mf",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            },
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.SRDiUtG6eGYM7DFd",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复充能"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>现在，当你完成一次短休或长休时，你重获所有被消耗的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SRDiUtG6eGYM7DFd]{诗人激励}使用次数。</p><p>此外，你可以消耗一个法术位（无需动作）来重获一次被消耗的诗人激励使用次数。</p><p class=\"item-original\">Font of Inspiration</p><section class=\"dc7-note\"><p>你需要手动更新<strong>诗人激励</strong>特性的短休充能条件。</p></section>",
+      "chat": ""
+    },
+    "identifier": "font-of-inspiration",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "吟游诗人"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758303901391,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zTRq86XL1cyy73tI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zTRq86XL1cyy73tI"
+}

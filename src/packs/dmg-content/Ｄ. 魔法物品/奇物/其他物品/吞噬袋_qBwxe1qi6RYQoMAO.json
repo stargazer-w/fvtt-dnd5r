@@ -1,0 +1,78 @@
+{
+  "name": "吞噬袋",
+  "type": "container",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_bag-of-devouring.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>奇物，极珍稀</em></p><p>这个类似于<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MtNdbAgGmGsr9opW]{次元袋}</em>的袋子实际上是某个巨大异次元生物的进食口。将袋子内外翻转就可以关闭进食口的通道。</p><p>与这个袋子关联的异次元生物可以感知到任何放入袋中的东西。完整放入袋中的动物或植物将被吞噬而永久消失。活物的一部分被放入袋中时（例如有人把手伸入袋子里时），该生物有 50% 概率被拖入袋中。进入袋中的生物能够以一个动作进行一次[[/skill ath 15 format=long]]以从中逃脱。另一个生物能够以一个动作进行一次[[/skill ath 20 format=long]]来将被吞噬的生物拉出来，前提是该生物自己没被拖入袋中。任何在袋中开始其自己回合的生物都将被吞噬，其躯体被摧毁。</p><p>无生命物件可以存放在袋子里，袋子至多可容纳 1 立方尺的东西。然而，每日一次，袋子将会吞下其内部的所有物件并将其吐到另一存在位面。具体何时以及哪个位面由 DM 决定。</p><p>袋子被戳破或撕裂时即被摧毁。其内的所有东西都将被传送到星界位面的随机地点。</p><p class=\"item-original\">Bag of Devouring</p>",
+      "chat": ""
+    },
+    "identifier": "bag-of-devouring",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "capacity": {
+      "count": null,
+      "volume": {
+        "value": 1,
+        "units": "cubicFoot"
+      },
+      "weight": {
+        "value": null,
+        "units": "lb"
+      }
+    },
+    "properties": []
+  },
+  "effects": [],
+  "folder": "Rpy4irTRAink9Ehk",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895695988,
+    "modifiedTime": 1761896712918,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "qBwxe1qi6RYQoMAO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!qBwxe1qi6RYQoMAO"
+}

@@ -1,0 +1,527 @@
+{
+  "folder": "5NVf38k4DKrbTt1b",
+  "name": "念珠项链",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_necklace-of-prayer-beads.webp",
+  "system": {
+    "activities": {
+      "ivUZQ5Dlb3INvqeM": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.t1RUq0PQkeJfELIr",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "ivUZQ5Dlb3INvqeM",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "祝福之珠"
+      },
+      "eL8xzOI54xbpZyyD": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "疗愈之珠",
+        "_id": "eL8xzOI54xbpZyyD"
+      },
+      "xOL1vQhNyAu0FY9q": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "恩赐之珠",
+        "_id": "xOL1vQhNyAu0FY9q"
+      },
+      "Vx6xEKvdMfFtRUmz": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.f187OkBEDVNXfbl9",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "打击之珠",
+        "_id": "Vx6xEKvdMfFtRUmz"
+      },
+      "a9spfu3Jnrz7X4sC": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.obmayLLfJmrI3Jil",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "召唤之珠",
+        "_id": "a9spfu3Jnrz7X4sC"
+      },
+      "5ReTG2ORCEUYLpXa": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Hc6jJ1Py61aAJt7v",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "name": "风行之珠",
+        "_id": "5ReTG2ORCEUYLpXa"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（需牧师，德鲁伊或圣武士同调）</em></p><p>这条项链挂着[[/r 1d4 + 2]]颗由海蓝宝石、黑珍珠或黄玉制成的魔法念珠。项链上同样串有许多由琥珀、血石、黄水晶、珊瑚石、玉石、珍珠或石英石制成的非魔法性的念珠。魔法念珠从项链中取下时将失去其魔法。</p><p>项链的每颗魔法念珠都可能是六种念珠之一，由 DM 决定或在下表中随机掷骰以确定每颗念珠的种类。一条项链可以拥有多颗同种类的念珠。要使用念珠，你必须佩戴着这条项链。每颗念珠容纳着一道法术，你能够以一个&amp;Reference[Bonus Action]{附赠动作}从中施展它所容纳的法术（需要豁免的法术使用你的法术豁免 DC）。一颗魔法念珠中的法术一经施展，那颗念珠直至次日黎明前都无法再次被使用。</p><table><thead><tr><th>[[/r 1d20]]</th><th>念珠</th><th>法术</th></tr></thead><tbody><tr><td>1–6</td><td>祝福之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.t1RUq0PQkeJfELIr]{祝福术}</em></td></tr><tr><td>7–12</td><td>疗愈之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em></td></tr><tr><td>13–16</td><td>恩赐之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em></td></tr><tr><td>17–18</td><td>打击之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.f187OkBEDVNXfbl9]{闪耀斩}</em></td></tr><tr><td>19</td><td>召唤之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.obmayLLfJmrI3Jil]{信仰守卫}</em></td></tr><tr><td>20</td><td>风行之珠</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Hc6jJ1Py61aAJt7v]{御风而行}</em></td></tr></tbody></table><p class=\"item-original\">Necklace of Prayer Beads</p>",
+      "chat": ""
+    },
+    "identifier": "necklace-of-prayer-beads",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758163471359,
+    "modifiedTime": 1758199212340,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AJro6EBI3YkjcAY3",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!AJro6EBI3YkjcAY3"
+}

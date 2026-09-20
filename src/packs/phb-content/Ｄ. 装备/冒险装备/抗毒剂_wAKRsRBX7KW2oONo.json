@@ -1,0 +1,219 @@
+{
+  "name": "抗毒剂",
+  "system": {
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以喝下一小瓶抗毒剂来使你在避免或结束中毒状态的豁免中具有优势，持续 1 小时。</p><p class=\"item-original\">Antitoxin</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "source": {
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "autoDestroy": true,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "2TNbDh0n59svuGIx": {
+        "type": "utility",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "1",
+          "units": "hour",
+          "special": "",
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "HmlmXe8ubWjUZ40t"
+          },
+          {
+            "_id": "xI7cXbEy8hFcnzNL"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "self",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "_id": "2TNbDh0n59svuGIx",
+        "name": ""
+      }
+    },
+    "identifier": "antitoxin"
+  },
+  "type": "consumable",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_potion_antitoxin.webp",
+  "effects": [
+    {
+      "name": "毒性抵抗",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_potion_antitoxin.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.wAKRsRBX7KW2oONo",
+      "transfer": false,
+      "_id": "xI7cXbEy8hFcnzNL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在避免或结束中毒状态的豁免中具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1729967576789,
+        "modifiedTime": 1736419933102,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wAKRsRBX7KW2oONo.xI7cXbEy8hFcnzNL"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758195024611,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wAKRsRBX7KW2oONo",
+  "sort": 6100000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wAKRsRBX7KW2oONo"
+}

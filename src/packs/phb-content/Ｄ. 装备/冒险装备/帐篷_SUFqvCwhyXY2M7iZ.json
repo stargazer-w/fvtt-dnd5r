@@ -1,0 +1,63 @@
+{
+  "name": "帐篷",
+  "system": {
+    "description": {
+      "value": "<p>帐篷可以睡下两个小型或中型的生物。</p><p class=\"item-original\">Tent</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 20,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "tent"
+  },
+  "type": "loot",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_tent.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194980879,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "SUFqvCwhyXY2M7iZ",
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!SUFqvCwhyXY2M7iZ"
+}

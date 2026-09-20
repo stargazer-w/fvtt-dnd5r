@@ -1,0 +1,161 @@
+{
+  "name": "夸尔羽符（锚）",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_quaals-feather-token_anchor.webp",
+  "system": {
+    "activities": {
+      "t2pvbeetrjVeB5lF": {
+        "type": "utility",
+        "_id": "t2pvbeetrjVeB5lF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这枚物件看上去像一根羽毛。</p><p>你可以执行&amp;Reference[Magic]{魔法}动作来用羽符触碰一艘小艇或船只。接下来的 24 小时内，该船不会被任何方式移动。效应结束时，羽符也随之消失。</p><p class=\"item-original\">Anchor, Quaal's Feather Token</p>",
+      "chat": ""
+    },
+    "identifier": "anchor-quaals-feather-token",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": "NwK5LZZdjyriq8mp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.Lopm2gEZsZ6NURDW",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895777287,
+    "modifiedTime": 1761895873742,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "85nhJjZgRHwfN0zs",
+  "_key": "!items!85nhJjZgRHwfN0zs"
+}

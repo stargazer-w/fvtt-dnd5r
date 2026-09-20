@@ -1,0 +1,215 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "读心水晶球",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_crystal-ball-of-mind-reading.webp",
+  "system": {
+    "activities": {
+      "dK0P7dY7Qjsdgsh5": {
+        "type": "cast",
+        "_id": "dK0P7dY7Qjsdgsh5",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.0NnW4SYqrBBHYE8G",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "C1BPXPHx4BgLo8Q6": {
+        "type": "cast",
+        "_id": "C1BPXPHx4BgLo8Q6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": true,
+          "value": "1"
+        },
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": "",
+          "value": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 2,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.bpr4JyUSSArHjFtV",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，传说（需同调）</em></p><p>在你接触该水晶球期间，你可以用它施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0NnW4SYqrBBHYE8G]{探知术}</em>（豁免 DC 17）。此外，你可以对该法术传感器周围 30 尺之内你可见的生物施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bpr4JyUSSArHjFtV]{侦测思想}</em>（豁免 DC 17）。该<em>侦测思想</em>法术持续期间你无需为其保持专注，但如果<em>探知术</em>法术终止，则它也将随之终止。</p><p class=\"item-original\">Crystal Ball of Mind Reading</p>",
+      "chat": ""
+    },
+    "identifier": "crystal-ball-of-mind-reading",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895685521,
+    "modifiedTime": 1761895877132,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "j8k7GKBTP5YGUiUp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!j8k7GKBTP5YGUiUp"
+}

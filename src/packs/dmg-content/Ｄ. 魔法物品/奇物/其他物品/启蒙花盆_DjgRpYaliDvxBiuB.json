@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "启蒙花盆",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_pot-of-awakening.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>你可以在这个 10 磅重的黏土花盆里种植一株普通灌木，待其生长 30 天后，这株灌木会魔法性的转化为一株<strong>启蒙灌木</strong>。当灌木被启蒙时，它的根系会打碎花盆，并导致花盆被摧毁。</p><p>这株启蒙灌木会对你友好并服从你的命令。如果没有你的命令，它会什么也不做。</p><p class=\"item-original\">Pot of Awakening</p>",
+      "chat": ""
+    },
+    "identifier": "pot-of-awakening",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760606616395,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DjgRpYaliDvxBiuB",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!DjgRpYaliDvxBiuB"
+}

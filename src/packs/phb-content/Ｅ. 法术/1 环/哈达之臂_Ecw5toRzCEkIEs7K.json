@@ -1,0 +1,226 @@
+{
+  "name": "哈达之臂",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_arms-of-hadar.webp",
+  "system": {
+    "activities": {
+      "S2zsAkRyfMEzQETt": {
+        "type": "save",
+        "_id": "S2zsAkRyfMEzQETt",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "J9Soef62OdjRl1mU",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你祈唤哈达的力量，让触须从你身上蔓延而出。以你为源点的 10 尺光环范围内，每个生物都必须进行一次[[/save]]{力量豁免}。失败的情况下，该生物将受到 2d6 点暗蚀伤害，并其直到下一回合前都无法执行反应。豁免成功的生物只受到半数伤害。</p><p><em><strong>升环施法。</strong></em>使用高于 1 环的法术位施展该法术时，你使用的法术位每比 1 环高一环，法术的伤害就增加 1d6。</p><p class=\"item-original\">Arms of Hadar</p>",
+      "chat": ""
+    },
+    "identifier": "arms-of-hadar",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "10",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "封锁",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_arms-of-hadar.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Ecw5toRzCEkIEs7K",
+      "transfer": false,
+      "_id": "J9Soef62OdjRl1mU",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你无法执行反应，直至你的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732386661856,
+        "modifiedTime": 1734851286287,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Ecw5toRzCEkIEs7K.J9Soef62OdjRl1mU"
+    }
+  ],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534235897,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Ecw5toRzCEkIEs7K",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Ecw5toRzCEkIEs7K"
+}

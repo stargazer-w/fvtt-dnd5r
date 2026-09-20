@@ -1,0 +1,223 @@
+{
+  "name": "纠缠术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_entangle.webp",
+  "system": {
+    "activities": {
+      "Sz5VgmZE4Zkz9uM0": {
+        "type": "save",
+        "name": "施法",
+        "_id": "Sz5VgmZE4Zkz9uM0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "khDgeEp9Os6kNhRb",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>缠绕的植物在施法距离内从 20 尺方状区域地面中破土而出。在法术持续时间内，这片被植物覆盖的区域变为&amp;Reference[Difficult Terrain]{困难地形}。法术结束时，这些植物会消失。</p><p>在你施展法术时，该区域内的生物（除你之外）必须成功于一次[[/save]]{力量豁免}，否则陷入&amp;Reference[restrained]{束缚}状态，直到法术终止。一名因此被束缚的生物可以用其动作进行一次[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}对抗该法术的豁免 DC。检定成功则成功摆脱缠绕在其身上的藤蔓并不再被其束缚。</p><p class=\"item-original\">Entangle</p>",
+      "chat": ""
+    },
+    "identifier": "entangle",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "square",
+        "size": "20",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "缠绕",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_entangle.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.bVc4ORJ6m43jC6PC",
+      "transfer": false,
+      "_id": "khDgeEp9Os6kNhRb",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>直到法术终止，你陷入&amp;Reference[restrained]{束缚}状态。</p><p>你可以在自己的回合中用一个动作，进行一次[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}，对抗施法者的法术豁免 DC。如果检定成功，你将摆脱藤蔓的束缚，并结束这一状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732388124022,
+        "modifiedTime": 1759776131964,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bVc4ORJ6m43jC6PC.khDgeEp9Os6kNhRb"
+    }
+  ],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535457431,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "bVc4ORJ6m43jC6PC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!bVc4ORJ6m43jC6PC"
+}

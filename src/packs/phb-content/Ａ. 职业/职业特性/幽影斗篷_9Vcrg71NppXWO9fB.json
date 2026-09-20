@@ -1,0 +1,176 @@
+{
+  "name": "幽影斗篷",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_shadow_cloak-of-shadows.webp",
+  "system": {
+    "activities": {
+      "GPs0FgYALt4XkxyG": {
+        "type": "utility",
+        "_id": "GPs0FgYALt4XkxyG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "uyxzYz8HfgQGs1cq"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你完全身处微光光照或黑暗环境下时，你能够以一个&amp;Reference[Magic]{魔法}动作消耗 3 点功力来让你周围环绕幽影，持续 1 分钟，或直到你陷入失能状态，或直到你在明亮光照中结束回合。当周身环绕幽影时，你获得以下好处。</p><p><em><strong>隐形。</strong></em>你获得&amp;Reference[invisible]{隐形}状态。</p><p><em><strong>局部虚化。</strong></em>你可以如同通过&amp;Reference[Difficult Terrain]{困难地形}一般通过被占据的空间。如果你回合结束时仍然处于被占据的空间之中，则会被排出到之前最近一个未被占据的空间。</p><p><em><strong>幽影连击。</strong></em>你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KaqqaeWjS5jBHmDl]{疾风连击}时不再需要消耗功力。</p><p class=\"item-original\">Cloak of Shadows</p>",
+      "chat": ""
+    },
+    "identifier": "cloak-of-shadows",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "暗影武者"
+  },
+  "effects": [
+    {
+      "name": "幽影斗篷",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_shadow_cloak-of-shadows.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.9Vcrg71NppXWO9fB",
+      "transfer": false,
+      "_id": "uyxzYz8HfgQGs1cq",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你周身环绕幽影，获得以下增益。</p><p><em><strong>隐形。</strong></em>你获得&amp;Reference[invisible]{隐形}状态。</p><p><em><strong>局部虚化。</strong></em>你可以如同通过困难地形一般通过被占据的空间。如果你回合结束时仍然处于被占据的空间之中，则会被排出到之前最近一个未被占据的空间。</p><p><em><strong>幽影连击。</strong></em>你使用疾风连击时不再需要消耗功力。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734270434938,
+        "modifiedTime": 1735461066582,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!9Vcrg71NppXWO9fB.uyxzYz8HfgQGs1cq"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758730094271,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "9Vcrg71NppXWO9fB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!9Vcrg71NppXWO9fB"
+}

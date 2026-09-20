@@ -1,0 +1,162 @@
+{
+  "name": "夸尔羽符（扇）",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_quaals-feather-token_fan.webp",
+  "system": {
+    "activities": {
+      "uFmzwJCM9WxoitPp": {
+        "type": "utility",
+        "_id": "uFmzwJCM9WxoitPp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "8"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这枚物件看上去像一根羽毛。</p><p>如果你在小艇或船只上，你可以执行&amp;Reference[Magic]{魔法}动作将羽符抛至 10 尺高的空中。羽符将消失，一把巨大的扇子取而代之。这把扇子会漂浮并制造一股强风。强风会吹满帆船的风帆，使其速度增加 5 里/小时，持续 8 小时。你可以执行魔法动作将扇子遣散。</p><p class=\"item-original\">Fan, Quaal's Feather Token</p>",
+      "chat": ""
+    },
+    "identifier": "fan-quaals-feather-token",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": "NwK5LZZdjyriq8mp",
+  "sort": 250000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.Lopm2gEZsZ6NURDW",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895777287,
+    "modifiedTime": 1761895879018,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "vtTMGqHtxZVZsEaw",
+  "_key": "!items!vtTMGqHtxZVZsEaw"
+}

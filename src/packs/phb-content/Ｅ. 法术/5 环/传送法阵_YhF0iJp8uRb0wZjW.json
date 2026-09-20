@@ -1,0 +1,89 @@
+{
+  "name": "传送法阵",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_teleportation-circle.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>施展该法术时，你在地上画出一个半径 5 尺的圆圈，并在其周围画出印记。这个圆形法阵将你所处的位置与你选择的一个与你处在同个位面上的永久传送法阵相连（你必须知道该法阵的印记序列）。圆圈中将打开一个发光的传送门，并一直维持到你的下一回合结束。任何进入传送门的生物将立即出现在目标法阵附近 5 尺内，如果该空间已被占据，则出现在最靠近目标法阵的未占空间。</p><p>许多大神殿、公会大厅和其他重要的场所都在其中某处设有永久的传送法阵。这种法阵各有自己的印记序列，即按特定顺序排列的一串魔法符文。</p><p>你第一次获得施展该法术的能力时，你会习得物质位面上两个永久法阵的印记序列（由 DM 决定），随后你还可以在旅途中习得更多的印记序列。你只要花一分钟仔细研究一个新的印记序列就能够将其记录下来。</p><p>当你在 365 日中每日对同一地点连续施展该法术后，将创造出一个永久的传送法阵。</p><p class=\"item-original\">Teleportation Circle</p>",
+      "chat": ""
+    },
+    "identifier": "teleportation-circle",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "round",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "价值至少 50 GP 的珍稀墨水，作为该法术的耗材",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "10"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194989783,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "YhF0iJp8uRb0wZjW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!YhF0iJp8uRb0wZjW"
+}

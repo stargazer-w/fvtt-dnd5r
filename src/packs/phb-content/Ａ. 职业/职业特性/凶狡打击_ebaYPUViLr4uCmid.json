@@ -1,0 +1,549 @@
+{
+  "name": "凶狡打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_devious-strike.webp",
+  "system": {
+    "activities": {
+      "xaa1q9pYARAN0zia": {
+        "type": "enchant",
+        "_id": "xaa1q9pYARAN0zia",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "W45DtlcDZq7jFOeV",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "SdcYeDcB8VpxR0BZ",
+                "rTEpQJtIs1FW0dUj",
+                "8vjUMb60oXNNE10H"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "W45DtlcDZq7jFOeV"
+        ]
+      },
+      "SdcYeDcB8VpxR0BZ": {
+        "type": "save",
+        "name": "恍惚",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.goFbTSGOTuKGLbSk\" data-tooltip=\"item\">恍惚 (2d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pDRMAFAyOYrcAeev",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        },
+        "_id": "SdcYeDcB8VpxR0BZ",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_daze.webp",
+        "appliedEffects": [
+          "pDRMAFAyOYrcAeev"
+        ]
+      },
+      "rTEpQJtIs1FW0dUj": {
+        "type": "save",
+        "name": "击昏",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.GjzGfDEjRNh5k15D\" data-tooltip=\"item\">击昏 (6d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "0BuYtmje3MizrX2v",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        },
+        "_id": "rTEpQJtIs1FW0dUj",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_knock-out.webp",
+        "appliedEffects": [
+          "0BuYtmje3MizrX2v"
+        ]
+      },
+      "8vjUMb60oXNNE10H": {
+        "type": "save",
+        "name": "眩目",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.kZyBHKwShR4iz66A\" data-tooltip=\"item\">眩目 (3d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "xiup6gQh3PJIoh3E",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        },
+        "_id": "8vjUMb60oXNNE10H",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_obscure.webp",
+        "appliedEffects": [
+          "xiup6gQh3PJIoh3E"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你习得了新的偷袭方法，使你的偷袭变得更为凶狠卑劣。下列效果现在加入你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO]{诡诈打击}选项。</p><p><em><strong>[[/item 诡诈打击 activity=恍惚]]{恍惚 (花费：2d6)。}</strong></em>目标必须通过一个成功的[[/save activity=SdcYeDcB8VpxR0BZ]]{体质豁免}，否则该目标的下一回合只能选择下列行为中的一项：移动、执行一个动作或执行一个附赠动作。</p><p><em><strong>[[/item 诡诈打击 activity=击昏]]{击昏 (花费：6d6)。}</strong></em>目标必须通过一个成功的[[/save activity=rTEpQJtIs1FW0dUj]]{体质豁免}，否则将陷入&amp;Reference[unconscious]{昏迷}状态，持续 1 分钟或受到任何伤害。昏迷的目标每在自己的回合结束时都可以重新进行豁免，若通过，则状态结束。</p><p><em><strong>[[/item 诡诈打击 activity=眩目]]{眩目 (花费：3d6)。}</strong></em>你对目标的眼睛发动袭击。目标必须通过一个成功的[[/save activity=8vjUMb60oXNNE10H]]{敏捷豁免}，否则将陷入&amp;Reference[blinded]{目盲}状态，直到它的下一回合结束。</p><p class=\"item-original\">Devious Strike</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>诡诈打击</strong>特性以追加可选项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "devious-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游荡者"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "凶狡打击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_devious-strike.webp",
+      "disabled": false,
+      "_id": "W45DtlcDZq7jFOeV",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid inline]",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735965154978,
+        "modifiedTime": 1735965429299,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ebaYPUViLr4uCmid.W45DtlcDZq7jFOeV"
+    },
+    {
+      "name": "恍惚",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_dazed.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid",
+      "transfer": false,
+      "_id": "pDRMAFAyOYrcAeev",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>在你的回合中，你只能选择以下行为中的一项：移动、执行一个动作或执行一个附赠动作。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1735998358529,
+        "modifiedTime": 1759948137361,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ebaYPUViLr4uCmid.pDRMAFAyOYrcAeev"
+    },
+    {
+      "name": "击昏",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_knock-out.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid",
+      "transfer": false,
+      "_id": "0BuYtmje3MizrX2v",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内陷入&amp;Reference[unconscious]{昏迷}状态。</p><p>你受到任意伤害时，该状态提前结束。</p><p>每个你的回合结束时，你可以重新进行一次[[/save con dc=8+@abilities.dex.mod+@prof]]{体质豁免}，成功则你身上的该状态提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "unconscious"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735998682334,
+        "modifiedTime": 1735998868654,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ebaYPUViLr4uCmid.0BuYtmje3MizrX2v"
+    },
+    {
+      "name": "眩目",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_obscure.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid",
+      "transfer": false,
+      "_id": "xiup6gQh3PJIoh3E",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[blinded]{目盲}状态，直至你的下回合结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735998957232,
+        "modifiedTime": 1735999022933,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ebaYPUViLr4uCmid.xiup6gQh3PJIoh3E"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "SdcYeDcB8VpxR0BZ",
+          "rTEpQJtIs1FW0dUj",
+          "8vjUMb60oXNNE10H"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1759735347297,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ebaYPUViLr4uCmid",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ebaYPUViLr4uCmid"
+}

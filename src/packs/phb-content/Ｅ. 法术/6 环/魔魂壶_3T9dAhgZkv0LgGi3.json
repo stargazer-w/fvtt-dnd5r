@@ -1,0 +1,143 @@
+{
+  "name": "魔魂壶",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_magic-jar.webp",
+  "system": {
+    "activities": {
+      "UP6vDM2BlNrAfGhy": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "UP6vDM2BlNrAfGhy",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的灵魂离开身体进入作为法术材料成分的容器中，而你的身体则陷入失神的状况。灵魂处于容器中时，你可以如同身处容器所在位置一样察觉周边。你不能移动，也不能使用反应，而此时你唯一能做的动作就是将你的灵魂投射出容器至多 100 尺的距离，或者回到你仍活着的身体中去（并终止该法术），或者尝试占据另一个类人生物的身体。</p><p>你可以尝试附身于任何距你 100 尺内你能看见的类人生物（受法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2tRnB4Wd3ZniDg7R]{防护善恶}</em>或<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.v7wDE7G4S5tpde17]{防护法阵}</em>所保护的生物无法被附身）。该目标必须进行一次[[/save cha dc=@attributes.spell.dc]]{魅力豁免}。豁免失败，则你的灵魂进入目标的身体，而目标的灵魂被困在容器中；豁免成功，则目标抵抗了你的附身，而随后的 24 小时内你将无法再次尝试附身该生物。</p><p>附身成功后，目标生物的身体将由你控制。你的生命值、生命骰、力量、敏捷、体质、速度和感官替换为目标生物的数据，此外将保留你的游戏数据。</p><p>附身期间，被附身生物的灵魂可以用它自己的感官从容器内部观察外部，但它不能移动且陷入&amp;Reference[incapacitated]{失能}状态。</p><p>附身于一具躯体时，如果容器处在你身边 100 尺内，则你可以用一个&amp;Reference[Magic]{魔法}动作从宿主的身体回到容器中，并让宿主的灵魂回到它自己的身体里。在你处于宿主的身体中时，如果宿主的身体死亡，则宿主生物死亡，且你必须进行一次对抗该法术豁免 DC 的[[/save cha dc=@attributes.spell.dc]]{魅力豁免}。豁免成功且容器距你不超过 100 尺时，你回归容器内。否则你也随之死亡。</p><p>如果容器被毁或者法术终止，则你的灵魂会立即回到你自己身体里。如果你在尝试回到自己身体时，身体距你超过 100 尺或者你的身体已死，则你也随之死亡。如果容器被毁时另一生物的灵魂在容器内，且该生物的身体仍然活着并距它不超过 100 尺，则其灵魂会回到身体里。否则该生物死亡。</p><p>该法术终止时，其容器将随之被摧毁。</p><p class=\"item-original\">Magic Jar</p>",
+      "chat": ""
+    },
+    "identifier": "magic-jar",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "disp"
+    },
+    "level": 6,
+    "materials": {
+      "value": "一块宝石或水晶，或者一个圣物匣，其价值不能低于 500 GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758529538667,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "3T9dAhgZkv0LgGi3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3T9dAhgZkv0LgGi3"
+}

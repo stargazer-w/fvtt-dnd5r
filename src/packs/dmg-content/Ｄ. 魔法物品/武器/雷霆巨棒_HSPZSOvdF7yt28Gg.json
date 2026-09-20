@@ -1,0 +1,354 @@
+{
+  "name": "雷霆巨棒",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_thunderous-greatclub.webp",
+  "system": {
+    "activities": {
+      "9y46PfsZN5hqKTAu": {
+        "_id": "9y46PfsZN5hqKTAu",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "thunder"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": ""
+      },
+      "nhiRq45cTxY39DNX": {
+        "type": "save",
+        "name": "雷霆霹雳",
+        "_id": "nhiRq45cTxY39DNX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "雷霆霹雳"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cone",
+            "size": "30"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        }
+      },
+      "8YyJKTFaqDi7oRRb": {
+        "type": "save",
+        "_id": "8YyJKTFaqDi7oRRb",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "地震"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "50"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        },
+        "name": "地震"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BeRQw38CpK15Q7rn]{巨棒}）, 极珍稀（需同调）</em></p><p>当你与这把魔法武器同调后，你的力量变为 20，除非你的力量已经大于或等于此值。这把武器会对其命中的任何生物造成额外 1d8 雷鸣伤害，也会对其命中的未被穿着或携带的物件造成额外 3d8 雷鸣伤害。</p><p>这把武器具有以下额外词条。</p><p><em><strong>雷霆霹雳。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你可以使用这把武器击打一处坚硬表面，制造出在 300 尺内都能听见的雷鸣般巨响。并且，你制造出一个 30 尺锥状的雷霆能量区域。锥状区域内的每个生物都必须成功通过一次[[/save activity=nhiRq45cTxY39DNX format=long]]，豁免失败则其陷入&amp;Reference[prone]{倒地}状态。锥状区域内未被穿着或携带的非魔法物件会受到[[/damage 3d8 thunder]]伤害。</p><p><em><strong>地震。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你可以使用这把武器敲击地面，在以敲击点为中心，半径 50 尺的范围内引起一阵强烈的地震扰动。该区域内与地面接触的建筑物会受到[[/damage 50 bludgeoning]]伤害，并且该区域地面上的每个生物都必须成功通过一次[[/save activity=8YyJKTFaqDi7oRRb format=long]]，豁免失败则其陷入&amp;Reference[prone]{倒地}状态。若该生物同时正在维持专注，则其必须成功通过一次[[/save con 20 format=long]]，豁免失败则其专注被打断。此外，你可以在该区域内任意一处的地面上打开一道 30 尺深，10 尺宽的裂缝。任何位于裂缝开口位置的生物都必须进行一次[[/save activity=8YyJKTFaqDi7oRRb format=long]]，豁免失败则其落入裂缝中，豁免成功则其会随着裂缝边缘移动。任何位于裂缝开口位置的建筑物都会坍塌落入裂缝中。这项词条一经使用，则其直至次日黎明前都无法再次使用。</p><p class=\"item-original\">Thunderous Greatclub</p>",
+      "chat": ""
+    },
+    "identifier": "thunderous-greatclub",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "simpleM",
+      "baseItem": "greatclub"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc",
+      "two"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "push"
+  },
+  "effects": [],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758727258515,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "HSPZSOvdF7yt28Gg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!HSPZSOvdF7yt28Gg"
+}

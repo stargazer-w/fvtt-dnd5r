@@ -1,0 +1,102 @@
+{
+  "name": "使用魔法装置",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_thief_use-magic-device.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在你的寻宝历险生涯中，你学会了如何最大化利用魔法装置。你获得以下好处。</p><p><em><strong>同调。</strong></em>你可以一次性同调最多四件魔法物品。</p><p><em><strong>充能。</strong></em>每当你使用一个魔法物品的消耗充能的特性时，投一个[[/r d6]]，如果结果为 6，本次使用不消耗充能。</p><p><em><strong>卷轴。</strong></em>你可以使用任何法术卷轴，并以智力作为你施展那个法术的施法关键属性。你可以稳定使用戏法或是 1 环的法术卷轴。如果这个法术卷轴记载了更高等级的法术，你必须通过一次成功的[[/skill arc format=long]]（DC 为 10 + 该法术的等级）。检定成功时，你能够使用卷轴施展该法术。如果失败，卷轴化为尘埃。</p><p class=\"item-original\">Use Magic Device</p>",
+      "chat": ""
+    },
+    "identifier": "use-magic-device",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "盗贼"
+  },
+  "effects": [
+    {
+      "name": "同调",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_thief_use-magic-device.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.R1CZWSZvrZicNxKt",
+      "_id": "IEcZzWJexHQLn3oG",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.attunement.max",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736003010777,
+        "modifiedTime": 1736003026943,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!R1CZWSZvrZicNxKt.IEcZzWJexHQLn3oG"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758461861492,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "R1CZWSZvrZicNxKt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!R1CZWSZvrZicNxKt"
+}

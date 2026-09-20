@@ -1,0 +1,237 @@
+{
+  "folder": "9Z81qGbxJwvn6642",
+  "name": "速度之靴",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_boots-of-speed.webp",
+  "system": {
+    "activities": {
+      "A4f6MoD105znVxuH": {
+        "type": "utility",
+        "_id": "A4f6MoD105znVxuH",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "0MKVfuiNQcFQzlad"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（需同调）</em></p><p>着装这双靴子期间，你可以使用一个&amp;Reference[Bonus Action]{附赠动作}来互击脚后跟。若如此做，你的移动速度将加倍，且任何生物对你发动借机攻击时都具有劣势。若再次互击脚后跟则该效应终止。</p><p>在你使用该靴子的词条共计 10 分钟后，其魔法效应将不再对你生效，直至你完成一次长休。</p><p class=\"item-original\">Boots of Speed</p>",
+      "chat": ""
+    },
+    "identifier": "boots-of-speed",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "倍速",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.PumUIqkSvxnWisTU",
+      "transfer": false,
+      "_id": "0MKVfuiNQcFQzlad",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的移动速度加倍，且任何生物对你发动借机攻击时都具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496802,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PumUIqkSvxnWisTU.0MKVfuiNQcFQzlad"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757302202802,
+    "modifiedTime": 1758199218756,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PumUIqkSvxnWisTU",
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!PumUIqkSvxnWisTU"
+}

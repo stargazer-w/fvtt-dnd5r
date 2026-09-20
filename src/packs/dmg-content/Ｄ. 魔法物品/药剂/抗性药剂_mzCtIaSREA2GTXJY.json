@@ -1,0 +1,95 @@
+{
+  "folder": "8tIzUokOaZP8ljOf",
+  "name": "抗性药剂",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_POTION_potion-of-resistance_radiant.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>药水，非普通</em></p><p>当你饮下这瓶药水时，你获得一种伤害类型的抗性，持续 1 小时。由 DM 选择伤害类型或通过投掷下列表格以此随机决定伤害类型。</p><table><thead><tr><th>[[/r 1d10]]</th><th>伤害类型</th></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.xHmuJWLX9HRHn5dW]{强酸}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MdflVV3iPWrPQ8vj]{寒冷}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.htSyhxH5IjWFrZwZ]{火焰}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.vR3j9MVcEvGSjfNx]{力场}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.pUAa5cS2HHYt0rLL]{闪电}</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.SaYSPHKm5qDPdOli]{暗蚀}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.tYnmmbHlwUm9Pw2G]{毒素}</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.osf8V11jAs9cg3uq]{心灵}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.HadS86Ico2fL65mX]{光耀}</td></tr><tr><td>10</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.O6m7t67FKlgW4Kht]{雷鸣}</td></tr></tbody></table><p class=\"item-original\">Potion of Resistance</p>",
+      "chat": ""
+    },
+    "identifier": "potion-of-resistance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.ylElmqDQJOE2P3dq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751731561611,
+    "modifiedTime": 1758199227156,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "mzCtIaSREA2GTXJY",
+  "_key": "!items!mzCtIaSREA2GTXJY"
+}

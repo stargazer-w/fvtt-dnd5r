@@ -1,0 +1,1094 @@
+{
+  "folder": "65Eabx2x7F9jlzM3",
+  "name": "邪魔灵魄（魔鬼）",
+  "type": "npc",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/fiendish-spirit-devil.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 15,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 60,
+        "swim": null,
+        "walk": 40,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "str",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 12,
+        "calc": "natural"
+      },
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 40,
+        "max": 40,
+        "temp": null,
+        "tempmax": null,
+        "formula": "40"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"statblock npc rules-2024\"><h4 class=\"statblock-title\">邪魔灵魄</h4><p><span class=\"statblock-tags\">大型邪魔，绝对中立</span></p><div class=\"statblock-header\"><div class=\"half-width\"><p><strong>AC</strong> 12 + 法术环阶<br /><strong>HP</strong> 50（仅恶魔）或 40（仅魔鬼）或 60（仅尤格罗斯魔）+ 每比 6 环高的法术环阶 15 点<br /><strong>速度</strong> 40 尺；攀爬 40 尺（仅恶魔）；飞行 60 尺（仅魔鬼）</p></div><div class=\"abilities\"><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">力量</th><td class=\"score\">13</td><td>+1</td><td>+1</td></tr><tr><th scope=\"row\">智力</th><td class=\"score\">10</td><td>+0</td><td>+0</td></tr></tbody></table><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">敏捷</th><td class=\"score\">16</td><td>+3</td><td>+3</td></tr><tr><th scope=\"row\">感知</th><td class=\"score\">10</td><td>+0</td><td>+0</td></tr></tbody></table><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">体质</th><td class=\"score\">15</td><td>+2</td><td>+2</td></tr><tr><th scope=\"row\">魅力</th><td class=\"score\">16</td><td>+3</td><td>+3</td></tr></tbody></table></div><div class=\"half-width\"><p><strong>抗性</strong> 火焰<strong><br />免疫</strong> 毒素；中毒<strong><br />感官</strong> 黑暗视觉 60 尺，被动察觉 10<br /><strong>语言</strong> 深渊语，炼狱语，心灵感应 60 尺<br /><strong>CR</strong> 无（XP 0；PB 等同于你的熟练加值）</p></div></div><h5 class=\"statblock-actions-title\">特质</h5><p><em><strong>焚身爆（仅恶魔）。</strong></em>当灵魄生命值降值 0 时，或是法术结束时，灵魄会爆炸。<em>[[/save dex]]{敏捷豁免}：</em>DC 等于你的法术豁免 DC，以灵魄为源点 10 尺光环区域内的每个生物。<em>失败：</em>2d10 + 法术环阶的火焰伤害。<em>成功：</em>半伤。</p><p><em><strong>魔鬼视界（仅魔鬼）。</strong></em>魔法黑暗不会阻碍灵魄的黑暗视觉。</p><p><em><strong>魔法抗性。</strong></em>灵魄为抵抗法术和其他魔法效应而作的豁免检定具有优势。</p><h5 class=\"statblock-actions-title\">动作</h5><p><em><strong>多重攻击。</strong></em>灵魄发动等于法术环阶一半次数的攻击（向下取整）。</p><p><em><strong>啃咬（仅恶魔）。</strong>近战攻击：</em>加值等于你的法术攻击加值，触及 5 尺。<em>命中：</em>1d12 + 3 + 法术环阶的暗蚀伤害。</p><p><em><strong>爪击（仅尤格罗斯魔）。</strong>近战攻击：</em>加值等于你的法术攻击加值，触及 5 尺。<em>命中：</em>1d8 + 3 + 法术环阶的挥砍伤害。</p><p>命中或失手后，灵魄可以立即魔法性地传送至多 30 尺至一处它可见且未被占据的空间。</p><p><em><strong>狂焰袭（仅魔鬼）。</strong>近战或远程攻击：</em>加值等于你的法术攻击加值，触及 5 尺或射程 150 尺。<em>命中：</em>2d6 + 3 + 法术环阶的火焰伤害。</p></div>",
+        "public": "<div><h4><em>Fiendish Spirit</em></h4></div>"
+      },
+      "alignment": "绝对中立",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "fiend",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": null,
+      "spellLevel": 0
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "bypasses": [],
+        "value": [
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [
+          "fire"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "abyssal",
+          "infernal"
+        ],
+        "custom": "心灵感应 60 尺"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "魔鬼",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/dnd5e-collection-2024/assets/tokens/fiendish-spirit-devil.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 60,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 3,
+      "subject": {
+        "scale": 1,
+        "texture": "modules/dnd5e-collection-2024/assets/subjects/fiendish-spirit-devil.webp"
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "魔鬼视界",
+      "type": "feat",
+      "_id": "WWEXa74FXWL55Boc",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_devils-sight.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>魔法黑暗不会阻碍灵魄的黑暗视觉。</p><p class=\"item-original\">Devil's Sight</p>",
+          "chat": ""
+        },
+        "identifier": "devils-sight",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114744,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!b9UWRK686fzotVxr.WWEXa74FXWL55Boc"
+    },
+    {
+      "name": "魔法抗性",
+      "type": "feat",
+      "_id": "tm11iMLxr9C2lXbw",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_magic-resistance.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>灵魄为抵抗法术和其他魔法效应而作的豁免检定具有优势。</p><p class=\"item-original\">Magical Resistance</p>",
+          "chat": ""
+        },
+        "identifier": "magical-resistance",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114757,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!b9UWRK686fzotVxr.tm11iMLxr9C2lXbw"
+    },
+    {
+      "name": "多重攻击",
+      "type": "feat",
+      "_id": "xG4tN8IdamgxXFfb",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_multiattack_fiend.webp",
+      "system": {
+        "activities": {
+          "mkJEJxEMZq6pFM5K": {
+            "type": "utility",
+            "_id": "mkJEJxEMZq6pFM5K",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>灵魄发动等于法术环阶一半次数的攻击（向下取整）。</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{攻击次数}</p><p class=\"item-original\">Multiattack</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114770,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!b9UWRK686fzotVxr.xG4tN8IdamgxXFfb"
+    },
+    {
+      "name": "狂焰袭",
+      "type": "feat",
+      "_id": "FOCF8EVSrXOFwcYB",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_fiery-strike.webp",
+      "system": {
+        "activities": {
+          "LdvijPBD1beA1u3C": {
+            "type": "attack",
+            "_id": "LdvijPBD1beA1u3C",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "value": "5",
+              "units": "ft",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "@mod",
+                  "types": [
+                    "fire"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "近战攻击"
+          },
+          "UJN8OOmmZl7ydM7P": {
+            "type": "attack",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "value": "150",
+              "units": "ft",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "@mod",
+                  "types": [
+                    "fire"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": "远程攻击",
+            "_id": "UJN8OOmmZl7ydM7P"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p><em>近战或远程攻击：</em>加值等于你的法术攻击加值，触及 5 尺或射程 150 尺。</p><p><em>命中：</em>2d6 + 3 + 法术环阶的火焰伤害。</p><p class=\"item-original\">Fiery Strike</p>",
+          "chat": ""
+        },
+        "identifier": "fiery-strike",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114782,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!b9UWRK686fzotVxr.FOCF8EVSrXOFwcYB"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1734030249943,
+    "modifiedTime": 1748782322421,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "compendiumSource": null,
+    "exportSource": null
+  },
+  "_id": "b9UWRK686fzotVxr",
+  "sort": 0,
+  "_key": "!actors!b9UWRK686fzotVxr"
+}

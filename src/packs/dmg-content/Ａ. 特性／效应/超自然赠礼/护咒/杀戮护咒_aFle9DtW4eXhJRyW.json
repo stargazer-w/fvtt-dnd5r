@@ -1,0 +1,61 @@
+{
+  "name": "杀戮护咒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_red.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>超自然赠礼（护咒）</em></p><p>你拥有的一把武器在随后的 9 日里变为一把<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.NjhVrQk33nmQOLJl]{屠龙者}</em>或<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.AzlWPXFONcnpZMZ7]{巨人屠杀者}</em>（由 DM 选择）。时效过后，该武器恢复原样而该护咒也随之从你身上消失。</p><p class=\"item-original\">Charm of the Slayer</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-the-slayer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [],
+  "folder": "SplJ9I45BYv7ekHJ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750520888975,
+    "modifiedTime": 1763000014769,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "aFle9DtW4eXhJRyW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!aFle9DtW4eXhJRyW"
+}

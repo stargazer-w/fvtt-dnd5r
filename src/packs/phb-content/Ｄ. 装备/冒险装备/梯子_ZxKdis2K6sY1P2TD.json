@@ -1,0 +1,63 @@
+{
+  "name": "梯子",
+  "system": {
+    "description": {
+      "value": "<p>一把梯子有 10 尺高。你只能在梯子上爬上或是爬下。</p><p class=\"item-original\">Ladder</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "sp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 25,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "ladder"
+  },
+  "type": "loot",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_ladder.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194991310,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ZxKdis2K6sY1P2TD",
+  "sort": 4000000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ZxKdis2K6sY1P2TD"
+}

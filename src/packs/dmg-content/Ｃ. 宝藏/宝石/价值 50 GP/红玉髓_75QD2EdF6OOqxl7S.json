@@ -1,0 +1,61 @@
+{
+  "name": "红玉髓",
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_carnelian.webp",
+  "system": {
+    "description": {
+      "value": "<p>从橘黄至红棕。</p><p class=\"item-original\">Carnelian</p>",
+      "chat": ""
+    },
+    "identifier": "carnelian",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gem",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "pnKgqzMHPjq1GpCY",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750768960231,
+    "modifiedTime": 1758199210910,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "75QD2EdF6OOqxl7S",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!75QD2EdF6OOqxl7S"
+}

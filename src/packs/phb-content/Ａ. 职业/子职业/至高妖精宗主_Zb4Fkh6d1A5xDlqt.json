@@ -1,0 +1,131 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "至高妖精宗主",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/warlock_archfey.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>与喜怒无常的妖精交易</p></blockquote><p>你的契约从妖精荒野，神秘的妖精国度处取得力量。当你选择此子职业时，你可能与某个强大的至高妖精签订了契约，比如霜冻亲王；薄暮王庭之主，空暗女王；仲夏王庭的泰坦尼亚；苍翠之王奥伯龙；愚者亲王希尔萨姆；你可能是与众多妖精们共处，结成一道好感与人情交织的复杂网络。你宗主的行为往往难以理解，有时甚至不可理喻，而其动机通常是关于寻求更强魔力，或是渴望报复老旧仇怨。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.dQHeGHmdwHIiODsr]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Zb4Fkh6d1A5xDlqt]{Archfey Patron}</p>",
+      "chat": ""
+    },
+    "identifier": "archfey",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.e1KzIZfuApTC4gk6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7vw9ADJEiKFYlbQO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Fhktlu2NTLHcMs0e",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "8nNoHtjcHl2GCD0O"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Alxmuzx0EyMKvTGT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "OEFNNcpoKdHdA8La"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.MLf8kZTNzb0VrUgi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "luutSoyj1Zxnwmgt"
+      }
+    ],
+    "classIdentifier": "warlock",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777581513021,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "Zb4Fkh6d1A5xDlqt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Zb4Fkh6d1A5xDlqt"
+}

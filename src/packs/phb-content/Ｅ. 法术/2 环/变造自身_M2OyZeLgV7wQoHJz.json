@@ -1,0 +1,861 @@
+{
+  "name": "变造自身",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_alter-self.webp",
+  "system": {
+    "activities": {
+      "Q2zNAGgATv9GNDZQ": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "Q2zNAGgATv9GNDZQ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "owSpYyIRt1HzZawE": {
+        "type": "utility",
+        "name": "水生适应",
+        "_id": "owSpYyIRt1HzZawE",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "MgveLb2SzdsIjvEV"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "MgveLb2SzdsIjvEV"
+        ]
+      },
+      "m3hed1Ur9UMqfdOj": {
+        "type": "utility",
+        "name": "改变外貌",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "gSRKhDVTR7gZMxlf"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "m3hed1Ur9UMqfdOj",
+        "img": "",
+        "appliedEffects": [
+          "gSRKhDVTR7gZMxlf"
+        ]
+      },
+      "NxcCCHyJfsYrzFw1": {
+        "type": "enchant",
+        "name": "天生武器",
+        "_id": "NxcCCHyJfsYrzFw1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "UOjVZauGXZmlo3e1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "2QVgTCRyY08LkX4R",
+                "74oeuhhMaf0QVbI9",
+                "b3CARh61kSVRrSxv",
+                "MzrQ30QWingiaePR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {},
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "UOjVZauGXZmlo3e1"
+        ]
+      },
+      "2QVgTCRyY08LkX4R": {
+        "type": "attack",
+        "name": "爪击 (挥砍)",
+        "_id": "2QVgTCRyY08LkX4R",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "爪击"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "spellcasting",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@mod",
+              "types": [
+                "slashing"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_claw.webp",
+        "appliedEffects": []
+      },
+      "74oeuhhMaf0QVbI9": {
+        "type": "attack",
+        "name": "撕咬 (穿刺)",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "撕咬"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "value": "5",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "spellcasting",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@mod",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_bite.webp",
+        "_id": "74oeuhhMaf0QVbI9",
+        "appliedEffects": []
+      },
+      "b3CARh61kSVRrSxv": {
+        "type": "attack",
+        "name": "顶撞 (穿刺)",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "顶撞"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "value": "5",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "spellcasting",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@mod",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_gore.webp",
+        "_id": "b3CARh61kSVRrSxv",
+        "appliedEffects": []
+      },
+      "MzrQ30QWingiaePR": {
+        "type": "attack",
+        "name": "践踏 (钝击)",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "践踏"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "value": "5",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "spellcasting",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@mod",
+              "types": [
+                "bludgeoning"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_hooves.webp",
+        "_id": "MzrQ30QWingiaePR",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你变换了自身形态。施法时，从以下选项中选择其一生效，其效应维持至其持续时间结束。在持续时间内，你还可以以一个&amp;Reference[Magic]{魔法}动作将效应切换为另一个不同的选项。</p><p><em><strong>水生适应。</strong></em>你长出鳃和蹼。你可以在水下呼吸，并且获得等同于步行速度的游泳速度。</p><p><em><strong>改变外貌。</strong></em>你改变了自己的外貌。你可以自行设定自己的外观：包括身高、体重、面部细节、声线、头发长短、肤色以及（可能具有的）独特外貌特征。你可以让自己的外观形似其他种族的一员而你的任何数据都不会变化。你无法变为一个体型不同的生物，并且你的基础身体轮廓不会变化。例如，如果你两足行动，就不能变为四足生物。你可以在持续时间内以一个&amp;Reference[Magic]{魔法}动作改变这些外貌细节。</p><p><em><strong>天生武器。</strong></em>你长出爪子（挥砍）、獠牙（穿刺）、犄角（穿刺）或蹄（钝击）。当你使用徒手打击以这些新长的器官造成伤害时，它会造成 1d6 对应类型伤害，而非你通常的徒手打击伤害，并且你使用你的施法关键属性调整值而非力量调整值来作为攻击和伤害的调整值。</p><p class=\"item-original\">Alter Self</p>",
+      "chat": ""
+    },
+    "identifier": "alter-self",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "水生适应",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_alter-self.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.M2OyZeLgV7wQoHJz",
+      "transfer": false,
+      "_id": "MgveLb2SzdsIjvEV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你长出鳃和蹼。你可以在水下呼吸，并且获得等同于步行速度的游泳速度。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732424602370,
+        "modifiedTime": 1734767246367,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!M2OyZeLgV7wQoHJz.MgveLb2SzdsIjvEV"
+    },
+    {
+      "name": "改变外貌",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_alter-self.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.M2OyZeLgV7wQoHJz",
+      "transfer": false,
+      "_id": "gSRKhDVTR7gZMxlf",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你改变了自己的外貌。你可以自行设定自己的外观：包括身高、体重、面部细节、声线、头发长短、肤色以及（可能具有的）独特外貌特征。你可以在持续时间内以一个&amp;Reference[Magic]{魔法}动作改变这些外貌细节。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732424627122,
+        "modifiedTime": 1734767330792,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!M2OyZeLgV7wQoHJz.gSRKhDVTR7gZMxlf"
+    },
+    {
+      "type": "enchantment",
+      "name": "天生武器",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_alter-self.webp",
+      "disabled": false,
+      "_id": "UOjVZauGXZmlo3e1",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "天生武器",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "<p><em><strong>天生武器。</strong></em>你长出爪子（挥砍）、獠牙（穿刺）、犄角（穿刺）或蹄（钝击）。当你使用徒手打击以这些新长的器官造成伤害时，它会造成 1d6 对应类型伤害，而非你通常的徒手打击伤害，并且你使用你的施法关键属性调整值而非力量调整值来作为攻击和伤害的调整值。</p> <p class=\"item-original\">Alter Self</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_claw.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732424717050,
+        "modifiedTime": 1759725227464,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!M2OyZeLgV7wQoHJz.UOjVZauGXZmlo3e1"
+    }
+  ],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "2QVgTCRyY08LkX4R",
+          "74oeuhhMaf0QVbI9",
+          "b3CARh61kSVRrSxv",
+          "MzrQ30QWingiaePR"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1759725190800,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "M2OyZeLgV7wQoHJz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!M2OyZeLgV7wQoHJz"
+}

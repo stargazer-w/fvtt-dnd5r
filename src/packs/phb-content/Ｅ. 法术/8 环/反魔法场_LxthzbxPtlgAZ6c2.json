@@ -1,0 +1,148 @@
+{
+  "name": "反魔法场",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_antimagic-field.webp",
+  "system": {
+    "activities": {
+      "X2G5Arv5cKIr3ern": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "X2G5Arv5cKIr3ern",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>一道反魔法灵光的 10 尺光环环绕着你。在灵光内部无法施展法术，使用&amp;Reference[Magic]{魔法}动作或创造魔法效应，并且这些也无法以灵光内的事物为目标或影响内部的事物。魔法物品的魔法属性在灵光内部不起作用，也无法影响在其内部的事物。</p><p>法术和其他魔法效应产生的区域影响无法波及灵光内部。传送无法进出其范围，位面旅行无法使用。当处于灵光内部时，传送门会暂时关闭。</p><p>除非其来自神器或神本身，否则持续的法术在区域内会被压制。压制的魔法效应不会生效，但其持续时间仍然如常计算。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>对灵光无效，不同来源的反魔法场之间也不会相互抵消。</p><p class=\"item-original\">Antimagic Field</p>",
+      "chat": ""
+    },
+    "identifier": "antimagic-field",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 8,
+    "materials": {
+      "value": "一撮铁粉或铁屑",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "10",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194971801,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "LxthzbxPtlgAZ6c2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LxthzbxPtlgAZ6c2"
+}

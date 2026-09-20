@@ -1,0 +1,258 @@
+{
+  "name": "自然守御",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-ward.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你免疫中毒，并且你具有和你目前在@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.I5aoNJ3PC6nEEUJs]{结社法术}特性中选择的土地相关的伤害类型的抗性，如自然守御表格所示。</p><table><caption>自然守御 Nature's Ward</caption><thead><tr><td>地形</td><td>抗性</td></tr></thead><tbody><tr><td>荒漠 Arid</td><td>火焰</td></tr><tr><td>极地 Polar</td><td>寒冷</td></tr><tr><td>温带 Temperate</td><td>闪电</td></tr><tr><td>热带 Tropical</td><td>毒素</td></tr></tbody></table><p class=\"item-original\">Nature's Ward</p>",
+      "chat": ""
+    },
+    "identifier": "natures-ward",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "大地结社"
+  },
+  "effects": [
+    {
+      "name": "荒漠守御",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-ward.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS",
+      "_id": "8LJfDUzJGK8oOOdx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734176441383,
+        "modifiedTime": 1735457709521,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!NTEe9lKrwodqh2QS.8LJfDUzJGK8oOOdx"
+    },
+    {
+      "name": "极地守御",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-ward.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734176546810,
+        "modifiedTime": 1735457716502,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "gHJiocNmxiosil4c",
+      "_key": "!items.effects!NTEe9lKrwodqh2QS.gHJiocNmxiosil4c"
+    },
+    {
+      "name": "温带守御",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-ward.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734176644901,
+        "modifiedTime": 1735457722789,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "fPYiYhQrH0PEVoXw",
+      "_key": "!items.effects!NTEe9lKrwodqh2QS.fPYiYhQrH0PEVoXw"
+    },
+    {
+      "name": "热带守御",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-ward.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "poisoned",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734176667642,
+        "modifiedTime": 1735457719265,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "daw0yvQY3j9HgepV",
+      "_key": "!items.effects!NTEe9lKrwodqh2QS.daw0yvQY3j9HgepV"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194973817,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "NTEe9lKrwodqh2QS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!NTEe9lKrwodqh2QS"
+}

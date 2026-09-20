@@ -1,0 +1,195 @@
+{
+  "name": "诡术领域法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与此神圣领域的链接使你总是准备了特定的法术。当你达到诡术领域法术表中特定的牧师等级时，你总会将表中对应的法术加入准备。</p><table class=\"left-three\"><caption>诡术领域法术 Trickery Domain Spells</caption><thead><tr><td>牧师等级</td><td>准备法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1lhrJ04UQGNmZNfn]{魅惑人类}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.A4J9qL2CsCXpdbfT]{易容术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK]{隐形术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7cFinqIAXTK3hEiZ]{行动无踪}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FALa6Xs8gzCEF7fN]{催眠图纹}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YfQEvlmrTzNhyyR0]{回避侦测}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OuF5hUCX8HS3pms1]{困惑术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TCj9jgRFD7GWln6v]{任意门}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mgCuGXIkY8BWmLeh]{支配类人}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.A2BwTrn1LSIRXKiB]{篡改记忆}</em></td></tr></tbody></table><p class=\"item-original\">Trickery Domain Spells</p>",
+      "chat": ""
+    },
+    "identifier": "trickery-domain-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "诡术领域",
+    "advancement": [
+      {
+        "_id": "krvwQa2cJ72GFEDl",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1lhrJ04UQGNmZNfn"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.A4J9qL2CsCXpdbfT"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7cFinqIAXTK3hEiZ"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "诡术领域法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.FALa6Xs8gzCEF7fN"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.YfQEvlmrTzNhyyR0"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "诡术领域法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "VlXr06axaZvS2Y61"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.OuF5hUCX8HS3pms1"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.TCj9jgRFD7GWln6v"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "诡术领域法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "FggMV8WEQjQLA2b3"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.mgCuGXIkY8BWmLeh"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.A2BwTrn1LSIRXKiB"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "诡术领域法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "0Rd5NbGDdFkbs8wY"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777639556626,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "YUfQScgcByThnyK0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!YUfQScgcByThnyK0"
+}

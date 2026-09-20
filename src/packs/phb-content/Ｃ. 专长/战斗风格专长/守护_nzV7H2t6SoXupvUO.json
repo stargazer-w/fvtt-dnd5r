@@ -1,0 +1,129 @@
+{
+  "name": "守护",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_fightingStyle_protection.webp",
+  "system": {
+    "activities": {
+      "QfNHZDbuzGRaEifR": {
+        "type": "utility",
+        "_id": "QfNHZDbuzGRaEifR",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>战斗风格专长（先决：战斗风格特性）</em></p><p>当一个你能看见的生物攻击了一个位于你 5 尺内的除你以外的生物，如果你正持用着一面盾牌，你可以执行一个&amp;Reference[Reaction]{反应}，将你的盾牌挡在其面前。你对触发了这一行动的攻击检定施加劣势，并且只要你还处于守护的目标 5 尺内，此后对该目标进行的所有其他攻击检定都将具有劣势，直到你的下一回合开始为止。</p><p class=\"item-original\">Protection</p>",
+      "chat": ""
+    },
+    "identifier": "protection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "pTYWyQMNZJCX8U8j",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049483016,
+    "modifiedTime": 1775979013972,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "nzV7H2t6SoXupvUO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!nzV7H2t6SoXupvUO"
+}

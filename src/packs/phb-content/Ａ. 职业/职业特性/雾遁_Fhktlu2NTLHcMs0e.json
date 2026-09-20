@@ -1,0 +1,339 @@
+{
+  "name": "雾遁",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_archfey_misty-escape.webp",
+  "system": {
+    "activities": {
+      "alUbsHvFn5N4xcrm": {
+        "type": "enchant",
+        "_id": "alUbsHvFn5N4xcrm",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "VTHWRqCAQLzTOqfz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "TR3UbE6R2zlvEJd7",
+                "mxg6zbGeQVD32Wzj"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "VTHWRqCAQLzTOqfz"
+        ]
+      },
+      "TR3UbE6R2zlvEJd7": {
+        "type": "utility",
+        "_id": "TR3UbE6R2zlvEJd7",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "消失步伐"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "消失步伐",
+        "img": "",
+        "appliedEffects": []
+      },
+      "mxg6zbGeQVD32Wzj": {
+        "type": "save",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "惊惧步伐"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "",
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "惊惧步伐",
+        "_id": "mxg6zbGeQVD32Wzj",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你受到伤害时，你可以用&amp;Reference[Reaction]{反应}施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>。</p><p>此外，你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7vw9ADJEiKFYlbQO]{妖精步伐}获得以下选项。</p><p><em><strong>消失步伐。</strong></em>你获得&amp;Reference[invisible]{隐形}状态，持续直到你的下一回合开始或当你发动一次攻击检定、造成伤害、或是施展一道法术之后。</p><p><em><strong>惊惧步伐。</strong></em>位于你传送前或传送后的空间（由你选择）5 尺内的生物必须进行一次对抗你法术豁免 DC 的[[/save]]{感知豁免}，豁免失败则受到 2d10 心灵伤害。</p><p class=\"item-original\">Misty Escape</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>妖精步伐</strong>特性以追加可选项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "misty-escape",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "至高妖精宗主"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "雾遁",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_archfey_misty-escape.webp",
+      "disabled": false,
+      "_id": "VTHWRqCAQLzTOqfz",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Fhktlu2NTLHcMs0e inline]",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736608940670,
+        "modifiedTime": 1736608987526,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Fhktlu2NTLHcMs0e.VTHWRqCAQLzTOqfz"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "TR3UbE6R2zlvEJd7",
+          "mxg6zbGeQVD32Wzj"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758467130898,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Fhktlu2NTLHcMs0e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Fhktlu2NTLHcMs0e"
+}

@@ -1,0 +1,131 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "星辰结社",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/druid_stars.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>群星隐秘，求索驭力</p></blockquote><p>在无法追忆的过去，星辰结社的德鲁伊们便开始记录天穹中的图案，探索星座之间隐藏的秘密。通过理解这些秘密，这个结社的德鲁伊探索着如何驾驭宇宙的伟力。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.QaSOPbllchjZ0UUG]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hFb1G3I6ibncR2v7]{Circle of the Stars}</p>",
+      "chat": ""
+    },
+    "identifier": "stars",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.dYCpzHu235cVWZra"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.3zzXljAqkuZRN2fp"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.qVPe1eG9B8gLFKAd"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "xCLrE8fOWW9mwls2"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7AO57wWRc36RipRq"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "zS2LVd2W883qn9Cc"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.j7aOxUGww8ds9zY2"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "ycrYg5I2NuLBSbXQ"
+      }
+    ],
+    "classIdentifier": "druid",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777322157994,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "hFb1G3I6ibncR2v7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!hFb1G3I6ibncR2v7"
+}

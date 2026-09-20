@@ -1,0 +1,57 @@
+{
+  "name": "施法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你学会运用自然世界的魔法本源进行施法。参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk]{第 7 章}有关施法的规则。下述信息将详述如何将这些规则应用于游侠法术，具体法术详见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk.JournalEntryPage.5HnIk6HsrSxkvkz5]{游侠法术列表}。</p><p><em><strong>法术位。</strong></em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.JdSrw1sMlsHUF9qA]{游侠特性表}显示了你可用于施展 1 环及以上法术的法术位数量。你在完成一次长休时恢复所有已消耗的法术位。</p><p><em><strong>1 环及以上的准备法术。</strong></em>你准备可供你以此特性施展的 1 环及更高环阶的法术列表。为此，选择两道游侠法术。推荐选择<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kEMZzoQcl3D4PT1v]{捕获打击}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>。</p><p>已准备法术数量会随你游侠等级的提升而增加，如游侠特性表中的准备法术一列所示。每当这一列的数字增加时，从游侠法术列表中选择额外法术准备，直至已准备法术的数量与表格中的数字一致。你必须拥有与准备法术的环阶相对应环阶的法术位。例如，如果你是一位 5 级游侠，则你的准备法术列表能包括六道 1 环或 2 环的游侠法术，随意组合。</p><p>如果其他游侠特性给了你永远已准备的法术，这些法术不计入你以此法准备的法术数量，但除此以外对你来说都视为游侠法术。</p><p><em><strong>改变你的准备法术。</strong></em>每当你结束一次长休时，你可以改变你的法术准备列表，将一道法术替换为你具有对应法术位的游侠法术。</p><p><em><strong>施法属性。</strong></em>感知是你的游侠法术的施法属性。</p><p><em><strong>施法法器。</strong></em>你可以使用德鲁伊法器作为你的游侠法术的施法法器。</p><p class=\"item-original\">Spellcasting</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游侠"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777641776614,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "GCHcio0naWMZ15ia",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!GCHcio0naWMZ15ia"
+}

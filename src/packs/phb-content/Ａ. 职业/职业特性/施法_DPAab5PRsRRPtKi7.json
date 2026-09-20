@@ -1,0 +1,87 @@
+{
+  "name": "施法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你学会了如何施展法术。参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk]{第 7 章}有关施法的规则。下述信息将详述如何将这些规则应用于诡术师。</p><p><em><strong>戏法。</strong></em>你习得三个戏法。<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQW54HZHK6PwRCON]{法师之手}</em>以及@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk.JournalEntryPage.6AnqLUowgdsqMFvz]{法师法术列表}中两个自选的戏法。推荐选择<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2RbK2EbBxaHUwd8R]{心灵之楔}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JiMaBuExPb4AUKSh]{次级幻影}</em>。</p><p>每当你获得一级游荡者等级，你能将除<em>法师之手</em>外的一个戏法替换成另外一个由你选择的法师戏法。</p><p><em><strong>法术位。</strong></em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.yiBzQeWdFjXrWxY2#诡术师施法]{诡术师施法表}展示了你用于施展你的 1 环以及更高级的法术的法术位数量。你在一次长休后恢复所有消耗的法术位。</p><p><em><strong>1 环及以上的准备法术。</strong></em>你准备一系列对你可用的 1 环及更高级的法术。你选择三个法师法术列表中的 1 环法术作为开始。推荐选择<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1lhrJ04UQGNmZNfn]{魅惑人类}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.A4J9qL2CsCXpdbfT]{易容术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rj80d3qVPV91csLW]{云雾术}</em>。</p><p>如诡术师的准备法术列表中所展示的那样，你可准备的法术数量会随着你的游荡者等级一同增长。每当可准备的法术数量增长时，你都可以额外选择法师法术，直到你所准备的法术满足了列表中当前可准备法术的上限。并且，你所选择的法术必须是你拥有对应法术位的法术。</p><p>例如，如果你是一个 7 级游荡者，你的准备法术列表可以是由五个 1 环或 2 环的法师法术以任意方式组成。</p><p><em><strong>改变你的准备法术。</strong></em>每当你获得游荡者等级，你能从法师法表中选择一个法术去替换一个你已知的法术。你必须拥有你所选择的新法术的对应法术位。</p><p><em><strong>施法属性。</strong></em>智力是你施展法师法术中使用的施法关键属性。</p><p><em><strong>施法法器。</strong></em>你可以使用奥术法器作为施展你的法师法术时的施法法器。</p><p class=\"item-original\">Spellcasting</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "诡术师",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "施法：法师之手",
+        "_id": "wpP0pTobkUp0j1Ni",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.FQW54HZHK6PwRCON"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 1
+          }
+        },
+        "value": {},
+        "level": 0,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777656903239,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "DPAab5PRsRRPtKi7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!DPAab5PRsRRPtKi7"
+}

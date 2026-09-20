@@ -1,0 +1,171 @@
+{
+  "name": "神圣打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_divine-strike.webp",
+  "system": {
+    "activities": {
+      "LgGubzwyezFoDugB": {
+        "type": "damage",
+        "_id": "LgGubzwyezFoDugB",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.divine-strike.damage"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "necrotic",
+                "radiant"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每个你的回合一次，当你以一次使用武器的攻击命中了一个生物时，你对其造成额外 1d8 光耀或暗蚀伤害（由你选择）。</p><p>在你 14 级获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.e8yJyVH57LMxwMhw]{精通受祝击}特性后，适用以下效应。</p><p><em><strong>精通受祝击。</strong></em>神圣打击的额外伤害提升至 2d8。</p><p class=\"item-original\">Divine Strike</p>",
+      "chat": ""
+    },
+    "identifier": "divine-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "牧师",
+    "advancement": [
+      {
+        "_id": "14RcvdtbvXnTdR9P",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "damage",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "7": {
+              "number": 1,
+              "faces": 8,
+              "modifiers": []
+            },
+            "14": {
+              "number": 2,
+              "faces": 8,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "神圣打击：伤害骰",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777640024784,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "iPMw5PrseGGh7T9T",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iPMw5PrseGGh7T9T"
+}

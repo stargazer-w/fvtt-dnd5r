@@ -1,0 +1,82 @@
+{
+  "name": "念力精通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_psi-warrior_telekinetic-adept.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你已经掌握了使用念力异能的新方式，如下所示。</p><p><em><strong>灵力跃动。</strong></em>以一个&amp;Reference[Bonus Action]{附赠动作}，你获得等同于两倍速度的飞行速度，直到本回合结束为止。一旦你执行了此附赠动作，直到你完成一次短休或长休为止你都不能再次使用它。你也可以消耗一枚灵能骰（无需动作）来再次使用该异能。</p><p><em><strong>念力突刺。</strong></em>当你使用灵能打击对一个目标造成伤害时，你可以迫使目标进行一次[[/save str]]{力量豁免}（DC 等于 8 + 你的智力调整值 + 你的熟练加值）。如果豁免失败，你可以使目标陷入&amp;Reference[prone]{倒地}状态或者将其在任意方向水平移动至多 10 尺。</p><p class=\"item-original\">Telekinetic Adept</p>",
+      "chat": ""
+    },
+    "identifier": "telekinetic-adept",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "灵能武士",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ep6yO5noUoU1zsQe"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ysQTfQCdvvZyScbV"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "念力精通",
+        "hint": "这个特性为你提供了以下子项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_psi-warrior_telekinetic-adept.webp",
+        "_id": "w3UnFmlUVw5MQi7H"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777643078461,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "GEkLiTSoCvTS9bc9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!GEkLiTSoCvTS9bc9"
+}

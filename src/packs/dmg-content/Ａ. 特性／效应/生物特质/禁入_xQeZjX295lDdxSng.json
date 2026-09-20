@@ -1,0 +1,61 @@
+{
+  "name": "禁入",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_creature_forbiddance.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>[[lookup @name]]得不到一位居住者的邀请时无法进入相应的民宅。</p><p class=\"item-original\">Forbiddance</p>",
+      "chat": ""
+    },
+    "identifier": "forbiddance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "pxLHiILvNrRd7uHI",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750501018085,
+    "modifiedTime": 1758304874754,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xQeZjX295lDdxSng",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!xQeZjX295lDdxSng"
+}

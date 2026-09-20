@@ -1,0 +1,102 @@
+{
+  "name": "万事通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_bard_jack-of-all-trades.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你可以将你熟练加值的一半（向下取整）添加到任何你不具备熟练而无法应用熟练加值的属性检定中。</p><p>例如，如果你要进行力量（运动）检定，且不具有运动的熟练，则你可以将熟练加值的一半添加到检定中。</p><p class=\"item-original\">Jack of All Trades</p>",
+      "chat": ""
+    },
+    "identifier": "jack-of-all-trades",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "吟游诗人"
+  },
+  "effects": [
+    {
+      "name": "万事通",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_bard_jack-of-all-trades.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.UtLM2x01150Vcmtg",
+      "_id": "YLafs2CDffn4mQWq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.jackOfAllTrades",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734078652123,
+        "modifiedTime": 1735455383272,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!UtLM2x01150Vcmtg.YLafs2CDffn4mQWq"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194984042,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "UtLM2x01150Vcmtg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!UtLM2x01150Vcmtg"
+}

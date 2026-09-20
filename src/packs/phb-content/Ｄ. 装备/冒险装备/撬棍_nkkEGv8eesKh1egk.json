@@ -1,0 +1,63 @@
+{
+  "name": "撬棍",
+  "system": {
+    "description": {
+      "value": "<p>在能够撬动的地方使用撬棍可以给予你力量检定优势。</p><p class=\"item-original\">Crowbar</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "rarity": "",
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "properties": [],
+    "identifier": "crowbar"
+  },
+  "type": "loot",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_crowbar.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758195012236,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "nkkEGv8eesKh1egk",
+  "sort": 5200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!nkkEGv8eesKh1egk"
+}

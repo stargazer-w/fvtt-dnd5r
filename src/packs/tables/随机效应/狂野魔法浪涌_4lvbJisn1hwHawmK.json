@@ -1,0 +1,680 @@
+{
+  "name": "狂野魔法浪涌",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_wild-magic_controlled-chaos.webp",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.faNaXhJ4eDa8y4bb]</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "_id": "Rxja7EpOzCGN58Xi",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你在每次自己回合开始时重骰本表，并在后续的掷骰中跳过本结果。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.Rxja7EpOzCGN58Xi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        8
+      ],
+      "drawn": false,
+      "_id": "bfMwOMlexUF4nWeE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一只对你友善的生物出现在距你 60 尺内随机一处未被占据的空间中。此生物由 DM 控制，且会在 1 分钟后消失不见。骰[[/r 1d4]]以决定生物：</p> <table>     <thead>         <tr></tr>     </thead>     <tbody>         <tr>             <td style=\"text-align:center\"><strong>出目为</strong></td>             <td><strong>将会出现…</strong></td>         </tr>         <tr>             <td style=\"text-align:center\">1</td>             <td>出现一只二元魔冢；</td>         </tr>         <tr>             <td style=\"text-align:center\">2</td>             <td>出现一只呋噜；</td>         </tr>         <tr>             <td style=\"text-align:center\">3</td>             <td>出现一只单元魔冢；</td>         </tr>         <tr>             <td style=\"text-align:center\">4</td>             <td>出现一头独角兽。</td>         </tr>     </tbody> </table> <p>生物的数据参见<em>《怪物手册》</em>。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.bfMwOMlexUF4nWeE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "_id": "6AVrxNOP7z7Iu9rA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你在每次自己回合开始时恢复 5 点生命值。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.6AVrxNOP7z7Iu9rA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false,
+      "_id": "VWJONXk8ZyjdJ4Uz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你施展第一个需要豁免的法术时，成为该法术目标的生物进行豁免时具有劣势。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.VWJONXk8ZyjdJ4Uz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        20
+      ],
+      "drawn": false,
+      "_id": "BrBf0Hcj2bqwHGlw",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你获得一个持续 1 分钟（除非另有说明）的效应。骰[[/r 1d8]]以决定效应：</p> <table>     <thead>         <tr></tr>     </thead>     <tbody>         <tr>             <td style=\"text-align:center;white-space:nowrap\"><strong>出目</strong></td>             <td style=\"text-align:center\"><strong>效应</strong></td>         </tr>         <tr>             <td style=\"text-align:center\">1</td>             <td>你被只有你和距你 5 尺内的生物才能听到的空灵音乐声环绕；</td>         </tr>         <tr>             <td style=\"text-align:center\">2</td>             <td>你的体型增大一级；</td>         </tr>         <tr>             <td style=\"text-align:center\">3</td>             <td>你脸上长出羽毛构成的络腮胡，一旦你打了喷嚏，这些羽毛会从你的脸上炸开并消失；</td>         </tr>         <tr>             <td style=\"text-align:center\">4</td>             <td>你说话时必须大声喊叫；</td>         </tr>         <tr>             <td style=\"text-align:center\">5</td>             <td>距你 10 尺范围内，会出现飞舞的虚幻蝴蝶；</td>         </tr>         <tr>             <td style=\"text-align:center\">6</td>             <td>你的前额长出第三只眼，使你在感知（察觉）检定上获得优势；</td>         </tr>         <tr>             <td style=\"text-align:center\">7</td>             <td>你一说话就会吐出粉色的泡泡；</td>         </tr>         <tr>             <td style=\"text-align:center\">8</td>             <td>你的皮肤透出蓝色，持续 24 小时，法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jtt83qZ5kmO8nr1U]{移除诅咒}</em>可结束此效应。</td>         </tr>     </tbody> </table>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.BrBf0Hcj2bqwHGlw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        24
+      ],
+      "drawn": false,
+      "_id": "PBOE7hAxLZTsJSEe",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你所有的施法时间为一动作的法术施法时间变为一附赠动作。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.PBOE7hAxLZTsJSEe"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        28
+      ],
+      "drawn": false,
+      "_id": "9jTWHf2MxU2J3Arb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你被传送到星界位面，直至你的下一回合结束时。你随后回到先前所占据的空间，若该空间被占据，则来到最近的未被占据的空间。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.9jTWHf2MxU2J3Arb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        29,
+        32
+      ],
+      "drawn": false,
+      "_id": "jN1UQ7jIIEzhUrQU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你施展的下一道造成伤害的法术的伤害不进行伤害掷骰而是令所有伤害骰取满。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.jN1UQ7jIIEzhUrQU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        36
+      ],
+      "drawn": false,
+      "_id": "fYo7OtjL4SVCJDyo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你具有所有伤害类型的抗性。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.fYo7OtjL4SVCJDyo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        37,
+        40
+      ],
+      "drawn": false,
+      "_id": "lombVNM98dqXNzht",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你变成一棵植物盆栽，持续至你下个回合开始时。你变成盆栽期间陷入&amp;Reference[incapacitated]{失能}状态，并具有所有伤害类型的易伤。如果你的生命值降至 0，则你的花盆形态被打碎，而你恢复原形。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.lombVNM98dqXNzht"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        44
+      ],
+      "drawn": false,
+      "_id": "EuzUP8uQQNm2NGPk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你可以在每个自己回合内以一个附赠动作传送至多 20 尺。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.EuzUP8uQQNm2NGPk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        48
+      ],
+      "drawn": false,
+      "_id": "Roki1cMgQcGOu4Zp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你和至多 3 名 30 尺内由你选择的生物获得&amp;Reference[invisible]{隐形}状态，持续 1 分钟。此隐形会在该生物发动攻击、造成伤害或施展法术后立即结束。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.Roki1cMgQcGOu4Zp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        52
+      ],
+      "drawn": false,
+      "_id": "ZqZurhuzNnC98B8W",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，一面灵体般的盾牌悬浮在你的周围，为你的护甲等级（AC）提供 +2 加值，并使你免疫<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BTKxFabaDrLUbWu9]{魔法飞弹}</em>。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.ZqZurhuzNnC98B8W"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        53,
+        56
+      ],
+      "drawn": false,
+      "_id": "W3PIZg5lSHd5KysN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你可以在本回合执行一个额外的动作。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.W3PIZg5lSHd5KysN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        60
+      ],
+      "drawn": false,
+      "_id": "o2FgThAv0TYTcCMG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你施放一道随机法术，如果该法术通常需要专注，则该情况下无需专注，该法术生效至其最大持续时间结束。投掷[[/r 1d10]]决定是什么法术：</p> <table>     <thead>         <tr></tr>     </thead>     <tbody>         <tr>             <td style=\"text-align:center;white-space:nowrap\"><strong>出目</strong></td>             <td style=\"text-align:center\"><strong>生效法术</strong></td>         </tr>         <tr>             <td style=\"text-align:center\">1</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OuF5hUCX8HS3pms1]{困惑术}</em>；</td>         </tr>         <tr>             <td style=\"text-align:center\">2</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>；</td>         </tr>         <tr>             <td style=\"text-align:center\">3</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rj80d3qVPV91csLW]{云雾术}</em>；</td>         </tr>         <tr>             <td style=\"text-align:center\">4</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jfbY2J1NLBko50a7]{飞行术}</em>（向距离你 60 尺内一个随机生物施放）；</td>         </tr>         <tr>             <td style=\"text-align:center\">5</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cmNz0KRpkFjP7hi2]{油腻术}</em>；</td>         </tr>         <tr>             <td style=\"text-align:center\">6</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cin769FdhYaaQF1V]{浮空术}</em>（对你自己施放）；</td>         </tr>         <tr>             <td style=\"text-align:center\">7</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BTKxFabaDrLUbWu9]{魔法飞弹}</em>（作为一道 5 环法术施放）；</td>         </tr>         <tr>             <td style=\"text-align:center\">8</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jC20px2nCW0jkAPA]{镜影术}</em>；</td>         </tr>         <tr>             <td style=\"text-align:center\">9</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S58EZtQXPSFycVf0]{变形术}</em>（对你自己施放），且若你豁免失败，则你变为一只山羊；</td>         </tr>         <tr>             <td style=\"text-align:center\">10</td>             <td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc]{识破隐形}</em>。</td>         </tr>     </tbody> </table>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.o2FgThAv0TYTcCMG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        64
+      ],
+      "drawn": false,
+      "_id": "HbrGSwDw0vEo6vJx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你接触的任何可燃的，未被其他生物着装或携带的非魔法物件都会燃起火焰，其受到 1d4 点火焰伤害，并开始燃烧。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.HbrGSwDw0vEo6vJx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        68
+      ],
+      "drawn": false,
+      "_id": "TI930Fcr4qK3VXqA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>如果你在接下来的 1 小时之内死亡，则你立刻复活，如同被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gYdkp87PdNIYdA3s]{转生术}</em>所复活一般。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.TI930Fcr4qK3VXqA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        69,
+        72
+      ],
+      "drawn": false,
+      "_id": "15SIxZtuXPNQYUd4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你陷入&amp;Reference[frightened]{恐慌}状态，直至你的下一回合结束。由 DM 决定你的恐慌源头。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.15SIxZtuXPNQYUd4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        76
+      ],
+      "drawn": false,
+      "_id": "9cr6yRXqn104YuV6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>你传送至多 60 尺，至一处你可见且未被占据的空间。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.9cr6yRXqn104YuV6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        80
+      ],
+      "drawn": false,
+      "_id": "h4OSclIB1cNiwB44",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>距你 60 尺内的一个随机生物陷入持续[[/r 1d4]]小时的&amp;Reference[poisoned]{中毒}状态。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.h4OSclIB1cNiwB44"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        84
+      ],
+      "drawn": false,
+      "_id": "QPZ6pi5HifiLnhmm",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你发出 30 尺半径的&amp;Reference[Bright Light]{明亮光照}。任何距你 5 尺内结束其回合的生物将陷入&amp;Reference[blinded]{目盲}状态，直至其下个回合结束。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.QPZ6pi5HifiLnhmm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        88
+      ],
+      "drawn": false,
+      "_id": "fLea61N48tODs9eW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>由你选择的，你可见且距离你 30 尺内的至多 3 个生物各受到[[/damage 1d10 necrotic]]伤害。你回复等同于以此法造成暗蚀伤害总和的生命值。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.fLea61N48tODs9eW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        92
+      ],
+      "drawn": false,
+      "_id": "88HGYocqWEOilcSE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>由你选择的，你可见且距离你 30 尺内的至多 3 个生物各受到[[/damage 4d10 lightning]]伤害。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.88HGYocqWEOilcSE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        96
+      ],
+      "drawn": false,
+      "_id": "adL9ulBarF45RsuZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>下 1 分钟内，你和距你 30 尺内所有生物获得穿刺伤害的易伤。</p>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.adL9ulBarF45RsuZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        100
+      ],
+      "drawn": false,
+      "_id": "u8pbDNnTQA0vmy1S",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>骰[[/r 1d6]]：</p> <table>     <thead>         <tr></tr>     </thead>     <tbody>         <tr>             <td style=\"text-align:center;white-space:nowrap\"><strong>出目</strong></td>             <td style=\"text-align:center\"><strong>效应</strong></td>         </tr>         <tr>             <td style=\"text-align:center\">1</td>             <td>你恢复 2d10 点[[/healing 2d10]]{生命值}；</td>         </tr>         <tr>             <td style=\"text-align:center\">2</td>             <td>由你选择的，距离你 300 尺内的一名盟友恢复 2d10 点[[/healing 2d10]]{生命值}；</td>         </tr>         <tr>             <td style=\"text-align:center\">3</td>             <td>你恢复一个已消耗的最低环阶的法术位；</td>         </tr>         <tr>             <td style=\"text-align:center\">4</td>             <td>由你选择的，距离你 300 尺内的一名盟友恢复一个已消耗的最低环阶的法术位；</td>         </tr>         <tr>             <td style=\"text-align:center\">5</td>             <td>你恢复所有已消耗的术法点；</td>         </tr>         <tr>             <td style=\"text-align:center\">6</td>             <td>17–20 行所述的所有效应同时作用于你身上。</td>         </tr>     </tbody> </table>",
+      "name": "",
+      "_key": "!tables.results!4lvbJisn1hwHawmK.u8pbDNnTQA0vmy1S"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "ndQHh8WqPjMJWNmw",
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1733565161869,
+    "modifiedTime": 1759941502279,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "4lvbJisn1hwHawmK",
+  "sort": 300000,
+  "_key": "!tables!4lvbJisn1hwHawmK"
+}

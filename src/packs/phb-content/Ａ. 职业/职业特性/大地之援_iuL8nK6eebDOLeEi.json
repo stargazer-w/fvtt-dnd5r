@@ -1,0 +1,268 @@
+{
+  "name": "大地之援",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_lands-aid.webp",
+  "system": {
+    "activities": {
+      "adbWy9j17Yf222ZV": {
+        "type": "save",
+        "_id": "adbWy9j17Yf222ZV",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": true,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.lands-aid.damage"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      },
+      "v35SM0fTGGfZ8VxN": {
+        "type": "heal",
+        "_id": "v35SM0fTGGfZ8VxN",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@scale.lands-aid.damage"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Magic]{魔法}动作，你可以消耗一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}使用次数并且选择距你 60 尺内的一点。给予活力的繁花和吸取生命的荆刺在以那一点为源点的 10 尺半径球状区域同时生出。在该区域内每个你所选择的生物必须进行一次对抗你法术豁免 DC 的[[/save]]{体质豁免}，豁免失败时生物受到 2d6 暗蚀伤害，豁免成功时受到半数伤害。此外，一个区域内你所选择的生物恢复 2d6 生命值。</p><p>当你达到特定的德鲁伊等级时，伤害和治疗量会提升 1d6：10 级（3d6）和 14 级（4d6）。</p><p class=\"item-original\">Land's Aid</p>",
+      "chat": ""
+    },
+    "identifier": "lands-aid",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "大地结社",
+    "advancement": [
+      {
+        "_id": "3QzkY4MkeL5QLWfM",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "damage",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "10": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "14": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "大地之援：骰值",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777641634244,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "iuL8nK6eebDOLeEi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iuL8nK6eebDOLeEi"
+}

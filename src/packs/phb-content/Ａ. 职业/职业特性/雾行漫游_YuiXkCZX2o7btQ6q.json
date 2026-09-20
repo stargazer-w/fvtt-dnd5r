@@ -1,0 +1,258 @@
+{
+  "name": "雾行漫游",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_misty-wanderer.webp",
+  "system": {
+    "activities": {
+      "qigwClf8YDnBEIPF": {
+        "type": "enchant",
+        "_id": "qigwClf8YDnBEIPF",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "mJrJLBbA8i2fjpX2",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "8smLnfchLCsE71Cn"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "mJrJLBbA8i2fjpX2"
+        ]
+      },
+      "8smLnfchLCsE71Cn": {
+        "type": "utility",
+        "name": "施法 (雾行漫游)",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.YuiXkCZX2o7btQ6q",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-sparkles\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.phb-content.Item.YuiXkCZX2o7btQ6q\" data-tooltip=\"item\">雾行漫游</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "8smLnfchLCsE71Cn",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "(max(1,@abilities.wis.mod))"
+    },
+    "description": {
+      "value": "<p>你可以免费施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>而不需要消耗法术位，次数等同于你的感知调整值（至少 1 次），在完成一次长休后，你重获所有的已消耗的次数。</p><p>另外，每当你施展<em>迷踪步</em>时，你可以携带一个 5 尺以内你可见的自愿生物与你一同传送。那个生物会被传送到由你选择的，位于你的目标位置周围 5 尺范围内的一处未被占据的空间内。</p><p class=\"item-original\">Misty Wanderer</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>迷踪步</strong>法术以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "misty-wanderer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "妖精漫游者"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "雾行漫游",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_misty-wanderer.webp",
+      "disabled": false,
+      "_id": "mJrJLBbA8i2fjpX2",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735882219653,
+        "modifiedTime": 1735882224539,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!YuiXkCZX2o7btQ6q.mJrJLBbA8i2fjpX2"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "8smLnfchLCsE71Cn"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758303747510,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "YuiXkCZX2o7btQ6q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!YuiXkCZX2o7btQ6q"
+}

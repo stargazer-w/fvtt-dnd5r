@@ -1,0 +1,295 @@
+{
+  "name": "操控水体",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_control-water.webp",
+  "system": {
+    "activities": {
+      "kM0hi7BoKKIJISNJ": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "kM0hi7BoKKIJISNJ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "KWuQyFJv4Q2dvMKf": {
+        "type": "utility",
+        "name": "控水",
+        "_id": "KWuQyFJv4Q2dvMKf",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": true,
+          "value": "10"
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "rUamWWSdnsDXaGZH": {
+        "type": "save",
+        "name": "漩涡",
+        "_id": "rUamWWSdnsDXaGZH",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": true,
+          "value": "10"
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cylinder",
+            "size": "25",
+            "height": "-25",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>直到法术结束为止，你控制你指定的一处边长 100 尺的立方区域中的任意一处独立水体，从以下效应中选择其一生效。在你之后的每个自己回合中，你可以用一个&amp;Reference[Magic]{魔法}动作重复同一效应，或是选择另一效应。</p><p><em><strong>上涨。</strong></em>你使控制区域内水位上涨至多 20 尺。如果你指定的区域是一片大水体中的一部分，则你改为制造一片 20 尺高的波浪，并从区域的一边扑向另一边再拍下水面。波浪中任何巨型或更小的载具都会被带到水浪行进的另一边。且所有巨型或更小的载具都有 25% 的几率倾覆。</p><p>直至法术终止或你选择另一个效应前，水位的上涨情况将保持不变。如果该效应用以产生波浪，则波浪在你下一回合开始时再次进行翻打。</p><p><em><strong>分水。</strong></em>你使区域内的水体分开并形成一条水体的沟壑。沟壑从法术区域的一头延伸到另一头，而被分开的水体则在两边形成两道水墙。沟壑持续存在至法术终止或直至你选择另一个效应。该效应终止时，水流会逐渐在下一轮中将沟壑填满，直至其恢复成通常的水位。</p><p><em><strong>转向。</strong></em>你使区域内的水体向一个你自选的方向流动，即使水流需要绕过障碍，或沿着墙壁向上流，甚至流向一些不太可能的方向，区域内的水体都将遵照你指使的方向流动，但一旦其流出法术区域，则会重新基于其所在地形选择流向。水体持续向你所选方向流动，直至法术终止或直至你选择另一效应。</p><p><em><strong>漩涡。</strong></em>该效应需要水体至少为 50 尺的方形区域并且至少有 25 尺深。你在区域中央形成一个漩涡。其形态为底部宽 5 尺，顶部宽 50 尺，高 25 尺。水中任何距漩涡 25 尺内的生物或物件均被漩涡向自身拉动 10 尺。当一名生物在一个回合内第一次进入漩涡或在漩涡内结束其回合时，受影响的生物进行一次[[/save]]{力量豁免}。豁免失败则受到[[/damage]]伤害。豁免成功则只受一半伤害。一名生物若想以游泳方式离开漩涡，则必须先用一个动作远离漩涡并成功于一次对抗你法术豁免 DC 的[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}。</p><p class=\"item-original\">Control Water</p>",
+      "chat": ""
+    },
+    "identifier": "control-water",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 4,
+    "materials": {
+      "value": "水尘混合物",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "300"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "9KxTNszcWXRDBIoq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535702784,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "WATIXkl5bHb2B3ID",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!WATIXkl5bHb2B3ID"
+}

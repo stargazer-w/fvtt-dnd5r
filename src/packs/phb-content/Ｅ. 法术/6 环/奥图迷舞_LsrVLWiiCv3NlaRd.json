@@ -1,0 +1,204 @@
+{
+  "name": "奥图迷舞",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_ottos-irresistible-dance.webp",
+  "system": {
+    "activities": {
+      "DolIOUvGV89GCc30": {
+        "type": "save",
+        "name": "施法",
+        "_id": "DolIOUvGV89GCc30",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "i5Ju68ahTqIHXhhi",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>一名施法距离内你可见的生物必须进行一次[[/save]]{感知豁免}，豁免成功则目标直到其下个回合结束为止会跳起滑稽的舞蹈，在此期间其必须消耗所有的移动力在原地跳舞。</p><p>豁免失败，目标在法术持续时间内陷入&amp;Reference[charmed]{魅惑}状态。处于魅惑状态期间，目标会跳起滑稽的舞蹈，必须使用所有的移动力在原地跳舞，并且在敏捷豁免和攻击检定上具有劣势，且其他生物以其为目标的攻击检定具有优势。在目标的每个自己的回合，它可以用一个动作使自己镇定下来并重复豁免，豁免成功则其身上的法术终止。</p><p class=\"item-original\">Otto's Irresistible Dance</p>",
+      "chat": ""
+    },
+    "identifier": "ottos-irresistible-dance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 6,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "沉迷舞步",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_ottos-irresistible-dance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.LsrVLWiiCv3NlaRd",
+      "transfer": false,
+      "_id": "i5Ju68ahTqIHXhhi",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内陷入&amp;Reference[charmed]{魅惑}状态。</p><p>你跳起滑稽的舞蹈，必须使用所有的移动力在原地跳舞。在此期间，你在敏捷豁免和攻击检定上具有劣势，而其他生物以你为目标的攻击检定具有优势。</p><p>你可以在自己的回合用一个动作尝试镇定下来并重新进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。若豁免成功，该法术效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733400400159,
+        "modifiedTime": 1734843240085,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!LsrVLWiiCv3NlaRd.i5Ju68ahTqIHXhhi"
+    }
+  ],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535975976,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "LsrVLWiiCv3NlaRd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LsrVLWiiCv3NlaRd"
+}

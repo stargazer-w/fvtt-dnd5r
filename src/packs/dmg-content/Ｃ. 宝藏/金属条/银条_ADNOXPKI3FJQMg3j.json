@@ -1,0 +1,61 @@
+{
+  "name": "银条",
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_metalbar_silver.webp",
+  "system": {
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "treasure",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "RAEVICps09ctrLhK",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.O0hWGf2ZwISfiBuK",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750775394670,
+    "modifiedTime": 1751801536178,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ADNOXPKI3FJQMg3j",
+  "_key": "!items!ADNOXPKI3FJQMg3j"
+}

@@ -1,0 +1,132 @@
+{
+  "folder": "9Z81qGbxJwvn6642",
+  "name": "窃贼手套",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_gloves-of-thievery.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这双手套穿戴在手上时看起来毫不起眼。穿戴该手套期间，你进行的敏捷（巧手）检定获得 +5 的加值。</p><p class=\"item-original\">Gloves of Thievery</p>",
+      "chat": ""
+    },
+    "identifier": "gloves-of-thievery",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "巧手加值",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_utilize.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.OTsGB5AASWs2C4Xg",
+      "_id": "oUyaP67xJ7iM8bRy",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.slt.bonuses.check",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759752082235,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!OTsGB5AASWs2C4Xg.oUyaP67xJ7iM8bRy"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757297811297,
+    "modifiedTime": 1758199218251,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "OTsGB5AASWs2C4Xg",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!OTsGB5AASWs2C4Xg"
+}

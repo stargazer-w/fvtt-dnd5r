@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "图书馆",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ch-1-opener-magic-table.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>5 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>调查</p><p>图书馆包含了一系列书籍收藏以及若干桌椅。</p><p><em><strong>调查：专题报告。</strong></em>当你对此设施下达调查指令时，你委托设施雇员针对某个主题进行研究。该主题可以是某个传说、某位重要的人、某种生物或某个知名的物件。这项工作需要 7 天时间。当研究完成后，雇员将获取三条你之前不知道的有关该主题的信息，这些信息是准确无误的。在你下次与该雇员交谈时，雇员将这些信息传达给你。由 DM 决定你具体获得了怎样的信息。</p><p class=\"item-original\">Library</p>",
+      "chat": ""
+    },
+    "identifier": "library",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "research",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "library"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013163929,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ttL2i93e75l0BCsN",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!ttL2i93e75l0BCsN"
+}

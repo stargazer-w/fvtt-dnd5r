@@ -1,0 +1,190 @@
+{
+  "name": "兽之形貌",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_aspect-of-the-wilds.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你从下列选项中自选一项能力获得。当你完成一次长休时，你可以改变你的选择。</p><p><em><strong>枭。</strong></em>你具有 60 尺黑暗视觉。如果你已经具有黑暗视觉，你的黑暗视觉范围增加 60 尺。</p><p><em><strong>豹。</strong></em>你具有等于你速度的攀爬速度。</p><p><em><strong>鲑。</strong></em>你具有等于你速度的游泳速度。</p><p class=\"item-original\">Aspect of the Wilds</p>",
+      "chat": ""
+    },
+    "identifier": "aspect-of-the-wilds",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "兽心道途"
+  },
+  "effects": [
+    {
+      "name": "枭之形",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_aspect-of-the-wilds.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.bKx5WvWw9ZxM8vAb",
+      "_id": "rWTHYiYObTTyiwRX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734072617036,
+        "modifiedTime": 1735443968486,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bKx5WvWw9ZxM8vAb.rWTHYiYObTTyiwRX"
+    },
+    {
+      "name": "豹之形",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_aspect-of-the-wilds.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.bKx5WvWw9ZxM8vAb",
+      "_id": "CU1v6KaiB2Qhmb71",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734072656975,
+        "modifiedTime": 1735443961609,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bKx5WvWw9ZxM8vAb.CU1v6KaiB2Qhmb71"
+    },
+    {
+      "name": "鲑之形",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_aspect-of-the-wilds.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.bKx5WvWw9ZxM8vAb",
+      "_id": "shTO7wV0sdBk6xqE",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734072673357,
+        "modifiedTime": 1735443964912,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!bKx5WvWw9ZxM8vAb.shTO7wV0sdBk6xqE"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194992657,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "bKx5WvWw9ZxM8vAb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!bKx5WvWw9ZxM8vAb"
+}

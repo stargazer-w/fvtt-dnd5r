@@ -1,0 +1,462 @@
+{
+  "name": "探索",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "wCRuYElRCyqpDDE9",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>探索意味着涉危履险、探奇索妙。本节的探索部分详细介绍了冒险者如何在这种情况下与环境交互的规则。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776327299729,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.wCRuYElRCyqpDDE9"
+    },
+    {
+      "sort": 200000,
+      "name": "冒险装备",
+      "type": "text",
+      "_id": "kkgGDm3VQW8EGsnV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Adventuring Equipment</p><p>在冒险者们探索的期间，冒险装备能为他们提供多方面的援助。例如，冒险者们可以使用梯子来达到难以攀登的偏僻之处、依靠火把或其他光源去发现不易察觉的东西、利用盗贼工具突破上锁的门或箱柜、使用铁蒺藜为追击者创设障碍。</p><p>玩家可在@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}中查阅冒险中实用物品的细则，尤其是“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.MK3tMrY7pZgPQZo8]{工具}”和“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.fWDbFyRcjabZV9lW]{冒险装备}”中的物品尤为有效。第 6 章中的武器也不仅只能在战斗里发挥作用；比方说，你完全可以使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8aO87tJ7hlxjKt49]{长棍}去替你按下某个你不想亲手触碰的可疑按钮。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776327316389,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.kkgGDm3VQW8EGsnV"
+    },
+    {
+      "sort": 300000,
+      "name": "视野与光照",
+      "type": "text",
+      "_id": "j39OCLFX4okynRIO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Vision and Light</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.678vnBXr3wCQ8onH classes=\"right two\" caption=false cite=false]</p><p>冒险中，有很多行动会受到视野的影响——例如察觉危险、攻击敌人、法术瞄准，因此阻挡视野的效应可能会阻碍你，具体规则如下。</p><h2>遮蔽区域</h2><p class=\"journal-original-h2\">Obscured Areas</p><p>一片区域可能会陷入轻度或重度遮蔽。能够使区域处于&amp;Reference[Lightly Obscured]{轻度遮蔽}的因素包括：&amp;Reference[Dim Light]{微光光照}、薄雾或是密度适中的植被等类似环境。处于轻度遮蔽的区域时，你基于视觉进行的感知（察觉）检定具有&amp;Reference[Disadvantage]{劣势}。</p><p>能够使区域处于&amp;Reference[Heavily Obscured]{重度遮蔽}的因素包括：&amp;Reference[Darkness]{黑暗}、浓雾或浓密的植被等无法看透的环境。你在尝试目视其中的事物期间，你陷入&amp;Reference[Blinded]{目盲}状态。</p><h2>光照</h2><p class=\"journal-original-h2\">Light</p><p>区域内是否有光决定了该区域的光照等级，具体定义如下。</p><p><em><strong>明亮光照。</strong></em>明亮光照足够使绝大部分生物正常视物。白昼能提供明亮光照，即便阴天也是如此。一些其他光源——例如火把、提灯、火焰等光源，在一定范围内也同样可以提供明亮光照。</p><p><em><strong>微光光照。</strong></em>微光光照，也就是阴影，会造成轻度遮蔽。类似的环境如明亮光照与黑暗之间的交界处、黎明或黄昏时轻柔的天色、被满月的月光笼罩的大地等。</p><p><em><strong>黑暗。</strong></em>黑暗会造成重度遮蔽。黑暗包括夜晚的户外（哪怕绝大部分有月光的夜晚也是如此）、漆黑无灯的地城、被魔法黑暗覆盖的区域等环境。</p><h2>特殊感官</h2><p class=\"journal-original-h2\">Special Senses</p><p>一些生物拥有特殊感官，使它们可以在特定场合下感知事物。你可以在术语汇编中找到下列特殊感官的定义：</p><ul><li><p>&amp;Reference[Blindsight]{盲视 Blindsight}</p></li><li><p>&amp;Reference[Darkvision]{黑暗视觉 Darkvision}</p></li><li><p>&amp;Reference[Tremorsense]{震颤感知 Tremorsense}</p></li><li><p>&amp;Reference[Truesight]{真实视觉 Truesight}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776328590057,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.j39OCLFX4okynRIO"
+    },
+    {
+      "sort": 400000,
+      "name": "躲藏",
+      "type": "text",
+      "_id": "Ov7ABm1qqgQNnydN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Hiding</p><p>冒险者和怪物常常会通过藏踪蹑迹的方式来监视他人、绕过守卫或设下伏击。环境是否适合躲藏则由地下城主决定。当你尝试躲藏时，你需要执行&amp;Reference[Hide]{躲藏}动作。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776328611962,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.Ov7ABm1qqgQNnydN"
+    },
+    {
+      "sort": 500000,
+      "name": "与物件交互",
+      "type": "text",
+      "_id": "sLBr24g1xnsSApaG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Interacting with Objects</p><p>与物件交互通常很好判定。玩家只需要告诉 DM 角色打算做什么——例如拉动拉杆、开门，接着 DM 来描述会发生什么。但有时，物品的使用方式也需要遵循规则的规定，具体细则如下。</p><h2>什么是物件？</h2><p class=\"journal-original-h2\">What Is an Object?</p><p>仅从规则的角度来说，物件是独立的、无生命的物品，例如门、窗、剑、书、桌子、椅子或石头。建筑或载具等存在无法算作物件，因为它们由多种物件复合而成。</p><h2>短时物件交互</h2><p class=\"journal-original-h2\">Time-Limited Object Interactions</p><p>在时间紧迫的情况下与物件进行交互时，例如在战斗中，与物件的交互将受到限制：生物每回合只能无需动作地交互一次。这次交互必须发生在生物移动或动作的途中。任何额外的交互都需要玩家执行&amp;Reference[Utilize]{操作}动作，具体细则请见本章稍后的“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.l1pw74allEfZFTaY]{战斗}”部分。</p><h2>寻找隐藏物件</h2><p class=\"journal-original-h2\">Finding Hidden Objects</p><p>当你的角色尝试寻找隐藏起的物件时，比如某扇密门或某个陷阱时，DM 一般会要求你进行一次感知（察觉）检定，前提是你有描述你的角色有在隐藏物件的周边进行搜索。若成功，则你寻得该物件或其他一些重要的细节信息，又或者是两者皆有。</p><p>若在你的描述中，你的角色正搜寻的位置不在那个隐藏物件周围，那么不管检定结果如何，这次感知（察觉）检定都无法使你找到该物件。</p><h2>携带物件</h2><p class=\"journal-original-h2\">Carrying Objects</p><p>你通常不需要担心自己到底能携带多沉的装备和宝物。但如果你打算携带异常沉重或过多的物件时，DM 可能会要求你遵循术语汇编中的&amp;Reference[Carrying Capacity]{载重规则}。</p><h2>破坏物件</h2><p class=\"journal-original-h2\">Breaking Objects</p><p>以一个动作，你能随意打破甚至摧毁一个脆弱且非魔法的物件，例如玻璃容器或一张纸。如果你试图对更坚韧的东西造成伤害，DM 可能会采用术语汇编中有关&amp;Reference[Breaking Objects]{打破物件}的规则。</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776328657797,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.sLBr24g1xnsSApaG"
+    },
+    {
+      "sort": 600000,
+      "name": "危害",
+      "type": "text",
+      "_id": "OvbcRgsvwDy7joy4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Hazards</p><p>怪物是角色们需要面对的主要威胁，但是，其他危险也同样不可忽视。术语汇编中为下述&amp;Reference[Hazards]{危害}给出了定义：</p><ul><li><p>&amp;Reference[Burning]{燃烧 Burning}</p></li><li><p>&amp;Reference[Dehydration]{脱水 Dehydration}</p></li><li><p>&amp;Reference[Falling]{坠落 Falling}</p></li><li><p>&amp;Reference[Malnutrition]{饥饿 Malnutrition}</p></li><li><p>&amp;Reference[Suffocation]{窒息 Suffocation}</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776328676875,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.OvbcRgsvwDy7joy4"
+    },
+    {
+      "sort": 700000,
+      "name": "旅行",
+      "type": "text",
+      "_id": "CIKNTZvYHNPixLRp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Travel</p><p>在冒险过程中，角色们可能会进行长达数小时甚至数日的长途旅行。DM可以简要总结这段旅行，而不计算旅行的精确距离或时间；或者，DM 可能想让你使用下边的旅行步调规则。</p><p>如果你想知道你在分秒必争的场合能移动多快，请参见本章后边“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.l1pw74allEfZFTaY]{战斗}”一节的移动规则。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776328695230,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.CIKNTZvYHNPixLRp"
+    },
+    {
+      "sort": 800000,
+      "name": "旅行步调",
+      "type": "text",
+      "_id": "LxNKnBjL1rx6MQUO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Travel Pace</p><aside class=\"notable\"><h3>行军顺序</h3><p>在旅行过程中，不论是在室内还是户外，冒险者们都应该确立一种行军顺序。行军顺序可以让玩家更容易确定哪些角色会受到陷阱影响、哪些角色可以侦察隐藏的敌人、哪些角色在战斗爆发时距离敌人最近。你们可以在战斗外改变你们的行军顺序，并以任何喜欢的方式记录：比如，写下来，或者通过排列小模型进行表现。</p></aside><p>在战斗外旅行时，团队可以按快速、中速或慢速步调移动，详见旅行步调表。这张表格展现了队伍在一定时间内可以移动多远；如果骑乘了马或者其他坐骑，团队可以在一小时内移动双倍的给定距离，之后坐骑需要进行一次&amp;Reference[Short Rest]{短休}或&amp;Reference[Long Rest]{长休}，才能再次以这种加快的步调进行移动（参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}以获得一系列可购买的坐骑）。<em>《城主指南》</em>中还给出了一些有关在特定地形中可以选择哪些步调的规则。</p><table><caption>旅行步调 Travel Pace</caption><thead><tr><th colspan=\"4\">每…旅行的距离</th></tr><tr><th>步调</th><th>分钟</th><th>小时</th><th>天</th></tr></thead><tbody style=\"text-align:center\"><tr><td>快速</td><td>400 英尺</td><td>4 英里</td><td>30 英里</td></tr><tr><td>中速</td><td>300 英尺</td><td>3 英里</td><td>24 英里</td></tr><tr><td>慢速</td><td>200 英尺</td><td>2 英里</td><td>18 英里</td></tr></tbody></table><p>每一种旅行步调都有一种游戏效果，如下所述：</p><p><em><strong>快速。</strong></em>以快速步调旅行会对旅行者的感知（察觉或生存）与敏捷（隐匿）检定施加劣势。</p><p><em><strong>中速。</strong></em>以中速步调旅行会对敏捷（隐匿）检定施加劣势。</p><p><em><strong>慢速。</strong></em>以慢速步调旅行为感知（察觉或生存）检定提供优势。</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776328709639,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.LxNKnBjL1rx6MQUO"
+    },
+    {
+      "sort": 900000,
+      "name": "载具",
+      "type": "text",
+      "_id": "ETIKPy6ZKDgCpDI7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Vehicles</p><p>乘坐货车、客车或其他陆地载具的旅行者如常选择步调。乘坐水上船只的角色受限于该船只的速度，不能选择旅行步调。取决于船只与其船员规模，船只每天航行的时间或能长达 24 小时。@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}包含了可购买的载具。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776328715794,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.ETIKPy6ZKDgCpDI7"
+    },
+    {
+      "sort": 1000000,
+      "name": "探索实例",
+      "type": "text",
+      "_id": "6ZC6CV8tka2t08tx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Exploration Example</p><p>在本场景中，玩家深入调查了一处玄秘又险恶的地点。他们在这环境中穿行，并和遇到的东西互动。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.bKEMjE49kEM8ej5Z caption=false cite=false]</p><div class=\"space-around top\"><section class=\"social-example\"><p><em>角色们正在探索鸦阁城堡，DM 描述了他们刚进入的新房间。</em></p><p><span class=\"dm-entry\">杰瑞德（地下城主）：</span>壁炉中温暖的火光填满了这处房间。壁炉的一旁放着一根烧火棍，在火光中熠熠生辉。房间的墙壁上成列着古老的书本。一张巨大的油画装裱在沉重镀金的画框中，悬挂在了壁炉架上方。摇动的火光照亮了精心描绘的肖像画，画中人看上去与伊丽娜 · 考利安娜别无二致。</p><p><span class=\"player-entry\">菲利普（饰格劳兹）：</span>这个画看起来有好多年历史了？</p><p><span class=\"player-entry\">梅芙（饰米拉贝拉）：</span>架子上的书，我要去检查。</p><p><span class=\"dm-entry\">杰瑞德：</span>行。马上安排。拉赛尔、艾米，你们俩的角色打算做什么？</p><p><span class=\"player-entry\">拉赛尔（饰谢里夫）：</span>吾利刃出鞘，把守在门口，准备迎接危险。这地方如此诡异莫名！</p><p><span class=\"player-entry\">艾米 （饰奥罗）：</span>我要走近壁炉。温暖的火炉很不错，但我也时刻警惕着可能会出现的危险。</p><section class=\"highlighted\"><p><span class=\"footnote\">3</span></p><p><span class=\"dm-entry\">杰瑞德：</span>好嘞。菲利普，给看画的格劳兹过一次智力（历史）检定。</p><p><span class=\"player-entry\">菲利普：</span>安？我没历史熟练。都只能扔扔看——哦哟，20！结果是 20。</p></section><p><span class=\"dm-entry\">杰瑞德：</span>格劳兹在那幅画上发现了两处细节。首先，这个女人穿着的衣服并非这个时代的风格；其次，这幅画有些部分剥落，整幅画有着一层薄薄的烟熏痕迹。毫无疑问，你敢打包票这幅画已有数百年的历史。</p><p><span class=\"player-entry\">菲利普：</span>也就是说这可能是伊莉娜哩一位先祖？也可能是伊莉娜早就是吸血鬼咯，所谓“被施特拉德啃脖子”，就是一场阴谋诡计……</p><p><span class=\"dm-entry\">杰瑞德：</span>谁知道呢？好了，米拉贝拉确定要检查书本吗？</p><p><span class=\"player-entry\">梅芙</span><strong>：</strong>对，我随便从架子上抽一本出来。</p><p><span class=\"dm-entry\">杰瑞德：</span>你抽了本书，标题是以通用语写出的<em>《论神灵在天国与地狱中的居所》</em>。</p><p><span class=\"player-entry\">拉赛尔：</span>你刚编的？</p><p><span class=\"dm-entry\">杰瑞德：</span>你不知道！反正。米拉贝拉快速略读了一遍，发现这本书的内容十分学术，很难理解。</p><p><span class=\"player-entry\">梅芙：</span>好，另外一本，我换一下。</p><p><span class=\"dm-entry\">杰瑞德：</span>谢里夫和奥罗要做些什么别的事吗？</p><section class=\"highlighted\"><p><span class=\"footnote\">4</span></p><p><span class=\"player-entry\">艾米：</span>我要提溜那根拨火棍儿，扒拉壁炉里的木柴。</p><p><span class=\"dm-entry\">杰瑞德：</span>正当你拿起那根拨火棍儿时，一阵机关运转的声音传来，随后你看到壁炉后的墙壁向侧方滑开，露出了其后的隐藏房间！</p></section><p><span class=\"player-entry\">艾米：</span>“嘿，爷们儿！我寻摸到了些东西！”我能看见内个房间里有什么吗？</p><p><span class=\"dm-entry\">杰瑞德：</span>透过熊熊的炉火与烟幕，你能看到堆积如山的金币和宝箱。</p><section class=\"highlighted\"><p><span class=\"footnote\">5</span></p><p><span class=\"player-entry\">艾米：</span>有人能灭火吗？</p><p><span class=\"player-entry\">菲利普：</span>哈哈！我带了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.udKSYj0yFWyn8PSs]{造水／枯水术}</em>！我掏出圣徽，对着篝火就丢了一发造水。</p><p><span class=\"dm-entry\">杰瑞德：</span>这法术什么效果？</p><p><span class=\"player-entry\">菲利普：</span>介个法术以降雨的方式在一处 30 尺的立方区域扩下 10 加仑哩水，熄灭区域内的所有火焰。</p></section><section class=\"highlighted\"><p><span class=\"footnote\">6</span></p><p><span class=\"dm-entry\">杰瑞德：</span>好！这一招直接把火灭了。没有了壁炉的照明，你们只得回到谢里夫的那把剑所散发的魔法光照周围。它把你们几人的阴影打在外面墙上，但你可以透过萦绕的烟雾看到，在那密室中有着一个紧闭的宝箱，周围堆满了钱币。在东边墙上有两个火炬的支架。靠南边的那个支架上面装着一个有着精细复杂金属底座的火炬，另一个支架则是空的。一具穿着破损板甲的骷髅斜靠在墙上。骷髅的右手放在了自己的喉咙上，左手则抓着和空支架相配的火炬。</p></section><p><span class=\"player-entry\">艾米：</span>我看看宝箱！</p><p><span class=\"dm-entry\">杰瑞德：</span>其他人打算做什么？</p><p><span class=\"player-entry\">菲利普：</span>格劳兹钻进暗室检查一下那个骨架架。</p><p><span class=\"player-entry\">梅芙：</span>我守在旁边，就壁炉那。</p><p><span class=\"player-entry\">拉赛尔：</span>我继续守在大门口。</p><p><span class=\"dm-entry\">杰瑞德：</span>宝箱的优雅配件和爪状的箱座都证明了它的精巧程度。</p><section class=\"highlighted\"><p><span class=\"footnote\">7</span></p><p><span class=\"player-entry\">艾米：</span>我试试开箱。它锁上了吗？</p><p><span class=\"dm-entry\">杰瑞德：</span>宝箱没锁，你轻易便打开了它——随后便是从宝箱里扑面而来的甜味毒气。</p><p><span class=\"player-entry\">艾米：</span>嘚~。</p><p><span class=\"dm-entry\">杰瑞德：</span>嘿嘿，奥罗和格劳兹过个体质豁免。</p><p><span class=\"player-entry\">艾米：</span>菲利普，对不住了您呐！唉，结果 8。</p><p><span class=\"player-entry\">菲利普：</span>格劳兹的是 5。</p><p><span class=\"dm-entry\">杰瑞德：</span>你们吸入了毒气，颤栗感爬上了你们的躯体，令二人僵在原地。你们陷入麻痹状态！</p></section></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><strong>关注每个人。</strong>探索没有固定的结局；玩家们无需在探索地城的过程中像战斗中一样依回合顺序行动。但 DM 仍需时刻关注玩家以确认大伙儿都明白玩家们正在哪和正在做什么。</p></aside><aside class=\"callout-border\"><p><strong>团队合作。</strong>玩家们需要合作以达成目标。他们需要在地城中一起行动，并协力对抗挑战。当角色们进入一处房间时，他们分别探索房间的不同部分。在后面的例子中，奥罗发现了壁炉后的密门，玩家们便聚在一起一同调查它，而格劳兹熄灭了火焰，制造了道路。虽然拉赛尔的角色看起来什么都没有做——但这是因为他正在门口警戒保卫整个团队。</p></aside><aside class=\"callout-border\"><p><strong>尝试掷骰并非必须熟练。</strong>通常来说，即使是一次你不具备熟练的相关属性检定也是有可能成功的。本段实例中，菲利普没有熟练，但扔出了 20。D20 为游戏带来了许多惊喜——请看 DM 接下来的解说。<span class=\"footnote\">3</span></p></aside><aside class=\"callout-border\"><p><strong>寻找隐藏物件。</strong>冒险环境中往往充满了秘密：陷阱，密门，会坠落的地板，甚至是隐藏的宝藏。角色通常需要感知检定来找到这些事物（详见术语汇编中的&amp;Reference[Search]{搜索}动作）。但有的时候，玩家也可能意外发现这些事物，就像奥罗在本段中所作的一样。<span class=\"footnote\">4</span></p></aside><aside class=\"callout-border\"><p><strong>施展法术。</strong>许多角色都能施法并以此产生种类繁多的效果。一些造成伤害或状态的法术在战斗中最为有效，而其它法术则可在探索中利用。如果你正在扮演一位施法者，请注意所选法术中战斗法术和非战斗法术的分配，以确保能应对多种多样的挑战。<span class=\"footnote\">5</span></p></aside><aside class=\"callout-border\"><p><strong>牢记你的法术！</strong>在施法之前记得打开你的玩家手册，翻到法术详述章节，找到你要使用的法术。不要指望你的 DM 能牢记你所有法术的运作方式，你需要回答 DM 关于你使用的法术的任何疑问。</p></aside><aside class=\"callout-border\"><p><strong>视野与光照。</strong>DM 决定冒险者能观察到什么，这需要去关注光源（如本段中谢里夫手中发光的剑），还有能造成遮蔽的事物，比如烟云与雾气。（详见本章节前面“@UUID[.j39OCLFX4okynRIO]{视野与光照}”）。<span class=\"footnote\">6</span></p></aside><aside class=\"callout-border\"><p><strong>豁免检定。</strong>当一个生物需要决定其是否能避开或抵抗住某些事物时，就需要进行一次豁免检定。当箱子被打开，毒气释放而出时，菲利普和艾米的角色进行了体质豁免。体质是反映生物能力的六属性之一，代表了生物的健康程度与耐力水平。这两名角色豁免失败了，所以毒气令他们陷入了麻痹状态（详见本章下文的“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.k7HhEjwYRJoZmKIa]{状态}”）。<span class=\"footnote\">7</span></p></aside></section></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776328748577,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tGy1sl7Fh0VYA6RO.6ZC6CV8tka2t08tx"
+    }
+  ],
+  "folder": "p8SY9DO0Sa6MXGuM",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 2,
+      "order": 400400,
+      "navigation": {
+        "previous": "8MCZGEL3lF3DSjJb",
+        "next": "l1pw74allEfZFTaY"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727590893427,
+    "modifiedTime": 1776327296251,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "tGy1sl7Fh0VYA6RO",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!tGy1sl7Fh0VYA6RO"
+}

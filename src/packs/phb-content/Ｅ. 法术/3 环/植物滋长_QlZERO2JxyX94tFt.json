@@ -1,0 +1,218 @@
+{
+  "name": "植物滋长",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_plant-growth.webp",
+  "system": {
+    "activities": {
+      "KaEeZRNmvX2tflUV": {
+        "type": "utility",
+        "name": "繁茂",
+        "_id": "KaEeZRNmvX2tflUV",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "100",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "VCG4RBHRCLi13IMb": {
+        "type": "utility",
+        "name": "丰产",
+        "_id": "VCG4RBHRCLi13IMb",
+        "sort": 0,
+        "activation": {
+          "type": "hour",
+          "value": 8,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "year",
+          "concentration": false,
+          "override": true,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "mi",
+          "special": "",
+          "value": "0.5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>该法术将活力引导给特定区域中的植物。本法术的施法时间取决于你选择下述效应之一：繁茂（动作）或丰产（8 小时）。</p><p><em><strong>繁茂。</strong></em>你指定施法距离内一点，距该点 100 尺半径的球状范围内的普通植物将变得粗壮繁茂。一名穿过该区域的生物每移动 1 尺必须花费 4 尺移动力。你可以在该法术范围内空出一块或多块任意大小的区域，使其排除在法术效应影响之外。</p><p><em><strong>丰产。</strong></em>你指定施法距离内一点，距该点半里内的植物的产量将在 365 日内被强化。这些植物收获时将产出两倍于正常产量的作物。这些植物每年仅能从一道<em>植物滋长</em>中获益。</p><p class=\"item-original\">Plant Growth</p>",
+      "chat": ""
+    },
+    "identifier": "plant-growth",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "special",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 3,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "150"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194978398,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "QlZERO2JxyX94tFt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!QlZERO2JxyX94tFt"
+}

@@ -1,0 +1,171 @@
+{
+  "name": "哀惧灵袭",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_dreadful-strikes.webp",
+  "system": {
+    "activities": {
+      "fqhuUsW7t5GAvgcC": {
+        "type": "damage",
+        "_id": "fqhuUsW7t5GAvgcC",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.dreadful-strikes.damage"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你能够使用来自妖精荒野中黑暗空洞的摄心魔法以强化你的武器攻击。当你用一把武器击中一个生物时，你可以对目标造成额外的 1d4 点心灵伤害。每个生物在每个回合只能够受到这一额外伤害一次。</p><p>你的游侠等级达到 11 级时，这一额外伤害变为 1d6。</p><p class=\"item-original\">Dreadful Strikes</p>",
+      "chat": ""
+    },
+    "identifier": "dreadful-strikes",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "妖精漫游者",
+    "advancement": [
+      {
+        "_id": "4Gg959OnKPJYv15U",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "damage",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 4,
+              "modifiers": []
+            },
+            "11": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "哀惧灵袭：伤害骰",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777651822375,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "796rDeSlpBYwyPlC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!796rDeSlpBYwyPlC"
+}

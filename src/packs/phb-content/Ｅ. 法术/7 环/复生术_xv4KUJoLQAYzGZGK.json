@@ -1,0 +1,465 @@
+{
+  "name": "复生术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_resurrection.webp",
+  "system": {
+    "activities": {
+      "ovVBrXwSnQACLzmO": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "ovVBrXwSnQACLzmO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "P0HqqDMcIZ0AhLky"
+          },
+          {
+            "_id": "qV34bPNNYDP54d97"
+          },
+          {
+            "_id": "ATiYkhpRj0ULJSA0"
+          },
+          {
+            "_id": "P8tTq5eTFubdccER"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "ATiYkhpRj0ULJSA0",
+          "qV34bPNNYDP54d97",
+          "P0HqqDMcIZ0AhLky",
+          "P8tTq5eTFubdccER"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一名已死，但死亡时间不超过 100 年，并非死于年老，且死亡时并不是亡灵的生物，使其回生。</p><p>生物以生命值全满的状态重生。该法术同样会中和在该生物死亡时仍在生效的毒素。该法术能治愈所有致命伤，恢复所有失去的身体部位。</p><p>死而复生是一个痛苦的体验。目标进行 D20 检定时具有 −4 减值。目标每完成一次长休，其减值就减少 1，直至减值变为 0。</p><p>使用该法术复活一名已死去 365 日或更久的生物会使你耗费大量精力。在完成一次长休前，你将无法再施展任何法术，且此时你进行的一切&amp;Reference[D20 Test]{D20 检定}具有劣势。</p><p class=\"item-original\">Resurrection</p>",
+      "chat": ""
+    },
+    "identifier": "resurrection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 7,
+    "materials": {
+      "value": "一颗价值至少 1000 GP 的钻石，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "还魂虚弱 (Ⅰ)",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_negative.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.xv4KUJoLQAYzGZGK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.check",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在进行 D20 检定时具有 −1 减值。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733479121652,
+        "modifiedTime": 1735409759925,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "P8tTq5eTFubdccER",
+      "_key": "!items.effects!xv4KUJoLQAYzGZGK.P8tTq5eTFubdccER"
+    },
+    {
+      "name": "还魂虚弱 (Ⅱ)",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_negative.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.xv4KUJoLQAYzGZGK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.check",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在进行 D20 检定时具有 −1 减值。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733479122440,
+        "modifiedTime": 1735409763722,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "ATiYkhpRj0ULJSA0",
+      "_key": "!items.effects!xv4KUJoLQAYzGZGK.ATiYkhpRj0ULJSA0"
+    },
+    {
+      "name": "还魂虚弱 (Ⅲ)",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_negative.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.xv4KUJoLQAYzGZGK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.check",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在进行 D20 检定时具有 −1 减值。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733479123187,
+        "modifiedTime": 1735409767068,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "qV34bPNNYDP54d97",
+      "_key": "!items.effects!xv4KUJoLQAYzGZGK.qV34bPNNYDP54d97"
+    },
+    {
+      "name": "还魂虚弱 (Ⅳ)",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_negative.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.xv4KUJoLQAYzGZGK",
+      "transfer": false,
+      "_id": "P0HqqDMcIZ0AhLky",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.check",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "- 1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在进行 D20 检定时具有 −1 减值。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733479123772,
+        "modifiedTime": 1735409769869,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!xv4KUJoLQAYzGZGK.P0HqqDMcIZ0AhLky"
+    }
+  ],
+  "folder": "ZD0tLDJB0ruk4NDz",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195027566,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xv4KUJoLQAYzGZGK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!xv4KUJoLQAYzGZGK"
+}

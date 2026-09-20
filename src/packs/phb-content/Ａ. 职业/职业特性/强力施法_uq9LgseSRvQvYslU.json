@@ -1,0 +1,190 @@
+{
+  "name": "强力施法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp",
+  "system": {
+    "activities": {
+      "xwmspr2JIOxzvxrA": {
+        "type": "enchant",
+        "_id": "xwmspr2JIOxzvxrA",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "8Fff4y3zDTAlp1fR"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "8Fff4y3zDTAlp1fR"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将你的感知调整值加在你的以德鲁伊戏法造成的伤害上。</p><p>在你 15 级获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RE2RPXhCrCj9PsIe]{元素神威}特性后，适用以下效应。</p><p><em><strong>元素神威。</strong></em>当你施展一个施法距离为 10 尺及以上的德鲁伊戏法时，法术施法距离提升 300 尺。</p><p class=\"item-original\">Potent Spellcasting</p><section class=\"dc7-note\"><p>将此附魔添加至你的德鲁伊戏法以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "potent-spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "德鲁伊"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "强力施法",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp",
+      "disabled": true,
+      "_id": "8Fff4y3zDTAlp1fR",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.bonus",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "<p><strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uq9LgseSRvQvYslU]{强力施法。}</strong>你将你的感知调整值加在你的以德鲁伊戏法造成的伤害上。</p>",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1758427355136,
+        "modifiedTime": 1758427411404,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!uq9LgseSRvQvYslU.8Fff4y3zDTAlp1fR"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758427719076,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "uq9LgseSRvQvYslU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!uq9LgseSRvQvYslU"
+}

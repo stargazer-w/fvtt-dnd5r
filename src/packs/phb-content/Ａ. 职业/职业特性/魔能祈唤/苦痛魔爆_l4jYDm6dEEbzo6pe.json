@@ -1,0 +1,190 @@
+{
+  "name": "苦痛魔爆",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_agonizing-blast.webp",
+  "system": {
+    "activities": {
+      "N0iR4ffKVCiuNla4": {
+        "type": "enchant",
+        "_id": "N0iR4ffKVCiuNla4",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "jWRUOfacqutuqqOq"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "jWRUOfacqutuqqOq"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>先决条件：2 级或更高的魔契师等级，已知一道造成伤害的魔契师戏法</em></p><p>选择一道你已知的造成伤害的魔契师戏法。你可以将你的魅力调整值加到该法术的每次伤害投掷中。</p><p><em><strong>可复选。</strong></em>你可以多次选择本祈唤。每次这么做时，你都必须选择不同的戏法。</p><p class=\"item-original\">Agonizing Blast</p><section class=\"dc7-note\"><p>将此附魔添加至你自选的戏法以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "agonizing-blast",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 2
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "苦痛魔爆",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_agonizing-blast.webp",
+      "disabled": true,
+      "_id": "jWRUOfacqutuqqOq",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.bonus",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "<p><strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.l4jYDm6dEEbzo6pe]{苦痛魔爆。}</strong>你可以将你的魅力调整值加到该法术的每次伤害投掷中。</p>",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1758426000616,
+        "modifiedTime": 1758426845044,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!l4jYDm6dEEbzo6pe.jWRUOfacqutuqqOq"
+    }
+  ],
+  "folder": "f9yywRtYz5SQ4oUW",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758427631691,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "l4jYDm6dEEbzo6pe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!l4jYDm6dEEbzo6pe"
+}

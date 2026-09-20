@@ -1,0 +1,143 @@
+{
+  "name": "李欧蒙秘藏箱",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_leomunds-secret-chest.webp",
+  "system": {
+    "activities": {
+      "n7EMwcU83Y4vzv4d": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "n7EMwcU83Y4vzv4d",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将一个箱子及其内容物藏在以太位面。你必须同时接触箱子和作为法术材料成分的微缩模型。箱子最多可容纳 12 立方尺的非活体物质（3 × 2 × 2 尺）。</p><p>箱子处于以太位面时，你可以用一个&amp;Reference[Magic]{魔法}动作并触碰箱子的模型来召回箱子。箱子出现在你 5 尺内一个未被占据空间的地面。随后，你可以使用一个&amp;Reference[Magic]{魔法}动作并同时触碰箱子与复制品来把箱子送回以太位面。</p><p>60 日之后，法术的效应会每日累计 5% 的概率自动结束。如果你再次施展该法术或箱子的模型被摧毁，又或者以一个动作终止该法术时，该法术的效应将随之终止。如果法术终止时箱子处于以太界，则其留在那里以被你或者其他人找到。</p><p class=\"item-original\">Leomund's Secret Chest</p>",
+      "chat": ""
+    },
+    "identifier": "leomunds-secret-chest",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "disp"
+    },
+    "level": 4,
+    "materials": {
+      "value": "一个 3 × 2 × 2 尺，由稀有材料制成的箱子价值至少 5000 GP；以及由同样材料制成的一个箱子的微缩模型价值至少 50 GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "9KxTNszcWXRDBIoq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194968826,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "K3KV547b2kRFamY6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!K3KV547b2kRFamY6"
+}

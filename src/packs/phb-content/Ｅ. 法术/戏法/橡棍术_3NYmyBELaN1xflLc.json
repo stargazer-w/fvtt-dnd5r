@@ -1,0 +1,535 @@
+{
+  "name": "橡棍术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+  "system": {
+    "activities": {
+      "J7BhDqJAyHtxqqOt": {
+        "type": "enchant",
+        "name": "施法",
+        "_id": "J7BhDqJAyHtxqqOt",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "56TlQgiAMEENQeoN",
+            "level": {
+              "min": 1,
+              "max": 4
+            },
+            "riders": {
+              "activity": [
+                "xKpxWLOTyClgePuK"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "9SKZmd9TT44CHQfe",
+            "level": {
+              "min": 5,
+              "max": 11
+            },
+            "riders": {
+              "activity": [
+                "xKpxWLOTyClgePuK"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "rJPW5ijnMrRUphld",
+            "level": {
+              "min": 11,
+              "max": 16
+            },
+            "riders": {
+              "activity": [
+                "xKpxWLOTyClgePuK"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "bdspyF4ErN3QvxWj",
+            "level": {
+              "min": 17,
+              "max": 20
+            },
+            "riders": {
+              "activity": [
+                "xKpxWLOTyClgePuK"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {},
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [
+            "simpleM"
+          ],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "56TlQgiAMEENQeoN",
+          "9SKZmd9TT44CHQfe",
+          "rJPW5ijnMrRUphld",
+          "bdspyF4ErN3QvxWj"
+        ]
+      },
+      "xKpxWLOTyClgePuK": {
+        "type": "attack",
+        "name": "近战法术攻击",
+        "_id": "xKpxWLOTyClgePuK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          },
+          "ability": "spellcasting",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将自然之力灌入手中持握的一根短棒或长棍中。你在法术持续时间内使用该武器进行近战攻击时，可以用你的施法属性值代替力量值来进行攻击检定和伤害掷骰，且该武器的伤害骰变为 d8。如果该攻击造成伤害，你可以选择它造成力场伤害或是该武器原本的伤害类型。你再次施展该法术或丢掉该武器时，该法术也随之终止。</p><p><em><strong>戏法升级。</strong></em>该武器的的伤害骰会在你达到下列等级时改变：5 级（d10）、11 级（d12）以及 17 级（2d6）。</p><p class=\"item-original\">Shillelagh</p>",
+      "chat": ""
+    },
+    "identifier": "shillelagh",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 0,
+    "materials": {
+      "value": "槲寄生",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "橡棍术（等级 1）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+      "disabled": false,
+      "_id": "56TlQgiAMEENQeoN",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.base.denomination",
+          "mode": 5,
+          "value": "8",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.number",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "橡棍术, {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732360762363,
+        "modifiedTime": 1732366599920,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!3NYmyBELaN1xflLc.56TlQgiAMEENQeoN"
+    },
+    {
+      "type": "enchantment",
+      "name": "橡棍术（等级 5）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+      "disabled": false,
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.base.denomination",
+          "mode": 5,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.number",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "橡棍术, {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732361273264,
+        "modifiedTime": 1732366609753,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "9SKZmd9TT44CHQfe",
+      "_key": "!items.effects!3NYmyBELaN1xflLc.9SKZmd9TT44CHQfe"
+    },
+    {
+      "type": "enchantment",
+      "name": "橡棍术（等级 11）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+      "disabled": false,
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.base.denomination",
+          "mode": 5,
+          "value": "12",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.number",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "橡棍术, {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732361304696,
+        "modifiedTime": 1732366603204,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "rJPW5ijnMrRUphld",
+      "_key": "!items.effects!3NYmyBELaN1xflLc.rJPW5ijnMrRUphld"
+    },
+    {
+      "type": "enchantment",
+      "name": "橡棍术（等级 17）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shillelagh.webp",
+      "disabled": false,
+      "system": {},
+      "changes": [
+        {
+          "key": "system.damage.base.denomination",
+          "mode": 5,
+          "value": "6",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.number",
+          "mode": 5,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "橡棍术, {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732361318890,
+        "modifiedTime": 1732366606245,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "bdspyF4ErN3QvxWj",
+      "_key": "!items.effects!3NYmyBELaN1xflLc.bdspyF4ErN3QvxWj"
+    }
+  ],
+  "folder": "9tUoSBG1a65wcO1T",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "xKpxWLOTyClgePuK"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194943152,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "3NYmyBELaN1xflLc",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3NYmyBELaN1xflLc"
+}

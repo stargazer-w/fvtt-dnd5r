@@ -1,0 +1,61 @@
+{
+  "name": "星光蓝宝石",
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_blue-sapphire.webp",
+  "system": {
+    "description": {
+      "value": "<p>中心为白色星形的蓝宝石。</p><p class=\"item-original\">Star sapphire</p>",
+      "chat": ""
+    },
+    "identifier": "star-sapphire",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1000,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gem",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "I7X7mq90mDgj1U1L",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750771368340,
+    "modifiedTime": 1758199231881,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "yLkDG7cMp9k3f2XL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!yLkDG7cMp9k3f2XL"
+}

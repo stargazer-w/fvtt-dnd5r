@@ -1,0 +1,265 @@
+{
+  "name": "安定心神",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_calm-emotions.webp",
+  "system": {
+    "activities": {
+      "FvpUCnm3bmyviE6l": {
+        "type": "save",
+        "name": "施法",
+        "_id": "FvpUCnm3bmyviE6l",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sGJWDXBTfPqtfyIV",
+            "onSave": false
+          },
+          {
+            "_id": "xyovw6ayFssR05Jc",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你指定施法距离内一点，以该点为源点半径 20 尺球状区域内的每个类人生物必须成功通过一次[[/save]]{魅力豁免}，否则将由你选择以下两项效应之一对其生效（分别为每个生物选择）。</p><ul><li><p>直到法术结束，该生物免疫魅惑和恐慌状态。如果该生物已经陷入魅惑或恐慌状态，则这些状态在持续时间内被压制。</p></li><li><p>该生物对你选择的之前&amp;Reference[Hostile]{敌对}的生物态度变为&amp;Reference[Indifferent]{冷漠}。该冷漠态度持续到目标受到伤害或者看到自己的盟友受到伤害。当法术结束时，该生物恢复到原本的态度。</p></li></ul><p class=\"item-original\">Calm Emotions</p>",
+      "chat": ""
+    },
+    "identifier": "calm-emotions",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "sphere",
+        "size": "20",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "平静",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_calm-emotions.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Ia8YiW3kof5cdtTf",
+      "transfer": false,
+      "_id": "sGJWDXBTfPqtfyIV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>在法术持续期间，你免疫魅惑和恐慌状态。如果你已经陷入魅惑或恐慌状态，这些状态会在持续时间内被压制。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732421506899,
+        "modifiedTime": 1734766932690,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Ia8YiW3kof5cdtTf.sGJWDXBTfPqtfyIV"
+    },
+    {
+      "name": "冷漠",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_calm-emotions.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Ia8YiW3kof5cdtTf",
+      "transfer": false,
+      "_id": "xyovw6ayFssR05Jc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你对施法者选择的之前对你敌对的生物态度变为冷漠。这种冷漠态度会持续，直到你受到伤害，或者看到你的盟友受到伤害。</p><p>当法术结束时，你的态度将恢复到原本的状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732421622304,
+        "modifiedTime": 1734766974553,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Ia8YiW3kof5cdtTf.xyovw6ayFssR05Jc"
+    }
+  ],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758536091218,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Ia8YiW3kof5cdtTf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Ia8YiW3kof5cdtTf"
+}

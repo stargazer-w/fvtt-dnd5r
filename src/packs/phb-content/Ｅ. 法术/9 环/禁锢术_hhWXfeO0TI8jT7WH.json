@@ -1,0 +1,624 @@
+{
+  "name": "禁锢术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+  "system": {
+    "activities": {
+      "Ivbv6H1GPf2Q08Qo": {
+        "type": "save",
+        "name": "埋葬",
+        "_id": "Ivbv6H1GPf2Q08Qo",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "XntIceQFsVNfrpyF",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "DmiVXMnEIG3ZViY9": {
+        "type": "save",
+        "name": "锁链",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "MWGMfTRKlXKSATFE",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "DmiVXMnEIG3ZViY9",
+        "img": "",
+        "appliedEffects": []
+      },
+      "VoiiEWWxkslulVC1": {
+        "type": "save",
+        "name": "避世监牢",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "8XtqB77i2bhpwsbK",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "VoiiEWWxkslulVC1",
+        "img": "",
+        "appliedEffects": []
+      },
+      "2kMVKve9yAjmvXtC": {
+        "type": "save",
+        "name": "微缩牢笼",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "RdNsq8v6qIqfKpef",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "2kMVKve9yAjmvXtC",
+        "img": "",
+        "appliedEffects": []
+      },
+      "eUQOcP3ZzZz2cl2K": {
+        "type": "save",
+        "name": "沉睡",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "YIeowQO4KTobLvyY",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "eUQOcP3ZzZz2cl2K",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你创造一个魔法监牢，将施法距离内一个你能看见的生物监禁于其内。目标必须进行一次[[/save]]{感知豁免}，豁免失败则被该法术禁锢；成功通过豁免的生物不受影响，并且在 24 小时内对该法术免疫。被该法术禁锢时，目标生物不需要呼吸，不需要吃喝，也不会变老。预言法术无法定位或感知到该目标，并且目标生物不能传送。</p><p>你可以从以下选择一种效果，使受术目标在法术结束之前必须承受：</p><p><strong>埋葬。</strong>目标被深埋在地表以下的球体魔法力场内，其大小刚好能包覆住目标。任何事物均无法穿过该球体。</p><p><strong>锁链。</strong>沉重的锁链牢固地深植于大地，将目标禁锢在原地。目标承受&amp;Reference[restrained]{束缚}状态，其间它不能移动或以任何方式被移动。</p><p><strong>避世监牢。</strong> 该法术将目标传送至一个隔绝了传送和位面旅行的小型半位面。该半位面可以是一个迷宫，一间牢房，一座塔楼，或是任意由你选择的幽闭建筑或区域。</p><p><strong>微缩牢笼。</strong> 目标被缩小到 1 寸高，并囚禁于一块宝石或是类似的物件里。光线可以正常地穿透宝石（这让目标可以看到外面，其他生物也可以看到里面），但其他任何事物均无法在任何意义上出入。</p><p><strong>沉睡。</strong>目标陷入&amp;Reference[unconscious]{昏迷}状态且无法被唤醒。</p><p><em><strong>终止法术。</strong></em>当你施展法术时，需要设定一个使法术终止并释放目标的条件。此条件可以按你的意愿设定其明确或复杂的程度，但必须经由 DM 认可该条件在未来十年内有较高可能性发生。该条件必须是一个可观测的行为，例如某人在你信仰的神庙内献上了一份特殊的祭品，某人拯救了你的真爱，或者是某人击败了一个特定的怪物。</p><p>法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>可以终止该法术，但只有使用 9 环法术位并针对监牢或针对创造监牢效果的特殊物质施展时才有效。</p><p class=\"item-original\">Imprisonment</p>",
+      "chat": ""
+    },
+    "identifier": "imprisonment",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "disp"
+    },
+    "level": 9,
+    "materials": {
+      "value": "一个价值至少 5000 GP 的与目标相似的小雕像",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "埋葬",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.hhWXfeO0TI8jT7WH",
+      "transfer": false,
+      "_id": "XntIceQFsVNfrpyF",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你被深埋在地表以下的球体魔法力场内。任何事物均无法穿过该球体。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "burrowing"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733478582360,
+        "modifiedTime": 1734847429651,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!hhWXfeO0TI8jT7WH.XntIceQFsVNfrpyF"
+    },
+    {
+      "name": "锁链",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.hhWXfeO0TI8jT7WH",
+      "transfer": false,
+      "_id": "MWGMfTRKlXKSATFE",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>沉重的锁链牢固地深植于大地，将你禁锢在原地。你陷入&amp;Reference[restrained]{束缚}状态，其间不能移动或以任何方式被移动。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733478633264,
+        "modifiedTime": 1734847460192,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!hhWXfeO0TI8jT7WH.MWGMfTRKlXKSATFE"
+    },
+    {
+      "name": "避世监牢",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.hhWXfeO0TI8jT7WH",
+      "transfer": false,
+      "_id": "8XtqB77i2bhpwsbK",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你被传送至一个隔绝了传送效应和位面旅行的小型半位面。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "marked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733478661978,
+        "modifiedTime": 1734847496720,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!hhWXfeO0TI8jT7WH.8XtqB77i2bhpwsbK"
+    },
+    {
+      "name": "微缩牢笼",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.hhWXfeO0TI8jT7WH",
+      "transfer": false,
+      "_id": "RdNsq8v6qIqfKpef",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你被缩小至 1 寸高，并囚禁于作为牢笼的物件中。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "marked"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733478721834,
+        "modifiedTime": 1734847584400,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!hhWXfeO0TI8jT7WH.RdNsq8v6qIqfKpef"
+    },
+    {
+      "name": "沉睡",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_imprisonment.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.hhWXfeO0TI8jT7WH",
+      "transfer": false,
+      "_id": "YIeowQO4KTobLvyY",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[unconscious]{昏迷}状态且无法被唤醒。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "unconscious"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733478744330,
+        "modifiedTime": 1734847604835,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!hhWXfeO0TI8jT7WH.YIeowQO4KTobLvyY"
+    }
+  ],
+  "folder": "lyf0iwRTDbyfgEeq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535260216,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "hhWXfeO0TI8jT7WH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!hhWXfeO0TI8jT7WH"
+}

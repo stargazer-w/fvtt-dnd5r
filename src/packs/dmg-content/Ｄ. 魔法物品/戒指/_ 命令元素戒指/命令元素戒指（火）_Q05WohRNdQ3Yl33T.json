@@ -1,0 +1,542 @@
+{
+  "name": "命令元素戒指（火）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_RING_ring-of-elemental-command_fire.webp",
+  "system": {
+    "activities": {
+      "DrO6xE5otI52zEnD": {
+        "type": "save",
+        "name": "元素强令",
+        "_id": "DrO6xE5otI52zEnD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "元素强令"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "5gnVYhsfbTl4Tb0l"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "18"
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "mYf6wBZtmmZCvUFO": {
+        "type": "cast",
+        "_id": "mYf6wBZtmmZCvUFO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "1",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "WmImcaBLqtO7NCc5": {
+        "type": "cast",
+        "_id": "WmImcaBLqtO7NCc5",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": "3",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "vfSpBtqNsYYKfyUI": {
+        "type": "cast",
+        "_id": "vfSpBtqNsYYKfyUI",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "YMy9mLDmIFZz05w4": {
+        "type": "cast",
+        "_id": "YMy9mLDmIFZz05w4",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "4",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1WpU2I7Fm35TkL8l",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d4 + 1"
+        }
+      ],
+      "max": "5"
+    },
+    "description": {
+      "value": "<p><em>戒指，传说（需同调）</em></p><p>命令元素戒指具有以下两种词条：</p><p><strong>元素灾厄。</strong>着装戒指期间，你对元素的攻击检定具有优势，且元素对你的攻击具有劣势。</p><p><strong>元素强令。</strong>着装戒指期间，你可以执行&amp;Reference[Magic]{魔法}动作来尝试强迫一个可见的，位于你 60 尺内的元素服从于你。该元素进行一次[[/save format=long]]。豁免失败时，该元素直到你的下个回合开始前陷入&amp;Reference[charmed]{魅惑}状态，且你决定其下一回合进行的的移动和动作。</p><p><em><strong>元素集中。</strong></em>着装戒指期间，你受益于与该戒指连接的元素位面对应的额外词条：</p><p><strong>火。</strong>你理解火族语，你对火焰伤害具有免疫。</p><p><em><strong>施法。</strong></em>这枚戒指具有 5 充能，并在每日黎明时重获 1d4 + 1 已消耗的充能。着装戒指期间，你可以从中施展下列法术。施展相应法术所需的充能数如该表所示，法术的豁免 DC 为 18。</p><table><thead><tr></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4]{燃烧之手}</em>（1 充能）</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw]{火墙术}</em>（3 充能）</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>（2 充能）</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1WpU2I7Fm35TkL8l]{火焰风暴}</em>（4 充能）</td></tr></tbody></table><p class=\"item-original\">Ring of Elemental Command</p>",
+      "chat": ""
+    },
+    "identifier": "ring-of-elemental-command",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "ring",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": 0,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "受命",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.Q05WohRNdQ3Yl33T",
+      "transfer": false,
+      "_id": "5gnVYhsfbTl4Tb0l",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[charmed]{魅惑}状态，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751991954921,
+        "modifiedTime": 1751992052069,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Q05WohRNdQ3Yl33T.5gnVYhsfbTl4Tb0l"
+    },
+    {
+      "name": "元素集中",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_fire.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.Q05WohRNdQ3Yl33T",
+      "_id": "XUoRqlPcpqSfWPSS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.languages.value",
+          "mode": 2,
+          "value": "ignan",
+          "priority": null
+        },
+        {
+          "key": "system.traits.di.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751992086957,
+        "modifiedTime": 1751992186845,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Q05WohRNdQ3Yl33T.XUoRqlPcpqSfWPSS"
+    }
+  ],
+  "folder": "7F2Ot2pr6VsgjpFB",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751991869168,
+    "modifiedTime": 1758464733312,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Q05WohRNdQ3Yl33T",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!Q05WohRNdQ3Yl33T"
+}

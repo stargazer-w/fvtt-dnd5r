@@ -1,0 +1,128 @@
+{
+  "name": "领航工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>感知　　　<strong>重量：</strong>2 磅</p><p><strong>操作：</strong>计划路线（DC 10），或通过观星判断位置（DC 15）</p><p class=\"item-original\">Navigator's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "",
+      "baseItem": "navg"
+    },
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "SNwHLDlaDgoUbBdc": {
+        "type": "check",
+        "_id": "SNwHLDlaDgoUbBdc",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "navigators-tools"
+  },
+  "type": "tool",
+  "folder": "GdxYMawvxybALCny",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_other_navigators-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758194996352,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "e9p3FGMHGa0QDa5X",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!e9p3FGMHGa0QDa5X"
+}

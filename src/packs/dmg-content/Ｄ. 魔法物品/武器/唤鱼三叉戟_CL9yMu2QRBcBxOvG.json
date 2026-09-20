@@ -1,0 +1,253 @@
+{
+  "name": "唤鱼三叉戟",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_trident-of-fish-command.webp",
+  "system": {
+    "activities": {
+      "2HruZPxftG2snBwd": {
+        "_id": "2HruZPxftG2snBwd",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      },
+      "7BixFB2CxhFmjUbe": {
+        "type": "cast",
+        "_id": "7BixFB2CxhFmjUbe",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jKpkUfkgThZ3IQ8B",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ivJmL2nAr1KWOPQf]{三叉戟}），非普通（需同调）</em></p><p>这把魔法武器具有 3 充能，并在每日黎明时重获 1d3 已消耗的充能。当你携带这把武器时，你可以消耗 1 充能对一只具有游泳速度的野兽施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jKpkUfkgThZ3IQ8B]{支配野兽}</em>（豁免 DC 15）。</p><p class=\"item-original\">Trident of Fish Command</p>",
+      "chat": ""
+    },
+    "identifier": "trident-of-fish-command",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "martialM",
+      "baseItem": "trident"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [
+          "piercing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "ver",
+      "mgc",
+      "thr"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 20,
+      "long": 60,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "topple"
+  },
+  "effects": [],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752322647223,
+    "modifiedTime": 1758199213177,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "CL9yMu2QRBcBxOvG",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!CL9yMu2QRBcBxOvG"
+}

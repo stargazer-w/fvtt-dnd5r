@@ -1,0 +1,316 @@
+{
+  "name": "灵体卫士",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_spirit-guardians.webp",
+  "system": {
+    "activities": {
+      "OnmnQ0rz6gH2SgAa": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "OnmnQ0rz6gH2SgAa",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "P4eWM5J0RnUN6Bg9": {
+        "type": "save",
+        "name": "灵光豁免",
+        "_id": "P4eWM5J0RnUN6Bg9",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "kE1hdQt3UgzccIkX",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic",
+                "radiant"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": [
+          "kE1hdQt3UgzccIkX"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在法术持续时间内，保护性的灵体环绕在你的周围 15 尺灵光范围内飞舞。如果你属于善良或中立阵营，则它们飘渺的身形看起来像是天使或精类生物（由你选择）。如果你属于邪恶阵营，则它们将形如邪魔。</p><p>施展此法术时，你可以指定特定生物让其不受该法术影响。除此之外的生物在灵光区域内将受法术影响导致速度被减半。当灵光进入一个生物的空间、一个生物进入灵光或在灵光内结束回合时，其必须进行一次[[/save]]{感知豁免}。豁免失败将受到 3d8 点光耀伤害（如果你属于善良或中立）或 3d8 点黯蚀伤害（如果你属于邪恶），豁免成功则只受到半数伤害。一名生物一回合仅需进行一次该豁免。</p><p><em><strong>升环施法。</strong></em>使用高于 3 环的法术位施展该法术时，你使用的法术位每比 3 环高一环，法术的伤害就增加 1d8。</p><p class=\"item-original\">Spirit Guardians</p>",
+      "chat": ""
+    },
+    "identifier": "spirit-guardians",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 3,
+    "materials": {
+      "value": "一卷祷文",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "15",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "半速",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_slowed.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.0vZ2YrSsKcZEKn53",
+      "transfer": false,
+      "_id": "kE1hdQt3UgzccIkX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 1,
+          "value": "0.5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你受灵光影响，速度减半。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732534067153,
+        "modifiedTime": 1759947962665,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!0vZ2YrSsKcZEKn53.kE1hdQt3UgzccIkX"
+    }
+  ],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758529470133,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "0vZ2YrSsKcZEKn53",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!0vZ2YrSsKcZEKn53"
+}

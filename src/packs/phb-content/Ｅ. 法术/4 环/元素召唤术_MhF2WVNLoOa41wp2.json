@@ -1,0 +1,214 @@
+{
+  "name": "元素召唤术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_summon-elemental.webp",
+  "system": {
+    "activities": {
+      "PuOCbuA3zDk0f1qJ": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "PuOCbuA3zDk0f1qJ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "10 * (@item.level - 4)",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "气元素",
+            "_id": "1istkloFUsoiMRYE",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.8T65aXyOkzsz2JoT",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "土元素",
+            "_id": "TH1aQNnWGM7kj8ui",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.rDr78BTVFqUCCjL1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "水元素",
+            "_id": "Q7smKB0WJMJ4zXOA",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.B2sNPpzGArLH7msQ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "火元素",
+            "_id": "aTaBdEjoJOCWFE0f",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.rPjqi6WM96AxyzIE",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你唤来一个元素灵魄。其使用元素灵魄的数据，并会在施法距离内一处你可见的未被占据的空间中显现。当你施展法术时，从气、土、火、水中选择一种元素，该生物会显现为由你所选元素组成的二足模糊人影，其数据中的部分特性也受此影响。该生物会在生命值降为 0 或是法术结束时消失。</p><p>该生物是你的盟友（对你的其它盟友亦是如此）。它在战斗中使用你的先攻，并在你回合结束后立即行动。它遵从于你的口头指令（无需任何动作）。如果你不发令，它将执行&amp;Reference[Dodge]{回避}动作并远离危险。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.8T65aXyOkzsz2JoT inline]</p></details><p><em><strong>升环施法。</strong></em>该生物的数据使用相应法术位的等级。</p><p class=\"item-original\">Summon Elemental</p>",
+      "chat": ""
+    },
+    "identifier": "summon-elemental",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 4,
+    "materials": {
+      "value": "一个至少价值 400 GP 的，装有空气、一块鹅卵石、灰烬与水的镶金瓶",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "9KxTNszcWXRDBIoq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194973019,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "MhF2WVNLoOa41wp2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MhF2WVNLoOa41wp2"
+}

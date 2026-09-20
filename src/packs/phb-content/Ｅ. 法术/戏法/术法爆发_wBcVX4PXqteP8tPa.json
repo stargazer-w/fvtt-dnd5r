@@ -1,0 +1,187 @@
+{
+  "name": "术法爆发",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_sorcerous-burst.webp",
+  "system": {
+    "activities": {
+      "1q7GF7qId3zoGlpG": {
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "1d8x@mod=8"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "poison",
+                "fire",
+                "thunder",
+                "cold",
+                "acid",
+                "lightning",
+                "psychic"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "name": "施法",
+        "_id": "1q7GF7qId3zoGlpG",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你向距离内的一个生物或物件投射术法能量。对目标进行一次远程攻击检定，命中时，目标受到 1d8 点伤害。你选择法术造成的伤害类型：强酸，寒冷，火焰，闪电，毒素，心灵或雷鸣。</p><p>如果你在法术的其中一个 d8 骰上丢出了 8，你可以立刻再丢一个 d8，将其加入法术造成的伤害中。当你施展次法术时，你最多以此法造成的额外 d8 伤害骰数等同于你的施法关键属性调整值。</p><p><em><strong>戏法升级。</strong></em>你到达特定等级时，其伤害增加 1d8（5 级 2d8、11 级 3d8、17 级 4d8）。</p><p class=\"item-original\">Sorcerous Burst</p>",
+      "chat": ""
+    },
+    "identifier": "sorcerous-burst",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 0,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "9tUoSBG1a65wcO1T",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195024690,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wBcVX4PXqteP8tPa",
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wBcVX4PXqteP8tPa"
+}

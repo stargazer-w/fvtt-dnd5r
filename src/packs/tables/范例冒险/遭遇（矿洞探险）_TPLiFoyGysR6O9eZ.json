@@ -1,0 +1,186 @@
+{
+  "name": "遭遇（矿洞探险）",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgAdventureExam.JournalEntryPage.F2gKcB0uRkMpFRaV#遭遇]{矿洞探险}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "lBFQECDaakVf9fph",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "四只<strong>紫蕈</strong>和一只<strong>锈蚀怪</strong>",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.lBFQECDaakVf9fph"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "brJeVhm5HOsr3RjN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只<strong>巨蜘蛛</strong>和两个<strong>虫群</strong>（蜘蛛）",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.brJeVhm5HOsr3RjN"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "R01rNJO3SRN7JLXv",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只<strong>暗幕魔兽</strong>和三只<strong>穿刺者</strong>",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.R01rNJO3SRN7JLXv"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Sg1czV223PF5yBqV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "生长在一具矿工遗体上的一片黄霉菌（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7]{危害}”一节）",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.Sg1czV223PF5yBqV"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "wZR4egvNh83lUbj6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只<strong>胶质方块</strong>",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.wZR4egvNh83lUbj6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "YoUJ79fn821rcgdT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "見下文“恐惧之声”",
+      "name": "",
+      "_key": "!tables.results!TPLiFoyGysR6O9eZ.YoUJ79fn821rcgdT"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "qArJ1Ftp8gCB0AjW",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750265981185,
+    "modifiedTime": 1757358547817,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "_id": "TPLiFoyGysR6O9eZ",
+  "sort": 0,
+  "_key": "!tables!TPLiFoyGysR6O9eZ"
+}

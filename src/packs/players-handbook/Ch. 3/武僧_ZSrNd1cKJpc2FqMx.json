@@ -1,0 +1,290 @@
+{
+  "name": "武僧",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "武僧",
+      "type": "text",
+      "_id": "P8IgUhHYBAq0Zcwp",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.fYVTGxSWBTBc602Y inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MVi1uFusq1QdCQkq inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776350235412,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.P8IgUhHYBAq0Zcwp"
+    },
+    {
+      "sort": 200000,
+      "name": "命流武者",
+      "type": "text",
+      "_id": "pP3bqMFIC1fGkF6b",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Warrior of Mercy</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DboAryL9MpBf7js3 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.LbGptG9eEuu2nNwL inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jyHNHvp8kQXwayBf]{夺命之手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.s3F5mezbklpnfO2p]{予命之手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.L1UbcGcnz5sz7WrY]{掌控命流}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oxsuH1x2CoEYq95U]{生死之触}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mZCVLwG3sdrc7sxW]{活杀自在}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7vvmm9futRPOCNPC]{命极之手}</td></tr></tbody></table><p class=\"item-title\">3 级：夺命之手</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.jyHNHvp8kQXwayBf inline]</p><p class=\"item-title\">3 级：予命之手</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.s3F5mezbklpnfO2p inline]</p><p class=\"item-title\">3 级：掌控命流</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.L1UbcGcnz5sz7WrY inline]</p><p class=\"item-title\">6 级：生死之触</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.oxsuH1x2CoEYq95U inline]</p><p class=\"item-title\">11 级：活杀自在</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mZCVLwG3sdrc7sxW inline]</p><p class=\"item-title\">17 级：命极之手</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7vvmm9futRPOCNPC inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776350368937,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.pP3bqMFIC1fGkF6b"
+    },
+    {
+      "sort": 300000,
+      "name": "暗影武者",
+      "type": "text",
+      "_id": "jSyiy6GhaosYyPFj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Warrior of Shadow</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5KAyBIlcw42TJvYM inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.yIwAis0MvTMsjCe5 inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uZZ5acMoZH7CMj0b]{暗影技艺}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UG1iZhBymAKhTyX6]{暗影步}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lcUREkivB0zk3JVj]{无影步}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9Vcrg71NppXWO9fB]{幽影斗篷}</td></tr></tbody></table><p class=\"item-title\">3 级：暗影技艺</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.uZZ5acMoZH7CMj0b inline]</p><p class=\"item-title\">6 级：暗影步</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UG1iZhBymAKhTyX6 inline]</p><p class=\"item-title\">11 级：无影步</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lcUREkivB0zk3JVj inline]</p><p class=\"item-title\">17 级：幽影斗篷</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9Vcrg71NppXWO9fB inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776350438093,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.jSyiy6GhaosYyPFj"
+    },
+    {
+      "sort": 400000,
+      "name": "四象武者",
+      "type": "text",
+      "_id": "eQl0Mw6uuMn5B0eu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Warrior of the Elements</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Uk6HiFEa066EcSEZ inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.NLBWCSUy2sIvCtzJ inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AnW2e54QPdIUAQDV]{四象同调}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RjeVSr8biidmjcyw]{操控四象}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xPaWAJsz3fv478aU]{四象爆破拳}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ov3XbhjcAMJRdZVQ]{四象遁术}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LhIH4BowFXmeglUZ]{四象神通}</td></tr></tbody></table><p class=\"item-title\">3 级：四象同调</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.AnW2e54QPdIUAQDV inline]</p><p class=\"item-title\">3 级：操控四象</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.RjeVSr8biidmjcyw inline]</p><p class=\"item-title\">6 级：四象爆破拳</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xPaWAJsz3fv478aU inline]</p><p class=\"item-title\">11 级：四象遁术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ov3XbhjcAMJRdZVQ inline]</p><p class=\"item-title\">17 级：四象神通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LhIH4BowFXmeglUZ inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776350475366,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.eQl0Mw6uuMn5B0eu"
+    },
+    {
+      "sort": 500000,
+      "name": "散打武者",
+      "type": "text",
+      "_id": "qha7pVaUwH2gYdk1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Warrior of the Open Hand</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2WYz6zhmpx35OCBp inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.jmcZttoCPWV91sB1 inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dkLpYT0Cxmd5MTam]{散打技巧}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.92VnTZwXAWCtTx19]{混元体}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.seQdHbKFwoTXpJdB]{流星步}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NetvduyvF0sGwmIK]{渗透劲}</td></tr></tbody></table><p class=\"item-title\">3 级：散打技巧</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dkLpYT0Cxmd5MTam inline]</p><p class=\"item-title\">6 级：混元体</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.92VnTZwXAWCtTx19 inline]</p><p class=\"item-title\">11 级：流星步</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.seQdHbKFwoTXpJdB inline]</p><p class=\"item-title\">17 级：渗透劲</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.NetvduyvF0sGwmIK inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776350517198,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.qha7pVaUwH2gYdk1"
+    },
+    {
+      "sort": 150000,
+      "name": "武僧职业特性",
+      "type": "text",
+      "_id": "baOAOXa2uYtArt0U",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Monk Class Features</p><p>作为武僧，当你抵达特定武僧等级，你会获得下列的各项职业特性。这些特性也分别列在了武僧表格中。</p><table border=\"0\"><caption>武僧特性 Monk Features</caption><thead><tr><th>等级</th><th>熟练加值</th><th>职业特性</th><th>武艺骰</th><th>功力点</th><th>无甲移动</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PUkxqykoZLk3RkLM]{武艺}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PyATdby3zodhsgKV]{无甲防御}</td><td style=\"text-align:center\">1d6</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl]{武僧武功}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yHI0jZ0S0fOKwotl]{无甲移动}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8gIgCT1CZSyeY82w]{运转周天}</td><td style=\"text-align:center\">1d6</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 10 尺</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.diC8UnduHCCMeBPu]{拨挡攻击}，武僧子职</td><td style=\"text-align:center\">1d6</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 10 尺</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0KSuTSNr40ZDPcac]{轻身坠}</td><td style=\"text-align:center\">1d6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 10 尺</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VINA8I7Vu2cuKTIv]{额外攻击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GJmANJqstSzngron]{震慑拳}</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 10 尺</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DNr01HQmNNv3cFNt]{真力注拳}，子职特性</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 15 尺</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3kljuqFqq5FixDFo]{反射闪避}</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 15 尺</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 15 尺</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Pnk7UJYX717NKyYI]{飞檐走壁}</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 15 尺</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVGtoDLSJxlZeSDr]{出神入化}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.j6trpPLwo5Kc55lG]{返本还元}</td><td style=\"text-align:center\">1d8</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 20 尺</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 20 尺</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 20 尺</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KV03WIXMQRa3sqbr]{拨挡能量}</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 20 尺</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OKxdIAkSwxLwGb3D]{圆融自在}</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 25 尺</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZoMdlZ8mIvSQFBSa]{明镜止水}</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 25 尺</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">1d10</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 25 尺</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>子职特性</td><td style=\"text-align:center\">1d12</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 25 尺</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Ltkn6c41HX1Vfbiq]{无懈可击}</td><td style=\"text-align:center\">1d12</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 30 尺</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XiBDpd3t5tHjdP0X]{传奇恩惠}</td><td style=\"text-align:center\">1d12</td><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 30 尺</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cse1dNWMz6FqRAeG]{性命双全}</td><td style=\"text-align:center\">1d12</td><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 30 尺</td></tr></tbody></table><p class=\"item-title\">等级 1：武艺</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PUkxqykoZLk3RkLM inline]</p><p class=\"item-title\">等级 1：无甲防御</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PyATdby3zodhsgKV inline]</p><p class=\"item-title\">等级 2：武僧武功</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl inline]</p><p class=\"item-title\">等级 2：无甲移动</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yHI0jZ0S0fOKwotl inline]</p><p class=\"item-title\">等级 2：运转周天</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8gIgCT1CZSyeY82w inline]</p><p class=\"item-title\">等级 3：拨挡攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.diC8UnduHCCMeBPu inline]</p><p class=\"item-title\">等级 3：武僧子职</p><p>你获得一个武僧子职业，从以下选择一项：命流武者，暗影武者，四象武者或散打武者。这些子职业在后续描述中有详细介绍。子职业是一种特化，可以在某些武僧等级授予你特殊能力。在职业的后续部分，你会随着武僧等级获得其余的子职业能力。此职业的描述中包含了你会在什么等级获得子职业能力。</p><p class=\"item-original\">Monk Subclass</p><p class=\"item-title\">等级 4：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。你还会在第 8，第 12，第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">等级 4：轻身坠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0KSuTSNr40ZDPcac inline]</p><p class=\"item-title\">等级 5：额外攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VINA8I7Vu2cuKTIv inline]</p><p class=\"item-title\">等级 5：震慑拳</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GJmANJqstSzngron inline]</p><p class=\"item-title\">等级 6：真力注拳</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DNr01HQmNNv3cFNt inline]</p><p class=\"item-title\">等级 7：反射闪避</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3kljuqFqq5FixDFo inline]</p><p class=\"item-title\">等级 9：飞檐走壁</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Pnk7UJYX717NKyYI inline]</p><p class=\"item-title\">等级 10：出神入化</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lVGtoDLSJxlZeSDr inline]</p><p class=\"item-title\">等级 10：返本还元</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.j6trpPLwo5Kc55lG inline]</p><p class=\"item-title\">等级 13：拨挡能量</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KV03WIXMQRa3sqbr inline]</p><p class=\"item-title\">等级 14：圆融自在</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OKxdIAkSwxLwGb3D inline]</p><p class=\"item-title\">等级 15：明镜止水</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZoMdlZ8mIvSQFBSa inline]</p><p class=\"item-title\">等级 18：无懈可击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Ltkn6c41HX1Vfbiq inline]</p><p class=\"item-title\">等级 19：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.XiBDpd3t5tHjdP0X inline]</p><p class=\"item-title\">等级 20：身心合一</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.cse1dNWMz6FqRAeG inline]</p><h1>武僧子职业</h1><p class=\"journal-original-h1\">Monk Subclasses</p><p>子职是一种特化，可以在某些武僧等级授予你特殊能力。本节介绍了命流武者、暗影武者、四象武者和散打武者子职业。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730429321713,
+        "modifiedTime": 1776351029605,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZSrNd1cKJpc2FqMx.baOAOXa2uYtArt0U"
+    }
+  ],
+  "folder": "gcw22TmtERTw55bi",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500600,
+      "navigation": {
+        "previous": "X0KL1TWRl6RQ06wf",
+        "next": "A3n5d6aSbTNGxqIV"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334134471,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "ZSrNd1cKJpc2FqMx",
+  "sort": 101563,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!ZSrNd1cKJpc2FqMx"
+}

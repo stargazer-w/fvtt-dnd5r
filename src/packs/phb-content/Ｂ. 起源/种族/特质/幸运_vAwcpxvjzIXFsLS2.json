@@ -1,0 +1,57 @@
+{
+  "name": "幸运",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_halfling_luck.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你在&amp;Reference[D20 Test]{D20 检定}的 d20 上掷出 1 时，你可以再重掷一次，但必须使用重掷的结果。</p><p class=\"item-original\">Luck</p>",
+      "chat": ""
+    },
+    "identifier": "luck",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "半身人"
+  },
+  "effects": [],
+  "folder": "VSjOI4J3tkyhH9Sb",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1730959420863,
+    "modifiedTime": 1758195023370,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "vAwcpxvjzIXFsLS2",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!vAwcpxvjzIXFsLS2"
+}

@@ -1,0 +1,161 @@
+{
+  "name": "搜敌魔杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WAND_wand-of-enemy-detection.webp",
+  "system": {
+    "activities": {
+      "KfldXknTEaJ0rm1M": {
+        "type": "utility",
+        "_id": "KfldXknTEaJ0rm1M",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d6 + 1"
+        }
+      ],
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m5sVvygLw8QzMyh5]{魔杖}，珍稀（需同调）</em></p><p>这根魔杖具有 7 充能。持握它时，你可以执行&amp;Reference[Magic]{魔法}动作并消耗 1 充能。在 1 分钟内，你可以知道位于你 60 尺内离你最近的敌对生物所在的方向，但不知道距离。魔杖可以感知肉眼可见的敌对生物，也可以感知到隐形、以太化、伪装、躲藏的敌对生物。效应在你不再持握这根魔杖时终止。</p><p><em><strong>重获充能。</strong></em>这根魔杖在每日黎明时重获 1d6 + 1 已消耗的充能。当充能数耗尽时，骰[[/r 1d20]]。如果骰值为 1，魔杖将化作灰烬并被摧毁。</p><p class=\"item-original\">Wand of Enemy Detection</p>",
+      "chat": ""
+    },
+    "identifier": "wand-of-enemy-detection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wand",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "folder": "h2b5ch98Ez0wNh5u",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756796899956,
+    "modifiedTime": 1758199230290,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "u1MMB6VKX62xLl8l",
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!u1MMB6VKX62xLl8l"
+}

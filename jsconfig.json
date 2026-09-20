@@ -1,0 +1,20 @@
+{
+  // 为 tools/ 下的构建脚本提供编辑器支持（Node API 补全、依赖类型）。
+  // 这些脚本是纯 JS 且没有类型标注，因此关闭 checkJs，避免无意义的类型报错刷屏；
+  // 模组自身的运行时代码（src/）不在本配置范围内。
+  "compilerOptions": {
+    "checkJs": false,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "types": ["node"],
+    // @foundryvtt/foundryvtt-cli 未提供类型声明，且它源码里的 JSDoc 会让 TS 直接报语法错误，
+    // 因此这里指向本地写的最小声明（见 tools/foundryvtt-cli.d.ts）。
+    "paths": {
+      "@foundryvtt/foundryvtt-cli": ["./tools/foundryvtt-cli.d.ts"]
+    }
+  },
+  "include": ["tools/**/*.mjs", "tools/**/*.d.ts"],
+  "exclude": ["node_modules", "dist", "reference", "src"]
+}

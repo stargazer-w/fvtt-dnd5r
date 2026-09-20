@@ -1,0 +1,382 @@
+{
+  "name": "凶蛮打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_brutal-strike.webp",
+  "system": {
+    "activities": {
+      "5y0im7bP4SkhQ9mu": {
+        "type": "utility",
+        "name": "伤害附加",
+        "_id": "5y0im7bP4SkhQ9mu",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "g5utmg3RpIi8P42i"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "WyKiCTtI5WY9d7Ao": {
+        "type": "utility",
+        "name": "巨力猛击",
+        "_id": "WyKiCTtI5WY9d7Ao",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-axe-battle\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.AmOUsIjlnhQbP3QE\" data-tooltip=\"item\">巨力猛击</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+        "appliedEffects": []
+      },
+      "x4CjTNYmKV8KcAGZ": {
+        "type": "utility",
+        "_id": "x4CjTNYmKV8KcAGZ",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-axe-battle\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.dm2UzfV0Lk01gPPq\" data-tooltip=\"item\">断筋猛击</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "fTA391GgmQmYf30h"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "断筋猛击",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+        "appliedEffects": [
+          "fTA391GgmQmYf30h"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>如果你使用了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pqzUiEoi83m6Z069]{鲁莽攻击}，你可以选择放弃本回合你选择的一次基于力量的攻击检定具有的所有优势（不可选择具有劣势的攻击检定）。被选择的攻击检定命中时，目标将受到 1d10 的额外伤害，伤害类型与此次攻击所使用的武器或徒手打击造成的伤害类型相同，并且你可以造成一种你所选的凶蛮打击效应。</p><p><em><strong>[[/item 凶蛮打击 activity=巨力猛击]]{巨力猛击。}</strong></em>目标被你直线推开 15 尺距离。随后你可以立刻向该目标移动至多等于你速度一半的距离，并且不会引发借机攻击。</p><p><em><strong>[[/item 凶蛮打击 activity=断筋猛击]]{断筋猛击。}</strong></em>直到你的下个回合开始时，目标的移动速度减少 15 尺。一个目标只能受到一个断筋猛击的影响，且以最近一次的效果为准。</p><p class=\"item-original\">Brutal Strike</p>",
+      "chat": ""
+    },
+    "identifier": "brutal-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "野蛮人",
+    "advancement": []
+  },
+  "effects": [
+    {
+      "name": "凶蛮打击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_brutal-strike.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.0BYXmSouMHyH2MlO",
+      "transfer": false,
+      "_id": "g5utmg3RpIi8P42i",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "@scale.barbarian.brutal-strike",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你本次攻击检定命中时目标将受到凶蛮打击的额外伤害，伤害类型与此次攻击所使用的武器或徒手打击造成的伤害类型相同。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734064858233,
+        "modifiedTime": 1777191018653,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "_key": "!items.effects!0BYXmSouMHyH2MlO.g5utmg3RpIi8P42i"
+    },
+    {
+      "name": "断筋",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_back-injury.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.0BYXmSouMHyH2MlO",
+      "transfer": false,
+      "_id": "fTA391GgmQmYf30h",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 2,
+          "value": "- 15",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 2,
+          "value": "- 15",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 2,
+          "value": "- 15",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "- 15",
+          "priority": null
+        },
+        {
+          "key": "system.abilities.dex.bonuses.save",
+          "mode": 2,
+          "value": "- 15",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的移动速度减少 15 尺，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734065621749,
+        "modifiedTime": 1759947954096,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!0BYXmSouMHyH2MlO.fTA391GgmQmYf30h"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731070004226,
+    "modifiedTime": 1777191013041,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "0BYXmSouMHyH2MlO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!0BYXmSouMHyH2MlO"
+}

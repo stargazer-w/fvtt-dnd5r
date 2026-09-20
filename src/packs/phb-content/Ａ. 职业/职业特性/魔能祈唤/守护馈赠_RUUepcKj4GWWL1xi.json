@@ -1,0 +1,137 @@
+{
+  "name": "守护馈赠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_gift-of-the-protectors.webp",
+  "system": {
+    "activities": {
+      "dQsrRDjXYMe8u9sL": {
+        "type": "utility",
+        "_id": "dQsrRDjXYMe8u9sL",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>先决条件：9 级或更高的魔契师等级，具有@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tYPBqgVkX38HTzkc]{书之魔契}祈唤</em></p><p>一张新的书页出现在你的影之书中。在你的允许之下，一个生物可以使用一个动作来将他的名字写在这一页上，这一页能包括的名字数量等于你的魅力调整值（至少为 1）。当一个名字在这一页上的生物生命值降为 0，但是还没有完全死亡，这个生物的生命值魔法化的变为 1 点。每当这个魔法效应被触发，没有任何生物可以触发该效应直到你完成一次长休。</p><p>你可以使用一个&amp;Reference[Magic]{魔法}动作，以触摸的形式消除一个在书页上的名字。</p><p class=\"item-original\">Gift of the Protectors</p>",
+      "chat": ""
+    },
+    "identifier": "gift-of-the-protectors",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 9
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [],
+  "folder": "f9yywRtYz5SQ4oUW",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758194979600,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "RUUepcKj4GWWL1xi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!RUUepcKj4GWWL1xi"
+}

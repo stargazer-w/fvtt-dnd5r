@@ -1,0 +1,29 @@
+{
+  "name": "撤离",
+  "type": "script",
+  "command": "let selectedToken = canvas.tokens.controlled[0];\nif (!selectedToken) {\n    ui.notifications.warn(\"未选中拓可！\");\n    return;\n}\n\nconst itemUUID = \"Compendium.dnd5e-collection-2024.derived-content.Item.BPQglJjmgXc96UIf\";\n\nlet item = await fromUuid(itemUUID);\nif (!item) {\n    ui.notifications.error(\"效应库丢失！\");\n    return;\n}\n\nconst effectName = \"撤离\";\nlet effect = item.effects.find(e => e.name === effectName);\n\nif (!effect) {\n    ui.notifications.error(\"效应丢失！\");\n    return;\n}\n\nconst duration = effect.duration.seconds ? effect.duration.seconds : 0;\n\nawait selectedToken.actor.createEmbeddedDocuments(\"ActiveEffect\", [{\n    name: effect.name,\n    img: effect.img,\n    duration: {\n        seconds: duration,\n        rounds: null,\n        turns: null,\n        startTime: null,\n        combat: null\n    },\n    changes: effect.changes,\n    ...effect.system\n}]);\n\n\nlet Action = `\n    <div class=\"message-content\">\n        <div class=\"dnd5e2 chat-card activation-card\" data-display-challenge=\"\">\n            <section class=\"card-header description collapsible\">\n                <header class=\"summary\">\n                    <img class=\"gold-icon\" src=\"modules/dnd5e-collection-2024/assets/icons/abilities/ACTION_disengage.webp\">\n                    <div class=\"name-stacked border\">\n                        <span class=\"title\">撤离</span>\n                        <span class=\"subtitle\">动作</span>\n                    </div>\n                    <i class=\"fa-solid fa-chevron-down fa-fw\" inert=\"\"></i>\n                </header>\n                <section class=\"details collapsible-content card-content\">\n                    <div class=\"wrapper\">\n                        @Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.w1AGsemFERfjqWNx inline]\n                    </div>\n                </section>\n            </section>\n        </div>\n    </div>\n`;\n\nChatMessage.create({\n    speaker: ChatMessage.getSpeaker({token: actor}),\n    content: Action\n});",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/ACTION_disengage.webp",
+  "author": "qVlhELJIaanIsDyq",
+  "scope": "global",
+  "folder": "WISLFrhiIHFwDcD8",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Macro.r7MI6g799Ku92y3L",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1732348825367,
+    "modifiedTime": 1747883679929,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wUk3tCub9lD9GQBV",
+  "_key": "!macros!wUk3tCub9lD9GQBV"
+}

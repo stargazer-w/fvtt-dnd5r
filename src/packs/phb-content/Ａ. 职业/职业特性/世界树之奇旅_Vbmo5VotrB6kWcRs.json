@@ -1,0 +1,126 @@
+{
+  "name": "世界树之奇旅",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_world-tree_travel-along-the-tree.webp",
+  "system": {
+    "activities": {
+      "8hpWHktrjJJsxO89": {
+        "type": "utility",
+        "_id": "8hpWHktrjJJsxO89",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你激活@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6]{狂暴}时，你可以传送至多 60 尺的距离到一处你可见的未被占据的空间内。在你的狂暴激活期间，你也可以以一个&amp;Reference[Bonus Action]{附赠动作}来进行传送。</p><p>此外，每个狂暴期间仅一次，你可以使传送的距离增加至 150 尺，并可以选择带上至多 6 个位于你 10 尺内的自愿生物同你一起传送。每个其他生物都将被传送至位于你目的地 10 尺内的你选择的未被占据的空间中。</p><p class=\"item-original\">Travel along the Tree</p>",
+      "chat": ""
+    },
+    "identifier": "travel-along-the-tree",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "世界树道途"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194985583,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Vbmo5VotrB6kWcRs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Vbmo5VotrB6kWcRs"
+}

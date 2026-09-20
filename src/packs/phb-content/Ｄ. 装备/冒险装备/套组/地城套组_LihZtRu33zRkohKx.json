@@ -1,0 +1,71 @@
+{
+  "folder": "7IsIT5Utx9N08SRa",
+  "name": "地城套组",
+  "type": "container",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONT_gear-pack.webp",
+  "system": {
+    "description": {
+      "value": "<p>地城套组包含以下物品：@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE]{背包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ueOXplop7Li2pSE4]{铁蒺藜}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nkkEGv8eesKh1egk]{撬棍}、2 扁瓶@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]{燃油}、10 天份的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7wKNH2uvs1jL5Lco]{口粮}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.k9EV5csgeaL0ZIay]{绳索}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]{火绒盒}、10 根@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE]{火把}和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX]{水袋}。</p><p class=\"item-original\">Dungeoneer's Pack</p>",
+      "chat": ""
+    },
+    "identifier": "dungeoneers-pack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 12,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "properties": [],
+    "capacity": {
+      "type": "weight",
+      "value": null
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194971145,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "LihZtRu33zRkohKx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LihZtRu33zRkohKx"
+}

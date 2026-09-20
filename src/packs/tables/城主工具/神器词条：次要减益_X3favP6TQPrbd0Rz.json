@@ -1,0 +1,394 @@
+{
+  "name": "神器词条：次要减益",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#神器的词条]{次要减益词条}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        8
+      ],
+      "drawn": false,
+      "_id": "y7KRc8hT50WtXxqk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你使用力量或体质进行的属性检定与豁免检定均具有劣势。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.y7KRc8hT50WtXxqk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        16
+      ],
+      "drawn": false,
+      "_id": "Yoy0SHIdOYgZGiTY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你在使用感知、智力和魅力进行的豁免检定均具有劣势。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.Yoy0SHIdOYgZGiTY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        24
+      ],
+      "drawn": false,
+      "_id": "Zoj4ujJTAU9s6mMr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你具有对毒素伤害的易伤。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.Zoj4ujJTAU9s6mMr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        32
+      ],
+      "drawn": false,
+      "_id": "Cw6DEilVzVArhBg6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，当你与该神器间的距离大于 10 尺时，你陷入目盲状态。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.Cw6DEilVzVArhBg6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        40
+      ],
+      "drawn": false,
+      "_id": "IufmWoFGgqqBnLdo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，当你与该神器间的距离大于 10 尺时，你陷入耳聋状态。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.IufmWoFGgqqBnLdo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        48
+      ],
+      "drawn": false,
+      "_id": "Ww90YT73uhFSDuvZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你失去所有味觉。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.Ww90YT73uhFSDuvZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        66
+      ],
+      "drawn": false,
+      "_id": "AcODEruj8Zb11M9I",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你的外貌按照 DM 所决定的样子发生改变。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.AcODEruj8Zb11M9I"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        67,
+        72
+      ],
+      "drawn": false,
+      "_id": "7OGgDM2XFOZlqOeC",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你会散发出 10 尺内都能闻到的巨大酸臭味。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.7OGgDM2XFOZlqOeC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        76
+      ],
+      "drawn": false,
+      "_id": "4KZjuFRxv91XUmRj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，每当你触碰某件非魔法的宝石或艺术品时，该宝石或艺术品的价格便将减半。每件物品只能以此法被影响一次。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.4KZjuFRxv91XUmRj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        80
+      ],
+      "drawn": false,
+      "_id": "zUinRSytecbi1KK8",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，任何位于你 10 尺内的圣水都将被摧毁。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.zUinRSytecbi1KK8"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        84
+      ],
+      "drawn": false,
+      "_id": "SfnrYbsxMi9I76nh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，任何位于你 30 尺内的非魔法火焰都将熄灭。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.SfnrYbsxMi9I76nh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        85,
+        88
+      ],
+      "drawn": false,
+      "_id": "CtNksrGkJHDSEZaq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，任何其他生物无法在位于你 300 尺内的区域进行长休或短休。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.CtNksrGkJHDSEZaq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        92
+      ],
+      "drawn": false,
+      "_id": "nElh8YV4GSzr7VA1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你将杀死任何你所触碰的，非生物的非魔法植株。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.nElh8YV4GSzr7VA1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        93,
+        100
+      ],
+      "drawn": false,
+      "_id": "oUT4OFXl1SDVXQHe",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，任何位于你 30 尺内的、挑战等级 6 及以下的野兽均开始与你敌对。",
+      "name": "",
+      "_key": "!tables.results!X3favP6TQPrbd0Rz.oUT4OFXl1SDVXQHe"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750389007683,
+    "modifiedTime": 1756869909769,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "X3favP6TQPrbd0Rz",
+  "sort": 500000,
+  "_key": "!tables!X3favP6TQPrbd0Rz"
+}

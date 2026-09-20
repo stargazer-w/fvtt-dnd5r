@@ -1,0 +1,61 @@
+{
+  "name": "朱庇莱克斯之使",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_creature_emissary-of-juiblex.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p class=\"Stat-Block-Styles_Stat-Block-Body\">[[lookup @name]]死亡时，其遗体的空间中会出现一只敌对的<strong>赭冻怪</strong>。</p><p class=\"item-original\">Emissary of Juiblex</p>",
+      "chat": ""
+    },
+    "identifier": "emissary-of-juiblex",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "pxLHiILvNrRd7uHI",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750501018085,
+    "modifiedTime": 1758304849887,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "j9evW8T2D9Z6MXxd",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!j9evW8T2D9Z6MXxd"
+}

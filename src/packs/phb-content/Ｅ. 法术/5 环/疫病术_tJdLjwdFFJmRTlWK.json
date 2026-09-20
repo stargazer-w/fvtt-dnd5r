@@ -1,0 +1,840 @@
+{
+  "name": "疫病术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+  "system": {
+    "activities": {
+      "W5r9I9XCLXOTXovD": {
+        "type": "save",
+        "name": "力量疫毒",
+        "_id": "W5r9I9XCLXOTXovD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "8FyIMCQb0eGHkzjy",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "yiK4H4xnYkqodz6r": {
+        "type": "save",
+        "name": "敏捷疫毒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "xmvOLnKExGeJLAbu",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "yiK4H4xnYkqodz6r",
+        "img": "",
+        "appliedEffects": [
+          "xmvOLnKExGeJLAbu"
+        ]
+      },
+      "O2aTcMCLfP73734C": {
+        "type": "save",
+        "name": "体质疫毒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "cdRhNbytjqY75IeK",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "O2aTcMCLfP73734C",
+        "img": "",
+        "appliedEffects": [
+          "cdRhNbytjqY75IeK"
+        ]
+      },
+      "DfHNh0muCds821tM": {
+        "type": "save",
+        "name": "智力疫毒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "XJZyqaSZCaMzpoXe",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "DfHNh0muCds821tM",
+        "img": "",
+        "appliedEffects": [
+          "XJZyqaSZCaMzpoXe"
+        ]
+      },
+      "LeJ5Oi5n27LP9mvj": {
+        "type": "save",
+        "name": "感知疫毒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "elgUUUAMTngaWipc",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "LeJ5Oi5n27LP9mvj",
+        "img": "",
+        "appliedEffects": [
+          "elgUUUAMTngaWipc"
+        ]
+      },
+      "6rbmEKW5gk5yVIMv": {
+        "type": "save",
+        "name": "魅力疫毒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "RL31VuBmkhuNp059",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 11,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "6rbmEKW5gk5yVIMv",
+        "img": "",
+        "appliedEffects": [
+          "RL31VuBmkhuNp059"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的触碰会传播魔法疫病。目标必须成功于一次[[/save]]{体质豁免}，否则受到 11d8 点暗蚀伤害并陷入&amp;Reference[poisoned]{中毒}状态。此外，在你施展法术时选择一项属性。处于中毒状态期间，目标在所选属性的豁免上具有劣势。</p><p>目标的每一回合结束时，必须进行一次[[/save]]{体质豁免}直到其累计三次成功或失败。若该目标累计三次该豁免成功，则法术终止。若该目标累计三次该豁免失败，其身上的法术会持续 7 日。</p><p>每当中毒的目标受到能够结束其中毒状态的效应作用时，目标必须成功于一次[[/save]]{体质豁免}，否则其陷入的中毒状态不会终止。</p><p class=\"item-original\">Contagion</p>",
+      "chat": ""
+    },
+    "identifier": "contagion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "day",
+      "value": "7"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "疫毒（力量）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "_id": "8FyIMCQb0eGHkzjy",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297559189,
+        "modifiedTime": 1734786099291,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.8FyIMCQb0eGHkzjy"
+    },
+    {
+      "name": "疫毒（敏捷）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297637271,
+        "modifiedTime": 1734786102617,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "xmvOLnKExGeJLAbu",
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.xmvOLnKExGeJLAbu"
+    },
+    {
+      "name": "疫毒（体质）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297656364,
+        "modifiedTime": 1734786104578,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "cdRhNbytjqY75IeK",
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.cdRhNbytjqY75IeK"
+    },
+    {
+      "name": "疫毒（智力）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297666058,
+        "modifiedTime": 1734786106255,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "XJZyqaSZCaMzpoXe",
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.XJZyqaSZCaMzpoXe"
+    },
+    {
+      "name": "疫毒（感知）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297675098,
+        "modifiedTime": 1734786096259,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "elgUUUAMTngaWipc",
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.elgUUUAMTngaWipc"
+    },
+    {
+      "name": "疫毒（魅力）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_contagion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tJdLjwdFFJmRTlWK",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性上的豁免检定具有劣势，并陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每当你受到能够解除中毒状态的效应作用时，你需要通过一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。若豁免失败，你的中毒状态仍将无法被解除。</p><p>每当你的回合结束时，你必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，直到累计成功或失败三次为止。如果你累计三次成功，这个法术将终止。如果你累计三次失败，这个法术的效果将持续 7 日。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733297687478,
+        "modifiedTime": 1734786101002,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "RL31VuBmkhuNp059",
+      "_key": "!items.effects!tJdLjwdFFJmRTlWK.RL31VuBmkhuNp059"
+    }
+  ],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534629009,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "tJdLjwdFFJmRTlWK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tJdLjwdFFJmRTlWK"
+}

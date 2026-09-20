@@ -1,0 +1,146 @@
+{
+  "name": "秘法门",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_arcane-gate.webp",
+  "system": {
+    "activities": {
+      "Uo362SNoxydg5d9S": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "Uo362SNoxydg5d9S",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你创造两个相连的传送门。指定地面上你能看见的两处未被占据的大型空间，其中一点在法术距离内，另一点则在你身边 10 尺内。随后将会开启一个通往两处的圆形传送门，并持续到法术结束。</p><p>传送门边缘为闪烁的二维环形，其内布满遮挡视野的迷雾，且整个垂直地悬浮在离地几寸处。传送门单面开启（由你选择），那一面即是传送门生效的一面。</p><p>任何进入其中一个传送门的东西将从另一个传送门里出现，如同两个传送门邻接一样。以一个&amp;Reference[Bonus Action]{附赠动作}，你可以改变其开门的朝向。</p><p class=\"item-original\">Arcane Gate</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-gate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 6,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "500"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195029632,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "z3eMInZZbwZJiErB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!z3eMInZZbwZJiErB"
+}

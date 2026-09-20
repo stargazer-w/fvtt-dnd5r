@@ -1,0 +1,325 @@
+{
+  "name": "弩炮",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_ballista.webp",
+  "system": {
+    "activities": {
+      "YPCLrSQvTMN8HDEc": {
+        "_id": "YPCLrSQvTMN8HDEc",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "弩炮发射"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "6"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "弩炮发射",
+        "img": "",
+        "appliedEffects": []
+      },
+      "5vSIwjf664GnJ9n4": {
+        "type": "utility",
+        "name": "装填",
+        "sort": -200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "装填"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "5vSIwjf664GnJ9n4",
+        "img": "",
+        "appliedEffects": []
+      },
+      "by5cEgXEKAPE3Qoz": {
+        "type": "utility",
+        "name": "瞄准",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "瞄准"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "by5cEgXEKAPE3Qoz",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 1,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>大型物件</em></p><p><strong>AC：</strong>15　<strong>HP：</strong>50</p><p><em><strong>弩炮发射（需要装填与瞄准）。</strong></em>[[/attack extended]]。[[/damage extended]]。</p><p>弩炮是一种发射重型弩矢的巨型弩。装填和瞄准弩炮各需要一次&amp;Reference[Utilize]{操作}动作，随后操作手便可执行弩炮发射动作。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.derived-creatures.Actor.CuNKvTCXLENX8OaS]{Ballista}</p>",
+      "chat": ""
+    },
+    "identifier": "ballista",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 15
+    },
+    "damage": {
+      "base": {
+        "number": 3,
+        "denomination": 10,
+        "types": [
+          "piercing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": 120,
+      "long": 480,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "",
+    "hp": {
+      "value": 50,
+      "max": 50,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [],
+  "folder": "ujQuHGbyr8u3N5xZ",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751037298764,
+    "modifiedTime": 1759939917901,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "NiFw2Obh9XefMslM",
+  "_key": "!items!NiFw2Obh9XefMslM"
+}

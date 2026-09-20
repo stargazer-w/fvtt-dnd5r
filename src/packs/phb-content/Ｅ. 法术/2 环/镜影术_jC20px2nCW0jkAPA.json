@@ -1,0 +1,342 @@
+{
+  "name": "镜影术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mirror-image.webp",
+  "system": {
+    "activities": {
+      "IDwzQDEJfhYqfvgO": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "IDwzQDEJfhYqfvgO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "bMqTShR8i9BWEGC8"
+          },
+          {
+            "_id": "04r9pQjX7ILSeQNw"
+          },
+          {
+            "_id": "UGfEJR9iSetrGYS1"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "UxQqRky4we8gd3LE": {
+        "type": "utility",
+        "name": "判断真身",
+        "_id": "UxQqRky4we8gd3LE",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "判断真身",
+          "formula": "(@flags.mirrorImages)d6kh"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>三个你自身的幻象分身出现在你的位置上。直到法术终止前，分身都会随你移动，并模仿你的动作和位置变换，使人无法追踪判断哪一个是你的真身。</p><p>在法术持续时间内，每当一个生物攻击命中你时，为每个剩余分身投掷一个 d6，只要有任一 d6 骰出 3 或以上，一个分身代你承受本次命中并随之被摧毁。分身无视所有其他的伤害和效应。三个分身都被摧毁时，法术随之结束。</p><p>如果一个生物处于目盲状态，或拥有盲视，或拥有真实视觉，则该法术无法影响该生物。</p><p class=\"item-original\">Mirror Image</p>",
+      "chat": ""
+    },
+    "identifier": "mirror-image",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "ill",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "朦胧幻像",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mirror-image.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jC20px2nCW0jkAPA",
+      "transfer": false,
+      "_id": "bMqTShR8i9BWEGC8",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.mirrorImages",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732434279103,
+        "modifiedTime": 1734768659703,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jC20px2nCW0jkAPA.bMqTShR8i9BWEGC8"
+    },
+    {
+      "name": "闪烁幻像",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mirror-image.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jC20px2nCW0jkAPA",
+      "transfer": false,
+      "_id": "04r9pQjX7ILSeQNw",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.mirrorImages",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732434302904,
+        "modifiedTime": 1732434663966,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jC20px2nCW0jkAPA.04r9pQjX7ILSeQNw"
+    },
+    {
+      "name": "挪移幻像",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mirror-image.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jC20px2nCW0jkAPA",
+      "transfer": false,
+      "_id": "UGfEJR9iSetrGYS1",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.mirrorImages",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732434332278,
+        "modifiedTime": 1732434659807,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jC20px2nCW0jkAPA.UGfEJR9iSetrGYS1"
+    }
+  ],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195005253,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "jC20px2nCW0jkAPA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jC20px2nCW0jkAPA"
+}

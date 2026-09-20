@@ -1,0 +1,287 @@
+{
+  "name": "进行游戏",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "wqa8oc7EefHREaXF",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.NCqVVY9VEWKFblqu cite=false]</p><p>想象力是 Dungeons &amp; Dragons 的关键要素，在这款共同协作的游戏中，你扮演的角色将一同在充满怪物和魔法的奇幻世界中展开冒险。</p><p>在 D&amp;D 里，行动过程发生在玩家的想象中，并由大伙儿共同叙述。阅读下列内容来初窥门径：</p><section class=\"social-example\"><p><span class=\"dm-entry\">杰瑞德（地下城主）：</span>在你们长途跋涉之后。鸦阁城堡耸立在了你们前面。摇摇欲坠的石塔——大概是废弃的卫兵室——在附近若隐若现。在它们后面，你们看到一条深不见底的裂谷，隐没在下方深深的浓雾之中。一座低矮的吊桥横跨裂谷，它的铁链在风中嘎吱作响。石制雨漏雕像被刻成怪兽的样子，从高墙上向下凝望着你们，透过另一边敞开的城堡大门可以看到，一道灰白的光洒在门内的庭院中。</p><p><span class=\"player-entry\">菲利普（饰加雷斯）：</span>我要仔细看眼雨漏雕像，我感觉它们不得是普通石像！</p><p><span class=\"player-entry\">梅芙（饰米拉贝拉）：</span>咱想瞅一眼那吊桥有多抗造，走过去不会给咱们摔了吧？</p><p><span class=\"dm-entry\">杰瑞德：</span>都没问题，一个一个来。菲利普，加雷斯在看着那些充当排水口的石像鬼雕像？</p><p><span class=\"player-entry\">菲利普：</span>是啊。有没有啥迹象表明它们可能是生物，而不光是装饰像。</p><p><span class=\"dm-entry\">杰瑞德：</span>过个智力检定。</p><p><span class=\"player-entry\">菲利普：</span>我可以用调查技能吗？</p><p><span class=\"dm-entry\">杰瑞德：</span>当然。</p><p><span class=\"player-entry\">菲利普（掷一枚 d20）：</span>哦豁，七。</p><p><span class=\"dm-entry\">杰瑞德：</span>你眼里它们就是装饰像。然后是梅芙，米拉贝拉正在检查吊桥？</p></section><p>基于 DM 的描述所设的情景，冒险由此继续。在本章节的后面，其他的游戏示例会侧重于 D&amp;D 游戏的某些方面：社交互动，探索，以及战斗。</p><aside class=\"notable\"><h3>术语汇编</h3><p>如果在本书中读到一个规则术语，想要知道它的定义，则查阅附录 C 的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX]{术语汇编}。本章节概述了如何进行 D&amp;D，主要介绍全局概况。本章节中不少地方都会用得到该汇编。</p></aside><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>快速预览与规则提示</h3><p>在规则书上首次引用术语汇编中的规则时，它将链接到对应日志，你可以将滑鼠悬停在规则上以了解其含义。而状态允许你将效应应用于当前选择的 Token。</p><p>你还可以点击链接打开页面，然后通过窗口顶部的“展示给玩家”按钮与玩家分享。试试看：&amp;Reference[restrained]{束缚}。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776257717199,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.wqa8oc7EefHREaXF"
+    },
+    {
+      "sort": 200000,
+      "name": "玩家还是 DM？",
+      "type": "text",
+      "_id": "hgDr94CWfS8WxtsX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Player or DM?</p><p>你们中需要一个人担当地下城主才能游玩 D&amp;D，而其他玩家（三到六人最佳）扮演冒险者。哪个角色适合你呢？</p><h2>成为玩家</h2><p class=\"journal-original-h2\">Being a Player</p><p>如果你想成为团队冒险中的主角之一，请考虑成为一名玩家。玩家要做的有这些：</p><p><strong>创建角色。</strong>你的角色是游戏里奇幻世界中的另一个你自己。在你阅读本章后，使用@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pHMEDq6JZOxYAm4U]{第 2 章}中的规则创建你的角色。</p><p><strong>组队。</strong>你的角色将与其他玩家角色组成一支冒险小队。这些冒险者是共同面对挑战和奇幻境遇的盟友。每个角色都有独特的能力，与其他角色相辅相成。</p><p><strong>勇往直前。</strong>你们角色的队伍将探究 DM 所呈现的地点和事件。在本书规则的规范下，你可以用任何你能想象到的方式应对它们。虽然你遭遇的所有怪物都由 DM 控制，但 DM 并非是你的对手。DM 会引导你们队伍的旅途使你们的角色越来越强大。</p><h2>成为地下城主</h2><p class=\"journal-original-h2\">Being the Dungeon Master</p><p>如果你想成为游戏的幕后操纵者，可以考虑成为 DM。DM 要做的有这些：</p><p><strong>构建冒险。</strong>你准备玩家们将要经历的冒险。在<em>《城主指南》</em>中，你可以找到如何创建冒险乃至于整个世界的建议。</p><p><strong>引导故事。</strong>你在游戏中将叙述大部分的故事情节，描述冒险者面对的地点和生物。玩家决定他们的角色在冒险时做什么，并选择探索什么。然后你结合想象力和游戏规则来反馈冒险者决策的结果。</p><p><strong>裁定规则。</strong>你要监管团队对游戏规则的使用，确保规则能为团队提供乐趣，你需要阅读本章节的其余部分来了解这些规则，而且你会发现规则术语汇编必不可少。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776257844816,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.hgDr94CWfS8WxtsX"
+    },
+    {
+      "sort": 300000,
+      "name": "游戏规律",
+      "type": "text",
+      "_id": "yg8Ggstu8vlXMu1S",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Rhythm of Play</p><p>构成 D&amp;D 游戏主要的三个支柱分别是社交互动、探索以及战斗。无论你遇到的是哪一个，游戏都按照以下基本模式展开行动：</p><ol><li><strong>地下城主描绘场景。</strong>DM 将告诉他们的冒险者身处何处，周围有些什么（一个房间中有几道门，桌子上有什么，诸如此类。）</li><li><strong>玩家们描述他们角色的行动。</strong>角色们在穿过地下城和其它环境时通常会会步调一致地行动。而有些时候，不同的冒险者行动也有所不同：一位冒险者可能在搜查宝箱，与此同时第二位冒险者则在研究刻在墙上的神秘符号，第三位则在战斗结束后依旧保持警惕提防着怪物，战斗外，DM 确保每个角色都有行动的机会，并决定如何结算他们的行动。战斗中，角色们则依轮次进行行动。</li><li><strong>DM 表述冒险者们行动的结果。</strong>有的时候，结算行动的结果很容易。如果冒险者走着穿过房间并试图开门，DM 有可能直接说门开了，然后就描绘后面的情况。但门可能锁着、地板上也可能藏着陷阱，或是别的一些情况可能会给冒险者的行动难以顺利完成，这些情况下，DM 可能会让玩家掷骰子以便决定具体会发生什么，这会让游戏回到第 1 步。</li></ol><p>无论冒险者们是在与贵族攀谈，或探索废墟，又或者与龙交锋，这种模式在每一回游戏中（你坐下来进行 D&amp;D 游戏的过程）均适用。在特定情形里——尤其是战斗——行动需要更有条不紊，因此每个人会轮流进行行动。</p><aside class=\"notable\"><h3>特例高于通常规则</h3><p>游戏的每个部分都有通常规则。例如，战斗规则会告诉你近战攻击使用力量，远程攻击使用敏捷。这是一条通常规则，并且通常规则都会适用于游戏中绝大多数状况，除非明确说明了与其不同的情况。</p><p>游戏中还有各种元素——职业特性、专长、武器词条、法术、魔法物品、怪物能力，诸如此类——有时会出现与通常规则相矛盾的情况。当特例与一般规则不一致时，以特例为准。就比如，如果一个特性说你可以使用魅力属性进行近战攻击时，尽管和通常规则不同，但你能这么做。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776257969444,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.yg8Ggstu8vlXMu1S"
+    },
+    {
+      "sort": 400000,
+      "name": "长期游戏",
+      "type": "text",
+      "_id": "0a5PV83ad5JizhIz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">An Ongoing Game</p><p>有时，一回就能完成一场完整的 D&amp;D 游戏（通常称为“单次冒险 one-shot”)，这样你可以一回就完成一场短篇冒险。但更常见的情况是，需要数回才能完成的冒险里，每回 D&amp;D 相互关联。而冒险可以串联起来形成名为战役的宏大篇章。</p><p>战役就好似电视连续剧，而冒险如同电视剧的一季，参与游戏进行的每回就像其中的一集——它可能有独立的情节，但如有可能，其通常都连接着更大故事情节中。</p><h2>冒险</h2><p class=\"journal-original-h2\">Adventures</p><p>一场冒险可能是由地下城主自创的，也可以是购买的（本章节中的游戏示例取材于已出版冒险<em>《施特拉德的诅咒》</em>）。无论哪种，冒险都以奇幻设定为特色，例如隐秘的地下城、令人惊异的未开发旷野、又或者充满魔法的城市。它还包括一群由 DM 控制的非玩家角色。这群 NPC 里通常有一个反派，是他的计划驱使了冒险中大部分的行动。</p><p>在冒险的期间，冒险者们探索环境、探索事件、探索 DM 展现的种种生物。在这期间会有战斗、陷阱、谈判、神秘事件以及其他更多内容出现。</p><p>冒险的长度和复杂程度各有不同。短篇冒险可能只有寥寥几个挑战，而且仅需要一回就能搞定。长篇冒险可能涉及许多战斗、互动和其他挑战，并且需要参加十数回。</p><h2>战役</h2><p class=\"journal-original-h2\">Campaigns</p><p>战役是由一群志同道合的冒险者根据描述进行的一系列冒险。</p><p>有些战役是由许多片段组成的，每一场冒险都是独立的单元剧，除了玩家角色相同外，与下一次冒险没有太多关联。有的战役则涉及长期的故事剧情，有一批反复出现的 NPC，按主题历经多场冒险最终汇聚到一个令人激动的结局。</p><p>和冒险一样，DM 可能从头开始创建一部战役，或是根据已出版的冒险组建战役，或是将自定义创作内容与出版物中的素材混合在一起。战役同样既可能发生在 DM 创造的世界中，也可能发生在已出版的战役世界里，就比如被遗忘的国度或灰鹰（后者在<em>《城主指南》</em>中有所描述）。</p><aside class=\"notable\"><h3>向下取整</h3><p>每当你在游戏中对一个数字进行乘除法运算后，向下取整你最终得到的小数，就算小数结果等于或大于二分之一，不过留意有些规则会例外告诉你应当向上取整。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776362375352,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.0a5PV83ad5JizhIz"
+    },
+    {
+      "sort": 400010,
+      "name": "骰子",
+      "type": "text",
+      "_id": "dVYKuX6CBe48Rcav",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Dice</p><p>骰子增加了游戏的随机性。它们为确定角色和怪物是否能成功完成他们想要尝试的事情提供支持。</p><h2>骰子标识</h2><p class=\"journal-original-h2\">Dice Notation</p><p>D&amp;D 中使用的骰子以字母 d 作为开头，后面加上对应骰子的面数：d4、d6、d8、d10、d12 和 d20。举例来说，d6 是六面骰（很多游戏中都会用到的正方体）。本页的插图显示了每种骰子的样式。</p><p>规则会在你需要掷骰时告诉你掷骰多少颗什么类型的骰子，以及任何要加减的数字。举个例子，“3d8 + 5”表示掷骰三颗八面骰，将它们的结果相加，然后在总数上再加上 5。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.HEU9IiUlNzn0ab4c cite=false]</p><h3>百分骰</h3><p class=\"journal-original-h3\">Percentile Dice</p><p>规则中有时会提及 d100。确实存在这样的骰子，但掷 1d100 的常见方法是使用一对从 0 到 9 的十面骰，称为百分骰。掷骰前指定的一个骰子给出十位上的数字，另一个则是个位上的数字。例如，若是你掷出的十位数结果是 7，而个位数得到结果 1，掷出的数字就是 71。两个骰子都是 0 代表结果是 100。</p><p>有些十面骰直接以十位数作为编号（00、10、20 以此类推），这样更容易区分十位骰和个位骰。在这种情况下，掷 70 和 1 就是 71，而 00 和 0 就是 100。</p><h3>三面骰</h3><p class=\"journal-original-h3\">D3</p><p>尽管很少能找到三面骰，但“1d3”这个词中同样出现了 d 标识，只要掷 1d6 然后用掷出的数字除以 2（向上取整）充当 1d3 就行。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>在 Foundry Virtual Tabletop 中掷骰</h3><p>你可以用上述描述的骰子标识来创建内联掷骰，这些掷骰可以直接点击，无论其有多少面。例如，1d3 可以表示为如下内联掷骰 [[/r 1d3]]，可以直接点击并掷出。你可以在我们的<a href=\"https://foundryvtt.com/article/dice/\">骰子指南</a>中了解更多关于 Foundry 中骰子的工作原理。</p></article></section><h2>骰子用来做什么？</h2><p class=\"journal-original-h2\">What Are Dice For?</p><aside class=\"notable three right\"><h3>诠释故事中的掷骰</h3><p>D&amp;D 的乐趣之一在于解读骰子掷出的数值在故事中意味着什么。骰子带来的随机性往往导致意想不到的结果：老马会失前蹄，菜鸟旗开得胜，或是其他的一些转折。当 D20 检定或其他掷骰出了意外的结果，地下城主通常会对发生的事情进行更加有趣的描述。如果你是玩家，看准机会去诠释你的角色的掷骰，并且描述事情的出乎意料甚至是幽默发展的原因。</p></aside><p>以下是骰子在 D&amp;D 中最常见的用途。</p><h3>D20 检定</h3><p class=\"journal-original-h3\">D20 Test</p><p>20 面骰（d20）是你在游戏中用到最重要的骰子。该机制是最重要的核心——名为 D20 检定——游戏用其判断生物们在游戏中想要尝试的事情的成败。（见本章节之后“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kRiblP7qNpfu3hLR]{D20 检定}” ）。如你的角色试图做出一些 DM 认为成败都有可能事情时，你都要掷 d20。骰子掷出的结果越高，你就越有可能成功。</p><h3>伤害</h3><p class=\"journal-original-h3\">Damage</p><p>除了 d20 以外的骰子最常见的用途就是确定伤害。在你成功进行一次攻击检定（一种 D20 检定），你便需要骰伤害，看看攻击有多有效。当你施放法术，你也可能需要骰伤害。不同的武器和法术使用不同的骰子来计算伤害。例如，一把匕首使用 1d4；一柄巨斧使用 1d12；<em>火球术</em>法术使用 8d6。</p><h3>随机表</h3><p class=\"journal-original-h3\">Random Tables</p><p>有时候，你将看到一张使用掷骰获得随机结果的表格。在这些表格中，你能看到一个骰子的标识，例如 d10 或 d100，位于最左侧列的标题中。掷这个骰子，然后在表格中找到掷骰结果的数字（或是包含该数的范围），阅读该行查看结果。举个例子，在第 2 章中的饰品表使用到的 d100。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>掷骰表</h3><p>在 Foundry 中，随机表以<a href=\"https://foundryvtt.com/article/roll-tables/\">掷骰表</a>的形式实现，可以直接掷骰，结果将发送到聊天窗口。你可以查看@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.WMBgtO8ZezWZiOTl]{饰品表}作为示例。</p><p>当掷骰表直接嵌入日志条目时，你可以点击骰子图标进行掷骰。</p></article></section><h3>百分比概率</h3><p class=\"journal-original-h3\">Percentage Chances</p><p>有些时候你可能会看到一条规则描述了可能发生某件事的概率百分比。举个例子，有条规则可能会说某件事发生的概率有百分之五。你可以通过掷骰百分骰来判断这件事是否会发生；如果掷骰的结果等于或小于概率百分比（该例子中为 01 到 05），它就发生了。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776257951833,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.dVYKuX6CBe48Rcav"
+    },
+    {
+      "sort": 400020,
+      "name": "六项属性",
+      "type": "text",
+      "_id": "sIPPXW1mYE3O4xdc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">The Six Abilities</p><p>所有的生物——无论玩家角色还是怪物——都有六项属性用于衡量身体和精神特征，如属性描述表所示。</p><table><caption>属性描述 Ability Descriptions</caption><thead><tr><th>属性</th><th>数值衡量…</th></tr></thead><tbody><tr><td>力量</td><td>身强力壮</td></tr><tr><td>敏捷</td><td>灵活性、反应能力和平衡感</td></tr><tr><td>体质</td><td>健康程度和耐力</td></tr><tr><td>智力</td><td>推理能力和记忆力</td></tr><tr><td>感知</td><td>洞察力和精神坚韧程度</td></tr><tr><td>魅力</td><td>自信、仪态以及吸引力</td></tr></tbody></table><h2>属性值</h2><p class=\"journal-original-h2\">Ability Scores</p><p>每项属性都有数值，从 1 到 20，不过有些怪物的数值会高到 30。数值代表属性的强弱，属性值描述表概述了数值的含义。</p><table><caption>属性值描述 Ability Scores</caption><thead><tr><th>数值</th><th>含义</th></tr></thead><tbody><tr><td style=\"white-space:nowrap\">1</td><td>这是属性数值通常可以降低到的最低值。如果一个效应能将数值降低到 0，那么这种效应需要解释会发生什么。</td></tr><tr><td style=\"white-space:nowrap\">2–9</td><td>这能表明能力较弱。</td></tr><tr><td style=\"white-space:nowrap\">10–11</td><td>这能代表人类的平均值。</td></tr><tr><td style=\"white-space:nowrap\">12–19</td><td>这意味着其能力强大。</td></tr><tr><td style=\"white-space:nowrap\">20</td><td>除非另有说明，这已经是冒险者的属性数值所能达到的最高值。</td></tr><tr><td style=\"white-space:nowrap\">21–29</td><td>此才能非凡。</td></tr><tr><td style=\"white-space:nowrap\">30</td><td>这是属性数值能达到的极值。</td></tr></tbody></table><h2>属性调整值</h2><p class=\"journal-original-h2\">Ability Modifiers</p><p>每项属性都有一个调整值，每当你使用这项属性进行 D20 检定时则应用该调整值(详见“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kRiblP7qNpfu3hLR]{D20 检定}”)。属性调整值根据数值得出，如属性调整值表所示。</p><table style=\"text-align:center\"><caption>属性调整值 Ability Modifiers</caption><thead><tr><th>数值</th><th>调整值</th></tr></thead><tbody><tr><td>1</td><td>− 5</td></tr><tr><td>2–3</td><td>− 4</td></tr><tr><td>4–5</td><td>− 3</td></tr><tr><td>6–7</td><td>− 2</td></tr><tr><td>8–9</td><td>− 1</td></tr><tr><td>10–11</td><td>+ 0</td></tr><tr><td>12–13</td><td>+ 1</td></tr><tr><td>14–15</td><td>+ 2</td></tr><tr><td>16–17</td><td>+ 3</td></tr><tr><td>18–19</td><td>+ 4</td></tr><tr><td>20–21</td><td>+ 5</td></tr><tr><td>22–23</td><td>+ 6</td></tr><tr><td>24–25</td><td>+ 7</td></tr><tr><td>26–27</td><td>+ 8</td></tr><tr><td>28–29</td><td>+ 9</td></tr><tr><td>30</td><td>+ 10</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776257996198,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ZXHEwWtSUcCIogyG.sIPPXW1mYE3O4xdc"
+    }
+  ],
+  "folder": "p8SY9DO0Sa6MXGuM",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "position": 2,
+      "title": "第一章：进行游戏",
+      "navigation": {
+        "previous": "xigFVq43JjNlBtg5",
+        "next": "kRiblP7qNpfu3hLR"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1727590831253,
+    "modifiedTime": 1776256521735,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "ZXHEwWtSUcCIogyG",
+  "sort": 25000,
+  "categories": [],
+  "_key": "!journal!ZXHEwWtSUcCIogyG"
+}

@@ -1,0 +1,92 @@
+{
+  "name": "灵能力量",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_psionic-power.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "formula",
+          "formula": "1"
+        },
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.soulknife.psionic-energy.number"
+    },
+    "description": {
+      "value": "<p>你内心蕴含着一股灵能力量，这股能量表现为你拥有数枚灵能骰。你可以使用这些灵能骰来驱动你从这个子职中获得的特定心灵异能。下方的魂刃灵能骰表展示了你在达到特定游荡者等级时会拥有多少颗灵能骰，该列表同样列出了骰子大小。</p><table style=\"text-align:center\" class=\"right-three\"><caption>魂刃灵能骰 Soulknife Energy Dice</caption><thead><tr><td>游荡者等级</td><td>骰面</td><td>数量</td></tr></thead><tbody><tr><td>3</td><td>D6</td><td>4</td></tr><tr><td>5</td><td>D8</td><td>6</td></tr><tr><td>9</td><td>D8</td><td>8</td></tr><tr><td>11</td><td>D10</td><td>8</td></tr><tr><td>13</td><td>D10</td><td>10</td></tr><tr><td>17</td><td>D12</td><td>12</td></tr></tbody></table><p>这个子职中一切需要使用灵能骰的异能，必须花费源自这个子职的灵能骰。需要消耗灵能骰的异能都会在其描述中详述，你无法在你的灵能骰全部掷完后去使用这些需要消耗灵能骰的异能。</p><p>你可以在完成一次长休后恢复所有已消耗的灵能骰。此外，你每次完成一次短休时也会恢复一颗已消耗的灵能骰。</p><p><em><strong>灵振诀窍。</strong></em>如果你使用具有熟练项的技能或工具进行一次属性检定但失败时，你可以投掷灵能骰，并将掷骰结果加到检定结果中，这可能会让失败的检定变为成功。你只在掷骰结果让检定变为成功时才会消耗那颗灵能骰。</p><p><em><strong>心灵低语。</strong></em>你能够利用灵能在自己和他人之间建立起基于心灵感应的交流。以一个&amp;Reference[Magic]{魔法}动作，从可见的生物中选择一到至多等同于你熟练加值数量的生物，掷一枚灵能骰。你在投掷结果的小时内，你选择的生物能够通过心灵感应与你进行交流，你也能通过心灵感应与他们进行交流。你们在发送或接收信息时（无需动作），你和选择生物之间的距离不可超过 1 里。生物可以随时终止心灵感应的链接（无需动作）。</p><p class=\"item-original\">Psionic Power</p>",
+      "chat": ""
+    },
+    "identifier": "psionic-power",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魂刃",
+    "advancement": [
+      {
+        "_id": "dr9TEcO1GLFKyE35",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.q74YaKUdDycKuNGz",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.moBWSbNMqKTZSQLi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "灵能力量",
+        "hint": "这个特性为你提供了以下子项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_psionic-power.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777657378818,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "BecgqFf5aN7RLyKH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!BecgqFf5aN7RLyKH"
+}

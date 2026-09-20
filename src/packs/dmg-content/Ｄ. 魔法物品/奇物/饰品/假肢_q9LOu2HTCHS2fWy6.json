@@ -1,0 +1,81 @@
+{
+  "folder": "5NVf38k4DKrbTt1b",
+  "name": "假肢",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_prosthetic-limb.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>这件魔法物品能替代一处缺失的肢体——一只手，一条手臂，一条腿，或是类似的身体部位。在假肢已完成安装期间，它能像被代替的肢体一样正常工作。</p><p>你可以用一个&amp;Reference[Magic]{魔法}动作将其装好或者卸除，且只要你活着，它就不能在你非自愿的情况下被移除。</p><p class=\"item-original\">Prosthetic Limb</p>",
+      "chat": ""
+    },
+    "identifier": "prosthetic-limb",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758161521155,
+    "modifiedTime": 1758199228351,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "q9LOu2HTCHS2fWy6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!q9LOu2HTCHS2fWy6"
+}

@@ -1,0 +1,181 @@
+{
+  "name": "龙类召唤术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_summon-dragon.webp",
+  "system": {
+    "activities": {
+      "qZOIzwIwW4Z5oymv": {
+        "type": "summon",
+        "_id": "qZOIzwIwW4Z5oymv",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "10 * (@item.level - 5)",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "巨龙灵魄",
+            "_id": "GrcKmU01ycns9yrp",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你唤来一个龙类灵魄。其使用巨龙灵魄的数据，并会在施法距离内一处你可见的未被占据的空间中显现。该生物会在生命值降为 0 或是法术结束时消失。</p><p>该生物是你的盟友（对你的其它盟友亦是如此）。它在战斗中使用你的先攻，并在你回合结束后立即行动。它遵从于你的口头指令（无需任何动作）。如果你不发令，它将执行&amp;Reference[Dodge]{回避}动作并远离危险。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz inline]</p></details><p><em><strong>升环施法。</strong></em>该生物的数据使用相应法术位的等级。</p><p class=\"item-original\">Summon Dragon</p>",
+      "chat": ""
+    },
+    "identifier": "summon-dragon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "一件刻有巨龙图案的物品，价值至少 500 GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194991937,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ambtJ1KNkQumn2Q1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ambtJ1KNkQumn2Q1"
+}

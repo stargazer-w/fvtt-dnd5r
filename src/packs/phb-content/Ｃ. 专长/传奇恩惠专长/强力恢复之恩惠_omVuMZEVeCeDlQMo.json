@@ -1,0 +1,260 @@
+{
+  "name": "强力恢复之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-recovery.webp",
+  "system": {
+    "activities": {
+      "kQGzuYJHNWxupBv8": {
+        "type": "heal",
+        "_id": "kQGzuYJHNWxupBv8",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "背水一战"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "(floor((@attributes.hp.max / 2)))"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "背水一战",
+        "img": "",
+        "appliedEffects": []
+      },
+      "DYMpvuvTm8xGJVIr": {
+        "type": "heal",
+        "_id": "DYMpvuvTm8xGJVIr",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "10"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "重获生机"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "(@scaling)d10"
+          },
+          "scaling": {
+            "number": 1,
+            "mode": ""
+          },
+          "bonus": ""
+        },
+        "name": "重获生机",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "10"
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你使你选择的一项属性值提升 1 点，最多为 30。</p><p><em><strong>背水一战。</strong></em>当你的生命值将要降至 0 时，你可以改为降至 1 并恢复等于你生命值上限一半的生命值。一旦你使用了该增益，直到你完成一次长休时，都不能再次使用它。</p><p><em><strong>重获生机。</strong></em>你获得一个有着 10 枚 d10 的治疗池。以一个&amp;Reference[Bonus Action]{附赠动作}，你可以消耗治疗池中任意枚骰子来恢复你的生命值。投掷全部你消耗的骰子，将它们相加，即是你以此恢复的生命值。当你完成一次长休时，你的治疗池重获所有被消耗的骰子。</p><p class=\"item-original\">Boon of Recovery</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-recovery",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你使你选择的一项属性值提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "PP2NVgVv8yRIkDZM",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775987906723,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "omVuMZEVeCeDlQMo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!omVuMZEVeCeDlQMo"
+}

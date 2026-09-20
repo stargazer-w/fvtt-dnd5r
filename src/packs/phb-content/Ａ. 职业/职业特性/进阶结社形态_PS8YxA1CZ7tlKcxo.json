@@ -1,0 +1,102 @@
+{
+  "name": "进阶结社形态",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_moon_improved-circle-forms.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em><strong>月耀辉光。</strong></em>你在@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}形态下的每次攻击可以造成普通的伤害或光耀伤害。由你在每次攻击命中时选择。</p><p><em><strong>强化韧性。</strong></em>你将你的感知调整值加到你的体质豁免结果当中。</p><p class=\"item-original\">Improved Circle Forms</p>",
+      "chat": ""
+    },
+    "identifier": "improved-circle-forms",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "月亮结社"
+  },
+  "effects": [
+    {
+      "name": "强化韧性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_moon_improved-circle-forms.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.PS8YxA1CZ7tlKcxo",
+      "_id": "aeoXsDLpgrKdv6Kn",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.con.bonuses.save",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734180473859,
+        "modifiedTime": 1735461462732,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PS8YxA1CZ7tlKcxo.aeoXsDLpgrKdv6Kn"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194976791,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PS8YxA1CZ7tlKcxo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!PS8YxA1CZ7tlKcxo"
+}

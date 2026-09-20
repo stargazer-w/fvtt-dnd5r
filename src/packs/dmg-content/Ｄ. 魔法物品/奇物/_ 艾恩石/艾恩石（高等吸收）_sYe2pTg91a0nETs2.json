@@ -1,0 +1,280 @@
+{
+  "folder": "EzNkAsy9ChXUywK1",
+  "name": "艾恩石（高等吸收）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_F.webp",
+  "system": {
+    "activities": {
+      "Bdxc37p9JZg2hY0N": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "LxcKl9FHekT6Ga0j"
+          },
+          {
+            "_id": "tAItgWFUcN5WyRgX"
+          },
+          {
+            "_id": "XcrRyaRrTzHXhuII"
+          },
+          {
+            "_id": "VK7rX6mVQxw4AXin"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "",
+        "_id": "Bdxc37p9JZg2hY0N"
+      },
+      "2LFLn3gy4UPvHGa6": {
+        "type": "utility",
+        "name": "法术无效化",
+        "_id": "2LFLn3gy4UPvHGa6",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "8"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "20"
+    },
+    "description": {
+      "value": "<p><em>奇物，传说（需同调）</em></p><p>在这颗具有紫绿双色大理石花纹的椭球形艾恩石环绕着在你头顶期间，你可以用一个&amp;Reference[Reaction]{反应}，使一名你能看到的生物即将施展的一道 8 环或更低环阶的法术无效化。被无效化的法术不会产生任何效应，且用于施展此法术的资源也会被浪费掉。此石无效化了总计 20 环的法术过后，它就会变成黯淡的灰色并失去魔力。</p><p>当你用一个&amp;Reference[Magic]{魔法}动作将<em>艾恩石</em>扔向空中时，此石会环绕在距离你头顶[[/r 1d3]]尺高之处，并为你带来其增益。同一时间内至多只能有 3 颗<em>艾恩石</em>环绕在你的头顶。</p><p>环绕在你头顶的每颗<em>艾恩石</em>都视为你正在穿戴着的物件。正在环绕着的<em>艾恩石</em>会避免与其他生物和物件接触，调整自己环绕的轨道以避免碰撞，并能使其他生物对<em>艾恩石</em>的攻击与抢夺无效。</p><p>你可以用一个&amp;Reference[Utilize]{操作}动作，抓住并收起环绕在你头顶的任意颗<em>艾恩石</em>。如果你结束正环绕在你头顶的<em>艾恩石</em>的同调，石头就会如同你将其丢弃一样掉落下来。</p><p class=\"item-original\">Greater Absorption, Ioun Stone</p>",
+      "chat": ""
+    },
+    "identifier": "greater-absorption-ioun-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "艾恩石（高等吸收）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_F.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.sYe2pTg91a0nETs2",
+      "transfer": false,
+      "_id": "VK7rX6mVQxw4AXin",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761896187864,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!sYe2pTg91a0nETs2.VK7rX6mVQxw4AXin"
+    }
+  ],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895740839,
+    "modifiedTime": 1761895878603,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "sYe2pTg91a0nETs2",
+  "_key": "!items!sYe2pTg91a0nETs2"
+}

@@ -1,0 +1,368 @@
+{
+  "name": "四象同调",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_elements_elemental-attunement.webp",
+  "system": {
+    "activities": {
+      "WUetRp3JEhKeBBcU": {
+        "type": "enchant",
+        "_id": "WUetRp3JEhKeBBcU",
+        "sort": 100000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "GVwJsIJRCrlGN5L4",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "laKKvuZqY2k0T33w",
+                "pQeoYp7zSVFlh7n3"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "GVwJsIJRCrlGN5L4"
+        ]
+      },
+      "laKKvuZqY2k0T33w": {
+        "type": "save",
+        "name": "拖近",
+        "_id": "laKKvuZqY2k0T33w",
+        "sort": 200000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-hand-fist\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.phb-content.Item.AnW2e54QPdIUAQDV\" data-tooltip=\"item\">元素注拳：拖近</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "pQeoYp7zSVFlh7n3": {
+        "type": "save",
+        "name": "推离",
+        "sort": 400000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-hand-fist\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.phb-content.Item.AnW2e54QPdIUAQDV\" data-tooltip=\"item\">元素注拳：推离</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "_id": "pQeoYp7zSVFlh7n3",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在你回合开始时，你可以消耗 1 点功力让元素能量浸润己身。这股能量将会持续存在 10 分钟，或直到你陷入失能状态。持续时间内，你获得以下好处。</p><p><em><strong>触及。</strong></em>你可以将元素能量打出体外，当你进行徒手打击的时候，你的触及范围将会比原来增加 10 尺。</p><p><em><strong>元素注拳。</strong></em>当你使用徒手打击攻击命中时，你可以选择使其造成强酸，寒冷，火焰或闪电伤害，而非通常的伤害类型。当你以徒手打击造成以上种类的伤害时，你可以迫使目标进行一次[[/save]]{力量豁免}。若失败，你可以利用周身的元素之力将目标拉近或推离 10 尺。</p><p class=\"item-original\">Elemental Attunement</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>徒手打击</strong>以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "elemental-attunement",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "四象武者"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "四象同调",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_elements_elemental-attunement.webp",
+      "disabled": false,
+      "_id": "GVwJsIJRCrlGN5L4",
+      "system": {},
+      "changes": [
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_elements_elemental-attunement_elemental-strikes.webp",
+          "priority": null
+        },
+        {
+          "key": "system.range.value",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734270578757,
+        "modifiedTime": 1735461124061,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AnW2e54QPdIUAQDV.GVwJsIJRCrlGN5L4"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "laKKvuZqY2k0T33w",
+          "pQeoYp7zSVFlh7n3"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758467088477,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AnW2e54QPdIUAQDV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!AnW2e54QPdIUAQDV"
+}

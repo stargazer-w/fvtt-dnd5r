@@ -1,0 +1,164 @@
+{
+  "name": "隐形仆役",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_unseen-servant.webp",
+  "system": {
+    "activities": {
+      "hpEv22lHeczUQMU3": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "hpEv22lHeczUQMU3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "bonuses": {},
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "_id": "gk6CMthM3tnpPGUK",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.R5pK98PBSRQNgVpj"
+          }
+        ],
+        "summon": {
+          "prompt": true
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>该法术创造出一个隐形、无心智、无定形的中型力场。你可以在法术终止前命令它进行简单的工作。该仆役被创造出来后出现在施法距离内一处未占空间的地面上。其具有 AC 10，HP 1，力量 2，且不能攻击。若仆从的生命值降至 0，则法术终止。</p><p>你可以在每个自己回合内以一个&amp;Reference[Bonus Action]{附赠动作}对仆役下达精神命令，使其移动至多 15 尺并与一个物件进行互动。仆役可以做人类能做到的简单工作，例如拿取东西、打扫卫生、修补东西、叠衣服、点火、上菜、倒饮料等。一旦你下达了命令，仆役就会尽全力去进行任务直至完成任务，并在此后等待你的下一个命令。</p><p>如果你命令仆役做一件需要它离开你身边 60 尺的工作，则法术终止。</p><p class=\"item-original\">Unseen Servant</p>",
+      "chat": ""
+    },
+    "identifier": "unseen-servant",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一些线和木头",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195008481,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "l67aK99VDwHpcoFE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!l67aK99VDwHpcoFE"
+}

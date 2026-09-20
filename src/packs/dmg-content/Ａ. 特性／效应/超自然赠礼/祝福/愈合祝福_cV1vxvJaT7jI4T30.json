@@ -1,0 +1,61 @@
+{
+  "name": "愈合祝福",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_blessing_wound-closure.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>超自然赠礼（祝福）</em></p><p>该祝福为你带来<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.45TwwEUxUTduhXVn]{愈合护符}</em>所提供的增益。</p><p class=\"item-original\">Blessing of Wound Closure</p>",
+      "chat": ""
+    },
+    "identifier": "blessing-of-wound-closure",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "blessing"
+    }
+  },
+  "effects": [],
+  "folder": "g5W4wDutJojiXFSk",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750519505572,
+    "modifiedTime": 1761896272210,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "cV1vxvJaT7jI4T30",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!cV1vxvJaT7jI4T30"
+}

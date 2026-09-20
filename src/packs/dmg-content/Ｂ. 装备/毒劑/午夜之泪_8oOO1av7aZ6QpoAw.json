@@ -1,0 +1,293 @@
+{
+  "name": "午夜之泪",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_poison_midnight-tears.webp",
+  "system": {
+    "activities": {
+      "YaBkOttoMKPq0Vle": {
+        "type": "utility",
+        "_id": "YaBkOttoMKPq0Vle",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": ""
+        },
+        "effects": [
+          {
+            "_id": "vn9JioxjfKzyywMe"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "服用",
+        "img": "",
+        "appliedEffects": [
+          "vn9JioxjfKzyywMe"
+        ]
+      },
+      "VqAq4xWDUoGNskvR": {
+        "type": "save",
+        "_id": "VqAq4xWDUoGNskvR",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 9,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "poison"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        },
+        "name": "午夜钟声",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>服用型毒药</em></p><p>服用这种毒药的生物不会立即出现异样，其症状会一直潜伏到午夜钟声敲响时。任何能够解除中毒状态的效应都可以在此之前中和午夜之泪，然而如果毒素在午夜之前尚未中和，该生物就要进行一次[[/save format=long]]，豁免失败则受到[[/damage activity=VqAq4xWDUoGNskvR average]]伤害，豁免成功则伤害减半。</p><p class=\"item-original\">Midnight Tears</p>",
+      "chat": ""
+    },
+    "identifier": "midnight-tears",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1500,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "poison",
+      "subtype": "ingested"
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "毒劑",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_poison.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.8oOO1av7aZ6QpoAw",
+      "transfer": false,
+      "_id": "vn9JioxjfKzyywMe",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>@Embed[Compendium.dnd5e-collection-2024.dmg-content.Item.8oOO1av7aZ6QpoAw inline]</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751722032743,
+        "modifiedTime": 1751722032743,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!8oOO1av7aZ6QpoAw.vn9JioxjfKzyywMe"
+    }
+  ],
+  "folder": "ij4cMCt0sdIqPsJX",
+  "sort": 156250,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.uEwoh9m8fpybhDoG",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750858444039,
+    "modifiedTime": 1759939683129,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "8oOO1av7aZ6QpoAw",
+  "_key": "!items!8oOO1av7aZ6QpoAw"
+}

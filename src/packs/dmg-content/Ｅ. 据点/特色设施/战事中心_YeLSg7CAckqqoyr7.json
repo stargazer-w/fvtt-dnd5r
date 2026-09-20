@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "战事中心",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-04.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>17 级据点设施</em></p><p><strong>先决条件：</strong>战斗风格特性或无甲防御特性<br /><strong>空间：</strong>庞大<br /><strong>雇员：</strong>2+（見下）<br /><strong>指令：</strong>招募</p><p>作战指挥室是你和你忠诚的副官们一起商讨作战计划的地方。每位副官都是身经百战的<strong>历战武者</strong>，他们的阵营与你一致。你初始拥有两名副官，但可以招募更多副官，如下文所述。如果你的据点没有安置这些副官的设施，他们会在距离据点最近的旅馆或聚落找到住所。副官是雇员而非据点卫兵，但如果你的据点遭受攻击（见“ @UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBastions00000.JournalEntryPage.KiujX8sthhH791vM]{据点事件}”一节）,那么在为决定据点卫兵损失数量所作的掷骰中，每位副官将使需要投掷的骰子数量减少 1。</p><p>作战指挥室里摆放着战争纪念品，以及一张大桌子，桌子周围摆放着足够你和副官一一就座的椅子。</p><p><em><strong>招募选项。</strong></em>当你对此设施下达招募指令时，从下列选项中选择一项：</p><p><strong>招募：副官。</strong>你获得一位新副官。你最多同时拥有十名副官。你可以按自己的喜好为他们分配姓名和个性。</p><p><strong>招募：士兵。</strong>你委托一位或更多副官集结一支小型军队。每位副官可以在 7 天时间里召集最多 100 名<strong>守卫</strong>，为你的事业而战。如果你希望为这些士兵配备<strong>骑用马</strong>，那么每位副官只能召集 20 名这样的骑兵。你每天需要为军队内的每位士兵与每只马匹花费 1 GP 以满足他们的粮草供应。</p><p>军队在任何时候都必须由你本人或至少一位你的副官领导着，没有领导者的军队会立即解散。在 1 天时间里没有获得粮草供应的军队也会立即解散。如果上述情况没有发生，军队将维持至他们被击溃，或者维持至你命令他们解散。在你当前拥有的军队被击溃或解散之前，你不能招募新的军队。</p><p class=\"item-original\">War Room</p>",
+      "chat": ""
+    },
+    "identifier": "war-room",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 10
+    },
+    "level": 17,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "warRoom"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013320386,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "YeLSg7CAckqqoyr7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!YeLSg7CAckqqoyr7"
+}

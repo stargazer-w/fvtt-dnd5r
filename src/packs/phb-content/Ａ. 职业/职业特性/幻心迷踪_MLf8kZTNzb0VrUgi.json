@@ -1,0 +1,59 @@
+{
+  "name": "幻心迷踪",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_archfey_bewitching-magic.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的宗主赋予你将魔法与传送编织在一起的能力。当你以一个动作消耗法术位施展一道幻术或惑控法术时，你可以无需法术位地施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>作为该动作的一部分。</p><p class=\"item-original\">Bewitching Magic</p>",
+      "chat": ""
+    },
+    "identifier": "bewitching-magic",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "至高妖精宗主"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777659010736,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "MLf8kZTNzb0VrUgi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MLf8kZTNzb0VrUgi"
+}

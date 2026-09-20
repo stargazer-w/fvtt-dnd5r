@@ -1,0 +1,253 @@
+{
+  "name": "蟒蛇法杖",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_STAFF_staff-of-the-python.webp",
+  "system": {
+    "activities": {
+      "kVxfVEuZirm9R99i": {
+        "_id": "kVxfVEuZirm9R99i",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      },
+      "6Qc0b5EKzJvav96e": {
+        "type": "summon",
+        "name": "唤醒蟒蛇",
+        "_id": "6Qc0b5EKzJvav96e",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gBYJRZ0zkHHJFUzo]{法杖}，非普通（需同调）</em></p><p>以一个&amp;Reference[Magic]{魔法}动作，你可以将法杖扔到你周边 10 尺内一处未占据空间的地面上，并让其变为一条<strong>巨蟒蛇</strong>。这条蛇将受你所控，其先攻值与你相同，并在你的回合结束后立即进行其回合。</p><p>在你的回合内，只要蛇在你身边 60 尺范围内且你未陷入失能状态，你便可以用精神给他下达命令（无需动作）。你将决定巨蟒在这一轮中执行什么动作以及如何移动，或者你可以下达一个宽泛的指令，例如攻击你的敌人或保护某个地点。如果你没有下达命令，蛇将保护自己。</p><p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以命令蛇在当前的空间还原回法杖形态，之后你无法在 1 小时内再次使用法杖的词条。如果蛇的生命值被降为 0，它将死亡并还原回法杖形态，随后法杖破碎并被摧毁。如果蛇在失去全部生命值之前还原回法杖形态，它会恢复所有失去的生命值。</p><p class=\"item-original\">Staff of The Python</p>",
+      "chat": ""
+    },
+    "identifier": "staff-of-the-python",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "ver",
+      "foc",
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "topple"
+  },
+  "effects": [],
+  "folder": "bWTASypT35DbWYOp",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1753003774483,
+    "modifiedTime": 1758199225162,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iR31SuLAsr7y5pRz",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!iR31SuLAsr7y5pRz"
+}

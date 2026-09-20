@@ -1,0 +1,58 @@
+{
+  "name": "撤步",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_withdraw.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>偷袭骰花费：1d6</em></p><p>攻击后你立刻移动至多等于你速度的一半的距离，并且不会触发借机攻击。</p><p class=\"item-original\">Withdraw, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO]{Cunning Strike}</p>",
+      "chat": ""
+    },
+    "identifier": "withdraw",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "qH2bnZMa3kZarYPJ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1734075431065,
+    "modifiedTime": 1777116559551,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "VE4TY2MU3pgWTaPK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_key": "!items!VE4TY2MU3pgWTaPK"
+}

@@ -1,0 +1,164 @@
+{
+  "_id": "dmgRunningSocial",
+  "name": "运作交涉",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "NJf3akNxUE8vZwaE",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>在交涉中，冒险者们通常都具有一个目的，比如想获取信息、获得援助、赢得他人信任、逃避惩罚、避免战斗、洽谈条约或实现其他目标。成功完成遭遇则意味着达成目的。</p><p>有些 DM 将交涉视为一种形式自由的角色扮演机会，而骰子很少在游戏中发挥作用；另外一些 DM 也会通过让角色进行一些魅力检定来解决问题。大多数游戏则介于两者之间，于角色扮演和偶尔的属性检定之间找到平衡。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776537809245,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningSocial.NJf3akNxUE8vZwaE"
+    },
+    {
+      "sort": 200000,
+      "name": "角色扮演",
+      "type": "text",
+      "_id": "DUO9pQSkOgojEljp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Roleplaying</p><p>用角色扮演来创造戏剧效果或幽默桥段不需要你成为专业演员或谐星。关键是要注意那些会让你的玩家哄堂大笑或产生情感共鸣的故事元素和角色特征，并将这些内容融入进你的角色扮演中。</p><h2>NPC 的人物刻画</h2><p class=\"journal-original-h2\">NPC Portrayals</p><p>在思考如何扮演 NPC 或怪物时，请考虑使用一到两个最能描述该生物的形容词。了解该生物的阵营也有助于人物刻画。于写手的一个经典建议是：展示，而非陈述。例如，与其陈述这个 NPC 具有风趣而诚实的特点，不如让 NPC 经常说双关语，并随口分享些私人趣闻。</p><p>你可以通过以下方式来进一步提升对某个生物的刻画。</p><p><em><strong>运用面部表情。</strong></em>你的面部表情有助于传达生物的情感：微笑，皱眉，怒吼，打哈欠或撅嘴，视情况而定。</p><p><em><strong>运用动作和姿势。</strong></em>动作和姿势有助于展现 NPC 的性格。你可以通过翻白眼和手指按摩太阳穴来反映一位大法师的不满；垂着头，不时偷瞄玩家会展现一种顺从或恐惧的感觉；昂首挺胸可以展现自信。</p><p><em><strong>运用声音。</strong></em>改变你声音的音量，并借用现实生活、电影或电视中的说话方式让 NPC 与众不同。</p><h2>让玩家参与其中</h2><p class=\"journal-original-h2\">Engaging the Players</p><p>虽然有些玩家比其他人更享受角色扮演，但交涉有助于让所有玩家都沉浸在游戏中。考虑采用以下方法，来让强互动性的游戏回能吸引各种口味的玩家。</p><p><em><strong>迎合玩家偏好。</strong></em>喜欢扮演的玩家（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgRunningTheGam.JournalEntryPage.tiekOc44JRTfFZgS]{了解你的玩家}”）以交涉为乐趣所在，那么就让他们成为焦点，并以身作则来激励其他玩家吧！不过，也请确保要去调整交涉的各个方面来迎合其他玩家的口味。</p><p><em><strong>让特定角色参与进来。</strong></em>如果有玩家不怎么乐意参与进交涉中，你则可以创造为他们的角色量身定制的场合。也许相关 NPC 是某个冒险者的家人或联系人，且将注意力都放在了他身上。有些 NPC 可能会特别关注那些他们感觉亲近的角色。</p><p>如果只有某几个玩家主要在交涉中说话，那就花点时间和其他人互动。你可以让 NPC 指名道姓另一个角色：“那么这位大块头朋友呢？你打算用什么来换取我的青睐？”如果玩家不太适应角色扮演，你可以要求他们描述自己角色在对话中的行为从而让他们参与进来。</p><p><em><strong>使用其他属性值。</strong></em>考虑以下的其他可能性，让那些魅力并非强项的角色有机会大显身手：</p><p><strong>力量。</strong>在其中一人同意进行掰手腕比赛之前，NPC 不愿意和角色们说话；或者一个强壮的角色需要用肉体去防范 NPC 逃跑。</p><p><strong>敏捷。</strong>NPC 与入侵者敌对，因此角色必须从隐匿处说话；或者用交涉来分散角色的注意力，让角色可以接近 NPC 并从他的口袋里偷些东西。</p><p><strong>智力。</strong>NPC 的话语里充满了对某一特定知识领域的晦涩典故，以至于角色无法使用所获得的信息直到从中解读出这些晦涩的真相；或者 NPC 拒绝给出直接回答，而是含糊其辞，角色必须东拼西凑来获得他们要找的信息。</p><p><strong>感知。</strong>一位 NPC 隐藏着重要的信息，角色们必须读懂他的在语言之外的留下的线索，才能分辨出哪些是真话，哪些在扯谎；或者关键信息隐藏在互动发生地的房间细节中，而敏锐的角色可能会注意到。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537824945,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningSocial.DUO9pQSkOgojEljp"
+    },
+    {
+      "sort": 300000,
+      "name": "态度",
+      "type": "text",
+      "_id": "Sawzp2d1wq1JZ8PF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Attitude</p><p>DM 控制的每个生物有以下三种对冒险者的态度：友好、冷漠或敌对。第 4 章的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanEncounter.JournalEntryPage.Qa7LIRWcz3vC9lVb]{怪物行为}”部分提供帮助你确定生物的初始态度的指南。</p><p>角色可以通过言行改变生物的态度。例如，为一群态度为冷漠的矿工买饮料可能会让他们态度变为友好。当态度发生变化时，请向玩家描述。例如，矿工可能会通过提供一些有用的信息、许诺日后报答善意、或邀请角色加入一场饮酒友谊赛来体现他们刚刚建立的友好关系。</p><h2>交涉中的属性检定</h2><p class=\"journal-original-h2\">Ability Checks in Social Interaction</p><p>你可以决定属性检定会有多大程度上影响交涉的结果。一次简单的交涉可能只涉及简短的对话和一次魅力检定，而一次更复杂的遭遇可能需要多次属性检定来帮助引导对话的走向。</p><h2>使用协助动作</h2><p class=\"journal-original-h2\">Using the Help Action</p><p>当一个角色使用协助动作来协助另一个角色影响一个 NPC 或怪物时，鼓励进行协助角色的玩家参与对话，或至少描述一下他们的角色为了协助另一个角色取得成功正在做什么或说什么。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537835850,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningSocial.Sawzp2d1wq1JZ8PF"
+    }
+  ],
+  "folder": "ZnbiXbiX12jvdzm6",
+  "flags": {
+    "dnd5e": {
+      "showPages": true,
+      "append": 2,
+      "type": "special",
+      "order": 202000,
+      "navigation": {
+        "previous": "dmgResolvingOutc",
+        "next": "dmgRunningExplor"
+      }
+    },
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776537801739,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgRunningSocial"
+}

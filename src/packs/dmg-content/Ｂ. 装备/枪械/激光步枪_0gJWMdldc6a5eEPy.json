@@ -1,0 +1,262 @@
+{
+  "name": "激光步枪",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/FIREARM_laser-rifle.webp",
+  "system": {
+    "activities": {
+      "T39ugljD6znYm6P8": {
+        "_id": "T39ugljD6znYm6P8",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": ""
+      },
+      "9tofO6IYHMdUth8R": {
+        "type": "utility",
+        "name": "装填",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-30",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "9tofO6IYHMdUth8R"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "30"
+    },
+    "description": {
+      "value": "<p>伤害：[[/damage]]；<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>100/300 尺，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.vFyRjcAy0mQOTg5Q.JournalEntryPage.1MCwlHxLyO9m5K9b\" data-tooltip=\"rule\">弹容</a>30 发，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></p><p class=\"item-original\">Laser Rifle</p>",
+      "chat": ""
+    },
+    "identifier": "laser-rifle",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 7,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "martialR",
+      "baseItem": ""
+    },
+    "ammunition": {
+      "type": "energyCell"
+    },
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 3,
+        "denomination": 8,
+        "types": [
+          "radiant"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "rel",
+      "amm",
+      "two"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 100,
+      "long": 300,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "slow"
+  },
+  "effects": [],
+  "folder": "OL1xlI2dcwcP9Y8m",
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.uVYo8wMdg2N6cIrm",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750931336922,
+    "modifiedTime": 1758199208858,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "0gJWMdldc6a5eEPy",
+  "_key": "!items!0gJWMdldc6a5eEPy"
+}

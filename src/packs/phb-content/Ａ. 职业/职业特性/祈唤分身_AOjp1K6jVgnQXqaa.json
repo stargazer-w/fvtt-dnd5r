@@ -1,0 +1,260 @@
+{
+  "name": "祈唤分身",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_cleric_trickery_channelDivinity_invoke-duplicity.webp",
+  "system": {
+    "activities": {
+      "d3dKqM9xCm18UXYW": {
+        "type": "summon",
+        "_id": "d3dKqM9xCm18UXYW",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.zrljXECr00sNC3sD",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "ZHLeE5IXGnDOVRLK"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "幻像分身",
+        "img": "",
+        "appliedEffects": []
+      },
+      "W8kIxVO7EHcUCx6d": {
+        "type": "utility",
+        "name": "转移",
+        "_id": "W8kIxVO7EHcUCx6d",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "转移"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以消耗一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zrljXECr00sNC3sD]{引导神力}次数来创造一个自己的完美视觉幻象并现在你身边 30 尺内一个你能看见且未被占据的空间。该幻象是无形的且不占据它所在的空间。幻象持续 1 分钟，或直至你将其解除（无需动作）或陷入失能状态。这个幻象栩栩如生，能模仿你的表情和姿势。当幻象存在时，你将获得以下好处。</p><p><em><strong>施法。</strong></em>你可以如同你在幻象所在位置施展法术，但必须使用你自己的感官。</p><p><em><strong>分散注意。</strong></em>当你和你的幻象都在同一个生物身边 5 尺内，且该生物可以看见幻象时，由于幻象对目标造成的干扰，你对其进行的攻击检定具有优势。</p><p><em><strong>转移。</strong></em>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以移动幻象最多 30 尺到达一处空间，该空间必须是你 120 尺内一处可见的未被占据的空间。</p><p class=\"item-original\">Invoke Duplicity</p>",
+      "chat": ""
+    },
+    "identifier": "invoke-duplicity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "诡术领域"
+  },
+  "effects": [
+    {
+      "name": "幻像分身",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_cleric_trickery_channelDivinity_invoke-duplicity.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.AOjp1K6jVgnQXqaa",
+      "transfer": false,
+      "_id": "ZHLeE5IXGnDOVRLK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>幻象持续存在时，你获得以下好处。</p><p><em><strong>施法。</strong></em>你可以如同你在幻象所在位置施展法术，但必须使用你自己的感官。</p><p><em><strong>分散注意。</strong></em>当你和你的幻象都在同一个生物身边 5 尺内，且该生物可以看见幻象时，由于幻象对目标造成的干扰，你对其进行的攻击检定具有优势。</p><p><em><strong>转移。</strong></em>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以移动幻象最多 30 尺到达一处空间，该空间必须是你 120 尺内一处可见的未被占据的空间。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734109719229,
+        "modifiedTime": 1735456590383,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AOjp1K6jVgnQXqaa.ZHLeE5IXGnDOVRLK"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194953636,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AOjp1K6jVgnQXqaa",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!AOjp1K6jVgnQXqaa"
+}

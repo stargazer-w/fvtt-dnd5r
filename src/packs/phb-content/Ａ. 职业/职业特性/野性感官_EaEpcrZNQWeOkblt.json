@@ -1,0 +1,103 @@
+{
+  "name": "野性感官",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_ranger_feral-senses.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与自然的链接给予了你 30 尺的&amp;Reference[Blindsight]{盲视}。</p><p class=\"item-original\">Feral Senses</p>",
+      "chat": ""
+    },
+    "identifier": "feral-senses",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游侠",
+    "advancement": []
+  },
+  "effects": [
+    {
+      "name": "野性感官",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_ranger_feral-senses.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.EaEpcrZNQWeOkblt",
+      "_id": "2mYXpsRQ3o91V0AC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735819979051,
+        "modifiedTime": 1735819991104,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!EaEpcrZNQWeOkblt.2mYXpsRQ3o91V0AC"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777651588800,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "EaEpcrZNQWeOkblt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!EaEpcrZNQWeOkblt"
+}

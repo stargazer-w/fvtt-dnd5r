@@ -1,0 +1,418 @@
+{
+  "name": "巨人屠杀者",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_giant-slayer.webp",
+  "system": {
+    "activities": {
+      "9cdGIE71UeD0xSm0": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sNVvszKIpm1EMuJA",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "KXW1FhPRhEOiVcLR",
+                "JLOtHcESOGTGZZRf"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "9cdGIE71UeD0xSm0"
+      },
+      "KXW1FhPRhEOiVcLR": {
+        "type": "attack",
+        "name": "攻击 (对巨人)",
+        "_id": "KXW1FhPRhEOiVcLR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        }
+      },
+      "JLOtHcESOGTGZZRf": {
+        "type": "save",
+        "_id": "JLOtHcESOGTGZZRf",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（任意简易或军用武器），珍稀</em></p><p>你用此魔法武器发动的攻击检定和伤害掷骰获得 +1 加值。</p><p>你用此武器命中一名巨人时，该巨人额外受到与武器伤害类型相同的 2d6 点伤害，且必须成功通过一次[[/save format=long]]否则陷入&amp;Reference[prone]{倒地}状态。</p><p class=\"item-original\">Giant Slayer</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "giant-slayer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "巨人屠杀者",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "sNVvszKIpm1EMuJA",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "巨人屠杀者",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，珍稀</em></p><p>你用此魔法武器发动的攻击检定和伤害掷骰获得 +1 加值。</p><p>你用此武器命中一名巨人时，该巨人额外受到与武器伤害类型相同的 2d6 点伤害，且必须成功通过一次[[/save con 15 format=long]]否则陷入&Reference[prone]{倒地}状态。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759737083968,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AzlWPXFONcnpZMZ7.sNVvszKIpm1EMuJA"
+    }
+  ],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "KXW1FhPRhEOiVcLR",
+          "JLOtHcESOGTGZZRf"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752330678648,
+    "modifiedTime": 1758727475626,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AzlWPXFONcnpZMZ7",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!AzlWPXFONcnpZMZ7"
+}

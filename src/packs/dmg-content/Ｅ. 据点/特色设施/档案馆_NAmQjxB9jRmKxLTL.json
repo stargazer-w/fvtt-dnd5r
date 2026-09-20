@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "档案馆",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/scribe.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>13 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>调查</p><p>档案馆是储存书籍，地图和卷轴的地方。它通常连接着一座图书馆，隔着一扇上锁的门或密门。</p><p><em><strong>调查：有益学识。</strong></em>当你对此设施下达调查指令时，你委托设施的雇员搜索档案馆，寻找需要的知识。这项工作需要 7 天时间。雇员将如同施展了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI]{通晓传奇}</em>法术那样获得相关的知识。在你下次和他对话时，雇员将这些知识传达给你。</p><p><em><strong>参考书。</strong></em>你的档案馆中存放了某本参考书的抄本，当你和这本书都位于据点内时，它会赋予你相应的好处。你可以从下列选项中选择一项（DM 可能会创作额外的选项）：</p><p><strong>《毕格比之手边奥术原典》。</strong>当你执行&amp;Reference[Study]{研究}动作以回想有关法术、魔法物品、秘术符号、魔法传统以及存在位面的知识时，你所做的所有智力（奥秘）检定具有优势。</p><p><strong>《库若尼普斯编年史》。</strong>当你执行&amp;Reference[Study]{研究}动作以回想有关历史事件、传奇人物、古代帝国、过去的冲突与战争以及失落的文明的知识时，你所做的所有智力（历史）检定具有优势。</p><p><strong>《调查员的调查报告》。</strong>当你执行&amp;Reference[Study]{研究}动作以根据线索和证据进行推理，或者回想有关陷阱、密码、谜题以及小装置的知识时，你所做的所有智力（调查）检定具有优势。</p><p><strong>《对于世界本质的物质性思考》。</strong>当你执行&amp;Reference[Study]{研究}动作以回想有关地形、植物、动物和天气的知识时，你所做的所有智力（自然）检定具有优势。</p><p><strong>《旧日信仰和其他宗教》。</strong>当你执行&amp;Reference[Study]{研究}动作以回想有关神祗、仪式、祈祷、宗教制度、圣徽以及秘密邪教的行为的知识时，你所做的所有智力（宗教）检定具有优势。</p><p><em><strong>扩大设施。</strong></em>你可以花费 2000 GP，将档案馆扩大为庞大设施。这样做之后，你从上述列表中获得额外两本参考书。</p><p class=\"item-original\">Archive</p>",
+      "chat": ""
+    },
+    "identifier": "archive",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": true,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "research",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "archive"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013092819,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "NAmQjxB9jRmKxLTL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!NAmQjxB9jRmKxLTL"
+}

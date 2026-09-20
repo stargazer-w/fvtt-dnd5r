@@ -1,0 +1,128 @@
+{
+  "name": "隐伏者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_skulker.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，敏捷 13+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的敏捷提升 1，最多为 20。</p><p><em><strong>盲视。</strong></em>你获得 10 尺距离的盲视。</p><p><em><strong>战争迷雾。</strong></em>你善于利用战斗中的混乱。你在战斗中通过执行&amp;Reference[Hide]{躲藏}动作所做的任何敏捷（隐匿）检定都具有优势。</p><p><em><strong>狙击手。</strong></em>如果你在隐匿中进行了攻击检定，而该次攻击未命中时，这次攻击不会暴露你的位置。</p><p class=\"item-original\">Skulker</p>",
+      "chat": ""
+    },
+    "identifier": "skulker",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的敏捷提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "盲视",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_skulker.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.iRhJLHIEcm8inBl0",
+      "_id": "TvKAi54MPC902jcN",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.blindsight",
+          "mode": 4,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736663733134,
+        "modifiedTime": 1736663752372,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!iRhJLHIEcm8inBl0.TvKAi54MPC902jcN"
+    }
+  ],
+  "folder": "uXMklfeD4yRyPxoQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1758195003757,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iRhJLHIEcm8inBl0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iRhJLHIEcm8inBl0"
+}

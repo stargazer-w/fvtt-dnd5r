@@ -1,0 +1,161 @@
+{
+  "name": "不灭明焰",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_continual-flame.webp",
+  "system": {
+    "activities": {
+      "qp6qN7A36kcPTpTv": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "qp6qN7A36kcPTpTv",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "bonuses": {},
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "_id": "G2NK5nEUuMD63UFg",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.2VvFBUa1WTBDAw13"
+          }
+        ],
+        "summon": {
+          "prompt": true
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你所触碰的物件上冒出火焰。这一效应发出 20 尺半径的&amp;Reference[Bright Light]{明亮光照}和额外 20 尺的&amp;Reference[Dim Light]{微光光照}。</p><p>法术效应看上去与一般火焰无异，不过其并不会发热，也不需要燃料。你可以掩盖或隐藏火焰，但无法将其闷熄或扑灭。</p><p class=\"item-original\">Continual Flame</p>",
+      "chat": ""
+    },
+    "identifier": "continual-flame",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "disp"
+    },
+    "level": 2,
+    "materials": {
+      "value": "价值至少 50 GP 的红宝石尘，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194972865,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "MbhFpVSlc2FYEaG4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MbhFpVSlc2FYEaG4"
+}

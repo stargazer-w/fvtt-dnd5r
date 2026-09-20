@@ -1,0 +1,290 @@
+{
+  "name": "游荡者",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "游荡者",
+      "type": "text",
+      "_id": "gJV8iDqdNhRMLi5r",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.EJGPmvmIPA4IT60s inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3EVzSlK6FiSyVwqC inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.A8wujCme7opVrxUE inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776352480907,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.gJV8iDqdNhRMLi5r"
+    },
+    {
+      "sort": 200000,
+      "name": "诡术师",
+      "type": "text",
+      "_id": "yiBzQeWdFjXrWxY2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Arcane Trickster</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TPL78Y9cK9uejHQ8 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.Hkz5LQZS0MKSTWoM inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DPAab5PRsRRPtKi7]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EpLPnBE8pxhnAnBR]{法师之手诈术}</td></tr><tr><td style=\"text-align:center\">9</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kKRMEUAtOwniN3Ap]{诡术伏击}</td></tr><tr><td style=\"text-align:center\">13</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G5R5kj28TZ0SLUhs]{万能诡术}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LrBW2Vc7ajo7i4wz]{法术窃贼}</td></tr></tbody></table><p class=\"item-title\">3 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DPAab5PRsRRPtKi7 inline]</p><p class=\"item-title\">3 级：法师之手诈术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EpLPnBE8pxhnAnBR inline]</p><p class=\"item-title\">9 级：诡术伏击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kKRMEUAtOwniN3Ap inline]</p><p class=\"item-title\">13 级：万能诡术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.G5R5kj28TZ0SLUhs inline]</p><p class=\"item-title\">17 级：法术窃贼</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LrBW2Vc7ajo7i4wz inline]</p><h3>诡术师施法</h3><p class=\"journal-original-h3\">Arcane Trickster Spellcasting</p><table border=\"0\" style=\"text-align:center\"><thead><tr><th rowspan=\"2\">战士等级</th><th rowspan=\"2\">准备法术</th><th colspan=\"4\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th></tr></thead><tbody><tr><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>8</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>9</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>11</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>19</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr><tr><td>20</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1777578798239,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.yiBzQeWdFjXrWxY2"
+    },
+    {
+      "sort": 300000,
+      "name": "刺客",
+      "type": "text",
+      "_id": "CT8AvC3zYbch3awT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Assassin</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FTa1iaQNkK0G4Sls inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.GcgIi51M6G6QXj6l inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ucxpwD5yX8Na5UK6]{暗杀}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.luLGbQwBieVeBuQj]{刺客工具}</td></tr><tr><td style=\"text-align:center\">9</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tthBkjQmxFk3jCOZ]{专业渗透}</td></tr><tr><td style=\"text-align:center\">13</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aKpEVjLtgB2epvJo]{淬毒武器}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7l6O3ucZgIRu7VRz]{致命袭杀}</td></tr></tbody></table><p class=\"item-title\">3 级：暗杀</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ucxpwD5yX8Na5UK6 inline]</p><p class=\"item-title\">3 级：刺客工具</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.luLGbQwBieVeBuQj inline]</p><p class=\"item-title\">9 级：专业渗透</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tthBkjQmxFk3jCOZ inline]</p><p class=\"item-title\">13 级：淬毒武器</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.aKpEVjLtgB2epvJo inline]</p><p class=\"item-title\">17 级：致命袭杀</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7l6O3ucZgIRu7VRz inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352685433,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.CT8AvC3zYbch3awT"
+    },
+    {
+      "sort": 400000,
+      "name": "魂刃",
+      "type": "text",
+      "_id": "ktzTbf5xQEp9qm2c",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Soulknife</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gmUXBDb8GL8xCpin inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.jkA7ZFJd0Brfoor9 inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BecgqFf5aN7RLyKH]{灵能力量}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.o7HkNtgSyGGRD3dU]{念刃}</td></tr><tr><td style=\"text-align:center\">9</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OwUXfKqnAPDWhti4]{灵魂之刃}</td></tr><tr><td style=\"text-align:center\">13</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.O6zM0sPFViWpeZJZ]{灵能面纱}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3t8qNrafyFxkJTzA]{撕裂心智}</td></tr></tbody></table><p class=\"item-title\">3 级：灵能力量</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BecgqFf5aN7RLyKH inline]</p><p class=\"item-title\">3 级：念刃</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.o7HkNtgSyGGRD3dU inline]</p><p class=\"item-title\">9 级：灵魂之刃</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OwUXfKqnAPDWhti4 inline]</p><p class=\"item-title\">13 级：灵能面纱</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.O6zM0sPFViWpeZJZ inline]</p><p class=\"item-title\">17 级：撕裂心智</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3t8qNrafyFxkJTzA inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352730683,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.ktzTbf5xQEp9qm2c"
+    },
+    {
+      "sort": 500000,
+      "name": "盗贼",
+      "type": "text",
+      "_id": "BiqRuwpBfYi32N2p",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Thief</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qEuMnPkAm24akE7r inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.DE7Opse8FQcWzA45 inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UJc2SzjCYm5xxDGw]{快手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.P0CZ2b1996ULTOwd]{梁上君子}</td></tr><tr><td style=\"text-align:center\">9</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gKgUqNhngFq44Wdd]{极效潜行}</td></tr><tr><td style=\"text-align:center\">13</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.R1CZWSZvrZicNxKt]{使用魔法装置}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JgczFcI5rNi0KdHA]{窃盗本能}</td></tr></tbody></table><p class=\"item-title\">3 级：快手</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UJc2SzjCYm5xxDGw inline]</p><p class=\"item-title\">3 级：梁上君子</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.P0CZ2b1996ULTOwd inline]</p><p class=\"item-title\">9 级：极效潜行</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gKgUqNhngFq44Wdd inline]</p><p class=\"item-title\">13 级：使用魔法装置</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.R1CZWSZvrZicNxKt inline]</p><p class=\"item-title\">17 级：窃盗本能</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.JgczFcI5rNi0KdHA inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352774037,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.BiqRuwpBfYi32N2p"
+    },
+    {
+      "sort": 150000,
+      "name": "游荡者职业特性",
+      "type": "text",
+      "_id": "Vqgyl5HZB8NVbbwC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Rogue Class Features</p><p>游荡者在到达特定等级时会获得下述职业特性，如游荡者特性表中所示。</p><table border=\"0\"><caption>游荡者特性 Rogue Features</caption><thead><tr><th>等级</th><th>熟练加值</th><th>职业特性</th><th>偷袭</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Ys8tsg8DixpnzBJg]{专精}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zo4jXu8GQtiGQWvw]{偷袭}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pi9dxt3qFcJfsRGH]{盗贼黑话}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CYDFWytY2EvpaQWr]{武器精通}</td><td style=\"text-align:center\">1d6</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gArcoPuL61gzMOLI]{灵巧动作}</td><td style=\"text-align:center\">1d6</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>游荡者子职，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.eyqMUjNnKD7txVoq]{稳定瞄准}</td><td style=\"text-align:center\">2d6</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">2d6</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO]{诡诈打击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EUDlIpY4EBPKEgf2]{直觉闪避}</td><td style=\"text-align:center\">3d6</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Ys8tsg8DixpnzBJg]{专精}</td><td style=\"text-align:center\">3d6</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G7YaAkjzDPAy8TzQ]{反射闪避}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.M22IxmH6evBkINiY]{可靠才能}</td><td style=\"text-align:center\">4d6</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">4d6</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">5d6</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">5d6</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yx8L2WZzJOJNJcsY]{进阶诡诈打击}</td><td style=\"text-align:center\">6d6</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">6d6</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">7d6</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid]{凶狡打击}</td><td style=\"text-align:center\">7d6</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YaZYSIaqhCclOiIx]{圆滑心智}</td><td style=\"text-align:center\">8d6</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">8d6</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>子职特性</td><td style=\"text-align:center\">9d6</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dQhTPEBmQJ2FLiEK]{飘忽不定}</td><td style=\"text-align:center\">9d6</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TeSnZBhz2oyKB8rC]{传奇恩惠}</td><td style=\"text-align:center\">10d6</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pj9Cvy105V4nCUzv]{幸运一击}</td><td style=\"text-align:center\">10d6</td></tr></tbody></table><p class=\"item-title\">1 级：专精</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Ys8tsg8DixpnzBJg inline]</p><p class=\"item-title\">1 级：偷袭</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zo4jXu8GQtiGQWvw inline]</p><p class=\"item-title\">1 级：盗贼黑话</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pi9dxt3qFcJfsRGH inline]</p><p class=\"item-title\">1 级：武器精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.CYDFWytY2EvpaQWr inline]</p><p class=\"item-title\">2 级：灵巧动作</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gArcoPuL61gzMOLI inline]</p><p class=\"item-title\">3 级：游荡者子职</p><p>你选择获得一项游荡者子职：诡术师，刺客，魂刃或盗贼。子职业的内容见后文。子职是一种特化，在特定的游荡者等级给予你对应的独特能力。此后你将获得每一个你所选的子职的能力，只要其所需等级等于或低于你的游荡者等级。游荡者职业表列出了你从子职中获得新特性的游荡者等级。</p><p class=\"item-original\">Rogue Subclass</p><p class=\"item-title\">3 级：稳定瞄准</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.eyqMUjNnKD7txVoq inline]</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。如游荡者特性表所示，你还会在第 8，第 10，第 12，第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：诡诈打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO inline]</p><p class=\"item-title\">5 级：直觉闪避</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EUDlIpY4EBPKEgf2 inline]</p><p class=\"item-title\">7 级：反射闪避</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.G7YaAkjzDPAy8TzQ inline]</p><p class=\"item-title\">7 级：可靠才能</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.M22IxmH6evBkINiY inline]</p><p class=\"item-title\">11 级：进阶诡诈打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yx8L2WZzJOJNJcsY inline]</p><p class=\"item-title\">14 级：凶狡打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid inline]</p><p class=\"item-title\">15 级：圆滑心智</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YaZYSIaqhCclOiIx inline]</p><p class=\"item-title\">18 级：飘忽不定</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dQhTPEBmQJ2FLiEK inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TeSnZBhz2oyKB8rC inline]</p><p class=\"item-title\">20 级：幸运一击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pj9Cvy105V4nCUzv inline]</p><h1>游荡者子职业</h1><p class=\"journal-original-h1\">Rogue Subclasses</p><p>游荡者子职是在特定游荡者等级给予你取决于子职业的能力的特化选项。本段提供了以下四个子职业：诡术师，刺客，魂刃，以及盗贼。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730439743760,
+        "modifiedTime": 1776352591447,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!zRqR2wN57Z0BPzMP.Vqgyl5HZB8NVbbwC"
+    }
+  ],
+  "folder": "gcw22TmtERTw55bi",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500900,
+      "navigation": {
+        "previous": "kmE6XaEVgi3DKLvw",
+        "next": "xo67PeLGvhBovzu7"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334148189,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "zRqR2wN57Z0BPzMP",
+  "sort": 100196,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!zRqR2wN57Z0BPzMP"
+}

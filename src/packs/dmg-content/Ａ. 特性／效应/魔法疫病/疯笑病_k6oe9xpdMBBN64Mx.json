@@ -1,0 +1,379 @@
+{
+  "name": "疯笑病",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_contagion_cackle-fever.webp",
+  "system": {
+    "activities": {
+      "R5XSRHxYV68nSkM4": {
+        "type": "save",
+        "name": "失心狂笑",
+        "_id": "R5XSRHxYV68nSkM4",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "失心狂笑"
+        },
+        "duration": {
+          "units": "dstr",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "rDk1y4VlQAj3m5QH",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "13"
+          }
+        }
+      },
+      "vLSHraq8tNz435T4": {
+        "type": "save",
+        "name": "抵抗疫病",
+        "_id": "vLSHraq8tNz435T4",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "抵抗疫病"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "13"
+          }
+        }
+      },
+      "tnXK45ksp14oZQDQ": {
+        "type": "save",
+        "name": "传播疫病",
+        "_id": "tnXK45ksp14oZQDQ",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "传播疫病"
+        },
+        "duration": {
+          "units": "dstr",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "10"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          }
+        }
+      }
+    },
+    "uses": {
+      "spent": 3,
+      "recovery": [],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>魔法疫病</em></p><p>廉价制作的药水和灵药有时会被疯笑病所污染。这种疾病只在类人生物间传播；奇怪的是，侏儒却免疫这种疫病。染疫的生物会在感染[[/r 1d4]]天之后开始承受以下效应：</p><p><strong>发热。</strong>该生物获得 1 级&amp;Reference[exhaustion]{力竭}，该力竭将持续存在，直至该生物康复。</p><p><strong>失心狂笑。</strong>在该生物具有此&amp;Reference[exhaustion apply=false]{力竭}状态期间，每当其受到除心灵伤害之外的伤害时，它都要进行一次[[/save activity=R5XSRHxYV68nSkM4 format=long]]。豁免失败则该生物受到[[/damage average]]伤害，并开始无法控制地狂笑而因此陷入&amp;Reference[incapacitated]{失能}状态。该生物在其每个回合结束时重复此豁免，豁免成功则结束此效应。在 1 分钟后，该豁免会自动成功。</p><p><em><strong>抵抗疫病。</strong></em>每当染疫的生物完成一次长休时，它都要进行一次[[/save activity=vLSHraq8tNz435T4 format=long]]。一旦该生物累计成功通过该豁免 3 次，它就会康复，并在接下来的 1 年里免疫疯笑病。</p><p><em><strong>传播疫病。</strong></em>任何在以感染了疯笑病的生物为中心、10 尺半径的光环区域内开始回合的类人生物（侏儒除外）都必须成功通过一次[[/save activity=tnXK45ksp14oZQDQ format=long]]，否则亦将感染疯笑病。豁免成功则该生物在接下来的 24 小时内不会再因致使其进行豁免的那个特定生物而感染该疫病。</p><p class=\"item-original\">Cackle Fever</p>",
+      "chat": ""
+    },
+    "identifier": "cackle-fever",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "发热",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_contagion_cackle-fever.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.k6oe9xpdMBBN64Mx",
+      "_id": "teARZVY0ezFMLESf",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得 1 级&amp;Reference[exhaustion]{力竭}。</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "exhaustion"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759948306725,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!k6oe9xpdMBBN64Mx.teARZVY0ezFMLESf"
+    },
+    {
+      "name": "失心狂笑",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.k6oe9xpdMBBN64Mx",
+      "transfer": false,
+      "_id": "rDk1y4VlQAj3m5QH",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[incapacitated]{失能}状态。</p><p>在每个你的回合结束时，你进行一次[[/save con 13 format=long]]，豁免成功则结束此效应。在 1 分钟后，该豁免会自动成功。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "incapacitated"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759901410266,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!k6oe9xpdMBBN64Mx.rDk1y4VlQAj3m5QH"
+    }
+  ],
+  "folder": "ai6Q68WdYOONBf6W",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.G0XMUBeShs0ORuFi",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750492764021,
+    "modifiedTime": 1759948290309,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "k6oe9xpdMBBN64Mx",
+  "_key": "!items!k6oe9xpdMBBN64Mx"
+}

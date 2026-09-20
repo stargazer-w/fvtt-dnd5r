@@ -1,0 +1,215 @@
+{
+  "name": "无踪粉",
+  "type": "consumable",
+  "_id": "wfGouCsJzFZnlaR0",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_dust-of-disappearance.webp",
+  "system": {
+    "activities": {
+      "7bsaAERWbHCZodzM": {
+        "type": "utility",
+        "_id": "7bsaAERWbHCZodzM",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": ""
+        },
+        "effects": [
+          {
+            "_id": "4mUtKcrptAJtXYw5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creatureOrObject",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这些粉末形同细沙，其分量足够使用一次。你可以用&amp;Reference[Utilize]{操作}动作将粉末洒向空中，让你和以你为源点的 10 尺光环范围内的每个生物和物件变为&amp;Reference[invisible]{隐形}状态[[/r 2d4]]分钟。每个目标的隐形时长相同，一旦粉末的魔法生效，其即被消耗。如果一名受影响的生物发动攻击或者施展法术，则该生物的隐形效应也随之终止。</p><p class=\"item-original\">Dust of Disappearance</p>",
+      "chat": ""
+    },
+    "identifier": "dust-of-disappearance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "隐身",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_invisibility.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.wfGouCsJzFZnlaR0",
+      "transfer": false,
+      "_id": "4mUtKcrptAJtXYw5",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你变为&amp;Reference[invisible]{隐形}状态。</p><p>如果你发动攻击或者施展法术，则该效应提前终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1760694215836,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wfGouCsJzFZnlaR0.4mUtKcrptAJtXYw5"
+    }
+  ],
+  "folder": "Rpy4irTRAink9Ehk",
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760694207923,
+    "modifiedTime": 1760694221666,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_key": "!items!wfGouCsJzFZnlaR0"
+}

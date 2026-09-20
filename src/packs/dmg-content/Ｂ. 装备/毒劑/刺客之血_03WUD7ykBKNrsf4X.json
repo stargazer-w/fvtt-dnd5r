@@ -1,0 +1,234 @@
+{
+  "name": "刺客之血",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_poison_assassins-blood.webp",
+  "system": {
+    "activities": {
+      "C3rKUGsPmk25N450": {
+        "type": "save",
+        "_id": "C3rKUGsPmk25N450",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [
+          {
+            "_id": "F3h9Aoxd0OkofGE4"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "12",
+              "bonus": "",
+              "types": [
+                "poison"
+              ]
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "F3h9Aoxd0OkofGE4"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>服用型毒药</em></p><p>服用这种毒药的生物需要进行一次[[/save format=long]]。豁免失败则受[[/damage activity=C3rKUGsPmk25N450 average]]伤害并陷入&amp;Reference[poisoned]{中毒}状态 24 小时。豁免成功则只受半伤。</p><p class=\"item-original\">Assassin's Blood</p>",
+      "chat": ""
+    },
+    "identifier": "assassins-blood",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 150,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "poison",
+      "subtype": "ingested"
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [
+    {
+      "name": "毒劑",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_poison.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.03WUD7ykBKNrsf4X",
+      "transfer": false,
+      "_id": "F3h9Aoxd0OkofGE4",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>@Embed[Compendium.dnd5e-collection-2024.dmg-content.Item.03WUD7ykBKNrsf4X inline]</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751721907764,
+        "modifiedTime": 1751721907764,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!03WUD7ykBKNrsf4X.F3h9Aoxd0OkofGE4"
+    }
+  ],
+  "folder": "ij4cMCt0sdIqPsJX",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.uEwoh9m8fpybhDoG",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750834470931,
+    "modifiedTime": 1759939673007,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "03WUD7ykBKNrsf4X",
+  "_key": "!items!03WUD7ykBKNrsf4X"
+}

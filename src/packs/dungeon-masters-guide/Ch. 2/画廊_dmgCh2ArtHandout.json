@@ -1,0 +1,1074 @@
+{
+  "_id": "dmgCh2ArtHandout",
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Party Travelling",
+      "type": "image",
+      "_id": "Qyxu98T7fwJ6JzQn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "不同的玩家喜爱 D&D 的不同游戏环节。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/players-enjoy-different-aspects.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727986674211,
+        "modifiedTime": 1750167552945,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.Qyxu98T7fwJ6JzQn"
+    },
+    {
+      "sort": 200000,
+      "name": "Stealthy Infiltration",
+      "type": "image",
+      "_id": "0QOrTJjosMDU60SX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "需要隐密行动的冒险（比如这次潜入）非常适合由少数冒险者组成的小队来执行。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/stealth-infiltration.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727986909526,
+        "modifiedTime": 1750167496899,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.0QOrTJjosMDU60SX"
+    },
+    {
+      "sort": 300000,
+      "name": "Steaming Mug",
+      "type": "image",
+      "_id": "GzGny9XIDAgE3Hby",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/steaming-mug.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727987137006,
+        "modifiedTime": 1727987202832,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.GzGny9XIDAgE3Hby"
+    },
+    {
+      "sort": 400000,
+      "name": "Explorable Room",
+      "type": "image",
+      "_id": "gERNXG8ywx2lrjQ5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "地城中的一个房间为冒险者提供了丰富的细节可以探索。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/candle-lit-study.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727987333855,
+        "modifiedTime": 1750167707396,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.gERNXG8ywx2lrjQ5"
+    },
+    {
+      "sort": 500000,
+      "name": "Flying Fortress Crashing",
+      "type": "image",
+      "_id": "wnTzM2xaPk4yg3tb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "当一座空中堡垒坠毁时，不幸身处它坠落路径中的冒险者可能会受到 18d10 或甚至更多伤害！"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/crashing-fortress.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727988169531,
+        "modifiedTime": 1750167745363,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.wnTzM2xaPk4yg3tb"
+    },
+    {
+      "sort": 600000,
+      "name": "Adventurers Descend Steps",
+      "type": "image",
+      "_id": "fK70eSsrEOa5cfIr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "探索会将冒险者带入各种不同寻常的环境。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/adventurers-descending-steps.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727988670101,
+        "modifiedTime": 1750169174454,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.fK70eSsrEOa5cfIr"
+    },
+    {
+      "sort": 700000,
+      "name": "Traversing a River",
+      "type": "image",
+      "_id": "Lyv30v44gGGjDfOh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一条河流可能会成为角色们穿越荒野时所遇到的一个阻碍。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/fording-a-river.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727989079231,
+        "modifiedTime": 1750175295423,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.Lyv30v44gGGjDfOh"
+    },
+    {
+      "sort": 650000,
+      "name": "Courtyard Full of Monsters",
+      "type": "image",
+      "_id": "OMGDWrDM5n8ac4pb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "在一座遍布怪物的庭院中，角色们还能注意到那棵长着眼睛的树吗？"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/monsters-around-tree.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727991033876,
+        "modifiedTime": 1750169220827,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.OMGDWrDM5n8ac4pb"
+    },
+    {
+      "sort": 675000,
+      "name": "Traveling Fantastical Landscapes",
+      "type": "image",
+      "_id": "8GvM65QMaaa8tkTy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "穿越奇幻景观可以成为任何冒险中有趣且令人印象深刻的一环。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/traversing-fantastical-landscapes.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1727991141642,
+        "modifiedTime": 1750169260763,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.8GvM65QMaaa8tkTy"
+    },
+    {
+      "sort": 800000,
+      "name": "Ogre Trio",
+      "type": "image",
+      "_id": "2qPRW48Tr5Bd4fy4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "三只食人魔堵住了一条狭窄的山口。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ogres-block-mountain-pass.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728410730035,
+        "modifiedTime": 1750176591100,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.2qPRW48Tr5Bd4fy4"
+    },
+    {
+      "sort": 900000,
+      "name": "Creature Size Square",
+      "type": "image",
+      "_id": "qMhI5NC8aGG2v3m9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "微型，小或中型，大型，巨型，超巨型。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728411403898,
+        "modifiedTime": 1750178868097,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.qMhI5NC8aGG2v3m9"
+    },
+    {
+      "sort": 1000000,
+      "name": "Creature Size Hex",
+      "type": "image",
+      "_id": "ka5ZCuFA1J1ezEcD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "微型，小或中型，大型，巨型，超巨型。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728411452930,
+        "modifiedTime": 1750178889378,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.ka5ZCuFA1J1ezEcD"
+    },
+    {
+      "sort": 1100000,
+      "name": "Cover on Squares",
+      "type": "image",
+      "_id": "GE0qLebfYnk8FpTI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "半身掩护，四分之三掩护。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/square-grid-cover.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728411534121,
+        "modifiedTime": 1750179124113,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.GE0qLebfYnk8FpTI"
+    },
+    {
+      "sort": 1200000,
+      "name": "Cover on Hexes",
+      "type": "image",
+      "_id": "FaHwEabsGMr1hJ9s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "半身掩护，四分之三掩护。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/hex-grid-cover.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728411566339,
+        "modifiedTime": 1750179127798,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.FaHwEabsGMr1hJ9s"
+    },
+    {
+      "sort": 1300000,
+      "name": "Dragon Arrives",
+      "type": "image",
+      "_id": "pYbaL6GmW23x1UMS",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一条龙突然降临，让一场对付僵尸的普通战斗变得有趣许多。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/dragon-arrives-to-fight.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728412517776,
+        "modifiedTime": 1750179044743,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.pYbaL6GmW23x1UMS"
+    },
+    {
+      "sort": 0,
+      "name": "Chapter Start",
+      "type": "image",
+      "_id": "HMSytGoRqOzPlYeQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "邪魔反派文杰尔使用水晶球探知他的仇敌，提亚马特。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ch-2-opener-venger-crystal-ball.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728501416954,
+        "modifiedTime": 1739782536858,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.HMSytGoRqOzPlYeQ"
+    },
+    {
+      "sort": 950000,
+      "name": "Tiny",
+      "type": "image",
+      "_id": "MqKt2EHd8rthHmqx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square-tiny.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731290745023,
+        "modifiedTime": 1731290763026,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.MqKt2EHd8rthHmqx"
+    },
+    {
+      "sort": 950000,
+      "name": "Small/Medium",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square-medium.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.MqKt2EHd8rthHmqx",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731290767141,
+        "modifiedTime": 1731291135072,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "K18X0VlveTz3ZRMR",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.K18X0VlveTz3ZRMR"
+    },
+    {
+      "sort": 950000,
+      "name": "Large",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square-large.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.K18X0VlveTz3ZRMR",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731290779920,
+        "modifiedTime": 1731290794869,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "OPRb70NyeS88675A",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.OPRb70NyeS88675A"
+    },
+    {
+      "sort": 950000,
+      "name": "Huge",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square-huge.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.OPRb70NyeS88675A",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731290781607,
+        "modifiedTime": 1731290810220,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "buIveLV9stVYEqB0",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.buIveLV9stVYEqB0"
+    },
+    {
+      "sort": 950000,
+      "name": "Gargantuan",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-square-gargantuan.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.buIveLV9stVYEqB0",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731290786480,
+        "modifiedTime": 1731290821629,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "KJtXA0N9x5NhY37S",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.KJtXA0N9x5NhY37S"
+    },
+    {
+      "sort": 1050000,
+      "name": "Tiny",
+      "type": "image",
+      "_id": "nRmxcrQuULjcg4fF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex-tiny.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731291092630,
+        "modifiedTime": 1731291106442,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.nRmxcrQuULjcg4fF"
+    },
+    {
+      "sort": 1050000,
+      "name": "Small/Medium",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex-medium.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.nRmxcrQuULjcg4fF",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731291108252,
+        "modifiedTime": 1731291144123,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "W74X8XUVjXQKWPDp",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.W74X8XUVjXQKWPDp"
+    },
+    {
+      "sort": 1050000,
+      "name": "Large",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex-large.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.W74X8XUVjXQKWPDp",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731291110424,
+        "modifiedTime": 1731291154454,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "TpVrPg8HnqqIJg9O",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.TpVrPg8HnqqIJg9O"
+    },
+    {
+      "sort": 1050000,
+      "name": "Huge",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex-huge.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.TpVrPg8HnqqIJg9O",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731291111950,
+        "modifiedTime": 1731291165237,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "ysVbulSPeWVTOGMX",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.ysVbulSPeWVTOGMX"
+    },
+    {
+      "sort": 1050000,
+      "name": "Gargantuan",
+      "type": "image",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/creature-size-hex-gargantuan.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.ysVbulSPeWVTOGMX",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1731291113407,
+        "modifiedTime": 1731291176071,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "_id": "4UZoGZiKpZs2mmuV",
+      "category": null,
+      "_key": "!journal.pages!dmgCh2ArtHandout.4UZoGZiKpZs2mmuV"
+    }
+  ],
+  "folder": "ZnbiXbiX12jvdzm6",
+  "flags": {
+    "dnd5e": {
+      "append": 2,
+      "type": "special",
+      "order": 999999
+    },
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776540419926,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgCh2ArtHandout"
+}

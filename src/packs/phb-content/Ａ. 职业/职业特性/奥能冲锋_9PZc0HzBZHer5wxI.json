@@ -1,0 +1,57 @@
+{
+  "name": "奥能冲锋",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_eldritch-knight_arcane-charge.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你可以在使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Uog2kqxfzu7dnPmS]{动作如潮}时传送至多 30 尺至一个你能看到的未被占据的空间。你可以在使用动作如潮提供的额外动作之前或之后进行传送。</p><p class=\"item-original\">Arcane Charge</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-charge",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "奥法骑士"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194952131,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "9PZc0HzBZHer5wxI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!9PZc0HzBZHer5wxI"
+}

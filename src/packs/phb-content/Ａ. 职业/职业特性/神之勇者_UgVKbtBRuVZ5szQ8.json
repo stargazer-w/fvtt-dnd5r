@@ -1,0 +1,193 @@
+{
+  "name": "神之勇者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_zealot_warrior-of-the-gods.webp",
+  "system": {
+    "activities": {
+      "oJBNe7c26pqeYTVU": {
+        "type": "heal",
+        "_id": "oJBNe7c26pqeYTVU",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@scale.warrior-of-the-gods.pool.number"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "(@scaling)d12"
+          },
+          "scaling": {
+            "number": 1,
+            "mode": ""
+          },
+          "bonus": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.warrior-of-the-gods.pool.number"
+    },
+    "description": {
+      "value": "<p>某个神圣实体对你施以援手以确保你总能重返战场。你获得一个有着 4 枚 d12 的治疗池，你可以用其中的骰子治愈自身。以一个&amp;Reference[Bonus Action]{附赠动作}，你可以消耗治疗池中任意枚骰子来恢复你的生命值。投掷全部你消耗的骰子，将它们相加，即是你以此恢复的生命值。</p><p>当你完成一次长休时，你的治疗池重获所有被消耗的骰子。</p><p>治疗池中骰子的最大数量将会在你到达特定野蛮人等级时增加，分别为 6 级时增加至 5 枚，12 级时增加至 6 枚，17 级时增加至 7 枚。</p><p class=\"item-original\">Warrior of the Gods</p>",
+      "chat": ""
+    },
+    "identifier": "warrior-of-the-gods",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "狂热者道途",
+    "advancement": [
+      {
+        "_id": "0m6mwIRhNuYsxrFh",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "pool",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 12,
+              "modifiers": []
+            },
+            "6": {
+              "number": 5,
+              "faces": 12,
+              "modifiers": []
+            },
+            "12": {
+              "number": 6,
+              "faces": 12,
+              "modifiers": []
+            },
+            "17": {
+              "number": 7,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "神之勇者：治疗池",
+        "hint": "该治疗池中骰子的最大数量将会在你到达特定野蛮人等级时增加。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777624518707,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "UgVKbtBRuVZ5szQ8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!UgVKbtBRuVZ5szQ8"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "操控四象",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wnoQeFTQDIL69NzT]{四象法门}</em>戏法，其施法属性为感知。</p><p class=\"item-original\">Manipulate Elements</p>",
+      "chat": ""
+    },
+    "identifier": "manipulate-elements",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "四象武者",
+    "advancement": [
+      {
+        "_id": "Y9fsSHkw35dgPkES",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wnoQeFTQDIL69NzT"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "操控四象",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777644505826,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "RjeVSr8biidmjcyw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!RjeVSr8biidmjcyw"
+}

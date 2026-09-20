@@ -1,0 +1,154 @@
+{
+  "name": "恐惧打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_gloom-stalker_dread-ambusher_dreadful-strike.webp",
+  "system": {
+    "activities": {
+      "5tv5WGoFy6oGA4uC": {
+        "type": "damage",
+        "_id": "5tv5WGoFy6oGA4uC",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.dread-ambusher.damage"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "(max(1,@abilities.wis.mod))"
+    },
+    "description": {
+      "value": "<p>当你用武器对生物攻击并命中时，你可以额外对目标造成 2d6 点心灵伤害。你在每回合中只能使用一次这个增益，你可以使用这一增益的次数等同于你的感知调整值（最低 1 次），并在完成一次长休后重获全部已消耗的使用次数。</p><p class=\"item-original\">Dreadful Strike, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6GxjRmCg1R76innA]{Dread Ambusher}</p>",
+      "chat": ""
+    },
+    "identifier": "dreadful-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "幽域追猎者"
+  },
+  "effects": [],
+  "folder": "QRKpDOgZuM7qECT3",
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1735894120620,
+    "modifiedTime": 1777652042466,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_id": "4wHvLaILyJoosJPS",
+  "sort": 0,
+  "_key": "!items!4wHvLaILyJoosJPS"
+}

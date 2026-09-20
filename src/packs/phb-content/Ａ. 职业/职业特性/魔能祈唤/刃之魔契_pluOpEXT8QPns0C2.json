@@ -1,0 +1,240 @@
+{
+  "name": "刃之魔契",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_pact-of-the-blade.webp",
+  "system": {
+    "activities": {
+      "FD4RWOXh41bBSH5B": {
+        "type": "enchant",
+        "_id": "FD4RWOXh41bBSH5B",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "lORz4CMFLTOtp5sG",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你在空中勾勒出秘法印记，在手中咒唤出一把契约武器：一把与你连结了的简易或军用近战武器，或者与一个你所触摸的魔法武器建立连结。你不能与一把已经被其它生物同调或是和另一魔契师建立连结的魔法武器建立连结。直到连结结束，你拥有其熟练项，且你可以将其用作施法的法器。</p><p>当你用你连结的武器发动攻击时，你能使用魅力调整值进行攻击检定和伤害投掷，取代使用力量或敏捷，且你可以令该武器造成暗蚀，心灵或光耀伤害，取代原先的伤害类型。</p><p>你与武器的连结会在你再次使用此特性的附赠动作时，武器在你 5 尺外 1 分钟或更久或是你死亡时结束。一个被咒唤出的武器会在连结结束时消失。</p><p class=\"item-original\">Pact of the Blade</p>",
+      "chat": ""
+    },
+    "identifier": "pact-of-the-blade",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "刃之魔契",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_pact-of-the-blade.webp",
+      "disabled": false,
+      "_id": "lORz4CMFLTOtp5sG",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "契约 {}",
+          "priority": null
+        },
+        {
+          "key": "system.proficient",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "foc",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        },
+        {
+          "key": "system.damage.base.types",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        },
+        {
+          "key": "system.damage.versatile.types",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        },
+        {
+          "key": "system.damage.versatile.types",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        },
+        {
+          "key": "system.damage.versatile.types",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1736604816398,
+        "modifiedTime": 1758376221734,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!pluOpEXT8QPns0C2.lORz4CMFLTOtp5sG"
+    }
+  ],
+  "folder": "f9yywRtYz5SQ4oUW",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758195015623,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "pluOpEXT8QPns0C2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pluOpEXT8QPns0C2"
+}

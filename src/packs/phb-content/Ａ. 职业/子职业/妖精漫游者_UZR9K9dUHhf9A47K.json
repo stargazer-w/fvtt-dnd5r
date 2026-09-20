@@ -1,0 +1,135 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "妖精漫游者",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/ranger_fey-wanderer.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>驾驭妖精的哀与乐</p></blockquote><p>或来自一位至高妖精的恩惠，或是在妖精荒野中的一次奇遇，你的身侧因那次奇遇而有妖精的魔力缠绕。无论你是怎么得到了来自妖精的魔法的，你现在是一名妖精漫游者。你轻快的笑声为受压迫者们带来欣喜的希望，你英勇的技艺直击你敌人的恐惧，你所就的伟绩乃是妖精的喜悦，你散布的恐惧乃是妖精的愤怒。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.3M6p7GyZeEPBlYOv]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UZR9K9dUHhf9A47K]{Fey Wanderer}</p>",
+      "chat": ""
+    },
+    "identifier": "fey-wanderer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.796rDeSlpBYwyPlC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.RNkuAhwgDV9x5Ony",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5HLp8TuKlm0h9eKC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gMh6B9B8HaIh3GG7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "QA2IBVC1XPsR5bZU"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ciWSSacF2n31c17T",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "4ZgZ9bIFft9VXcQh"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.YuiXkCZX2o7btQ6q",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "FPSLVkEgnOZwUCQq"
+      }
+    ],
+    "classIdentifier": "ranger",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777575983550,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "UZR9K9dUHhf9A47K",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!UZR9K9dUHhf9A47K"
+}

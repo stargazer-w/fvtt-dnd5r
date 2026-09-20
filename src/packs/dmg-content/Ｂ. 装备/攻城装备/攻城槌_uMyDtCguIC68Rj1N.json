@@ -1,0 +1,315 @@
+{
+  "name": "攻城槌",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_ram.webp",
+  "system": {
+    "activities": {
+      "YPCLrSQvTMN8HDEc": {
+        "_id": "YPCLrSQvTMN8HDEc",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "攻城槌"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "",
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "melee",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "8"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "攻城槌"
+      },
+      "x3DIYNeQaEStkFVG": {
+        "type": "utility",
+        "name": "校准",
+        "sort": -200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "校准"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "x3DIYNeQaEStkFVG"
+      }
+    },
+    "uses": {
+      "spent": 3,
+      "recovery": [],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>大型物件</em></p><p><strong>AC：</strong>15　<strong>HP：</strong>100</p><p><em><strong>攻城槌（需要校准）。</strong></em>[[/attack extended]]。[[/damage extended]]。</p><p>攻城槌的底座是一个可移动的框架，一根粗原木作为其主体，用铁链装架在两个带盖顶的横梁上。原木前端镶裱着铁皮外壳，用以击穿大门与路障。校准攻城槌需要三次&amp;Reference[Utilize]{操作}动作，随后操作手便可执行攻城槌动作。</p><p>攻城槌的顶盖使其对来自上方的攻击和其他效应具有&amp;Reference[Total Cover]{全掩护}。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.derived-creatures.Actor.zUUBHkPVYZZPK7Sb]{Ram}</p>",
+      "chat": ""
+    },
+    "identifier": "ram",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 15
+    },
+    "damage": {
+      "base": {
+        "number": 3,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": 5,
+      "long": null,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "",
+    "hp": {
+      "value": 100,
+      "max": 100,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "掩护：攻城槌",
+      "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_ram.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.uMyDtCguIC68Rj1N",
+      "_id": "m8jHpGiBZIALPZwp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "coverTotal"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751716740034,
+        "modifiedTime": 1759749238800,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!uMyDtCguIC68Rj1N.m8jHpGiBZIALPZwp"
+    }
+  ],
+  "folder": "ujQuHGbyr8u3N5xZ",
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751041998876,
+    "modifiedTime": 1758199803136,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "uMyDtCguIC68Rj1N",
+  "_key": "!items!uMyDtCguIC68Rj1N"
+}

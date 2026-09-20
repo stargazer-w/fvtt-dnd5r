@@ -1,0 +1,28 @@
+{
+  "name": "骰 惊异魔杖效应表",
+  "type": "script",
+  "img": "icons/svg/d20-grey.svg",
+  "command": "const table = await fromUuid(\"Compendium.dnd5e-collection-2024.tables.RollTable.KpvE0VzwuTzI0DJA\");\nawait table.draw();",
+  "author": "dWA6Gj2SYcZMP8wT",
+  "scope": "global",
+  "folder": "1BHUKkUPenGvtVU9",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756785226301,
+    "modifiedTime": 1757302590064,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "JGCOwFAo5sPWXMB1",
+  "sort": 100000,
+  "_key": "!macros!JGCOwFAo5sPWXMB1"
+}

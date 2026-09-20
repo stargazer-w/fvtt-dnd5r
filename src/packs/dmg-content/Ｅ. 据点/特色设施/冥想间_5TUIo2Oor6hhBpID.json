@@ -1,0 +1,218 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "冥想间",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-03.webp",
+  "system": {
+    "activities": {
+      "Z5Y2rE9E82XRvL0e": {
+        "type": "utility",
+        "name": "自我强化",
+        "_id": "Z5Y2rE9E82XRvL0e",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "自我强化"
+        },
+        "duration": {
+          "units": "day",
+          "concentration": false,
+          "override": false,
+          "value": "7"
+        },
+        "effects": [
+          {
+            "_id": "sWKx7yWjPyh4jL2y"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>13 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>狭窄<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>增强</p><p>冥想间是一个让人放空心灵的地方，能帮助你心身合一，锻神定灵。</p><p><em><strong>增强：内心宁静。</strong></em>当你对此设施下达增强指令时，你据点的雇员可以使用冥想间以获取内心的宁静。当你下次掷骰决定@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.uUVIFwRKZKhuTMGv]{据点事件}时，你可以掷两次并选择其中一个结果。</p><p><em><strong>自我强化。</strong></em>你可以在连续 7 天时间里，在此设施内进行冥想。如果你在此期间离开了据点，你不会获得任何增益。反之，在第七天结束时，你于之后 7 天内在两种属性豁免上获得优势。从下列表格中掷骰两次以随机决定你获得了哪两种属性豁免的优势，出现重复结果则重投。</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.AnAE7noTpdN0mDz0 rollable inline]</p><p class=\"item-original\">Meditation Chamber</p>",
+      "chat": ""
+    },
+    "identifier": "meditation-chamber",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "meditationChamber"
+    }
+  },
+  "effects": [
+    {
+      "name": "自我强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.5TUIo2Oor6hhBpID",
+      "transfer": false,
+      "_id": "sWKx7yWjPyh4jL2y",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 604800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1763002126221,
+        "modifiedTime": 1763002222769,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!5TUIo2Oor6hhBpID.sWKx7yWjPyh4jL2y"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763002126249,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "5TUIo2Oor6hhBpID",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!5TUIo2Oor6hhBpID"
+}

@@ -1,0 +1,1702 @@
+{
+  "name": "守护卷轴",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_SCROLL_scroll-of-protection.webp",
+  "system": {
+    "activities": {
+      "vsOQznG7ycijMGKI": {
+        "type": "enchant",
+        "_id": "vsOQznG7ycijMGKI",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Trhwg2BL6QOdskYS",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "tCINa44cvM494oEi",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "DxpnoNCayOV1nSDR",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "LOvkCNT1Jpw4Lb0v",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "CLiDX6Bjh6ybHKVg",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "EhZEi5VLbhNY8bMc",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "Ewch7FdZZH4yu0X4",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "eefzwUURiaiElM75",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "CQCSf6NxvRghOu8O",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "ZED6fQqYYqYorkkf",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "UJjm6MqZahQMTcsZ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "aXnZaJcDDskk2VbU",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "QvL8qIFX4bTAyHoh",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "uB1g7NI2xmuAze1y",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "5HDq87ckrmwHf1hR"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "Trhwg2BL6QOdskYS",
+          "tCINa44cvM494oEi",
+          "DxpnoNCayOV1nSDR",
+          "LOvkCNT1Jpw4Lb0v",
+          "CLiDX6Bjh6ybHKVg",
+          "EhZEi5VLbhNY8bMc",
+          "Ewch7FdZZH4yu0X4",
+          "eefzwUURiaiElM75",
+          "CQCSf6NxvRghOu8O",
+          "ZED6fQqYYqYorkkf",
+          "UJjm6MqZahQMTcsZ",
+          "aXnZaJcDDskk2VbU",
+          "QvL8qIFX4bTAyHoh",
+          "uB1g7NI2xmuAze1y"
+        ]
+      },
+      "5HDq87ckrmwHf1hR": {
+        "type": "utility",
+        "_id": "5HDq87ckrmwHf1hR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "5"
+        },
+        "effects": [
+          {
+            "_id": "lYtgkYltb2cGtFWU"
+          },
+          {
+            "_id": "TZ7Cu8YYczDkvLLb"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "5"
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>卷轴，珍稀</em></p><p>每张守护卷轴仅针对一种特定生物类型的生物起效。生物类型由 DM 直接指定或在下表中掷骰决定。</p><table><thead><tr><th>[[/r 1d100]]</th><th>生物类型</th></tr></thead><tbody><tr><td>01–10</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.Trhwg2BL6QOdskYS]{异怪}</td></tr><tr><td>11–15</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.tCINa44cvM494oEi]{野兽}</td></tr><tr><td>16–20</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.DxpnoNCayOV1nSDR]{天界}</td></tr><tr><td>21–25</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.LOvkCNT1Jpw4Lb0v]{构装}</td></tr><tr><td>26–35</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.CLiDX6Bjh6ybHKVg]{龙类}</td></tr><tr><td>36–45</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.EhZEi5VLbhNY8bMc]{元素}</td></tr><tr><td>46–50</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.Ewch7FdZZH4yu0X4]{类人}</td></tr><tr><td>51–60</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.eefzwUURiaiElM75]{妖精}</td></tr><tr><td>61–70</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.CQCSf6NxvRghOu8O]{邪魔}</td></tr><tr><td>71–75</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.ZED6fQqYYqYorkkf]{巨人}</td></tr><tr><td>76–80</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.UJjm6MqZahQMTcsZ]{怪兽}</td></tr><tr><td>81–85</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.aXnZaJcDDskk2VbU]{泥怪}</td></tr><tr><td>86–90</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.QvL8qIFX4bTAyHoh]{植物}</td></tr><tr><td>91–00</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8.ActiveEffect.uB1g7NI2xmuAze1y]{亡灵}</td></tr></tbody></table><p>使用一个&amp;Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p><p>一个位于光环外 5 尺范围的生物可以使用一个&amp;Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p><p class=\"item-original\">Scroll of Protection</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "scroll-of-protection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "守护光环",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8",
+      "transfer": false,
+      "_id": "TZ7Cu8YYczDkvLLb",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 300,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你所指定类型的生物无法进入或影响该光环内的任何事物。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752059781625,
+        "modifiedTime": 1752059915436,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.TZ7Cu8YYczDkvLLb"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：异怪",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "Trhwg2BL6QOdskYS",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：异怪",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752059935724,
+        "modifiedTime": 1759737756037,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.Trhwg2BL6QOdskYS"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：野兽",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：野兽",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060238737,
+        "modifiedTime": 1759737767572,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "tCINa44cvM494oEi",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.tCINa44cvM494oEi"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：天界",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：天界",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060250106,
+        "modifiedTime": 1759737770355,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "DxpnoNCayOV1nSDR",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.DxpnoNCayOV1nSDR"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：构装",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：构装",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060261027,
+        "modifiedTime": 1759737781368,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "LOvkCNT1Jpw4Lb0v",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.LOvkCNT1Jpw4Lb0v"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：龙类",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：龙类",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060267437,
+        "modifiedTime": 1759737785037,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "CLiDX6Bjh6ybHKVg",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.CLiDX6Bjh6ybHKVg"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：元素",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：元素",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060276620,
+        "modifiedTime": 1759737798792,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "EhZEi5VLbhNY8bMc",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.EhZEi5VLbhNY8bMc"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：类人",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：类人",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060283051,
+        "modifiedTime": 1759737801727,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "Ewch7FdZZH4yu0X4",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.Ewch7FdZZH4yu0X4"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：妖精",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：妖精",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060353549,
+        "modifiedTime": 1759737804279,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "eefzwUURiaiElM75",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.eefzwUURiaiElM75"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：邪魔",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：邪魔",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060362402,
+        "modifiedTime": 1759737806553,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "CQCSf6NxvRghOu8O",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.CQCSf6NxvRghOu8O"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：巨人",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：巨人",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060368221,
+        "modifiedTime": 1759737808842,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "ZED6fQqYYqYorkkf",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.ZED6fQqYYqYorkkf"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：怪兽",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：怪兽",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060374794,
+        "modifiedTime": 1759737811200,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "UJjm6MqZahQMTcsZ",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.UJjm6MqZahQMTcsZ"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：泥怪",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：泥怪",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060380849,
+        "modifiedTime": 1759737813423,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "aXnZaJcDDskk2VbU",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.aXnZaJcDDskk2VbU"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：植物",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：植物",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060391655,
+        "modifiedTime": 1759737815516,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "QvL8qIFX4bTAyHoh",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.QvL8qIFX4bTAyHoh"
+    },
+    {
+      "type": "enchantment",
+      "name": "守护卷轴：亡灵",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "守护卷轴：亡灵",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "2000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，珍稀</em></p> <p>使用一个&Reference[Magic]{魔法}动作阅读这张卷轴会创建一个以你为源点的 5 尺光环。在 5 分钟内，指定类型的生物无法进入或影响该区域内的任何事物。但是，如果你以移动的方式使指定类型的生物进入到该区域，则效应结束。</p> <p>一个位于光环外 5 尺范围的生物可以使用一个&Reference[Magic]{魔法}动作来尝试克服它，这会迫使该生物进行一次[[/save cha 15 format=long]]。若豁免成功，则该生物不再受这道光环的影响。</p> <p class=\"item-original\">Scroll of Protection</p>",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R3001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1752060399383,
+        "modifiedTime": 1759737817757,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "uB1g7NI2xmuAze1y",
+      "_key": "!items.effects!DfEopIEvHLRjQTP8.uB1g7NI2xmuAze1y"
+    }
+  ],
+  "folder": "Sn7NoC0pUnvdWmdL",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "5HDq87ckrmwHf1hR"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.aoVSNhOWS2SS8aNK",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752059776111,
+    "modifiedTime": 1758463794071,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DfEopIEvHLRjQTP8",
+  "_key": "!items!DfEopIEvHLRjQTP8"
+}

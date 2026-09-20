@@ -1,0 +1,102 @@
+{
+  "name": "奉献灵光",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_devotion_aura-of-devotion.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP]{守护灵光}内盟友获得魅惑免疫。陷入魅惑的盟友进入灵光时，该状态在灵光内会暂时无效。</p><p class=\"item-original\">Aura of Devotion</p>",
+      "chat": ""
+    },
+    "identifier": "aura-of-devotion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "奉献之誓"
+  },
+  "effects": [
+    {
+      "name": "奉献灵光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_devotion_aura-of-devotion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.DbDfBPIB0R7nfO6n",
+      "_id": "XZHyTSRoIxOD1S4f",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "charmed",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得魅惑免疫。如果你已陷入魅惑状态，位于此灵光内时其暂时无效。</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735559000935,
+        "modifiedTime": 1735559050277,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!DbDfBPIB0R7nfO6n.XZHyTSRoIxOD1S4f"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194959534,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DbDfBPIB0R7nfO6n",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!DbDfBPIB0R7nfO6n"
+}

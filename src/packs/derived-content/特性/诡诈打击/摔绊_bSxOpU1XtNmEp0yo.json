@@ -1,0 +1,58 @@
+{
+  "name": "摔绊",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_trip.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><span style=\"font-family:var(--dnd5e-font-roboto-condensed)\"><em>偷袭骰花费：1d6</em></span></p><p>若偷袭的目标是大型及以下，它必须通过一次成功的[[/save dex]]{敏捷豁免}，否则陷入&amp;Reference[prone]{倒地}状态。</p><p class=\"item-original\">Trip, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO]{Cunning Strike}</p>",
+      "chat": ""
+    },
+    "identifier": "trip",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "qH2bnZMa3kZarYPJ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1734075431065,
+    "modifiedTime": 1777116608067,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "bSxOpU1XtNmEp0yo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_key": "!items!bSxOpU1XtNmEp0yo"
+}

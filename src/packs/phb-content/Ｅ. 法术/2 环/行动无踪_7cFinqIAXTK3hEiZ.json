@@ -1,0 +1,204 @@
+{
+  "name": "行动无踪",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_pass-without-trace.webp",
+  "system": {
+    "activities": {
+      "a4aL7UGdXiH3yWcX": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "a4aL7UGdXiH3yWcX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "NyJT0KkSkszCt7ae"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在法术持续时间于 30 尺光环范围内散发出遮蔽灵光。位于灵光范围期间，你和每名你选择的生物在敏捷（隐匿）检定上获得 +10 加值，且不会留下任何踪迹。</p><p class=\"item-original\">Pass without Trace</p>",
+      "chat": ""
+    },
+    "identifier": "pass-without-trace",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "槲寄生烧成的灰烬",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": "",
+      "value": ""
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "30",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "隐匿踪迹",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_pass-without-trace.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.7cFinqIAXTK3hEiZ",
+      "transfer": false,
+      "_id": "NyJT0KkSkszCt7ae",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.skills.ste.bonuses.check",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在敏捷（隐匿）检定上获得 +10 加值，且不会留下任何踪迹。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732446538128,
+        "modifiedTime": 1751727082062,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7cFinqIAXTK3hEiZ.NyJT0KkSkszCt7ae"
+    }
+  ],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194948921,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "7cFinqIAXTK3hEiZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!7cFinqIAXTK3hEiZ"
+}

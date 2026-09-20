@@ -1,0 +1,212 @@
+{
+  "name": "复杂状况（城市追逐）",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.7zmKJrfgd9aTtzFp#追逐的复杂状况]{城市追逐复杂状况}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "5GOOTfj3Omi1vhwL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一辆二轮货车或是其他大型障碍挡住了你的去路。成功通过一个[[/save dex 10 format=long]]可以顺利越过障碍物，否则这个障碍物对你而言视为 10 尺&amp;Reference[Difficult Terrain]{困难地形}。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.5GOOTfj3Omi1vhwL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "EASGEeXEq7VXXFvq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "人群挡住了你的去路，进行一次[[/save str 10]]、[[/save dex 10]]{敏捷}、或[[/save cha 10]]{魅力豁免}（由你决定）来尝试穿越人群。如果豁免失败，人群对你而言视为 10 尺&amp;Reference[Difficult Terrain]{困难地形}。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.EASGEeXEq7VXXFvq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "M69EEogMEuU3mCsh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一个由木桶、箱子或者类似障碍物组成的乱径挡住了你的去路。通过一个[[/save dex 10]]或[[/save int 10]]{智力豁免}（由你决定）来穿越乱径，如果失败，这段乱径对你而言视为 10 尺&amp;Reference[Difficult Terrain]{困难地形}。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.M69EEogMEuU3mCsh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Z2IZFiBP23kAZwDG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "地面因为雨水、打翻的油或其他液体变得湿滑。进行一次[[/save dex 10 format=long]]，如果豁免失败，你将会&amp;Reference[prone]{倒地}。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.Z2IZFiBP23kAZwDG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "cO78J5VZES0v30Bi",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你乱入了一场斗殴。成功通过一次[[/save str 15]]、[[/save dex 15]]{敏捷}或者[[/save cha 15]]{魅力豁免}（由你决定）则可以顺利通过这场斗殴，如果豁免失败，你将受到[[/damage 2d4 bludgeoning]]伤害，并且斗殴者对你而言视为 10 尺的&amp;Reference[Difficult Terrain]{困难地形}。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.cO78J5VZES0v30Bi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "prjILz82ZxiS3neT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你必须急转弯以避免撞上一个无法通过的东西。进行一次[[/save dex 10 format=long]]来迅速拐弯。如果豁免失败，你会撞上这个坚硬的东西，并受到[[/damage 1d4 bludgeoning]]伤害。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.prjILz82ZxiS3neT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        12
+      ],
+      "drawn": false,
+      "_id": "DBTnUafEv1dzzFjE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "没有复杂的状况发生。",
+      "name": "",
+      "_key": "!tables.results!T9vXX66atvSSXmFC.DBTnUafEv1dzzFjE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750216091463,
+    "modifiedTime": 1759939541492,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_id": "T9vXX66atvSSXmFC",
+  "sort": 5400000,
+  "_key": "!tables!T9vXX66atvSSXmFC"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "暗杀",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_assassin_assassinate.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你精通于对目标发起奇袭，你获得以下好处。</p><p><em><strong>先攻。</strong></em>你的先攻掷骰具有优势。</p><p><em><strong>惊扰突袭。</strong></em>每次战斗的第一轮中，你对任何还没有经历过自己回合的生物发动的攻击攻击检定都具有优势。如果你在那一轮里命中并偷袭了任意目标，该目标将承受等同于你的游荡者等级的额外伤害，该伤害的类型与你的武器伤害类型一致。</p><p class=\"item-original\">Assassinate</p>",
+      "chat": ""
+    },
+    "identifier": "assassinate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "刺客"
+  },
+  "effects": [
+    {
+      "name": "先攻",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_assassin_assassinate.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ucxpwD5yX8Na5UK6",
+      "_id": "sMGVaLSM09JCIyBR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735999687554,
+        "modifiedTime": 1735999717848,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ucxpwD5yX8Na5UK6.sMGVaLSM09JCIyBR"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195022760,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ucxpwD5yX8Na5UK6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ucxpwD5yX8Na5UK6"
+}

@@ -1,0 +1,238 @@
+{
+  "name": "虹光射线",
+  "img": "icons/magic/light/beams-strike-blue.webp",
+  "description": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fbnhkEs6FmTvwxLy]</em></p><p>目标被以下射线击中，并进行一次[[/save dex]]{敏捷豁免}；</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "GydtG2GepnWGDp22",
+      "img": "icons/magic/light/beam-rays-red.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>红。</strong>豁免失败：[[/damage 12d6 fire]]伤害。豁免成功：半伤。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.GydtG2GepnWGDp22"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "eGz6ykTHdmKtnZBu",
+      "img": "icons/magic/light/beam-rays-orange.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>橙。</strong>豁免失败：[[/damage 12d6 acid]]伤害。豁免成功：半伤。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.eGz6ykTHdmKtnZBu"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "isssbNpXqbRD2xRz",
+      "img": "icons/magic/light/projectile-beam-yellow.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>黄。</strong>豁免失败：[[/damage 12d6 lightning]]伤害。豁免成功：半伤。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.isssbNpXqbRD2xRz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "v2Y5wr7OWKkLOVsz",
+      "img": "icons/magic/light/orb-beams-green.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>绿。</strong>豁免失败：[[/damage 12d6 poison]]伤害。豁免成功：半伤。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.v2Y5wr7OWKkLOVsz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "CK6FoD2AjhoyDoRQ",
+      "img": "icons/magic/light/beam-rays-blue.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>蓝。</strong>豁免失败：[[/damage 12d6 cold]]伤害。豁免成功：半伤。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.CK6FoD2AjhoyDoRQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "VL88cp8ZQ8CN66kg",
+      "img": "icons/magic/light/beam-rays-blue-small.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>靛。</strong>豁免失败：目标陷入&amp;Reference[restrained]{束缚}状态，且其每个回合结束进行一次[[/save con dc=@attributes.spelldc]]{体质豁免}。在累计三次豁免成功后，状态终止。在累计三次豁免失败后，该生物被转化为石头陷入&amp;Reference[petrified]{石化}状态，直到此状态被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>或类似效应解除为止。成功或失败的检定不需要连续；只要记录各情况的次数直至其中一方累计三次为止。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.VL88cp8ZQ8CN66kg"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "OuobqFwz1d6zrx04",
+      "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>紫。</strong>豁免失败：目标陷入&amp;Reference[blinded]{目盲}状态且在下一个你的回合开始时进行一次[[/save wis dc=@attributes.spelldc]]{感知豁免}。豁免成功，状态终止。豁免失败，状态终止，且该生物会被传送到另一个存在位面（由 DM 选择）。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.OuobqFwz1d6zrx04"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "jIgLK5VQ4LlQ71g2",
+      "img": "icons/magic/light/beams-strike-blue.webp",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>特殊。</strong>目标被两道射线击中。掷两次骰，若有骰子出目为 8 则重骰那颗骰子。",
+      "name": "",
+      "_key": "!tables.results!zyHA0ZqSACttqFnL.jIgLK5VQ4LlQ71g2"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "ndQHh8WqPjMJWNmw",
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1733566947222,
+    "modifiedTime": 1759941313956,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d8",
+  "_id": "zyHA0ZqSACttqFnL",
+  "sort": 200000,
+  "_key": "!tables!zyHA0ZqSACttqFnL"
+}

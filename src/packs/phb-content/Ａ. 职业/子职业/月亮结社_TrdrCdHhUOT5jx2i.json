@@ -1,0 +1,131 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "月亮结社",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/druid_moon.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>荒野卫士，身化兽躯</p></blockquote><p>月亮结社的德鲁伊凭借月亮的魔法让自己改变形态。他们的结社成员们在月下相聚，分享见闻，举行仪式。</p><p>该结社的德鲁伊如月亮般善变，他们会化身大猫整夜徘徊，第二天又成为一只盘旋在树顶的老鹰，随后从林下灌丛猛冲而出，以熊的形态赶走领地中的入侵者。荒野存在于这些德鲁伊的血液之中。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.HEtjvqXrKrZNyl8x]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TrdrCdHhUOT5jx2i]{Circle of the Moon}</p>",
+      "chat": ""
+    },
+    "identifier": "moon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.WdDsEEpxIFkbve9C"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.FcpAsXs6Wg0pSRo0"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PS8YxA1CZ7tlKcxo"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "7yJFN3jDDxtgrXcT"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.KkyAzRf1IIeZfDcN"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "zSyunQfD6WovDmjx"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.kPQnw2FUVt43mnwj"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "r5GkkBAkLldjU5za"
+      }
+    ],
+    "classIdentifier": "druid",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777319890243,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "TrdrCdHhUOT5jx2i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!TrdrCdHhUOT5jx2i"
+}

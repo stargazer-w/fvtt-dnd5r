@@ -1,0 +1,194 @@
+{
+  "name": "灼净亡灵",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_sear-undead.webp",
+  "system": {
+    "activities": {
+      "FsQa9ln43W3NkH8L": {
+        "type": "enchant",
+        "_id": "FsQa9ln43W3NkH8L",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "PffTBwZKHUF1a4wb",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "PffTBwZKHUF1a4wb"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每当你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Hnmm7WEWCoaKQLrC]{驱散亡灵}时，你都可以投掷等于你感知调整值枚 d8（最少 1d8），而每个在对抗驱散亡灵的豁免中失败的亡灵都将受到等同于骰值之和的光耀伤害。此伤害不会终止驱散效应。</p><p class=\"item-original\">Sear Undead</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>驱散亡灵</strong>特性以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "sear-undead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "牧师"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "灼净亡灵",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_sear-undead.webp",
+      "disabled": false,
+      "_id": "PffTBwZKHUF1a4wb",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.J6rUghNQwI2PH2sA inline]",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"(max(1,@abilities.wis.mod))d8\", \"radiant\"]]",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734100173082,
+        "modifiedTime": 1735456379767,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!J6rUghNQwI2PH2sA.PffTBwZKHUF1a4wb"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758303683695,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "J6rUghNQwI2PH2sA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!J6rUghNQwI2PH2sA"
+}

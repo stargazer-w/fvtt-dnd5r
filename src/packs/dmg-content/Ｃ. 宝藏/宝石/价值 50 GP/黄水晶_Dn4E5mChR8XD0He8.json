@@ -1,0 +1,61 @@
+{
+  "name": "黄水晶",
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_citrine.webp",
+  "system": {
+    "description": {
+      "value": "<p>浅黄棕。</p><p class=\"item-original\">Citrine</p>",
+      "chat": ""
+    },
+    "identifier": "citrine",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gem",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "pnKgqzMHPjq1GpCY",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750768960231,
+    "modifiedTime": 1758199213878,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Dn4E5mChR8XD0He8",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!Dn4E5mChR8XD0He8"
+}

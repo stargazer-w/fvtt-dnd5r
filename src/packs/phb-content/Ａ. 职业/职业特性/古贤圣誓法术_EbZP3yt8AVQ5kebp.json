@@ -1,0 +1,219 @@
+{
+  "name": "古贤圣誓法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你誓言具有的魔法让你获得了下列特定法术。当你达到古贤之誓法术表所示的特定圣武士等级，你就视为总是准备了所列法术。</p><table class=\"left-three\"><caption>古贤之誓法术 Oath of the Ancients Spells</caption><thead><tr><td>圣武士等级</td><td>法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kEMZzoQcl3D4PT1v]{捕获打击}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA]{动物交谈}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hiuTYl4hoqrGdLoI]{月华之光}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QlZERO2JxyX94tFt]{植物滋长}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4]{防护能量}</em></td></tr><tr><td style=\"text-align:center\">13</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5YU6YLSuUuu1Kd7E]{冰风暴}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sgfF4dShcwoZfRt7]{石肤术}</em></td></tr><tr><td style=\"text-align:center\">17</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8fPrUiBPqfo6UBkK]{问道自然}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VeBIRZDRq8BDfK9g]{树跃术}</em></td></tr></tbody></table><p class=\"item-original\">Oath Spells</p>",
+      "chat": ""
+    },
+    "identifier": "oath-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "古贤之誓",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.kEMZzoQcl3D4PT1v",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "古贤圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "EyazZeCcX6HBEKI8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.hiuTYl4hoqrGdLoI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "古贤圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "n4fcgpjwd4vF3sIA"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.QlZERO2JxyX94tFt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "古贤圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "d1sQE7XaO1aTllc8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5YU6YLSuUuu1Kd7E",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.sgfF4dShcwoZfRt7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "古贤圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "NA6yAGUpVXo5tpit"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.8fPrUiBPqfo6UBkK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.VeBIRZDRq8BDfK9g",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "古贤圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "iqVmczkkEnHOnAxN"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777650028302,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "EbZP3yt8AVQ5kebp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!EbZP3yt8AVQ5kebp"
+}

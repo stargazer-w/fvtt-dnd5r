@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "压缩之杆",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_pole-of-collapsing.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>这个物品可用作一根@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zSaj8WlKmAFk9rc7]{长杆}。持握该物品期间，你可以使用一个&amp;Reference[Magic]{魔法}动作将其压缩成一根便于储藏的 1 尺长权杖（长杆的重量不会改变），或者将该 1 尺长的权杖恢复成一根长杆。权杖的伸长程度仅限于其周围空间允许的距离。</p><p class=\"item-original\">Pole of Collapsing</p>",
+      "chat": ""
+    },
+    "identifier": "pole-of-collapsing",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 7,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760606616395,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "rg8b6xzpHuLrjKGG",
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!rg8b6xzpHuLrjKGG"
+}

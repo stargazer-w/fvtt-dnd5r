@@ -1,0 +1,334 @@
+{
+  "name": "至圣光轮",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_devotion_holy-nimbus.webp",
+  "system": {
+    "activities": {
+      "asPD4nsRz5RAGCn7": {
+        "type": "utility",
+        "_id": "asPD4nsRz5RAGCn7",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "BuwFHvxRESHK4RMX"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Cq2r6sUThT7rkgmj": {
+        "type": "utility",
+        "name": "恢复充能",
+        "_id": "Cq2r6sUThT7rkgmj",
+        "sort": 200000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复充能"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "AfMOZKxqGrnGtCU5": {
+        "type": "damage",
+        "name": "光耀伤害",
+        "_id": "AfMOZKxqGrnGtCU5",
+        "sort": 100000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@abilities.cha.mod + @prof"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "radiant"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以用圣力盈满你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP]{守护灵光}，灵光获得下列的增益。持续 10 分钟或直到你将之提前结束（无需动作）。当你使用此特性后，直到你完成一次长休前都不能再次使用。你也可以消耗一个 5 环法术位恢复其使用次数（无需动作）。</p><p><em><strong>至圣守护。</strong></em>你被邪魔或不死生物迫使进行的豁免检定具有优势。</p><p><em><strong>光耀伤害。</strong></em>每当敌人在灵光范围内开始回合时，该生物受到等同于你的魅力调整值 + 你的熟练加值的[[/damage]]{光耀伤害}。</p><p><em><strong>阳光。</strong></em>你的灵光内变为&amp;Reference[Bright Light]{明亮光照}，视为阳光。</p><p class=\"item-original\">Holy Nimbus</p>",
+      "chat": ""
+    },
+    "identifier": "holy-nimbus",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "奉献之誓"
+  },
+  "effects": [
+    {
+      "name": "至圣光轮",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_devotion_holy-nimbus.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.wxa41jarMJC9Cv6J",
+      "transfer": false,
+      "_id": "BuwFHvxRESHK4RMX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内获得下列增益。</p><p><em><strong>至圣守护。</strong></em>你被邪魔或不死生物迫使进行的豁免检定具有优势。</p><p><em><strong>光耀伤害。</strong></em>每当敌人在灵光范围内开始回合时，该生物受到等同于你的魅力调整值 + 你的熟练加值的[[/damage @abilities.cha.mod + @prof radiant]]{光耀伤害}。</p><p><em><strong>阳光。</strong></em>你的灵光内变为&amp;Reference[Bright Light]{明亮光照}，视为阳光。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735559654915,
+        "modifiedTime": 1735561733489,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wxa41jarMJC9Cv6J.BuwFHvxRESHK4RMX"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195025981,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wxa41jarMJC9Cv6J",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wxa41jarMJC9Cv6J"
+}

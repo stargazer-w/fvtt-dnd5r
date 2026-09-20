@@ -1,0 +1,238 @@
+{
+  "name": "魔法物品特性：影响",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.0WfMqxMjsTpUyRDM]{魔法物品的影响}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "zGyT6SRg8T3i3kip",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>幸福。</strong>你对未来的事情感到富裕且充满希望。蝴蝶或其他无害的生物可能会在该物品周围嬉戏逗留。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.zGyT6SRg8T3i3kip"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "ogQ4IOegoDJE5SH6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>自信。</strong>该物品使你感到自信满满。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.ogQ4IOegoDJE5SH6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "keOF5NaUVRuNGYku",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>贪婪。</strong>你对物质财富变得痴迷。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.keOF5NaUVRuNGYku"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "xKgAvLmlT47AaCey",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>易碎。</strong>当该物品被持用，着装或激活时，其将产生碎屑、磨损、破块或开裂。该影响不会对该物品的词条产生影响。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.xKgAvLmlT47AaCey"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "ILq9S0uuI7zgcvdB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>喧闹。</strong>该物品在使用时会发出很大的声响——例如叮当声、喊叫声或者足以产生回音的钟声。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.ILq9S0uuI7zgcvdB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "AcfDEiobLUHclKBD",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>变形。</strong>该物品以微小变化的方式周期性地改变外观。你无法对这些微小变化进行控制，而这些微小变化亦不妨碍物品的使用。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.AcfDEiobLUHclKBD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "xGmrOCGzfH3Sm7dD",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>疼痛。</strong>当使用该物品时，你将经历一瞬间无害的疼痛。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.xGmrOCGzfH3Sm7dD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "gf8PrUpDjkhweMsE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>嫌恶。</strong>当你在与该物品互动的时候会感到一阵倒胃口，并且你在拥有该物品期间将一直感到不适。",
+      "name": "",
+      "_key": "!tables.results!ggSxCauuDFklCvEl.gf8PrUpDjkhweMsE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750343397478,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d8",
+  "_id": "ggSxCauuDFklCvEl",
+  "sort": 1300000,
+  "_key": "!tables!ggSxCauuDFklCvEl"
+}

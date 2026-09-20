@@ -1,0 +1,128 @@
+{
+  "name": "三龙牌",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>感知</p><p><strong>操作：</strong>判断某人是否作弊（DC 10），或赢取游戏（DC 20）</p><p class=\"item-original\">Three-Dragon Ante</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "game",
+      "baseItem": ""
+    },
+    "ability": "wis",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "Vr6dYwstpZ8ZCHhl": {
+        "type": "check",
+        "_id": "Vr6dYwstpZ8ZCHhl",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "three-dragon-ante"
+  },
+  "type": "tool",
+  "folder": "oYxcxfKSDOdUdaaN",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_game_three-dragon-ante.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758195027406,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xkVOqZKPi0V1dqrF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!xkVOqZKPi0V1dqrF"
+}

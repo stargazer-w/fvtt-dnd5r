@@ -1,0 +1,70 @@
+{
+  "name": "免责声明",
+  "pages": [
+    {
+      "name": "⚠️注意",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>本模块为《龙与地下城》自 2024 年起部分资料的非官方整理，内容源自威世智 Wizards of the Coast 所发布的书籍。所有图像材料、内容及其版权均属于威世智。本译版仅供个人学习与参考使用，不得用于商业用途。</p><p>感谢所有参与本翻译、校对及其他贡献的译者们。</p><p>本合集由 <span style=\"text-decoration:underline\"><a data-link data-uuid=\"Compendium.dnd5e-collection-2024.index.JournalEntry.LIJ2edVRwBsE8HgV.JournalEntryPage.CheWntkSAPrNyhxq\" data-id=\"CheWntkSAPrNyhxq\" data-tooltip=\"关于此合集\" aria-describedby=\"tooltip\"><span style=\"text-decoration:underline\">千菓チガ</span></a></span> 整理，图像、译文的版权均归原作者所有。</p><img class=\"CHIGA\" src=\"modules/dnd5e-collection-2024/CHIGA.png\" width=\"70\" /></blockquote>",
+        "markdown": ""
+      },
+      "_id": "9iCIjvYzMdxWPtd1",
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "compendiumSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1777709836910,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!6wXQikz2qYtZToa6.9iCIjvYzMdxWPtd1"
+    }
+  ],
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "type": "header"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1742889904353,
+    "modifiedTime": 1742889904353,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "folder": null,
+  "_id": "6wXQikz2qYtZToa6",
+  "sort": 0,
+  "categories": [],
+  "_key": "!journal!6wXQikz2qYtZToa6"
+}

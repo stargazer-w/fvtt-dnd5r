@@ -1,0 +1,191 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "唤鼠乐笙",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_pipes-of-the-sewers.webp",
+  "system": {
+    "activities": {
+      "HzEAEyseb0pQw7iS": {
+        "type": "summon",
+        "_id": "HzEAEyseb0pQw7iS",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "3"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "@scaling",
+            "name": "",
+            "_id": "WMvfPEFvByuGiPiu",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通（需同调）</em></p><p>在你随身携带这只乐笙期间，普通鼠和巨鼠对你的态度为冷漠。除非你威胁或伤害它们，否则它们不会主动攻击你。</p><p>唤鼠乐笙具有 3 充能，并在每日黎明时重获 1d3 已消耗的充能。你可以使用一个&amp;Reference[Magic]{魔法}动作演奏该乐笙，并使用一个&amp;Reference[BonusAction]{附赠动作}消耗 1–3 充能。如果你周围半里内有足够可供召唤的老鼠（由 DM 决定），那么每消耗 1 充能就能召唤 1 组<strong>鼠集群</strong>。如果范围内鼠的数量不足以形成集群，则该次充能被浪费。被召唤的集群会沿着最短的可用路线向音乐移动，但除此之外不受你的控制。</p><p>在你演奏乐笙期间，每当一个未被其他生物控制的鼠群进入到你周边 30 尺范围内时，该鼠群就必须进行一次[[/save wis 15 format=long]]。如果豁免成功，该鼠群就会像平常一样行动，并在接下来的 24 小时内不再受到乐笙音乐的影响。如果豁免失败，鼠群就会受到乐笙音乐的影响，并且只要你每轮继续使用一个&amp;Reference[Magic]{魔法}动作演奏乐笙，鼠群就会对你和你的盟友保持友好态度。一个友好的鼠群会遵从你的命令。当你没对一个友好的鼠群下达命令时，它们会尽力保护自己，但不会执行其他动作。如果一个友好的鼠群在距离你 30 尺以外的地方开始其回合，则你对该鼠群的控制就会终止，鼠群会像平常一样行动，并在接下来的 24 小时内不再受到乐笙音乐的影响。</p><p class=\"item-original\">Pipes of the Sewers</p>",
+      "chat": ""
+    },
+    "identifier": "pipes-of-the-sewers",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DCl9fExEP5S7NPAN",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!DCl9fExEP5S7NPAN"
+}

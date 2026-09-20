@@ -1,0 +1,138 @@
+{
+  "folder": "9Z81qGbxJwvn6642",
+  "name": "百眼法袍",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_robe-of-eyes.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（需同调）</em></p><p>这件长袍上绘满了眼睛的图案。着装这件长袍期间，你获得以下增益：</p><p><strong>全域视野。</strong>你在依赖视觉的感知（察觉）检定中具有优势。</p><p><strong>特殊感官。</strong>你具有 120 尺的黑暗视觉和真实视觉。</p><p><em><strong>缺点。</strong></em>对法袍施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IjDGjlzyZ8BlIv8s]{光亮术}</em>或在其周围 5 尺内施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u7IL5qlkhzAxCMFB]{昼明术}</em>将使你陷入&amp;Reference[blinded]{目盲}，持续 1 分钟。在你的每个回合结束时，你可以进行一次[[/save con]]{体质豁免}（对<em>光亮术</em>时 DC 为 11，对<em>昼明术</em>时 DC 为 15），成功则终止你身上的该效应。</p><p class=\"item-original\">Robe of Eyes</p>",
+      "chat": ""
+    },
+    "identifier": "robe-of-eyes",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "特殊感官",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_devils-sight.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.4YPeZg9fHzcjF6gq",
+      "_id": "yqAFExzWa69xpDms",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496552,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!4YPeZg9fHzcjF6gq.yqAFExzWa69xpDms"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757302202802,
+    "modifiedTime": 1758464433695,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "4YPeZg9fHzcjF6gq",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!4YPeZg9fHzcjF6gq"
+}

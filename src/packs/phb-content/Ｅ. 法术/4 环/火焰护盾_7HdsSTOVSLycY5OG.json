@@ -1,0 +1,386 @@
+{
+  "name": "火焰护盾",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_fire-shield.webp",
+  "system": {
+    "activities": {
+      "T7ToNsWoeR8cpqTp": {
+        "type": "utility",
+        "name": "温暖护盾",
+        "_id": "T7ToNsWoeR8cpqTp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "DXNz6q0I1nLUutdK"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_fire-shield_warm.webp",
+        "appliedEffects": [
+          "DXNz6q0I1nLUutdK"
+        ]
+      },
+      "v7KHF7nXVV0ySmZP": {
+        "type": "utility",
+        "name": "冻寒护盾",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pmQeJBafoCJdvspT"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_fire-shield_chill.webp",
+        "_id": "v7KHF7nXVV0ySmZP",
+        "appliedEffects": [
+          "pmQeJBafoCJdvspT"
+        ]
+      },
+      "0yEp3SJiHnYU0SrP": {
+        "type": "damage",
+        "name": "迸发火焰",
+        "_id": "0yEp3SJiHnYU0SrP",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "fire",
+                "cold"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>轻薄缥缈的火焰在法术持续期间环绕着你的身体，散发出 10 尺半径的&amp;Reference[Bright Light]{明亮光照}和额外 10 尺的&amp;Reference[Dim Light]{微光光照}。</p><p>这层火焰可以提供你温暖护盾或冻寒护盾，由你选择。温暖护盾将赋予你对冷冻伤害的抗性，而冻寒护盾则会赋予你对火焰伤害的抗性。</p><p>此外，每当一名距你 5 尺内的生物以一次近战攻击命中你时，这个护盾将迸发出火焰。温暖护盾将对攻击者造成 2d8 点火焰伤害，冻寒护盾将对攻击者造成 2d8 点冷冻伤害。</p><p class=\"item-original\">Fire Shield</p>",
+      "chat": ""
+    },
+    "identifier": "fire-shield",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 4,
+    "materials": {
+      "value": "一小块磷或一只萤火虫",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "温暖护盾",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_fire-shield_warm.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.7HdsSTOVSLycY5OG",
+      "transfer": false,
+      "_id": "DXNz6q0I1nLUutdK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你散发出 10 尺半径的明亮光照和额外 10 尺的微光光照。</p><p>该护盾同时赋予你对寒冷伤害的抗性。</p><p>此外，每当一名距你 5 尺内的生物以一次近战攻击命中你时，这个护盾将迸发出火焰。其对攻击者造成 2d8 点火焰伤害。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733036756769,
+        "modifiedTime": 1734782525547,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7HdsSTOVSLycY5OG.DXNz6q0I1nLUutdK"
+    },
+    {
+      "name": "冻寒护盾",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_fire-shield_chill.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.7HdsSTOVSLycY5OG",
+      "transfer": false,
+      "_id": "pmQeJBafoCJdvspT",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你散发出 10 尺半径的明亮光照和额外 10 尺的微光光照。</p><p>该护盾同时赋予你对火焰伤害的抗性。</p><p>此外，每当一名距你 5 尺内的生物以一次近战攻击命中你时，这个护盾将迸发出火焰。其对攻击者造成 2d8 点寒冷伤害。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733036864561,
+        "modifiedTime": 1734782520616,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7HdsSTOVSLycY5OG.pmQeJBafoCJdvspT"
+    }
+  ],
+  "folder": "9KxTNszcWXRDBIoq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194948504,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "7HdsSTOVSLycY5OG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!7HdsSTOVSLycY5OG"
+}

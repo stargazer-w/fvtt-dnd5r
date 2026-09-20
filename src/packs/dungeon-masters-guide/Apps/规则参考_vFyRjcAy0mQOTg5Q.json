@@ -1,0 +1,201 @@
+{
+  "name": "规则参考",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "写在前面",
+      "type": "text",
+      "_id": "UbfH0SD6RzGjLVc0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本附录由个人整理，旨在利用系统的工具提示功能，快速检索术语汇编中未涵盖的项目——所有内容均基于本书的原文。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!vFyRjcAy0mQOTg5Q.UbfH0SD6RzGjLVc0"
+    },
+    {
+      "sort": 200000,
+      "name": "枪械词条 Firearm Properties",
+      "type": "text",
+      "_id": "Vh7eQNODYAdQW26Z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>枪械表中的部分武器具有以下未在<em>《玩家手册》</em>中出现的词条。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1750240519855,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!vFyRjcAy0mQOTg5Q.Vh7eQNODYAdQW26Z"
+    },
+    {
+      "sort": 600000,
+      "name": "扫射 Burst Fire",
+      "type": "rule",
+      "system": {
+        "tooltip": "",
+        "type": "rule"
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>以一个动作，你可以消耗这把扫射武器的 10 发弹药，来向该武器常规射程内一处 10 尺立方区域倾泻火力。每个位于区域内的生物都必须成功通过一次[[/save dex 15 format=long]]否则受到伤害——骰一次该武器的伤害，所有豁免失败者都受到此伤害。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.vFyRjcAy0mQOTg5Q.JournalEntryPage.TkMcwZ9jaCrhMdOu",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1750235245909,
+        "modifiedTime": 1759787786629,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "80gkp2UCIwgQo1lp",
+      "category": null,
+      "_key": "!journal.pages!vFyRjcAy0mQOTg5Q.80gkp2UCIwgQo1lp"
+    },
+    {
+      "sort": 600000,
+      "name": "弹容 Reload",
+      "type": "rule",
+      "system": {
+        "tooltip": "",
+        "type": "rule"
+      },
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>具有弹容属性的武器只能发动有限次数的攻击。次数用尽后，你必须用一个动作或一个附赠动作来为该武器装弹。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": "Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.vFyRjcAy0mQOTg5Q.JournalEntryPage.80gkp2UCIwgQo1lp",
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1750235284070,
+        "modifiedTime": 1750235411381,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "1MCwlHxLyO9m5K9b",
+      "category": null,
+      "_key": "!journal.pages!vFyRjcAy0mQOTg5Q.1MCwlHxLyO9m5K9b"
+    }
+  ],
+  "folder": "kkR3zR8yqdNg4nMV",
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "type": "chapter",
+      "position": 12,
+      "title": "规则参考",
+      "showPages": false
+    },
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750234995309,
+    "modifiedTime": 1776585917258,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "vFyRjcAy0mQOTg5Q",
+  "sort": 700000,
+  "categories": [],
+  "_key": "!journal!vFyRjcAy0mQOTg5Q"
+}

@@ -1,0 +1,141 @@
+{
+  "name": "狂怒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_berserker_frenzy.webp",
+  "system": {
+    "activities": {
+      "uQTvVU6rfLNpmlhM": {
+        "type": "damage",
+        "_id": "uQTvVU6rfLNpmlhM",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "(@scale.barbarian.rage-damage)d6"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>若你在狂暴激活期间使用了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pqzUiEoi83m6Z069]{鲁莽攻击}，你对你基于力量的攻击在你的回合中命中的第一个目标造成额外伤害。投掷等于你狂暴伤害加值数量的 d6，将它们相加，即是你造成的额外伤害。额外伤害类型与此次攻击所使用的武器或徒手打击造成的伤害类型相同。</p><p class=\"item-original\">Frenzy</p>",
+      "chat": ""
+    },
+    "identifier": "frenzy",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "狂战士道途"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731073376345,
+    "modifiedTime": 1758195004630,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "isVGccUhtwWLs7MC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!isVGccUhtwWLs7MC"
+}

@@ -1,0 +1,102 @@
+{
+  "name": "巫术视界",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_witch-sight.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>先决条件：15 级或更高的魔契师等级</em></p><p>你拥有 30 尺的&amp;Reference[True Sight]{真实视觉}。</p><p class=\"item-original\">Witch Sight</p>",
+      "chat": ""
+    },
+    "identifier": "witch-sight",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [
+    {
+      "name": "巫术视界",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_witch-sight.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XXRkDrbl6GffdHvk",
+      "_id": "q71KdMZ6QmwEmbDG",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736607136303,
+        "modifiedTime": 1736607149287,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XXRkDrbl6GffdHvk.q71KdMZ6QmwEmbDG"
+    }
+  ],
+  "folder": "f9yywRtYz5SQ4oUW",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758194987821,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "XXRkDrbl6GffdHvk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!XXRkDrbl6GffdHvk"
+}

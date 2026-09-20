@@ -1,0 +1,290 @@
+{
+  "name": "牧师",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "牧师",
+      "type": "text",
+      "_id": "acPyA6A4DQBSnuZB",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.UuvlT8YBqkDMyj9R inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tIWfPyeNrnGvA3XW inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776347390234,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.acPyA6A4DQBSnuZB"
+    },
+    {
+      "sort": 200000,
+      "name": "生命领域",
+      "type": "text",
+      "_id": "aGYpgynZ3nkBCPaT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Life Domain</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dPl3kl2bsNaxbfRz inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.ni0tD2OhmzJVVjxZ inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5AJf83TZkzdjWXXc]{生命领域法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vSf3zi1OYXNjmMxO]{生命门徒}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.58OLiImWGYJiE3J8]{维持生命}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9MWQHK5V8Q0MaQxX]{神祝医者}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.H3p2gr5nP5gOSNQB]{极效治疗}</td></tr></tbody></table><p class=\"item-title\">3 级：生命领域法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5AJf83TZkzdjWXXc inline]</p><p class=\"item-title\">3 级：生命门徒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.vSf3zi1OYXNjmMxO inline]</p><p class=\"item-title\">3 级：维持生命</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.58OLiImWGYJiE3J8 inline]</p><p class=\"item-title\">6 级：神祝医者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9MWQHK5V8Q0MaQxX inline]</p><p class=\"item-title\">17 级：极效治疗</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.H3p2gr5nP5gOSNQB inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776348874148,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.aGYpgynZ3nkBCPaT"
+    },
+    {
+      "sort": 300000,
+      "name": "光明领域",
+      "type": "text",
+      "_id": "ChPhvB57FhM48ECO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Light Domain</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZbVu9CAwG5WDuJ6v inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.TJBxb5HP0PQZbYKY inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NyFAETMC7FNKZb10]{光明领域法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OnAi2RIdkpUMWuGQ]{黎明曙光}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dStn16REjs9bdPHo]{守御之光}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BB0e5yeYo2JGMuUg]{精通守御之光}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Je4ZsTL5XIqwX1W9]{光冕}</td></tr></tbody></table><p class=\"item-title\">3 级：光明领域法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.NyFAETMC7FNKZb10 inline]</p><p class=\"item-title\">3 级：黎明曙光</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OnAi2RIdkpUMWuGQ inline]</p><p class=\"item-title\">3 级：守御之光</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dStn16REjs9bdPHo inline]</p><p class=\"item-title\">6 级：精通守御之光</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BB0e5yeYo2JGMuUg inline]</p><p class=\"item-title\">17 级：光冕</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Je4ZsTL5XIqwX1W9 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776348870076,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.ChPhvB57FhM48ECO"
+    },
+    {
+      "sort": 400000,
+      "name": "诡术领域",
+      "type": "text",
+      "_id": "G4wCgd6yslvpvKyN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Trickery Domain</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tOLbs8Pje48zES6E inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.XofZMGocNyaKDoNg inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YUfQScgcByThnyK0]{诡术领域法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YNTaLs80xixvYOc7]{诡术祝福}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AOjp1K6jVgnQXqaa]{祈唤分身}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6npKO1nSdZBV2WN8]{诡诈换位}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Ec4K7O7BOW0NT29W]{精通分身}</td></tr></tbody></table><p class=\"item-title\">3 级：诡术领域法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YUfQScgcByThnyK0 inline]</p><p class=\"item-title\">3 级：诡术祝福</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YNTaLs80xixvYOc7 inline]</p><p class=\"item-title\">3 级：祈唤分身</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.AOjp1K6jVgnQXqaa inline]</p><p class=\"item-title\">6 级：诡诈换位</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6npKO1nSdZBV2WN8 inline]</p><p class=\"item-title\">17 级：精通分身</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Ec4K7O7BOW0NT29W inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776348809754,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.G4wCgd6yslvpvKyN"
+    },
+    {
+      "sort": 500000,
+      "name": "战争领域",
+      "type": "text",
+      "_id": "r6CueEIytzMeRwwo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">War Domain</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pRfj5kQNDGUVPc7k inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.YG7dCEzrtTYtdhZz inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lOEfXsIAsqGzZoq9]{战争领域法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.21oXH4ibyA5so2FL]{导引打击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9kLcQyqoADiewu6u]{战争祭司}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.msFRGJ7azvqEF4ok]{战神祝福}</td></tr><tr><td style=\"text-align:center\">17</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.C8rz6H1Ih7DQVSHk]{战争化身}</td></tr></tbody></table><p class=\"item-title\">3 级：战争领域法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lOEfXsIAsqGzZoq9 inline]</p><p class=\"item-title\">3 级：导引打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.21oXH4ibyA5so2FL inline]</p><p class=\"item-title\">3 级：战争祭司</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9kLcQyqoADiewu6u inline]</p><p class=\"item-title\">6 级：战神祝福</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.msFRGJ7azvqEF4ok inline]</p><p class=\"item-title\">17 级：战争化身</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.C8rz6H1Ih7DQVSHk inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776348860709,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.r6CueEIytzMeRwwo"
+    },
+    {
+      "sort": 150000,
+      "name": "牧师职业特性",
+      "type": "text",
+      "_id": "CgywbNGUkbXYN4J2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Cleric Class Features</p><p>作为一名牧师你在到达特定等级时会获得下述职业特性，如牧师特性表中所示。</p><table border=\"0\"><caption>牧师特性 Cleric Features</caption><thead><tr><th rowspan=\"2\">等级</th><th rowspan=\"2\">熟练加值</th><th rowspan=\"2\">职业特性</th><th rowspan=\"2\">引导神力</th><th rowspan=\"2\">戏法</th><th rowspan=\"2\">准备法术</th><th colspan=\"9\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th><th>6 环</th><th>7 环</th><th>8 环</th><th>9 环</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KcobIEncyfkf4enI]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Pr74q0obYIx1S5jC]{圣职}</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zrljXECr00sNC3sD]{引导神力}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>牧师子职</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.J6rUghNQwI2PH2sA]{灼净亡灵}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZBtsFBFjWz6y5SA2]{受祝击}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yGgF3ionNxfRZXvQ]{神圣干预}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.e8yJyVH57LMxwMhw]{精通受祝击}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">19</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>—</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">20</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.eNiANLQALwRdFj2M]{传奇恩惠}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">21</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ofTnMhJrWGbDCRq6]{进阶神圣干预}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">22</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr></tbody></table><p class=\"item-title\">1 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KcobIEncyfkf4enI inline]</p><p class=\"item-title\">1 级：圣职</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Pr74q0obYIx1S5jC inline]</p><p class=\"item-title\">2 级：引导神力</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zrljXECr00sNC3sD inline]</p><p class=\"item-title\">3 级：牧师子职</p><p>你获得你所选的一个牧师子职：生命领域，光明领域，诡术领域或者战争领域。子职业的内容见后文。子职业是一种特化，可以在特定的牧师等级授予你对应的特殊能力。此后你将获得你所选的子职所有能力——只要其所需等级等于或低于你的牧师等级。牧师职业表列出了你从子职中获得新特性的牧师等级。</p><p class=\"item-original\">Cleric Subclass</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。如牧师特性表所示，你在第 8，第 12，第 16 级时会再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：灼净亡灵</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.J6rUghNQwI2PH2sA inline]</p><p class=\"item-title\">7 级：受祝击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZBtsFBFjWz6y5SA2 inline]</p><p class=\"item-title\">10 级：神圣干预</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yGgF3ionNxfRZXvQ inline]</p><p class=\"item-title\">14 级：精通受祝击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.e8yJyVH57LMxwMhw inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.eNiANLQALwRdFj2M inline]</p><p class=\"item-title\">20 级：进阶神圣干预</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ofTnMhJrWGbDCRq6 inline]</p><h1>牧师子职业</h1><p class=\"journal-original-h1\">Cleric Subclasses</p><p>牧师子职是一种特化，它会在特定的牧师等级为你提供特性。本章节介绍了以下子职业：生命领域，光明领域，诡术领域和战争领域 。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.iYYIz9iJWpRfYyFF inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730383943537,
+        "modifiedTime": 1776347504038,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!qowfNigmkDRArlNt.CgywbNGUkbXYN4J2"
+    }
+  ],
+  "folder": "gcw22TmtERTw55bi",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500300,
+      "navigation": {
+        "previous": "NEqUIUlivXxgZwW3",
+        "next": "YylLR1bRh1jMMyDP"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334121646,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "qowfNigmkDRArlNt",
+  "sort": 125000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!qowfNigmkDRArlNt"
+}

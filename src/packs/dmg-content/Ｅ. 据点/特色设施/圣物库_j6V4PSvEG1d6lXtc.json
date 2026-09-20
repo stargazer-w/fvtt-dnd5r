@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "圣物库",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-03.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>13 级据点设施</em></p><p><strong>先决条件：</strong>可以使用圣徽或德鲁伊法器作为施法法器<br /><strong>空间：</strong>狭窄<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>收获</p><p>这个宝库存放着神圣物件。</p><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.gs4oQQLWFKsVutYJ]{圣物护咒。}</strong></em>当你在据点内完成一次长休后，你获得一个魔法护咒（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{超自然恩惠}”一节），该护咒持续 7 天或持续至你将其使用为止。该护咒允许你施展一次<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>，无需消耗法术位也无需材料成分。你无法在已拥有该护咒时再次获得它。</p><p><em><strong>收获：护符。</strong></em>当你对此设施下达收获指令时，你委托设施雇员对一枚护符进行祝圣，然后将其交付给你。护符的形式通常为一支吊坠、一个刻满符文的小箱子、或一尊小雕像，但它也可以是任何具有宗教意义的微型非魔法物件。这项工作需要 7 天时间并且不花费任何金钱。你可以用该护符替代任何一个法术的材料成分，只要该法术的材料成分价格不超过 1000 GP。在护符以这种方式被使用一次之后，它便不能再次被使用，直至你将其送回圣物库并重新下达一次收获指令将其祝圣。</p><p class=\"item-original\">Reliquary</p>",
+      "chat": ""
+    },
+    "identifier": "reliquary",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "harvest",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "cramped",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "reliquary"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763013406936,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "j6V4PSvEG1d6lXtc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!j6V4PSvEG1d6lXtc"
+}

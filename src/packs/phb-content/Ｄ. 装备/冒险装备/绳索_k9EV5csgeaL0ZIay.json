@@ -1,0 +1,165 @@
+{
+  "name": "绳索",
+  "system": {
+    "description": {
+      "value": "<p>以一个&amp;Reference[Utilize]{操作}动作，你可以进行一次[[/skill format=long]]。如果该检定成功，你能用绳索打一个结。扯坏绳索需要通过一次[[/skill ath 20 format=long]]。</p><p>你可以利用绳索捆住一个非自愿生物，但该生物必须处于受擒、失能或束缚状态。如果你绑住了该生物的腿，该生物陷入&amp;Reference[restrained]{束缚}状态，直至挣脱。挣脱绳索需要该生物使用动作来通过一次[[/skill acr 15 format=long]]。</p><p class=\"item-original\">Rope</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "1",
+      "autoDestroy": false,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "Y0LvyxjfVHNbp4CG": {
+        "type": "check",
+        "name": "利用",
+        "_id": "Y0LvyxjfVHNbp4CG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "slt"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          },
+          "ability": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "identifier": "rope"
+  },
+  "type": "consumable",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_rope.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758461138669,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "k9EV5csgeaL0ZIay",
+  "sort": 4700000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!k9EV5csgeaL0ZIay"
+}

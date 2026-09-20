@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "铁骑马鞍",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_saddle-of-the-cavalier.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>在你骑乘配有这副鞍座的坐骑，并跨坐于此鞍座上期间，此鞍座会提供以下增益。</p><p><em><strong>坐骑保护。</strong></em>对坐骑进行的攻击检定具有劣势。</p><p><em><strong>稳固骑手。</strong></em>你不会在非自愿的情况下解除骑乘。此词条在你处于失能状态期间失效。</p><p class=\"item-original\">Saddle of the Cavalier</p>",
+      "chat": ""
+    },
+    "identifier": "saddle-of-the-cavalier",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "JJGljoSrm32seoQV",
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!JJGljoSrm32seoQV"
+}

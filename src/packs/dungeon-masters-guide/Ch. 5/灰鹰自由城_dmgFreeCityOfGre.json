@@ -1,0 +1,316 @@
+{
+  "_id": "dmgFreeCityOfGre",
+  "name": "灰鹰自由城",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "引言",
+      "type": "text",
+      "_id": "qQ2v2MhKuOOygyaM",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>未来的英雄们会被冒险的邀约引至自由城市灰鹰。这座城市中充满了危险和掠夺的机会。</p><p>它位于塞林坦河畔，这条河从奈尔·戴夫（无底湖）向南流入棉花湾，全程可以轻松同行。</p><p>灰鹰曾经是艾尔迪王国的边境枢纽，七十八年前宣布独立，宣称塞林坦盆地为其领土。自那之后，被附近的灰鹰堡废墟吸引而来的冒险者们为这座城市提供了源源不断的金钱。</p><p>在本节中，如果一个生物的名称以<strong>粗体</strong>显示，你可以在<em>《怪物图鉴》</em>中找到它的数据卡。如果一个生物的阵营没有特别标注，则你可以自由决定它的阵营。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.rAgmgaKVdnkoesCA cite=false]</p><p style=\"text-align:center\"><em>我们还提供了@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.ITXwJmk9IRhKhJXL]{仅有区域标签}、@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.l21NgBrEd0MWkhfE]{仅有地点标签}以及@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.XrYbtzpBCgTLs1ry]{空白}的地图版本。</em></p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729453996321,
+        "modifiedTime": 1776581585647,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.qQ2v2MhKuOOygyaM"
+    },
+    {
+      "sort": 0,
+      "name": "从此开始",
+      "type": "text",
+      "_id": "A2HkSW75sehepNXl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Start Here</p><p>对一个 D&amp;D 战役而言，出于很多原因，自由城市灰鹰都是一个很棒的出发点。具体见下面的小节。</p><h3>冒险引子</h3><p class=\"journal-original-h3\">Adventure Hooks</p><p>这座城市中有大量的流言蜚语、本地传说和提供任务的角色，这些可以把角色们引向接下来的冒险。第 4 章中的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgAdventureExam]{范例冒险}都可以在灰鹰自由城开始。</p><h3>适宜据点</h3><p class=\"journal-original-h3\">Bastion Friendly</p><p>这座城市的市内和外围有充足的地方给冒险者们修筑@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBastions00000]{据点}。</p><h3>关键冲突</h3><p class=\"journal-original-h3\">Key Conflicts</p><p>灰鹰世设中的三种中心冲突中的两种——@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.6xM2odCqHP4JlcuS]{邪恶元素}和@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.ZAFNPyoKrepOF7BS]{埃乌兹}的威胁，都是灰鹰城中紧张气氛和阴谋的主要来源。而第三种冲突，@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.sMrx8NNoZ4G2FFCy]{邪恶巨龙}的威胁，则在附近的地区——包括迷雾沼泽、阿博-阿尔兹丘陵和辉煌沙漠中蠢蠢欲动。</p><h3>当地纠纷</h3><p class=\"journal-original-h3\">Local Hurly-Burly</p><p>灰鹰城有一种边境的精神，在如此规模的聚居地中，这种精神并不常见。当地民风强硬而吵闹。希望找点事的冒险者们甚至不需要看向太远的地方，因为这座城市中就有太多的麻烦制造者。</p><h3>附近地点</h3><p class=\"journal-original-h3\">Nearby Attractions</p><p>城市北面是石冢山丘，这里以藏在山中的古墓和地城著称。附近还有一处森林、一块沼泽地和一片沙漠。在这些区域出没的怪物往往比较弱——适合用来测试低等级冒险者们的勇气。</p><h3>避风港</h3><p class=\"journal-original-h3\">Port in the Storm</p><p>这座城市提供了休息、治疗、获取消息和采购魔法物品的地方。希望去遥远地方的冒险者也能在预定码头上的船只前往。</p><h3>贸易中枢</h3><p class=\"journal-original-h3\">Trade Hub</p><p>冒险者们可以在这座城市的商店和市场购买装备并出售他们来之不易的战利品。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454007378,
+        "modifiedTime": 1776581608608,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.A2HkSW75sehepNXl"
+    },
+    {
+      "sort": 0,
+      "name": "如何使用这座城市",
+      "type": "text",
+      "_id": "e2hTSRy7KxVpBPCA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">How to Use the City</p><p>一座像灰鹰一样熙熙攘攘的大城市在战役之中能够提供如下重要功能。</p><h3>背景联系</h3><p class=\"journal-original-h3\">Background Connections</p><p>使用角色们的背景来将他们和城市里的地点联系起来。这种联系会让角色们感到灰鹰城正是自己的家园——或者很快就会成为他们的新家。一位生长于此地的灰鹰冒险者可能多年以前就认识这儿的一位杰出人物，而初来乍到的新人则可能有一位和这联系相关的共同的朋友，或者带着一封介绍信，能够将他们引荐给那个人。（“@UUID[.PtnTOuNZWkeqTlgZ]{城市地点}”中的每一个地点都包括和两个角色背景相关的可选联系。）</p><h3>城市活动</h3><p class=\"journal-original-h3\">City Activities</p><p>对于支持冒险的活动来说，灰鹰城是一个理想的地点。在这座繁华的城市中，有无数的社交机会，也有角色们能够在冒险之余进行休息和恢复，获得新的冒着装备和花掉他们手里金子的地方。</p><h3>大本营</h3><p class=\"journal-original-h3\">Home Base</p><p>作为角色们的大本营，灰鹰城可以作为一个在冒险之间生活、训练和修养的地方。如本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanAdventure.JournalEntryPage.XWFimbsTgDSCRcMT]{让玩家投入}”所述，灰鹰城提供了许多潜在的朋友、对手、反派和资源。你可以使用本章中提到的人物和地点作为起点，充实玩家们与这座城市的联系，并和玩家一起合作发展这些联系。选择一个灰鹰城的区域（见下文“@UUID[.JtGGvXqwkcfxsSw8]{城市分区}”）作为角色们及其活动的焦点。</p><h3>城市冒险</h3><p class=\"journal-original-h3\">Urban Adventures</p><p>城市不止是一个用来消磨冒险之间时光的地方，大量的冒险本身也发生在城墙之内。从下水道里的鼠人到权力厅堂中密谋的官僚，每一个角落都可以潜伏着危险。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454009043,
+        "modifiedTime": 1776581620985,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.e2hTSRy7KxVpBPCA"
+    },
+    {
+      "sort": 0,
+      "name": "城市概览",
+      "type": "text",
+      "_id": "MZQ3TpAXHIGQjMFT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">City Overview</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.vWpCPYmePxM20Nz2 cite=false]</p><p>这座城市属于你。这一节中描述了下面一些重要的特点和地点，但除此之外，你和你的玩家可以根据需要来充实它的内容。</p><h3>城市政府</h3><p class=\"journal-original-h3\">City Government</p><p>自由城市灰鹰由一个被称为“训政会”的议会统治，它由十六名平等的统治者组成。他们会选出一位首席执行官，也就是灰鹰市长——目前由一位名叫尼洛夫·加斯加尔的<strong>密探大师</strong>（守序中立）担任。其他训政包括城市守卫的统帅、几位公会长、博卡布和拉奥的祭司、税务督察官，以及一些与政治上活跃的秘密社团有联系的著名施法者。这几位理事中有几位背后是犯罪或令人厌恶的利益，包括尼洛夫·加斯加尔本人，他作为一位臭名昭著的赌场老板取得了今天的地位。</p><h3>城市守卫</h3><p class=\"journal-original-h3\">City Watch</p><p>城市守卫是一支大约八百人，由<strong>警卫</strong>和<strong>历战武者</strong>组成的常备部队。法术协会的<strong>魔法师</strong>和本地神庙的<strong>祭司</strong>们为他们提供支援。</p><p>城市守卫司令和和巡查官驻扎在大城堡中（见“@UUID[.PtnTOuNZWkeqTlgZ]{城市地点}”）。</p><h3>城墙</h3><p class=\"journal-original-h3\">City Walls</p><p>30 尺高的石头城墙像蛇一样盘绕着城市，另有两堵和外墙高度相同的城墙，将城市分为三大块。通过门楼的升降机可以来到城墙顶端。此外，沿着外墙的内侧底部，每 300 尺都有一个秘密的隔间，里面有一只 30 尺高的木梯。城市守卫的所有成员都知道这些秘密梯子的位置，在紧急情况下，这些梯子可以拉出来，让城市守卫快速抵达护墙上面。</p><p>城墙上通常有哨岗。白天通常沿着墙顶每 300 尺设置一位哨兵（<strong>警卫</strong>）。晚上，守卫的哨兵们增加到了四倍，沿着墙每 150 尺就有两位哨兵。同样，晚上的时候，在守卫之间，每 150 尺设置了一根火把，照亮了城墙的顶端。因此每个哨岗在每个方向上距离 75 尺都有一根火把。</p><h3>城门</h3><p class=\"journal-original-h3\">City Gates</p><p>每一座城门都是一对钢铁镶边的木头城门，能够从里面锁上。这些沉重的大门后有一排巨大的铁栅栏。非常小的孩子可能能从中间挤过去，但年轻人，甚至成年半身人都做不到。即使大门关闭的时候，铁闸门通常也会打开。</p><p>每座城门都包括一个小门房，两侧有一对塔楼。塔顶和与之相连的碉堡上都有箭缝和用来向下往入侵者身上倒滚油的洞。每一座城门的塔楼都通过一扇底部的门与城内相连，而顶部有一扇门通往城墙上。塔楼上有三个平台，从塔顶向上延伸。每个平台头可以为四十个弓箭手提供掩护和射击阵地。</p><p>这座城市的城门通常有三座日夜开放：公路门（灰鹰城的宏伟入口）、货物门（主要由商人使用）和花园门（城市两座内城门之一）。其余的大门在黄昏至黎明期间都关闭，访客必须出示灰鹰市长、城市守卫司令或国家元首的书面信息才能通过。在后一种情况下，守卫在开门之前会确保访客不会造成危害。</p><p>通过打开时的城门的人不会被要求解释来到灰鹰的事务，除非他们被确认是已知的逃犯，否则也不会被拘留或遣返。如果引起守卫的怀疑，他们可能会搜查货车和手推车，但大部分情况下都不会做什么检查直接挥手放行。守卫每天都会记录一份名单，上面记着谁和什么东西通过了他们看守的大门。</p><h3>犯罪</h3><p class=\"journal-original-h3\">Crime</p><p>自由城市灰鹰是诸多窃贼、滋事者、骗子和流氓的家园。这里的犯罪可以分为三类。</p><p><em><strong>轻微犯罪。</strong></em>公共场合斗殴、扒窃、蓄意破坏和其他造成最多 50 GP 财产损失的犯罪被称为轻微犯罪。肇事者需要支付[[/r 2d10]]GP 罚款或劳动支付赔偿。</p><p><em><strong>小型犯罪。</strong></em>这一类犯罪包括武装袭击（定义为使用武器或伤害性法术进行的任何非致命的袭击）和造成 50 GP 到 250 GP 的财产损失的犯罪。肇事者必须支付至少 100 GP 的罚款，并且会被判处[[/r 1d6]]年的监禁。</p><p><em><strong>重大犯罪。</strong></em>比上述罪行更严重的犯罪，包括谋杀、贿赂或冒充城市官员以及魔法胁迫都是重大犯罪。罪犯将面临[[/r 2d10]]年监禁、死刑或者流放。城市的法官来决定其罪行适用于什么样的惩罚。</p><h3>宗教</h3><p class=\"journal-original-h3\">Religion</p><p>这座城市有供奉各种神祇的神庙或神龛。不过，明显邪恶的宗教在这里不会受到容忍。当一个邪恶教派在城市中被发现时，它的财产会被没收，领导人会被处死，其他所有成员都会被终身驱逐出境。</p><p>参见“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.lU6TAJyhgPu1ZfFB]{灰鹰诸神}”表，了解自由城居民所信奉的众多神祇。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454010562,
+        "modifiedTime": 1776581642991,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.MZQ3TpAXHIGQjMFT"
+    },
+    {
+      "sort": 0,
+      "name": "城市分区",
+      "type": "text",
+      "_id": "JtGGvXqwkcfxsSw8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">City Neighborhoods</p><p>灰鹰自由城被由西向东的两道内城墙分为三个主要城区。北区包括上城区和花园区，这座城市最富有的人居住在此处。中心区域有河流区、书卫区、工匠区和外来区。南面的部分通常被称为“旧城”，这里的贫民区和盗贼区比起其他区域更加破旧和混乱。</p><p>下文将简要介绍这座城市的各个城区：</p><p><strong>工匠区。</strong>工匠区环绕一座大市场建造。最好的工匠们在这里居住和工作，城市的商业公会也把总部设在此处。</p><p><strong>书卫区。</strong>书卫区是灰鹰城的大学区，这里有许多学校和大学以及配套的商业。神庙排列在在靠近这一街区南部被称为“神庙街”的街道上。</p><p><strong>外来区。</strong>外来区是这座城市最文化多样的城区之一，这里以最棒的公寓和餐厅为傲。</p><p><strong>花园区。</strong>花园区是一个类似上城区的高级城区，但这里的宅子没有上城区那么大，也没有那么花哨。</p><p><strong>上城区。</strong>宫殿、神庙、豪宅和花园挤满了奢华的上城区。华丽的家族和开放的空间定义了这个城区。</p><p><strong>河流区。</strong>河流区包括了酒馆和娱乐场所，还有城墙外塞林坦河岸的码头。由于它是一个贸易中心，这里是城市最独特和文化多样的部分。</p><p><strong>贫民区。</strong>贫民区是最穷困和绝望的城区，这里到处都是犯罪猖獗的窝点。</p><p><strong>盗贼区。</strong>相较贫民区而言，盗贼区的建筑稍微没有那么破旧，那里的人们也要更富裕一些。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454012352,
+        "modifiedTime": 1776581663612,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.JtGGvXqwkcfxsSw8"
+    },
+    {
+      "sort": 0,
+      "name": "城市地点",
+      "type": "text",
+      "_id": "PtnTOuNZWkeqTlgZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">City Locations</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.rAgmgaKVdnkoesCA inline]</p><p>这里提到的地点可以作为你战役的一处不错的起点。你可以使用它们作为范例来让你游戏中新出现的地点更加鲜活。</p><h3>黑龙旅店</h3><p class=\"journal-original-h3\">Black Dragon Inn</p><section class=\"fvtt narrative\"><p>这家三层楼高、略显破旧的旅店位于市中心。它的前门上挂着一个雕刻出的招牌：咧嘴笑的黑龙。在旅店后面有一间马厩。</p></section><p>书卫区的黑龙旅店就有不错的食物和实惠的房间，它的马厩能容纳最多十二匹马。</p><p>这家旅店的老板是米克罗斯·德尔，一位人类<strong>历战武者</strong>（混乱善良），喜欢讲述自己七年前在艾历底牧原战役中的英勇事迹，当时中法兰尼斯的战士们联合起来，将邪恶的力量赶出了邪恶元素神庙（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawkGazet.JournalEntryPage.RGuWdlWj7PvscnWV]{中法兰尼斯 }”）。米克罗斯是一位留着红胡子，戴着假肢，和熊一样壮的男人。他和蔼可亲，非常骄傲。他和奥拉夫与希凡的友好竞争是这座城中的热门话题。奥拉夫和希凡最近雇了一位法师，让米克罗斯的黑龙招牌流下酸液，吓着了进出黑龙旅店的客人。米克罗斯自己也很想开一个类似的玩笑。</p><p><em><strong>角色背景。</strong></em>一位有士兵背景的冒险者可能和米克罗斯有所联系，也许还在艾历底牧原和他并肩作战。有流浪者背景的角色可能会知道米克罗斯是一位慷慨的好人，常常为需要的人提供食物甚至住宿。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访黑龙旅店：</p><p><strong>偷听者的天堂。</strong>许多秘密会面都发生在黑龙旅店，偷听私人谈话的冒险者可能会在这儿无意间听到诱人的传言或发现有价值的信息。</p><p><strong>信息来源。</strong>如果冒险者让米克罗斯讲述他过去的战绩，或者同意帮助他对他的对手恶作剧，他可以把他们引向新的冒险机会。他同样非常熟悉@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.6xM2odCqHP4JlcuS]{邪恶元素}教派的特点。</p><p><strong>住宿。</strong>黑龙旅店靠近灰鹰城的中心市场。旅行者可以花每晚 2 SP 住在公共休息室，也可以花每晚 5 SP 住单间。豪华套房则需要每晚 2 GP。</p><h3>大城堡</h3><p class=\"journal-original-h3\">Grand Citadel</p><section class=\"fvtt narrative\"><p>一座尖塔林立的堡垒从小坡上俯瞰着这座城市的各个角落。它的外墙被煤烟熏得焦黑，需要好好擦洗。</p></section><p>这座位于上城区北面的宏伟建筑被灰鹰市民们简称为“城堡”，里面有城市守卫的兵营，司令的办公室、城市的财政部以及为紧急征召的民兵准备的大量武器。城堡里还有一座监狱，里面关押着灰鹰城最顽固的罪犯。</p><p>城市守卫的司令是森塔·努瑞夫，一位身材高大的人类<strong>历战武者</strong>（中立善良），有稀疏的金发，留着胡子。森塔通常刚正不阿，但他承受着巨大的压力。强盗王国中一座设防城镇“斯托因克”的统治者抓到了森塔的弟弟萨雷克，胁迫司令提供有关灰鹰城防御和当地政要的信息。森塔将这些信息提供给了一位以假名斯坎达·达隆德的人类<strong>密探</strong>（混乱邪恶）。森塔并不知晓斯托因克的强盗领主是埃乌兹的棋子，而埃乌兹的征服野心已经涵盖了灰鹰及更遥远之地。</p><p>灰鹰市的巡查官——也是司令的二把手，城市守卫的训练官，以及训政团的一员，一位名叫德蕊德尔（中立善良）的培罗<strong>祭司</strong>。她的善良和治愈能力让她在城市守卫中备受爱戴。作为一位前冒险者，她同情冒险者们的需求。她对森塔的委曲求全毫不知情。</p><p><em><strong>角色背景。</strong></em>有罪犯或者警卫背景的冒险者可能会和大城堡有联系，其中涉及过去的法律纠纷或在城市守卫的服役经历。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访大城堡：</p><p><strong>预约。</strong>冒险者和森塔·努瑞夫预约了见面，也许是因为他们需要帮助一位犯罪被捕的同伴，也许是因为他们希望报告一件对城市的威胁。</p><p><strong>闯入或突出。</strong>冒险者们被雇来闯入城堡的宝库或将什么人从监狱里救出来。</p><p><strong>囚禁。</strong>冒险者因某项严重罪行而被关押在大城堡中。</p><h3>大图书馆</h3><p class=\"journal-original-h3\">Great Library</p><section class=\"fvtt narrative\"><p>这座建筑的正面是一排宏伟的花岗岩墙和高大立柱。一条宽阔的坡道通往一扇巨大的门，门两侧雕着石头的巨龙。在图书馆里面十分凉爽，散发着霉味。</p></section><p>访客不能携带武器和盔甲进入大图书馆。如果有人试图穿着盔甲或携带明显的武器进入图书馆，或者有小偷被看到带着一本或更多书离开图书馆，入口两侧的石雕青铜龙就会发动攻击。这些雕像是<strong>石魔像</strong>。</p><p>亚巴拉·萨迦斯特是一位脾气暴躁的龙裔贤者，担任图书馆的馆长。<strong>大法师</strong>（混乱善良）亚巴拉有明亮的绿色眼睛，通常穿着一件拼布长袍，她的青铜鳞片略带海蓝宝石般的颜色。</p><p>亚巴拉坐在大厅里一张高高的书桌后面。六个拱门从主厅通往侧楼，图书馆的大部分书籍都放在那里，以供访客免费阅读（但不能从图书馆拿走）。图书馆里有几位贤者和文员，他们签了写书的合同，内容主要是介绍本市的时事。</p><p>馆长身后有一扇铁门通往背后的走廊。三位抄写员（<strong>魔法师</strong>）在这里工作并担任警卫，守护着自己桌边三扇上锁的铁门，里面是图书馆的秘库。<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AxfK0wW0YSzDUqLe]{秘法锁}</em>封住了这些门，里面存放着图书馆最珍贵或最禁忌的书籍。这些文员门的桌边都有一根从天花板上一个洞垂下来的拉绳。拉动任意一根绳子，就能把信鸽从图书馆上面的阁楼里放出来。这些鸟儿只需要一分钟就能找到并警告一位大法师，而大法师会传送到大厅展开调查。</p><p><em><strong>角色背景。</strong></em>有智者或者文员背景的冒险者可能会和大图书馆和其所有者有联系。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访大图书馆：</p><p><strong>研究。</strong>调查一本特定的书或特定话题的更多信息的可能会在图书馆里寻找他们需要的东西。</p><p><strong>法术书。</strong>冒险者可能需要偷走图书馆里存放的一本法术书，这需要一次精心策划的偷窃。</p><p><strong>法术卷轴。</strong>冒险者可以委托抄写员创造一张有 5 环及以下法师法术的<em>魔法卷轴</em>。制作卷轴所需的时间见<em>《玩家手册》</em>，抄写员收取的费用是<em>《玩家手册》</em>上显示的两倍。</p><h3>高塔旅店</h3><p class=\"journal-original-h3\">High Tower Inn</p><section class=\"fvtt narrative\"><p>这家迷人的旅店地理位置优越，它靠近瑟林坦河，以其高耸的塔楼闻名。塔楼的形状就像一位古怪法师的帽子。这儿的客人们非常富有，但这家旅店一点不高调。</p></section><p>高塔旅店的主人恩琳·古德菲洛是一位说话温和、大腹便便的中年<strong>魔法师</strong>（守序善良），她有灰色的头发和明亮的蓝眼睛，戴着一副白边眼镜。在意识到自己并不很喜欢身陷险境之前，她曾经尝试过进行冒险。如今，她的人生追求是那些涉及久坐不动的事。很少有客人知道恩琳会魔法，因为她很少在陌生人面前施展法术。</p><p>高塔旅店位于花园区，是本市几位最著名的法师，包括奥图和贾拉兹最喜欢去的地方。</p><p><em><strong>角色背景。</strong></em>有商人或者贵族背景的冒险者可能会和高塔旅店有联系，这儿迎合有钱人的偏好。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访高塔旅店：</p><p><strong>信息来源。</strong>恩琳知道本地所有的流言。如果她信任冒险者，她还会指引他们去找需要他们帮助的 NPC 。</p><p><strong>住宿。</strong>冒险者们需要一处住宿的地方，高塔旅店则有舒适的住宿，充足的麦酒和葡萄酒以及辛辣的食物。这里有六间单间，每一间每晚的价格为 3 GP，其中三间客房位于塔楼内，每个独占一个楼层。</p><p><strong>施法者。</strong>冒险者可能是来找住在旅店中的某位强大施法者办事的。</p><h3>银龙旅店</h3><p class=\"journal-original-h3\">Silver Dragon Inn</p><section class=\"fvtt narrative\"><p>这家宏伟的多层旅店有一张木头招牌，上面用银色的字体写着“银龙旅店”，其中Ｓ的形状如同一条银龙。在前面旁有一个更不起眼的标示牌，上面写着“不能穿金属盔甲进入。盾牌和武器必须存在门口。”</p></section><p>坐落在外来区的豪华的银龙旅店通常是初到灰鹰的客人们首先光顾的地方。这里的价格为寻常水平，但食物份量很大。这家旅店的菜单上包括了辣豆菜肴、暴风海岸的海鲜美味、米饭和素食主菜。</p><p>比匕首大的武器以及盾牌必须寄存在门口。身着金属铠甲的顾客不得入内。两位保镖（绝对中立的<strong>恶棍头领</strong>）站在门口，礼貌地执行这些规定。</p><p>这家旅店的主人是已婚的奥拉夫·阿尔-阿祖尔（混乱善良的<strong>历战武者</strong>）和希凡·阿尔-阿祖尔（混乱善良<strong>刺客</strong>）。他们会多种语言，并且擅长用幽默来提振精神和缓解紧张局势。奥拉夫几乎总是能在战斗开始之前就平息火苗，通常他会给引起它的人叫一轮饮料。希凡安静而内省，但总是能说出一个令人捧腹的笑话或尖刻的评论。</p><p><em><strong>角色背景。</strong></em>有工匠或者艺人背景的冒险者可能会在银龙旅店谈生意。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访银龙旅店：</p><p><strong>会见外国政要。</strong>外国政要会来这里享受银龙旅店的食宿。计划拜访远方国度的角色可能会和这些受尊敬的访客建立联系。</p><p><strong>住宿。</strong>银龙旅店位于城中心，楼上有 24 间客房。旅行者可以花每晚 1 SP 住在公共休息室，也可以花每晚 3 SP 住单间。豪华套房则需要每晚 1 GP。</p><p><strong>安全。</strong>银龙旅店以客人们在此的安全保障而自豪。这儿的老板和保安都训练有素，即使没有城市守卫的帮助，他们也能自己处理麻烦。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.1XO2KbMohSbbasN9 cite=false]</p><h3>远界神殿</h3><p class=\"journal-original-h3\">Temple of the Far Horizon</p><section class=\"fvtt narrative\"><p>一座安静、朴素的礼拜堂隐藏在这座城市中宏伟的神殿群众，它的屋顶铺着黏土瓦、有一座尖尖的钟楼和精心照料的菜园。生病和饥饿的人们在外面排期长队，等待祭司们听取他们的需求。</p></section><p>这座供奉法兰恩的神殿坐落在花园区，祂是一位受到旅行者和雇佣兵们爱戴的神灵。无论白天还是黑夜，在这里工作的<strong>祭司</strong>们都为需要帮助的人们提供食物、住宿和治疗。这里留有一些为客人准备的小房间，还为每一位访客都提供简单的热餐。</p><p><em><strong>角色背景。</strong></em>有向导或者水手背景的冒险者可能会在回合这座常常为旅行者提供帮助的神殿有联系。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访这座神殿：</p><p><strong>招募冒险者。</strong>祭司们密切关注着城市周边地区的威胁。他们正在密切关注石冢山丘附近有龙活动的流言，并希望雇佣冒险者对此进行调查。</p><p><strong>治疗。</strong>冒险者们可以以每瓶 50 GP 的价格购买<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fjCySXxofVJVT2Cd]{治疗药水}</em>，神殿的祭司们每天会有[[/r 1d4]]瓶药水的库存。祭司们还准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uRgDAGoGKx1w4VHw]{次等复原术}</em>法术，按照惯例，他们会免费施展这些法术。对更强大的魔法，如<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZEX9RmEByJuYNy83]{死者复活}</em>法术，祭司会引导冒险者们前往光辉圣阳神殿。</p><p><strong>安全旅行。</strong>通过向神殿提供少许捐款，冒险者们能够增加安全前往下个目的地的可能性。</p><p><strong>传送法阵。</strong>虽然它并非灰鹰城里唯一的永久传送法阵，但远界神殿的传送法阵是最容易使用的。祭司们允许来自任意地方的传送连结至这一传送法阵。而只要花费 2000 GP，首席祭司就会施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YhF0iJp8uRb0wZjW]{传送法阵}</em>法术，来与物质位面上另一个永久传送法阵建立连结。</p><h3>光辉圣阳神殿</h3><p class=\"journal-original-h3\">Temple of the Radiant Sun</p><section class=\"fvtt narrative\"><p>这座铜质屋顶的神殿的双开门上方挂着镶金的太阳圣徽。在白天，阳光会透过装饰着金色窗帘的、高高的窗户射入神殿内部。</p></section><p>这座神殿位于花园区的中心，里面供奉着大神培罗。它在黎明时分开启，又在黄昏时分关闭。在神殿中心的圣所中，<strong>祭司</strong>们每天都会进行早课，并在每个诸神日进行全天的仪式。</p><p>神殿的<strong>大祭司</strong>莎拉娜（中立善良）是一位中年的人类女性，她头戴太阳形状的头饰，身着金色的长袍，在公众场合时，她的<em>治愈法杖</em>从不离身。莎拉娜有稻草色的头发、绿色的眼睛，并且生性宽宏大量。</p><p><em><strong>角色背景。</strong></em>有侍僧背景的冒险者可能曾为光辉圣阳神殿服务，而有农夫背景的冒险者可能会将这里作为祈福之地。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访这座神殿：</p><p><strong>治疗。</strong>神殿以每张 3200 GP 的价格出售<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}卷轴</em> ，每张 300 GP 的价格出售<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jtt83qZ5kmO8nr1U]{移除诅咒}卷轴</em>。神殿的祭司们每天会有[[/r 1d4]]张卷轴的库存。祭司们还准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uRgDAGoGKx1w4VHw]{次等复原术}</em>法术，他们通常会免费施展这些法术。</p><p><strong>死者复活。</strong>大祭司莎拉娜是自由城市灰鹰中为数不多能够施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZEX9RmEByJuYNy83]{死者复活}</em>法术的人之一，但她需要价值 500 GP 的钻石才能施展。莎拉娜能够推荐一位能够出售价值足够的钻石的珠宝商。在同意施展法术之前，莎拉娜会施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FgUntnTJYS4Lw7yc]{诚实之域}</em>法术，以确保她不会让一个不该活在这个世界上的人复生。</p><p><strong>为善良事业提供帮助。</strong>神殿可能会召集在城中或城外表现良好的冒险者。因为七年前曾参与过与邪恶元素神殿的战斗，莎拉娜对@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.6xM2odCqHP4JlcuS]{邪恶元素}的威胁十分警惕。作为对他们服务的交换，这些角色和他们的伙伴们能够在神殿购物时享有 50% 的折扣。</p><h3>“破解奥秘”</h3><p class=\"journal-original-h3\">Unearthed Arcana</p><section class=\"fvtt narrative\"><p>这家古色古香的两层店铺有一个招牌，上面画着一位白胡子的人类法师，手里拿着一根顶端有铜球的法杖。商店的橱窗里陈列着各色药水、卷轴、魔杖和奇异的宝贝。</p></section><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.JVwTMgluvpanlP2O caption=false classes=\"float-right size-three\" inline]</p><p>书卫区的一家古色古香的商店售卖魔法物品。魔法结界让店铺的门和橱窗不会被打碎，且未经店主莫利同意，任何人不都不能以魔法进出商店。</p><p>莫利是一只<strong>成年赤铜龙</strong>（混乱善良），他日常变身为一位健谈而机警的白胡子人类魔法师，头戴尖尖的帽子、身穿磨破的长袍和尖头拖鞋。城里只有少数人——包括受人尊敬的八叶本地成员贾拉兹·萨维恩和奥图——知晓莫利的真实面目。</p><p>莫利是这座城市的秘密武器之一，他随时准备着击退入侵者或挫败攻城的大军。巨龙对那些为正义事业冒生命危险的冒险者情有独钟。他偶尔会将魔法物品免费借给付不起钱的勇敢英雄们，条件是只要他们不再需要这些东西，就得把它们还回来。</p><p><em><strong>角色背景。</strong></em>由于莫利有诸多非同寻常的兴趣，有骗子或隐士背景的冒险者可能和“破解奥秘”有所联系。</p><p><em><strong>拜访此地的原因。</strong></em>冒险者可以会出于以下一个原因拜访“破解奥秘”：</p><p><strong>购买或出售魔法物品。</strong>莫利以标准价格出售魔法物品（见@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTreasure00000]{第 7 章}）。虽然他在店里放了一些魔法物品来吸引眼球，但他的大部分库存都放在只有他才能进入的异次元空间中。这家商店出售许多普通、非普通和珍稀魔法物品，主要包括药水、戒指、魔杖、法杖和奇物。莫利还能够获得一些极珍稀或传说魔法物品。</p><p><strong>免费借用。</strong>一位赞助人安排莫利借给角色们一件魔法物品，以帮助他们完成任务。在把物品交给他们之前，莫利要求他们完好无损地将它还回来。</p><p><strong>魔法物品鉴定。</strong>莫利能够随意施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em>。他每次施法都会收取 50 GP 费用。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454014135,
+        "modifiedTime": 1776581749488,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.PtnTOuNZWkeqTlgZ"
+    },
+    {
+      "sort": 0,
+      "name": "城墙之外",
+      "type": "text",
+      "_id": "D5owduv1vdPsLbaM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Beyond the City Walls</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.W3P7Y7MguGDBanHM inline]</p><p style=\"text-align:center\"><em>我们还提供了@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.FBb1WSxwIYiQt5z6]{仅标注主要地点与道路}、@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.GmdiHhGBUodRSK25]{仅标注主要地点但不含道路}，以及@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.5w3BYTvqcKolJM7S]{完全无标签}的地图版本。</em></p><p>灰鹰城及周边地区地图展示了自由城市灰鹰周围的土地。下面展示了地图上能够用作冒险发生之处的地点：</p><p><strong>布莱克菲尔庄园。</strong><span class=\"CharOverride-3\">布莱克菲尔庄园是分布在灰鹰平原上的庄园和要塞的代表，由一位杰出的骑士指挥官建立。它的马厩是法兰尼斯最知名的战马来源，这儿的马以迅捷和坚韧著称，吸引了灰鹰城及周边地区的精明买家们。庄园周围环绕着农场，广袤的牧场，还有一个有磨坊、酒馆、铁匠铺和马鞍铺的小村庄。</span></p><p><strong>黑石镇。</strong><span class=\"CharOverride-3\">见下文“矿镇”。</span></p><p><strong>黑墙要塞。</strong><span class=\"CharOverride-3\">黑墙要塞是为了监视迷雾沼泽而修建的两座新要塞之一。它是一座坚固的石塔，还有木头栅栏环绕的马厩。来自灰鹰的是士兵们驻扎在这座要塞，他们会冒险前往沼泽的北部边缘进行巡逻。</span></p><p><strong>石冢山丘。</strong><span class=\"CharOverride-3\">在城市北面和东面的山丘中藏着古代的墓穴和半掩埋的废墟，它们吸引了冒险者、强盗、邪恶元素教徒和怪物。</span></p><p><strong>灰鹰堡。</strong><span class=\"CharOverride-3\">从城市向西，沿着瑟林坦河前行的旅行者会来到一座石桥前，过桥后，他们必须向东北前行几英里，然后就能抵达灰鹰堡。这些废墟（以及位于其下的许多层地下城）由大法师扎基格·亚格伦建造，随着他的消失而被遗弃。对于追求财富、荣耀以及魔法力量的冒险者来说，它由巨大的吸引力。据说废墟中充满各种各样的奇迹，包括通往其他位面的众多传送门。</span></p><p><strong>钻石湖镇。</strong><span class=\"CharOverride-3\">见下文“矿镇”。</span></p><p><strong>埃姆夏尔。</strong><span class=\"CharOverride-3\">这个清冷的小镇位于奈尔·戴夫湖畔，有相当多的半身人。这儿的码头上挤满了渔船。镇民们欢迎和平的访客——尤其是能够帮助他们对付石冢山丘地带怪物、强盗和邪恶元素教派的冒险者。</span></p><p><strong>厄里河村落。</strong><span class=\"CharOverride-3\">高厄里村和厄里河湾村都有农民居住，他们的大部分农产品都运到灰鹰城出售。两个村子都由菲尔海特和威瑟温两个显赫家族统治。这两个家族有着复杂的历史，他们从来都争吵不休，但彼此联姻也十分频繁，各种小吵小闹和小恩小惠更不必多说。</span></p><p><strong>浅滩要塞。</strong><span class=\"CharOverride-3\">灰鹰城及周边区域到南部的交通依靠瑟林坦河第一个大弯处的渡船。灰鹰市长在这里建造了浅滩堡，以保护渡口免受强盗的攻击。</span></p><p><strong>瑟林坦峡谷。</strong><span class=\"CharOverride-3\">瑟林坦河两岸高耸的悬崖在这里连绵近十里。在河流的上方八百尺处，一座石头拱桥横跨这座峡谷，其造型宛如天然基岩的延伸。这座桥让灰鹰城和格罗赛特窟之间的旅行变得容易起来。作为防御措施，修建这座桥的侏儒建筑师们在桥的某个地方藏了一枚铁钉，如果拔走它，整座桥就会垮塌。</span></p><p><strong>格罗赛特窟。</strong><span class=\"CharOverride-3\">一个由侏儒矿工和采集者组成的勤劳社区生活在这个由开凿出的隧道和天然洞穴组成的洞网中。侏儒们交易宝石和稀有的真菌，以交换帮助他们击退黑暗中的怪物。</span></p><p><strong>沼地要塞。</strong><span class=\"CharOverride-3\">和黑墙堡一样，沼地堡也是新近修建用来监视迷雾沼泽的。矮人步道从塔楼延伸向东通往格雷斯莫，一个有大量矮人的采石小镇。</span></p><p><strong>矿镇。</strong><span class=\"CharOverride-3\">黑石镇、钻石湖镇和蒸汽泉镇都是由自由城市灰鹰管理和保护的小矿镇。城市会经常派遣冒险者来解决对镇上的矿工和采矿作业的威胁，最近这些威胁中还包括意图破坏灰鹰经济稳定的埃乌兹特工。</span></p><p><strong>迷雾沼泽。</strong><span class=\"CharOverride-3\">这片广袤的沼泽地中有一座半沉在沼泽中的古代城市废墟。如今这座城市被雾气所笼罩，还有一家子黑龙在其中守卫。鬼火会将猎物引诱到废墟中，死亡的厄运在那里静候他们的到来。</span></p><p><strong>微醺庄园。</strong><span class=\"CharOverride-3\">微醺庄园和灰鹰平原上的其他庄园一样，是由一位如今已被遗忘的古代战争英雄建造的。然而，几年前，它被艾克比尔、珊嘉拉和切特娜·莫辛这几位退休冒险者买了下来。莫辛一家酿造出了一种非凡的麦芽酒，他们将之称为“微醺”——这便是庄园名字的由来。</span></p><p><strong>蒸汽泉镇。</strong><span class=\"CharOverride-3\">见上文“矿镇”。</span></p><p><strong>石桥堡。</strong>一支驻扎在石桥堡的小型守军严密监视着通往灰鹰城的河道交通。</p><p><strong>石堡。</strong><span class=\"CharOverride-3\">一支来自灰鹰城的驻军在石堡的高墙上监视着南方的奈尔·戴夫。堡垒还守卫着一个采石场。</span></p><p><strong>托赫尔堡。</strong><span class=\"CharOverride-3\">这座被炸毁的废墟矗立在奈尔·戴夫上方嶙峋的海角上。废墟的大部分都被一处死魔法区（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{环境效应}”）所笼罩，怪物则守卫着这座古堡及其地城中可能隐藏的秘密。</span></p><p><strong>双滩村。</strong>小村落“双滩”依靠河流贸易来为村里的旅馆、铁匠铺和商人提供支持。来自矿镇的矿石也在这里交易，因为通过河流运输比陆路来得更容易。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454015853,
+        "modifiedTime": 1776581802164,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgFreeCityOfGre.D5owduv1vdPsLbaM"
+    }
+  ],
+  "folder": "VV2bw70qBUsNr8j8",
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": false,
+      "append": 5,
+      "order": 501000,
+      "navigation": {
+        "previous": "dmgGreyhawksPrem",
+        "next": "dmgGreyhawkGazet"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729453880971,
+    "modifiedTime": 1776581581053,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 393750,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgFreeCityOfGre"
+}

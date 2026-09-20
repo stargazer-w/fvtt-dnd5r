@@ -1,0 +1,90 @@
+{
+  "name": "无敌攻势之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-irresistible-offense.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的力量或敏捷提升 1 点，最多为 30。</p><p><em><strong>摧坚破甲。</strong></em>你造成的钝击、挥砍和穿刺伤害无视抗性。</p><p><em><strong>无阻打击。</strong></em>当你为一次攻击检定投掷的 d20 骰出了 20 时，你可以对目标造成额外伤害，你造成的额外伤害等于你以此专长提升的属性的属性值，伤害类型与这次攻击的伤害类型相同。</p><p class=\"item-original\">Boon of Irresistible Offense</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-irresistible-offense",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你的力量或敏捷提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "PP2NVgVv8yRIkDZM",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775988797737,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "6n0PoOlcVbpUeH8U",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!6n0PoOlcVbpUeH8U"
+}

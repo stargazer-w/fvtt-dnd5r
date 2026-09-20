@@ -1,0 +1,379 @@
+{
+  "name": "魔化武器",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_magic-weapon.webp",
+  "system": {
+    "activities": {
+      "wE7ENn6TCByK7q7n": {
+        "type": "enchant",
+        "name": "施法",
+        "_id": "wE7ENn6TCByK7q7n",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "eXUSDbsBCMWX2m6X",
+            "level": {
+              "min": 2,
+              "max": 2
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "RtkCW4KWPKDjEcDD",
+            "level": {
+              "min": 3,
+              "max": 5
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "5CbPQBl2VAk9Ksnc",
+            "level": {
+              "min": 6,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {},
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "img": "",
+        "appliedEffects": [
+          "eXUSDbsBCMWX2m6X",
+          "RtkCW4KWPKDjEcDD",
+          "5CbPQBl2VAk9Ksnc"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一件非魔法武器。直到法术结束前，它成为魔法武器且在进行攻击检定和伤害掷骰时具有 +1 加值。你再次施放它时，该法术会提前结束。</p><p><em><strong>升环施法。</strong></em>使用 3 至 5 环的法术位时，加值增加至 +2，使用高于 5 环的法术位时，加值增加至 +3。</p><p class=\"item-original\">Magic Weapon</p>",
+      "chat": ""
+    },
+    "identifier": "magic-weapon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "魔化武器, +1",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_magic-weapon.webp",
+      "disabled": false,
+      "_id": "eXUSDbsBCMWX2m6X",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔法 {} +1",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732437354134,
+        "modifiedTime": 1750269715685,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1IYqSOm6cn4O6hZA.eXUSDbsBCMWX2m6X"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔化武器, +2",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_magic-weapon.webp",
+      "disabled": false,
+      "_id": "RtkCW4KWPKDjEcDD",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 4,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔法 {} +2",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732437605142,
+        "modifiedTime": 1750269720105,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1IYqSOm6cn4O6hZA.RtkCW4KWPKDjEcDD"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔化武器, +3",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_magic-weapon.webp",
+      "disabled": false,
+      "_id": "5CbPQBl2VAk9Ksnc",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 3,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔法 {} +3",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732437636999,
+        "modifiedTime": 1750269724247,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1IYqSOm6cn4O6hZA.5CbPQBl2VAk9Ksnc"
+    }
+  ],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194939997,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1IYqSOm6cn4O6hZA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1IYqSOm6cn4O6hZA"
+}

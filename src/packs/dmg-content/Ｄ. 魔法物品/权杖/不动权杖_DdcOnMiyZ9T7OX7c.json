@@ -1,0 +1,136 @@
+{
+  "name": "不动权杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ROD_immovable-rod.webp",
+  "system": {
+    "activities": {
+      "NJtDVa4FyqwtvbQ2": {
+        "type": "utility",
+        "_id": "NJtDVa4FyqwtvbQ2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QrBHTuvWdVcPfcoZ]{权杖}，非普通</em></p><p>这根铁质权杖的一端具有一枚按钮。你可以执行&amp;Reference[Utilize]{操作}动作按下按钮，让这根权杖魔法性地固定在原处。直到你或另一生物执行操作动作再次按下按钮前，即使违反了重力定律，权杖也不会移动。权杖最多能负载 8000 磅的重量。更重的负载则会让权杖的效应失效并掉落在地。一个生物可以执行&amp;Reference[Utilize]{操作}动作来进行一次[[/skill ath 30 format=long]]，成功则可以将固定住的权杖移动最多 10 尺。</p><p class=\"item-original\">Immovable Rod</p>",
+      "chat": ""
+    },
+    "identifier": "immovable-rod",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "rod",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "folder": "KLqqDvPzWShN1NHJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756971932143,
+    "modifiedTime": 1758461594393,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "DdcOnMiyZ9T7OX7c",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!DdcOnMiyZ9T7OX7c"
+}

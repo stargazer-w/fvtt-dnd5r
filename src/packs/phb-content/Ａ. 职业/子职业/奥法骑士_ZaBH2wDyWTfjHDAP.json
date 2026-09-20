@@ -1,0 +1,252 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "奥法骑士",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/fighter_eldritch-knight.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>奥法遍身附剑戟</p></blockquote><p>奥法骑士将所有战士共通的高超武技与对魔法的精妙研究融合贯通。法术补足并拓展了他们的武技，为甲胄提供额外的保护 ，并使他们能够使用爆发性的魔法同时与多个敌人鏖战。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.DEHhd3OBGcHKeYcI]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZaBH2wDyWTfjHDAP]{Eldritch Knight}</p>",
+      "chat": ""
+    },
+    "identifier": "eldritch-knight",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gSUx7K97hCpjdROS"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.sze5dZC6GLiC5fu5"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "_id": "pRgmLhFJSdR9qhWF",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.xUFbyRCme7AnPTr1"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "HpZPqDHZjaz3qpsT"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CD96E0CfbPHfJnFG"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "I3oGjgGyUN1tWc5A"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.9PZc0HzBZHer5wxI"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "QfM12T4hheRqGGrf"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.la64zMzhUELJg5vr"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "t4KJQSd933TjKnwf"
+      },
+      {
+        "_id": "09H7zVdBbTtMJ4OH",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "cantrips",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "10": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "戏法",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp"
+      },
+      {
+        "_id": "xmimftRPT4w7jVr9",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 3
+            },
+            "4": {
+              "value": 4
+            },
+            "7": {
+              "value": 5
+            },
+            "8": {
+              "value": 6
+            },
+            "10": {
+              "value": 7
+            },
+            "11": {
+              "value": 8
+            },
+            "13": {
+              "value": 9
+            },
+            "14": {
+              "value": 10
+            },
+            "17": {
+              "value": 11
+            },
+            "19": {
+              "value": 12
+            },
+            "20": {
+              "value": 13
+            }
+          }
+        },
+        "value": {},
+        "title": "准备法术",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp"
+      },
+      {
+        "type": "ScaleValue",
+        "title": "法术环阶",
+        "_id": "KfSbKSbh8KUmOMN7",
+        "configuration": {
+          "identifier": "spelllevel",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 1
+            },
+            "7": {
+              "value": 2
+            },
+            "13": {
+              "value": 3
+            },
+            "19": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "hint": "你提升最大法术环阶，这是你在该职业中所能够准备法术的最大环阶等级。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell-slot.webp"
+      }
+    ],
+    "classIdentifier": "fighter",
+    "spellcasting": {
+      "progression": "third",
+      "preparation": {
+        "formula": "@scale.eldritch-knight.max-prepared"
+      },
+      "ability": "int"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777571510902,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "ZaBH2wDyWTfjHDAP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ZaBH2wDyWTfjHDAP"
+}

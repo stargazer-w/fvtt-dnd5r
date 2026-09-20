@@ -1,0 +1,420 @@
+{
+  "name": "魔法物品特性：词条",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.0WfMqxMjsTpUyRDM]{魔法物品的次级词条}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "3pxYG5DInP2Wyto1",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>灯火。</strong>你可以执行一个附赠动作令该物品散发出半径 10 尺的&amp;Reference[Bright Light]{明亮光照}以及额外 10 尺的&amp;Reference[Dim Light]{微光光照}，或令该物品散发的光芒熄灭。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.3pxYG5DInP2Wyto1"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "B3PAXvzcB8lnouS4",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>罗盘。</strong>你可以执行一个&amp;Reference[Magic]{魔法}动作以知晓磁北方向所在。若该词条在没有磁北的区域中使用，则其不会产生任何效果。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.B3PAXvzcB8lnouS4"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "nFQNoTYkES9L0SfA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>深掘者。</strong>在地下时，你总是能够知道该物品所处深度以及距离最近的楼梯，坡道或任何向上延伸的道路所处的方位。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.nFQNoTYkES9L0SfA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "_id": "otJsE5w2FdGzuyd5",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>守护者。</strong>该物品会为你发出警告，只要你未陷入失能状态，则该物品将为你的先攻检定提供 +2 加值。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.otJsE5w2FdGzuyd5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "_id": "VcqCnqZKELKVwfmY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>调谐。</strong>与该物品同调仅需 1 分钟。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.VcqCnqZKELKVwfmY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "kLaRTszJCoX4OhQb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>锁钥。</strong>该物品可以被用来解锁某件容器、某个房间、某个金库或某扇大门。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.kLaRTszJCoX4OhQb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "z4CauTFr56MI6y5r",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>密令。</strong>一条信息被藏于该物品的某处。该信息可能只有在特定时间、特定地点或者某一月相的月光下才会显现。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.z4CauTFr56MI6y5r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        12
+      ],
+      "drawn": false,
+      "_id": "PgOdmmbW5hpTK6m2",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>哨戒者。</strong>DM 选定一种生物，例如夺心魔或巨魔。该物品会在所选定生物进入其 120 尺内时发出微弱的光芒。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.PgOdmmbW5hpTK6m2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_id": "O9htxm9OgnPIeUn6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>作曲。</strong>每当该物品被敲击或者该物品被用于击打某名敌人时，你就会听到某首古代歌曲的其中一小段。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.O9htxm9OgnPIeUn6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        15
+      ],
+      "drawn": false,
+      "_id": "lK2PnPrnpfiIPv6r",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>奇材怪料。</strong>该物品由一种与其用途不符的奇特材料制成，但这并不影响其耐久性。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.lK2PnPrnpfiIPv6r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_id": "81ju9Yja7YKeLwA0",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>令人暖心。</strong>你在 0 度及以下或 100 度及以上的华氏温度下皆能安然无恙。<br /><sup>（译注：即 −18 摄氏度以下，38 摄氏度以上。）</sup>",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.81ju9Yja7YKeLwA0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_id": "5bn756M38W0C7RA9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>坚不可摧。</strong>该物品无法被破坏。只有某些特殊手段方可摧毁该物品。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.5bn756M38W0C7RA9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_id": "9uXAgjLPRYX4UGtG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>战争领袖。</strong>你可以执行一个&amp;Reference[Magic]{魔法}动作以将你的声音或信号清晰地传达到至多 600 尺的范围之内，直至你的下个回合结束。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.9uXAgjLPRYX4UGtG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_id": "M00olli0EGfHdjKG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<strong>水上漂。</strong>该物品可以浮在水或其他液体之上。你为游泳进行的力量（运动）检定具有优势。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.M00olli0EGfHdjKG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_id": "L08QU75sTjPkzft5",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "再骰两次，并重骰接下来任何结果为 20 的骰子。",
+      "name": "",
+      "_key": "!tables.results!9dvtxlOso0rgoSv0.L08QU75sTjPkzft5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750348107294,
+    "modifiedTime": 1752573191204,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "_id": "9dvtxlOso0rgoSv0",
+  "sort": 1100000,
+  "_key": "!tables!9dvtxlOso0rgoSv0"
+}

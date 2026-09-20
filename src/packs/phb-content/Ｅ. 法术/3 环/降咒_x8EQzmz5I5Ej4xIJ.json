@@ -1,0 +1,729 @@
+{
+  "name": "降咒",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse.webp",
+  "system": {
+    "activities": {
+      "FnrLnSCLDnvFeA0z": {
+        "type": "save",
+        "name": "降咒属性",
+        "_id": "FnrLnSCLDnvFeA0z",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "c9AAZaJeFMegQ7vm",
+            "onSave": false
+          },
+          {
+            "_id": "H3TWPh2fJZ9QoXEZ",
+            "onSave": false
+          },
+          {
+            "_id": "e0r0eokIPzpkTKGe",
+            "onSave": false
+          },
+          {
+            "_id": "ih6qNfWor8uJa9BV",
+            "onSave": false
+          },
+          {
+            "_id": "5upDonUVKb60qdF8",
+            "onSave": false
+          },
+          {
+            "_id": "qkUuObr9I1zAZJMc",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_ability.webp",
+        "appliedEffects": [
+          "c9AAZaJeFMegQ7vm",
+          "H3TWPh2fJZ9QoXEZ",
+          "e0r0eokIPzpkTKGe",
+          "ih6qNfWor8uJa9BV",
+          "5upDonUVKb60qdF8",
+          "qkUuObr9I1zAZJMc"
+        ]
+      },
+      "e5zbonNDAzXo5lau": {
+        "type": "save",
+        "name": "降咒攻击",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "dPL39NJrxS7MFtoi",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "e5zbonNDAzXo5lau",
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_attack.webp",
+        "appliedEffects": [
+          "dPL39NJrxS7MFtoi"
+        ]
+      },
+      "4AQt5i2kIPJ9nzZt": {
+        "type": "save",
+        "name": "降咒行动",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "VsOCr4xIAuPP6lCs",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "4AQt5i2kIPJ9nzZt",
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_action.webp",
+        "appliedEffects": [
+          "VsOCr4xIAuPP6lCs"
+        ]
+      },
+      "DlQjIlmaDplkUr8c": {
+        "type": "save",
+        "name": "降咒附伤",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "kPq5nB5xF3Z7otWB",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "_id": "DlQjIlmaDplkUr8c",
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_damage.webp",
+        "appliedEffects": [
+          "kPq5nB5xF3Z7otWB"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一名生物。该生物必须进行一次[[/save]]{感知豁免}并成功通过，否则将在法术持续时间内被诅咒。直到诅咒终止前，目标会遭受以下一项效应，由你选择：</p><ul><li>选择一项属性。目标使用该属性所进行的属性检定和豁免检定具有劣势。</li><li>目标对你发动的攻击检定具有劣势。</li><li>在战斗中，目标在其每回合开始时必须进行一次[[/save]]{感知豁免}，豁免失败则在该回合中被迫执行&amp;Reference[Dodge]{回避}动作。</li><li>若你的攻击检定或法术对目标造成了伤害，则目标还会额外受到 1d8 暗蚀伤害。</li></ul><p><em><strong>升环施法。</strong></em>使用 4 环法术位施展此法术时，你可以维持此法术的专注至多 10 分钟。使用 5 环及更高的法术位施展此法术时，此法术无需专注，并且持续时间变为 8 小时（5–6 环法术位）或 24 小时（7–8 环法术位）。若你使用 9 环法术位施展此法术，则此法术会持续到被解除。</p><p class=\"item-original\">Bestow Curse</p>",
+      "chat": ""
+    },
+    "identifier": "bestow-curse",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "降咒力量",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_str.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "_id": "c9AAZaJeFMegQ7vm",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532683491,
+        "modifiedTime": 1732532778489,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.c9AAZaJeFMegQ7vm"
+    },
+    {
+      "name": "降咒敏捷",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_dex.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532780226,
+        "modifiedTime": 1732532798388,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "H3TWPh2fJZ9QoXEZ",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.H3TWPh2fJZ9QoXEZ"
+    },
+    {
+      "name": "降咒体质",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_con.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532799824,
+        "modifiedTime": 1732532824251,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "e0r0eokIPzpkTKGe",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.e0r0eokIPzpkTKGe"
+    },
+    {
+      "name": "降咒智力",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_int.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532826669,
+        "modifiedTime": 1732532839329,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "ih6qNfWor8uJa9BV",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.ih6qNfWor8uJa9BV"
+    },
+    {
+      "name": "降咒感知",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_wis.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532840376,
+        "modifiedTime": 1732532848306,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "5upDonUVKb60qdF8",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.5upDonUVKb60qdF8"
+    },
+    {
+      "name": "降咒魅力",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_cha.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在该属性所进行的属性检定和豁免检定上具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532850808,
+        "modifiedTime": 1732532864216,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "qkUuObr9I1zAZJMc",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.qkUuObr9I1zAZJMc"
+    },
+    {
+      "name": "降咒攻击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_attack.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你对施法者发动的攻击检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532870005,
+        "modifiedTime": 1732532901872,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "dPL39NJrxS7MFtoi",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.dPL39NJrxS7MFtoi"
+    },
+    {
+      "name": "降咒行动",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_action.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在每回合开始时必须进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}，豁免失败则在该回合中被迫执行&amp;Reference[Dodge]{回避}动作。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532904646,
+        "modifiedTime": 1734771230800,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "VsOCr4xIAuPP6lCs",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.VsOCr4xIAuPP6lCs"
+    },
+    {
+      "name": "降咒附伤",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_bestow-curse_damage.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.x8EQzmz5I5Ej4xIJ",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>施法者的攻击命中你时将造成额外伤害。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732532998034,
+        "modifiedTime": 1734771211523,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "kPq5nB5xF3Z7otWB",
+      "_key": "!items.effects!x8EQzmz5I5Ej4xIJ.kPq5nB5xF3Z7otWB"
+    }
+  ],
+  "folder": "cNfWHjGhLzn86nwC",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534421464,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "x8EQzmz5I5Ej4xIJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!x8EQzmz5I5Ej4xIJ"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "弩矢",
+  "system": {
+    "description": {
+      "value": "<p>容器（ @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]{弩矢匣}）。</p><p class=\"item-original\">Bolts</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 20,
+    "weight": {
+      "value": 0.075,
+      "units": "lb"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "autoDestroy": false,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": "crossbowBolt"
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {},
+    "identifier": "bolts"
+  },
+  "type": "consumable",
+  "folder": "EkXAWGxKr4wYpODe",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONS_ammo_arrows.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194998408,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "fH7unHvErSi8yeWX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!fH7unHvErSi8yeWX"
+}

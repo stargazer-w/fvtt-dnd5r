@@ -1,0 +1,328 @@
+{
+  "_id": "dmgTreasure00000",
+  "name": "宝藏",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "8b89AU6dQR6bti27",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>冒险者们会为了许多事物而奋战，包括但不限于荣誉、知识与正义。但有的冒险者会更青睐一些具体的东西——宝藏。本章将会展示从钱币至魔法物品所有形式的宝藏。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh7ArtHandout.JournalEntryPage.G2g8KjUZGQTEj1Qf cite=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776583358882,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.8b89AU6dQR6bti27"
+    },
+    {
+      "sort": 200000,
+      "name": "宝藏主题",
+      "type": "text",
+      "_id": "fQpftaSbOhQlbEJK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Treasure Themes</p><p>正如<em>《怪物图鉴》</em>中所述，怪物们有着属于自己的宝藏偏好。这些偏好将会表现为“主题”，如宝藏主题表中所总结的那样，这可以帮助你决定角色们在怪物的宝库中找到了怎样的宝藏。</p><p>有关如何在冒险中安放宝藏的建议，见第 4 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgAdventureRewa]{冒险奖励}”。</p><p>如果要随机决定作为宝藏发现的魔法物品，请使用本章末尾的表格。</p><table><caption>宝藏主题 Treasure Themes</caption><thead><tr><th>主题</th><th>对应宝藏</th></tr></thead><tbody><tr><td>奥秘</td><td>宝石以及超自然或充盈魔能的魔法物品</td></tr><tr><td>武备</td><td>钱币或贸易金条以及在战斗中很有用的魔法物品</td></tr><tr><td>器具</td><td>钱币、贸易金条或商业货物以及侧重于实用性的魔法物品</td></tr><tr><td>圣物</td><td>艺术品以及具有宗教起源或归宿的魔法物品</td></tr></tbody></table><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh7ArtHandout.JournalEntryPage.AqTo09QtbmdPWh2u inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583744628,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.fQpftaSbOhQlbEJK"
+    },
+    {
+      "sort": 300000,
+      "name": "钱币",
+      "type": "text",
+      "_id": "lHIlmKsXY7Z6vc4p",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Coins</p><p>最经典的宝藏类型便是金钱了，它们包括铜币（CP）、银币（SP）、金银币（EP）、金币（GP）以及铂金币（PP）。见<em>《玩家手册》</em>以了解它们的相对价值，每五十枚任意类型的钱币合一磅重。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583752968,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.lHIlmKsXY7Z6vc4p"
+    },
+    {
+      "sort": 400000,
+      "name": "贸易金属条",
+      "type": "text",
+      "_id": "alHxModFLga80BOe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Trade Bars</p><p>由于大量的钱币难以运输与清点，因此有许多商人更喜爱贸易金属条——一种用贵金属合金（通常是银）铸成的锭。这些金条以重量计价，并在贸易金属条表中有所展示。</p><table><caption>贸易金属条 Trade Bars</caption><thead><tr><th>金属条</th><th>价值</th><th>尺寸</th></tr></thead><tbody><tr><td>2 磅@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ADNOXPKI3FJQMg3j]{银条}</td><td>10 GP</td><td>5 寸长 × 2 寸宽 × 1/2 寸高</td></tr><tr><td>5 磅@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ADNOXPKI3FJQMg3j]{银条}</td><td>25 GP</td><td>6 寸长 × 2 寸宽 × 1 寸高</td></tr><tr><td>5 磅@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.9e2G23eKuzzE4sOP]{金条}</td><td>250 GP</td><td>5 寸长 × 2 寸宽 × 3/4 寸高</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583759069,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.alHxModFLga80BOe"
+    },
+    {
+      "sort": 500000,
+      "name": "商业货物",
+      "type": "text",
+      "_id": "ctRdFYRoxmYc5yh5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Trade Goods</p><p>商人们通常不会以货币购入商业货物，商业货物表展示了这些货物的通常价值。</p><table><caption>商业货品 Trade Goods</caption><thead><tr><th>价格</th><th>货物</th></tr></thead><tbody><tr><td>1 CP</td><td>1 磅小麦</td></tr><tr><td>2 CP</td><td>2 磅面粉或一只鸡</td></tr><tr><td>5 CP</td><td>1 磅盐</td></tr><tr><td>1 SP</td><td>1 磅铁或 1 平方码帆布</td></tr><tr><td>5 SP</td><td>1 磅铜或 1 平方码棉布</td></tr><tr><td>1 GP</td><td>1 磅姜或一头山羊</td></tr><tr><td>2 GP</td><td>1 磅肉桂或胡椒或一头绵羊</td></tr><tr><td>3 GP</td><td>1 磅丁香或一头猪</td></tr><tr><td>5 GP</td><td>1 磅银或 1 平方亚麻布</td></tr><tr><td>10 GP</td><td>1 磅丝绸或一头奶牛</td></tr><tr><td>15 GP</td><td>1 磅藏红花或一头公牛</td></tr><tr><td>50 GP</td><td>1 磅黄金</td></tr><tr><td>500 GP</td><td>1 磅铂金</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583764648,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.ctRdFYRoxmYc5yh5"
+    },
+    {
+      "sort": 600000,
+      "name": "宝石",
+      "type": "text",
+      "_id": "mctHyBqXCIxHZoHN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Gemstones</p><p>与同等价值的钱币相比，宝石体积更小，重量更轻，携带更安全。</p><p>若宝藏中包含宝石，你可以根据下表基于宝石的价值随机决定发现的宝石类型。你可以投掷一次并假设所有宝石均为同种，也可以多次投掷以创造一套混合的宝石藏品。</p><p class=\"table-caption\">10 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.I8z0zVO1wTAJBqso rollable inline]</p><p class=\"table-caption\">50 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.DQEMyMdFel4IBYKa rollable inline]</p><p class=\"table-caption\">100 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.MB6zKTSPhk41N1ly rollable inline]</p><p class=\"table-caption\">500 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.tAi3pgmHFLkX4oRw rollable inline]</p><p class=\"table-caption\">1000 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.OfxA2CmEemzbtcbL rollable inline]</p><p class=\"table-caption\">5000 GP 宝石 Gemstones</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.ej2IjtKPbpUZEIc9 rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583771817,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.mctHyBqXCIxHZoHN"
+    },
+    {
+      "sort": 700000,
+      "name": "艺术品",
+      "type": "text",
+      "_id": "zueK5h0fQ5iiYoUB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Art Objects</p><p>纯金铸造的偶像，珠光宝气的项链，古代国王的肖像，镶满金玉的餐盘——艺术品包含这些所有，乃至更多。</p><p>若一份宝藏中包含艺术品，你可以根据下表基于艺术品的价值随机决定发现的艺术品类型。根据宝藏库中艺术品的数量，多次依照表格进行掷骰。同一件艺术品可能会重复出现。</p><p class=\"table-caption\">25 GP 艺术品 Art Objects</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.7tzWG5uXRuzWYmzL rollable inline]</p><p class=\"table-caption\">250 GP 艺术品 Art Objects</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.GX6EJrmN3AybFUZd rollable inline]</p><p class=\"table-caption\">750 GP 艺术品 Art Objects</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.IN32XfxwlbrCMiWn rollable inline]</p><p class=\"table-caption\">2500 GP 艺术品 Art Objects</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.fmbM5mfOOqpzEhWt rollable inline]</p><p class=\"table-caption\">7500 GP 艺术品 Art Objects</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.18yBSX9uq7jRIBqy rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583781335,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTreasure00000.zueK5h0fQ5iiYoUB"
+    }
+  ],
+  "folder": "2id2XWDktpiQIf0Q",
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "title": "第七章：宝藏",
+      "position": 7,
+      "navigation": {
+        "previous": "dmgCosmology0000",
+        "next": "dmgMagicItems000"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776583790912,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgTreasure00000"
+}

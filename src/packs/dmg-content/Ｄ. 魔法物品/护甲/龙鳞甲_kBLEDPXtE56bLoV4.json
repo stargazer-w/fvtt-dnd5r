@@ -1,0 +1,1500 @@
+{
+  "folder": "6JMzhFrzTa0JCYLX",
+  "name": "龙鳞甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+  "system": {
+    "activities": {
+      "BkPINEZxU8JUWfsK": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "7Hb097h1wZNMi2Sa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "ZssSq4g6JB4QPKjF"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "6jFtMn7tDeV0QIHu",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "fQALKplaPBJaaRuU"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "q4nOa4ojqIrnGjWo",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "aH0qDfojc5kblaR9"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "fhNC6ACL9QjTsR7F",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "fQALKplaPBJaaRuU"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "TJ1YgxUISGo96mVt",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "ZssSq4g6JB4QPKjF"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "VU2AowLoJc1tcO1O",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "aH0qDfojc5kblaR9"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "r98rmuFTN0aF3kY0",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "9LoTHHBUcvEkOjTc"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "B6lQxZNnzkGbbN0D",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "aH0qDfojc5kblaR9"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "4YJWRXk24hwT5L6F",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "ZsgtcmXX3AIWVw3k"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "0agwsH4WGgHhHXv5",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4EteixHwM8r7lkj2"
+              ],
+              "effect": [
+                "ZsgtcmXX3AIWVw3k"
+              ],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "BkPINEZxU8JUWfsK"
+      },
+      "4EteixHwM8r7lkj2": {
+        "type": "utility",
+        "_id": "4EteixHwM8r7lkj2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "龙类感知",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UtYVLrMfgPK0XB76]{鳞甲}），极珍稀（需同调）</em></p><p>龙鳞甲是以某一种龙的鳞片制成的护甲。有时候是龙送给类人生物作礼物的褪下鳞片，有时候是猎人们小心的剥下的死去龙类的鳞与皮。无论如何，龙鳞甲都是非常珍贵的物品。</p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，根据龙鳞甲使用的龙鳞种类，你还会获得对一种伤害类型的抗性（见附表）。</p><p>另外，你还可以用&amp;Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p><table><thead><tr><th>龙类</th><th>抗性</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.7Hb097h1wZNMi2Sa]{黑龙}</td><td>强酸</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.6jFtMn7tDeV0QIHu]{蓝龙}</td><td>闪电</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.q4nOa4ojqIrnGjWo]{黄铜龙}</td><td>火焰</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.fhNC6ACL9QjTsR7F]{青铜龙}</td><td>闪电</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.TJ1YgxUISGo96mVt]{赤铜龙}</td><td>强酸</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.VU2AowLoJc1tcO1O]{金龙}</td><td>火焰</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.r98rmuFTN0aF3kY0]{绿龙}</td><td>毒素</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.B6lQxZNnzkGbbN0D]{红龙}</td><td>火焰</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.4YJWRXk24hwT5L6F]{银龙}</td><td>寒冷</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4.ActiveEffect.0agwsH4WGgHhHXv5]{白龙}</td><td>寒冷</td></tr></tbody></table><p class=\"item-original\">Dragon Scale Mail</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "dragon-scale-mail",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": "",
+      "name": "未鉴定的 装备"
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "medium",
+      "baseItem": "scalemail"
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc",
+      "stealthDisadvantage"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "黑龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "7Hb097h1wZNMi2Sa",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "黑龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对强酸伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504762131,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.7Hb097h1wZNMi2Sa"
+    },
+    {
+      "type": "enchantment",
+      "name": "蓝龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "蓝龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对闪电伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504765592,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "6jFtMn7tDeV0QIHu",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.6jFtMn7tDeV0QIHu"
+    },
+    {
+      "type": "enchantment",
+      "name": "黄铜龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "黄铜龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对火焰伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504773203,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "q4nOa4ojqIrnGjWo",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.q4nOa4ojqIrnGjWo"
+    },
+    {
+      "type": "enchantment",
+      "name": "青铜龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "青铜龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对闪电伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504777003,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "fhNC6ACL9QjTsR7F",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.fhNC6ACL9QjTsR7F"
+    },
+    {
+      "type": "enchantment",
+      "name": "赤铜龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "赤铜龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对强酸伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504782109,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "TJ1YgxUISGo96mVt",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.TJ1YgxUISGo96mVt"
+    },
+    {
+      "type": "enchantment",
+      "name": "金龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "金龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对火焰伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504785451,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "VU2AowLoJc1tcO1O",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.VU2AowLoJc1tcO1O"
+    },
+    {
+      "type": "enchantment",
+      "name": "绿龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "绿龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对毒素伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504788316,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "r98rmuFTN0aF3kY0",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.r98rmuFTN0aF3kY0"
+    },
+    {
+      "type": "enchantment",
+      "name": "红龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "红龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对火焰伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504791127,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "B6lQxZNnzkGbbN0D",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.B6lQxZNnzkGbbN0D"
+    },
+    {
+      "type": "enchantment",
+      "name": "银龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "银龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对寒冷伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504794763,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "4YJWRXk24hwT5L6F",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.4YJWRXk24hwT5L6F"
+    },
+    {
+      "type": "enchantment",
+      "name": "白龙鳞甲",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "白龙{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲（鳞甲），极珍稀（需同调）</em></p><p>着装该护甲期间，你的 AC 获得 +1 加值，且为对抗龙类的吐息武器时所作豁免具有优势。此外，你获得对寒冷伤害的抗性。</p><p>另外，你还可以用&Reference[Magic]{魔法}动作集中精神来感知距你最近，且与龙鳞甲的鳞片提供者类型相同的龙类，并得知其相对于你的方向与距离。这条龙必须在你周边 30 里以内且与你处于同一位面。该动作一经使用，直至次日黎明前都无法被再度使用。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 2,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.armor.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_dragon-scale-mail.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504797980,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "0agwsH4WGgHhHXv5",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.0agwsH4WGgHhHXv5"
+    },
+    {
+      "name": "强酸抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4",
+      "_id": "ZssSq4g6JB4QPKjF",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497007,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.ZssSq4g6JB4QPKjF"
+    },
+    {
+      "name": "闪电抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497011,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "fQALKplaPBJaaRuU",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.fQALKplaPBJaaRuU"
+    },
+    {
+      "name": "火焰抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497016,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "aH0qDfojc5kblaR9",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.aH0qDfojc5kblaR9"
+    },
+    {
+      "name": "毒素抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497022,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "9LoTHHBUcvEkOjTc",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.9LoTHHBUcvEkOjTc"
+    },
+    {
+      "name": "寒冷抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.kBLEDPXtE56bLoV4",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497027,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "ZsgtcmXX3AIWVw3k",
+      "_key": "!items.effects!kBLEDPXtE56bLoV4.ZsgtcmXX3AIWVw3k"
+    }
+  ],
+  "sort": 255469,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "4EteixHwM8r7lkj2"
+        ],
+        "effect": [
+          "ZssSq4g6JB4QPKjF",
+          "fQALKplaPBJaaRuU",
+          "aH0qDfojc5kblaR9",
+          "9LoTHHBUcvEkOjTc",
+          "ZsgtcmXX3AIWVw3k"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751558222131,
+    "modifiedTime": 1758199225995,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "kBLEDPXtE56bLoV4",
+  "_key": "!items!kBLEDPXtE56bLoV4"
+}

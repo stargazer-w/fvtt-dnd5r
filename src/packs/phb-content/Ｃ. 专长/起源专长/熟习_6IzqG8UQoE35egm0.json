@@ -1,0 +1,83 @@
+{
+  "name": "熟习",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_skilled.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>起源专长</em></p><p>你获得三项自选的技能或工具熟练。</p><p><em><strong>复选。</strong></em>你可多次选择本专长。</p><p class=\"item-original\">Skilled</p>",
+      "chat": ""
+    },
+    "identifier": "skilled",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null,
+      "repeatable": true
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "YR6QQtb6PN4h69kh",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "熟习",
+        "hint": "你获得三项自选的技能或工具熟练。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp",
+        "value": {}
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "WJNm1OA66HhmUxle",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731046918875,
+    "modifiedTime": 1775975920330,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "6IzqG8UQoE35egm0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!6IzqG8UQoE35egm0"
+}

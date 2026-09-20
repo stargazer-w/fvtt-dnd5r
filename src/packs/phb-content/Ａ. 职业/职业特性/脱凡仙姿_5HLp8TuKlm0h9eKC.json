@@ -1,0 +1,130 @@
+{
+  "name": "脱凡仙姿",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_otherworldly-glamour.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每当你进行一次魅力检定时，你都可以在那次检定中获得等同于你的感知调整值的加值（至少 +1）。</p><p>另外，你获得下列技能之一的熟练项（由你选择）：欺瞒、表演、或游说。</p><p class=\"item-original\">Otherworldly Glamour</p>",
+      "chat": ""
+    },
+    "identifier": "otherworldly-glamour",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "妖精漫游者",
+    "advancement": [
+      {
+        "_id": "tx4dk1IMQ1e0rPma",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:prf",
+                "skills:dec",
+                "skills:per"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "脱凡仙姿",
+        "hint": "你获得下列技能之一的熟练项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_otherworldly-glamour.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "脱凡仙姿",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_otherworldly-glamour.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.5HLp8TuKlm0h9eKC",
+      "_id": "8lch0JFDYv350dpm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.cha.bonuses.check",
+          "mode": 2,
+          "value": "(max(1,@abilities.wis.mod))",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735875325876,
+        "modifiedTime": 1735875336206,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!5HLp8TuKlm0h9eKC.8lch0JFDYv350dpm"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777575857131,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "5HLp8TuKlm0h9eKC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!5HLp8TuKlm0h9eKC"
+}

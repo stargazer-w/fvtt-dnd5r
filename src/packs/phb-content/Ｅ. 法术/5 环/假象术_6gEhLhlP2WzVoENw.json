@@ -1,0 +1,188 @@
+{
+  "name": "假象术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mislead.webp",
+  "system": {
+    "activities": {
+      "cKfdnl0eP7kS4jlu": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "cKfdnl0eP7kS4jlu",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "wJBUXGezjqdNu0jp"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得&amp;Reference[invisible]{隐形}状态，同时在你站的地方出现一个和你一样的幻象分身。分身会持续存在至法术持续时间结束；但如果你发动攻击、造成伤害或施展法术，则隐形随之结束。</p><p>以一个&amp;Reference[Magic]{魔法}动作，你可以令分身以至多两倍于你的速度移动并可以令其打手势、说话，以及以任何你指定的方式行事。分身无法被触及且无法受伤。</p><p>你可以通过分身的眼睛视物，用分身的耳朵聆听，如同你处于它的位置一样。</p><p class=\"item-original\">Mislead</p>",
+      "chat": ""
+    },
+    "identifier": "mislead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "ill",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "幻像遁形",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_mislead.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.6gEhLhlP2WzVoENw",
+      "transfer": false,
+      "_id": "wJBUXGezjqdNu0jp",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得&amp;Reference[invisible]{隐形}状态，其在你发动攻击、造成伤害或施展法术时随之结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "invisible"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733292074307,
+        "modifiedTime": 1734784692244,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!6gEhLhlP2WzVoENw.wJBUXGezjqdNu0jp"
+    }
+  ],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194947425,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "6gEhLhlP2WzVoENw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!6gEhLhlP2WzVoENw"
+}

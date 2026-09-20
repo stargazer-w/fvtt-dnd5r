@@ -1,0 +1,290 @@
+{
+  "name": "战士",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "战士",
+      "type": "text",
+      "_id": "wDELe3k25FQvYdrq",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.esJhJ8UP0U2EJu74 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.S9jHoU7CcbLbbIAc inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776349384489,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.wDELe3k25FQvYdrq"
+    },
+    {
+      "sort": 200000,
+      "name": "战斗大师",
+      "type": "text",
+      "_id": "ny3PA46G1H96t35Q",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Battle Master</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.oVxIalkTGXi3S11K inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.Lmsac07AO6ZzvEcG inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sR6dprXKm7aOYDkh]{卓越战技}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zvSyt6NecynBj2Sp]{战争学者}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2emXjYsGe5QZQ34Z]{洞明敌手}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MfcFNhDUZMF4C1OW]{精通战技}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.umJrMVAolmnJYb84]{坚韧}</td></tr><tr><td style=\"text-align:center\">18</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OaURMSdfotOztKzh]{究极战技}</td></tr></tbody></table><p class=\"item-title\">3 级：卓越战技</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.sR6dprXKm7aOYDkh inline]</p><p class=\"item-title\">3 级：战争学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zvSyt6NecynBj2Sp inline]</p><p class=\"item-title\">7 级：洞明敌手</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2emXjYsGe5QZQ34Z inline]</p><p class=\"item-title\">10 级：精通战技</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MfcFNhDUZMF4C1OW inline]</p><p class=\"item-title\">15 级：坚韧 </p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.umJrMVAolmnJYb84 inline]</p><p class=\"item-title\">18 级：究极战技</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OaURMSdfotOztKzh inline]</p><h3>战技项</h3><p class=\"journal-original-h3\">Maneuver Options</p><p>以下战技按字母表顺序列出。</p><div style=\"column-count:2\"><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.i2Fd7c0fH5IwTjXS]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.i2Fd7c0fH5IwTjXS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MwBpgM0tgp4L5d9T]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MwBpgM0tgp4L5d9T inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ttV2HmNzpn7PpDDS]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ttV2HmNzpn7PpDDS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1OCf2QikEdiFdst1]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1OCf2QikEdiFdst1 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IdaVlJNCz4zKiirw]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.IdaVlJNCz4zKiirw inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EgzelyJsCqh8YcaE]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EgzelyJsCqh8YcaE inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Be9N6NeEPwT2RnAu]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Be9N6NeEPwT2RnAu inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nqVbAEUgQwQ2O2KI]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.nqVbAEUgQwQ2O2KI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FPTzTRiQAHLr01Jq]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FPTzTRiQAHLr01Jq inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cZjj9bU5rWqfRLqc]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.cZjj9bU5rWqfRLqc inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AVmbKDJuehe40PTb]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.AVmbKDJuehe40PTb inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9pay9IiibZuxVSxR]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9pay9IiibZuxVSxR inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MkcomE6akjLUwml3]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MkcomE6akjLUwml3 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aTaa8Wo3btomKLeb]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.aTaa8Wo3btomKLeb inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DEfjNA1iACCSkmeR]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DEfjNA1iACCSkmeR inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Py0riYeBixBu2NBX]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Py0riYeBixBu2NBX inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LZkYfEDaL0CgbmwT]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LZkYfEDaL0CgbmwT inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.4QLjod9cv2dkjFGS]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.4QLjod9cv2dkjFGS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gKMs8quVPfwoh0kq]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gKMs8quVPfwoh0kq inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ygEdMDBOjfL4P1A2]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ygEdMDBOjfL4P1A2 inline]</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776575756964,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.ny3PA46G1H96t35Q"
+    },
+    {
+      "sort": 300000,
+      "name": "勇士",
+      "type": "text",
+      "_id": "oIre3TldjyfnGzQr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Champion</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.rYQP7dffV9dS6Wuz inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.qayHNwOyTmTv3cXj inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KdnYJSMChQIwv88F]{精通重击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.R7tKD0ekgQ8DL4ku]{运动健将}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aIIcUsQhDx6v42x4]{额外战斗风格}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zaBYBSK9aJ3i9h1t]{勇战英豪}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HSKGdJf3L6i8VNyj]{高效重击}</td></tr><tr><td style=\"text-align:center\">18</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5rlp3GYqqRtH7SOY]{百折不挠}</td></tr></tbody></table><p class=\"item-title\">3 级：精通重击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KdnYJSMChQIwv88F inline]</p><p class=\"item-title\">3 级：运动健将</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.R7tKD0ekgQ8DL4ku inline]</p><p class=\"item-title\">7 级：额外战斗风格</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.aIIcUsQhDx6v42x4 inline]</p><p class=\"item-title\">10 级：勇战英豪</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zaBYBSK9aJ3i9h1t inline]</p><p class=\"item-title\">15 级：高效重击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.HSKGdJf3L6i8VNyj inline]</p><p class=\"item-title\">18 级：百折不挠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5rlp3GYqqRtH7SOY inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776349761245,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.oIre3TldjyfnGzQr"
+    },
+    {
+      "sort": 400000,
+      "name": "奥法骑士",
+      "type": "text",
+      "_id": "DEHhd3OBGcHKeYcI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Eldritch Knight</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZaBH2wDyWTfjHDAP inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.iW2cLi93r3AuYxUi inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gSUx7K97hCpjdROS]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sze5dZC6GLiC5fu5]{战争联结}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xUFbyRCme7AnPTr1]{战争魔法}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CD96E0CfbPHfJnFG]{奥法打击}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9PZc0HzBZHer5wxI]{奥能冲锋}</td></tr><tr><td style=\"text-align:center\">18</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.la64zMzhUELJg5vr]{精通战争魔法}</td></tr></tbody></table><p class=\"item-title\">3 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gSUx7K97hCpjdROS inline]</p><p class=\"item-title\">3 级：战争联结</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.sze5dZC6GLiC5fu5 inline]</p><p class=\"item-title\">7 级：战争魔法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xUFbyRCme7AnPTr1 inline]</p><p class=\"item-title\">10 级：奥法打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.CD96E0CfbPHfJnFG inline]</p><p class=\"item-title\">15 级：奥能冲锋</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9PZc0HzBZHer5wxI inline]</p><p class=\"item-title\">18 级：精通战争魔法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.la64zMzhUELJg5vr inline]</p><h3>奥法骑士施法</h3><p class=\"journal-original-h3\">Eldritch Knight Spellcasting</p><table border=\"0\" style=\"text-align:center\"><thead><tr><th rowspan=\"2\">战士等级</th><th rowspan=\"2\">准备法术</th><th colspan=\"4\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th></tr></thead><tbody><tr><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>5</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>8</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>9</td><td>6</td><td>4</td><td>2</td><td>—</td><td>—</td></tr><tr><td>10</td><td>7</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>11</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>12</td><td>8</td><td>4</td><td>3</td><td>—</td><td>—</td></tr><tr><td>13</td><td>9</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>14</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>15</td><td>10</td><td>4</td><td>3</td><td>2</td><td>—</td></tr><tr><td>16</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>17</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>18</td><td>11</td><td>4</td><td>3</td><td>3</td><td>—</td></tr><tr><td>19</td><td>12</td><td>4</td><td>3</td><td>3</td><td>1</td></tr><tr><td>20</td><td>13</td><td>4</td><td>3</td><td>3</td><td>1</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1777571674857,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.DEHhd3OBGcHKeYcI"
+    },
+    {
+      "sort": 500000,
+      "name": "灵能武士",
+      "type": "text",
+      "_id": "rWPprptKcZe6MPiR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Psi Warrior</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.aXhyrhCfgaJnVPcW inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.1A9tH1YFWh3bj4Ps inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fjZjzot12Nw855QZ]{灵能力量}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GEkLiTSoCvTS9bc9]{念力精通}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oSJxfar7csjg9u3a]{意念守护}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2ir1haXTNZbLKrfS]{力场壁垒}</td></tr><tr><td style=\"text-align:center\">18</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LTmWotMIdKmas6NH]{念力宗师}</td></tr></tbody></table><p class=\"item-title\">3 级：灵能力量</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fjZjzot12Nw855QZ inline]</p><p class=\"item-title\">7 级：念力精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GEkLiTSoCvTS9bc9 inline]</p><p class=\"item-title\">10 级：意念守护</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.oSJxfar7csjg9u3a inline]</p><p class=\"item-title\">15 级：力场壁垒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2ir1haXTNZbLKrfS inline]</p><p class=\"item-title\">18 级：念力宗师</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LTmWotMIdKmas6NH inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776350194444,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.rWPprptKcZe6MPiR"
+    },
+    {
+      "sort": 150000,
+      "name": "战士职业特性",
+      "type": "text",
+      "_id": "rnN87FcrEch8YR7c",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Fighter Class Features</p><p>作为战士，当你抵达特定战士等级时，你会获得下列的各项职业特性。这些特性也分别列在了战士职业特性表中。</p><table border=\"0\"><caption>战士特性 Fighter Features</caption><thead><tr><th>等级</th><th>熟练加值</th><th>职业特性</th><th>回气</th><th>武器精通</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bMr9bUmoXr0QRaxq]{战斗风格}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JfVjPyb3mIOGgQ8V]{回气}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S21VphfsXUhA7keM]{武器精通}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Uog2kqxfzu7dnPmS]{动作如潮}（一次），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Q9P09rTAz6cdIwNh]{战术思维}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>战士子职</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XslUlf1gSZxskwht]{额外攻击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.D6GLrZaRFhUtQHmV]{战术转进}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Da1ScjKf7oNcb4Qh]{不屈}（一次），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7hdPodSJaxfXqUH0]{战术主宰}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KI17pSib7WdQ93YJ]{额外攻击（二）}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Da1ScjKf7oNcb4Qh]{不屈}（两次），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2fhbAW359tEK9QAD]{究明攻击}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">5</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">6</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Uog2kqxfzu7dnPmS]{动作如潮}（两次），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Da1ScjKf7oNcb4Qh]{不屈}（三次）</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">6</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">6</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x1FlOXmCA1iGwX2Q]{传奇恩惠}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">6</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mEh34Ar8nIw3uq0P]{额外攻击（三）}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">6</td></tr></tbody></table><p class=\"item-title\">1 级：战斗风格</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.bMr9bUmoXr0QRaxq inline]</p><p class=\"item-title\">1 级：回气</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.JfVjPyb3mIOGgQ8V inline]</p><p class=\"item-title\">1 级：武器精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.S21VphfsXUhA7keM inline]</p><p class=\"item-title\">2 级：动作如潮</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Uog2kqxfzu7dnPmS inline]</p><p class=\"item-title\">2 级：战术思维</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Q9P09rTAz6cdIwNh inline]</p><p class=\"item-title\">3 级：战士子职</p><p>你选择获得一项战士子职：战斗大师，勇士，奥法骑士或灵能武士。子职业的内容见后文。子职是一种特化能力，会在特定的战士等级给予你对应的独特能力。此后你将获得每一个你所选的子职的能力，只要其所需等级等于或低于你的战士等级。战士特性表列出了你从子职中获得新特性的战士等级。</p><p class=\"item-original\">Fighter Subclass</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。如战士特性表所示，你还会在第 6、第 8、第 12、第 14、第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：额外攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.XslUlf1gSZxskwht inline]</p><p class=\"item-title\">5 级：战术转进</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.D6GLrZaRFhUtQHmV inline]</p><p class=\"item-title\">9 级：不屈</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Da1ScjKf7oNcb4Qh inline]</p><p class=\"item-title\">9 级：战术主宰</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7hdPodSJaxfXqUH0 inline]</p><p class=\"item-title\">11 级：额外攻击（二）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KI17pSib7WdQ93YJ inline]</p><p class=\"item-title\">13 级：究明攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2fhbAW359tEK9QAD inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.x1FlOXmCA1iGwX2Q inline]</p><p class=\"item-title\">20 级：额外攻击（三）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mEh34Ar8nIw3uq0P inline]</p><h1>战士子职业</h1><p class=\"journal-original-h1\">Fighter Subclasses</p><p>战士子职是一种你在达到特定战士等级时，职业会给予你的特化能力， 其具体能力取决于子职描述。本段提供了以下四个子职业：战斗大师、勇士、奥法骑士、灵能武士。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.Dxmovf4md47R3EjZ cite=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730386108211,
+        "modifiedTime": 1776349475144,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!X0KL1TWRl6RQ06wf.rnN87FcrEch8YR7c"
+    }
+  ],
+  "folder": "gcw22TmtERTw55bi",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500500,
+      "navigation": {
+        "previous": "YylLR1bRh1jMMyDP",
+        "next": "ZSrNd1cKJpc2FqMx"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334130672,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "X0KL1TWRl6RQ06wf",
+  "sort": 103125,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!X0KL1TWRl6RQ06wf"
+}

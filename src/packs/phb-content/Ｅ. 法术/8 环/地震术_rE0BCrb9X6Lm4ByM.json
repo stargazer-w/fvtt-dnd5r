@@ -1,0 +1,162 @@
+{
+  "name": "地震术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_earthquake.webp",
+  "system": {
+    "activities": {
+      "xFe4pmrilgg4qC0a": {
+        "type": "save",
+        "name": "施法",
+        "_id": "xFe4pmrilgg4qC0a",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>选择施法距离内你可见的地面上一点。法术持续时间内，一股强烈的震颤在以震源为中心半径 100 尺的圆形范围内传递。处于此范围内的地面被视为&amp;Reference[Difficult Terrain]{困难地形}。</p><p>你施展此法术时，以及法术持续时间内每个你的回合结束时，区域地面上的每个生物都必须进行一次[[/save]]{敏捷豁免}，豁免失败则其陷入&amp;Reference[prone]{倒地}状态，且其专注被打断。</p><p>你也可以应用下述的额外效应：</p><p><em><strong>裂缝。</strong></em>在你施展此法术的回合结束时，受法术影响的区域会撕开总计 1d6 条裂缝。你选择裂缝生成的地点，但裂缝的位置不可位于建筑物之下。每条裂缝深 1d10 × 10 尺，宽 10 尺，并由影响区域的一边向另一边延伸。裂缝撕开时，处于其位置上的生物必须成功通过一次[[/save]]{敏捷豁免}，否则将坠落其中。豁免成功则该生物在裂缝张开时随之移动到裂缝的边缘。</p><p><em><strong>建筑。</strong></em>在你施展此法术时及法术终止前你的每个回合结束时，地震对影响区域内的所有与地面有接触的建筑都造成 50 点钝击伤害。建筑生命值降为 0 时立即崩塌。</p><p>与该建筑距离不大于该建筑高度一半的生物进行一次[[/save]]{敏捷豁免}。豁免失败则受 12d6 点钝击伤害并陷入&amp;Reference[prone]{倒地}状态且被埋于废墟之下。该生物可用一个动作通过一次 DC 20 的[[/skill ath format=long]]来尝试逃离废墟。DM 可根据废墟的情况调整 DC 高低。豁免成功则只受一半伤害。</p><p class=\"item-original\">Earthquake</p>",
+      "chat": ""
+    },
+    "identifier": "earthquake",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 8,
+    "materials": {
+      "value": "一块碎岩",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "500"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "100",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534752083,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "rE0BCrb9X6Lm4ByM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!rE0BCrb9X6Lm4ByM"
+}

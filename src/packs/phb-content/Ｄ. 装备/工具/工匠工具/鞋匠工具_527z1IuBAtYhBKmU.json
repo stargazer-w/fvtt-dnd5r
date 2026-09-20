@@ -1,0 +1,128 @@
+{
+  "name": "鞋匠工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>敏捷　　　<strong>重量：</strong>5 磅</p><p><strong>操作：</strong>修改足部装备来为穿戴者的下一次敏捷（特技）检定提供优势（DC 10）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GdF09eBVZO4Zbxrg]{攀爬工具}</p><p class=\"item-original\">Cobbler's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "cobbler"
+    },
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "FYLtuhgL1Ka1gkxN": {
+        "type": "check",
+        "_id": "FYLtuhgL1Ka1gkxN",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "cobblers-tools"
+  },
+  "type": "tool",
+  "folder": "V8KHbNkEWoXQP3Pj",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_cobblers-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758194945083,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "527z1IuBAtYhBKmU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!527z1IuBAtYhBKmU"
+}

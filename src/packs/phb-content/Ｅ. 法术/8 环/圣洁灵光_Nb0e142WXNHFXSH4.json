@@ -1,0 +1,196 @@
+{
+  "name": "圣洁灵光",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_holy-aura.webp",
+  "system": {
+    "activities": {
+      "iAlcqEJDHhpmifgw": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "iAlcqEJDHhpmifgw",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "I6pNxNrInklbXNwx"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在持续时间中发出灵光形成半径 30 尺的光环。你可以指定若干生物，在光环内时，他们进行的所有豁免均具有优势，而其他生物对它们进行的攻击检定具有劣势。另外，当一个邪魔或亡灵以近战攻击命中受术生物时，攻击者必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}，豁免失败者将陷入&amp;Reference[blinded]{目盲}状态直至它的下一回合结束。</p><p class=\"item-original\">Holy Aura</p>",
+      "chat": ""
+    },
+    "identifier": "holy-aura",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 8,
+    "materials": {
+      "value": "一个价值至少 1000 GP 的小圣物箱",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "radius",
+        "size": "30",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "圣洁灵光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_holy-aura.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Nb0e142WXNHFXSH4",
+      "transfer": false,
+      "_id": "I6pNxNrInklbXNwx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你进行的所有豁免均具有优势，而其他生物对你进行的攻击检定具有劣势。</p><p>当一个邪魔或亡灵以近战攻击命中你时，攻击者必须进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。豁免失败者将陷入&amp;Reference[blinded]{目盲}状态，直至它的下一回合结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734846098673,
+        "modifiedTime": 1734846191556,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Nb0e142WXNHFXSH4.I6pNxNrInklbXNwx"
+    }
+  ],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194973896,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Nb0e142WXNHFXSH4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Nb0e142WXNHFXSH4"
+}

@@ -1,0 +1,163 @@
+{
+  "folder": "9Z81qGbxJwvn6642",
+  "name": "巫术帽",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_hat-of-wizardry.webp",
+  "system": {
+    "activities": {
+      "SoEq7BAu3U9M05vN": {
+        "type": "check",
+        "_id": "SoEq7BAu3U9M05vN",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [
+            "arc"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10"
+          },
+          "ability": ""
+        },
+        "name": "未知法术"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，普通（需法师同调）</em></p><p>这顶锥形帽上点缀着星月。你着装此帽期间，你获得下述增益。</p><p><em><strong>施法法器。</strong></em>你可以将其作为你施展法师法术的施法法器。</p><p><em><strong>未知法术。</strong></em>你可以用一个&amp;Reference[Magic]{魔法}动作尝试施展一道你并未已知的戏法。所选戏法必须位于法师法术列表中，并且其施法时间必须为动作。你进行一次 [[/skill format=long]]。检定成功，则你施展那道法术。检定失败，则你施法失败，用于施法的动作被浪费。无论检定成功与否，此词条一经使用，直到你完成一次长休之前不能再次使用。</p><p class=\"item-original\">Hat of Wizardry</p>",
+      "chat": ""
+    },
+    "identifier": "hat-of-wizardry",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757297811297,
+    "modifiedTime": 1758461665593,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "FbqksevUt5y97B5l",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!FbqksevUt5y97B5l"
+}

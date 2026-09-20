@@ -1,0 +1,136 @@
+{
+  "name": "咒唤兽群护咒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_gold.webp",
+  "system": {
+    "activities": {
+      "UbJ8DTFqOBRK29le": {
+        "type": "cast",
+        "_id": "UbJ8DTFqOBRK29le",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.TJdYum4ykwhcLIwi",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>超自然赠礼（护咒）</em></p><p>该护咒可以让你施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TJdYum4ykwhcLIwi]{咒唤兽群}</em>。使用三次后，该护咒将随即从你身上消失。</p><p class=\"item-original\">Charm of Animal Conjuring</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-animal-conjuring",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [],
+  "folder": "SplJ9I45BYv7ekHJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750520888975,
+    "modifiedTime": 1758199209027,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1TzwbEAYICs4F7QD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!1TzwbEAYICs4F7QD"
+}

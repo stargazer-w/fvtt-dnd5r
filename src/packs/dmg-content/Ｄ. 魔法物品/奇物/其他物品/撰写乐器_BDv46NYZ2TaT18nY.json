@@ -1,0 +1,304 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "撰写乐器",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_instrument-of-scribing.webp",
+  "system": {
+    "activities": {
+      "oo3O369Tma9zsdKc": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "wALAofKeDWWIUTpC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "ZWhtxLkARSl6n4VG"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "oo3O369Tma9zsdKc"
+      },
+      "ZWhtxLkARSl6n4VG": {
+        "type": "utility",
+        "name": "书写",
+        "_id": "ZWhtxLkARSl6n4VG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "3"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>这把乐器具有 3 充能，并在每日黎明时重获所有已消耗的充能。在你使用这把乐器进行演奏期间，你可以使用一个&amp;Reference[Magic]{魔法}动作消耗 1 充能，在你周边 30 尺范围内一个可见的非魔法物件或表面上写下一段魔法信息。这段信息以一种你熟知的语言书写，且其最长六个单词。如果你是一名吟游诗人，则你可写的单词上限增加七个，并且你可以使信息发出微弱光芒，使其在非魔法黑暗中清晰可见。信息会在 24 小时后消失，也可用法术解除魔法将其抹去。</p><p class=\"item-original\">Instrument of Scribing</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "instrument-of-scribing",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "撰写乐器",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "wALAofKeDWWIUTpC",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "撰写{}",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "common",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>奇物，普通</em></p> <p>这把乐器具有 3 充能，并在每日黎明时重获所有已消耗的充能。在你使用这把乐器进行演奏期间，你可以使用一个&Reference[Magic]{魔法}动作消耗 1 充能，在你周边 30 尺范围内一个可见的非魔法物件或表面上写下一段魔法信息。这段信息以一种你熟知的语言书写，且其最长六个单词。如果你是一名吟游诗人，则你可写的单词上限增加七个，并且你可以使信息发出微弱光芒，使其在非魔法黑暗中清晰可见。信息会在 24 小时后消失，也可用法术解除魔法将其抹去。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!BDv46NYZ2TaT18nY.wALAofKeDWWIUTpC"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "ZWhtxLkARSl6n4VG"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760606616395,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "BDv46NYZ2TaT18nY",
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!BDv46NYZ2TaT18nY"
+}

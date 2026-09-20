@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "兽栏",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-03.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>13 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>庞大<br /><strong>雇员：</strong>2<br /><strong>指令：</strong>招募</p><p>兽栏有着足以容纳四只大型生物的围墙。每四只中型或小型生物在这里占据的空间等同于一只大型生物。</p><p><em><strong>招募：生物。</strong></em>当你对此设施下达招募指令时，你委托设施雇员向兽栏内加入一只生物，从兽栏生物表中选择。这项工作需要 7 天时间，所需的金钱如表格所示。设施雇员会照顾这些生物。</p><p>你兽栏内的生物算作据点卫兵。如果它们遭受任何损失，便将损失的生物从你的据点卫兵名单中划去。你可以选择不将一只或更多生物视为据点卫兵，此时这些生物不会参与据点的防御，而是按照自己的天性活动，使用<em>《怪物图鉴》</em>中的数据。</p><table><caption>兽栏生物 Menagerie Creatures</caption><thead><tr><th>生物</th><th>体型</th><th>花费</th></tr></thead><tbody><tr><td>猿</td><td>中型</td><td>500 GP</td></tr><tr><td>黑熊</td><td>中型</td><td>500 GP</td></tr><tr><td>棕熊</td><td>大型</td><td>1000 GP</td></tr><tr><td>蟒蛇</td><td>大型</td><td>250 GP</td></tr><tr><td>鳄鱼</td><td>大型</td><td>500 GP</td></tr><tr><td>恐狼</td><td>大型</td><td>1000 GP</td></tr><tr><td>巨秃鹫</td><td>大型</td><td>1000 GP</td></tr><tr><td>鬣狗</td><td>中型</td><td>50 GP</td></tr><tr><td>豺狼</td><td>小型</td><td>50 GP</td></tr><tr><td>狮子</td><td>大型</td><td>1000 GP</td></tr><tr><td>枭熊</td><td>大型</td><td>3500 GP</td></tr><tr><td>豹子</td><td>中型</td><td>250 GP</td></tr><tr><td>老虎</td><td>大型</td><td>1000 GP</td></tr></tbody></table><p>在 DM 的允许下，你也可以向兽栏内加入上述表格之外的生物。生物的价格取决于它们的挑战等级，如下列表格所示。一般而言，只有野兽和某些怪兽能被安置在兽栏内，不过其他生物也有可能得到 DM 的许可。</p><table><caption>以挑战等级的生物花费 Creature Costs by Challenge Rating</caption><thead><tr><th>挑战等级</th><th>花费</th></tr></thead><tbody><tr><td>0 或 1/8</td><td>50 GP</td></tr><tr><td>1/4</td><td>250 GP</td></tr><tr><td>1/2</td><td>500 GP</td></tr><tr><td>1</td><td>1000 GP</td></tr><tr><td>2</td><td>2000 GP</td></tr><tr><td>3</td><td>3500 GP</td></tr></tbody></table><p class=\"item-original\">Menagerie</p>",
+      "chat": ""
+    },
+    "identifier": "menagerie",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": 4
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 2
+    },
+    "level": 13,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "vast",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "menagerie"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763002347555,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "mT1ceWk3eTKVwE5t",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!mT1ceWk3eTKVwE5t"
+}

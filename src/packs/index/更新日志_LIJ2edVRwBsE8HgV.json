@@ -1,0 +1,270 @@
+{
+  "name": "更新日志",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "1.0.0",
+      "type": "text",
+      "_id": "RQPU7m5gufbKfm3s",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "ownership": {
+        "default": -1,
+        "arz6Q2RbZgOaMZmb": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.RQPU7m5gufbKfm3s"
+    },
+    {
+      "sort": -300000,
+      "name": "关于此合集",
+      "type": "text",
+      "_id": "CheWntkSAPrNyhxq",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div style=\"text-align:center\"><div style=\"text-align:center\"><img class=\"CHIGA-IRIS\" src=\"modules/dnd5e-collection-2024/CHIGA.png\" style=\"width:300px;max-width:100%;height:auto;display:inline-block\" /><img class=\"CHIGA-IRIS\" src=\"modules/dnd5e-collection-2024/assets/ui/ｼ.png\" style=\"width:300px;max-width:100%;height:auto;display:inline-block\" /></div><p style=\"font-size:1.17em\"><strong>Foundry Virtual Tabletop 资源本地化与重置</strong></p><p>该模块的制作由千菓チカ''独立完成并免费分享。当然，你也可以通过以下方式支持我的工作。</p><div style=\"display:flex;justify-content:center;gap:7px\"><p><a href=\"https://www.bilibili.com/opus/1004555041941487616\" class=\"button\" data-tooltip=\"Bilibili 频道\">请我喝一杯咖啡 ☕</a></p><p><a href=\"https://qm.qq.com/q/8VC209sHvi\" class=\"button\" data-tooltip=\"QQ\">交流群 💬</a></p></div></div><p style=\"font-size:0.77em;opacity:0.7;margin-top:3px;text-align:center\">注意：这将会跳转至外部链接</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1777709920149,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.CheWntkSAPrNyhxq"
+    },
+    {
+      "sort": -200000,
+      "name": "译者以及……",
+      "type": "text",
+      "_id": "rFXN4rYjUgVUM4oH",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div style=\"text-align:center\"><p style=\"font-size:1.17em\"><strong>感谢以下译者们、校对者们、及其他翻译贡献者们的辛勤付出</strong></p><p>（排名为首字母顺序，不分先后）</p></div><div style=\"column-count:4;text-align:center\"><p>ALE</p><p>AW</p><p>Alanryan（咖啡）</p><p>Amethyst Dragonlord（可以这很方）</p><p>Amutona（Holyorder）</p><p>Anotherblood</p><p>Archfey Isania</p><p>Belegaerion</p><p>Caelum</p><p>Charlie</p><p>Code</p><p>DDD</p><p>DearNanami</p><p>Delusion Ealiy</p><p>Eygma</p><p>FOOL SEAL</p><p>Farevell</p><p>Fooling</p><p>FruitTyrant</p><p>Grand_Alchemist</p><p>H2CO3</p><p>HXQXH</p><p>Hakurei_hiromu</p><p>Inflation</p><p>Iron Fossil</p><p>Jaceimba</p><p>Jerry</p><p>KrankheitRan</p><p>Kyrieeee</p><p>Lavi</p><p>Li</p><p>Locked</p><p>M</p><p>Magus</p><p>Mercurius</p><p>Mr.Boy~</p><p>Neko_Yukari（氧代硫化氢）</p><p>Noir_懒人七</p><p>OckhamTheRazor</p><p>Ophidia</p><p>PAX-12</p><p>Pachacucus</p><p>Parmen073</p><p>Rantjasi</p><p>Rik</p><p>Rincewind</p><p>Sheepy</p><p>Starlord</p><p>Steven</p><p>SumZan</p><p>Sylvester</p><p>The Leaf</p><p>The Seer</p><p>Tin</p><p>TynghtVJ</p><p>VictorWJ</p><p>WENZI0w</p><p>Waft</p><p>Writena</p><p>Zeionises</p><p>\\星尘/</p><p>carderchen</p><p>cmjh625</p><p>danwhisper</p><p>diov</p><p>egsdyfxc1234</p><p>furrida</p><p>g9624</p><p>graphite343</p><p>gzsx369</p><p>hehai</p><p>hz144743</p><p>jason21716</p><p>jingcengdian</p><p>kuarcis</p><p>lcx0039</p><p>leafnight</p><p>levelpiece（阿来）</p><p>lilia</p><p>liuluo1987</p><p>mentlegen</p><p>mimic</p><p>miracle（丘比）</p><p>pdex</p><p>penelope</p><p>reed</p><p>shajj</p><p>shipiaozi</p><p>snowknight</p><p>suneV</p><p>toyrabbit</p><p>user8786</p><p>wmyth22</p><p>yesterdayshadow</p><p>zghzgh1779</p><p>zhangyan1100</p><p>一位不愿透露姓名的译者</p><p>一滩史莱姆</p><p>不朽食物</p><p>不死树</p><p>丘比</p><p>东风</p><p>中立神马</p><p>久世</p><p>九河川</p><p>云之彼端</p><p>云邈</p><p>亮君DM</p><p>仮面之下</p><p>伍夫加</p><p>佯狂</p><p>依恋未酌宴</p><p>克里斯</p><p>六指</p><p>六行化雨</p><p>养饕餮的人。</p><p>凯伊星国教牧师</p><p>勇德</p><p>北落</p><p>匿名</p><p>十月猫</p><p>千月</p><p>南村辉</p><p>厅香</p><p>原野</p><p>双月ひめは</p><p>吃掉花的羊</p><p>向澜秋</p><p>咕之勇者孤独剑</p><p>咕之勇者独孤剑</p><p>咕咕咕_</p><p>夜</p><p>大KK的假粉</p><p>大凤</p><p>大眼球</p><p>天外飞猫</p><p>天天蹲点</p><p>天麟</p><p>太易</p><p>奈奈</p><p>契</p><p>委员长</p><p>姬小灯</p><p>子虚子</p><p>学语新风</p><p>孰祸耶？</p><p>安慧</p><p>小黑.F</p><p>小黑Fan</p><p>小黑既是小白</p><p>山德鲁</p><p>布丁TheARES</p><p>常乐</p><p>幸福的米分</p><p>幻术兔子</p><p>幻觉illusion</p><p>庞西瓦</p><p>弗林特·五号</p><p>强大的冒险者</p><p>影子</p><p>心殇</p><p>忧郁的狗头</p><p>戈蓝</p><p>打竹</p><p>扬尘</p><p>拉斯的黑袍</p><p>拉比 Binkowsky</p><p>新人菌</p><p>无名的刀锋</p><p>明椒丨Paprika</p><p>星光（星小光）</p><p>星冢</p><p>晓雯</p><p>晓雯（.）</p><p>月下赶巫妖</p><p>月夜白雨</p><p>有风</p><p>未觉散人</p><p>柒零</p><p>柴猫（柴郡猫眼）</p><p>栗子羊羹</p><p>梁笙</p><p>梅林</p><p>森林猫</p><p>橡木盾</p><p>水肺</p><p>永世の神選さとり</p><p>沃兹</p><p>沃尔苏莱斯</p><p>沉沦</p><p>沙雕拌猫砂</p><p>浅水源</p><p>浅间白</p><p>深蓝predator（辣鸡DM深蓝）</p><p>渡鸦</p><p>游啊游</p><p>湛/愈伤之叶（阿塔兰忒）</p><p>潜水兔</p><p>爱丽丝</p><p>犬良人</p><p>狗查</p><p>独行总督</p><p>狮鹫茸茸</p><p>猫学长</p><p>猫法师</p><p>环衫</p><p>白井卯月</p><p>白兰</p><p>白楼</p><p>白薇</p><p>皮卡丘</p><p>空白</p><p>空鬼</p><p>笑长风（长风游）</p><p>笨哈</p><p>缓缓归</p><p>老莫</p><p>肆柒</p><p>肉冻云雀舌</p><p>荔枝</p><p>莫洛托夫</p><p>莱斯利格林</p><p>萨斯</p><p>萨默克尔</p><p>落红棠</p><p>落雨随枫</p><p>蓝冰夜光</p><p>蓬莱儿</p><p>蠢蠢的骑士</p><p>西瑞依斯</p><p>触手大魔王</p><p>诗缘mishiro</p><p>诺亚（ZzNoah）</p><p>诺克斯西米里安</p><p>调零@史莱姆娘单推人</p><p>谜团</p><p>谭森·变压器</p><p>车行天下</p><p>辉煌空羽</p><p>远云</p><p>远在小河对岸</p><p>远星</p><p>迷你型妖梦</p><p>追梦</p><p>逍遥津的战神</p><p>道恩</p><p>遥望</p><p>锁姐</p><p>闪星</p><p>阳光bOy</p><p>阿戳</p><p>阿球</p><p>阿莱</p><p>雾雨路枫</p><p>霪雨霏</p><p>靠谱的沙夏</p><p>风速测量员1号</p><p>食瓜人PeTe</p><p>馅饼的陷阱</p><p>骷髅</p><p>鬼斯通之影灵衣</p><p>鬼方的朱雀</p><p>魔子</p><p>魔术爆破</p><p>鳄梨布丁</p><p>黄中</p><p>黄卷卷</p><p>黑白兔子</p><p>黑颈天鹅</p><p>龙类爱好者</p></div><div style=\"text-align:center\"><p style=\"font-size:1.17em\"><strong>以及每一位未提及的、为 5E 做出过贡献的人们 !</strong></p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.rFXN4rYjUgVUM4oH"
+    },
+    {
+      "sort": 200000,
+      "name": "1.2.0",
+      "type": "text",
+      "_id": "PQYjBgtHiWGDZR0P",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p></p><h2>功能改进</h2><ul><li><p>增加了物品引用规则，以实现对角色熟练项的汉化（因此舍弃了装备名称的原文）。</p></li><li><p>删去了所有武器描述中的精通词条，因为它们在攻击聊天卡中已被展示。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MVi1uFusq1QdCQkq]{武僧}增加了升级时跟踪的功力点。</p></li><li><p>对战斗大师以下战技进行了整合：<br />@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IdaVlJNCz4zKiirw]{缴械攻击}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ygEdMDBOjfL4P1A2]{摔绊攻击}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DEfjNA1iACCSkmeR]{推撞攻击}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9pay9IiibZuxVSxR]{恐吓攻击}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FPTzTRiQAHLr01Jq]{挑衅攻击}；<br />现在迫使目标豁免时，豁免难度将自动取力量或者敏捷（较高的一方）。</p></li><li><p>丰富了《玩家手册》中部分职业页面的插图。</p></li><li><p>更新了@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.OacGFkjBObB8l7uJ]{巨虫（黄蜂）}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.D7XX93kFmt4nc8a6]{蟒蛇}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.UamPjSPbtKImotPp]{毒蛇}的艺术资源。</p></li></ul><h2>错误修复</h2><ul><li><p>更新了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN]{警戒}的被动效果，使其正确启用对应的特殊特质。</p></li><li><p>统一了所有职业、子职业“准备法术”升级项的标识符为“max-prepared”。</p></li><li><p>修正了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3X7rLuY8NbIxfYzw]{缓慢术}</em>的行内掷骰公式，现在会正确反映 25% 概率。</p></li><li><p>修复了个别物品活动效果图源缺失的问题。</p></li><li><p>修复了在@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HOl3HZ0djMgfcHx5]{魔契师}的升级中，祈唤数配置不正确的问题。</p></li><li><p>修复了《玩家手册》中@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk.JournalEntryPage.yspaGdvukcwiodvl]{职业法术列表}无法正常浏览的问题。</p></li><li><p>修复了在新版系统（4.3.X）中，日志目录样式丢失的问题。</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1777713882351,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.PQYjBgtHiWGDZR0P"
+    },
+    {
+      "sort": 300000,
+      "name": "1.9.0",
+      "type": "text",
+      "_id": "Cm19pLBhktHDslW4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>※ 请注意，这也许是为适配 Foundry 12 的最后一个版本！</p><h2>里程碑</h2><p>✔ 已完成对<em>《城主指南》</em>的整合。</p><h2>功能改进</h2><ul><li><p>规范了所有段落标题的格式，它们现在不再带有英文原文。</p></li><li><p>规范了所有 Item 名称的格式，其原文被并入描述中。</p></li><li><p>改进了许多 Item 的行内掷骰公式。</p></li><li><p>优化了许多 Item 的描述。</p></li><li><p>为所有工具添加对应制造项的链接。</p></li><li><p>更新了全部 token 的艺术资源。</p></li><li><p>为所有@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn.JournalEntryPage.GxfrwkJbrIvn7reC]{传奇恩惠专长}更换了新的图标。</p></li><li><p>为<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.eQ5MbExU6LBcgYGv]{时间停止}</em>更换了新的图标。</p></li><li><p>为<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6hwSu9iz5bQ1FJE9]{亡者丧钟}</em>更换了新的图标。</p></li><li><p>更新了@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.XjqEfXkEj4UBBaQE]{黑豹}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.tJTuyyaUseWn4QLq]{渡鸦}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Vvd70dxgkap8o0XS]{恐狼}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.QYWPTjhNXKqEm6Cn]{山羊}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.CRh5jBKPmqLGoLr2]{巨山羊}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.uDsXaRE5B4h7BDdI]{蜥蜴}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.9ULIvenDwTcSK4aj]{猫头鹰}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0NSEwg9YpNbAD9QS]{骷髅}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.louRCjMpG5jx9Zuv]{丧尸}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0SJ8EERAteDrD2m3]{小妖精}的艺术资源。</p></li><li><p>中文化了<em>《玩家手册》</em>中的部分图注。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7p90pgKSDEo5GkgT]{火铳}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iepEmXxcuO7cTiRy]{手铳}分配基础武器类型。</p></li><li><p>为通用专长的“属性值加成”添加了对应的升级项。</p></li><li><p>为所有 Item 添加了标识符。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.l4jYDm6dEEbzo6pe]{苦痛魔爆}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zHQ6L2oYS341aBic]{强力施法}（来自于牧师、德鲁伊）增加了以附魔行动实现的自动化加值。</p></li><li><p>增加了特别注释的 css 样式。</p></li></ul><h2>错误修复</h2><ul><li><p>修复了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pluOpEXT8QPns0C2]{刃之魔契}的附魔效果配置错误的问题。</p></li><li><p>修复了本模块在 V13 中无法被识别的问题。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.omVuMZEVeCeDlQMo]{强力恢复之恩惠}中的背水一战配置正确的生命值恢复公式。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fcfYTxZ7Ugvdx8ne]{秘法回流}配置了正确的消耗数。</p></li><li><p>修复@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E7rkDJEXOCrWyQ0J]{流浪者}的属性值加成，现在会锁定正确的属性。</p></li><li><p>修复在@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn.JournalEntryPage.uvu3wNdG3Czms2dL]{专长描述}中，巧匠条目指向错误的问题。</p></li><li><p>修复@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HOl3HZ0djMgfcHx5]{魔契师}在等级 1 时，职业特性丢失的问题。</p></li><li><p>修复@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE]{火把}消耗配置不正确的问题。</p></li><li><p>修复了&amp;Reference[Concentration]{专注}的指向。</p></li><li><p>移除了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MVi1uFusq1QdCQkq]{武僧}升级中，等级 1 时赋予的功力点。</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1763207034412,
+        "modifiedTime": 1777714215960,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.Cm19pLBhktHDslW4"
+    },
+    {
+      "sort": 400000,
+      "name": "2.0.0",
+      "type": "text",
+      "_id": "OrhABw2ENsIXqO8C",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>※ 请注意，从 2.0.0 起将不再支持 Foundry 12 版本的兼容性更新！</p><p>※ 为了正常使用此版本以及后续版本，你必须完全删除旧版本的模块！</p><h2>破坏性更新</h2><ul><li><p>模块 ID 改变为 dnd5e-collection-2024，所有相关路径和引用进行了更新。</p></li><li><p>改进了图片资产文件夹 assets 的组织结构。</p></li><li><p>主要 JS 以及 CSS 样式与结构的全面改进，以保持扩展性。</p></li></ul><h2>功能改进</h2><ul><li><p>现在拥有了一个“門戶”界面，以快速访问对应合集资源。</p></li></ul><ul><li><p>Journal Sheet 核心兼容升级，现在的规则书已支持深色/浅色主题模式。</p></li><li><p>规则书 Journal Sheet 标题的双语显示现在以源注释的样式完成，不再与其标题绑定；其标题中仅保留规则术语的原文，确保目录一致性。</p></li><li><p>增加了物品卡中“稀有度颜色”的显示，这将在物品卡拥有稀有度等级时，对其图片适用稀有度样式。你可以在配置设定中取消它。</p></li><li><p>中文化了<em>《玩家手册》</em>中的部分图注。</p></li><li><p>所有包含“升级”的物品经过翻新，其子项目的升级已合并至对应的子物品中，并拥有了相符合的提示词以引导升级。</p></li><li><p>为所有的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn]{专长}特性添加了对应的自动化升级项。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hFb1G3I6ibncR2v7]{星辰结社}的特性更换了新的图标。</p></li><li><p>为@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8npBQQWXsmDh4x9P]{炫目舞步}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9Vcrg71NppXWO9fB]{幽影斗篷}更换了新的图标。</p></li></ul><h2>错误修复</h2><ul><li><p>修复了 toc-hidden 错误配置导致<em>《玩家手册》</em>目录缺少项目的问题。</p></li><li><p>修复了规则书日志导航失效的问题。</p></li><li><p>修复了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OCMqHFEmDsweP1Ey]{塑能师}升级赋予错误职业特性的问题。</p></li><li><p>修复了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qn60GUpwpmjNMhLd]{熟练探险家}赋予语言特质数量错误的问题。</p></li><li><p>修复了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tLiBL0xGa8nJj2ea]{惑心魔法}未能正确消耗充能的问题。</p></li><li><p>修复了抄写卷轴中 spellscroll 的规则引用丢失的问题。</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "CeZkjlhN2tfJgg4n": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1777713960074,
+        "modifiedTime": 1777717287114,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n"
+      },
+      "_key": "!journal.pages!LIJ2edVRwBsE8HgV.OrhABw2ENsIXqO8C"
+    }
+  ],
+  "folder": null,
+  "flags": {
+    "core": {
+      "sheetClass": "monster-manual.MMJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": false,
+      "type": "special"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1742895166861,
+    "modifiedTime": 1777706179098,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_id": "LIJ2edVRwBsE8HgV",
+  "sort": 0,
+  "categories": [],
+  "_key": "!journal!LIJ2edVRwBsE8HgV"
+}

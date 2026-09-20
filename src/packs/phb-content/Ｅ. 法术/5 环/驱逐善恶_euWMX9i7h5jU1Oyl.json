@@ -1,0 +1,273 @@
+{
+  "name": "驱逐善恶",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_dispel-evil-and-good.webp",
+  "system": {
+    "activities": {
+      "h0J1sTkjTeiCFYo0": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "h0J1sTkjTeiCFYo0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "Yvrt6VccCR9Qk9pQ": {
+        "type": "utility",
+        "name": "破咒",
+        "_id": "Yvrt6VccCR9Qk9pQ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_protection-from-evil-and-good_break-enhancement.webp",
+        "appliedEffects": []
+      },
+      "DylGTL5ccavjB25Q": {
+        "type": "save",
+        "_id": "DylGTL5ccavjB25Q",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "驱离",
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_protection-from-evil-and-good_dismissal.webp",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>法术持续时间内，天族、元素、妖精、邪魔和亡灵对你的攻击检定具有劣势。你可以使用下述特殊功能之一以提前结束法术。</p><p><em><strong>破咒。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你触碰一名因上述生物类型的任意生物而被其附身、陷入魅惑或恐慌状态的生物。目标不再被上述生物附身，魅惑或恐慌。</p><p><em><strong>驱离。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你选择距你 5 尺内的一名可见生物，其生物类型必须是上述生物类型之一。目标必须成功于一次[[/save]]{魅力豁免}，否则，若其并未处于家园位面，则被遣送回其家园位面。对于亡灵和妖精，若它们并未处于家园位面，则亡灵会被遣送回堕影冥界，妖精则被遣送回妖精荒野。</p><p class=\"item-original\">Dispel Evil and Good</p>",
+      "chat": ""
+    },
+    "identifier": "dispel-evil-and-good",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "银粉和铁粉",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535363540,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "euWMX9i7h5jU1Oyl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!euWMX9i7h5jU1Oyl"
+}

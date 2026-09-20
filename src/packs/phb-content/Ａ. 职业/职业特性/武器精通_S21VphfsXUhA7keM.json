@@ -1,0 +1,159 @@
+{
+  "name": "武器精通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-mastery.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你对武器的训练使你能够自选并使用三种已熟练武器的精通词条。每当你完成一次长休后，你都可以练习武器技艺并改变你所选择的其中一种武器类型。</p><p>当你到达特定战士等级时，你可以使用更多种类武器的精通词条，已列在战士特性表的武器精通一列。</p><p class=\"item-original\">Weapon Mastery</p><section class=\"dc7-note\"><p>你可以编辑此物品，并于“升级”选项卡中的“<em class=\"fa-solid fa-gear\">​</em>”更改选择项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "weapon-mastery",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "战士",
+    "advancement": [
+      {
+        "_id": "mJnrjhWpEz2lMDq4",
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "武器精通",
+        "hint": "你从熟练的武器项中获得武器精通。当你完成一次长休后，你可以改变你所选择的其中一个武器类型。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-mastery.webp"
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 4,
+        "title": "武器精通",
+        "hint": "你从熟练的武器项中获得武器精通。当你完成一次长休后，你可以改变你所选择的其中一个武器类型。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-mastery.webp",
+        "_id": "5FgFvOQ81w1tvfgh"
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 10,
+        "title": "武器精通",
+        "hint": "你从熟练的武器项中获得武器精通。当你完成一次长休后，你可以改变你所选择的其中一个武器类型。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-mastery.webp",
+        "_id": "LrXG1tULlF0ryCnK"
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "mode": "mastery",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "weapon:sim:*",
+                "weapon:mar:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 16,
+        "title": "武器精通",
+        "hint": "你从熟练的武器项中获得武器精通。当你完成一次长休后，你可以改变你所选择的其中一个武器类型。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-mastery.webp",
+        "_id": "cXbnei496qtavoii"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777608881637,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "S21VphfsXUhA7keM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!S21VphfsXUhA7keM"
+}

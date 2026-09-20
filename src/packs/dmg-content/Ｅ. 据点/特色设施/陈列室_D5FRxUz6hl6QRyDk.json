@@ -1,0 +1,95 @@
+{
+  "folder": "mHuJ7Z3m7SoXxnqd",
+  "name": "陈列室",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/scribe.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>9 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>调查</p><p>这个房间存放着一系列纪念品，譬如来自旧日战争的武器、猎物装裱好的头颅、在地城里捡到的小饰品、以及先祖流传下来的战利品。</p><p><em><strong>调查选项。</strong></em>当你对此设施下达调查指令时，从以下选项中选择一项：</p><p><strong>调查：学识。</strong>你委托设施雇员针对某个主题进行研究。该主题可以是某个传说、某位重要的人、某种生物或某个知名的物件。陈列室内的收藏可以为相当广泛的研究课题提供线索，因此要研究的主题并不需要与这些收藏直接相关。</p><p>研究工作需要 7 天时间。当研究完成后，雇员将获取三条你之前不知道的有关该主题的信息，这些信息是准确无误的。在你下次与该雇员交谈时，雇员将这些信息传达给你。由 DM 决定你具体获得了怎样的信息。</p><p><strong>调查：饰品收藏。</strong>你委托设施雇员寻找一件可能对你有用的饰品。这项工作需要 7 天时间，在这段时间结束时，掷一次任意骰。若结果为偶数，则雇员没有找到任何有用的物品；若结果为奇数，则雇员找到了一件魔法物品。在第 7 章的@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.G8bQclJFggAk8397]{“器具—普通”表}中掷骰以决定你获得了哪件物品。</p><p class=\"item-original\">Trophy Room</p>",
+      "chat": ""
+    },
+    "identifier": "trophy-room",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "research",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "trophyRoom"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763015918986,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "D5FRxUz6hl6QRyDk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!D5FRxUz6hl6QRyDk"
+}

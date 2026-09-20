@@ -1,0 +1,171 @@
+{
+  "name": "预置幻影",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_programmed-illusion.webp",
+  "system": {
+    "activities": {
+      "cotMmCMs2e44ZqGg": {
+        "type": "summon",
+        "name": "施法",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "bonuses": {},
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [
+          {
+            "_id": "SQDvdnpKkK4cNmMv",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.VyLY1YQRiRPVsMzG"
+          },
+          {
+            "_id": "7lzxzO27TtHFp3Ib",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.derived-creatures.Actor.QZ0919fPtZlagRTp"
+          }
+        ],
+        "summon": {
+          "prompt": true
+        },
+        "_id": "cotMmCMs2e44ZqGg"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在施法距离内创造一个物件，一名生物，或是其他可视现象的幻术，此幻术在满足特定触发条件时会被激活。该幻术在被激活前无法被察觉。幻术必须不大于 30 尺立方，且由你决定幻术如何行动和发声。这种按脚本执行的表演可以持续至多 5 分钟。</p><p>当你指定的触发条件发生时，幻术会迅速成型，并以你设定的方式运作。幻术终止运作之后，它消失并休眠 10 分钟，在休眠结束之后幻术便可再次被激活。</p><p>触发条件可以宽泛也可以按你喜好进行细化，但必须是发生在距幻术区域 30 尺内的能看到或听到的现象。例如，你可以制造一个自己的幻象，在其他人试图打开一扇卡住的门时出现并发出警告。</p><p>由于东西可以穿过幻象，因此与该幻象进行的物理互动都会暴露其幻觉本质。一名生物可以采取&amp;Reference[Study]{研究}动作进行一次对抗你法术豁免 DC 的成功[[/skill inv dc=@attributes.spell.dc]]{智力 (调查) 检定}以看穿幻象。辨出幻象的生物可以看穿该影像，其产生的声响对该生物而言显得虚假。</p><p class=\"item-original\">Programmed Illusion</p>",
+      "chat": ""
+    },
+    "identifier": "programmed-illusion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "disp"
+    },
+    "level": 6,
+    "materials": {
+      "value": "价值至少 25 GP 的翡翠尘",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "school": "ill",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "zcf8HnbldSFfXsvx",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758462861452,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dtRNK1uWuEQXbFjc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dtRNK1uWuEQXbFjc"
+}

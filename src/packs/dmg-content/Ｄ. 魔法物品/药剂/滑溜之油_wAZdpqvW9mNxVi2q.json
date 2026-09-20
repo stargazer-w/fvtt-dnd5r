@@ -1,0 +1,292 @@
+{
+  "name": "滑溜之油",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_POTION_oil-of-slipperiness.webp",
+  "system": {
+    "activities": {
+      "wTHegULh1DbdL4ht": {
+        "type": "utility",
+        "_id": "wTHegULh1DbdL4ht",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "涂抹"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "8"
+        },
+        "effects": [
+          {
+            "_id": "mZyYVnLNVvPjeeLE"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "涂抹"
+      },
+      "xbl57mDzR7zPVVRR": {
+        "type": "utility",
+        "name": "泼洒",
+        "_id": "xbl57mDzR7zPVVRR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "泼洒"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "8"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "square",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>药水，非普通</em></p><p>一扁瓶的滑溜之油可以覆盖住连带着其着装与携带的装备的一个中型或小型生物（生物体型每比中型大一级，就需要多用一扁瓶）。抹上油需要花费 10 分钟。被影响的生物将会获得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL]{行动自如}</em>法术的效应，持续 8 小时。</p><p>此外，以一个&amp;Reference[Magic]{魔法}动作，油可以被泼到地面上并覆盖 10 尺方形区域，并在此区域内复现出<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cmNz0KRpkFjP7hi2]{油腻术}</em>法术的效应，持续 8 小时。</p><p>这种粘稠的黑色油膏浑浊且厚重，但在被倒出来时却又流动迅速。</p><p class=\"item-original\">Oil of Slipperiness</p>",
+      "chat": ""
+    },
+    "identifier": "oil-of-slipperiness",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "potion",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "name": "行动自如",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_POTION_oil-of-slipperiness.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.wAZdpqvW9mNxVi2q",
+      "transfer": false,
+      "_id": "mZyYVnLNVvPjeeLE",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "paralyzed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "restrained",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的移动不受困难地形的限制，任何法术或其他魔法效应都无法降低你的速度，亦无法使你陷入麻痹或束缚状态。你还获得与速度相同的游泳速度。</p><p>此外，你可以花费 5 尺的移动力直接从非魔法的束缚中挣脱。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497155,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wAZdpqvW9mNxVi2q.mZyYVnLNVvPjeeLE"
+    }
+  ],
+  "folder": "8tIzUokOaZP8ljOf",
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.K0Z9SiFdoQoIzsTh",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751714059176,
+    "modifiedTime": 1758199230832,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wAZdpqvW9mNxVi2q",
+  "_key": "!items!wAZdpqvW9mNxVi2q"
+}

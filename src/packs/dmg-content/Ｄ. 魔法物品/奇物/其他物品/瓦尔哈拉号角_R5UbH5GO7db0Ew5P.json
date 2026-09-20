@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "瓦尔哈拉号角",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_horn-of-valhalla.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（白银或黄铜）、极珍稀（青铜）、传说（黑铁）</em></p><p>你可以用一个&amp;Reference[Magic]{魔法}动作吹响号角。作为回应，伊斯加德的武者英灵们将在你周围 60 尺内未占据的空间出现。这些英灵使用<em>《怪物图鉴》</em>上<strong>狂战士</strong>的数据，它们将会在 1 小时之后或 HP 降低到 0 时返回伊斯加德。英灵们看起来就像是活着的，能够呼吸的战士，且它们免疫魅惑与恐慌状态。号角一经使用，需要经过 7 天才能再次使用。</p><p>已知共有四种类型的瓦尔哈拉号角存在，分别由不同的金属制成。号角的类型决定了使用它能召唤多少英灵及其使用条件。号角的类型由 DM 决定或通过投掷下表来随机决定。</p><p>如果你在不满足条件的情况下吹响了号角，召唤出的英灵们将攻击你。</p><p>如果你满足条件，他们会对你和你的盟友持友善态度，并听从你的命令。</p><table style=\"text-align:center\"><thead><tr><th>[[/r 1d100]]</th><th>号角种类</th><th>英灵数量</th><th>条件</th></tr></thead><tbody><tr><td>01–40</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.PQtGagVTwAMh9sZv]{白银}</td><td>2</td><td>无</td></tr><tr><td>41–75</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.dwyerCZE2kEuZBd8]{黄铜}</td><td>3</td><td>熟练于所有简易武器</td></tr><tr><td>76–90</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fPDK0tvrrsl8TN4a]{青铜}</td><td>4</td><td>受训于所有中甲</td></tr><tr><td>91–00</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.3Eb2WxSJN6pJ0pI5]{黑铁}</td><td>5</td><td>熟练于所有军用武器</td></tr></tbody></table><p class=\"item-original\">Horn of Valhalla</p>",
+      "chat": ""
+    },
+    "identifier": "horn-of-valhalla",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895670405,
+    "modifiedTime": 1761897219648,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "R5UbH5GO7db0Ew5P",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!R5UbH5GO7db0Ew5P"
+}

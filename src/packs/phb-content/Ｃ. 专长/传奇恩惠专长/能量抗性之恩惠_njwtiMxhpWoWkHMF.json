@@ -1,0 +1,205 @@
+{
+  "name": "能量抗性之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-energy-resistance.webp",
+  "system": {
+    "activities": {
+      "wwWYddrqGuGb0y7e": {
+        "type": "save",
+        "name": "能量重导",
+        "_id": "wwWYddrqGuGb0y7e",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "能量重导"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 12,
+              "bonus": "@abilties.con.mod",
+              "types": [],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "con",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你使你选择的一项属性值提升 1 点，最多为 30。</p><p><em><strong>能量抗性。</strong></em>你从下列伤害类型中选择两种获得抗性：强酸、寒冷、火焰、闪电、暗蚀、毒素、心灵、光耀或雷鸣。当你完成一次长休时，你可以改变你的选择。</p><p><em><strong>能量重导。</strong></em>当你受到你能量抗性增益中选择的类型的伤害时，你可以执行一个&amp;Reference[Reaction]{反应}来将相同类型的伤害直接施加给位于你 60 尺内的你可见的另一名生物（它对你而言不能处于全掩护下），若你如此做，该生物需要通过一次[[/save]]{敏捷豁免}（DC 等于 8 + 你的体质调整值 + 你的熟练加值），否则受到 2d12 + 你的体质调整值点伤害。</p><p class=\"item-original\">Boon of Energy Resistance</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-energy-resistance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你使你选择的一项属性值提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      },
+      {
+        "type": "Trait",
+        "title": "能量抗性",
+        "_id": "gq5Igwvy1QQo6UfT",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "dr:necrotic",
+                "dr:poison",
+                "dr:radiant",
+                "dr:cold",
+                "dr:fire",
+                "dr:thunder",
+                "dr:acid",
+                "dr:lightning",
+                "dr:psychic"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "你从下列伤害类型中选择两种获得抗性。当你完成一次长休时，你可以改变你的选择。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+        "value": {}
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "PP2NVgVv8yRIkDZM",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775987115990,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "njwtiMxhpWoWkHMF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!njwtiMxhpWoWkHMF"
+}

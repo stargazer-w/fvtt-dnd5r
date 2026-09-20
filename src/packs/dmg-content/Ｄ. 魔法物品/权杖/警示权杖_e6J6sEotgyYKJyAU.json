@@ -1,0 +1,496 @@
+{
+  "name": "警示权杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ROD_rod-of-alertness.webp",
+  "system": {
+    "activities": {
+      "3xPZHdnUeu5mEriI": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.hkNchOAYqkaDN8DE",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "3xPZHdnUeu5mEriI",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "U9InOAYM2ABce8gJ": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.V3R7ySjbxqIr6D6I",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "U9InOAYM2ABce8gJ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "i74cdkeg1JNiVB1D": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.rKzOsVAmqjUAIwyz",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "i74cdkeg1JNiVB1D",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "fXbIfcEj5Zm3ClbX": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true
+        },
+        "_id": "fXbIfcEj5Zm3ClbX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "6S484uSyPsxkJv1l": {
+        "type": "utility",
+        "name": "防护灵光",
+        "_id": "6S484uSyPsxkJv1l",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "防护灵光"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "HYTplkmwFNdSHoDm"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "60"
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QrBHTuvWdVcPfcoZ]{权杖}，极珍稀（需同调）</em></p><p>这根权杖具有以下词条。</p><p><em><strong>警觉。</strong></em>持握这根权杖期间，你的感知（察觉）检定和先攻检定具有优势。</p><p><em><strong>法术。</strong></em>当持握这根权杖时，你可以从中施展以下法术：</p><ul><li><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hkNchOAYqkaDN8DE]{侦测善恶}</em></li><li><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.V3R7ySjbxqIr6D6I]{侦测魔法}</em></li><li><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rKzOsVAmqjUAIwyz]{侦测毒性与疾病}</em></li><li><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc]{识破隐形}</em></li></ul><p><em><strong>防护灵光。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你可以将权杖的柄端插入地面，此时权杖的顶部将发出 60 尺半径的&amp;Reference[Bright Light]{明亮光照}和额外 60 尺&amp;Reference[Dim Light]{微光光照}。身处权杖发出的明亮光照中时，你与你的盟友在护甲等级和豁免中获得 +1 加值，并且可以感知到同样处于此明亮光照中的任何隐形生物的位置。</p><p>最多 10 分钟后或直至一个生物执行&amp;Reference[Magic]{魔法}动作将权杖从地面拔出后，权杖顶部会停止发光并结束这个效应。该词条一经使用，直至次日黎明前你都无法再次使用。</p><p class=\"item-original\">Rod of Alertness</p>",
+      "chat": ""
+    },
+    "identifier": "rod-of-alertness",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "rod",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "警觉",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.e6J6sEotgyYKJyAU",
+      "_id": "94tqAvVwp0r74zRc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496894,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!e6J6sEotgyYKJyAU.94tqAvVwp0r74zRc"
+    },
+    {
+      "name": "防护灵光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.e6J6sEotgyYKJyAU",
+      "transfer": false,
+      "_id": "HYTplkmwFNdSHoDm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在护甲等级和豁免中获得 +1 加值，并且可以感知到同样处于此范围明亮光照中的任何隐形生物的位置。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496897,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!e6J6sEotgyYKJyAU.HYTplkmwFNdSHoDm"
+    }
+  ],
+  "folder": "KLqqDvPzWShN1NHJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756971932143,
+    "modifiedTime": 1758729296700,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "e6J6sEotgyYKJyAU",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!e6J6sEotgyYKJyAU"
+}

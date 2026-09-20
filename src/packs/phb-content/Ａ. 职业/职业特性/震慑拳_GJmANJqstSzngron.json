@@ -1,0 +1,242 @@
+{
+  "name": "震慑拳",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_ki_stunning-strike.webp",
+  "system": {
+    "activities": {
+      "GF9goQCPzi0RQGW4": {
+        "type": "save",
+        "_id": "GF9goQCPzi0RQGW4",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "0zCHm7cVsL7tnFCU",
+            "onSave": false
+          },
+          {
+            "_id": "bpDNLNYeCO7FSeWX",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "0zCHm7cVsL7tnFCU",
+          "bpDNLNYeCO7FSeWX"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每回合一次，当你使用徒手打击或武僧武器命中一个生物后，你可以消耗 1 点功力尝试发动震慑拳。目标必须进行一次[[/save]]{体质豁免}，豁免失败则陷入&amp;Reference[stunned]{震慑}状态，持续至你的下个回合开始。若豁免成功，则目标的速度减半，持续至你的下个回合开始。并且下一次对该目标进行的攻击检定具有优势。</p><p class=\"item-original\">Stunning Strike</p>",
+      "chat": ""
+    },
+    "identifier": "stunning-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "ki"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "武僧"
+  },
+  "effects": [
+    {
+      "name": "晕眩",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_ki_stunning-strike.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.GJmANJqstSzngron",
+      "transfer": false,
+      "_id": "0zCHm7cVsL7tnFCU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[stunned]{震慑}状态，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "stunned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734265684305,
+        "modifiedTime": 1735460827937,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!GJmANJqstSzngron.0zCHm7cVsL7tnFCU"
+    },
+    {
+      "name": "恍惚",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_dazed.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.GJmANJqstSzngron",
+      "transfer": false,
+      "_id": "bpDNLNYeCO7FSeWX",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你速度减半，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734265844757,
+        "modifiedTime": 1759948062892,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!GJmANJqstSzngron.bpDNLNYeCO7FSeWX"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758467188260,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "GJmANJqstSzngron",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!GJmANJqstSzngron"
+}

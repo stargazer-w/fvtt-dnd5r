@@ -1,0 +1,482 @@
+{
+  "name": "进阶凶蛮打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+  "system": {
+    "activities": {
+      "6Ye5ogOyvP4EAbNR": {
+        "type": "enchant",
+        "_id": "6Ye5ogOyvP4EAbNR",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Vune3dhahZmfNn2z",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "MvsUV0PvAG5nAg3n",
+                "6SESEaohRxkqjEMu"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "Vune3dhahZmfNn2z"
+        ]
+      },
+      "MvsUV0PvAG5nAg3n": {
+        "type": "utility",
+        "name": "震撼猛击",
+        "_id": "MvsUV0PvAG5nAg3n",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-axe-battle\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.HRXduJiIcYCZjF3b\" data-tooltip=\"item\">震撼猛击</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "XlyKaLbyhmGcmK76"
+          },
+          {
+            "_id": "tJdW1Azgby2V2RCF"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+        "appliedEffects": [
+          "XlyKaLbyhmGcmK76",
+          "tJdW1Azgby2V2RCF"
+        ]
+      },
+      "6SESEaohRxkqjEMu": {
+        "type": "utility",
+        "_id": "6SESEaohRxkqjEMu",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-axe-battle\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.T9O0XA1gUu1f7k0d\" data-tooltip=\"item\">破势猛击</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "WnqnWw2Mvik7ZQkV"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "破势猛击",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+        "appliedEffects": [
+          "WnqnWw2Mvik7ZQkV"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你训练出了更多种残暴的攻击方式。将以下效应加到你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0BYXmSouMHyH2MlO]{凶蛮打击}选项中。</p><p><em><strong>[[/item 凶蛮打击 activity=震撼猛击]]{震撼猛击。}</strong></em>目标进行的下一次豁免检定具有劣势，并且目标直到你的下个回合开始时都不能发动借机攻击。</p><p><em><strong>[[/item 凶蛮打击 activity=破势猛击]]{破势猛击。}</strong></em>直到你的下个回合开始时，下一次由其他生物对目标进行的攻击检定获得 +5 加值。一次攻击检定只能从一次破势猛击中获得加值。</p><p class=\"item-original\">Improvement Brutal Strike</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>凶蛮打击</strong>特性以追加可选项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "improvement-brutal-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "野蛮人"
+  },
+  "effects": [
+    {
+      "name": "恍惚",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_head-injury.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C",
+      "transfer": false,
+      "_id": "XlyKaLbyhmGcmK76",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你进行的下一次豁免检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734066940927,
+        "modifiedTime": 1759948107583,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!SjRCMErLQpk4MB1C.XlyKaLbyhmGcmK76"
+    },
+    {
+      "name": "震撼",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_no-opportunity.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C",
+      "transfer": false,
+      "_id": "tJdW1Azgby2V2RCF",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你不能发动借机攻击，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734067039519,
+        "modifiedTime": 1759948115981,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!SjRCMErLQpk4MB1C.tJdW1Azgby2V2RCF"
+    },
+    {
+      "name": "脆弱",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_torso-injury.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C",
+      "transfer": false,
+      "_id": "WnqnWw2Mvik7ZQkV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>下一次由其他生物对你进行的攻击检定获得 +5 加值，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734067170939,
+        "modifiedTime": 1759948123188,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!SjRCMErLQpk4MB1C.WnqnWw2Mvik7ZQkV"
+    },
+    {
+      "type": "enchantment",
+      "name": "进阶凶蛮打击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_improvement-brutal-strike.webp",
+      "disabled": false,
+      "_id": "Vune3dhahZmfNn2z",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.description.value",
+          "mode": 2,
+          "value": "@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C inline]",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734067261893,
+        "modifiedTime": 1735443428277,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!SjRCMErLQpk4MB1C.Vune3dhahZmfNn2z"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "MvsUV0PvAG5nAg3n",
+          "6SESEaohRxkqjEMu"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731070004226,
+    "modifiedTime": 1758303713642,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "SjRCMErLQpk4MB1C",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!SjRCMErLQpk4MB1C"
+}

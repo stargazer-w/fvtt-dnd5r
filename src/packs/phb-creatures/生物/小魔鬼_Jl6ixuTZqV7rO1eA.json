@@ -1,0 +1,1406 @@
+{
+  "folder": "1loCQfJ2xS9d9Xq0",
+  "name": "小魔鬼",
+  "type": "npc",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/imp.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 6,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 17,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 11,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "value": []
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 40,
+        "swim": null,
+        "walk": 20,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 120,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "str",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 13,
+        "calc": "natural"
+      },
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 21,
+        "max": 21,
+        "temp": null,
+        "tempmax": null,
+        "formula": "6d4 + 6"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": "<p class=\"actor-original\">Imp</p>"
+      },
+      "alignment": "守序邪恶",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "fiend",
+        "custom": "",
+        "subtype": "魔鬼",
+        "swarm": ""
+      },
+      "environment": "",
+      "cr": 1,
+      "spellLevel": 0
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "traits": {
+      "size": "tiny",
+      "di": {
+        "bypasses": [],
+        "value": [
+          "fire",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [
+          "cold"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "infernal"
+        ],
+        "custom": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "小魔鬼",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 0.5,
+    "height": 0.5,
+    "texture": {
+      "src": "modules/dnd5e-collection-2024/assets/tokens/imp.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 120,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 3,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/dnd5e-collection-2024/assets/subjects/imp.webp"
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "魔鬼视界",
+      "type": "feat",
+      "_id": "x3QN8IwkFUjdxluZ",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_devils-sight.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>魔法性的黑暗不会影响小魔鬼的黑暗视觉。</p><p class=\"item-original\">Devil's Sight</p>",
+          "chat": ""
+        },
+        "identifier": "devils-sight",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305113870,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.x3QN8IwkFUjdxluZ"
+    },
+    {
+      "name": "魔法抗性",
+      "type": "feat",
+      "_id": "clfTAIB8R1veKDBC",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_magic-resistance.webp",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>小魔鬼对抗法术和其他魔法效应时进行的豁免检定具有优势。</p><p class=\"item-original\">Magic Resistance</p>",
+          "chat": ""
+        },
+        "identifier": "magic-resistance",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {},
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305113885,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.clfTAIB8R1veKDBC"
+    },
+    {
+      "name": "钉刺",
+      "type": "feat",
+      "_id": "tWfn7uW4HeRtvqLz",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_sting.webp",
+      "system": {
+        "activities": {
+          "kYIpQuvoWQwjYVZG": {
+            "type": "attack",
+            "_id": "kYIpQuvoWQwjYVZG",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "ft",
+              "special": "",
+              "value": "5"
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "dex",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "@mod",
+                  "types": [
+                    "piercing"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                },
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p><em>近战攻击：</em>+ 5，触及 5 尺。</p><p><em>命中：</em>6（1d6 + 3）穿刺伤害外加 7（2d6）毒素伤害。</p><p class=\"item-original\">Sting</p>",
+          "chat": ""
+        },
+        "identifier": "sting",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "last": {
+            "kYIpQuvoWQwjYVZG": {
+              "damageType": {
+                "0": "piercing",
+                "1": "poison"
+              }
+            }
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305113901,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.tWfn7uW4HeRtvqLz"
+    },
+    {
+      "name": "隐形",
+      "type": "feat",
+      "_id": "nuEyOn2cMwJrl6gq",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_invisibility.webp",
+      "system": {
+        "activities": {
+          "ftTrzmFdk3ksNPWc": {
+            "type": "cast",
+            "_id": "ftTrzmFdk3ksNPWc",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "spell": {
+              "challenge": {
+                "attack": null,
+                "save": null,
+                "override": false
+              },
+              "level": "2",
+              "properties": [
+                "vocal",
+                "somatic",
+                "material"
+              ],
+              "spellbook": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK",
+              "ability": ""
+            },
+            "name": "隐形术",
+            "img": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>小魔鬼对自身施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK]{隐形术}</em>，无需任何法术成分并使用魅力作为施法属性。</p><p class=\"item-original\">Invisibility</p>",
+          "chat": ""
+        },
+        "identifier": "invisibility",
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "book": "",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759778629583,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.nuEyOn2cMwJrl6gq"
+    },
+    {
+      "name": "变形",
+      "type": "feat",
+      "_id": "E8Qx416CrRGptQFA",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_shape-shift.webp",
+      "system": {
+        "activities": {
+          "MVOTqHQdwoX0r79d": {
+            "type": "utility",
+            "_id": "MVOTqHQdwoX0r79d",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>小魔鬼变形为一只老鼠（速度 20 尺）、渡鸦（20 尺，飞行 60 尺）或蜘蛛（20 尺，攀爬 20 尺）的形象，或是变回其真实形态。除速度外，其各形态下的数据皆相同。它携带或着装的任何装备都不会随之变化。</p><p class=\"item-original\">Shape-Shift</p>",
+          "chat": ""
+        },
+        "identifier": "shape-shift",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305113928,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.E8Qx416CrRGptQFA"
+    },
+    {
+      "name": "隐形术",
+      "type": "spell",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_invisibility.webp",
+      "system": {
+        "activities": {
+          "pFjI4eBIcCqOMCHB": {
+            "type": "utility",
+            "name": "施法",
+            "_id": "pFjI4eBIcCqOMCHB",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "NqMq2alCM7v7uyZi"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>你触碰的一个生物进入&amp;Reference[invisible]{隐形}状态并维持至法术终止。如果目标进行攻击检定、造成伤害或施展法术，则该法术提前终止。</p><p><em><strong>升环施法。</strong></em>使用 3 环或更高法术位施展该法术时，你使用的法术位每比 2 环高一环，就可以额外指定一个生物作为目标。</p><p class=\"item-original\">Invisibility</p>",
+          "chat": ""
+        },
+        "identifier": "invisibility",
+        "source": {
+          "revision": 1,
+          "rules": "2024",
+          "book": "PHB 2024",
+          "page": "",
+          "custom": "",
+          "license": ""
+        },
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "units": "hour",
+          "value": "1"
+        },
+        "level": 2,
+        "materials": {
+          "value": "一根包裹在阿拉伯胶中的睫毛",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "school": "ill",
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          }
+        }
+      },
+      "effects": [
+        {
+          "name": "隐身",
+          "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_invisibility.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK",
+          "transfer": false,
+          "_id": "NqMq2alCM7v7uyZi",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你进入&amp;Reference[invisible]{隐形}状态并维持至法术终止。</p><p>如果你进行攻击检定、造成伤害或施展法术，则该效应提前终止。</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "invisible"
+          ],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!Jl6ixuTZqV7rO1eA.1JSTpYqGfW6gX3Fi.NqMq2alCM7v7uyZi"
+        },
+        {
+          "_id": "dnd5espellchange",
+          "type": "enchantment",
+          "name": "法术改动",
+          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Jl6ixuTZqV7rO1eA.Item.nuEyOn2cMwJrl6gq.Activity.ftTrzmFdk3ksNPWc",
+          "changes": [
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-vocal",
+              "priority": null
+            },
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-somatic",
+              "priority": null
+            },
+            {
+              "key": "system.properties",
+              "mode": 2,
+              "value": "-material",
+              "priority": null
+            }
+          ],
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": 0,
+            "startTurn": 0
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!Jl6ixuTZqV7rO1eA.1JSTpYqGfW6gX3Fi.dnd5espellchange"
+        }
+      ],
+      "folder": "7ugS7EkGw9MsJlfU",
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          },
+          "cachedFor": ".Item.nuEyOn2cMwJrl6gq.Activity.ftTrzmFdk3ksNPWc"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1759777842445,
+        "modifiedTime": 1759777842445,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "Jqoj9dwIRPPEU1Xu": 3,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "_id": "1JSTpYqGfW6gX3Fi",
+      "_key": "!actors.items!Jl6ixuTZqV7rO1eA.1JSTpYqGfW6gX3Fi"
+    }
+  ],
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1736884771903,
+    "modifiedTime": 1759943827555,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "compendiumSource": null,
+    "exportSource": null
+  },
+  "_id": "Jl6ixuTZqV7rO1eA",
+  "sort": 2321485,
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_key": "!actors!Jl6ixuTZqV7rO1eA"
+}

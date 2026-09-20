@@ -1,0 +1,279 @@
+{
+  "name": "四象神通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_elements_elemental-epitome.webp",
+  "system": {
+    "activities": {
+      "Z55I65xCnRSijZ7U": {
+        "type": "utility",
+        "_id": "Z55I65xCnRSijZ7U",
+        "sort": 100000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "伤害抗性"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "伤害抗性",
+        "img": "",
+        "appliedEffects": []
+      },
+      "BH1GJ0s2EYu3qM97": {
+        "type": "damage",
+        "_id": "BH1GJ0s2EYu3qM97",
+        "sort": 300000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "真力注拳"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.monk.martial-arts"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "真力注拳",
+        "img": "",
+        "appliedEffects": []
+      },
+      "o2oJibZbgT86YFu5": {
+        "type": "damage",
+        "sort": 200000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "破灭奔行"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.monk.martial-arts"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "fire",
+                "cold",
+                "acid",
+                "lightning",
+                "thunder"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "破灭奔行",
+        "_id": "o2oJibZbgT86YFu5"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你处于@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AnW2e54QPdIUAQDV]{元素同调}特性激活期间，你在持续时间内获得以下好处。</p><p><em><strong>伤害抗性。</strong></em>你选择一种伤害类型：强酸，寒冷，火焰，闪电或雷鸣，你获得该伤害类型的抗性。你在每个你的回合开始时可以改变所选择的伤害类型。</p><p><em><strong>破灭奔行。</strong></em>当你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.z5VEfRThm5s9Q2Bs]{快步如风}时，你的速度直到这个回合结束前提升 20 尺。在持续时间内，当你进入到某个生物 5 尺范围内的时候，你可以对其造成相当于你武艺骰的伤害，数量不限。此伤害的类型由你选择：强酸，寒冷，火焰，闪电或雷鸣。一个生物每回合只会受到一次此伤害。</p><p><em><strong>真力注拳。</strong></em>每个你的回合一次，当你用徒手打击命中一个目标时，你可以对其造成相当于你武艺骰的额外伤害。此伤害的类型与此次徒手打击所造成的的伤害类型相同。</p><p class=\"item-original\">Elemental Epitome</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-epitome",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "四象武者"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194970990,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "LhIH4BowFXmeglUZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LhIH4BowFXmeglUZ"
+}

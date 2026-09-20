@@ -1,0 +1,81 @@
+{
+  "folder": "9Z81qGbxJwvn6642",
+  "name": "万众时尚斗篷",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_cloak-of-many-fashions.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>着装此斗篷期间，你可以用一个&amp;Reference[Bonus Action]{附赠动作}改变它的样式、颜色、及外表品质。这件斗篷的重量不会因此改变，且不论它的外观如何，这件斗篷永远只能是一件斗篷而不是别的东西。当然，这件斗篷可以用于复制其他魔法斗篷的外观，但它不会因此具有任何其他魔法斗篷的魔法能力。</p><p class=\"item-original\">Cloak of Many Fashions</p>",
+      "chat": ""
+    },
+    "identifier": "cloak-of-many-fashions",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757297811297,
+    "modifiedTime": 1758199227539,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "oelOlk5wCQYEI4lU",
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!oelOlk5wCQYEI4lU"
+}

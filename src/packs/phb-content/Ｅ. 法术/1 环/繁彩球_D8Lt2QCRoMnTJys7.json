@@ -1,0 +1,187 @@
+{
+  "name": "繁彩球",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_chromatic-orb.webp",
+  "system": {
+    "activities": {
+      "YpNCRr9k3o4tUWGJ": {
+        "type": "attack",
+        "_id": "YpNCRr9k3o4tUWGJ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "poison",
+                "fire",
+                "thunder",
+                "cold",
+                "acid",
+                "lightning"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你向施法距离内某个目标掷出一颗能量球。为所创造的球体从强酸、寒冷、火焰、闪电、毒素、雷鸣中选择一种类型然后对该目标发动一次远程法术攻击。攻击命中时，该目标将受到 3d8 点你所选类型的伤害。</p><p>如果你的两枚及以上 d8 骰子投出相同的数字，能量球跳向原目标 30 尺内你所选择的另一个目标。对新目标进行一次攻击检定，然后进行新的伤害掷骰。除非你以高于 2 环的法术位施展法术，否则能量球不会继续跳跃。</p><p>[[@item.level]]{可跳跃次数}</p><p><em><strong>升环施法。</strong></em>使用高于 1 环的法术位施展该法术时，你使用的法术位每比 1 环高一环，法术的伤害就增加 1d8。能量球能够最多跳跃等于消耗的法术位数目的次数，并且每次施展该法术时，一个生物只能被指定为目标一次。</p><p class=\"item-original\">Chromatic Orb</p>",
+      "chat": ""
+    },
+    "identifier": "chromatic-orb",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一枚价值至少 50 GP 的钻石",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194958554,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "D8Lt2QCRoMnTJys7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!D8Lt2QCRoMnTJys7"
+}

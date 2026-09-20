@@ -1,0 +1,108 @@
+{
+  "name": "怪物：态度",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanEncounter.JournalEntryPage.Qa7LIRWcz3vC9lVb#初始态度]{初始态度}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        4
+      ],
+      "drawn": false,
+      "_id": "I5fndjS6GIhmPDqA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "&amp;Reference[Hostile]{敌对}",
+      "name": "",
+      "_key": "!tables.results!oVa4hGgc5QooTEMT.I5fndjS6GIhmPDqA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        8
+      ],
+      "drawn": false,
+      "_id": "lic3UriXJD8N4o5F",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "&amp;Reference[Indifferent]{冷漠}",
+      "name": "",
+      "_key": "!tables.results!oVa4hGgc5QooTEMT.lic3UriXJD8N4o5F"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "_id": "YBHrYsiwjMaExT50",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "&amp;Reference[Friendly]{友善}",
+      "name": "",
+      "_key": "!tables.results!oVa4hGgc5QooTEMT.YBHrYsiwjMaExT50"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750264482024,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_id": "oVa4hGgc5QooTEMT",
+  "sort": 2600000,
+  "_key": "!tables!oVa4hGgc5QooTEMT"
+}

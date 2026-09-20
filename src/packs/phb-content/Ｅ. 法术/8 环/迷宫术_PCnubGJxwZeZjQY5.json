@@ -1,0 +1,210 @@
+{
+  "name": "迷宫术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_maze.webp",
+  "system": {
+    "activities": {
+      "kIveQyctBF2lVaLC": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "kIveQyctBF2lVaLC",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oQNOA4w80IkzZE7g"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "oQNOA4w80IkzZE7g"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将施法距离内一个你能看见的生物放逐到一个迷宫般错综复杂的半位面。目标将一直留在该处直至法术持续时间结束，或者直到它逃出该迷宫。</p><p>目标可以使用&amp;Reference[Study]{研究}动作尝试逃出迷宫。此时它可以进行一次[[/skill inv 20 format=long]]，检定成功者将逃出迷宫，而该法术随之终止。</p><p>法术终止时，目标将重新出现在它之前消失的位置。如果该位置被占据，则目标出现在最近的未占据位置。</p><p class=\"item-original\">Maze</p>",
+      "chat": ""
+    },
+    "identifier": "maze",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 8,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "放逐",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_maze.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.PCnubGJxwZeZjQY5",
+      "transfer": false,
+      "_id": "oQNOA4w80IkzZE7g",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你被放逐至一个迷宫般错综复杂的半位面。</p><p>你可以使用&amp;Reference[Study]{研究}动作尝试逃出迷宫。此时你可以进行一次[[/skill inv 20 format=long]]，检定成功则你将逃出迷宫，而该法术随之终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1733471662732,
+        "modifiedTime": 1759776091025,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PCnubGJxwZeZjQY5.oQNOA4w80IkzZE7g"
+    }
+  ],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758462503623,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PCnubGJxwZeZjQY5",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!PCnubGJxwZeZjQY5"
+}

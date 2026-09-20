@@ -1,0 +1,323 @@
+{
+  "name": "上古斗士",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_ancients_elder-champion.webp",
+  "system": {
+    "activities": {
+      "nY8Q7kPdhPQKTKQk": {
+        "type": "utility",
+        "_id": "nY8Q7kPdhPQKTKQk",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "8JxJCRFyTRRIWWAf"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "WdW3c8gQuJmSqovT": {
+        "type": "heal",
+        "_id": "WdW3c8gQuJmSqovT",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "复生"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "10"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "复生",
+        "img": "",
+        "appliedEffects": []
+      },
+      "eCBZCBSqRFgA93J2": {
+        "type": "utility",
+        "name": "恢复充能",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复充能"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "eCBZCBSqRFgA93J2"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以用原力盈满你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP]{守护灵光}，灵光获得下列的增益。持续 1 分钟或直到你将之提前结束（无需动作）。当你使用此特性后，直到你完成一次长休前都不能再次使用。你也可以消耗一个 5 环法术位恢复其使用次数（无需动作）。</p><p><em><strong>瓦解反抗。</strong></em>位于你灵光范围内的敌人在对抗你法术或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FOYD6iB6GLdmchH7]{引导神力}选项的豁免上具有劣势。</p><p><em><strong>复生。</strong></em>你在每个自己的回合开始时，恢复 10 点生命值。</p><p><em><strong>迅捷法术。</strong></em>每当你施展一道施法动作为一动作的法术时，你可以将其改为一个附赠动作施展。</p><p class=\"item-original\">Elder Champion</p>",
+      "chat": ""
+    },
+    "identifier": "elder-champion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "古贤之誓"
+  },
+  "effects": [
+    {
+      "name": "上古斗士",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_ancients_elder-champion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ckbzZzsz9xd2W2gQ",
+      "transfer": false,
+      "_id": "8JxJCRFyTRRIWWAf",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内获得下列增益。</p><p><em><strong>瓦解反抗。</strong></em>位于你灵光范围内的敌人在对抗你法术或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FOYD6iB6GLdmchH7]{引导神力}选项的豁免上具有劣势。</p><p><em><strong>复生。</strong></em>你在每个自己的回合开始时，恢复 10 点生命值。</p><p><em><strong>迅捷法术。</strong></em>每当你施展一道施法动作为一动作的法术时，你可以将其改为一个附赠动作施展。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735572161860,
+        "modifiedTime": 1735572211318,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ckbzZzsz9xd2W2gQ.8JxJCRFyTRRIWWAf"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194994522,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ckbzZzsz9xd2W2gQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ckbzZzsz9xd2W2gQ"
+}

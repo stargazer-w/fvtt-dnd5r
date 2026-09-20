@@ -1,0 +1,246 @@
+{
+  "name": "虹光喷射",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_prismatic-spray.webp",
+  "system": {
+    "activities": {
+      "pLiurHzPsIXhQ0jN": {
+        "type": "save",
+        "name": "施法",
+        "_id": "pLiurHzPsIXhQ0jN",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "xaelAVQ7lppZnbAB",
+            "onSave": false
+          },
+          {
+            "_id": "AvXYdoTMoW9QojYw",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>八条光线从你的手上闪出，作用于 60 尺锥形范围。每名位于锥形之中的生物进行一次[[/save]]{敏捷豁免}。为每个目标掷一次 1d8 来决定影响到它的射线种类，参照虹光射线表。</p><table><caption>虹光射线 Prismatic Rays</caption><thead><tr><th>@UUID[Compendium.dnd5e-collection-2024.macros.Macro.TsDE9vHU9j1g6e75]{1d8}</th><th>射线</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td><strong>红。</strong>豁免失败：[[/damage 12d6 fire]]伤害。豁免成功：半伤。</td></tr><tr><td style=\"text-align:center\">2</td><td><strong>橙。</strong>豁免失败：[[/damage 12d6 acid]]伤害。豁免成功：半伤。</td></tr><tr><td style=\"text-align:center\">3</td><td><strong>黄。</strong>豁免失败：[[/damage 12d6 lightning]]伤害。豁免成功：半伤。</td></tr><tr><td style=\"text-align:center\">4</td><td><strong>绿。</strong>豁免失败：[[/damage 12d6 poison]]伤害。豁免成功：半伤。</td></tr><tr><td style=\"text-align:center\">5</td><td><strong>蓝。</strong>豁免失败：[[/damage 12d6 cold]]伤害。豁免成功：半伤。</td></tr><tr><td style=\"text-align:center\">6</td><td><strong>靛。</strong>豁免失败：目标陷入&amp;Reference[restrained]{束缚}状态，且其每个回合结束进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。在累计三次豁免成功后，状态终止。在累计三次豁免失败后，该生物被转化为石头陷入&amp;Reference[petrified]{石化}状态，直到此状态被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>或类似效应解除为止。成功或失败的检定不需要连续；只要记录各情况的次数直至其中一方累计三次为止。</td></tr><tr><td style=\"text-align:center\">7</td><td><strong>紫。</strong>豁免失败：目标陷入&amp;Reference[blinded]{目盲}状态且在下一个你的回合开始时进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。豁免成功，状态终止。豁免失败，状态终止，且该生物会被传送到另一个存在位面（由 DM 选择）。</td></tr><tr><td style=\"text-align:center\">8</td><td><strong>特殊。</strong>目标被两道射线击中。掷两次骰，若有骰子出目为 8 则重骰那颗骰子。</td></tr></tbody></table><p class=\"item-original\">Prismatic Spray</p>",
+      "chat": ""
+    },
+    "identifier": "prismatic-spray",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 7,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cone",
+        "size": "60",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "靛光影响",
+      "img": "icons/magic/light/beam-rays-blue-small.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.fbnhkEs6FmTvwxLy",
+      "transfer": false,
+      "_id": "xaelAVQ7lppZnbAB",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[restrained]{束缚}状态，并且在每个回合结束时需要进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。累计三次豁免成功后，该状态终止。累计三次豁免失败后，你将被转化为石头并陷入&amp;Reference[petrified]{石化}状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733465695014,
+        "modifiedTime": 1734845033159,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!fbnhkEs6FmTvwxLy.xaelAVQ7lppZnbAB"
+    },
+    {
+      "name": "紫光影响",
+      "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.fbnhkEs6FmTvwxLy",
+      "transfer": false,
+      "_id": "AvXYdoTMoW9QojYw",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[blinded]{目盲}状态，并且在下一个你的回合开始时需要进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。豁免成功，状态终止。豁免失败，状态终止，同时你会被传送到另一个存在位面。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733465763569,
+        "modifiedTime": 1734845068152,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!fbnhkEs6FmTvwxLy.AvXYdoTMoW9QojYw"
+    }
+  ],
+  "folder": "ZD0tLDJB0ruk4NDz",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1759938813418,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "fbnhkEs6FmTvwxLy",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!fbnhkEs6FmTvwxLy"
+}

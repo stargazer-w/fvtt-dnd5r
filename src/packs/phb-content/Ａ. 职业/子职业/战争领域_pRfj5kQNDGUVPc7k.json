@@ -1,0 +1,116 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "战争领域",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/cleric_war.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>激昂气概，击溃仇敌</p></blockquote><p>战争有多种表现形式。它令普通人成就英雄，也能带来绝望与恐惧；战争伴随着残忍与懦弱，却也交织着卓越与勇气。踏入战争领域之路的牧师们精于战斗，激励着他人在战斗中赢得荣耀——亦或是将暴行作为祭礼献上。</p><p>战争领域诸神守望着勇士们，并为他们伟大的事迹作出奖赏。战争之神的行列中有充满荣誉和骑士精神的勇者，亦也有破坏和掠夺的拥簇。其他战争神则采取更中立的立场，促进一切形式的战争，并在任何境遇下支持着武者们。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.r6CueEIytzMeRwwo]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pRfj5kQNDGUVPc7k]{War Domain}</p>",
+      "chat": ""
+    },
+    "identifier": "war",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.lOEfXsIAsqGzZoq9"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.21oXH4ibyA5so2FL"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.9kLcQyqoADiewu6u"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.msFRGJ7azvqEF4ok"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "jM2yiPBeKuGGURGo"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.C8rz6H1Ih7DQVSHk"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "2PgOL3lf94v7NVxL"
+      }
+    ],
+    "classIdentifier": "cleric",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777310672146,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "pRfj5kQNDGUVPc7k",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pRfj5kQNDGUVPc7k"
+}

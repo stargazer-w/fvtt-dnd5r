@@ -1,0 +1,199 @@
+{
+  "name": "寻获坐骑",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_find-steed.webp",
+  "system": {
+    "activities": {
+      "HFl0GvAfOWAh84RX": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "HFl0GvAfOWAh84RX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "@item.level",
+          "hp": "10 * @item.level",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": "@item.level"
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "uagO18BgjrLegNAx",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.WzByj8IYrBj3SPQr",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "pUJxWkq3z2Mgslrp",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.N8tM5EWQvJVtxLjb",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "",
+            "_id": "7Z3yR58753kdFY3w",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.GeJMAnfHOcc3YSS3",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你召唤某个异界存在作为忠诚坐骑，坐骑会出现在施法范围内你选择的未占空间中。此生物使用异界坐骑数据。如果你已经有一只以此法术获得的坐骑，则其会被新坐骑替代。</p><p>坐骑看起来像一匹大型的可骑乘动物（由你选择），比如一匹马，一头骆驼，一只恐狼或一头驼鹿。你在施展此法术时从下述三种生物类型中选择坐骑的生物类型：天族，妖精或邪魔，其数据中的特定特质由坐骑的生物类型决定。</p><p><em><strong>战斗。</strong></em>坐骑是你和你盟友的盟友。战斗时，它共用你的先攻，并在你骑乘它期间视同受控坐骑（如骑乘战斗规则中所定义）。如果你具有失能状态，则坐骑会在你的回合之后立刻进行自己的回合并独立行动，集中精力保护你。</p><p><em><strong>坐骑的消失。</strong></em>坐骑在其降至 0 生命值或你死亡时会消失。当它消失时，它会将自己穿着或携带的任何物品留下。如果你再次施展此法术，你决定是重新召唤消失的那头坐骑还是召唤一头不同的。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.WzByj8IYrBj3SPQr inline]</p></details><p><em><strong>升环施法。</strong></em>在生物数据中使用更高的法术环阶。</p><p class=\"item-original\">Find Steed</p>",
+      "chat": ""
+    },
+    "identifier": "find-steed",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7ugS7EkGw9MsJlfU",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194999931,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gBQVYt5Fl1XzRKdQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gBQVYt5Fl1XzRKdQ"
+}

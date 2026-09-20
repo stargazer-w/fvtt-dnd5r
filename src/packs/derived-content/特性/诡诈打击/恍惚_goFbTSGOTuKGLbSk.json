@@ -1,0 +1,58 @@
+{
+  "name": "恍惚",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_daze.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>偷袭骰花费：2d6</em></p><p>目标必须通过一个成功的[[/save con]]{体质豁免}，否则该目标的下一回合只能选择下列行为中的一项：移动、执行一个动作或执行一个附赠动作。</p><p class=\"item-original\">Daze, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ebaYPUViLr4uCmid]{Cunning Strike}</p>",
+      "chat": ""
+    },
+    "identifier": "daze",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "qH2bnZMa3kZarYPJ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1734075431065,
+    "modifiedTime": 1777116583921,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "goFbTSGOTuKGLbSk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_key": "!items!goFbTSGOTuKGLbSk"
+}

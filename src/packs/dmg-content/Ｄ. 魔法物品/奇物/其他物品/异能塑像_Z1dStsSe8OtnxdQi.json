@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "异能塑像",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_figurine-of-wondrous-power.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，多种稀有度</em></p><p>异能塑像是小到可以装在口袋里的小雕塑。当你用一个&amp;Reference[Magic]{魔法}动作来将雕像扔到你周围 60 尺以内的某处时，它将变成一只活体生物（见下文对每种雕像的描述）。如果雕像被扔到的地方被其他生物或物件占据，或者周围的空间不足以容纳该雕像变成的生物，则它将不会变成生物。</p><p>雕像变成的生物对你和你的盟友态度为友善。它能听懂你的语言并会按你的口头命令行事，使用你的先攻并在你回合结束后立即执行其回合。如果你不下达任何命令，则该生物会保护自己而不作其他动作。</p><p>生物存在的时间依雕像而不同。持续时间结束时，生物将变回异能塑像形态。当它的生命值降至 0，或是你在触碰它期间用一个&amp;Reference[Magic]{魔法}动作令其变回雕像时，它亦将提前变回雕像状态。变回雕像后，异能塑像的词条必须经过一段时间后才能再次启动（见下文对每种雕像的描述）。</p><aside style=\"display:flex;flex-wrap:wrap\"><div style=\"flex:1 1 33%\"><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.2A3iVRn4ndjkztNU]{青铜狮鹫（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.beMv047rc6su14wQ]{黑檀苍蝇（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.22iESc2uWs0ZjOdF]{黄金狮子（珍稀）}</p></div><div style=\"flex:1 1 33%\"><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.zC21hjUbP024Jnoh]{象牙山羊（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kk2jgyXg0omAUuZX]{大理石象（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wXS9yYmky2BIvFpg]{黑曜石驹（极珍稀）}</p></div><div style=\"flex:1 1 33%\"><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.tobkh0ip36QRomvD]{玛瑙狗狗（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.YvTeEG4cl5bAObQH]{蛇纹石鸮（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.OwZYNCn8P2av7ssb]{白银渡鸦（非普通）}</p></div></aside><p class=\"item-original\">Figurine of Wondrous Power</p>",
+      "chat": ""
+    },
+    "identifier": "figurine-of-wondrous-power",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895670405,
+    "modifiedTime": 1761897178435,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Z1dStsSe8OtnxdQi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!Z1dStsSe8OtnxdQi"
+}

@@ -1,0 +1,198 @@
+{
+  "folder": "6JMzhFrzTa0JCYLX",
+  "name": "吸矢盾",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_arrow-catching-shield.webp",
+  "system": {
+    "activities": {
+      "6ttf6BMNDE7naPjg": {
+        "type": "utility",
+        "name": "拦截攻击",
+        "_id": "6ttf6BMNDE7naPjg",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": "当一个攻击者对你周围 5 尺内的目标发动远程攻击时"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "5",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（盾牌），珍稀（需同调）</em></p><p>持握此盾牌期间，你对抗远程攻击的 AC 具有 +2 加值。该加值将加在盾牌通常提供的 AC 加值上。</p><p>此外，当一个攻击者对你周围 5 尺内的目标发动远程攻击时，你可以执行&amp;Reference[Reaction]{反应}以替代该目标成为此次攻击的目标。</p><p class=\"item-original\">Arrow-Catching Shield</p>",
+      "chat": ""
+    },
+    "identifier": "arrow-catching-shield",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "armor": {
+      "value": 2,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "防御加值",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.WoXaD8JTNNUrCoId",
+      "_id": "JAVtKUyCBTqpZLAk",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751721676474,
+        "modifiedTime": 1759751277887,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!WoXaD8JTNNUrCoId.JAVtKUyCBTqpZLAk"
+    }
+  ],
+  "sort": 212500,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751525727028,
+    "modifiedTime": 1758199221045,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "WoXaD8JTNNUrCoId",
+  "_key": "!items!WoXaD8JTNNUrCoId"
+}

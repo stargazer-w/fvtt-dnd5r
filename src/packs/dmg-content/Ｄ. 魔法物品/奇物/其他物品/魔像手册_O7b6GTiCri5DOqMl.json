@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "魔像手册",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_manual-of-golems.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，极珍稀</em></p><p>这本手册记载了制造某种特定类型魔像所必需的知识和秘文，魔像的类型由 DM 选择或在表格中随机掷骰决定。只有拥有至少两个 5 环法术位的施法者才能解读并使用这本书。若无法解读这本书的生物尝试阅读<em>魔像手册</em>，该生物将受到[[/damage 6d6 psychic]]伤害。</p><p>要制造一个魔像，你必须花费表格中标注的时间，将<em>魔像手册</em>放在手头并不间断地工作，每天的休息时间不超过 8 小时。此外，你还要付出表格中标注的金钱用以购买材料。</p><p>魔像完工后，<em>魔像手册</em>将被魔焰吞噬。当你把手册的灰烬洒在魔像上时，魔像将被活化。它服从你的控制，理解并听从你的命令。</p><table><thead><tr><th>[[/r 1d20]]</th><th>魔像</th><th>时间</th><th>花费</th></tr></thead><tbody><tr><td>1–5</td><td>粘土魔像</td><td>30 日</td><td>65,000 GP</td></tr><tr><td>6–17</td><td>肉身魔像</td><td>60 日</td><td>50,000 GP</td></tr><tr><td>18</td><td>钢铁魔像</td><td>120 日</td><td>100,000 GP</td></tr><tr><td>19–20</td><td>石魔像</td><td>90 日</td><td>80,000 GP</td></tr></tbody></table><p class=\"item-original\">Manual of Golems</p>",
+      "chat": ""
+    },
+    "identifier": "manual-of-golems",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895695988,
+    "modifiedTime": 1761895874800,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "O7b6GTiCri5DOqMl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!O7b6GTiCri5DOqMl"
+}

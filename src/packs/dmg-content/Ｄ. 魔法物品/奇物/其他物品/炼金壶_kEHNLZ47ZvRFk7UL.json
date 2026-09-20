@@ -1,0 +1,81 @@
+{
+  "name": "炼金壶",
+  "type": "container",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_alchemy-jug.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这种陶制壶看起来可以承装 1 加仑的液体，但无论壶中是空还是满，其重量都是 12 磅。不论壶内有没有液体，摇动它时也依然会发出液体晃动的声音。</p><p>你可以用一个&amp;Reference[Magic]{魔法}动作从炼金壶液体表中选择并说出一种液体的名称，这个壶将立刻开始产出你指定的液体。然后，你可以用一个&amp;Reference[Utilize]{操作}动作打开炼金壶，并以每分钟 2 加仑的速度倒出液体。壶中最多可以产出的液体质量取决于你指定的液体类型。</p><p>一旦此壶开始生成液体，直到次日黎明前，它无法产出另一种液体，也无法产出超过其对应最大产量的液体。</p><table><caption>炼金壶液体 Alchemy Jug Liquids</caption><thead><tr><th>液体名</th><th>最大产量</th></tr></thead><tbody><tr><td>强酸</td><td>8 盎司</td></tr><tr><td>基础毒药</td><td>4 盎司</td></tr><tr><td>啤酒</td><td>4 加仑</td></tr><tr><td>蜂蜜</td><td>1 加仑</td></tr><tr><td>蛋黄酱</td><td>2 加仑</td></tr><tr><td>油（灯油）</td><td>1 夸脱</td></tr><tr><td>醋</td><td>2 加仑</td></tr><tr><td>淡水</td><td>8 加仑</td></tr><tr><td>咸水</td><td>12 加仑</td></tr><tr><td>葡萄酒</td><td>1 加仑</td></tr></tbody></table><p class=\"item-original\">Alchemy Jug</p>",
+      "chat": ""
+    },
+    "identifier": "alchemy-jug",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 12,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "capacity": {
+      "count": null,
+      "volume": {
+        "value": null,
+        "units": "cubicFoot"
+      },
+      "weight": {
+        "value": null,
+        "units": "lb"
+      }
+    },
+    "properties": [
+      "mgc",
+      "weightlessContents"
+    ]
+  },
+  "effects": [],
+  "folder": "Rpy4irTRAink9Ehk",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "kEHNLZ47ZvRFk7UL",
+  "sort": 3800000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!kEHNLZ47ZvRFk7UL"
+}

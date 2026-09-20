@@ -1,0 +1,1389 @@
+{
+  "name": "屠杀弹药",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_ammunition-of-slaying.webp",
+  "system": {
+    "activities": {
+      "0yIP8CDEYRK7Htyw": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "vqXbVEwn36jyCFYc",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "Z5UCHobRz82QdY2c",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "B35WuQPZdD3I0flf",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "oz9YbfIQZbDe7tAW",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "wGDc8wNT8NZBzEnl",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "XAPi7XPfEOgN50Ta",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "mNMqGwUmV0kA88ky",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "4r4AsWgMLWyQtUuI",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "X5JdHnJKjXGvV7dU",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "AaxQt2dmEBtiLa1O",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "pKI59xGeVeln8ZXJ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "TvswfwFY1DimEE7N",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "zL1VjowVVlAkECvG",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "XA1Tgrpfmy8YAwyI",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "a2yapzMfiAbBFlv6"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "0yIP8CDEYRK7Htyw"
+      },
+      "a2yapzMfiAbBFlv6": {
+        "type": "save",
+        "_id": "a2yapzMfiAbBFlv6",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "force"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": false,
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（任意弹药），极珍稀</em></p><p>此魔法弹药专门用于杀死某种特定生物，其生物类型由 DM 选择或在以下表格中随机决定。当对应类型的生物受到该弹药的伤害时，其进行一次[[/save format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p><table><thead><tr><th>[[/r 1d100]]</th><th>生物类型</th></tr></thead><tbody><tr><td>01–10</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.vqXbVEwn36jyCFYc]{异怪}</td></tr><tr><td>11–15</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.Z5UCHobRz82QdY2c]{野兽}</td></tr><tr><td>16–20</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.B35WuQPZdD3I0flf]{天界}</td></tr><tr><td>21–25</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.oz9YbfIQZbDe7tAW]{构装}</td></tr><tr><td>26–35</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.wGDc8wNT8NZBzEnl]{龙类}</td></tr><tr><td>36–45</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.XAPi7XPfEOgN50Ta]{元素}</td></tr><tr><td>46–50</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.mNMqGwUmV0kA88ky]{类人}</td></tr><tr><td>51–60</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.4r4AsWgMLWyQtUuI]{妖精}</td></tr><tr><td>61–70</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.X5JdHnJKjXGvV7dU]{邪魔}</td></tr><tr><td>71–75</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.AaxQt2dmEBtiLa1O]{巨人}</td></tr><tr><td>76–80</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.pKI59xGeVeln8ZXJ]{怪兽}</td></tr><tr><td>81–85</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.TvswfwFY1DimEE7N]{泥怪}</td></tr><tr><td>86–90</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.zL1VjowVVlAkECvG]{植物}</td></tr><tr><td>91–00</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X6sj5e8xCy8KKK1v.ActiveEffect.XA1Tgrpfmy8YAwyI]{亡灵}</td></tr></tbody></table><p class=\"item-original\">Ammunition of Slaying</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "ammunition-of-slaying",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "ammo",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": []
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（异怪）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "vqXbVEwn36jyCFYc",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（异怪）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738598187,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.vqXbVEwn36jyCFYc"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（野兽）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（野兽）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738600628,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "Z5UCHobRz82QdY2c",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.Z5UCHobRz82QdY2c"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（天界）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（天界）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738602848,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "B35WuQPZdD3I0flf",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.B35WuQPZdD3I0flf"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（构装）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（构装）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738604924,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "oz9YbfIQZbDe7tAW",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.oz9YbfIQZbDe7tAW"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（龙类）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（龙类）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738607029,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "wGDc8wNT8NZBzEnl",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.wGDc8wNT8NZBzEnl"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（元素）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（元素）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738609160,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "XAPi7XPfEOgN50Ta",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.XAPi7XPfEOgN50Ta"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（类人）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（类人）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738611454,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "mNMqGwUmV0kA88ky",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.mNMqGwUmV0kA88ky"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（妖精）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（妖精）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738613402,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "4r4AsWgMLWyQtUuI",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.4r4AsWgMLWyQtUuI"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（邪魔）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（邪魔）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738616133,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "X5JdHnJKjXGvV7dU",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.X5JdHnJKjXGvV7dU"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（巨人）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（巨人）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738618049,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "AaxQt2dmEBtiLa1O",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.AaxQt2dmEBtiLa1O"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（怪兽）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（怪兽）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738620169,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "pKI59xGeVeln8ZXJ",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.pKI59xGeVeln8ZXJ"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（泥怪）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（泥怪）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738622428,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "TvswfwFY1DimEE7N",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.TvswfwFY1DimEE7N"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（植物）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（植物）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738624430,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "zL1VjowVVlAkECvG",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.zL1VjowVVlAkECvG"
+    },
+    {
+      "type": "enchantment",
+      "name": "屠杀弹药（亡灵）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "屠杀{}（亡灵）",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀</em></p><p>当对应类型的生物受到该弹药的伤害时，其进行一次[[/save con 17 format=long]]，失败则受到 6d10 点力场伤害，成功时则只受半伤。</p><p>此弹药一旦对某生物造成了额外伤害，就会变为非魔法的弹药。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738626779,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "XA1Tgrpfmy8YAwyI",
+      "_key": "!items.effects!X6sj5e8xCy8KKK1v.XA1Tgrpfmy8YAwyI"
+    }
+  ],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "a2yapzMfiAbBFlv6"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758464067745,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "X6sj5e8xCy8KKK1v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!X6sj5e8xCy8KKK1v"
+}

@@ -1,0 +1,81 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "夸力许装置",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_apparatus-of-kwalish.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，传说</em></p><p>这个物品乍一看是个重达 500 磅的密封铁桶。成功通过一次[[/skill inv 20 format=long]]后可以发现铁桶上有一个隐藏的卡扣。解开卡扣将打开桶一端的舱门，其大小可以让两名体型不超过中型的生物爬入。桶体远端是排成一行的十根拉杆。每根拉杆都在中间档位，可以上下推拉。特定拉杆被拉动时，装置将变形成类似巨大龙虾的外形。</p><p>夸力许装置是一个大型物件，并具有以下数据：AC 20；HP 200；速度 30 尺，游泳速度 30 尺（若装置腿部未展开则均为 0 尺）；免疫毒素和心灵伤害。</p><p>夸力许装置用作载具时需要一名驾驶员。装置舱门闭合期间，舱内属于气密和水密状态。舱内的空气总量可供一名生物呼吸 10 小时，由舱内生物平摊。</p><p>此装置可以在水面上漂浮，也可以潜入至多 900 尺深的水底。处于更深水域期间，载具因高压每分钟承受 2d6 钝击伤害。</p><p>舱内的生物能够以一个&amp;Reference[Utilize]{操作}动作同时推拉至多两根拉杆。每次操作后，拉杆回归中间档位。从左到右每根拉杆的功能如夸力许装置拉杆表所示。</p><table><caption>夸力许装置拉杆 Apparatus of Kwalish Levers</caption><thead><tr><th style=\"white-space:nowrap\">拉杆</th><th>上推</th><th>下拉</th></tr></thead><tbody><tr><td>1</td><td>展开腿部，使装置可以步行或游泳。</td><td>收起腿部，使装置的速度和游泳速度降低至 0 并使装置无法获得任何提升速度的增益。</td></tr><tr><td>2</td><td>打开前窗。</td><td>关闭前窗。</td></tr><tr><td>3</td><td>打开舱侧百叶窗（每侧两扇）。</td><td>关闭舱侧百叶窗（每侧两扇）。</td></tr><tr><td>4</td><td>展开装置前部的两只钳爪。</td><td>收起钳爪。</td></tr><tr><td>5</td><td>每只钳爪发动如下近战攻击：+8，触及 5 尺。<em>命中：</em>7（2d6）钝击伤害。</td><td>每只钳爪发动如下近战攻击：+8，触及 5 尺。<em>命中：</em>目标陷入&amp;Reference[grappled]{受擒}状态（逃脱 DC 15）。</td></tr><tr><td>6</td><td>若腿部已展开，装置向前步行或游泳。</td><td>若腿部已展开，装置向后步行或游泳。</td></tr><tr><td>7</td><td>若腿部已展开，装置逆时针转 90 度。</td><td>若腿部已展开，装置顺时针转 90 度。</td></tr><tr><td>8</td><td>眼状部件发出半径 30 尺的明亮光照以及额外 30 尺的微光光照。</td><td>停止发光。</td></tr><tr><td>9</td><td>若处于液体中，装置下沉至多 20 尺。</td><td>若处于液体中，装置上浮至多 20 尺。</td></tr><tr><td>10</td><td>解开后部卡扣并打开舱门。</td><td>关闭后部卡扣并密封舱门。</td></tr></tbody></table><p class=\"item-original\">Apparatus of Kwalish</p>",
+      "chat": ""
+    },
+    "identifier": "apparatus-of-kwalish",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 500,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895685521,
+    "modifiedTime": 1761895877321,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "jfQCaJYeJz19aUCa",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!jfQCaJYeJz19aUCa"
+}

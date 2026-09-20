@@ -1,0 +1,308 @@
+{
+  "name": "恐惧之锤",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_mace-of-terror.webp",
+  "system": {
+    "activities": {
+      "gW1GOymFGaqjJ6x2": {
+        "_id": "gW1GOymFGaqjJ6x2",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      },
+      "oJgKEHkMCHYLZYtw": {
+        "type": "save",
+        "name": "恐惧波动",
+        "_id": "oJgKEHkMCHYLZYtw",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "WS7XMqYeg3b9rug7",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "radius",
+            "size": "30"
+          },
+          "affects": {
+            "choice": true,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FGjUVf3Ed9zjarRt]{硬头锤}），珍稀（需同调）</em></p><p>这把魔法武器具有 3 充能，并在每日黎明时重获 1d3 已消耗的充能。持握这把武器期间，你可以使用一个&amp;Reference[Magic]{魔法}动作并消耗 1 充能，来从该武器中释放出一股恐惧波动。30 尺内每个你所选择的生物都必须成功通过一次[[/save format=long]]，否则将陷入&amp;Reference[frightened]{恐慌}状态，持续 1 分钟。以这种方式陷入恐慌的生物在其回合内必须尽可能地向远离你的方向移动，并且其不能发动借机攻击。你只能选择进行&amp;Reference[Dash]{疾走}动作，或尝试摆脱一个阻止其移动的效应。如果无处可逃，则它可以执行&amp;Reference[Dodge]{回避}动作。该生物在每个自己的回合结束时可以再次进行此豁免，豁免成功则其身上的该效应提前结束。</p><p class=\"item-original\">Mace of Terror</p>",
+      "chat": ""
+    },
+    "identifier": "mace-of-terror",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "simpleM",
+      "baseItem": "mace"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "sap"
+  },
+  "effects": [
+    {
+      "name": "畏惧",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_physical.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.Ksfvf9qxQyo74h9t",
+      "transfer": false,
+      "_id": "WS7XMqYeg3b9rug7",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[frightened]{恐慌}状态。</p><p>你在回合内必须尽可能地移动，以远离恐慌来源。</p><p>你不能发动借机攻击，并且只能选择进行&amp;Reference[Dash]{疾走}动作，或尝试摆脱一个阻止你移动的效应。</p><p>在每个你的回合结束时，你可以进行一次[[/save wis 15 format=long]]，豁免成功则该效应提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759901306618,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Ksfvf9qxQyo74h9t.WS7XMqYeg3b9rug7"
+    }
+  ],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752330678648,
+    "modifiedTime": 1758726984210,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Ksfvf9qxQyo74h9t",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!Ksfvf9qxQyo74h9t"
+}

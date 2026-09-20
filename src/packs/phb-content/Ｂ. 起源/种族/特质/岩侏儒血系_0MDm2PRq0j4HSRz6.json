@@ -1,0 +1,91 @@
+{
+  "name": "岩侏儒血系",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_gnome_rock-gnome-lineage.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NIAbAPgT8OE60Gxi]{修复术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n]{魔法伎俩}</em>戏法。此外，你可以花费 10 分钟时间，通过施展<em>魔法伎俩</em>法术来创造一个微型发条装置（AC 5，1 HP），比如一件玩具，一个打火机，或一个音乐盒。当你创造这个设备时，你可以从<em>魔法伎俩</em>戏法中选择一个效果来决定它的功能；当你或其他生物使用&amp;Reference[Bonus Action]{附赠动作}触碰该装置并激活它时，该装置就会产生效果。如果选择的效果存在选项，则在创建时选择其中一项应用。例如，你选择法术中的点燃或熄灭效果，就要决定设备是用来点火还是熄火的；一台设备不能做到两个功能。你同时最多拥有三台这样的装置，每一个都会在被创建出来的 8 小时后解体消失。你也可以触摸你的一台设备，用一个&amp;Reference[utilize]{利用}动作将其拆除。</p><p class=\"item-original\">Rock Gnome Lineage</p>",
+      "chat": ""
+    },
+    "identifier": "rock-gnome-lineage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "侏儒 (岩石侏儒)",
+    "advancement": [
+      {
+        "_id": "8A3QDyCw8iskFeP2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.NIAbAPgT8OE60Gxi"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0,
+            "method": ""
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "岩侏儒血系",
+        "hint": "你习得以下戏法。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_gnome_rock-gnome-lineage.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "VSjOI4J3tkyhH9Sb",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730900207583,
+    "modifiedTime": 1777697719567,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "0MDm2PRq0j4HSRz6",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!0MDm2PRq0j4HSRz6"
+}

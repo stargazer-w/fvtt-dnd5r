@@ -1,0 +1,178 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "魂刃",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/rogue_soulknife.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>以念为刃屠戮敌手</p></blockquote><p>魂刃杀手们将意念化作刺杀敌人们的武器，割裂那些阻碍他们的物理和心灵障碍。这些游荡者们从内心之中发掘出灵能之力，并且引导灵能来协助他们的老本行。身为一名魂刃者，你的灵能可能从你还是个孩子的时候就一直伴随着你，直到你在面临冒险的压力时才显露潜能。或者你可能找到了一个隐居的灵能修士团，花了很多年的时间学习如何显现你的力量。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.ktzTbf5xQEp9qm2c]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gmUXBDb8GL8xCpin]{Soulknife}</p>",
+      "chat": ""
+    },
+    "identifier": "soulknife",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.BecgqFf5aN7RLyKH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.o7HkNtgSyGGRD3dU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.OwUXfKqnAPDWhti4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "AJKQMPocFc9KbeVt"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.O6zM0sPFViWpeZJZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "y2ntu1HCtZCGnovj"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.3t8qNrafyFxkJTzA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "uH3t1XNwlFIkeRSv"
+      },
+      {
+        "_id": "vzAj9DVM39AAA9WA",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "psionic-energy",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 6,
+              "faces": 8,
+              "modifiers": []
+            },
+            "9": {
+              "number": 8,
+              "faces": 8,
+              "modifiers": []
+            },
+            "11": {
+              "number": 8,
+              "faces": 10,
+              "modifiers": []
+            },
+            "13": {
+              "number": 10,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": 12,
+              "faces": 12,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "灵能力量：灵能骰",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ],
+    "classIdentifier": "rogue",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777657403306,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "gmUXBDb8GL8xCpin",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gmUXBDb8GL8xCpin"
+}

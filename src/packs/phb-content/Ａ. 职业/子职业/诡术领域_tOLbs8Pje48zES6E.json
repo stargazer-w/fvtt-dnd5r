@@ -1,0 +1,116 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "诡术领域",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/cleric_trickery.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>挑起闹剧，直面权威</p></blockquote><p>诡术领域提供了欺诈、幻觉与隐匿的魔法。驾驭此等魔法的牧师是世界的颠覆者，他们打击骄傲者的自尊，嘲弄暴君，窃盗富人，释放俘虏，并且蔑视毫无意义的传统。他们喜欢花言巧语、恶作剧、欺骗和盗窃要远远多于正面对抗。</p><p>诡术之神们均是恶作剧者，同时也是挑拨凡人或神明去颠覆现有秩序的煽动者。祂们是变革与动荡的具现，亦是小偷、恶棍、赌徒、叛乱者和解放者的庇护人。在暗中运作的教团，尤其是反抗高压的政府或社会体系的那些，也同样利用着来自诡术领域的力量。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.G4wCgd6yslvpvKyN]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tOLbs8Pje48zES6E]{Trickery Domain}</p>",
+      "chat": ""
+    },
+    "identifier": "trickery",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.YUfQScgcByThnyK0"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.YNTaLs80xixvYOc7"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.AOjp1K6jVgnQXqaa"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.6npKO1nSdZBV2WN8"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "aLd8uzn7fGH1eEWh"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Ec4K7O7BOW0NT29W"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "XvdDZIZyHmPL829C"
+      }
+    ],
+    "classIdentifier": "cleric",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777310566850,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "tOLbs8Pje48zES6E",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tOLbs8Pje48zES6E"
+}

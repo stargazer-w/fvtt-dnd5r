@@ -1,0 +1,128 @@
+{
+  "name": "珠宝匠工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>智力　　　<strong>重量：</strong>2 磅</p><p><strong>操作：</strong>判断珠宝价值（DC 15）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#奥术法器-arcane-focus（多类）]{奥术法器}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#圣徽-holy-symbol（多类）]{圣徽}</p><p class=\"item-original\">Jeweler's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "jeweler"
+    },
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "SvQziHzbf5x2teXF": {
+        "type": "check",
+        "_id": "SvQziHzbf5x2teXF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "jewelers-tools"
+  },
+  "type": "tool",
+  "folder": "V8KHbNkEWoXQP3Pj",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_jewelers-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758194992019,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "amcwWI0eB6uhxTx4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!amcwWI0eB6uhxTx4"
+}

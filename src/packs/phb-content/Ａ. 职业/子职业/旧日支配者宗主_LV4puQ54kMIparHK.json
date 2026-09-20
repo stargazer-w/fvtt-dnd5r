@@ -1,0 +1,139 @@
+{
+  "folder": "2sxemufL4ofHCqZT",
+  "name": "旧日支配者宗主",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/warlock_great-old-one.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>洞见不可名状的存在与知识</p></blockquote><p>当你选择此子职业时，你可能缚身遥远国度中的不可名状之存在，或是只在传说中出现过的失落古神——诸如潜伏者关纳德；受缚之神萨瑞兹顿；暗夜巨蛇丹德尔；归来者扎贡；伟大克苏鲁；或是其它不可观测的冷漠存在。或者，你靠着骇异的学识祈唤众多此等存在之名，并择取一位，与之结合。此等存在行为无法让凡人理解，这些旧日支配者可能完全没有意识到你的存在，或是对你的存在无动于衷——但你所学的神秘知识让你得以从其身上获得魔法。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.qQFJw2Bq3aVeCVNp]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LV4puQ54kMIparHK]{Great Old One Patron}</p>",
+      "chat": ""
+    },
+    "identifier": "great-old-one",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.XdZbuvfJSiC2sW5P",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.lXzBlset36oKjZXY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fhlgn4XhlGHxQDBP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.4W9QGPq2R2OCRlnG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "8nNoHtjcHl2GCD0O"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.BpKs3YvZVGVSjkqR",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5ixosNwl3fpYtkjP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "OEFNNcpoKdHdA8La"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.JpXCady1b9Beqbgi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "luutSoyj1Zxnwmgt"
+      }
+    ],
+    "classIdentifier": "warlock",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777581702737,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "LV4puQ54kMIparHK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LV4puQ54kMIparHK"
+}

@@ -1,0 +1,161 @@
+{
+  "name": "烟火魔杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WAND_wand-of-pyrotechnics.webp",
+  "system": {
+    "activities": {
+      "ieSdAHDr0rS4Fciy": {
+        "type": "utility",
+        "name": "创造闪光",
+        "_id": "ieSdAHDr0rS4Fciy",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d6 + 1"
+        }
+      ],
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m5sVvygLw8QzMyh5]{魔杖}，普通</em></p><p>这根魔杖具有 7 充能。持握它时，你可以执行&amp;Reference[Magic]{魔法}动作并消耗 1 充能，在离你至多 120 尺处你可见的一点创造出一束无害的多彩亮光。亮光迸发时会伴随着 300 尺之内都能听见的响亮爆鸣声。该光芒的亮度如火把一般，但只持续 1 秒。</p><p><em><strong>重获充能。</strong></em>这根魔杖在每日黎明时重获 1d6 + 1 已消耗的充能。当充能数耗尽时，骰 1d20。如果骰值为 1，魔杖将化作飞灰并被摧毁。</p><p class=\"item-original\">Wand of Pyrotechnics</p>",
+      "chat": ""
+    },
+    "identifier": "wand-of-pyrotechnics",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wand",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "folder": "h2b5ch98Ez0wNh5u",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756796899956,
+    "modifiedTime": 1758199225066,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iLXRuqYjlVl4mmrq",
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!iLXRuqYjlVl4mmrq"
+}

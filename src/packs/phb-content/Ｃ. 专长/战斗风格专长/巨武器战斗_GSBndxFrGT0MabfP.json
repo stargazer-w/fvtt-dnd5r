@@ -1,0 +1,60 @@
+{
+  "name": "巨武器战斗",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_fightingStyle_great-weapon-fighting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>战斗风格专长（先决：战斗风格特性）</em></p><p>当你发动了一次攻击并为其造成的伤害进行掷骰时，如果这次攻击是由一把双手持用的近战武器发动的，你可以将伤害骰中的任何 1 和 2 都视作 3。但这把武器必须拥有双手或多用词条才能享受这个增益。</p><p class=\"item-original\">Great Weapon Fighting</p>",
+      "chat": ""
+    },
+    "identifier": "great-weapon-fighting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "folder": "pTYWyQMNZJCX8U8j",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049483016,
+    "modifiedTime": 1775978999576,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "GSBndxFrGT0MabfP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!GSBndxFrGT0MabfP"
+}

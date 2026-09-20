@@ -1,0 +1,143 @@
+{
+  "name": "创造半位面",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_demiplane.webp",
+  "system": {
+    "activities": {
+      "mfbIXY6PR7grqRW4": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "mfbIXY6PR7grqRW4",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在施法距离内你可见的一处平坦固体表面上创造一扇虚幻的中型门。这扇通向半位面的门可以被关闭和开启。半位面是一间各边均长 30 尺，木质或石质（由你选择）的空房间。</p><p>法术终止时，门消失不见，任何仍然位于半位面中的物件会留在内部。任何仍然位于半位面中的生物也会留在那里，除非他们选择在门消失的时候被抛出，在距门先前占据的空间中最近的未占空间中落地，陷入&amp;Reference[prone]{倒地}状态。</p><p>你每次施展此法术时都可以创造一个新的半位面，也可以将门连向你先前用此法术创造的半位面。此外，如果你知晓了某个其他生物用此法术创造的半位面的本质和内容物，则你也可以通过此法术连接到那里。</p><p class=\"item-original\">Demiplane</p>",
+      "chat": ""
+    },
+    "identifier": "demiplane",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 8,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "2i2niadUGLaLno0G",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195023829,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "vePD423lF9FnIeo9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!vePD423lF9FnIeo9"
+}

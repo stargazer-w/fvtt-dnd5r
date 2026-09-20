@@ -1,0 +1,145 @@
+{
+  "name": "重甲大师",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_heavy-armor-master.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，重甲受训）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的体质或力量提升 1，最多为 20。</p><p><em><strong>伤害减免。</strong></em>当你穿着重甲被一次攻击命中时，该次攻击对你造成的任何钝击、穿刺或挥砍伤害皆减去你的熟练加值。</p><p class=\"item-original\">Heavy Armor Master</p>",
+      "chat": ""
+    },
+    "identifier": "heavy-armor-master",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的体质或力量提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "伤害减免",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_heavy-armor-master.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.yU8jAOkxWWl9qtvx",
+      "_id": "nbzAOg9p716ADsXQ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dm.amount.bludgeoning",
+          "mode": 2,
+          "value": "- (@prof)",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dm.amount.piercing",
+          "mode": 2,
+          "value": "- (@prof)",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dm.amount.slashing",
+          "mode": 2,
+          "value": "- (@prof)",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736659734274,
+        "modifiedTime": 1736665759397,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!yU8jAOkxWWl9qtvx.nbzAOg9p716ADsXQ"
+    }
+  ],
+  "folder": "uXMklfeD4yRyPxoQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1758195028947,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "yU8jAOkxWWl9qtvx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!yU8jAOkxWWl9qtvx"
+}

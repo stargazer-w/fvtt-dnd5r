@@ -1,0 +1,219 @@
+{
+  "name": "盾牌大师",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_shield-master.webp",
+  "system": {
+    "activities": {
+      "2sy7W4JnhwjPS9ft": {
+        "type": "save",
+        "name": "盾击",
+        "_id": "2sy7W4JnhwjPS9ft",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "盾击"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "str",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "LRHTdMYlIOGQ30Cz": {
+        "type": "utility",
+        "name": "介入盾牌",
+        "_id": "LRHTdMYlIOGQ30Cz",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "介入盾牌"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，盾牌受训）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的力量提升 1，最多为 20。</p><p><em><strong>盾击。</strong></em>当你通过&amp;Reference[Attack]{攻击}动作中由近战武器发动的一次攻击，命中了位于你 5 尺内的生物时，如果你装备了盾牌，你就可以立即使用它来击打目标，迫使对方进行一次[[/save]]{力量豁免}（DC 等于 8 + 你的力量调整值 + 你的熟练加值）。如果豁免失败，目标将被你推离 5 尺远或陷入&amp;Reference[prone]{倒地}状态（由你选择）。你只能在每个你自己的回合使用一次这个增益。</p><p><em><strong>介入盾牌。</strong></em>当你受某效应影响而需要进行敏捷豁免来减半伤害时，如果你通过了豁免检定同时正持握着一面盾牌，你就可以执行一个&amp;Reference[Reaction]{反应}来使你不受伤害。</p><p class=\"item-original\">Shield Master</p>",
+      "chat": ""
+    },
+    "identifier": "shield-master",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的力量提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "uXMklfeD4yRyPxoQ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1758467559232,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "VtTEEQxIJkNLS740",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!VtTEEQxIJkNLS740"
+}

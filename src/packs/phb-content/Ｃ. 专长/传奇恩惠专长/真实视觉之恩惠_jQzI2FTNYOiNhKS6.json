@@ -1,0 +1,136 @@
+{
+  "name": "真实视觉之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-truesight.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你使你选择的一项属性值提升 1 点，最多为 30。</p><p><em><strong>真实视觉。</strong></em>你具有 60 尺真实视觉。</p><p class=\"item-original\">Boon of Truesight</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-truesight",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你使你选择的一项属性值提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "真实视觉",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_devils-sight.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jQzI2FTNYOiNhKS6",
+      "_id": "z4hC5DcNT1KiETcC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.truesight",
+          "mode": 4,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1736665298470,
+        "modifiedTime": 1757226725902,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jQzI2FTNYOiNhKS6.z4hC5DcNT1KiETcC"
+    }
+  ],
+  "folder": "PP2NVgVv8yRIkDZM",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775988287952,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "jQzI2FTNYOiNhKS6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jQzI2FTNYOiNhKS6"
+}

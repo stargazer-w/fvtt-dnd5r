@@ -1,0 +1,61 @@
+{
+  "name": "兽语者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_creature_beast-whisperer.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>[[lookup @name]]可以和野兽交流，如同它们有共通的语言一般。</p><p class=\"item-original\">Beast Whisperer</p>",
+      "chat": ""
+    },
+    "identifier": "beast-whisperer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "pxLHiILvNrRd7uHI",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750501018085,
+    "modifiedTime": 1758304475010,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "7Fi3TyxEZpzqjJpY",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!7Fi3TyxEZpzqjJpY"
+}

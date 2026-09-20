@@ -1,0 +1,166 @@
+{
+  "name": "扭曲命运之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-fate.webp",
+  "system": {
+    "activities": {
+      "nF0w47C0nNkVND09": {
+        "type": "utility",
+        "name": "时来运转",
+        "_id": "nF0w47C0nNkVND09",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "时来运转"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": "2d4"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你使你选择的一项属性值提升 1 点，最多为 30。</p><p><em><strong>时来运转。</strong></em>当你或位于你 60 尺内的另一名生物在一次&amp;Reference[D20 Test]{D20 检定}中成功或失败时，你可以骰 2d4，并将掷骰结果作为加值或减值附加到 d20 的骰值中。一旦你使用了该增益，直到你投掷先攻或完成一次短休或长休时，都不能再次使用它。</p><p class=\"item-original\">Boon of Fate</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-fate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你使你选择的一项属性值提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "PP2NVgVv8yRIkDZM",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775987172549,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "YvPs0XnAqPFXLYPz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!YvPs0XnAqPFXLYPz"
+}

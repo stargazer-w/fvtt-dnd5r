@@ -1,0 +1,145 @@
+{
+  "folder": "kpo7RUG35GCNUzSf",
+  "name": "工匠",
+  "type": "background",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/backgrounds/artisan.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性值：</strong>力量、敏捷、智力</p><p><strong>专长：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zQJY6NM2aNSbGeha]{匠师}</p><p><strong>技能熟练：</strong>调查与游说</p><p><strong>工具熟练：</strong>选择一种工匠工具</p><p><strong>装备：</strong> <em>选择 A 或 B：</em>(A) @UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.ibFcHkHH1icuT3l8]{工匠工具}（同上所选）、2 个@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ]{旅行服装}、32 GP；或者 (B) 50 GP。</p><p>在你强壮到可以提起水桶，就开始在工匠工坊里以拖地和擦洗度日，每天挣那么几个铜板。当你长到成为学徒的年龄时，你就学会了自己制作基本的手工艺品，还有面对刁钻客户时该说什么好话。你的买卖也让你对消息琐事有敏锐的洞察力。</p>",
+      "chat": ""
+    },
+    "identifier": "artisan",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "_id": "fnssmNezHZ4MYWS8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "wis",
+            "cha"
+          ],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值加成",
+        "hint": "你分配 3 点属性值到力量、敏捷或智力上。你可以将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "_id": "bsDVW5Qg09Gp0WPB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:inv",
+            "skills:per"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "熟练项",
+        "hint": "你熟练于调查和游说，以及一种自选的工匠工具。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "E2EenPg09l6HmA1s",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "语言",
+        "hint": "你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_guide.webp"
+      },
+      {
+        "_id": "pGAiobp1mq0i0oFm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.zQJY6NM2aNSbGeha"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "专长",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1729864473146,
+    "modifiedTime": 1735442973518,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_id": "PVJMqT2G4d2WIXRB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!PVJMqT2G4d2WIXRB"
+}

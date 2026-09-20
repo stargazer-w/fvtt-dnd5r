@@ -1,0 +1,145 @@
+{
+  "folder": "kpo7RUG35GCNUzSf",
+  "name": "警卫",
+  "type": "background",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/backgrounds/guard.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性值：</strong>力量、智力、感知</p><p><strong>专长：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN]{警觉}</p><p><strong>技能熟练：</strong>运动和察觉</p><p><strong>工具熟练：</strong>选择一种赌具</p><p><strong>装备：</strong> <em>选择 A 或 B：</em>(A) @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KRjK6FwloGxEsjrN]{矛}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fbU38f7jCv3CRZN9]{轻弩}，20 支@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fH7unHvErSi8yeWX]{弩矢}，@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.GCvg8n7Q7ltSPRxe#赌具-gaming-set（多类）]{赌具}（同上所选），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.okQQpnffsfzpAFuA]{附盖提灯}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zWPqjQzj3MlG8LBU]{镣铐}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]{弩矢匣}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ]{旅行服装}，12 GP；或者 (B) 50 GP。</p><p>你脚趾的疼痛让你无法忘怀在塔楼驻岗上站班的无数时光。你的训练教你一只眼睛紧盯着墙外，小心提防那附近森林而来的掠夺者，另一只眼睛则要盯着墙内，细细查探小偷小摸和惹是生非的人。</p>",
+      "chat": ""
+    },
+    "identifier": "guard",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "_id": "fnssmNezHZ4MYWS8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "dex",
+            "con",
+            "cha"
+          ],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值加成",
+        "hint": "你分配 3 点属性值到力量、智力或感知上。你可以将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "_id": "bsDVW5Qg09Gp0WPB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:ath"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "熟练项",
+        "hint": "你熟练于运动和察觉，以及自选的一种赌具。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "E2EenPg09l6HmA1s",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "语言",
+        "hint": "你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_guide.webp"
+      },
+      {
+        "_id": "pGAiobp1mq0i0oFm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "专长",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1729864473146,
+    "modifiedTime": 1735442986612,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_id": "tFkjr382zJdZlvm0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tFkjr382zJdZlvm0"
+}

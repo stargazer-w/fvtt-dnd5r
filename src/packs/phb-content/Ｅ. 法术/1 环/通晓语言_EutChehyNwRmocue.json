@@ -1,0 +1,201 @@
+{
+  "name": "通晓语言",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_comprehend-languages.webp",
+  "system": {
+    "activities": {
+      "iQxkzMPg90DLu0bM": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "iQxkzMPg90DLu0bM",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "dquMovhypZdXPK3N"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在法术持续时间内知晓你所听到或看到手语的所有语言的字面意义。你也可以通过触碰书写的文字来读懂其字面意义。以这种方式阅读每页文字需要花费 1 分钟的时间。这个法术并不能解读符号和暗语。</p><p class=\"item-original\">Comprehend Languages</p>",
+      "chat": ""
+    },
+    "identifier": "comprehend-languages",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一撮煤灰和盐",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "通晓语言",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_comprehend-languages.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.EutChehyNwRmocue",
+      "transfer": false,
+      "_id": "dquMovhypZdXPK3N",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.languages.value",
+          "mode": 2,
+          "value": "standard",
+          "priority": null
+        },
+        {
+          "key": "system.traits.languages.value",
+          "mode": 2,
+          "value": "exotic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内知晓你所听到或看到手语的所有语言的字面意义。</p><p>你也可以通过触碰书写的文字来读懂其字面意义。以这种方式阅读每页文字需要花费 1 分钟的时间。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732392392601,
+        "modifiedTime": 1734766306980,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!EutChehyNwRmocue.dquMovhypZdXPK3N"
+    }
+  ],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194961335,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "EutChehyNwRmocue",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!EutChehyNwRmocue"
+}

@@ -1,0 +1,201 @@
+{
+  "name": "动物交谈",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_speak-with-animals.webp",
+  "system": {
+    "activities": {
+      "829BraifSSc46Ear": {
+        "type": "utility",
+        "_id": "829BraifSSc46Ear",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "cEhk7XZyIChTFHfB"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在法术持续时间内获得理解野兽并用语言与其沟通的能力，并且你可以对它们使用任意&amp;Reference[Influence]{影响}动作的技能选项。</p><p>大多数野兽在谈及和生存与伙伴无关的话题时能说的很少，但至少，它们能够给你提供关于周围地域和怪物的情报，包括任何它们近一日内察觉到的东西。</p><p class=\"item-original\">Speak with Animals</p>",
+      "chat": ""
+    },
+    "identifier": "speak-with-animals",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "动物交谈",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_speak-with-animals.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA",
+      "transfer": false,
+      "_id": "cEhk7XZyIChTFHfB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.languages.custom",
+          "mode": 2,
+          "value": ";野兽语言",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内获得理解野兽并用语言与其沟通的能力，并且你可以对它们使用任意&amp;Reference[Influence]{影响}动作的技能选项。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385903246,
+        "modifiedTime": 1734700644360,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jQRd32RmMYG1DClA.cEhk7XZyIChTFHfB"
+    }
+  ],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195005644,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "jQRd32RmMYG1DClA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jQRd32RmMYG1DClA"
+}

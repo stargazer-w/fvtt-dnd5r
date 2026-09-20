@@ -1,0 +1,463 @@
+{
+  "name": "吉兆之刃",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_luck-blade.webp",
+  "system": {
+    "activities": {
+      "NMk3mQKhk1YG2jDW": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "pZmRnq11F6CoB0JN",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "oMwUDYw5ZEhd60SE",
+                "1Z7i7HXxs41KiN6j"
+              ],
+              "effect": [
+                "aodROVcuzOpsg0we"
+              ],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "NMk3mQKhk1YG2jDW"
+      },
+      "oMwUDYw5ZEhd60SE": {
+        "type": "utility",
+        "name": "幸运",
+        "_id": "oMwUDYw5ZEhd60SE",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "幸运"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "1d20",
+          "name": ""
+        }
+      },
+      "1Z7i7HXxs41KiN6j": {
+        "type": "cast",
+        "_id": "1Z7i7HXxs41KiN6j",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "许愿"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 9,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU",
+          "ability": ""
+        },
+        "name": "许愿"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KOlJf0iaOOaS0xzS]{长柄刀}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RFZ6nnVlkoCrmpji]{巨剑}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rmSJn9nJpCyK85Zt]{长剑}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xgLHRzLQOcfmzldX]{刺剑}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HlOvL5ont4BTTPoo]{弯刀}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CXAkZte56H7ApGCg]{镰刀}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VaSejvkOe0FtpfH5]{短剑}），传说（需同调）</em></p><p>你用此魔法武器进行的攻击检定和伤害掷骰获得 +1 加值。携带此武器期间，你进行的豁免检定具有 +1 加值。</p><p><em><strong>幸运。</strong></em>在你携带此武器于身上期间，只要你未陷入失能状态，你就可以向它祈求好运（无需动作），重骰一次失败的&amp;Reference[D20 Test]{D20 检定}。你必须使用重骰的结果。该词条一经使用，直至次日黎明你都无法再次使用。</p><p><em><strong>许愿。</strong></em>此武器具有[[/r 1d3]]充能。持握此武器期间，你可以消耗 1 充能，从此武器中施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>。该词条一经使用，直至次日黎明你都无法再次使用。充能耗尽时，此武器失去该词条。</p><p class=\"item-original\">Luck Blade</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "luck-blade",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "吉兆之刃",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "pZmRnq11F6CoB0JN",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "吉兆之刃",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，传说（需同调）</em></p> <p>你用此魔法武器进行的攻击检定和伤害掷骰获得 +1 加值。携带此武器期间，你进行的豁免检定具有 +1 加值。</p> <p><em><strong>幸运。</strong></em>在你携带此武器于身上期间，只要你未陷入失能状态，你就可以向它祈求好运（无需动作），重骰一次失败的&Reference[d20 test]{D20 检定}。你必须使用重骰的结果。该词条一经使用，直至次日黎明你都无法再次使用。</p> <p><em><strong>许愿。</strong></em>此武器具有[[/r 1d3]]充能。持握此武器期间，你可以消耗 1 充能，从此武器中施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>。该词条一经使用，直至次日黎明你都无法再次使用。充能耗尽时，此武器失去该词条。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 4,
+          "value": "1",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759738892775,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mN7Dvj5TZjQVcWD9.pZmRnq11F6CoB0JN"
+    },
+    {
+      "name": "豁免加值",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_expertise.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.mN7Dvj5TZjQVcWD9",
+      "_id": "aodROVcuzOpsg0we",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759750259603,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!mN7Dvj5TZjQVcWD9.aodROVcuzOpsg0we"
+    }
+  ],
+  "folder": "BrBgmPeshRtgdW0N",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "oMwUDYw5ZEhd60SE",
+          "1Z7i7HXxs41KiN6j"
+        ],
+        "effect": [
+          "aodROVcuzOpsg0we"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758199226852,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "mN7Dvj5TZjQVcWD9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!mN7Dvj5TZjQVcWD9"
+}

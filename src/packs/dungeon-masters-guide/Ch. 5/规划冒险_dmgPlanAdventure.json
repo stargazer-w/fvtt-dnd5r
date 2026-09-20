@@ -1,0 +1,205 @@
+{
+  "_id": "dmgPlanAdventure",
+  "name": "规划冒险",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "ugLJTIUXUOrUteDk",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>运作 D&amp;D 战役就像维护一片花园：每次新的冒险都像是在花园里播下新的种子，而这也意味着花园需要定期照料，以免疯长到失控的程度。随着时间的推移，你的战役将以你所预期的、以及让你感到惊喜的方式逐步成长，繁盛。不过你也许需要淘汰那些无法与玩家产生共鸣的元素，并种下新的元素来吸引他们。</p><p>大多数 D&amp;D 战役都是逐渐成长的，而不是从一开始就把所有的元素都固定下来。有时，角色的抉择需要你进行即兴创作来回应，并根据这些即兴内容引入新的战役元素。例如，你可能需要设计一个新的地点来满足故事发展的需求，亦或是你需要立即充实某个特定 NPC 的形象和背景。本书的其他部分给出了方便你快速扩充战役内容的工具，例如第 3 章中的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.5GOEEHaai1dsSxbx]{非玩家角色}“和“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.AsAAwKcFZegKYVsW]{聚落}”。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776581321532,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgPlanAdventure.ugLJTIUXUOrUteDk"
+    },
+    {
+      "sort": 200000,
+      "name": "单元剧和连续剧",
+      "type": "text",
+      "_id": "nlavKBTWZKXEX1oy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Episodes and Serials</p><p>战役由冒险串联而成，而这种串联有两种基本形式：将冒险作为一篇篇独立的剧集，或是将冒险连结为一整个连续的故事。如果你不确定要开哪种类型的战役，你可以询问玩家们更喜欢哪种；而如果玩家有不同的偏好，你也可以在连续剧冒险中穿插一点独立的冒险作为单元剧，来在更大的故事中提供“中场休息”。</p><h2>单元剧</h2><p class=\"journal-original-h2\">Episodes</p><p>单元剧战役是指组成战役的冒险之间并不形成一个总体性的故事的战役。单元剧中的冒险是独立的任务，出现在某次冒险中的反派亦很少会再次出现并给角色带来新麻烦。如果你的开团频率并不算高，那单元剧战役也许就是理想选择：即使玩家忘记了早先的那些冒险中的细节，他们也可以继续享受当下的冒险。</p><p><em><strong>新的一集。</strong></em>在单元剧战役中，新冒险的开始未必与上一次冒险的结束有什么联系。新冒险可能会在上次的冒险结束后立即开始，但同样有可能是在上次冒险结束后数周、数月甚至数年后才开始，而在这段角色们离开冒险的休息时间里，亦可能上演某些过渡事件。</p><h2>连续剧</h2><p class=\"journal-original-h2\">Serials</p><p>连续剧战役讲述一个连续的故事：故事被分解成更小的部分，并自然地从一个部分流向下一部分。这种战役通常有一个或多个贯穿始终的威胁，而一次冒险的结果也会影响战役剩余部分的展开方式。如果你的团频率稳定且经常开，那连续剧战役就可以让玩家期待：随着战役稳步向着好结局发展，接下来我们会遇到什么。</p><p><em><strong>连结冒险。</strong></em>你需要在连续剧战役中的各次冒险的之间建立起连结，让它们感觉起来像是一整个相互关联的故事。有时，你可以简单地顺着当前的故事线，继续探索新的地点并打败新的威胁。不过，你也可以使用冒险间的关联表来获得关于将一个冒险和下一个冒险连结起来的灵感：此表格给出了你可以在一场冒险结束时需要做什么的建议；这些内容旨在用来引导角色们进入下一场冒险。</p><p class=\"table-caption\">冒险间的关联 Adventure Connections</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.yZE4qpZcMtZoGbad rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581334295,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgPlanAdventure.nlavKBTWZKXEX1oy"
+    },
+    {
+      "sort": 300000,
+      "name": "让玩家投入",
+      "type": "text",
+      "_id": "XWFimbsTgDSCRcMT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Getting Players Invested</p><p>为了让玩家们对战役感到兴奋并投入精力，你创作的设定需要是一个着重于他们认识的人和地点的设定，还要体现出角色们的抉择对这个世界的意义。</p><p>以下是可以帮助你创作一个可以让玩家兴奋地探索的世界的建议：</p><h2>重复元素</h2><p class=\"journal-original-h2\">Recurring Elements</p><p>当角色与世界设定中的人和地点建立关系时——无论是友谊、商业合约、甚至是敌对关系——这些人和地点就都会引在玩家的脑海中。请尽早并经常引入建立这些长期关联的机会。</p><p>以下是适合在游戏中重复出场的元素范例：</p><p><strong>社区。</strong>介绍一个可以让角色们融入、视自己为其中一员的小型团体或社区，例如一座村庄、一处社区、一个公会或是一组船员。</p><p><strong>大本营。</strong>给角色们一个可以称之为家的地方，例如一间小酒馆、一个藏身处或是一艘船只。如第 8 章所述，@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBastions00000]{据点}即是一处理想的角色大本营。</p><p><strong>靠谱好友。</strong>创作一个支援式 NPC，角色可以信任它，并可以在需要帮助时向其求助，例如当地领袖、酒馆老板、赞助人、退休冒险者、甚至是家庭成员。</p><p><strong>盟友资源。</strong>为角色们提供可以帮助他们的专家或机构，例如能提供治愈的神殿，以及能帮角色们解开谜题的博学贤者。</p><p><strong>优秀的反派。</strong>塑造一个至少有一项可以让角色们感到欣赏或值得救赎的品质的反派——理想情况下，这是一个不专心于伤害与杀死角色的反派。</p><p>随着战役的发展，引入新的人物和地点，早期冒险中的那些受喜爱的元素也应偶尔重回战役，客串出场。</p><h2>玩家喜好</h2><p class=\"journal-original-h2\">Player Favorites</p><p>相对来说，描述敌对和可怖的人与地点，通常要比详细描述一个你希望角色喜欢的人或物身上的特征更容易。一处乡间场景需要什么样的描述，才能让角色回想到自己的家乡？一个人物又该有什么样的性格怪癖，才能让角色回想起他们最喜欢的导师？你可以直接询问这名角色的玩家，让他本人回答你，但你也可以考虑暂时交出叙事权，让玩家自己来详尽描述这样的细节。</p><p>例如，假设你手上有一个宁静祥和的村庄，打算在后续几次冒险中使用。你希望角色们能与这个地方建立联系，并将其视为家园。当角色们进入社区时，你设计为他们会在此时闻到一些奇妙的味道。此时，你可以自行描述这些味道的来源，例如一些你认为闻起来不错的事物、或是你认为角色会喜欢的东西；又或者，你可以问玩家，“某些事物的奇妙味道从拐角后飘来。这味道来自什么？”无论玩家的回答是附近面包师的肉桂卷、或是为庆祝活动准备的烟花炸药、还是任何其他东西，这些事物都会成为村庄的一部分：玩家为该地点添加了一个重要的细节。</p><p>当你想决定对角色及其玩家有意义的内容时，你可以让玩家来决定。当你想用更好的方式描述某事时，可以考虑询问玩家以下问题：</p><ul><li class=\"Core-Styles_Core-Bulleted\">小酒馆的老板擅长你最喜欢的菜肴——而且烹制得完美无瑕。这道菜是什么？它又是因何而与众不同？</li><li class=\"Core-Styles_Core-Bulleted\">收藏品店里出售的一种小饰品让你想起了某位家庭成员。这件饰品是什么？它又让你想起了谁？</li><li class=\"Core-Styles_Core-Bulleted\">当地的孩子们正在玩你在家乡时玩过的游戏。他们玩的是什么？</li><li class=\"Core-Styles_Core-Bulleted\">这位年轻的扒手让你想起了自己过去认识的某人。你想到了谁？</li><li class=\"Core-Styles_Core-Bulleted\">你从一大堆活化的杀人娃娃中发现了一个与你儿时最喜欢的玩具非常相似的娃娃。它是什么样的？</li></ul><p>此类问题不需要局限于那些温暖的回忆。你可以让玩家描述那些让他们的角色感到不安于厌恶的事情，这样可以让一场险恶的遭遇更加令人印象深刻。无论如何，请记下玩家们分享的这些有趣细节，并将其记录在战役日志中——这些细节在日后可能会成为设计冒险的实用灵感。</p><h2>承认非凡性</h2><p class=\"journal-original-h2\">Acknowledge the Incredible</p><p>冒险者本质上是非凡的存在。即使只有 1 级，他们也能完成奇迹般的事迹，并拥有与普通人不同的品质。你需要在游戏中强化这一点。不过这并不意味着 NPC 要滔滔不绝地称赞角色们；你需要做的是：让角色作为英雄、问题解决者或奇迹创造者的声誉尽早巩固，并在整个战役中发展。</p><p>你可以在每次团期间找机会让角色感觉自己像是故事中的明星，并试着回答以下问题中的一项或多项：</p><ul><li class=\"Core-Styles_Core-Bulleted\">为什么角色们是这个解决问题的完美人选？</li><li class=\"Core-Styles_Core-Bulleted\">角色的才能该如何在冒险中发挥？</li><li class=\"Core-Styles_Core-Bulleted\">NPC 们知道角色们过去的伟业吗？</li><li class=\"Core-Styles_Core-Bulleted\">NPC 们如何看待角色们的能力？又是怎么认识到他们的特殊性的？</li></ul><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.OFKLv2zIsqD9POmM cite=false]</p><h2>休息回</h2><p class=\"journal-original-h2\">Break Episodes</p><p>在一场有着戏剧性的风险的故事中，角色们很容易深陷与越来越多的威胁对抗的漩涡。不过，每隔一段时间，至少每三到五级一次，让角色们休息一下——开一场与整体情节或更广泛的危险无关的、相对低风险的一次团或一段冒险。</p><p>休息回可以为许多事情提供机会，例如让角色们思考战役中的事件、探索世界的奇妙之处、在轻松的环境中进一步发展角色之间的关系。你需要给队伍一个喘息的机会，并记下休息回中你想在后续强调的发展，再继续运行你的冒险。</p><p>以下是关于休息回的几个点子。</p><p><em><strong>据点回。</strong></em>角色们暂离冒险，休息一阵，照料他们的据点（见第 8 章），玩家进行一个或多个@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBastions00000.JournalEntryPage.WCq89NBuHRQvVj23]{据点回合}并描述发生的事情。</p><p><em><strong>嘉年华。</strong></em>一处嘉年华有着魔法的景点、游戏和奖品，吸引着角色前来。<em>《巫光之外的荒野》</em>中的巫光嘉年华就是这样一个典例。</p><p><em><strong>吉祥物。</strong></em>角色遇到了具有喜剧色彩的怪物。例如呋噜、皮克精、妖精龙、甚至是能言善语的拟身怪。此时一般不会发生一场战斗，而是一场恶作剧和幽默喜剧。</p><p><em><strong>宠物失踪！</strong></em>某人的宠物不见了。角色必须搜索某个聚落，并与当地住民交流以找到它。</p><p><em><strong>购买礼物。</strong></em>一位友善 NPC 请求角色的协助，来为某人购买生日礼物。</p><p><em><strong>特别活动。</strong></em>角色应邀参加体育赛事、节庆活动、奢华晚宴或一场舞会。</p><p><em><strong>享受度假。</strong></em>角色们在安静的海滩上放松身心、在某位贵族作为答谢而提供的别墅中享受舒适、拜访某个宁静的隐秘修道院、或是在童话般的温泉中享受时光。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581354772,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgPlanAdventure.XWFimbsTgDSCRcMT"
+    },
+    {
+      "sort": 400000,
+      "name": "战役中的时间",
+      "type": "text",
+      "_id": "wzUIMeBGkckevNQu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Time in the Campaign</p><p>D&amp;D 战役中的大多数冲突需要数周或数月的世界时间来解决。一个典型的战役会在世界中的时间的一年内结束，除非你允许角色们在冒险之间享受更长时间的安静休息。</p><p>如果你不想跟进天数、周数和月份的流逝，则你可以改为跟进季节和季节性节日，来以此体现的流逝；诸如“这次冒险发生在什么时候？”这样的问题用“在冬天”或“在秋收节期间”来轻易回答。</p><h2>定时事件</h2><p class=\"journal-original-h2\">Timed Events</p><p>与一年中的某些特定时间相关联的超凡事件是绝佳的冒险机会。也许每到冬至，某座山丘上就会出现一座幽灵城堡；或者，每到第十三次满月时，升起的月亮都是血红色的，并令狼人的嗜血欲望大幅增强。一道彗星划过天空，可能预示着各种重大事件的发生。诸神的节日亦可以作为冒险的起点，尤其是在诸神本身参与到了故事之中的那些时候。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581368836,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgPlanAdventure.wzUIMeBGkckevNQu"
+    }
+  ],
+  "folder": "VV2bw70qBUsNr8j8",
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": true,
+      "append": 5,
+      "type": "special",
+      "order": 500500,
+      "navigation": {
+        "previous": "dmgCampaignStart",
+        "next": "dmgEndingACampai"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776581317510,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 350000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgPlanAdventure"
+}

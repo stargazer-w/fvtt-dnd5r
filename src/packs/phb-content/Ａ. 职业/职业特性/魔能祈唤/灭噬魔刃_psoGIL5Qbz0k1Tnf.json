@@ -1,0 +1,57 @@
+{
+  "name": "灭噬魔刃",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_devouring-blade.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>先决条件：12 级或更高的魔契师等级，具有@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bNhtaFXgBNl1oIss]{饥渴魔刃}祈唤</em></p><p>饥渴魔刃祈唤为你提供的额外攻击变为两次而非一次。</p><p class=\"item-original\">Devouring Blade</p>",
+      "chat": ""
+    },
+    "identifier": "devouring-blade",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 12
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [],
+  "folder": "f9yywRtYz5SQ4oUW",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758195015856,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "psoGIL5Qbz0k1Tnf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!psoGIL5Qbz0k1Tnf"
+}

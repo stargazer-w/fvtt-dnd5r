@@ -1,0 +1,319 @@
+{
+  "name": "散打技巧",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_open-hand_open-hand-technique.webp",
+  "system": {
+    "activities": {
+      "kFX7flL5TMOJVhdR": {
+        "type": "utility",
+        "_id": "kFX7flL5TMOJVhdR",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "慌神"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "9Jj87ILbuLe1EvzO"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "慌神",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_open-hand_open-hand-technique.webp",
+        "appliedEffects": [
+          "9Jj87ILbuLe1EvzO"
+        ]
+      },
+      "EewAXbcSnUJy6kMb": {
+        "type": "save",
+        "name": "推离",
+        "_id": "EewAXbcSnUJy6kMb",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "推离"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_open-hand_open-hand-technique_push.webp",
+        "appliedEffects": []
+      },
+      "lzjP6zYxRMQjlupS": {
+        "type": "save",
+        "name": "失衡",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "失衡"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_open-hand_open-hand-technique_topple.webp",
+        "_id": "lzjP6zYxRMQjlupS",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每当你@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KaqqaeWjS5jBHmDl]{疾风连击}中的一次攻击命中一个生物时，你可以迫使其承受下列效应之一。</p><p><em><strong>慌神。</strong></em>目标直到他的下个回合开始前不能使用借机攻击。</p><p><em><strong>推离。</strong></em>目标必须成功通过一次[[/save activity=EewAXbcSnUJy6kMb]]{力量豁免}，否则被你推离 15 尺。</p><p><em><strong>失衡。</strong></em>目标必须成功通过一次[[/save activity=lzjP6zYxRMQjlupS]]{敏捷豁免}，否则陷入&amp;Reference[prone]{倒地}状态。</p><p class=\"item-original\">Open Hand Technique</p>",
+      "chat": ""
+    },
+    "identifier": "open-hand-technique",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "散打武者"
+  },
+  "effects": [
+    {
+      "name": "慌神",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_no-opportunity.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.dkLpYT0Cxmd5MTam",
+      "transfer": false,
+      "_id": "9Jj87ILbuLe1EvzO",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你无法使用借机攻击，直至你的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734281384259,
+        "modifiedTime": 1759948129417,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dkLpYT0Cxmd5MTam.9Jj87ILbuLe1EvzO"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758468779557,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dkLpYT0Cxmd5MTam",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dkLpYT0Cxmd5MTam"
+}

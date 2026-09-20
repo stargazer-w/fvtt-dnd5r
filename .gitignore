@@ -1,0 +1,11 @@
+node_modules/
+
+# 本地专属配置（Foundry 的 modules 目录等），见 README 的「数据维护」一节
+local.config.json
+
+# 构建产物：由 npm run build 从 src/ 生成
+# （只有 packs 是二进制 LevelDB，其余内容与 src/ 相同）
+dist/
+
+# 重构前的原始模组快照：内容与 git 历史中的 HEAD 相同，仅作本地参考
+reference/

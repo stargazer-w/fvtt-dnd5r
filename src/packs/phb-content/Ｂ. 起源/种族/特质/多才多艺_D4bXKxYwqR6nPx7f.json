@@ -1,0 +1,87 @@
+{
+  "name": "多才多艺",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得一项自选的起源专长。</p><p class=\"item-original\">Versatile</p>",
+      "chat": ""
+    },
+    "identifier": "versatile",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "人类",
+    "advancement": [
+      {
+        "_id": "OFCDyb9tuenSEVmj",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [],
+          "spell": null,
+          "restriction": {
+            "type": "feat",
+            "subtype": "origin",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "多才多艺",
+        "hint": "你获得一项自选的起源专长。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "VSjOI4J3tkyhH9Sb",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730960548428,
+    "modifiedTime": 1777696734453,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "D4bXKxYwqR6nPx7f",
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!D4bXKxYwqR6nPx7f"
+}

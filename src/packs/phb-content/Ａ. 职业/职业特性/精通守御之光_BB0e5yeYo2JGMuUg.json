@@ -1,0 +1,260 @@
+{
+  "name": "精通守御之光",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_cleric_light_improved-warding-flare.webp",
+  "system": {
+    "activities": {
+      "GOcBR14bNVx8szJG": {
+        "type": "enchant",
+        "_id": "GOcBR14bNVx8szJG",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "9dK6zKtstwE1g7Lr",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "OHMS28Emq0NQVQVL"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "9dK6zKtstwE1g7Lr"
+        ]
+      },
+      "OHMS28Emq0NQVQVL": {
+        "type": "heal",
+        "name": "效用 (精通)",
+        "_id": "OHMS28Emq0NQVQVL",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-sparkles\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.phb-content.Item.BB0e5yeYo2JGMuUg\" data-tooltip=\"item\">精通守御之光</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": 2,
+          "denomination": "6",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": "@abilities.wis.mod"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在完成一次短休或长休后重新获得所有@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dStn16REjs9bdPHo]{守御之光}的使用次数。</p><p>此外，每当你使用守御之光时，你可以给予触发此反应的该次攻击所指定那个目标 2d6 + 你感知调整值点临时生命值。</p><p class=\"item-original\">Improved Warding Flare</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>守御之光</strong>特性以追加额外效应；同时，你需要手动更新<strong>守御之光</strong>特性的短休充能条件。</p></section>",
+      "chat": ""
+    },
+    "identifier": "improved-warding-flare",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "光明领域"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "精通守御之光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_cleric_light_improved-warding-flare.webp",
+      "disabled": false,
+      "_id": "9dK6zKtstwE1g7Lr",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734102911163,
+        "modifiedTime": 1735456532059,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!BB0e5yeYo2JGMuUg.9dK6zKtstwE1g7Lr"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "OHMS28Emq0NQVQVL"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758303550387,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "BB0e5yeYo2JGMuUg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!BB0e5yeYo2JGMuUg"
+}

@@ -1,0 +1,276 @@
+{
+  "name": "吊挂大锅",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_suspended-cauldron.webp",
+  "system": {
+    "activities": {
+      "MZGzNFej1ncnU63c": {
+        "type": "utility",
+        "name": "装填",
+        "sort": -200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "装填"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "MZGzNFej1ncnU63c"
+      },
+      "zEACBZc5gKc9SWsn": {
+        "type": "save",
+        "name": "倾倒热油",
+        "_id": "zEACBZc5gKc9SWsn",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "倾倒热油"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cube",
+            "size": "10"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 3,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        }
+      }
+    },
+    "uses": {
+      "spent": 3,
+      "recovery": [],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>大型物件</em></p><p><strong>AC：</strong>19　<strong>HP：</strong>20</p><p><em><strong>倾倒热油（需要大锅装满）。</strong>[[/save]]{敏捷豁免}：</em>DC 15，大锅下方 10 尺立方内的所有生物。<em>失败：</em>[[/damage average]]伤害。<em>成功：</em>半伤。</p><p>一口吊挂起来的钢铁坩锅，可以方便地将其侧翻并倒出内里所装载的物质。大锅一旦倒空，则必须将其重新装满才能使用。装满大锅需要三次&amp;Reference[Utilize]{操作}动作，随后操作手便可执行倾倒热油动作。</p><p>大锅通常装着热油，但也可以装填其他物质，比如强酸或者绿软泥（见本章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7]{危害物}”部分），并依不同物质造成不同效应。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.derived-creatures.Actor.WJQmKJvP5NtvqbdY]{Suspended Cauldron}</p>",
+      "chat": ""
+    },
+    "identifier": "suspended-cauldron",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 19
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": "",
+    "hp": {
+      "value": 20,
+      "max": 20,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [],
+  "folder": "ujQuHGbyr8u3N5xZ",
+  "sort": -25000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751042665343,
+    "modifiedTime": 1759939762503,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "o38hFy0SG0rFKZLg",
+  "_key": "!items!o38hFy0SG0rFKZLg"
+}

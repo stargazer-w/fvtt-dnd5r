@@ -1,0 +1,379 @@
+{
+  "name": "现世传说",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_glory_living-legend.webp",
+  "system": {
+    "activities": {
+      "DkVQXovBb4VnGwCd": {
+        "type": "utility",
+        "_id": "DkVQXovBb4VnGwCd",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "eV1jSDD4PPO77JtB"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "MjJ5otfeSOzitJbv": {
+        "type": "utility",
+        "_id": "MjJ5otfeSOzitJbv",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "重掷豁免"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "重掷豁免",
+        "img": "",
+        "appliedEffects": []
+      },
+      "faZVOLdIySoHa7BU": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "无误打击"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "无误打击",
+        "_id": "faZVOLdIySoHa7BU",
+        "img": "",
+        "appliedEffects": []
+      },
+      "qAdUBdWK88Cz6XOu": {
+        "type": "utility",
+        "name": "恢复充能",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "5",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复充能"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "qAdUBdWK88Cz6XOu"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你能够使自己有能力实现传奇的壮举——无论是确有此事，抑或夸大其词。以一个&amp;Reference[Bonus Action]{附赠动作}，你获得下列的增益。持续 10 分钟或直到你将之提前结束（无需动作）。当你使用此特性后，直到你完成一次长休前都不能再次使用。你也可以消耗一个 5 环法术位恢复其使用次数（无需动作）。</p><p><em><strong>神眷天恩。</strong></em>一个异界存在赐福于你，你在与魅力相关的检定上获得优势。</p><p><em><strong>重掷豁免。</strong></em>当你进行一次豁免检定并失败时，你可以用&amp;Reference[Reaction]{反应}重投之。你必须使用重投的结果。</p><p><em><strong>无误打击。</strong></em>每自己回合一次，当你进行一次武器攻击但失手，你可以使其改为击中。</p><p class=\"item-original\">Living Legend</p>",
+      "chat": ""
+    },
+    "identifier": "living-legend",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "荣耀之誓"
+  },
+  "effects": [
+    {
+      "name": "现世传说",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_paladin_glory_living-legend.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.blm5QaRWdhHSwLHx",
+      "transfer": false,
+      "_id": "eV1jSDD4PPO77JtB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内获得下列增益。</p><p><em><strong>神眷天恩。</strong></em>一个异界存在赐福于你，你在与魅力相关的检定上获得优势。</p><p><em><strong>重掷豁免。</strong></em>当你进行一次豁免检定并失败时，你可以用&amp;Reference[Reaction]{反应}重投之。你必须使用重投的结果。</p><p><em><strong>无误打击。</strong></em>每自己回合一次，当你进行一次武器攻击但失手，你可以使其改为击中。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735571260040,
+        "modifiedTime": 1735571321154,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!blm5QaRWdhHSwLHx.eV1jSDD4PPO77JtB"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194993293,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "blm5QaRWdhHSwLHx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!blm5QaRWdhHSwLHx"
+}

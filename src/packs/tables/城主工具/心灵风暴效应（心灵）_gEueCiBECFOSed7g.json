@@ -1,0 +1,134 @@
+{
+  "name": "心灵风暴效应（心灵）",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.lNqkZFfXDs9S3sft#心灵风暴]{心灵风暴心灵效应}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        8
+      ],
+      "drawn": false,
+      "_id": "QnyGLgJ9qH6DQwe0",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你陷入&amp;Reference[stunned]{震慑}状态，持续 1 分钟；你可以在你的每回合结束时重复此豁免，豁免成功则你身上的此效应终止。",
+      "name": "",
+      "_key": "!tables.results!gEueCiBECFOSed7g.QnyGLgJ9qH6DQwe0"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        12
+      ],
+      "drawn": false,
+      "_id": "c2AjAPWB5PVxaMFj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你受到[[/damage 2d10 psychic average]]伤害。",
+      "name": "",
+      "_key": "!tables.results!gEueCiBECFOSed7g.c2AjAPWB5PVxaMFj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        16
+      ],
+      "drawn": false,
+      "_id": "Rx05lBTlsztdQKjk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你受到[[/damage 4d10 psychic average]]伤害。",
+      "name": "",
+      "_key": "!tables.results!gEueCiBECFOSed7g.Rx05lBTlsztdQKjk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        20
+      ],
+      "drawn": false,
+      "_id": "QoiWywBUGdEQbq5i",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你陷入&amp;Reference[unconscious]{昏迷}状态，持续 5（[[/r 1d10]]）小时；若你受到伤害或另一名生物用一个动作将你摇醒，你身上的此效应结束。",
+      "name": "",
+      "_key": "!tables.results!gEueCiBECFOSed7g.QoiWywBUGdEQbq5i"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "82vmWpSLBG4MWAe5",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750315019257,
+    "modifiedTime": 1759939452560,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "_id": "gEueCiBECFOSed7g",
+  "sort": 3600000,
+  "_key": "!tables!gEueCiBECFOSed7g"
+}

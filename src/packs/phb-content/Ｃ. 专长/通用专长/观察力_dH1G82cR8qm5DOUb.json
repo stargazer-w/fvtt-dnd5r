@@ -1,0 +1,113 @@
+{
+  "name": "观察力",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_observant.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，智力或感知 13+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的智力或感知提升 1，最多为 20。</p><p><em><strong>敏锐观察。</strong></em>选择以下技能之一：洞悉、调查或察觉。如果你不具有所选技能的熟练，则你获得熟练；如果你已有熟练，则你获得专精。</p><p><em><strong>快速搜索。</strong></em>你可以用&amp;Reference[Bonus Action]{附赠动作}进行&amp;Reference[Search]{搜索}动作。</p><p class=\"item-original\">Observant</p>",
+      "chat": ""
+    },
+    "identifier": "observant",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的智力或感知提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "type": "Trait",
+        "title": "敏锐观察",
+        "_id": "X5eZgMaqISnQItgH",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:prc",
+                "skills:inv",
+                "skills:ins"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "upgrade"
+        },
+        "level": 0,
+        "hint": "选择其一：如果你不具有所选技能的熟练，则你获得熟练；如果你已有熟练，则你获得其专精。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp",
+        "value": {}
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "uXMklfeD4yRyPxoQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1775985680632,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "dH1G82cR8qm5DOUb",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dH1G82cR8qm5DOUb"
+}

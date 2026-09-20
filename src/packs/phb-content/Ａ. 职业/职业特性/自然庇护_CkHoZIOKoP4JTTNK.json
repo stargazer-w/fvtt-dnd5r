@@ -1,0 +1,558 @@
+{
+  "name": "自然庇护",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-sanctuary.webp",
+  "system": {
+    "activities": {
+      "cCPe9KAjOGZ7cUa0": {
+        "type": "utility",
+        "_id": "cCPe9KAjOGZ7cUa0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "荒漠"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "Ap76ikk77i9RpdKH"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cube",
+            "size": "15",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "荒漠",
+        "img": "",
+        "appliedEffects": [
+          "Ap76ikk77i9RpdKH"
+        ]
+      },
+      "rLQ3Ekz37jbrB3pj": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "极地"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "QoPAGGB1xFrQfiyl"
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cube",
+            "size": "15"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "极地",
+        "_id": "rLQ3Ekz37jbrB3pj",
+        "img": "",
+        "appliedEffects": [
+          "QoPAGGB1xFrQfiyl"
+        ]
+      },
+      "aBX7A7mP9xW16xkC": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "温带"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "JVhAMieJgzl4I0yj"
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cube",
+            "size": "15"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "温带",
+        "_id": "aBX7A7mP9xW16xkC",
+        "img": "",
+        "appliedEffects": [
+          "JVhAMieJgzl4I0yj"
+        ]
+      },
+      "2AdXmlh85smCfD20": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "热带"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "KqzNUI7p4DPrud2y"
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cube",
+            "size": "15"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "热带",
+        "_id": "2AdXmlh85smCfD20",
+        "img": "",
+        "appliedEffects": [
+          "KqzNUI7p4DPrud2y"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Magic]{魔法}动作，你可以消耗一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}次数在距你 120 尺内的地面上制造出 15 尺立方区域的灵体丛林和藤蔓。它们持续存在 1 分钟或直到你陷入失能状态或死去。在该区域内，你和你的盟友获得&amp;Reference[Half Cover]{半身掩护}，你的盟友还会获得你@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS]{自然守御}特性提供的伤害抗性。</p><p class=\"item-original\">Nature's Sanctuary</p>",
+      "chat": ""
+    },
+    "identifier": "natures-sanctuary",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "大地结社"
+  },
+  "effects": [
+    {
+      "name": "荒漠庇护",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-sanctuary.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK",
+      "_id": "Ap76ikk77i9RpdKH",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>此区域为你提供半身掩护和火焰伤害的抗性。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "coverHalf"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734177688418,
+        "modifiedTime": 1735457751059,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!CkHoZIOKoP4JTTNK.Ap76ikk77i9RpdKH"
+    },
+    {
+      "name": "极地庇护",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-sanctuary.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>此区域为你提供半身掩护和寒冷伤害的抗性。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "coverHalf"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734177765481,
+        "modifiedTime": 1735457754162,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "QoPAGGB1xFrQfiyl",
+      "_key": "!items.effects!CkHoZIOKoP4JTTNK.QoPAGGB1xFrQfiyl"
+    },
+    {
+      "name": "温带庇护",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-sanctuary.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>此区域为你提供半身掩护和闪电伤害的抗性。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "coverHalf"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734177781394,
+        "modifiedTime": 1735457759598,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "JVhAMieJgzl4I0yj",
+      "_key": "!items.effects!CkHoZIOKoP4JTTNK.JVhAMieJgzl4I0yj"
+    },
+    {
+      "name": "热带庇护",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_land_natures-sanctuary.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>此区域为你提供半身掩护和毒素伤害的抗性。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [
+        "coverHalf"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734177800482,
+        "modifiedTime": 1735457757029,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "KqzNUI7p4DPrud2y",
+      "_key": "!items.effects!CkHoZIOKoP4JTTNK.KqzNUI7p4DPrud2y"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758729929141,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "CkHoZIOKoP4JTTNK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!CkHoZIOKoP4JTTNK"
+}

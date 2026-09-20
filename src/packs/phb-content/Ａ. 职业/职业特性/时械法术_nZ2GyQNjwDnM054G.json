@@ -1,0 +1,195 @@
+{
+  "name": "时械法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你达到时械法术表中所述的相应术士等级时，你视为总是准备了列出的对应法术。</p><table class=\"left-three\"><caption>时械法术 Clockwork Spells</caption><thead><tr><td>术士等级</td><td>法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UevxY83OWJZNKkwi]{援助术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iEzHPdMpS7ZIOSZg]{警报术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uRgDAGoGKx1w4VHw]{次级复原术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2tRnB4Wd3ZniDg7R]{防护善恶}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4]{防护能量}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL]{行动自如}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aPvKxaO9gvYEN5mc]{构装召唤术}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iFhf1xG1jvsgL0Q1]{力场墙}</em></td></tr></tbody></table><p>此外，你可以从秩序显迹表中选择或掷骰决定一种你在施法时显现出与秩序之联系的方式。</p><table class=\"left-three\"><caption>秩序显迹 Manifestations of Order</caption><thead><tr><td>[[/r 1d6]]</td><td>显迹</td></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>幽灵般的虚幻齿轮在你身后旋转。</td></tr><tr><td style=\"text-align:center\">2</td><td>时钟的指针出现在你的眼中。</td></tr><tr><td style=\"text-align:center\">3</td><td>你的皮肤发出如黄铜般的金属光泽。</td></tr><tr><td style=\"text-align:center\">4</td><td>你的体表浮动着方程式和几何图形。</td></tr><tr><td style=\"text-align:center\">5</td><td>你的法器短暂地变化成小巧的机械装置。</td></tr><tr><td style=\"text-align:center\">6</td><td>你和那些受到你法术影响的生物都会听到齿轮的滴答声或是钟表的响铃。</td></tr></tbody></table><p class=\"item-original\">Clockwork Spells</p>",
+      "chat": ""
+    },
+    "identifier": "clockwork-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "时械术法",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.UevxY83OWJZNKkwi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.iEzHPdMpS7ZIOSZg",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.uRgDAGoGKx1w4VHw",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.2tRnB4Wd3ZniDg7R",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "时械法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "EyazZeCcX6HBEKI8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "时械法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "5gpuKDtSC62bBQI5"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.aPvKxaO9gvYEN5mc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "时械法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "WQi7efeUXuRHRzk1"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.iFhf1xG1jvsgL0Q1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "时械法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "5cO7ZT016sT8kkBe"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777658000774,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "nZ2GyQNjwDnM054G",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!nZ2GyQNjwDnM054G"
+}

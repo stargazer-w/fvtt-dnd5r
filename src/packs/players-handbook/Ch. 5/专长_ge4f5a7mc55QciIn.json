@@ -1,0 +1,289 @@
+{
+  "name": "专长",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "Hkwe5VT1BJIEDMHg",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.96DRf9EI0dfXWdGi inline]</p><p>本章提供了一系列不与角色职业绑定的特殊特性，这些特性被称为专长。专长代表着角色在某些领域上的天赋与精通，这些天赋与精通为角色带来了不同的特殊能力。专长还象征着职业所提供之外的其他训练、经验和能力。</p><p>接下来的内容会为你介绍专长的各个组成部分，并依照不同的分类列举出各种专长选项。</p><p>你的背景会给予你一个专长。达到一定等级时，你的职业也会为你提供@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长，或者也允许你选择另一项你符合条件的专长。</p><p>不管你是以什么样的方式获得了专长，你都不能重复选择相同的专长，除非其详述部分有特别允许的说明。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776357752605,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.Hkwe5VT1BJIEDMHg"
+    },
+    {
+      "sort": 200000,
+      "name": "专长描述",
+      "type": "text",
+      "_id": "uvu3wNdG3Czms2dL",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Feat Descriptions</p><p>本章中的专长会按照以下不同的分类区分：起源、通用、战斗风格以及传奇恩惠。这些专长会以英文原名的字母表顺序排列。所有专长都按英文原名的字母表顺序列在了专长列表中。可以多次选择的专长会在名字后用星号标注。</p><h3>专长的组成部分</h3><p class=\"journal-original-h3\">Parts of a Feat</p><p>专长由以下几种部分组成，这些部分列于专长名称之后。</p><p><em><strong>分类。</strong></em>每个专长都有自己的分类，并会在专长描述中标明它属于哪一种。当你被要求从某个特定分类中选择专长，例如从起源分类中进行选择时，你所选的专长分类必须有写在专长的名字正下方。如果你被要求选择专长而不限定分类时，你可以从任何分类中选择专长。</p><p><em><strong>先决。</strong></em>想要选择某个专长，你必须首先满足其描述部分的先决条件，除非有什么特性允许你无视先决选择该专长。如果一个专长的先决包括职业，那你必须至少有一级对应的职业等级才能选择这个专长。</p><p><em><strong>增益。</strong></em>专长的具体效益会在先决描述下详细列出。如果你获得了一个专长，你就会获得其增益。</p><p><em><strong>复选。</strong></em>每个专长都只能选择一次，除非在描述部分的“复选”部分明确允许。</p><table><caption>专长列表 Feat List</caption><thead><tr><th>专长</th><th>分类</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}*</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.msDNMoRe8onc2pdz]{演员}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN]{警戒}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oWPJPxMe7EB3pcdu]{箭术}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.66IvMkbxBiGRQ9RF]{运动精英}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GMIQEz0CN0im915g]{盲斗}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VaWRCwUat3iE0xHS]{英勇战斗之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jbXDpL9ZhdnHv2P7]{次元旅行之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.njwtiMxhpWoWkHMF]{能量抗性之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YvPs0XnAqPFXLYPz]{扭曲命运之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.05F1qHAwT32DIfRy]{超凡强韧之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6n0PoOlcVbpUeH8U]{无敌攻势之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.omVuMZEVeCeDlQMo]{强力恢复之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1t1ow8MMaAiLGI8Y]{博学多才之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iNd97fdSsfSiREmQ]{神行无拘之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.k8nNgK5pN3ZNErDm]{法术溯回之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iSOj92kHNfQB8gG6]{暗夜精魂之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQzI2FTNYOiNhKS6]{真实视觉之恩惠}</td><td>传奇恩惠</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pme4MBlcT7yZSEAo]{冲锋手}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tcqMeYqvf31jzSPC]{大厨}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zQJY6NM2aNSbGeha]{巧匠}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1PtG60XblBLFXeXH]{强弩专家}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TuFJRy3fFm9zt9YG]{粉碎者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rsOBLc78NaLoCX2I]{防御}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iOgWsFBc5UnVEi1q]{防御式决斗者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fhlQ4MPSNridmwIF]{双持客}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GqB5BFFpyeRzpGAW]{对决}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.y5U5T08KqtYPleo4]{耐性}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HftudGRdNx94GyIi]{元素善用}*</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.86oI1YNTRP1ZoSXQ]{妖精触碰}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gVoTYXLMRW2Vjsdy]{擒抱者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GSBndxFrGT0MabfP]{巨武器战斗}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Wn0gJBdt42CVDkWX]{巨武器大师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hGvFzJbEqEtn4elV]{医疗师}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SATsASTqOt5FeerN]{重甲运用}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yU8jAOkxWWl9qtvx]{重甲大师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.V8XwFRnfXYeZS8jD]{领袖之证}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.I72q99jC4n8YBMG7]{拦截}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8pmI7pnzvtz31U1c]{敏锐心灵}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G166w2boJBKzmzTn]{轻甲运用}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.enrTqQN66ysDzKLj]{幸运}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mhe7EAd2qnhomElI]{巫师杀手}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Tllap2nUwXgzu303]{魔法学徒}*</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5PaXVYaTyElzohQX]{军用武器训练}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhk6lV9E5I77L51D]{中甲大师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GoojZBirqo9PurqS]{中甲运用}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.t2Go034EVHvhqlwI]{骑乘斗士}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.r89awt2LTx3hGlB9]{音乐家}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dH1G82cR8qm5DOUb]{观察力}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8ucA20xspGGX1Ay6]{穿刺者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lRRUZBuBvswICrCy]{毒师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Fovwu3haniRJMQYE]{长柄武器大师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nzV7H2t6SoXupvUO]{守护}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fPt02ozgNurUk0wh]{强健身心}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yC9LOmrKy328XY2o]{仪式施法者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E93tz5X13K0SXZui]{凶蛮打手}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EizmsiN8uu6DShtg]{哨兵}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DX9XtYKpNtYI9lHL]{影界触碰}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ALfEbTDn0VYl3MAX]{神射手}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VtTEEQxIJkNLS740]{盾牌大师}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0]{熟习}*</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XJElwYIdovKTQxn2]{技艺专家}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iRhJLHIEcm8inBl0]{隐伏者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1A80F2GiEZ4xPbEi]{劈砍者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vyOHIbthWUFMzuWa]{飙速跑者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.s6PkrGNGuqWkAReC]{法术射手}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iX9UkREwHZ5YC344]{酒馆斗殴者}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xMn0ywqevatxeHuM]{念动力}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U8T4sGoakGhuKB7M]{心电感应}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oh96tmKypy2Yot4R]{投掷武器战斗}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Q8jfAvTZMB0HUjgB]{健壮}</td><td>起源</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N6ps6iaco7z0gW8y]{双武器战斗}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rzDadRdHUtmlNlUP]{徒手战斗}</td><td>战斗风格</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UEElJbjMWJig98Gh]{战地施法者}</td><td>通用</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BMW81iaEizQ9Jh8w]{武器大师}</td><td>通用</td></tr></tbody></table><p>* 这个专长可以被重复选取。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776357765334,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.uvu3wNdG3Czms2dL"
+    },
+    {
+      "sort": 300000,
+      "name": "起源专长",
+      "type": "text",
+      "_id": "otAeQs0TLHYIBNuj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Origin Feats</p><p>这些专长从属于起源分类。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.8yatXrf4jcj1NnLA inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.vYLu27fRtkhwf7gN inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zQJY6NM2aNSbGeha]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zQJY6NM2aNSbGeha inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hGvFzJbEqEtn4elV]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.hGvFzJbEqEtn4elV inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.enrTqQN66ysDzKLj]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.enrTqQN66ysDzKLj inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Tllap2nUwXgzu303]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Tllap2nUwXgzu303 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.r89awt2LTx3hGlB9]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.r89awt2LTx3hGlB9 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E93tz5X13K0SXZui]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.E93tz5X13K0SXZui inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iX9UkREwHZ5YC344]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iX9UkREwHZ5YC344]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Q8jfAvTZMB0HUjgB]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Q8jfAvTZMB0HUjgB inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.YPKbGXWVge8Sm18K inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776575757021,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.otAeQs0TLHYIBNuj"
+    },
+    {
+      "sort": 400000,
+      "name": "通用专长",
+      "type": "text",
+      "_id": "xOnod0XYqxamI66Y",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">General Feats</p><p>这些专长属于通用分类。</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.msDNMoRe8onc2pdz]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.msDNMoRe8onc2pdz inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.66IvMkbxBiGRQ9RF]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.66IvMkbxBiGRQ9RF inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pme4MBlcT7yZSEAo]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pme4MBlcT7yZSEAo inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tcqMeYqvf31jzSPC]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tcqMeYqvf31jzSPC inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1PtG60XblBLFXeXH]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1PtG60XblBLFXeXH inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TuFJRy3fFm9zt9YG]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TuFJRy3fFm9zt9YG inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iOgWsFBc5UnVEi1q]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iOgWsFBc5UnVEi1q inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fhlQ4MPSNridmwIF]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fhlQ4MPSNridmwIF inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.y5U5T08KqtYPleo4]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.y5U5T08KqtYPleo4 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HftudGRdNx94GyIi]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.HftudGRdNx94GyIi inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.86oI1YNTRP1ZoSXQ]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.86oI1YNTRP1ZoSXQ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gVoTYXLMRW2Vjsdy]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gVoTYXLMRW2Vjsdy inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Wn0gJBdt42CVDkWX]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Wn0gJBdt42CVDkWX inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SATsASTqOt5FeerN]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.SATsASTqOt5FeerN inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.u40X0ryFWKOOBPJx inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yU8jAOkxWWl9qtvx]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yU8jAOkxWWl9qtvx inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.V8XwFRnfXYeZS8jD]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.V8XwFRnfXYeZS8jD inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8pmI7pnzvtz31U1c]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8pmI7pnzvtz31U1c inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G166w2boJBKzmzTn]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.G166w2boJBKzmzTn inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mhe7EAd2qnhomElI]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mhe7EAd2qnhomElI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5PaXVYaTyElzohQX]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5PaXVYaTyElzohQX inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhk6lV9E5I77L51D]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.rhk6lV9E5I77L51D inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GoojZBirqo9PurqS]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GoojZBirqo9PurqS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.t2Go034EVHvhqlwI]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.t2Go034EVHvhqlwI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dH1G82cR8qm5DOUb]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dH1G82cR8qm5DOUb inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8ucA20xspGGX1Ay6]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8ucA20xspGGX1Ay6 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lRRUZBuBvswICrCy]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lRRUZBuBvswICrCy inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Fovwu3haniRJMQYE]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Fovwu3haniRJMQYE inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fPt02ozgNurUk0wh]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fPt02ozgNurUk0wh inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yC9LOmrKy328XY2o]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yC9LOmrKy328XY2o inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.HTmycIehijQK9QTZ inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EizmsiN8uu6DShtg]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EizmsiN8uu6DShtg inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DX9XtYKpNtYI9lHL]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DX9XtYKpNtYI9lHL inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ALfEbTDn0VYl3MAX]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ALfEbTDn0VYl3MAX inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.Vqtuiun1zlhOhWTL inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VtTEEQxIJkNLS740]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VtTEEQxIJkNLS740 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XJElwYIdovKTQxn2]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.XJElwYIdovKTQxn2 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iRhJLHIEcm8inBl0]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iRhJLHIEcm8inBl0 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1A80F2GiEZ4xPbEi]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1A80F2GiEZ4xPbEi inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vyOHIbthWUFMzuWa]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.vyOHIbthWUFMzuWa inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.s6PkrGNGuqWkAReC]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.s6PkrGNGuqWkAReC inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xMn0ywqevatxeHuM]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xMn0ywqevatxeHuM inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.cC9OL0mZQAwihzZX inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U8T4sGoakGhuKB7M]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.U8T4sGoakGhuKB7M inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UEElJbjMWJig98Gh]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UEElJbjMWJig98Gh inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BMW81iaEizQ9Jh8w]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BMW81iaEizQ9Jh8w inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776575757021,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.xOnod0XYqxamI66Y"
+    },
+    {
+      "sort": 500000,
+      "name": "战斗风格专长",
+      "type": "text",
+      "_id": "sbHImaCB8ZMEHYkb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Fighting Style Feats</p><p>这些专长属于战斗风格分类。</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oWPJPxMe7EB3pcdu]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.oWPJPxMe7EB3pcdu inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GMIQEz0CN0im915g]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GMIQEz0CN0im915g inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rsOBLc78NaLoCX2I]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.rsOBLc78NaLoCX2I inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GqB5BFFpyeRzpGAW]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GqB5BFFpyeRzpGAW inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GSBndxFrGT0MabfP]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GSBndxFrGT0MabfP inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.I72q99jC4n8YBMG7]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.I72q99jC4n8YBMG7 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.38Pb4NiyE8r77Z0d inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nzV7H2t6SoXupvUO]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.nzV7H2t6SoXupvUO inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oh96tmKypy2Yot4R]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.oh96tmKypy2Yot4R inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.N6ps6iaco7z0gW8y]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.N6ps6iaco7z0gW8y inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rzDadRdHUtmlNlUP]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.rzDadRdHUtmlNlUP inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776575757021,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.sbHImaCB8ZMEHYkb"
+    },
+    {
+      "sort": 600000,
+      "name": "传奇恩惠专长",
+      "type": "text",
+      "_id": "GxfrwkJbrIvn7reC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Epic Boon Feats</p><p>这些专长从属于传奇恩惠分类。</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VaWRCwUat3iE0xHS]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VaWRCwUat3iE0xHS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jbXDpL9ZhdnHv2P7]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.jbXDpL9ZhdnHv2P7 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.njwtiMxhpWoWkHMF]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.njwtiMxhpWoWkHMF inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YvPs0XnAqPFXLYPz]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YvPs0XnAqPFXLYPz inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.05F1qHAwT32DIfRy]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.05F1qHAwT32DIfRy inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.cw4Q6F1VfDFkPJOa inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6n0PoOlcVbpUeH8U]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6n0PoOlcVbpUeH8U inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.omVuMZEVeCeDlQMo]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.omVuMZEVeCeDlQMo inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.Y23T0wZpv6K9tzsb.JournalEntryPage.WkySs3PVlzXyuJuZ inline classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1t1ow8MMaAiLGI8Y]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1t1ow8MMaAiLGI8Y inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iNd97fdSsfSiREmQ]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iNd97fdSsfSiREmQ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.k8nNgK5pN3ZNErDm]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.k8nNgK5pN3ZNErDm inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iSOj92kHNfQB8gG6]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iSOj92kHNfQB8gG6 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQzI2FTNYOiNhKS6]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.jQzI2FTNYOiNhKS6 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776575757021,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ge4f5a7mc55QciIn.GxfrwkJbrIvn7reC"
+    }
+  ],
+  "folder": "uaVMY2xYSSLCr3Kq",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 6,
+      "title": "第五章：专长",
+      "order": 700100,
+      "navigation": {
+        "previous": "owOzzcy5eMJgHNpu",
+        "next": "yFzzxIJsgpTWKtlt"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1728960386211,
+    "modifiedTime": 1776357747822,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "ge4f5a7mc55QciIn",
+  "sort": -100000,
+  "categories": [],
+  "_key": "!journal!ge4f5a7mc55QciIn"
+}

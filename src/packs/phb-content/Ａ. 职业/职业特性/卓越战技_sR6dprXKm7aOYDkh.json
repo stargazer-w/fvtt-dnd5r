@@ -1,0 +1,104 @@
+{
+  "name": "卓越战技",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_battle-master_combat-superiority.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.battle-master.superiority.number"
+    },
+    "description": {
+      "value": "<p>你的战斗技巧在战场上接受了磨砺，你习得战技并获得一种名为卓越骰的特殊骰。</p><p><em><strong>战技。</strong></em>你从“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.ny3PA46G1H96t35Q#战技项]{战技项}”中习得三种自选战技。许多战技可以以某种方式增幅你的攻击，而你在每次攻击时只能应用一次战技。</p><p>你在第 7、第 10 和第 15 级时均习得两种自选的新战技。习得新战技时，你还可以额外替换一个已经习得的战技。</p><p><em><strong>卓越骰。</strong></em>你拥有四个 d8 卓越骰。卓越骰一经使用即消耗，完成短休或长休后恢复。</p><p>你的卓越骰在第 7（共 5 枚）和第 15 级（共 6 枚）时各增加一枚。</p><p><em><strong>豁免。</strong></em>若一个战技需要进行一次豁免检定，则该战技的豁免 DC 等于 8 + 你的力量或敏捷调整值（由你选择）+ 你的熟练加值。</p><p class=\"item-original\">Combat Superiority</p>",
+      "chat": ""
+    },
+    "identifier": "combat-superiority",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "战斗大师",
+    "advancement": [
+      {
+        "_id": "7r0y2L1GgbRLMbZK",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 3,
+              "replacement": false
+            },
+            "7": {
+              "count": 2,
+              "replacement": true
+            },
+            "10": {
+              "count": 2,
+              "replacement": true
+            },
+            "15": {
+              "count": 2,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "maneuver",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "卓越战技：战技",
+        "hint": "你从“战技项”中习得自选的战技。当你习得新战技时，你还可以额外替换一个已经习得的战技。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_battle-master_combat-superiority.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777642404447,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "sR6dprXKm7aOYDkh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!sR6dprXKm7aOYDkh"
+}

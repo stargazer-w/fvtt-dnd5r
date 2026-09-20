@@ -1,0 +1,143 @@
+{
+  "name": "通晓传奇",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_legend-lore.webp",
+  "system": {
+    "activities": {
+      "P0uETrRNImIG6eHK": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "P0uETrRNImIG6eHK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>点名或描述一个人物，或一处地点、一个物件。该法术在你脑海中形成一段由 DM 描述的关于该事物重要传闻的简单概述。</p><p>这些传闻可能包括了重要的细节，有趣的揭秘，也可能是不曾被广泛知晓的秘闻。你掌握目标越多的信息，所得到的信息就越精确细致。你由此得到的信息必定是准确的，但仍可能会以比喻或诗歌来表达，具体将由 DM 决定。</p><p>如果你选的事物其实并不著名，你会听到仿佛由长号演奏而出的悲伤的音符，随后法术失败。</p><p class=\"item-original\">Legend Lore</p>",
+      "chat": ""
+    },
+    "identifier": "legend-lore",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 10,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 5,
+    "materials": {
+      "value": "价值至少 250 GP 的熏香，作为该法术的耗材；以及每块价值至少 50 GP 的四块象牙板",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "7XZoKMHv52rcLqft",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194988712,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "XuNPcSUp7GXXLwvI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!XuNPcSUp7GXXLwvI"
+}

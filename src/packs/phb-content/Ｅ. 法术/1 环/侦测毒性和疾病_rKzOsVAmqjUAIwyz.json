@@ -1,0 +1,146 @@
+{
+  "name": "侦测毒性和疾病",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_detect-poison-and-disease.webp",
+  "system": {
+    "activities": {
+      "IFFAokFKyYxe9Zqo": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "IFFAokFKyYxe9Zqo",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在法术持续时间内，你定位距你 30 尺内的毒药、有毒生物和魔法疾病。你可以感知到毒药、有毒生物和疾病的种类。</p><p>此法术会被 1 尺厚的岩石、泥土或木头，1 寸厚的金属，或薄薄一层铅阻隔。</p><p class=\"item-original\">Detect Poison and Disease</p>",
+      "chat": ""
+    },
+    "identifier": "detect-poison-and-disease",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一片紫杉叶",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195018116,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "rKzOsVAmqjUAIwyz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!rKzOsVAmqjUAIwyz"
+}

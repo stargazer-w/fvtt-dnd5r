@@ -1,0 +1,63 @@
+{
+  "name": "铁钉",
+  "system": {
+    "description": {
+      "value": "<p>一组铁钉具有十支。以一个&amp;Reference[Utilize]{操作}动作，你可以使用一把钝器，例如轻锤，来将铁钉锤入木头、土地或类似的材质。你能通过这种方式堵死一扇门，或将绳索或链条固定在铁钉上。</p><p class=\"item-original\">Spikes, Iron</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 10,
+    "weight": {
+      "value": 0.5,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "spikes-iron"
+  },
+  "type": "loot",
+  "folder": "uDk4FBYfcP2JnX6t",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_spikes-iron.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758195026132,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "x3R8C0vbpw06mjUx",
+  "sort": 6200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!x3R8C0vbpw06mjUx"
+}

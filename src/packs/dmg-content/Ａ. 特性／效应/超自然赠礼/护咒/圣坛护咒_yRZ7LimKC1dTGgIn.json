@@ -1,0 +1,136 @@
+{
+  "name": "圣坛护咒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_cyan.webp",
+  "system": {
+    "activities": {
+      "IfrFBALkyOPeNuXO": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.87l8gOHlAmpnuYsn",
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "IfrFBALkyOPeNuXO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>此护咒持续 7 天或持续至你将其使用为止。此护咒允许你施展一次<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.87l8gOHlAmpnuYsn]{治愈真言}</em>，无需消耗法术位。你无法在已拥有该护咒时再次获得它。</p><p class=\"item-original\">Sanctuary Charm</p>",
+      "chat": ""
+    },
+    "identifier": "sanctuary-charm",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [],
+  "folder": "SplJ9I45BYv7ekHJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1763013247723,
+    "modifiedTime": 1763013271378,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "yRZ7LimKC1dTGgIn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!yRZ7LimKC1dTGgIn"
+}

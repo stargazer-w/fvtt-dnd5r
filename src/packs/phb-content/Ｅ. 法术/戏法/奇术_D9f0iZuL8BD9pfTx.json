@@ -1,0 +1,143 @@
+{
+  "name": "奇术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_thaumaturgy.webp",
+  "system": {
+    "activities": {
+      "2O8hRAeOr42FLzFd": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "2O8hRAeOr42FLzFd",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在施法距离内显现一道次级奇观。你在施法距离内创造下述效应之一。如果你多次施展该法术，则可以同时维持至多三个不同的持续 1 分钟的效应。</p><p><em><strong>改变眼睛。</strong></em>你改变自己眼睛的外观，其效应持续 1 分钟。</p><p><em><strong>扩大音量。</strong></em>你的声音变为一般时候的三倍，其效应持续 1 分钟。在此期间，你在魅力（威吓）检定上具有优势。</p><p><em><strong>火光闪烁。</strong></em>你使一团火焰闪烁，变亮，变暗或变色，其效应持续 1 分钟。</p><p><em><strong>看不见的手。</strong></em>你使一扇没有锁上的门或窗立即打开或关上。</p><p><em><strong>幻音。</strong></em>你使一阵瞬时声音自施法距离内一点发出，例如雷鸣声，渡鸦叫声或不祥低语声。</p><p><em><strong>震动。</strong></em>你在地面上引发无害的震动，其效应持续 1 分钟。</p><p class=\"item-original\">Thaumaturgy</p>",
+      "chat": ""
+    },
+    "identifier": "thaumaturgy",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 0,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "9tUoSBG1a65wcO1T",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194958633,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "D9f0iZuL8BD9pfTx",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!D9f0iZuL8BD9pfTx"
+}

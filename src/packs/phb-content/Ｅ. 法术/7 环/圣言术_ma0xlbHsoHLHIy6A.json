@@ -1,0 +1,157 @@
+{
+  "name": "圣言术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_divine-word.webp",
+  "system": {
+    "activities": {
+      "S6TpieuKrXI2Pqrc": {
+        "type": "save",
+        "name": "施法",
+        "_id": "S6TpieuKrXI2Pqrc",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你吟诵一句充盈上层位面力量的箴言。在施法距离内你指定的生物进行一次[[/save]]{魅力豁免}。豁免失败者，若其生命值低于 50，则基于其当前生命值承受以下效应，如圣言效应表中所示。无论其生命值如何，失败于豁免的天族、元素、妖精、邪魔均会被遣送回其起源位面（若其并不在其起源位面）并且除非通过<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>，否则其在 24 小时内不能以任何方式返回当前位面。</p><table><caption>圣言效应 Divine Word Effects</caption><thead><tr><th>生命值</th><th>效应</th></tr></thead><tbody><tr><td style=\"text-align:center;white-space:nowrap\">0–20</td><td>目标死亡。</td></tr><tr><td style=\"text-align:center;white-space:nowrap\">21–30</td><td>目标陷入&amp;Reference[blinded]{目盲}、&amp;Reference[deafened]{耳聋}、&amp;Reference[stunned]{震慑}状态，持续 1 小时。</td></tr><tr><td style=\"text-align:center;white-space:nowrap\">31–40</td><td>目标陷入&amp;Reference[blinded]{目盲}、&amp;Reference[deafened]{耳聋}状态，持续 10 分钟。</td></tr><tr><td style=\"text-align:center;white-space:nowrap\">41–50</td><td>目标陷入&amp;Reference[deafened]{耳聋}状态，持续 1 分钟。</td></tr></tbody></table><p class=\"item-original\">Divine Word</p>",
+      "chat": ""
+    },
+    "identifier": "divine-word",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 7,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "ZD0tLDJB0ruk4NDz",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534925370,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ma0xlbHsoHLHIy6A",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ma0xlbHsoHLHIy6A"
+}

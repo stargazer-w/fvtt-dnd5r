@@ -1,0 +1,191 @@
+{
+  "folder": "E7GttmJg6ZhFeSS5",
+  "name": "瓦尔哈拉号角（青铜）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_horn-of-valhalla.webp",
+  "system": {
+    "activities": {
+      "cCipJzycS8acxpXF": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "7",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "4",
+            "name": "",
+            "_id": "emItF0akICiV8eAj",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "",
+        "_id": "cCipJzycS8acxpXF"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "day",
+          "type": "formula",
+          "formula": "1"
+        }
+      ],
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>奇物，极珍稀</em></p><p>你可以用一个&amp;Reference[Magic]{魔法}动作吹响号角。作为回应，四名伊斯加德的武者英灵将在你周围 60 尺内未占据的空间出现。这些英灵使用<em>《怪物图鉴》</em>上<strong>狂战士</strong>的数据，它们将会在 1 小时之后或 HP 降低到 0 时返回伊斯加德。英灵们看起来就像是活着的，能够呼吸的战士，且它们免疫魅惑与恐慌状态。号角一经使用，需要经过 7 天才能再次使用。</p><p>你需要受训于所有中甲。如果你在不满足条件的情况下吹响了号角，召唤出的英灵们将攻击你。</p><p>如果你满足条件，他们会对你和你的盟友持友善态度，并听从你的命令。</p><p class=\"item-original\">Horn of Valhalla</p>",
+      "chat": ""
+    },
+    "identifier": "horn-of-valhalla",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895784522,
+    "modifiedTime": 1761895876895,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "fPDK0tvrrsl8TN4a",
+  "_key": "!items!fPDK0tvrrsl8TN4a"
+}

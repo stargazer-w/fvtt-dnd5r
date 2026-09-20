@@ -1,0 +1,81 @@
+{
+  "name": "抗性戒指",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_RING_ring-of-resistance.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>戒指，珍稀</em></p><p>着装此戒指期间，你具有一种伤害类型的抗性。可通过戒指中上的宝石判断其对应的伤害类型，具体类型由 DM 选择或在下表中掷骰以随机决定。</p><table><thead><tr><th>[[/r 1d10]]</th><th>伤害类型</th><th>宝石</th></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ABLYKPdw2uMMriby]{强酸}</td><td>珍珠</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.NJMr5BQ1QCjApIu3]{寒冷}</td><td>电气石</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fqPjboU0caH6Ftbt]{火焰}</td><td>石榴石</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.VVP6VNaDgodcvXrK]{力场}</td><td>蓝宝石</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.KO7ZzzXOeclCsMbL]{闪电}</td><td>黄水晶</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.aXIrx3eXbpfoWjQI]{暗蚀}</td><td>黑玉</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.2HwwmvU4BBoJwEnV]{毒素}</td><td>紫水晶</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Vg7yjEDCP6Uz3e1o]{心灵}</td><td>翡翠</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.dfZMMQ3VuOwnYxrH]{光耀}</td><td>黄玉</td></tr><tr><td>10</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.U1kAYW7U5OAxPVC7]{雷鸣}</td><td>尖晶石</td></tr></tbody></table><p class=\"item-original\">Ring of Resistance</p>",
+      "chat": ""
+    },
+    "identifier": "ring-of-resistance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "ring",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "folder": "gaYgX5kRDXCa082s",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.pUOXU6kuMN7EWRyj",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751945235621,
+    "modifiedTime": 1758199223269,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "cqnQsPaDteMzCZFH",
+  "_key": "!items!cqnQsPaDteMzCZFH"
+}

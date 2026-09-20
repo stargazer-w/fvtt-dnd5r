@@ -1,0 +1,71 @@
+{
+  "folder": "7IsIT5Utx9N08SRa",
+  "name": "艺人套组",
+  "type": "container",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONT_gear-pack.webp",
+  "system": {
+    "description": {
+      "value": "<p>艺人套组包含以下物品：@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE]{背包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FRBSbv5r7mvz0Zsf]{铺盖}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ON6f172z2TGGW3eT]{铃铛}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUArRAfYGZRmWLN3]{牛眼提灯}、3 套@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U6eSxy7JKVracmFJ]{戏服}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Bi4obbOx6ftdqNlL]{镜子}、8 扁瓶@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]{燃油}、9 天份的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7wKNH2uvs1jL5Lco]{口粮}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]{火绒盒}和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX]{水袋}。</p><p class=\"item-original\">Entertainer's Pack</p>",
+      "chat": ""
+    },
+    "identifier": "entertainers-pack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "properties": [],
+    "capacity": {
+      "type": "weight",
+      "value": null
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758195001527,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "goxqF60W45IKi1RR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!goxqF60W45IKi1RR"
+}

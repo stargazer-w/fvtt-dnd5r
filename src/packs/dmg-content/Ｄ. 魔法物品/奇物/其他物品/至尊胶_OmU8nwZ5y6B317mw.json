@@ -1,0 +1,160 @@
+{
+  "name": "至尊胶",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_sovereign-glue.webp",
+  "system": {
+    "activities": {
+      "FaNAR2Nrz20iRH39": {
+        "type": "utility",
+        "_id": "FaNAR2Nrz20iRH39",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "touch",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>奇物，传说</em></p><p>这种乳白色的粘稠物质可以把任何两个物件永久性地粘在一起。至尊胶必须被储存在一个内壁涂满了<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wAZdpqvW9mNxVi2q]{滑溜之油}</em>的瓶子或罐子中。被发现时，容器中装有[[/r 1d6 + 1]]盎司的至尊胶。</p><p>每盎司至尊胶可以覆盖 1 平方尺的表面。涂抹一盎司至尊胶需要一个&amp;Reference[Utilize]{操作}动作，涂抹的胶水将在 1 分钟后凝固。一旦至尊胶凝固，被粘在一起的东西就只能用<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.myBoHlToVUQAhV3Q]{万溶剂}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.38ZMCMdtye4IPGKH]{以太化之油}</em>或法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>才能分开。</p><p class=\"item-original\">Sovereign Glue</p>",
+      "chat": ""
+    },
+    "identifier": "sovereign-glue",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [],
+  "folder": "Rpy4irTRAink9Ehk",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895685521,
+    "modifiedTime": 1761896853776,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "OmU8nwZ5y6B317mw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!OmU8nwZ5y6B317mw"
+}

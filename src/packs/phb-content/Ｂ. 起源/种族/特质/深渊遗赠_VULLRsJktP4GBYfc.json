@@ -1,0 +1,174 @@
+{
+  "name": "深渊遗赠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_tiefling_chthonic-legacy.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你承载着一份给予了你超自然能力的邪魔遗赠。你获得该遗赠的 1 级好处。</p><p>当你到达 3 级和 5 级时，你分别学会一道表格上更高级的法术；你时刻准备着这道习得的法术，且可以不消耗法术位施展此法术一次，当你完成一次长休后，你重获施展该道法术的能力。你也可以用任何你拥有的相应环阶法术位施展该道法术。智力、感知或魅力，是你用此特质施展法术时的关键属性（当你选择遗赠时选择属性）。</p><table><caption>深渊遗赠特质 Abyssal Legacy Traits</caption><thead><tr><td>1 级</td><td>3 级</td><td>5 级</td></tr></thead><tbody><tr><td><p>你获得对毒素伤害的抗性。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nz4AzzQBruyzom2F]{毒气喷溅}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy]{致病射线}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WJtXG4RuJhysvKp3]{定身类人}</em></td></tr></tbody></table><p class=\"item-original\">Abyssal Legacy</p>",
+      "chat": ""
+    },
+    "identifier": "abyssal-legacy",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "提夫林 (深渊)",
+    "advancement": [
+      {
+        "_id": "uPbW1Rqyki33q7Qr",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:poison"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "深渊遗赠",
+        "hint": "你获得对毒素伤害的抗性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp"
+      },
+      {
+        "_id": "yRJj5rs18HGYTYo3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.nz4AzzQBruyzom2F"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0,
+            "method": ""
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "深渊遗赠",
+        "hint": "你习得以下戏法。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_tiefling_chthonic-legacy.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "深渊遗赠",
+        "hint": "你始终准备了以下法术，其施法属性应与你选择邪魔遗赠时相同。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_tiefling_chthonic-legacy.webp",
+        "_id": "vor1g6lFo8XU9hh0"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.WJtXG4RuJhysvKp3"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int",
+              "wis",
+              "cha"
+            ],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "深渊遗赠",
+        "hint": "你始终准备了以下法术，其施法属性应与你选择邪魔遗赠时相同。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_tiefling_chthonic-legacy.webp",
+        "_id": "SM1ak6OlHXO4venY"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "VSjOI4J3tkyhH9Sb",
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730963006430,
+    "modifiedTime": 1777697400228,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "VULLRsJktP4GBYfc",
+  "sort": 3000000,
+  "_key": "!items!VULLRsJktP4GBYfc"
+}

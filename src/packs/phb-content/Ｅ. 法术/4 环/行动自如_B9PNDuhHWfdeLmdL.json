@@ -1,0 +1,200 @@
+{
+  "name": "行动自如",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_freedom-of-movement.webp",
+  "system": {
+    "activities": {
+      "MUrNaEySD5RaJupb": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "MUrNaEySD5RaJupb",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "zttwaF0GMTrDhRRe"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一个自愿生物，并使目标在法术持续时间内移动时不受困难地形限制，并且任何法术或其他魔法效应都不能降低目标的速度，或者使目标陷入麻痹或束缚状态。目标还会获得等同于其速度的游泳速度。</p><p>该目标还可以花费 5 尺移动力直接从非魔法的束缚中挣脱（诸如镣铐或生物使其陷入的受擒状态）。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 4 环高一环，就可以额外再指定一名生物作为法术目标。</p><p class=\"item-original\">Freedom of Movement</p>",
+      "chat": ""
+    },
+    "identifier": "freedom-of-movement",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 4,
+    "materials": {
+      "value": "一条皮带",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "行动自如",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_freedom-of-movement.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL",
+      "transfer": false,
+      "_id": "zttwaF0GMTrDhRRe",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "paralyzed",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "restrained",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>在法术持续时间内，你的移动不受困难地形的限制，任何法术或其他魔法效应都无法降低你的速度，亦无法使你陷入麻痹或束缚状态。你还获得与速度相同的游泳速度。</p><p>此外，你可以花费 5 尺的移动力直接从非魔法的束缚中挣脱。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733040078681,
+        "modifiedTime": 1734783957256,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!B9PNDuhHWfdeLmdL.zttwaF0GMTrDhRRe"
+    }
+  ],
+  "folder": "9KxTNszcWXRDBIoq",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194954701,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "B9PNDuhHWfdeLmdL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!B9PNDuhHWfdeLmdL"
+}

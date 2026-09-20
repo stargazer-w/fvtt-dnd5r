@@ -1,0 +1,363 @@
+{
+  "name": "追猎如风",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_gloom-stalker_stalkers-flurry.webp",
+  "system": {
+    "activities": {
+      "ud3PIxwgMeom0uzh": {
+        "type": "enchant",
+        "_id": "ud3PIxwgMeom0uzh",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "3HfCmlhGal81YhEN",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "G1Wwv3xWqoyny2A6",
+                "rg0Ybxj9Ut4Ykf5F"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "3HfCmlhGal81YhEN"
+        ]
+      },
+      "G1Wwv3xWqoyny2A6": {
+        "type": "damage",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-bow-arrow\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.Fg9IhyCiy0SMAXCb\" data-tooltip=\"item\">瞬杀</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": true,
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.gloom-stalker.dreadful-strike"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "name": "瞬杀",
+        "_id": "G1Wwv3xWqoyny2A6",
+        "img": "",
+        "appliedEffects": []
+      },
+      "rg0Ybxj9Ut4Ykf5F": {
+        "type": "save",
+        "name": "群慌",
+        "_id": "rg0Ybxj9Ut4Ykf5F",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-bow-arrow\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.urYm5WhJ7H5rUc4w\" data-tooltip=\"item\">群慌</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.gloom-stalker.dreadful-strike"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "full"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的恐惧打击造成的心灵伤害变为 2d8。另外，当你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6GxjRmCg1R76innA]{恐惧伏击}的恐惧打击特性时，你可以创造出以下的额外效应之一。</p><p><em><strong>瞬杀。</strong></em>你可以用同一把武器，对位于原目标 5 尺范围内的另一生物再发动一次攻击，新目标必须处于你武器的触及或射程内。</p><p><em><strong>群慌。</strong></em>目标与位于目标 10 尺范围内的每个生物都必须通过一次对抗你法术豁免 DC 的[[/save]]{感知豁免}。若豁免失败，生物将陷入&amp;Reference[frightened]{恐慌}状态，持续至你的下一回合开始。</p><p class=\"item-original\">Stalker's Flurry</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>恐惧打击</strong>特性以追加可选项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "stalkers-flurry",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "幽域追猎者"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "追猎如风",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_gloom-stalker_stalkers-flurry.webp",
+      "disabled": false,
+      "_id": "3HfCmlhGal81YhEN",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735896486796,
+        "modifiedTime": 1735896490769,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!RTqc0knQqQXVWsU7.3HfCmlhGal81YhEN"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "G1Wwv3xWqoyny2A6",
+          "rg0Ybxj9Ut4Ykf5F"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777117403370,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "RTqc0knQqQXVWsU7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!RTqc0knQqQXVWsU7"
+}

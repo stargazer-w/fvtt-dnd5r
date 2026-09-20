@@ -1,0 +1,126 @@
+{
+  "name": "念力宗师",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_psi-warrior_telekinetic-master.webp",
+  "system": {
+    "activities": {
+      "cgQbASiFnLvQAAAG": {
+        "type": "cast",
+        "_id": "cgQbASiFnLvQAAAG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "5",
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.derived-content.Item.V3hV0b2DWSuAELHN"
+        },
+        "name": "心灵遥控",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你总是准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qLOrI5OFfkvEFqGV]{心灵遥控}</em>法术，你可以在无需任何法术成分和法术位的情况下使用它，你施展这一法术的施法属性为智力。在每一个你对该法术维持专注的回合，包括你施展它的回合，你都可以以一个&amp;Reference[Bonus Action]{附赠动作}使用一把武器发动一次攻击。</p><p>每当你使用以特性施展此法术，直到你完成一次长休为止，你都不能再次使用它。你也可以消耗一枚灵能骰（无需动作）来再次施展它。</p><p class=\"item-original\">Telekinetic Master</p>",
+      "chat": ""
+    },
+    "identifier": "telekinetic-master",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "灵能武士"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194970568,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "LTmWotMIdKmas6NH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!LTmWotMIdKmas6NH"
+}

@@ -1,0 +1,221 @@
+{
+  "name": "英勇护咒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_yellow.webp",
+  "system": {
+    "activities": {
+      "AMRsxMof4vDFi4Of": {
+        "type": "heal",
+        "name": "效用",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": 0,
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "10"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "_id": "AMRsxMof4vDFi4Of",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>超自然赠礼（护咒）</em></p><p>该护咒可以让你用一个&amp;Reference[Magic]{魔法}动作获得一剂<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.GTH31fzMkCZ6505d]{英勇药水}</em>的增益。使用一次该增益后，该护咒便会从你身上消失。</p><p class=\"item-original\">Charm of Heroism</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-heroism",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [
+    {
+      "name": "勇气",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_yellow.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.X3ITp2cjsbGXGuJV",
+      "transfer": false,
+      "_id": "MILoKByNnAZnEhP2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在进行攻击检定或豁免检定时，可以在检定结果中额外加入 1d4。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1762999967122,
+        "modifiedTime": 1762999977944,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!X3ITp2cjsbGXGuJV.MILoKByNnAZnEhP2"
+    }
+  ],
+  "folder": "SplJ9I45BYv7ekHJ",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750520888975,
+    "modifiedTime": 1763000061558,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "X3ITp2cjsbGXGuJV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!X3ITp2cjsbGXGuJV"
+}

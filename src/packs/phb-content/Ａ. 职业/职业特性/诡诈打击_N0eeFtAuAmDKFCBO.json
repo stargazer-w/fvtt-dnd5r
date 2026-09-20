@@ -1,0 +1,309 @@
+{
+  "name": "诡诈打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike.webp",
+  "system": {
+    "activities": {
+      "25bUQtHnfAUvXIz3": {
+        "type": "save",
+        "name": "淬毒",
+        "_id": "25bUQtHnfAUvXIz3",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.ApHTqBaIE7BsNzIm\" data-tooltip=\"item\">淬毒 (1d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "RjmPxkSvBXz6u1xy",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_poison.webp",
+        "appliedEffects": [
+          "RjmPxkSvBXz6u1xy"
+        ]
+      },
+      "2SuFfTOTvA0v3TIh": {
+        "type": "save",
+        "name": "摔绊",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.bSxOpU1XtNmEp0yo\" data-tooltip=\"item\">摔绊 (1d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        },
+        "_id": "2SuFfTOTvA0v3TIh",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_trip.webp",
+        "appliedEffects": []
+      },
+      "mkxUYF1kExZWVEwD": {
+        "type": "utility",
+        "_id": "mkxUYF1kExZWVEwD",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-dagger\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.VE4TY2MU3pgWTaPK\" data-tooltip=\"item\">撤步 (1d6)</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "撤步",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_withdraw.webp",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你学会了如何使你的[[/item 偷袭 activity=伤害（诡诈打击）]]{偷袭}更加狡诈的方法。当你造成偷袭伤害时，你可以选择下列一种诡诈打击的效果加入到本次偷袭中。每种效果都需要花费一定数量的偷袭伤害骰才能生效。你必须在投掷伤害前扣除所花费的偷袭的伤害骰，而效果会在这次攻击的伤害产生后立即发生。例如，如果你在本次偷袭中选择了“淬毒”效果，那么你在投掷偷袭伤害骰前需要先减少一颗 1d6。</p><p><em><strong>[[/item 诡诈打击 activity=淬毒]]{淬毒 (花费：1d6)。}</strong></em>你为你的打击附上毒素，强迫目标进行一次[[/save activity=25bUQtHnfAUvXIz3]]{体质豁免}。若失败，目标将陷入 1 分钟的&amp;Reference[poisoned]{中毒}状态。目标可以在每次自己的回合结束时重新进行豁免，若成功，中毒状态终止。</p><p>为了使用这个效果，你必须携带一套制毒工具在身上。</p><p><em><strong>[[/item 诡诈打击 activity=摔绊]]{摔绊 (花费：1d6)。}</strong></em>若偷袭的目标是大型及以下，它必须通过一次成功的[[/save activity=2SuFfTOTvA0v3TIh]]{敏捷豁免}，否则陷入&amp;Reference[prone]{倒地}状态。</p><p><em><strong>[[/item 诡诈打击 activity=撤步]]{撤步 (花费：1d6)。}</strong></em>攻击后你立刻移动至多等于你速度的一半的距离，并且不会触发借机攻击。</p><p class=\"item-original\">Cunning Strike</p>",
+      "chat": ""
+    },
+    "identifier": "cunning-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游荡者"
+  },
+  "effects": [
+    {
+      "name": "淬毒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_cunning-strike_poison.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.N0eeFtAuAmDKFCBO",
+      "transfer": false,
+      "_id": "RjmPxkSvBXz6u1xy",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内陷入&amp;Reference[poisoned]{中毒}状态。</p><p>每个你的回合结束时，你可以重新进行一次[[/save con dc=8+@abilities.dex.mod+@prof]]{体质豁免}，成功则你身上的该状态提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "poisoned"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735998193672,
+        "modifiedTime": 1735998870351,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!N0eeFtAuAmDKFCBO.RjmPxkSvBXz6u1xy"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758653375406,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "N0eeFtAuAmDKFCBO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!N0eeFtAuAmDKFCBO"
+}

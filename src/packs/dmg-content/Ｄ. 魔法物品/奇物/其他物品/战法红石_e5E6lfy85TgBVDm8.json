@@ -1,0 +1,224 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "战法红石",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ruby-of-the-war-mage.webp",
+  "system": {
+    "activities": {
+      "Im1uKprtV92SPzZG": {
+        "type": "enchant",
+        "_id": "Im1uKprtV92SPzZG",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "mYv4LXCVdhglvODC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [
+            "simpleM",
+            "simpleR",
+            "martialM",
+            "martialR"
+          ],
+          "properties": [],
+          "type": "weapon"
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，普通（需施法者同调）</em></p><p>这枚直径 1 寸的红宝石上蚀刻着魔能符文。此红宝石允许你使用一把简易或军用武器作为你施展法术的法器。要使该词条生效，你必须将红宝石按压在该武器上至少 10 分钟，以此将其附着在武器上。随后，除非你使用一个&amp;Reference[Magic]{魔法}动作将其取下、武器被摧毁或你与红宝石的同调结束，否则红宝石将无法被移除。</p><p class=\"item-original\">Ruby of the War Mage</p>",
+      "chat": ""
+    },
+    "identifier": "ruby-of-the-war-mage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "战法红石",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ruby-of-the-war-mage.webp",
+      "disabled": true,
+      "_id": "mYv4LXCVdhglvODC",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "foc",
+          "priority": null
+        },
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "♦ {}",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!e5E6lfy85TgBVDm8.mYv4LXCVdhglvODC"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760606616395,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "e5E6lfy85TgBVDm8",
+  "sort": 3200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!e5E6lfy85TgBVDm8"
+}

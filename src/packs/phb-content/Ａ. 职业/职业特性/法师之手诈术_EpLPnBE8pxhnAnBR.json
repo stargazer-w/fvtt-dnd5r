@@ -1,0 +1,57 @@
+{
+  "name": "法师之手诈术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_arcane-trickster_mage-hand-legerdemain.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQW54HZHK6PwRCON]{法师之手}</em>时，你可以通过&amp;Reference[Bonus Action]{附赠动作}施展，并且你能够使幽灵手变得&amp;Reference[invisible]{隐形}。你可以通过附赠动作控制幽灵手，并且你可以通过它进行敏捷（巧手）检定。</p><p class=\"item-original\">Mage Hand Legerdemain</p>",
+      "chat": ""
+    },
+    "identifier": "mage-hand-legerdemain",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "诡术师"
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194961176,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "EpLPnBE8pxhnAnBR",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!EpLPnBE8pxhnAnBR"
+}

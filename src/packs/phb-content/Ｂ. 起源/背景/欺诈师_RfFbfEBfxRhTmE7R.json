@@ -1,0 +1,140 @@
+{
+  "folder": "kpo7RUG35GCNUzSf",
+  "name": "欺诈师",
+  "type": "background",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/backgrounds/charlatan.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性值：</strong>敏捷、体质、魅力</p><p><strong>专长：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0]{熟习}</p><p><strong>技能熟练：</strong>欺瞒和巧手</p><p><strong>工具熟练：</strong>文书伪造工具</p><p><strong>装备：</strong> <em>选择 A 或 B：</em>(A) @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1mc33ggWBaQUNGWW]{文书伪造工具}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U6eSxy7JKVracmFJ]{戏服}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT]{高档服装}，15 GP；或者 (B) 50 GP。</p><p>在长大到可以买上一杯麦酒时，你就很快在你出生地方圆十里内的每家酒馆里拥有了一席最中意的位置。当你在各种酒馆和酒吧间穿梭，你便学会了如何去利用那些，需要一两句善意谎言安抚的苦命人——也许是一个大力丸骗局或是一封伪造的血缘证明。</p>",
+      "chat": ""
+    },
+    "identifier": "charlatan",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "_id": "fnssmNezHZ4MYWS8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "int",
+            "wis"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值加成",
+        "hint": "你分配 3 点属性值到敏捷、体质或魅力上。你可以将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "_id": "bsDVW5Qg09Gp0WPB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:dec",
+            "skills:slt",
+            "tool:forg"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "熟练项",
+        "hint": "你熟练于欺瞒和巧手，以及文书伪造工具。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "E2EenPg09l6HmA1s",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "语言",
+        "hint": "你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_guide.webp"
+      },
+      {
+        "_id": "pGAiobp1mq0i0oFm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "专长",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729864473146,
+    "modifiedTime": 1777612886233,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "RfFbfEBfxRhTmE7R",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!RfFbfEBfxRhTmE7R"
+}

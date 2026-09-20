@@ -1,0 +1,636 @@
+{
+  "name": "兽性狂暴",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds.webp",
+  "system": {
+    "activities": {
+      "eI9yduzZm9Eogntn": {
+        "type": "enchant",
+        "_id": "eI9yduzZm9Eogntn",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "perm",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "K9fcjMnFeOYmq7oV",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "rVoOIYG0abYpMsKb",
+                "sGS5Vxx597MGqyoz",
+                "8eY93EJpcgLJUyWJ"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "K9fcjMnFeOYmq7oV"
+        ]
+      },
+      "rVoOIYG0abYpMsKb": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-paw-claws\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.hERCt1YjkrMAqzAt\" data-tooltip=\"item\">兽性狂暴：熊</a>"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "YiDzYGMlpT41ngdM"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "兽性狂暴：熊",
+        "_id": "rVoOIYG0abYpMsKb",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_bear.webp",
+        "appliedEffects": [
+          "YiDzYGMlpT41ngdM"
+        ]
+      },
+      "sGS5Vxx597MGqyoz": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-paw-claws\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.KG8yu4S6r1eQ7Br6\" data-tooltip=\"item\">兽性狂暴：鹰</a>"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "GuIJFDUuvNf8ssES"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "兽性狂暴：鹰",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_eagle.webp",
+        "_id": "sGS5Vxx597MGqyoz",
+        "appliedEffects": [
+          "GuIJFDUuvNf8ssES"
+        ]
+      },
+      "8eY93EJpcgLJUyWJ": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-paw-claws\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.derived-content.Item.DKkzi6PzELKg7E2a\" data-tooltip=\"item\">兽性狂暴：狼</a>"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "EasMnGZDFtFS81tw"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "兽性狂暴：狼",
+        "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_wolf.webp",
+        "_id": "8eY93EJpcgLJUyWJ",
+        "appliedEffects": [
+          "EasMnGZDFtFS81tw"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的狂暴解放来自动物的原初之力。每当你激活@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6]{狂暴}时，你从下列选项中选择一项。</p><p><em><strong>熊。</strong></em>你的狂暴激活期间，你具有除力场、心灵、暗蚀、光耀伤害外所有伤害类型的抗性。</p><p><em><strong>鹰。</strong></em>当你激活狂暴时，作为你进入狂暴的附赠动作的一部分，你可以同时执行&amp;Reference[Disengage]{撤离}与&amp;Reference[Dash]{疾跑}动作。你的狂暴激活期间，你也可以以一个&amp;Reference[Bonus Action]{附赠动作}同时执行这两个动作。</p><p><em><strong>狼。</strong></em>你的狂暴激活期间，你的盟友对位于你 5 尺内的敌人进行的攻击检定具有优势。</p><p class=\"item-original\">Rage of the Wilds</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>狂暴</strong>特性以追加可选项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "rage-of-the-wilds",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "兽心道途"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "兽性狂暴",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds.webp",
+      "disabled": false,
+      "_id": "K9fcjMnFeOYmq7oV",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734070737040,
+        "modifiedTime": 1735443879775,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tyaHXmF2oHGxvkdc.K9fcjMnFeOYmq7oV"
+    },
+    {
+      "name": "狂暴（熊）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_bear.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc",
+      "transfer": false,
+      "_id": "YiDzYGMlpT41ngdM",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "+ @scale.barbarian.rage-damage",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6.ActiveEffect.TknIQ3nn7moZF2hS]{狂暴}激活期间，你具有除力场、心灵、暗蚀、光耀伤害外所有伤害类型的抗性。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734071522847,
+        "modifiedTime": 1735443926816,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tyaHXmF2oHGxvkdc.YiDzYGMlpT41ngdM"
+    },
+    {
+      "name": "狂暴（狼）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_wolf.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc",
+      "transfer": false,
+      "_id": "EasMnGZDFtFS81tw",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "+ @scale.barbarian.rage-damage",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6.ActiveEffect.TknIQ3nn7moZF2hS]{狂暴}激活期间，你的盟友对位于你 5 尺内的敌人进行的攻击检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734071523568,
+        "modifiedTime": 1735443900623,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tyaHXmF2oHGxvkdc.EasMnGZDFtFS81tw"
+    },
+    {
+      "name": "狂暴（鹰）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_eagle.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc",
+      "transfer": false,
+      "_id": "GuIJFDUuvNf8ssES",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "+ @scale.barbarian.rage-damage",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6.ActiveEffect.TknIQ3nn7moZF2hS]{狂暴}激活期间，你可以以一个&amp;Reference[Bonus Action]{附赠动作}同时执行&amp;Reference[Disengage]{撤离}与&amp;Reference[Dash]{疾跑}动作。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734071524197,
+        "modifiedTime": 1735443933019,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tyaHXmF2oHGxvkdc.GuIJFDUuvNf8ssES"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "rVoOIYG0abYpMsKb",
+          "sGS5Vxx597MGqyoz",
+          "8eY93EJpcgLJUyWJ"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777117989024,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "tyaHXmF2oHGxvkdc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tyaHXmF2oHGxvkdc"
+}

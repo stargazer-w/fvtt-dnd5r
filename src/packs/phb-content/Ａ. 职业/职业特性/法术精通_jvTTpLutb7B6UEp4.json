@@ -1,0 +1,96 @@
+{
+  "name": "法术精通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_wizard_spell-mastery.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你对特定的法术精熟于心，以至于你可以将其随意施展。选择你法术书中的一个施法时间为动作的 1 环法术和一个 2 环法术，你总是准备这些法术，且能不消耗法术位地以最低环施展它们。如果你想升环施展这些法术，则你必须像平时一样消耗一个法术位。</p><p class=\"item-original\">Spell Mastery</p>",
+      "chat": ""
+    },
+    "identifier": "spell-mastery",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "法师",
+    "advancement": [
+      {
+        "_id": "xGzLM3XP7Z6eMp93",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "18": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "99",
+              "per": "sr",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          },
+          "restriction": {
+            "type": "",
+            "level": "",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "法术精通",
+        "hint": "你选择法术书中的一个施法时间为动作的 1 环法术和一个 2 环法术，你总是准备这些法术，且能不消耗法术位地以最低环施展它们。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_wizard_spell-mastery.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777659917020,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "jvTTpLutb7B6UEp4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jvTTpLutb7B6UEp4"
+}

@@ -1,0 +1,446 @@
+{
+  "name": "祈神蜡烛：外层位面",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>祈神蜡烛</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        5
+      ],
+      "drawn": false,
+      "_id": "xmDeTkWr5EMomq8w",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "无底深渊",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.xmDeTkWr5EMomq8w"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        10
+      ],
+      "drawn": false,
+      "_id": "j8aeom9GMerciMeE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "修罗场",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.j8aeom9GMerciMeE"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        17
+      ],
+      "drawn": false,
+      "_id": "2UH4nc5TICqeD5YB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "奔放之野",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.2UH4nc5TICqeD5YB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        25
+      ],
+      "drawn": false,
+      "_id": "ZaVLUGyWuteQtyfH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "世外桃源",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.ZaVLUGyWuteQtyfH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        26,
+        33
+      ],
+      "drawn": false,
+      "_id": "clgKCfD5DZHVxiKI",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "万兽乡",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.clgKCfD5DZHVxiKI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        34,
+        41
+      ],
+      "drawn": false,
+      "_id": "fYFx80AuJAKpH7tc",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "双生天堂",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.fYFx80AuJAKpH7tc"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        42,
+        46
+      ],
+      "drawn": false,
+      "_id": "xhUnukv2OvOrStia",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "卡瑟利",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.xhUnukv2OvOrStia"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        47,
+        54
+      ],
+      "drawn": false,
+      "_id": "G2OcKqiXkbJ8vLZM",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "极乐境",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.G2OcKqiXkbJ8vLZM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        55,
+        59
+      ],
+      "drawn": false,
+      "_id": "rTQWmkYu0PDEP0qD",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "焦炎火狱",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.rTQWmkYu0PDEP0qD"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        60,
+        64
+      ],
+      "drawn": false,
+      "_id": "Br8JiehAYu5pWb9l",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "哈迪斯",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.Br8JiehAYu5pWb9l"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        69
+      ],
+      "drawn": false,
+      "_id": "zwV31e3VqIzab5Is",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "混沌海",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.zwV31e3VqIzab5Is"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        70,
+        77
+      ],
+      "drawn": false,
+      "_id": "h08nZDjV11opeupi",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "机械境",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.h08nZDjV11opeupi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        78,
+        85
+      ],
+      "drawn": false,
+      "_id": "ewwEUnE7LdBmEqe6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "天界山",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.ewwEUnE7LdBmEqe6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        86,
+        90
+      ],
+      "drawn": false,
+      "_id": "4cEREAMD7fAa1xY5",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "九层地狱",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.4cEREAMD7fAa1xY5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        95
+      ],
+      "drawn": false,
+      "_id": "Ke2CdocgOlNgmZkY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "喧癫空隧",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.Ke2CdocgOlNgmZkY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "_id": "4BtsU3YZCFUJQ7Ph",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "伊斯加德",
+      "name": "",
+      "_key": "!tables.results!CRTZliIquNnPuks5.4BtsU3YZCFUJQ7Ph"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "ndQHh8WqPjMJWNmw",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757849731922,
+    "modifiedTime": 1757849734038,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "CRTZliIquNnPuks5",
+  "sort": 12500,
+  "_key": "!tables!CRTZliIquNnPuks5"
+}

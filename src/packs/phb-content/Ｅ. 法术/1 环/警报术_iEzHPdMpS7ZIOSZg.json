@@ -1,0 +1,155 @@
+{
+  "name": "警报术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_alarm.webp",
+  "system": {
+    "activities": {
+      "ghh3FjihcA5k3dea": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "ghh3FjihcA5k3dea",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你设置一个针对不速之客的警报。在施法距离内指定一扇门窗或选择一个边长不大于 20 尺的立方区域。在法术持续时间内，任何触碰或进入被法术保护区域的生物都会触发警报。施法时，你可以决定哪些生物不会触发警报，还可以选择警报方式为声音警报或是精神警报。</p><p><em><strong>声音警报。</strong></em>警报将在其保护区域 60 尺范围内将响起持续 10 秒摇铃声。</p><p><em><strong>精神警报。</strong></em>如果你距离目标区域不超过 1 里，警报会在你脑海中会传来“乒”的警报声。如果你在睡觉，则警报将使你惊醒。</p><p class=\"item-original\">Alarm</p>",
+      "chat": ""
+    },
+    "identifier": "alarm",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "8"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一个小铃铛和一小段银线",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cube",
+        "size": "20",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "folder": "NpTgqlavAxh6ULnd",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195003129,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iEzHPdMpS7ZIOSZg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iEzHPdMpS7ZIOSZg"
+}

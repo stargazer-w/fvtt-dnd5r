@@ -1,0 +1,135 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "次元洞",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_portable-hole.webp",
+  "system": {
+    "activities": {
+      "pkYppb8w36yQOFy2": {
+        "type": "utility",
+        "_id": "pkYppb8w36yQOFy2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这块如丝绸般顺滑的精致黑色布料，折叠起来只有手帕大小。布料展开后为直径 6 尺的圆形盖布。</p><p>你可以使用一个&amp;Reference[Magic]{魔法}动作展开<em>次元洞</em>，并将其放置在或靠着一处坚固表面。<em>次元洞</em>会随即打开一个 10 尺深的异次元孔洞。次元洞内的圆柱形空间存在于异位面，因此无法用于创造开放通道。任何位于一个打开的<em>次元洞</em>内的生物都可以通过攀爬从洞口离开。</p><p>你可以使用一个&amp;Reference[Magic]{魔法}动作通过抓住布料的边缘将其折叠起来以关闭<em>次元洞</em>。折叠布料会关闭洞口，里面的任何生物或物件都会留在异次元空间中。无论内部装了什么，次元洞的重量都可以忽略不计。</p><p>如果<em>次元洞</em>被折叠起来，一个位于洞内异次元空间的生物可以使用一个动作进行一次[[/skill ath 10 format=long]]。如果检定成功，该生物就会强行离开，并出现在次元洞周边 5 尺范围内。一个关闭的次元洞可容纳足够呼吸 1 小时的空气，除以洞内呼吸生物的数量。</p><p>将<em>次元洞</em>放入<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MtNdbAgGmGsr9opW]{次元袋}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.OFOIPKKqfejnfGWq]{霍华德便利袋}</em>或其他类似物品产生的异次元空间时，将立即摧毁这两件物品并打开一扇通往星光位面的门扉。门扉会产生在被放入另一件物品的前一件物品所在的空间位置。任何在门扉周边 10 尺范围内且不在全掩护之后的生物将被吸入门内并送到星光位面的随机位置，随后该门关闭。这扇门扉只能单向通过且无法被再次打开。</p><p class=\"item-original\">Portable Hole</p>",
+      "chat": ""
+    },
+    "identifier": "portable-hole",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895707285,
+    "modifiedTime": 1761896693243,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "VmbEBkCDiVKgjdTH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!VmbEBkCDiVKgjdTH"
+}

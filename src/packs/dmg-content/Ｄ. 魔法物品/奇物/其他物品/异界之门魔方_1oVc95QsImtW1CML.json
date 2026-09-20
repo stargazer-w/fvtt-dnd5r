@@ -1,0 +1,230 @@
+{
+  "folder": "Rpy4irTRAink9Ehk",
+  "name": "异界之门魔方",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_cubic-gate.webp",
+  "system": {
+    "activities": {
+      "9Efw7RzkKz7Sdxqj": {
+        "type": "cast",
+        "_id": "9Efw7RzkKz7Sdxqj",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 9,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.qsbpnLZhBtDBHZmB",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "urtNpUuwwLoyriB3": {
+        "type": "cast",
+        "_id": "urtNpUuwwLoyriB3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.0F8DCDSOPas8fhtr",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>奇物，传说</em></p><p>这个边长 3 寸的立方体散发着明显的魔法能量。立方体的六个面分别连接到六个不同的存在位面，其中一面连接的是物质位面，而其他面所连接的位面则由 DM 决定。</p><p>立方体具有 3 充能，并在每日黎明时重获 1d3 已消耗的充能。以一个&amp;Reference[Magic]{魔法}动作，你可以消耗此立方体的 1 充能，从立方体中施展下列法术之一。</p><p><em><strong>异界之门。</strong></em>按压立方体的其中一面，你施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qsbpnLZhBtDBHZmB]{异界之门}</em>，打开连接到对应存在位面的传送门。</p><p><em><strong>位面转移。</strong></em>按压两次立方体的其中一面，你施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0F8DCDSOPas8fhtr]{位面转移}</em>，将目标传送至对应存在位面。</p><p class=\"item-original\">Cubic Gate</p>",
+      "chat": ""
+    },
+    "identifier": "cubic-gate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895685521,
+    "modifiedTime": 1761895873140,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1oVc95QsImtW1CML",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!1oVc95QsImtW1CML"
+}

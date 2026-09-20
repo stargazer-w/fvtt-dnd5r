@@ -1,0 +1,186 @@
+{
+  "name": "律令之壁",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_clockwork_bastion-of-law.webp",
+  "system": {
+    "activities": {
+      "KJEcQM1FgfeoxNpK": {
+        "type": "utility",
+        "_id": "KJEcQM1FgfeoxNpK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "5"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.WAIrGoW7sykQ81W3",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "DrRQJzTCpNS1BSFn"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你可以利用世界的均衡之力为一个生物激发闪烁的秩序之盾。以一个动作，你可以消耗 1 ~ 5 点术法点来创造出一个环绕你或 30 尺内的一个可见生物的魔法屏障。屏障具有等同于你所消耗术法点数量的 d8 骰。当被守护的生物受到伤害时，其可以消耗任意数量的这些 d8 骰，投掷它们，并使该伤害减少掷出结果合计的数值。</p><p>此屏障将一直保持存在，直到你完成一次长休，或直至你再次使用此能力。</p><p class=\"item-original\">Bastion of Law</p>",
+      "chat": ""
+    },
+    "identifier": "bastion-of-law",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "时械术法"
+  },
+  "effects": [
+    {
+      "name": "律令之壁",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_clockwork_bastion-of-law.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.qlUE5TzkWVIXYy0i",
+      "transfer": false,
+      "_id": "DrRQJzTCpNS1BSFn",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得一个能够抵消伤害的魔法屏障。</p><p>你受到伤害时，可以消耗此计数中任意数量的[[/r d8]]骰，使该伤害减少掷出结果合计的数值。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736601367965,
+        "modifiedTime": 1736603319838,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!qlUE5TzkWVIXYy0i.DrRQJzTCpNS1BSFn"
+    }
+  ],
+  "folder": "2hxKa7DDpMdD33A6",
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195017426,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "qlUE5TzkWVIXYy0i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!qlUE5TzkWVIXYy0i"
+}

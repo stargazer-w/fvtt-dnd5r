@@ -1,0 +1,212 @@
+{
+  "name": "交涉",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "DCBrQduxfNUmcvsi",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.c0ZssNvHFwmnJCJK cite=false]</p><p>冒险途中，玩家角色会遇见形形色色的人物，以及一些更愿意交谈而非战斗的怪物，此时就需要进行各种形式的交涉了。这些 NPC 由 DM 扮演，而你则可能想尝试劝说一位窃贼主动认罪，亦可能想讨好一名警卫。</p><p>NPC 对角色的态度分为三种：&amp;Reference[Friendly]{友好}、&amp;Reference[Indifferent]{冷漠}、&amp;Reference[Hostile]{敌对}。友好的 NPC 乐于为玩家提供帮助，而敌对的 NPC 则会试图妨碍玩家。</p><p>交涉有两种途径：角色扮演和属性检定。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776325372526,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!8MCZGEL3lF3DSjJb.DCBrQduxfNUmcvsi"
+    },
+    {
+      "sort": 200000,
+      "name": "角色扮演",
+      "type": "text",
+      "_id": "drO5qYnEcAOnbdGl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Roleplaying</p><p>角色扮演词如其名：扮演出一位角色。此时将由你来决定你的角色如何思考、行动、发言。角色扮演在游戏中无处不在，而在交涉中更为重要。</p><p>你在 RP 时可酌情选用演出式扮演还是描述式扮演（见下文@UUID[.Cs8ij3IkT7xRhP15]{交涉范例}）。</p><p>DM 根据 NPC 的性格以及你角色的行为和态度来决定 NPC 的反应：懦弱的强盗可能会在被关进监狱的威胁下屈服；顽固的商人也许会因为角色的持续纠缠而拒绝提供帮助；自负的巨龙则会欣然接受角色的奉承。</p><p>与 NPC 互动时，需要注意 DM 对 NPC 的性格的描述。你也许能在交流中了解到 NPC 的目的，再利用这些信息来影响那个 NPC。</p><p>如果你为 NPC 提供了它们正想要的事物，或是利用了它们的同情心、恐惧、目的，你便有可能收获友谊、避免暴力、甚至得到某些关键信息。相反，如果你侮辱一位骄傲的武者，或是讲一位贵族盟友的坏话，你在劝说和诱导上付出的努力便有可能付之东流。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776325390695,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!8MCZGEL3lF3DSjJb.drO5qYnEcAOnbdGl"
+    },
+    {
+      "sort": 300000,
+      "name": "属性检定",
+      "type": "text",
+      "_id": "9LRNZCkYL93PbLsb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Ability Checks</p><p>属性检定可以作为决定交涉结果的关键环节。你的 RP 也许能直接改变 NPC 的态度，但如果 DM 想让骰子作为一种机运要素来在这一过程中发挥作用，它便通常会要求你执行一次&amp;Reference[Influence]{影响}动作。</p><p>玩家应考虑根据自己及队友的技能熟练来决定如何与 NPC 互动。举例说明，如果一队玩家打算通过欺骗卫兵来进入一座城堡，那一位熟练了欺瞒技能的游荡者便应是这场对话的主导者。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776362483701,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!8MCZGEL3lF3DSjJb.9LRNZCkYL93PbLsb"
+    },
+    {
+      "sort": 400000,
+      "name": "交涉实例",
+      "type": "text",
+      "_id": "Cs8ij3IkT7xRhP15",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Social Interaction Example</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.XqZeZgToyP1y7knt.JournalEntryPage.nVhrpIUQUIPgHzZ5 inline]</p><p>在本场景中，玩家经历了一场交涉遭遇。你和你的小队可以酌情参考以下过程。</p><div class=\"flex-between top\"><section class=\"social-example\"><p><em>四名冒险者——谢里夫，米拉贝拉，奥罗还有格劳兹——抵达了那阴森恐怖的巴洛维亚村的葡萄藤之血酒馆。</em></p><p><span class=\"dm-entry\">杰瑞德（地下城主）：</span>这间酒馆也许曾经被精心装潢过一次，但随着岁月的磨砺如今已陈旧不堪。炉火中跃动的火苗几乎不能给房间带来温暖；你看到柜台后面的一个男人，正细心地擦着玻璃杯子；屋子里还有三个老女人挤在一张桌子边。此外，一位英俊的青年正独自端坐在角落处的另一张桌旁，品着一小杯葡萄酒。在你们进入酒馆的时候，只有这个男人抬头瞅了一眼，而其他人都没搭理你们。</p><p>“欢迎来到巴洛维亚，”他说着，向酒保递了一枚钱币，“给新来的朋友们上点酒。”闪烁的银光引起了服务员的注意。</p><p><span class=\"player-entry\">梅芙（饰米拉贝拉）：</span>“谢谢啊，铁子——咋滴呢，就大方的给咱账给付啦？你谁呢？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“我是伊斯马克 · 考利安诺维奇。虽然在这儿，大伙儿一般都叫我‘不起眼的伊斯玛克’。“</p><p><span class=\"player-entry\">拉赛尔（饰谢里夫）：</span>“那真是个不幸。”</p><p><span class=\"dm-entry\">杰瑞德：</span>“的确，我希望有一天能以我父亲为榜样摆脱这个名头。那么，我的新朋友们，你们是谁？”</p><p><span class=\"player-entry\">艾米（饰奥罗）：</span>“我是奥罗。”</p><p><span class=\"player-entry\">拉赛尔：</span>“谢里夫。”</p><p><span class=\"player-entry\">菲利普（饰格劳兹）：</span>“我叫格劳兹。”</p><p><span class=\"player-entry\">梅芙（饰米拉贝拉）：</span>“我叫米拉贝拉。你说你就是科利安诺维奇啊。这旮的镇长，就那谁…考利安 · 科利安诺维奇，咋滴是你亲戚啊？”</p><p><span class=\"dm-entry\">杰瑞德：</span>他看起来有些惊讶，随后开口说道：“考利安 · 考利安诺维奇，正是我敬爱的父亲。是的。”</p><p><span class=\"player-entry\">梅芙：</span>“俺们就是他给叫来的！”然后我把那封吸引我们来这里来的信，递给他瞅一眼。</p><p><span class=\"player-entry\">菲利普：</span>我要看一哈他读信时的反应。</p><section class=\"highlighted\"><p><span class=\"dm-entry\">杰瑞德：</span>他正要接过信封，但在触碰到之前就缩回了手——“火漆上的印章，那可不是我父亲的。“格劳兹，来，过个感知（洞悉）。<span class=\"footnote\">1</span></p><p><span class=\"player-entry\">菲利普：</span>结果是 18。</p></section><p><span class=\"dm-entry\">杰瑞德：</span>你注意到伊斯马克在试图掩盖他的恐惧。他甚至不敢去触碰信的蜡封。</p><p><span class=\"player-entry\">菲利普：</span>我要问他在怕啥子。</p><p><span class=\"player-entry\">拉赛尔：</span>“如此说来，那这火漆上的印章又是何人的？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“是施特拉德！那个魔鬼！”</p><p><span class=\"player-entry\">艾米：</span>“嗬，这听起来可不是什么善茬。”</p><p><span class=\"dm-entry\">杰瑞德：</span>“可不是！他是那鸦阁堡的吸血鬼领主和我妹妹的梦魇……求求你们帮帮她吧。”</p><p><span class=\"player-entry\">艾米：</span>“得嘞您嘞，合着是施特拉德写了这封信，假装自己个儿是镇长，再雇我们来巴洛维亚，来了去把伊莉娜 · 考利安娜从危险中救走……？怎么着啊，他这是嘛呢？”</p><p><span class=\"player-entry\">拉赛尔：</span>“他唤我等来此，究竟是何目的？”</p><p><span class=\"player-entry\">梅芙：</span>“咋滴啊！这是看不起咱们呐。”</p><p><span class=\"player-entry\">艾米：</span>“别介呀，他这不是还没见过咱们嘛！”</p><p><span class=\"dm-entry\">杰瑞德：</span>“他就是在玩你们呢……他的乐趣就是毁灭一切美好的事物——包括我的妹妹。”</p><section class=\"highlighted\"><p><span class=\"player-entry\">菲利普：</span>格劳兹坐到伊斯马克旁边，同情满满的朝他问一哈：他的姐姐有没得遭那个吸血鬼啃过脖子。<span class=\"footnote\">2</span></p><p><span class=\"dm-entry\">杰瑞德：</span>过个魅力（说服）看看他对你的询问会作何反应。他对你们很友善，所以你具有优势。</p><p><span class=\"player-entry\">菲利普：</span>好，硬是要得……欸，我扔了个 7，莫慌，我有优势！哦……10，也莫好到那去，十加伍等于十伍。</p></section><p><span class=\"dm-entry\">杰瑞德：</span>伊斯玛克贴了过来，格劳兹，他警惕地扫了眼酒馆里的其他人，就仿佛是怕被人偷听到谈话内容一样。他低声跟你讲到：“魔鬼施特拉德…他想把伊莉娜当作他的新玩物。他曾在夜里拜访了她家整整两次——他本来是没法在不被邀请的情况进入屋子的，但他显然利用他那邪恶的力量做到了！伊莉娜已经被他咬过两次了，尽管她还顽强地活着——但我恐怕伊莉娜活不过第三次的。”</p><p><span class=\"player-entry\">拉赛尔：</span>“好了，伊斯玛克。你请我们喝酒，便是有了缘，你同我们讲了那魔鬼施特拉德，还有你的妹妹……说吧，吾辈可以帮你做什么？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“你真是一位好人！这样吧，我需要你们把伊莉娜送去瓦拉吉镇。”</p><p><span class=\"player-entry\">梅芙：</span>“瓦拉吉搁哪儿？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“就在这儿的西北边，在谷地正中。这段路程对乌鸦们来说不足十英里，但供人穿行的道路蜿蜒于山丘与森林之间，走起来至少要五小时。”</p><p><span class=\"player-entry\">拉赛尔：</span>“为何是那里？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“巴洛维亚村坐落在鸦阁堡的阴影之下——瓦拉吉镇也许在施特拉德的眼线之外。而且我听说了，瓦拉吉镇的防卫很好，有木墙和铁门保护。”</p><p><span class=\"player-entry\">拉赛尔：</span>“听起来足矣挡住一位吸血鬼？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“的确。如果在瓦拉吉有办法在短期内周全伊莉娜的安全，那我们就有时间完成下一步的任务了。”</p><p><span class=\"player-entry\">拉赛尔：</span>“你是说到那时你要来帮吾等？”</p><p><span class=\"dm-entry\">杰瑞德：</span>“没错……我将帮你们直面那位吸血鬼。”</p></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><strong>演出式扮演。</strong>注意整个例子中<span style=\"color:#466f7e\"><strong>拉赛尔</strong></span>和<span style=\"color:#466f7e\"><strong>艾米</strong></span>如何主动的扮演他们的角色的行为。他们使用第一人称视角，作为 PC 发言，如同一位演员在扮演一个角色——玩家甚至可能会配合其角色而进行一些肢体语言的表达。当然，一些不好在现实里演出来的行动仍然需要靠描述进行。</p></aside><aside class=\"callout-border\"><p><strong>描述式扮演。</strong><span style=\"color:#466f7e\"><strong>菲利普</strong></span>通过描述他的 PC 的发言和行动的方法来扮演角色。他在自己脑海里想象其角色会如何行动，并用第三人称视角描述他的角色要做什么，以及如何去做。如果这种扮演方式更适合你，可以参考以下要点：</p><ul><li>描述角色的情绪与态度。</li><li>注意角色的目的，及其他人对此的看法。</li><li>加入适当的修辞，直到你对此满意。</li></ul></aside><aside class=\"callout-border\"><p><strong>属性检定。</strong>菲利普扮演的格劳兹进行了一次感知（洞悉）检定，来判定他能否看出伊斯马克藏在心底的思绪。感知属性反映了角色的察觉力与直觉。DM 将该次检定的 DC 设为 15，格劳兹过了。格劳兹抓住的信息非常隐晦，DM 并没有在之前的描述中把伊斯玛克的恐惧描述出来。了解更多信息，见本章节之前“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZXHEwWtSUcCIogyG.JournalEntryPage.sIPPXW1mYE3O4xdc]{属性值}”及“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kRiblP7qNpfu3hLR.JournalEntryPage.zU9fgQbLaVbJvPRX]{熟练}”，以及术语汇编中的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.ySj4gYZ4ADZoia7R]{搜索}动作以了解更多相关信息。<span class=\"footnote\">1</span></p><p></p></aside><aside class=\"callout-border\"><p><strong>影响 NPC。</strong>格劳兹执行了&amp;Reference[Influence]{影响}动作，以此尝试去影响一位 NPC。影响一位已经打算帮助你的 NPC 并不困难（如此时的伊斯玛克）。伊斯马克的友好态度令菲利普在此次检定中具有优势，而他正靠着这份优势化失败为成功。<span class=\"footnote\">2</span></p><p></p></aside></section></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776326695656,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!8MCZGEL3lF3DSjJb.Cs8ij3IkT7xRhP15"
+    }
+  ],
+  "folder": "p8SY9DO0Sa6MXGuM",
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 2,
+      "order": 400300,
+      "navigation": {
+        "previous": "tKxcVqnq1Ks1CXYZ",
+        "next": "tGy1sl7Fh0VYA6RO"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727590893427,
+    "modifiedTime": 1776325368402,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "8MCZGEL3lF3DSjJb",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!8MCZGEL3lF3DSjJb"
+}

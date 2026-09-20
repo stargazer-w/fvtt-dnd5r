@@ -1,0 +1,108 @@
+{
+  "name": "火巨灵囚瓶：事件",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>火巨灵囚瓶</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "9aVmmKKWD3S2Mhho",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>火巨灵攻击你。战斗进行 5 轮后，火巨灵将消失，同时瓶子将失去魔力。</p>",
+      "name": "",
+      "_key": "!tables.results!qa2xexSNetqW3mvV.9aVmmKKWD3S2Mhho"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        9
+      ],
+      "drawn": false,
+      "_id": "f9c95mXBbk5DkSVR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>在接下来的 1 小时内，火巨灵理解你的语言并遵循你的命令。在这之后它会重新回到瓶中，而一个新的瓶塞将显现并再次将其封印，且新瓶塞在 24 小时内都无法被拔出。下两次打开瓶子时会产生同样的效应。当瓶子第四次被打开时，火巨灵将逃走并消失，同时瓶子将失去魔力。</p>",
+      "name": "",
+      "_key": "!tables.results!qa2xexSNetqW3mvV.f9c95mXBbk5DkSVR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "CBY5fhJtgERSqOfF",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>火巨灵理解你的语言并能为你施展一次<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>。它将在 1 小时后或施放<em>祈愿术</em>完时消失，同时瓶子将失去魔力。</p>",
+      "name": "",
+      "_key": "!tables.results!qa2xexSNetqW3mvV.CBY5fhJtgERSqOfF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "folder": "ndQHh8WqPjMJWNmw",
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757850804556,
+    "modifiedTime": 1757850804556,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_id": "qa2xexSNetqW3mvV",
+  "sort": 0,
+  "_key": "!tables!qa2xexSNetqW3mvV"
+}

@@ -1,0 +1,140 @@
+{
+  "folder": "kpo7RUG35GCNUzSf",
+  "name": "抄写员",
+  "type": "background",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/backgrounds/scribe.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性值：</strong>敏捷、智力、感知</p><p><strong>专长：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0]{熟习}</p><p><strong>技能熟练：</strong>调查和察觉</p><p><strong>工具熟练：</strong>书法工具</p><p><strong>装备：</strong> <em>选择 A 或 B：</em>(A) @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OszG1xFzZkL5LQhx]{书法工具}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT]{高档服装}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.riInqSptvw3RN9Jm]{油灯}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]{灯油}（3 瓶）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo]{羊皮纸}（12 张）、23 GP；或者 (B) 50 GP。</p><p>你成长的时期都在缮写室度过，那是一座致力于保存知识的修道院，或是某个政府机关。你在那里学会了如何书写思维敏锐有逻辑的文字和怎样制作得体的书面文本，有时你会抄录政府文件或是誊抄文献巨著。你可能有一些诗歌写作的技艺、叙事的技巧或是学术上的研究。最重要的是，你对琐碎处的关注很细致。这能帮助你避免在誊录和撰写文稿时出现错误。</p>",
+      "chat": ""
+    },
+    "identifier": "scribe",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "_id": "fnssmNezHZ4MYWS8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "con",
+            "cha"
+          ],
+          "points": 3,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值加成",
+        "hint": "你分配 3 点属性值到敏捷、智力或感知上。你可以将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "_id": "bsDVW5Qg09Gp0WPB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:art:calligrapher",
+            "skills:prc",
+            "skills:inv"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "熟练项",
+        "hint": "你熟练于调查和察觉，以及书法工具。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "E2EenPg09l6HmA1s",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "语言",
+        "hint": "你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_guide.webp"
+      },
+      {
+        "_id": "pGAiobp1mq0i0oFm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.6IzqG8UQoE35egm0"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "专长",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729864473146,
+    "modifiedTime": 1777612770009,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "tx6Uk8FPHxR4dMpO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tx6Uk8FPHxR4dMpO"
+}
