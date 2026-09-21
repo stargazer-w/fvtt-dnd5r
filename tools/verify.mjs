@@ -12,8 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { ClassicLevel } from "classic-level";
-import { DIST_DIR, DIST_PACKS_DIR, getPackDeclarations, requireOriginModuleDir, stagePackForReading }
-  from "./common.mjs";
+import { DIST_DIR, readPacksTree, requireOriginModuleDir, stagePackForReading } from "./common.mjs";
 
 /** 不作为模组内容比对的条目（仓库自身的 README 与原始模组 README 已各自演进） */
 const IGNORED_TOP_LEVEL = ["README.md"];
@@ -50,6 +49,43 @@ function collectFiles(root, excludeTop = []) {
 }
 
 /**
+ * 比较两个文件是否等价：`.json` 按解析后的内容比较（忽略格式化差异），其余按内容哈希。
+ * @param {string} a 文件路径
+ * @param {string} b 文件路径
+ * @returns {boolean}
+ */
+function fileMatches(a, b) {
+  if ( path.extname(a).toLowerCase() === ".json" ) {
+    try {
+      const left = JSON.parse(fs.readFileSync(a, "utf8"));
+      const right = JSON.parse(fs.readFileSync(b, "utf8"));
+      return path.basename(a) === "module.json" ? manifestMatches(left, right) : deepEqual(left, right);
+    } catch {
+      return false;
+    }
+  }
+  return hashFile(a) === hashFile(b);
+}
+
+/**
+ * 比较两份 module.json。
+ *
+ * 两份清单的 `packs` 与 `packFolders` 都来自 compendium 的目录结构：侧边栏的分组与顺序由
+ * `packFolders` 决定（其内部顺序已按控制文件里的 `@order` 还原，按序比较），而顶层 `packs`
+ * 只是一个平铺列表，顺序不影响显示，因此对它按 name 排序后再比较。
+ * @param {any} a 原始清单
+ * @param {any} b 生成的清单
+ * @returns {boolean}
+ */
+function manifestMatches(a, b) {
+  const normalize = manifest => ({
+    ...manifest,
+    packs: [...(manifest.packs ?? [])].sort((x, y) => ((x.name < y.name) ? -1 : ((x.name > y.name) ? 1 : 0)))
+  });
+  return deepEqual(normalize(a), normalize(b));
+}
+
+/**
  * 计算文件内容的 SHA-256。
  * @param {string} file 文件路径
  * @returns {string}
@@ -65,7 +101,7 @@ const distFiles = collectFiles(DIST_DIR, excluded);
 const missingFiles = [...originFiles.keys()].filter(rel => !distFiles.has(rel));
 const extraFiles = [...distFiles.keys()].filter(rel => !originFiles.has(rel));
 const changedFiles = [...originFiles.keys()]
-  .filter(rel => distFiles.has(rel) && (hashFile(originFiles.get(rel)) !== hashFile(distFiles.get(rel))));
+  .filter(rel => distFiles.has(rel) && !fileMatches(originFiles.get(rel), distFiles.get(rel)));
 
 if ( missingFiles.length || extraFiles.length || changedFiles.length ) {
   failed++;
@@ -133,9 +169,11 @@ function isBenignNormalization(a, b) {
   return Object.keys(a).every(k => Object.hasOwn(b, k) && deepEqual(a[k], b[k]));
 }
 
-for ( const pack of getPackDeclarations() ) {
+const { packs } = readPacksTree();
+
+for ( const pack of packs ) {
   const origin = path.join(ORIGIN_PACKS_DIR, pack.name);
-  const rebuilt = path.join(DIST_PACKS_DIR, pack.name);
+  const rebuilt = path.join(DIST_DIR, pack.path ?? path.join("packs", pack.name));
   if ( !fs.existsSync(origin) || !fs.existsSync(rebuilt) ) {
     console.warn(`✗ ${pack.name}：缺少${!fs.existsSync(origin) ? "原始包" : "构建结果"}`);
     failed++;

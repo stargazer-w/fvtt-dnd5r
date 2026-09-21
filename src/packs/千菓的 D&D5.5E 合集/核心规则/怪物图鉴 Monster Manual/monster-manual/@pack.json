@@ -1,0 +1,13 @@
+{
+  "@order": 0,
+  "name": "monster-manual",
+  "label": "怪物图鉴 (2024)",
+  "path": "packs/monster-manual",
+  "type": "JournalEntry",
+  "banner": "modules/dnd5e-collection-2024/assets/banners/mm-2024.webp",
+  "module": "dnd5e-collection-2024",
+  "system": "dnd5e",
+  "flags": {
+    "display": "table-of-contents"
+  }
+}

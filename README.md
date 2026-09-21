@@ -9,6 +9,10 @@
 模组的源文件都在 `src/`，目录结构与最终模组一致——其中 `packs/` 是可阅读、可编辑的 JSON，
 其余（素材、脚本、样式、模板、`module.json`）就是原始文件本身。
 
+`src/packs/` 的目录层级就是 Foundry 里的 compendium 分组（对应 `module.json` 的 `packFolders`）：
+文件夹目录放控制文件 `@folder.json`、包目录放 `@pack.json`，目录名即分组名 / 包名；
+`module.json` 里这两个字段用一句说明文字占位，构建时自动填充。详见 [tools/README.md](tools/README.md)。
+
 ```bash
 npm install       # 首次使用
 npm run build     # src → dist（compendium 编译为 LevelDB，其余原样同步）

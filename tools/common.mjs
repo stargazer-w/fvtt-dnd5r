@@ -41,18 +41,110 @@ export const CACHE_DIR = path.join(ROOT, "node_modules", ".cache", "dnd5e-collec
 
 /**
  * 读取模组清单 `src/module.json`。
+ * 注意：其中的 `packs` 与 `packFolders` 由 `src/packs` 的目录结构生成，不写在清单里。
  * @returns {Record<string, any>}
  */
 export function getManifest() {
   return JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
 }
 
+/** 包控制文件：标识一个目录是 compendium 包，内容为 module.json 里对应的 pack 配置 */
+export const PACK_CONFIG_FILE = "@pack.json";
+
+/** 文件夹控制文件：标识一个目录是 compendium 文件夹，内容为它的非结构字段 */
+export const FOLDER_CONFIG_FILE = "@folder.json";
+
 /**
- * 读取 `module.json` 中声明过的所有 compendium 包。
- * @returns {Array<{name: string, label?: string, path: string, type: string}>}
+ * 读取 `src/packs` 的目录树。
+ *
+ * 目录结构对应 module.json 的 `packFolders`：
+ * - 含 `@pack.json` 的目录是一个包，其子目录不再参与结构（里面是解包出的文档）
+ * - 含 `@folder.json` 的目录是一个文件夹，目录名即文件夹名，子目录是它的 packs / folders
+ * - 每个目录自己声明在同级里的位置：控制文件里的 `@order`（数字，小的在前；没写的排到最后）
+ *   Foundry 的 `sorting: "m"` 靠数组顺序排序，而文件系统只能按名称返回条目，因此需要它
+ *
+ * @returns {{packFolders: object[], packs: object[], packDirs: Map<string, string>}}
+ *   `packFolders` 可直接写进 module.json；`packs` 为各包配置；`packDirs` 为「包名 → 目录」。
  */
-export function getPackDeclarations() {
-  return getManifest().packs ?? [];
+export function readPacksTree() {
+  const packs = [];
+  const packDirs = new Map();
+
+  /**
+   * 读取存在的 JSON 文件。
+   * @param {string} file 文件路径
+   * @returns {any|null}  文件不存在时为 null
+   */
+  const readJson = file => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : null);
+
+  /**
+   * 读取目录自身的顺序标识（写在它的 @folder.json / @pack.json 里）。
+   * @param {string} dir 目录
+   * @returns {number}   未声明时返回最大值，即排到最后
+   */
+  const readOrder = dir => {
+    for ( const file of [PACK_CONFIG_FILE, FOLDER_CONFIG_FILE] ) {
+      const config = readJson(path.join(dir, file));
+      if ( config ) return (typeof config["@order"] === "number") ? config["@order"] : Number.MAX_SAFE_INTEGER;
+    }
+    return Number.MAX_SAFE_INTEGER;
+  };
+
+  /**
+   * 递归读取一个目录。
+   * @param {string} dir 目录
+   * @returns {{type: "pack", name: string}|{type: "folder", folder: object}}
+   */
+  const walk = dir => {
+    const packConfig = readJson(path.join(dir, PACK_CONFIG_FILE));
+    if ( packConfig ) {
+      // "@order" 只用于排序，不写进 module.json
+      const { "@order": order, ...config } = packConfig;
+      packs.push(config);
+      packDirs.set(config.name, dir);
+      return { type: "pack", name: config.name };
+    }
+
+    const raw = readJson(path.join(dir, FOLDER_CONFIG_FILE));
+    if ( !raw ) {
+      throw new Error(`目录既不是包也不是文件夹，缺少 ${PACK_CONFIG_FILE} / ${FOLDER_CONFIG_FILE}：${dir}`);
+    }
+    // name 由目录名决定，"@order" 只用于排序，两者都不写进 module.json
+    const { "@order": order, name: _name, ...rest } = raw;
+    const folder = { name: path.basename(dir), ...rest };
+
+    const children = fs.readdirSync(dir, { withFileTypes: true })
+      .filter(entry => entry.isDirectory())
+      .sort((a, b) => {
+        const orderA = readOrder(path.join(dir, a.name));
+        const orderB = readOrder(path.join(dir, b.name));
+        if ( orderA !== orderB ) return orderA - orderB;
+        return (a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0);
+      });
+
+    const packNames = [];
+    const folders = [];
+    for ( const child of children ) {
+      const node = walk(path.join(dir, child.name));
+      if ( node.type === "pack" ) packNames.push(node.name);
+      else folders.push(node.folder);
+    }
+    if ( packNames.length ) folder.packs = packNames;
+    if ( folders.length ) folder.folders = folders;
+    return { type: "folder", folder };
+  };
+
+  const topLevel = fs.readdirSync(SRC_PACKS_DIR, { withFileTypes: true })
+    .filter(entry => entry.isDirectory())
+    .sort((a, b) => ((a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0)));
+
+  const packFolders = topLevel.map(entry => {
+    const node = walk(path.join(SRC_PACKS_DIR, entry.name));
+    if ( node.type !== "folder" ) throw new Error(`src/packs 的顶层只能是文件夹目录：${entry.name}`);
+    return node.folder;
+  });
+
+  return { packFolders, packs, packDirs };
 }
 
 /** 本地配置文件（放在仓库根目录，不进版本库） */

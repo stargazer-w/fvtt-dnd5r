@@ -1,40 +1,59 @@
 /**
- * 把原始模组 `packs` 目录（LevelDB 二进制包）解包为
- * `src/packs/<包名>/<文件夹路径>/<条目名>_<文档ID>.json`。
+ * 把原始模组的 compendium 包（LevelDB 二进制）解包为 JSON，写回 `src/packs` 里对应的包目录。
  *
  * 原始模组目录需自行提供：
  *   npm run unpack -- "<原始模组目录>"
  *   或在 local.config.json 里配置 originModuleDir
+ *
+ * 目标目录按 `src/packs` 的目录结构查找（包目录由其中的 @pack.json 标识）；
+ * 目录里的 @pack.json 会被保留，只刷新包内的文档。
  */
 import fs from "node:fs";
 import path from "node:path";
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
-import { SRC_PACKS_DIR, getPackDeclarations, readFolderMaps, requireOriginModuleDir, safeName,
-  stagePackForReading } from "./common.mjs";
+import { PACK_CONFIG_FILE, readFolderMaps, readPacksTree, requireOriginModuleDir, safeName, stagePackForReading }
+  from "./common.mjs";
 
-// 源目录就是原始模组目录下的 packs/
-const sourceRoot = path.join(requireOriginModuleDir("npm run unpack"), "packs");
+const moduleDir = requireOriginModuleDir("npm run unpack");
 
-if ( !fs.existsSync(sourceRoot) ) {
-  console.error(`原始模组目录下没有 packs 子目录：${sourceRoot}`);
+const manifestPath = path.join(moduleDir, "module.json");
+if ( !fs.existsSync(manifestPath) ) {
+  console.error(`原始模组目录下没有 module.json：${moduleDir}`);
+  process.exit(1);
+}
+const originPacks = JSON.parse(fs.readFileSync(manifestPath, "utf8")).packs ?? [];
+if ( !originPacks.length ) {
+  console.error(`原始模组的 module.json 里没有声明任何 compendium 包：${manifestPath}`);
   process.exit(1);
 }
 
+/** 包名 → src/packs 里的对应目录 */
+const { packDirs } = readPacksTree();
+
 const summary = [];
 
-for ( const pack of getPackDeclarations() ) {
-  const source = path.join(sourceRoot, pack.name);
-  const dest = path.join(SRC_PACKS_DIR, pack.name);
+for ( const pack of originPacks ) {
+  const source = path.join(moduleDir, pack.path ?? path.join("packs", pack.name));
+  const dest = packDirs.get(pack.name);
+
   if ( !fs.existsSync(source) ) {
-    console.warn(`跳过 ${pack.name}：原始包不存在`);
+    console.warn(`跳过 ${pack.name}：原始包不存在（${source}）`);
+    continue;
+  }
+  if ( !dest ) {
+    console.warn(`跳过 ${pack.name}：src/packs 里没有对应的包目录（缺少 ${PACK_CONFIG_FILE}）`);
     continue;
   }
 
   const staging = stagePackForReading(source);
   try {
     const { leafNames, paths } = await readFolderMaps(staging);
-    let count = 0;
 
+    // extractPack 的 clean 会清空目标目录，先把包配置备份出来
+    const configPath = path.join(dest, PACK_CONFIG_FILE);
+    const packConfig = fs.existsSync(configPath) ? fs.readFileSync(configPath, "utf8").trim() : null;
+
+    let count = 0;
     await extractPack(staging, dest, {
       clean: true,
       folders: true,
@@ -55,11 +74,15 @@ for ( const pack of getPackDeclarations() ) {
         count++;
       }
     });
-    summary.push({ pack, dest, count, folders: paths.size });
-    console.log(`${pack.name.padEnd(22)} ${String(count).padStart(5)} 个文档 / ${paths.size} 个文件夹`);
+
+    if ( packConfig ) fs.writeFileSync(configPath, `${packConfig}\n`);
+
+    const rel = path.relative(process.cwd(), dest).replaceAll("\\", "/");
+    summary.push({ pack, dest, count });
+    console.log(`${pack.name.padEnd(22)} ${String(count).padStart(5)} 个文档 / ${paths.size} 个文件夹  -> ${rel}`);
   } finally {
     fs.rmSync(staging, { recursive: true, force: true });
   }
 }
 
-console.log(`\n解包完成，共 ${summary.length} 个包，输出到 src/packs/`);
+console.log(`\n解包完成：${summary.length} 个包`);

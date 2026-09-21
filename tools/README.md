@@ -6,14 +6,62 @@
 ```
 reference/origin/          ← 本机保留的原始模组快照（不进版本库；unpack / verify 的源目录可以是它）
 src/                       ← 唯一数据源，目录结构与最终模组完全一致
-├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png module.json
-└── packs/<包名>/<文件夹>/<名称>_<文档ID>.json      ← compendium 用 JSON 维护
+├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png
+├── module.json            ← packs / packFolders 的占位值写成说明文字，构建时由目录结构填充
+└── packs/                 ← 目录结构对应 module.json 的 packFolders
+    └── <文件夹>/<包名>/
+        ├── @folder.json   ← 控制文件：标识这是文件夹，存放它的非结构字段
+        ├── @pack.json     ← 控制文件：标识这是包，存放 module.json 里对应的 pack 配置
+        └── <文档>.json    ← compendium 数据（<名称>_<文档ID>.json）
 dist/                      ← 构建产物：完整可安装模组（不进版本库）
-├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png module.json   ← 原样同步
-└── packs/<包名>/                                   ← 由 JSON 编译回的 LevelDB
+├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png   ← 原样同步
+├── module.json            ← 由 src/module.json + 目录结构生成
+└── packs/<包名>/          ← 由 JSON 编译回的 LevelDB（路径取自 @pack.json）
 ```
 
 只有 `packs` 在两边类型不同（`src` 是 JSON，`dist` 是 LevelDB）；其余是文本或媒体文件，构建时原样复制。
+
+## packs 目录结构
+
+`src/packs/` 的目录层级就是 Foundry 里的 compendium 分组：
+
+- **文件夹**：目录里有 `@folder.json`，**目录名即文件夹名**，子目录是它的子文件夹或包
+- **包**：目录里有 `@pack.json`，**目录名即包名**，目录里其余 JSON 是该包的文档
+  （有 `@pack.json` 的目录不再向下解析结构，所以包内的 compendium 子文件夹不会与分组混淆）
+
+`@folder.json` 与 `@pack.json` 是专用的**控制文件**（`@` 前缀标识“这是给打包工具读的，不是数据”），
+两者都只放非结构字段——`name` 由目录名、`packs`/`folders` 由子目录表达：
+
+```jsonc
+// src/packs/千菓的 D&D5.5E 合集/核心规则/@folder.json
+{ "@order": 1, "sorting": "m", "color": "#5d0814" }
+
+// src/packs/千菓的 D&D5.5E 合集/核心规则/玩家手册 Player's Handbook/phb-content/@pack.json
+{ "@order": 1, "name": "phb-content", "label": "PHB 2024 资源", "path": "packs/phb-content", "type": "Item", … }
+```
+
+**`@order` 是这个目录在同级里的位置**（数字，小的在前；没写的排到最后、按名称），由子目录自己声明。
+它不能省：这些分组的 `sorting` 都是 `"m"`（手动排序），Foundry 按数组顺序显示，
+而文件系统只能按名称返回条目——纯按名排序会得到「城主指南 / 怪物图鉴 / 玩家手册」，与原顺序不符。
+新增目录时不写 `@order` 就自动排到最后，不必回头改父级。
+
+`@pack.json` 里除 `@order` 外的字段就是 `module.json` 中对应的那条 pack 配置
+（`name` / `label` / `path` / `type` / `banner` …）；`@order` 与 `@folder.json` 里可能出现的
+`name` 都只用于解析结构，生成 `module.json` 时会被剔除。
+
+> **别把两种文件名搞混**：`_Folder.json`（下划线 + 大写 F）是 Foundry 的 compendium 文件夹文档，
+> 属于**数据**，由 `unpack` 生成、位于包目录内部；`@folder.json` 是打包工具的**控制文件**，
+> 位于结构目录里。两者不会出现在同一个目录。
+
+`src/module.json` 里的 `packs` / `packFolders` 直接写成一句说明文字作为**占位值**，
+构建时会被目录结构生成的内容覆盖（键的位置保持不变）：
+
+```jsonc
+"packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删包请改目录结构（各包目录里的 @pack.json）。",
+"packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 及其 @order）。"
+```
+
+要新增一个包，就在合适的位置建目录、放 `@pack.json`、把文档放进去；把包换到别的文件夹，直接移动目录即可。
 
 ## 命令
 
@@ -71,7 +119,7 @@ npm run verify  -- "<原始模组目录>"             # 用它的 packs/ 与其�
 | 对象 | 规则 | 示例 |
 | --- | --- | --- |
 | 文档 | `<名称>_<文档ID>.json` | `长剑_xQ3EhFvRURUZzGnv.json` |
-| 文件夹 | 与实际文件夹同名，文件夹文档存为 `_Folder.json` | `Ｄ. 装备/武器/简易近战/_Folder.json` |
+| compendium 文件夹（包内的分类） | 与文件夹同名，每个文件夹另存一个 `_Folder.json` | `Ｄ. 装备/武器/简易近战/_Folder.json` |
 
 - 名称保留中文，仅替换 Windows 非法字符（`\ / : * ? " < > |`）并截断到 80 字符。
 - 追加文档 ID 后缀是为了保证同级重名文档（例如大量同名物品）不会互相覆盖。
@@ -104,9 +152,9 @@ npm run verify  -- "<原始模组目录>"             # 用它的 packs/ 与其�
 
 | 文件 | 作用 |
 | --- | --- |
-| `common.mjs` | 公共工具：路径常量与本地配置、读取 `module.json`、规范化 `CURRENT`、安全命名、目录同步与摘要 |
-| `unpack.mjs` | 解包：原始模组的 `packs/` → `src/packs` |
-| `build.mjs` | 构建：`src` → `dist` |
-| `verify.mjs` | 校验：`dist` 与原始模组逐文件（SHA-256）/ 逐条目比对 |
+| `common.mjs` | 公共工具：路径常量与本地配置、读取 `module.json` 与 `src/packs` 目录树、规范化 `CURRENT`、目录同步与摘要 |
+| `unpack.mjs` | 解包：原始模组的包 → `src/packs` 里对应的包目录 |
+| `build.mjs` | 构建：`src` → `dist`（并生成 `dist/module.json`） |
+| `verify.mjs` | 校验：`dist` 与原始模组逐文件 / 逐条目比对（JSON 按内容比较） |
 | `dev.mjs` | 开发：构建 + 把 `dist` 同步进 `modulesDir` 指定的 modules 目录 |
 | `foundryvtt-cli.d.ts` | 为无类型声明的 `@foundryvtt/foundryvtt-cli` 写的最小声明 |

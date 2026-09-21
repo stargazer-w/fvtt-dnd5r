@@ -16,7 +16,7 @@
             "path": "lang/cn.json"
         }
     ],
-    "esmodules": [ 
+    "esmodules": [
         "scripts/main.mjs"
     ],
     "authors": [
@@ -39,221 +39,17 @@
     ],
     "relationships": {
         "systems": [
-          {
-            "id": "dnd5e",
-            "type": "system",
-            "compatibility": {
-              "minimum": "4.3.5"
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "4.3.5"
+                }
             }
-          }
         ]
-      },
-    "packs": [
-        {
-            "name": "players-handbook",
-            "label": "玩家手册 (2024)",
-            "path": "packs/players-handbook",
-            "type": "JournalEntry",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/phb-2024.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e",
-            "flags": {
-                "display": "table-of-contents"
-            }
-        },
-        {
-            "name": "dungeon-masters-guide",
-            "label": "城主指南 (2024)",
-            "path": "packs/dungeon-masters-guide",
-            "type": "JournalEntry",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/dmg-2024.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e",
-            "flags": {
-                "display": "table-of-contents"
-            }
-        },
-        {
-            "name": "monster-manual",
-            "label": "怪物图鉴 (2024)",
-            "path": "packs/monster-manual",
-            "type": "JournalEntry",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/mm-2024.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e",
-            "flags": {
-                "display": "table-of-contents"
-            }
-        },
-        {
-            "name": "phb-content",
-            "label": "PHB 2024 资源",
-            "type": "Item",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/blue.webp",
-            "path": "packs/phb-content",
-            "sorting": "m",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "dmg-content",
-            "label": "DMG 2024 资源",
-            "type": "Item",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/blue.webp",
-            "path": "packs/dmg-content",
-            "sorting": "m",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "phb-creatures",
-            "label": "PHB 2024 造物",
-            "path": "packs/phb-creatures",
-            "type": "Actor",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/green.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-                {
-            "name": "dmg-creatures",
-            "label": "DMG 2024 造物",
-            "path": "packs/dmg-creatures",
-            "type": "Actor",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/green.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "dmg-scenes",
-            "label": "DMG 2024 场景",
-            "path": "packs/dmg-scenes",
-            "type": "Scene",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/purple.webp",
-            "system": "dnd5e"
-        },
-        {
-            "name": "mm-creatures",
-            "label": "MM 2024 造物",
-            "path": "packs/mm-creatures",
-            "type": "Actor",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/green.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "tables",
-            "label": "Dc⁷ 随机表",
-            "path": "packs/tables",
-            "type": "RollTable",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/pink.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "derived-content",
-            "label": "Dc⁷ 派生物品",
-            "path": "packs/derived-content",
-            "type": "Item",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/blue.webp",
-            "ownership": {
-                "PLAYER": "NONE",
-                "ASSISTANT": "OWNER"
-            },
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "derived-creatures",
-            "label": "Dc⁷ 派生造物",
-            "path": "packs/derived-creatures",
-            "type": "Actor",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/green.webp",
-            "ownership": {
-                "PLAYER": "NONE",
-                "ASSISTANT": "OWNER"
-            },
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "macros",
-            "label": "Dc⁷ 宏",
-            "path": "packs/macros",
-            "type": "Macro",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/prussian-blue.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        },
-        {
-            "name": "index",
-            "label": "門戶",
-            "path": "packs/index",
-            "type": "JournalEntry",
-            "banner": "modules/dnd5e-collection-2024/assets/banners/red.webp",
-            "module": "dnd5e-collection-2024",
-            "system": "dnd5e"
-        }
-    ],
-    "packFolders": [
-    {
-      "name": "千菓的 D&D5.5E 合集",
-      "sorting": "m",
-      "color": "#6f0016",
-      "packs": [
-        "index"
-      ],
-      "folders": [
-        {
-          "name": "核心规则",
-          "sorting": "m",
-          "color": "#5d0814",
-          "folders": [
-            {
-              "name": "玩家手册 Player's Handbook",
-              "sorting": "m",
-              "color": "#eeab4d",
-              "packs": [
-                "players-handbook",
-                "phb-content",
-                "phb-creatures"
-              ]
-            },
-            {
-              "name": "城主指南 Dungeon Master's Guide",
-              "sorting": "m",
-              "color": "#c64967",
-              "packs": [
-                "dungeon-masters-guide",
-                "dmg-content",
-                "dmg-creatures",
-                "dmg-scenes"
-              ]
-            },
-            {
-              "name": "怪物图鉴 Monster Manual",
-              "sorting": "m",
-              "color": "#1a3a66",
-              "packs": [
-                "monster-manual",
-                "mm-creatures"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "派生内容",
-          "sorting": "m",
-          "color": "#1b0705",
-          "packs": [
-            "tables",
-            "derived-content",
-            "derived-creatures",
-            "macros"
-          ]
-        }
-      ]
-    }
-  ],
+    },
+    "packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删资源包请改目录结构（@pack.json 标识该目录为一个资源包，并定义其属性）。",
+    "packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 标识该目录为一个资源目录，并定义其属性， @order 字段用来控制它所在的顺序，仅对父目录sorting为m时生效）。",
     "url": "https://github.com/chiga777/dnd5e-collection-2024",
     "manifest": "",
     "download": "",
@@ -276,5 +72,4 @@
             ]
         }
     }
-
 }
