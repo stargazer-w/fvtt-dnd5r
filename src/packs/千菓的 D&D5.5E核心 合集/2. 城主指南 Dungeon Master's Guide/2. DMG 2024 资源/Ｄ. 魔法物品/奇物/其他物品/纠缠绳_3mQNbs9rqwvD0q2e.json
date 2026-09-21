@@ -1,0 +1,320 @@
+{
+  "name": "纠缠绳",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_rope-of-entanglement.webp",
+  "system": {
+    "activities": {
+      "2uoMiJrLy156kHUu": {
+        "type": "save",
+        "_id": "2uoMiJrLy156kHUu",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "sxfYYLoOsXKZ1NIv",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "20"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": "效用"
+      },
+      "utaMj6RhKwElylvo": {
+        "type": "utility",
+        "name": "释放目标",
+        "_id": "utaMj6RhKwElylvo",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      },
+      "EagC2vDlaXl0jf1E": {
+        "type": "utility",
+        "_id": "EagC2vDlaXl0jf1E",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "回收"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这根绳索长 30 尺。当你持握这根绳索的一端时，你可以使用一个&amp;Reference[Magic]{魔法}动作命令其另一端向前疾冲并缠住位于你 20 尺内一个你可见的生物。目标必须成功通过一次[[/save format=long]]，豁免失败则其陷入&amp;Reference[restrained]{束缚}状态。你可以通过松开绳索的一端（使绳索盘绕着掉落在目标的空间）或使用一个&amp;Reference[BonusAction]{附赠动作}重复命令（使绳索回到你手中并盘绕起来）来释放目标。</p><p>一个被绳索束缚的目标可以使用一个动作进行一次[[/skill ath 15]]或[[/skill acr 15]]{敏捷 (特技) 检定}。若检定成功，目标不再被绳索束缚。如果目标逃脱时你仍然持握着绳索，则你可以使用一个&amp;Reference[Reaction]{反应}命令绳索回到你手中并盘绕起来；否则，绳索会盘绕着掉落在目标的空间中。</p><p>这根绳索具有 AC 20、HP 20 以及毒素和心灵伤害免疫。只要绳索还剩至少 1 生命值，它就能每 5 分钟恢复 1 生命值。如果绳索的生命值降至 0，则它被摧毁。</p><p class=\"item-original\">Rope of Entanglement</p>",
+      "chat": ""
+    },
+    "identifier": "rope-of-entanglement",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "卷紧",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_rope-of-entanglement.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.3mQNbs9rqwvD0q2e",
+      "transfer": false,
+      "_id": "sxfYYLoOsXKZ1NIv",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[restrained]{束缚}状态。</p><p>在此期间，你可以用一个动作进行一次[[/skill ath 15]]或[[/skill acr 15]]{敏捷 (特技) 检定}，检定成功后不再被绳索束缚。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761895983976,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!3mQNbs9rqwvD0q2e.sxfYYLoOsXKZ1NIv"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895707285,
+    "modifiedTime": 1761895873351,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "3mQNbs9rqwvD0q2e",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!3mQNbs9rqwvD0q2e"
+}

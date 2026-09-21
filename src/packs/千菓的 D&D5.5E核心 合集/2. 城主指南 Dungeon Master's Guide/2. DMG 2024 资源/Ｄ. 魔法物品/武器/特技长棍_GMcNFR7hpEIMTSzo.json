@@ -1,0 +1,245 @@
+{
+  "name": "特技长棍",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_quarterstaff-of-the-acrobat.webp",
+  "system": {
+    "activities": {
+      "3uwRyx3rWSvmhbzF": {
+        "_id": "3uwRyx3rWSvmhbzF",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      },
+      "ykd1bmd0zt0GKPSl": {
+        "type": "utility",
+        "_id": "ykd1bmd0zt0GKPSl",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "偏斜攻击"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "偏斜攻击"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8aO87tJ7hlxjKt49]{长棍}），极珍稀（需同调）</em></p><p>你以此魔法武器进行的攻击检定和伤害掷骰具有 +2 加值。</p><p>持握此武器期间，你可以在骰先攻后令该长棍散发出 10 尺&amp;Reference[Dim Light]{微光光照}。你也可以用一个&amp;Reference[Bonus Action]{附赠动作}使其散发出同样的光照，或使该光照熄灭。</p><p>持握此武器期间，你可以用一个&amp;Reference[Bonus Action]{附赠动作}转化其形态，将其变为一根 6 寸短杆（为便于储存）或一根 10 尺长杆，又或者将其恢复至一根长棍。此武器至多只能伸长至其周围空间所允许的长度。</p><p>在相应形态下，此武器具有以下额外词条：</p><p><em><strong>援助特技（仅限长棍和 10 尺长杆形态）。</strong></em>持握此武器期间，你在敏捷（特技）检定上具有优势。</p><p><em><strong>偏斜攻击（仅限长棍形态）。</strong></em>若你在持握此武器期间被一次攻击命中，你可以用一个&amp;Reference[Reaction]{反应}让武器盘绕于己身，使你针对触发此反应的攻击中护甲等级 +5，这可能导致该攻击变为未命中。该词条在你完成一次短休或长休前无法再次使用。</p><p><em><strong>远程武器（仅限长棍形态）。</strong></em>此武器具有<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>词条，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>30/120 尺。你以此武器进行一次远程攻击之后，它会立即飞回你的手中。</p><p class=\"item-original\">Quarterstaff of the Acrobat</p>",
+      "chat": ""
+    },
+    "identifier": "quarterstaff-of-the-acrobat",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "simpleM",
+      "baseItem": "quarterstaff"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": 2,
+    "properties": [
+      "ver",
+      "ret",
+      "mgc",
+      "thr"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 30,
+      "long": 120,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "topple"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758199214958,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "GMcNFR7hpEIMTSzo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!GMcNFR7hpEIMTSzo"
+}

@@ -1,0 +1,201 @@
+{
+  "name": "启蒙术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_awaken.webp",
+  "system": {
+    "activities": {
+      "djDZOwtD130pBdSP": {
+        "type": "utility",
+        "_id": "djDZOwtD130pBdSP",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "NxG1gvUMXlNUyn4F"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你利用施法的时间引导一块昂贵宝石中的魔法回路，然后触碰目标。该目标必须是一个野兽或植物，且必须是一个智力小于等于 3 的生物或是一个并非生物的自然植物。</p><p>目标的智力会变为 10，且学会说一门你所掌握的语言。如果目标是一株自然植物，则它变为一个植物生物，并且获得使用枝、根、藤、蔓或类似部位移动的能力，和类似于人类的感官。DM 为启蒙植物决定属性数据，例子可参考<em>《怪物图鉴》</em>中的启蒙灌木与启蒙树木。</p><p>被启蒙的目标在 30 日内处于&amp;Reference[charmed]{魅惑}状态，或是直到你或你的盟友做出任何伤害它的举动。魅惑终止后，启蒙生物自行决定对你的态度。</p><p class=\"item-original\">Awaken</p>",
+      "chat": ""
+    },
+    "identifier": "awaken",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "value": 8,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 5,
+    "materials": {
+      "value": "一块价值至少 1000 GP 的玛瑙，作为该法术的耗材",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "启蒙",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_awaken.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.v1nSo3BafNcGJ2rk",
+      "transfer": false,
+      "_id": "NxG1gvUMXlNUyn4F",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.int.value",
+          "mode": 5,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的智力变为 10，且学会说一门施法者所掌握的语言。</p><p>你陷入&amp;Reference[charmed]{魅惑}状态，当施法者或其盟友对你造成伤害时魅惑解除。此后，你自行决定对施法者的态度。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733292723135,
+        "modifiedTime": 1734785118263,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!v1nSo3BafNcGJ2rk.NxG1gvUMXlNUyn4F"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195023219,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "v1nSo3BafNcGJ2rk",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!v1nSo3BafNcGJ2rk"
+}

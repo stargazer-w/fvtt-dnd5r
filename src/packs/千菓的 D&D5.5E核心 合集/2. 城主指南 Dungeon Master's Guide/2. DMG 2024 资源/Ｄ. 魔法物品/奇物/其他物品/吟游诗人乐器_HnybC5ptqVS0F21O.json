@@ -1,0 +1,87 @@
+{
+  "name": "吟游诗人乐器",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_instrument-of-scribing.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，多种稀有度（需吟游诗人同调）</em></p><p>吟游诗人乐器在各方面都优于普通乐器。吟游诗人乐器共有七种，每种都以一所吟游诗人学院的名字命名。吟游诗人乐器列表中列出了所有乐器的通用法术，以及每种乐器的独有法术和其稀有度。在未与乐器完成同调的情况下，尝试演奏乐器的生物必须进行一次[[/save wis 15 format=long]]，豁免失败则会受到[[/damage 2d4 psychic]]伤害。</p><p>你可以通过演奏乐器来施展它的一个法术。一旦该乐器被用来施展了某一个法术，则其直至次日黎明前都无法再被用来施展该法术。这些法术使用你的施法属性和法术豁免 DC。</p><table><caption>吟游诗人乐器 Instruments of the Bards</caption><thead><tr><th>乐器</th><th>稀有度</th><th>法术</th></tr></thead><tbody><tr><td>所有</td><td>—</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jfbY2J1NLBko50a7]{飞行术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fAZe8MXbQdnFBzbK]{隐形术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cin769FdhYaaQF1V]{浮空术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2tRnB4Wd3ZniDg7R]{防护善恶}</em>，外加以下为每种乐器列出的法术</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.V4wR0VdIK1u5Ubfy]{安斯翠瑟竖琴}</td><td>极珍稀</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>（5 环版本）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5YU6YLSuUuu1Kd7E]{冰风暴}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XqyZjXZsH4ww4h14]{棘墙术}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.nCUt0P7Buj7XLKOQ]{卡奈斯曼陀林}</td><td>珍稀</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>（3 环版本）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4]{防护能量}</em>（仅闪电伤害）</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.TrQLDqAXxnzGJrIG]{克里里拉琴}</td><td>珍稀</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8IB5rTZNCLJMU8TM]{塑石术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw]{火墙术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XLp80cYXVhuSXxlh]{风墙术}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.GmuWFLdiQYirspIC]{道斯鲁特琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GULs1wblA99T7cqF]{化兽为友}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4]{防护能量}</em>（仅火焰伤害）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.eH4siggByYDcLnuC]{防护毒素}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.xVE0SkvFK7tdRPbY]{佛克路坎班多里琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bVc4ORJ6m43jC6PC]{纠缠术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.h1Qg5REz27bZsFVj]{妖火}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3NYmyBELaN1xflLc]{橡棍术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA]{动物交谈}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ySohaKQ0VYbBZcBB]{麦克·弗瑞米西特琴}</td><td>非普通</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.p2i5Od6r6HhXeTMk]{树肤术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rj80d3qVPV91csLW]{云雾术}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MMBl4k3zLOvrX4K3]{奥莱姆竖琴}</td><td>传说</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OuF5hUCX8HS3pms1]{困惑术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZZtGns8bbx1znUkQ]{操控天气}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1WpU2I7Fm35TkL8l]{火焰风暴}</em></td></tr></tbody></table><p class=\"item-original\">Instrument of the Bards</p>",
+      "chat": ""
+    },
+    "identifier": "instrument-of-the-bards",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895670405,
+    "modifiedTime": 1761992597469,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "HnybC5ptqVS0F21O",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!HnybC5ptqVS0F21O"
+}

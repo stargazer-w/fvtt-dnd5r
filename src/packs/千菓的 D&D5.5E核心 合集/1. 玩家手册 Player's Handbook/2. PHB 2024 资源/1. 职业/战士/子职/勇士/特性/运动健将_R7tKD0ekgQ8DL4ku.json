@@ -1,0 +1,101 @@
+{
+  "name": "运动健将",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_champion_remarkable-athlete.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>得益于你平日的体育锻炼，你在先攻检定和力量（运动）检定中具有优势。</p><p>此外，当你造成一次重击后，你可立即移动至多等于你速度一半的距离，这次移动不会引发借机攻击。</p><p class=\"item-original\">Remarkable Athlete</p>",
+      "chat": ""
+    },
+    "identifier": "remarkable-athlete",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "勇士"
+  },
+  "effects": [
+    {
+      "name": "运动健将",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_champion_remarkable-athlete.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.R7tKD0ekgQ8DL4ku",
+      "_id": "mUdtHtBS0CCloz5Q",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.remarkableAthlete",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734254373728,
+        "modifiedTime": 1735460015519,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!R7tKD0ekgQ8DL4ku.mUdtHtBS0CCloz5Q"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194979122,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "R7tKD0ekgQ8DL4ku",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!R7tKD0ekgQ8DL4ku"
+}

@@ -1,0 +1,235 @@
+{
+  "name": "至恶护符",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_talisman-of-ultimate-evil.webp",
+  "system": {
+    "activities": {
+      "fvWYrgeNuAwdqRDF": {
+        "type": "save",
+        "name": "万物终焉",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "full"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        },
+        "_id": "fvWYrgeNuAwdqRDF"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "6"
+    },
+    "description": {
+      "value": "<p><em>奇物，传说（需同调）</em></p><p>这枚护符是至恶的象征。触碰护符的非亡灵非邪魔生物将受到[[/damage 8d6 necrotic]]伤害，每当该生物持握或携带此护符结束其回合时，将再次受到此伤害。</p><p><em><strong>圣徽。</strong></em>你可以将护符当作圣徽使用。着装或持握护符期间，你进行的法术攻击检定获得 +2 加值。</p><p><em><strong>万物终焉。</strong></em>护符具有 6 充能。着装或持握护符期间，你能够以一个&amp;Reference[Magic]{魔法}动作，消耗 1 充能并以一名位于你 120 尺内的地面上的你可见的生物为目标，使目标脚下张开一道火焰裂隙。目标必须进行一次[[/save format=long]]，若目标是天族，其进行此豁免具有劣势。豁免失败则目标坠入裂隙，灰飞烟灭；成功则目标不会坠入裂隙，但因审判受到 4d6 心灵伤害。无论情况如何，裂隙随后将不留痕迹地闭合。充能耗尽时，护符将被摧毁，化为散发着恶臭的粘液。</p><p class=\"item-original\">Talisman of Ultimate Evil</p>",
+      "chat": ""
+    },
+    "identifier": "talisman-of-ultimate-evil",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "圣徽",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.p6FWGzzuhM4dE4Y1",
+      "_id": "tztHVMkQHeyADnfW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497117,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!p6FWGzzuhM4dE4Y1.tztHVMkQHeyADnfW"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758165673513,
+    "modifiedTime": 1758466048770,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "p6FWGzzuhM4dE4Y1",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!p6FWGzzuhM4dE4Y1"
+}

@@ -1,0 +1,289 @@
+{
+  "name": "NPC 秘密",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.5GOEEHaai1dsSxbx#秘密]{NPC 秘密}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "HcrpXTxnQc04gngy",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 是一位易容伪装者，隐藏着自己的真实身份或是对自己外貌的某些方面做了伪装。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.HcrpXTxnQc04gngy"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "GcLMocWO0VQJJfLA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 正在谋划、执行或掩盖一场犯罪。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.GcLMocWO0VQJJfLA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "SbQ2VjzxX6ghoPFW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC（或其家人）被人以残害作威胁，令其不得不做某些事。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.SbQ2VjzxX6ghoPFW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "8I8b0dTmB2ZVbSHn",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 被某种魔法效应胁迫（如指使术或某种诅咒），必须以特定的方式行事。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.8I8b0dTmB2ZVbSHn"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "EoGoZO0jErjBtdmx",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 身缠重病，或正处在严重的痛苦之中。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.EoGoZO0jErjBtdmx"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "OyHYezstYaM8OsjL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 认为自己对某人的死亡或某场噩运负有责任。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.OyHYezstYaM8OsjL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_id": "Ul2vAxDRxqJXed1o",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 身处破产边缘。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.Ul2vAxDRxqJXed1o"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_id": "Xur4eiPSbrs3o1AP",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 深陷名为孤独的绝望或对某人单相思而不得。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.Xur4eiPSbrs3o1AP"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_id": "J7G3ExRw2vFKF9iK",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 暗藏着极大的野心。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.J7G3ExRw2vFKF9iK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_id": "UF57jU8W42yAQyhg",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这位 NPC 内心十分地失落或不满。",
+      "name": "",
+      "_key": "!tables.results!fDVwrwsJKBLEQyfU.UF57jU8W42yAQyhg"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750255827391,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d10",
+  "_id": "fDVwrwsJKBLEQyfU",
+  "sort": 4900000,
+  "_key": "!tables!fDVwrwsJKBLEQyfU"
+}

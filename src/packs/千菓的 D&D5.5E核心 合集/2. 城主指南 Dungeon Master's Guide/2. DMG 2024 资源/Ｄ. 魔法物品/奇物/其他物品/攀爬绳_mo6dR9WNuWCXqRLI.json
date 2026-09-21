@@ -1,0 +1,80 @@
+{
+  "name": "攀爬绳",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_rope-of-climbing.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这根 60 尺长的绳索可承受 3000 磅的重量。当你持握这根绳索的一端时，你可以使用一个&amp;Reference[Magic]{魔法}动作命令绳索的另一端活化并向你指定的目的地移动，目的地与你的距离不能超过绳索的长度。在你第一次命令时，绳索末端会在你的回合内移动 10 尺，并在随后每个你的回合开始时移动 10 尺，直至到达目的地或直至你命令它停止。你也可以命令绳索将自身牢固系绑住一个物件或松绑，将自身打结或解结，或将自身盘卷以便携带。</p><p>如果你命令攀爬绳打结，绳索将每隔 1 尺打一个大结。打结将使绳索的长度缩短至 50 尺，但此时为用此绳索攀爬所进行的属性检定具有优势。</p><p>这根绳索具有 AC 20、HP 20 以及毒素和心灵伤害免疫。只要绳索还剩至少 1 生命值，它就能每 5 分钟恢复 1 生命值。如果绳索的生命值降至 0，则它被摧毁。</p><p class=\"item-original\">Rope of Climbing</p>",
+      "chat": ""
+    },
+    "identifier": "rope-of-climbing",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "mo6dR9WNuWCXqRLI",
+  "sort": 4100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!mo6dR9WNuWCXqRLI"
+}

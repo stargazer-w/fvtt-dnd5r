@@ -254,6 +254,63 @@ export function stagePackForReading(sourceDir) {
   return staging;
 }
 
+/** 包内的**分组文档**：目录里有它才是真实分组（`FOLDER_CONFIG_FILE` 是结构层的控制文件，两者不是一回事） */
+export const PACK_FOLDER_FILE = "_Folder.json";
+
+/**
+ * 把包目录物化成「可编译」的副本：`src` 里不写 `folder` 字段（分组由目录结构表达），
+ * 这里按目录把它注回每篇文档，再交给 `compilePack`。
+ *
+ * - 目录里有 `_Folder.json` 才是分组：它自己的 `folder` 指向父分组的 `_id`
+ * - 没有 `_Folder.json` 的目录只是磁盘上的组织，里面的文档仍属于最近一层祖先分组
+ * - 包根目录下的文档与分组的 `folder` 为 `null`（无分组）
+ *
+ * 注意：产物里的 `folder` 是**必需**的——LevelDB 没有目录概念，Foundry 靠它归组。
+ * @param {string} sourceDir 包目录（src 侧）
+ * @param {string} destDir   目标目录（会被创建）
+ * @returns {number}         写出的文件数
+ */
+export function stagePackForCompiling(sourceDir, destDir) {
+  /**
+   * @param {any} doc    文档
+   * @param {string} rel 相对路径
+   */
+  const write = (doc, rel) => {
+    const target = path.join(destDir, rel);
+    fs.mkdirSync(path.dirname(target), { recursive: true });
+    fs.writeFileSync(target, `${JSON.stringify(doc, null, 2)}\n`);
+  };
+
+  let files = 0;
+  /**
+   * @param {string} dir           目录
+   * @param {string|null} parentId 最近一层祖先分组的 id
+   * @param {string} rel           相对路径
+   */
+  const walk = (dir, parentId, rel) => {
+    let groupId = parentId;
+    const folderFile = path.join(dir, PACK_FOLDER_FILE);
+    if ( fs.existsSync(folderFile) ) {
+      const doc = JSON.parse(fs.readFileSync(folderFile, "utf8"));
+      doc.folder = parentId;
+      write(doc, rel ? `${rel}/${PACK_FOLDER_FILE}` : PACK_FOLDER_FILE);
+      groupId = doc._id;
+      files++;
+    }
+    for ( const entry of fs.readdirSync(dir, { withFileTypes: true }) ) {
+      const childRel = rel ? `${rel}/${entry.name}` : entry.name;
+      if ( entry.isDirectory() ) { walk(path.join(dir, entry.name), groupId, childRel); continue; }
+      if ( !entry.name.endsWith(".json") || entry.name.startsWith("@") || entry.name === PACK_FOLDER_FILE ) continue;
+      const doc = JSON.parse(fs.readFileSync(path.join(dir, entry.name), "utf8"));
+      doc.folder = groupId;
+      write(doc, childRel);
+      files++;
+    }
+  };
+  walk(sourceDir, null, "");
+  return files;
+}
+
 /**
  * 读取包内的 Folder 文档，并计算每个文件夹的目录名与完整相对路径。
  *

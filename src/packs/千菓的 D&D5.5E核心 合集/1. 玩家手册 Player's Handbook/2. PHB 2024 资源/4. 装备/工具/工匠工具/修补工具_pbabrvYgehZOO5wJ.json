@@ -1,0 +1,127 @@
+{
+  "name": "修补工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>敏捷　　　<strong>重量：</strong>10 磅</p><p><strong>操作：</strong>将过去一分钟内碎成数块的小型物件集齐并修好（DC 20）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7p90pgKSDEo5GkgT]{火铳}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iepEmXxcuO7cTiRy]{手铳}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ON6f172z2TGGW3eT]{铃铛}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUArRAfYGZRmWLN3]{牛眼提灯}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YO7jnXmupsC4TcER]{扁瓶}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.okQQpnffsfzpAFuA]{附盖提灯}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6qgJIJMPIftWoTHx]{捕猎陷阱}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xAG5D3QRRzUOuNur]{锁}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zWPqjQzj3MlG8LBU]{镣铐}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Bi4obbOx6ftdqNlL]{镜子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K2RJ9YKuYcdEJBEp]{铲子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iVABXOqlcZwuLtfJ]{信号笛}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]{火绒盒}</p><p class=\"item-original\">Tinker's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "tinker"
+    },
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "OW1MLrZJrZGRPtB8": {
+        "type": "check",
+        "_id": "OW1MLrZJrZGRPtB8",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "tinkers-tools"
+  },
+  "type": "tool",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_tinkers-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758195015153,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "pbabrvYgehZOO5wJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pbabrvYgehZOO5wJ"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "生物定位术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_locate-creature.webp",
+  "system": {
+    "activities": {
+      "UXgKHtRZnbIDw7EX": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "UXgKHtRZnbIDw7EX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你点名或描述一个你熟悉的生物。只要该生物与你相距不超过 1000 尺，你就会感测到该生物的方位。如果该生物正在移动，则你也将知晓其移动的方向。</p><p>该法术可以定位一个你认识的特定生物；或者它也可以定位特定的一类生物（例如人类或独角兽）中距你最近个体，不过你需要在 30 尺的近距离内看到过该类生物至少一次。如果被点名或描述的生物并不处于其原本的形态（例如正被一个<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S58EZtQXPSFycVf0]{变形术}</em>或<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wxDiDKfDthmJ4ahM]{石化术}</em>的法术效应影响），则该法术无法定位该生物。</p><p>如果有任意厚度的铅，即使只是薄薄一片铅片阻挡了你与被定位物件间的通路，则该生物也无法被该法术所定位。</p><p class=\"item-original\">Locate Creature</p>",
+      "chat": ""
+    },
+    "identifier": "locate-creature",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 4,
+    "materials": {
+      "value": "一块寻血猎犬的皮毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195004550,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iqOD23UlG9iA3jiV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iqOD23UlG9iA3jiV"
+}

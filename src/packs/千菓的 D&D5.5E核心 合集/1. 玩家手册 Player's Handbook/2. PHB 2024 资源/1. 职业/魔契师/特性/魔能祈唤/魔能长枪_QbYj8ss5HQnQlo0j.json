@@ -1,0 +1,56 @@
+{
+  "name": "魔能长枪",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_eldritch-spear.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>先决条件：2 级或更高的魔契师等级，已知一道造成伤害的魔契师戏法</em></p><p>选择一道你已知的造成伤害且射程至少为 10 尺的魔契师戏法。当你施展此法术时，其射程增加等于你魔契师等级 30 倍的尺数。</p><p><em><strong>可复选。</strong></em>你可以多次选择本祈唤。每次这么做时，你都必须选择不同的戏法。</p><p class=\"item-original\">Eldritch Spear</p>",
+      "chat": ""
+    },
+    "identifier": "eldritch-spear",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": 2
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758194978242,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "QbYj8ss5HQnQlo0j",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!QbYj8ss5HQnQlo0j"
+}

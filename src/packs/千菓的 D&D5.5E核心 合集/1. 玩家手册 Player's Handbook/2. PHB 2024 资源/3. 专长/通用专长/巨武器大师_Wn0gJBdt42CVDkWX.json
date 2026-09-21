@@ -1,0 +1,82 @@
+{
+  "name": "巨武器大师",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_great-weapon-master.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，力量 13+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的力量提升 1，最多为 20。</p><p><em><strong>重武器掌握。</strong></em>在你的回合内，如果你通过&amp;Reference[Attack]{攻击}动作中的攻击检定命中了一个生物，并且这次攻击检定是由具有重型标签的武器发动的，你就可以让这把武器对目标造成一定的额外伤害。其额外伤害等于你的熟练加值。</p><p><em><strong>顺势斩。</strong></em>当你使用近战武器造成了一次重击或将一个生物的生命值降低至 0 时，你可以立即使用你的&amp;Reference[Bonus Action]{附赠动作}来以相同的武器进行一次攻击。</p><p class=\"item-original\">Great Weapon Master</p>",
+      "chat": ""
+    },
+    "identifier": "great-weapon-master",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 1,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 0
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的力量提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1758194987015,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Wn0gJBdt42CVDkWX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Wn0gJBdt42CVDkWX"
+}

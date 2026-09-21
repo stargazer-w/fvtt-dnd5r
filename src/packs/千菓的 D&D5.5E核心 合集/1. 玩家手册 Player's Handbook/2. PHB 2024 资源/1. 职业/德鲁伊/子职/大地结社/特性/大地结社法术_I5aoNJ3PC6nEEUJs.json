@@ -1,0 +1,122 @@
+{
+  "name": "大地结社法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你结束一次长休，选择一种地形：荒漠、极地，温带或热带。参照以下对应类型的表格，你自动将表中对应你德鲁伊等级及更低等级的法术加入准备。</p><table class=\"left-three\"><caption>荒漠 Arid Land</caption><thead><tr><td>德鲁伊等级</td><td>结社法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SNs3Ici1qtLp3aYH]{朦胧术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4]{燃烧之手}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uHTVTyyr08JgRQ2U]{火焰箭}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sXEJfbqf05VjLSsp]{枯萎术}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FwtQ4ewj6dhJswqg]{石墙术}</em></td></tr></tbody></table><table class=\"left-three\"><caption>极地 Polar Land</caption><thead><tr><td>德鲁伊等级</td><td>结社法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rj80d3qVPV91csLW]{云雾术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WJtXG4RuJhysvKp3]{定身类人}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.W37Fkt1CHGK7C1of]{冷冻射线}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rs5qMI7uUkRfFRMY]{雪雨暴}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5YU6YLSuUuu1Kd7E]{冰风暴}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tiCGN1S62LaeyBxm]{锥域冻寒}</em></td></tr></tbody></table><table class=\"left-three\"><caption>温带 Temperate Land</caption><thead><tr><td>德鲁伊等级</td><td>结社法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hIHTtpu6OOWmmFu3]{电爪}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jDqnWyDvvIV8HxZh]{睡眠术}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pRluZVjWUgDLqHOT]{闪电束}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL]{行动自如}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VeBIRZDRq8BDfK9g]{树跃术}</em></td></tr></tbody></table><table class=\"left-three\"><caption>热带 Tropical Land</caption><thead><tr><td>德鲁伊等级</td><td>结社法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.75S6zhRFifHpH327]{酸液飞溅}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy]{致病射线}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wsGBy2GSy37W6xMV]{蛛网术}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CyL40Fy99sUMr1Nb]{臭云术}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S58EZtQXPSFycVf0]{变形术}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5m0oQFhzzKySuRN8]{疫病虫群}</em></td></tr></tbody></table><p class=\"item-original\">Circle of the Land Spells</p><section class=\"dc7-note\"><p>你可以编辑此物品，并于“升级”选项卡中的“<em class=\"fa-solid fa-gear\">​</em>”更改选择项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "circle-of-the-land-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "大地结社",
+    "advancement": [
+      {
+        "type": "ItemChoice",
+        "title": "大地结社法术",
+        "_id": "qYrnugg6aIjZv0Z4",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "3": {
+              "count": 1,
+              "replacement": false
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.WlGhdi1YcJMe47SM"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.lZ9Y5hKgiUAiCZkx"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.njHYNem3lYXMNCpY"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.rvRI7ERF93SKaz6H"
+            }
+          ],
+          "restriction": {
+            "list": [],
+            "level": "",
+            "type": ""
+          },
+          "spell": {
+            "ability": [],
+            "method": "",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          },
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": "每当你结束一次长休，你可以选择一种地形：荒漠、极地，温带或热带。你自动将表中对应你德鲁伊等级及更低等级的法术加入准备。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777640527255,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "I5aoNJ3PC6nEEUJs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!I5aoNJ3PC6nEEUJs"
+}

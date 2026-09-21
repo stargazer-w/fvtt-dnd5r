@@ -1,0 +1,832 @@
+{
+  "_id": "dmgCh6ArtHandout",
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Chapter Start",
+      "type": "image",
+      "_id": "JbQ6xobPXm4L8FxK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "痛苦女士在熙熙攘攘的印记城街道毫无预兆地现身，城中的居民纷纷避让。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ch-6-opener-lady-of-pain-appears-sigil.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728501707780,
+        "modifiedTime": 1750301942005,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.JbQ6xobPXm4L8FxK"
+    },
+    {
+      "sort": 200000,
+      "name": "Planes",
+      "type": "image",
+      "_id": "Qtj7Nq23KjMxrra5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/inner-outer-planes.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728593538820,
+        "modifiedTime": 1728593550487,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.Qtj7Nq23KjMxrra5"
+    },
+    {
+      "sort": 300000,
+      "name": "Planar Portal",
+      "type": "image",
+      "_id": "XZokRjod5j1kpVHe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "通往万兽园的传送门在世界之树的枝桠间开启。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/portal-to-the-beastlands-opens-in-world-tree.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728593646106,
+        "modifiedTime": 1750301990447,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.XZokRjod5j1kpVHe"
+    },
+    {
+      "sort": 400000,
+      "name": "Demonweb Pits",
+      "type": "image",
+      "_id": "x2Dw1oSnHFHfkWkN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "各位面的残骸纠缠于蛛魔网坑之中。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/detritus-of-the-planes-tangled-in-demonweb-pits.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921037697,
+        "modifiedTime": 1750302379488,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.x2Dw1oSnHFHfkWkN"
+    },
+    {
+      "sort": 500000,
+      "name": "Pink Tree",
+      "type": "image",
+      "_id": "4YVcvTzRm5Kd5xHd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/pink-tree-in-field.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921123866,
+        "modifiedTime": 1728921131494,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.4YVcvTzRm5Kd5xHd"
+    },
+    {
+      "sort": 600000,
+      "name": "Spelljamming Wasp Ship",
+      "type": "image",
+      "_id": "qOvM20laGXBJy2li",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一艘魔法黄蜂船舰正在接近吉斯洋基的图纳拉斯城。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/spelljammer-wasp-approaches-githyank-city.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921246612,
+        "modifiedTime": 1750314327017,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.qOvM20laGXBJy2li"
+    },
+    {
+      "sort": 700000,
+      "name": "Carceri",
+      "type": "image",
+      "_id": "wUXPCzzSqbNyZ6Ng",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "未知的恐怖被困于卡瑟利冰层之中。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/unknown-horrors-entrapped-in-ice.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921351644,
+        "modifiedTime": 1750302608100,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.wUXPCzzSqbNyZ6Ng"
+    },
+    {
+      "sort": 800000,
+      "name": "Elemental Plane of Air",
+      "type": "image",
+      "_id": "D7GqHfPMYBw7X7ua",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "鹰身人斥候返回气元素位面上的一座城市。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/aarakocra-scouts-return-home.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921657092,
+        "modifiedTime": 1750302663563,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.D7GqHfPMYBw7X7ua"
+    },
+    {
+      "sort": 900000,
+      "name": "City of Brass",
+      "type": "image",
+      "_id": "zpEnJx7Lq6MHZ5Ry",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "黄铜之城是连接多元宇宙贸易的枢纽。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/city-of-brass-dock.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921811201,
+        "modifiedTime": 1750302714468,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.zpEnJx7Lq6MHZ5Ry"
+    },
+    {
+      "sort": 1000000,
+      "name": "Ethereal Plane",
+      "type": "image",
+      "_id": "YQbIgAIYebXIPL8i",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "耀光城是以太位面中的一处避难所，尽管它靠近一场猛烈的以太飓风。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/radiant-citadel-in-ethereal-plane.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728921857255,
+        "modifiedTime": 1750315413997,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.YQbIgAIYebXIPL8i"
+    },
+    {
+      "sort": 1100000,
+      "name": "Ethereal Flower",
+      "type": "image",
+      "_id": "ijOBXRcqFkQ4uAL4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/ethereal-plane-flower.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922062573,
+        "modifiedTime": 1728922068996,
+        "lastModifiedBy": "16VfIpXxBgUtNgjR",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.ijOBXRcqFkQ4uAL4"
+    },
+    {
+      "sort": 1200000,
+      "name": "Far Realm",
+      "type": "image",
+      "_id": "Yl8IIXmhHN8w4Mby",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "当龙之泪彗星出现在火暴峰上空时，浩瀚之门形成了一座通往遥远国度的桥梁。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/dragons-tear-comet-above-firestorm-peak.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922104162,
+        "modifiedTime": 1750303022472,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.Yl8IIXmhHN8w4Mby"
+    },
+    {
+      "sort": 1300000,
+      "name": "Fey Revel",
+      "type": "image",
+      "_id": "7dMDO0El8FC4C98S",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "在薄暮王庭中，妖精们在空暗女王注视下尽情狂欢。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/fey-revel-in-gloaming-court.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922201653,
+        "modifiedTime": 1750303233332,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.7dMDO0El8FC4C98S"
+    },
+    {
+      "sort": 1400000,
+      "name": "Eberron",
+      "type": "image",
+      "_id": "n6fdC3SP4st6cfAe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "魔法与科技并存的艾伯伦，是物质位面中的诸多世界之一。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/magical-marvels-technology-in-eberron.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922297522,
+        "modifiedTime": 1750303438556,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.n6fdC3SP4st6cfAe"
+    },
+    {
+      "sort": 1500000,
+      "name": "Mount Celestia",
+      "type": "image",
+      "_id": "SfwibzLLzXOI5tB1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "天界山的七重天堂召唤着善良的灵魂不断迈向更高的境界。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/seven-heavens-of-mount-celestia.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922357959,
+        "modifiedTime": 1750303534600,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.SfwibzLLzXOI5tB1"
+    },
+    {
+      "sort": 1600000,
+      "name": "Avernus",
+      "type": "image",
+      "_id": "4dJATzd8rbPY4chF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "九层地狱的第一层——阿弗纳斯，是血战的永恒战场。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/avernus-first-of-the-nine-hells.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922482157,
+        "modifiedTime": 1750303565331,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.4dJATzd8rbPY4chF"
+    },
+    {
+      "sort": 1700000,
+      "name": "Asmodeus",
+      "type": "image",
+      "_id": "9IpKu0y9U0dOm60g",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "九狱之领主阿斯蒙蒂斯在折磨囚禁灵魂的同时，依旧保持着彬彬有礼的风度。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/asmodeus-lord-of-the-nine.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922547705,
+        "modifiedTime": 1750303786828,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.9IpKu0y9U0dOm60g"
+    },
+    {
+      "sort": 1800000,
+      "name": "Pandemonium",
+      "type": "image",
+      "_id": "xgN33DEiy5duOtCy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "三位冒险者顶着喧癫空隧的呼啸狂风，寻找莫勒悬崖。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/adventurers-brave-howling-winds-pandemonium.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728922902515,
+        "modifiedTime": 1750303901269,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.xgN33DEiy5duOtCy"
+    },
+    {
+      "sort": 1900000,
+      "name": "Shadowfell",
+      "type": "image",
+      "_id": "TgumwCUrZuM3bMSl",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "堕影冥界是一个充满死亡、绝望与恐惧的领域。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/shadowfell-realm.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728923018415,
+        "modifiedTime": 1750303941856,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.TgumwCUrZuM3bMSl"
+    },
+    {
+      "sort": 2000000,
+      "name": "Sigil",
+      "type": "image",
+      "_id": "mKJ8DvTEhQ8mhvhd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "在多元宇宙交汇的印记城街道上，各种生物虽心存戒备，却共存于一片不安的和平之中。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/cosmopolitan-streets-of-sigil.webp",
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1728923107214,
+        "modifiedTime": 1750304046040,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCh6ArtHandout.mKJ8DvTEhQ8mhvhd"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "append": 6,
+      "type": "special"
+    },
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776540437116,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgCh6ArtHandout"
+}

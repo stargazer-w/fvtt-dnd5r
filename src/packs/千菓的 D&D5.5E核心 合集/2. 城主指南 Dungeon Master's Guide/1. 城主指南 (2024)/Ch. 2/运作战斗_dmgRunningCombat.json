@@ -1,0 +1,491 @@
+{
+  "_id": "dmgRunningCombat",
+  "name": "运作战斗",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "sROdfuMVLjteRbir",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本节以<em>《玩家手册》</em>中的战斗规则为基础，为 DM 提供一些小技巧，以便在战斗打响时保持游戏的流畅性。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776539879545,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.sROdfuMVLjteRbir"
+    },
+    {
+      "sort": 200000,
+      "name": "投掷先攻",
+      "type": "text",
+      "_id": "lj8TIvxtNvsoETJj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Rolling Initiative</p><p>战斗唯有在你宣布开始时才会展开。有些角色可以在先攻掷骰时触发能力，但是否投掷先攻和何时投掷先攻由你决定，而非玩家。因此，一位高等级的野蛮人不能直接给他的圣武士朋友来上一拳，然后通过投掷先攻来恢复已消耗的狂暴次数。</p><p>在任何情况下，如果是因角色的动作而引发了战斗，你可以给予进行该动作的角色一次先攻掷骰的优势。例如，因为术士确信眼前这位 NPC 是个变形怪所以决定中断与他的对话，并使用<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.D8Lt2QCRoMnTJys7]{繁彩球}</em>法术指定了它，那么所有人都要投掷先攻，且术士的掷骰具有优势。如果变形怪掷骰的结果不错，它可能仍然会在术士施法之前行动，这反映了怪物对法术的预判能力。</p><h2>使用先攻定值</h2><p class=\"journal-original-h2\">Using Initiative Scores</p><p>你可以使用先攻定值来代替掷骰，从而更快地进入战斗状态。您可以只让角色使用；只让怪物使用；也可以两边都使用。</p><p><em><strong>角色的先攻定值。</strong></em>角色的先攻定值通常是 10 加角色先攻掷骰的所有调整值（包括敏捷调整值和任何特殊调整值）。如果你希望你的玩家使用先攻定值，让他们在角色表上记录这些数值，并自己列一份先攻值的清单。</p><p><em><strong>怪物的先攻定值。</strong>《怪物图鉴》</em>中的怪物数据卡会包括先攻定值，列于其先攻加值之后。</p><p><em><strong>优势和劣势。</strong></em>如果生物在先攻掷骰时具有优势，则先攻定值增加 5。如果生物在先攻掷骰时具有劣势，则先攻值减少 5。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776539889927,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.lj8TIvxtNvsoETJj"
+    },
+    {
+      "sort": 300000,
+      "name": "跟进先攻",
+      "type": "text",
+      "_id": "a1W1UdaRwUndfdeS",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Tracking Initiative</p><p>此节描述了持续跟进战斗中谁先谁后的不同方法。</p><h2>幕后先攻列</h2><p class=\"journal-original-h2\">Hidden List</p><p>你可以使用以下工具在玩家看不到的列表中记录先攻：</p><ul><li>DM 帷幕后的纸或笔记本</li><li>笔记本电脑或平板电脑上的记录表或文档</li><li>平板电脑或手机上的应用程序</li><li>为每个角色和每组相同的怪物准备的索引卡，按照先攻顺序堆叠起来，循环查看</li></ul><p>一个幕后先攻列表可以让你跟进一些尚未露面的战斗成员，你也可以使用该列表来记录怪物的当前生命值以及其他有用的笔记。</p><p>如果你使用这种方法，告诉玩家什么时候会轮到他们的角色。当你叫出轮到角色的名字时，顺口提及下一位，来提醒那位角色的玩家提前做好准备。</p><h2>公开先攻列</h2><p class=\"journal-original-h2\">Open List</p><p>你可以使用以下任何工具在一张玩家可见的列表中跟进先攻：</p><ul><li>墙上或附近支起的白板</li><li>用于放置微缩模型的战斗地图</li><li>折好的索引卡，上面有每个角色和每组相同的怪物，按照先攻顺序像帐篷一样挂在 DM 帷幕的顶部</li><li>你正在使用的虚拟桌面软件或文字聊天群组</li><li>磁铁、晾衣夹或一个用于表示先攻顺序的小配件</li></ul><p>公开先攻列表可以让所有人都能意识到先攻顺序。玩家会知道他们的角色何时轮到行动，因此可以提前计划起来。公开列表还可以让玩家知道怪物何时参战，不过你仍可以等到怪物第一次行动后再将其添加到列表中。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>战斗追踪器</h3><p>战斗追踪器是对所有玩家可见的，它会显示当前战斗的先攻次序，这样每个人都能清楚地知道自己的回合何时到来。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776539900892,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.a1W1UdaRwUndfdeS"
+    },
+    {
+      "sort": 400000,
+      "name": "跟进怪物生命值",
+      "type": "text",
+      "_id": "CeXh0qTXx51SiKq3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Tracking Monsters' Hit Points</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.2qPRW48Tr5Bd4fy4 cite=false]</p><p>在战斗中，你或一名玩家应该去跟进每个怪物受了多少伤害。大多数 DM 会秘密跟进伤害，这样他们的玩家就不会知道怪物还剩多少生命值。</p><p>为一群怪物建立伤害跟进的系统很有帮助。如果您没有使用微缩模型或其他辅助视觉的工具，那么为怪物分配独特的特征也是一种跟进方法。假设你正在与三个食人魔战斗。你可以添加一些描述，比如“有块大疤的食人魔”和“戴着头盔的食人魔”，这样你和你的玩家就能跟进哪个是哪个了。一旦投掷先攻，记下每个食人魔的生命值，并添加备注（甚至名字，如果你愿意的话），以区分每个食人魔：</p><ul><li><p><strong>克拉格（带烙印）：</strong>68</p></li><li><p><strong>赛德（戴头盔）：</strong>71</p></li><li><p><strong>穆尔（灰头土脸）：</strong>59</p></li></ul><p>如果你使用微缩模型来代表怪物，区分它们的一种方法是给每个怪物一个独特的微缩模型。如果你使用相同的微缩模型来代表多个怪物，您可以用不同颜色或不同字母或数字的小贴纸来标记微缩模型。</p><p>例如，在一场与三个食人魔的战斗中，你可以使用三个相同的食人魔模型，分别贴上 A、B 和 C 的贴纸。为了追踪食人魔的 HP，你可以按字母排序，然后从生命值中减去受到的伤害。经过几轮战斗后，你的记录可能看起来像这样：</p><ul><li><p><strong>食人魔 A：</strong><span class=\"CharOverride-3\"><s>68</s></span><s> </s><span class=\"CharOverride-3\"><s>59</s></span><s> </s><span class=\"CharOverride-3\"><s>53</s></span><s> </s><span class=\"CharOverride-3\"><s>45</s></span><s> </s><span class=\"CharOverride-3\"><s>24</s></span><s> </s><span class=\"CharOverride-3\"><s>14</s></span><s> </s><span class=\"CharOverride-3\"><s>9</s></span> 死了</p></li><li><p><strong>食人魔 B：</strong><span class=\"CharOverride-3\"><s>71</s></span><s> </s><span class=\"CharOverride-3\"><s>62</s></span><s> </s><span class=\"CharOverride-3\"><s>54</s></span> 33</p></li><li><p><strong>食人魔 C：</strong>59</p></li></ul><p>有些 DM 更喜欢跟进怪物受到的伤害，随着角色造成伤害而增加这个数字（而非从怪物的生命值中减去）。一般来说，加法比减法更容易，而且你可以在一个可见的先攻列表（如白板）上追踪伤害，而无需向玩家透露怪物有多少的生命值。跟进过程可能看起来像这样：</p><ul><li><p><strong>食人魔 A：</strong><span class=\"CharOverride-3\"><s>9</s></span><s> </s><span class=\"CharOverride-3\"><s>15</s></span><s> </s><span class=\"CharOverride-3\"><s>23</s></span><s> </s><span class=\"CharOverride-3\"><s>44</s></span><s> </s><span class=\"CharOverride-3\"><s>54</s></span><s> </s><span class=\"CharOverride-3\"><s>59</s></span> 死亡</p></li><li><p><strong>食人魔 B：</strong><span class=\"CharOverride-3\"><s>9</s></span><s> </s><span class=\"CharOverride-3\"><s>17</s></span> 38</p></li><li><p><strong>食人魔 C：</strong></p></li></ul><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>追踪生命值</h3><p>在 FVTT 中追踪生命值非常简单。当你的怪物或者一名玩家造成伤害时，你可以直接将伤害应用到它们的 Token 上，它们会由系统自动计算。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776539976731,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.CeXh0qTXx51SiKq3"
+    },
+    {
+      "sort": 500000,
+      "name": "使用并跟进状态",
+      "type": "text",
+      "_id": "yL4YR3RUoMIqiCH7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Using and Tracking Conditions</p><p>游戏中的许多规则和特性都能对生物施加状态。只要合理，您也可以临时应用状态：例如，&amp;Reference[Poisoned apply=false]{中毒}状态可以反映从感冒到醉酒的各类损害。</p><p>只要你能跟进怪物的生命值，就能跟进怪物的状态。玩家应该跟进会影响角色的任何状态。角色状态也可以用索引卡或白板标记。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>用动态效果追踪状态</h3><p>可以在角色卡的 <span class=\"reference\"><em class=\"fas fa-bolt\"> </em>效应</span> 标签中追踪该角色的状态。此外，也可以通过滑鼠右键点击它们的 Token，在状态效果中控制；任何应用到角色上的状态和动态效果都会从 Token 的左上角开始依序显示。</p></article></section><p>你也可以用索引卡或便签来标记状态及其效果、使用指示物或其他有形的提醒。当玩家的角色具有状态时，将卡片、便签或指示物交给玩家。在玩家的角色卡上贴一张写有状态规则的便签，可以帮助玩家记住状态的影响。你也可以在生物模型上放置指示物或彩色塑料环（汽水瓶盖上的塑料环效果不错），帮助大家记住哪些生物被状态所影响。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540000196,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.yL4YR3RUoMIqiCH7"
+    },
+    {
+      "sort": 600000,
+      "name": "微缩模型",
+      "type": "text",
+      "_id": "I0iNOIHzJBdKAwgx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Miniatures</p><p>玩家通常可以依靠你的描述来想象他们的角色的周遭环境和敌人的位置。不过，某些战斗场景也可以借助视觉辅助或实体道具来提供帮助，其中最常见的是微缩模型和战斗网格地图。微缩模型通常与地形模型、模块化地城纸板或大型乙烯基垫上绘制的地图结合使用。大多数在线游戏的虚拟桌面都会在数字环境中模拟微缩模型和网格地图。</p><p>以下部分扩展了<em>《玩家手册》</em>中在网格上使用微缩模型来具现战斗的规则。</p><h2>战术地图</h2><p class=\"journal-original-h2\">Tactical Maps</p><p>你可以在可擦写的乙烯基垫上用彩色记号笔来绘制战术地图，垫上带有 1 英寸见方的格子或类似的平面。其他选项包括：预先印制的海报大小的地图、由纸板拼成的地图以及由石膏或树脂雕刻而成的地形。如果你在虚拟桌面上游玩，可以在网上找到大量电子形式的战术地图。</p><p>战术地图最常用的单位是 5 英尺见方，带有网格的地图有许多现成的可供使用，且同样很容易制作。不过，你也可以完全不使用网格。你可以使用卷尺、线、尺子或剪成特定长度的管子来测量距离。另一个选择是用边长 1 英寸的正六边形（通常称为六边格）覆盖桌面，这样在保持网格容易计数的同时，移动起来也更加灵活。不过，要用用六边格来绘制带有直墙和直角的地牢走廊并不容易。</p><h2>生物的体型和空间</h2><p class=\"journal-original-h2\">Creature Size and Space</p><p>生物的体型决定了它在方格或六边格上所占据的空间，如生物体型与空间表及附带的图中所示。</p><p>如果您使用的怪物微缩模型所占的空间与表格中的不同，那也不要紧，但请依旧按照怪物的官方体型来执行所有规则。例如，您可以使用底座为大型的微缩模型来代表巨型的巨人。虽然该巨人占用的战场空间比其尺寸显示的要小，但就擒抱等规则而言它仍然是巨型生物。</p><table><caption>生物的体型和空间 Creature Size and Space</caption><thead><tr><th>体型</th><th>方格中占据空间</th><th>六边格中占据空间</th></tr></thead><tbody><tr><td>微型</td><td>1/4 方格</td><td>1/4 六边格</td></tr><tr><td>小型</td><td>1 方格</td><td>1 六边格</td></tr><tr><td>中型</td><td>1 方格</td><td>1 六边格</td></tr><tr><td>大型</td><td>4 方格（2 × 2）</td><td>3 六边格</td></tr><tr><td>巨型</td><td>9 方格（3 × 3）</td><td>7 六边格</td></tr><tr><td>超巨型或以上</td><td>16 方格（4 × 4）或以上</td><td>12 六边格或以上</td></tr></tbody></table><div class=\"space-around\"><div class=\"col\"><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.qMhI5NC8aGG2v3m9 cite=false]</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.ka5ZCuFA1J1ezEcD cite=false]</p></div></div><h2>效应区域</h2><p class=\"journal-original-h2\">Areas of Effect</p><p>效应区域必须转换为方格或六边格，以确定该区域中有哪些潜在的目标。如果该区域有一个原点，则选择一个方格或六边格的交点作为原点，随后按照规则进行。如果影响区域至少覆盖了半个方格或六边格，则整个方格或六边格都会受到影响。</p><h2>视觉线</h2><p class=\"journal-original-h2\">Line of Sight</p><p>要确定两个空间之间是否存在视觉线，请从一个空间的角落开始，沿着一条假想线从该角落延伸到另一个空间的任何部分。如果这条线没有穿过或碰到任何阻挡视线的物体或效果（例如石墙、厚窗帘或浓雾），就存在视觉线。</p><h2>掩护</h2><p class=\"journal-original-h2\">Cover</p><p>随附的图表说明了方格或六边格上的&amp;Reference[cover]{掩护}。要确定目标是否在被攻击或其他效应影响时受益于掩护，请选择攻击方的空间的一个角落或影响区域的源点。然后为该角落到目标占据的任一方格的四个角落绘制一条假想线。如果其中的一条或两条线被障碍物（包括生物）阻挡，则目标具有&amp;Reference[Half Cover]{半掩护}。如果三条或四条线被阻挡，但攻击或效果仍可能影响目标（例如当目标位于箭孔后时），则目标具有&amp;Reference[Three-Quarters Cover]{四分之三掩护}。</p><p>在六边格上也使用与上述相同的步骤，在六边格的角之间画线。如果一条、两条或三条线被障碍物挡住，则目标收益于半掩护；如果被四条或更多线挡住，但攻击或效果仍可能影响目标，则目标为四分之三掩护。</p><div class=\"flex-between\"><div class=\"column\" style=\"margin-right:5px\"><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.GE0qLebfYnk8FpTI cite=false]</p></div><div class=\"column\" style=\"margin-left:5px;border-left:1px solid black\"><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.FaHwEabsGMr1hJ9s cite=false]</p></div></div><h2 class=\"clear-both\">对角线移动</h2><p class=\"journal-original-h2\">Diagonal Movement</p><p><em>《玩家手册》</em>介绍了在网格上计算移动和测量范围的简单方法：即便生物正在斜向移动或计算，都将每个方格都视为 5 尺。虽然这个规则可以加快游戏速度，但却并不符合几何定律。</p><p>如果你想更精确，可以使用以下规则：第一个对角线方格视为 5 尺，第二个对角线方格视为 10 尺。这种 5 尺和 10 尺交替的模式可适用于所有对角线移动，即使生物在不同对角线位置之间直接移动也是如此。例如，一个角色可能先对角线移动 1 格（5 尺），然后直线移动 3 格（15 尺），再对角线移动 1 格（10 尺），总共移动 30 英尺。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>启用可选的对角线移动规则</h3><p>在右侧边栏的设置标签中点击 <span class=\"reference\">配置设定</span> 按钮，从“核心”中找到“方形网格对角”项。</p><p>于此你可以选择“等距（每方格 5 尺）”或者“交替（1/2/1）”来按上述对角线规则计算移动。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540114642,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.I0iNOIHzJBdKAwgx"
+    },
+    {
+      "sort": 700000,
+      "name": "跟进远距离的位置",
+      "type": "text",
+      "_id": "y8Jnl04M6xtj6RZV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Tracking Position at Long Range</p><p>如果两个距离数百尺的团队之间爆发战斗，请尝试以下方法来跟进双方的位置：</p><p><strong>笔记纸。</strong>在一张纸上列出所有战斗人员，并用计数去记录每个生物与队伍出发点的距离（队伍从 x 尺处出发）。计数将随着角色的推进而增加；随着怪物向角色靠近而减少。</p><p><strong>调整网格比例。</strong>如果你使用战斗网格地图，则只取一部分来追踪位置，并改变比例，使每个方格为 30 尺。你不需要精确地记录生物的位置，只需要记录它们之间的距离即可。</p><p><strong>骰子作为范围计数器。</strong>不使用网格地图，而是将微缩模型放在相对的位置，在每个微缩模型旁边放一个骰子来显示它们已经走了多远。您可以使用百分骰（或三个骰子，每个骰子代表三位数的中的一个数字，如果相遇的范围在 100 到 1000 尺之间），或者使用一个或多个 d20 来显示生物前进了多少个 5 尺或 10 尺的正方形。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540155043,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.y8Jnl04M6xtj6RZV"
+    },
+    {
+      "sort": 800000,
+      "name": "战斗中的叙述",
+      "type": "text",
+      "_id": "V1W6co6loHKoxVEZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Narration in Combat</p><p>虽然要让玩家理解规则很重要，但如果每个人都只使用“游戏术语”，游戏就会变得乏味：“命中扔了 18”，“你命中了，现在扔伤害”，“11 点”，“好的，现在到先攻 13 的角色”。取而代之，你应该利用规则和对场景的了解来帮助你去叙述战斗。如果 18 只是堪堪命中，但 11 点伤害对敌人来说却是严重的创伤，你可以说：“你疯狂地舞起剑来，那骑士虽举起盾牌但为时已晚。剑刃刺中了他的下巴，划出一道深深的裂口。他被震得后退几步，血流不止！”</p><p>当角色与怪物战斗时，如下文所描述那样，你可以揭示一些信息来帮助玩家做出正确的选择。</p><h2>失去生命值</h2><p class=\"journal-original-h2\">Loss of Hit Points</p><p>你可以用描述性的语言来形容一个生物的伤势，从而让玩家了解他们与那个生物的对抗情况。例如，如果生物已经浴血，你可以说它身上有明显的伤口，看起来被打得惨兮兮的。这样的信息可以让玩家了解目前的进展，并可能会促使他们继续进攻。另一方面，如果角色们对那生物没造成什么伤害，那就让玩家知道那生物看上去毫发无损。这也可能会鼓励玩家改变他们的计划。</p><h2>能力，强项与弱点</h2><p class=\"journal-original-h2\">Abilities, Strengths, and Weaknesses</p><p>当与角色战斗的生物的特性在战斗中逐渐显露时，请与玩家分享这些信息。例如，如果法师对<strong>火元素</strong>（一种免疫火焰伤害的生物）施放了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uHTVTyyr08JgRQ2U]{火焰箭}</em>，让玩家知道这个法术看上去完全不对这个生物构成威胁。玩家可能会正确地猜想，由火组成的生物可能不会被火焰箭伤害，而你大可以证实他们的猜想。</p><h2>战斗中的动作</h2><p class=\"journal-original-h2\">Actions in Combat</p><p>当怪物在战斗中执行动作时，玩家需要同时了解游戏中和规则上发生的情况。这意味着，当一名手持着弩的敌人执行&amp;Reference[Ready]{预备}动作来掩护门前的区域时，你应当让玩家清楚认识到，如果他们的角色走到那扇门前，敌人就会向他们射击。<em>《怪物图鉴》</em>中关于怪物的描述通常会解释当他们使用特殊动作时这个世界会发生什么变化。描述动作表中的描述可用于解释生物使用它们可用的常见动作时会发生什么。</p><table><caption>描述动作 Describing Actions</caption><thead><tr><th>动作</th><th>描述</th></tr></thead><tbody><tr><td>&amp;Reference[Dash]{疾走}</td><td>“你的敌人没有发动攻击，而是急匆匆地跑向对面。 ”</td></tr><tr><td>&amp;Reference[Disengage]{撤离}</td><td>“敌人防备地和你拉开距离。 ”</td></tr><tr><td>&amp;Reference[Dodge]{回避}</td><td>“你的敌人紧盯着你，试图格挡住你的攻击。 ”</td></tr><tr><td>&amp;Reference[Help]{协助}</td><td>“当它的盟友朝你攻击时，敌人四处乱窜，分散了你的注意力。 ”</td></tr><tr><td>&amp;Reference[Magic]{魔法}</td><td>“你的敌人故作姿态，念出一段咒文。 ”</td></tr><tr><td>&amp;Reference[Ready]{预备}</td><td>“你的敌人似乎正伺机待发。 ”</td></tr></tbody></table><p>你可以将叙述性描述与游戏规则相结合：“敌人没有发动攻击，而是执行<strong>疾走</strong>动作急匆匆地跑向对面。”</p><h2>施法中的怪物</h2><p class=\"journal-original-h2\">Monsters Casting Spells</p><p>玩家能判断出对手何时在施法这点非常重要，这让角色们有机会施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6nJTUypnxG65oxnC]{法术反制}</em>或干扰其施法。</p><p>当怪物施放法术时，检查法术所需成分并适当描述其活动。如果法术包含言语成分，怪物可能会吟唱、大声疾呼或嘶鸣出法术的神秘音节。姿势成分包括怪物以优雅的规律移动双手（或类似的附肢），摆出不规则的手势，或向前猛挥。最后，怪物可能会持握着施法法器或其他材料成分。</p><p>有些怪物具有特殊能力来无视咒语的某些或全部常规成分，这可能会导致角色无法认出怪物正在做什么。同样，当怪物使用不涉及施法的魔法性能力时，请确保玩家能够清楚认识到怪物正在使用其独特的魔法性能力，而不是正在施展角色们可以反制的法术。</p><aside class=\"notable\"><h3>以英雄激励作为奖励</h3><p>正如<em>《玩家手册》</em>中所述，当玩家的行为让游戏变得更加有趣、刺激和难忘时，你都可以给予英雄激励作为奖励。任何让全桌玩家捧腹大笑、欢呼雀跃或惊叹连连的玩家都值得获得英雄激励。</p><p>你也可以使用英雄激励来作为良好角色扮演、全情投入游戏内容和英雄主义行为的奖励。用这些来激励在你游戏中希望看到的行为，例如代入角色的扮演、勇于承担风险、有策略地思考、团队合作或使用特定的修辞手法。确保你发放的英雄激励符合游戏开始时设定过的期望类型（见第 1 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgEnsuringFunFo]{确保所有人玩得开心}”）。</p></aside><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>给予英雄激励</h3><p>在角色卡的右上角（等级数字的左侧）有一个棱形标记，其用来追踪该角色是否拥有英雄激励。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540198912,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.V1W6co6loHKoxVEZ"
+    },
+    {
+      "sort": 900000,
+      "name": "让战斗持续推进",
+      "type": "text",
+      "_id": "6UthtPzF3dIb2EnV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Keeping Combat Moving</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.pYbaL6GmW23x1UMS cite=false]</p><p>有时，即使是计划最周密的战斗遭遇也会陷入僵局，双方无法推进，也无法对对方造成太大的伤害。在这些情况下，你可以使用以下几种技巧让战斗继续推进，或让遭遇迅速结束。</p><h2>不要重复游戏状态</h2><p class=\"journal-original-h2\">Don't Repeat Game States</p><p>当角色做出足以改变局势的行为时，不要把战况扳回原位。例如，如果一个角色执行撤离行动去远离一群怪物，作为回应，不要让这些怪物对该角色紧追不舍，而是让他们把目标移到别处。</p><h2>让怪物死得更快</h2><p class=\"journal-original-h2\">Hasten a Monster's Demise</p><p>如果战斗已经持续了够长的时间，并且角色们的胜利已成定局，那么你可以直接让怪物死掉。玩家们绝不需要知道角色处决怪物时它本来应该还剩 15 点生命值。</p><h2>停止敌对</h2><p class=\"journal-original-h2\">End Hostilities</p><p>大多数怪物都能看出战斗是否正按照它们预想的方向发展（或者根本毫无进展）。智能怪物可能会与角色谈和以保性命。突然间，怪物和角色进行谈判，停止敌对时，战斗就变成了一场交涉。非智能怪物可能会装死，试图让角色停止攻击，但只要有机会就会立刻站起来逃跑。本章后的“@UUID[.eEk4t57LVkiVhbjj]{战斗还是逃跑}”部分将给出更多建议。</p><h2>添加参战者</h2><p class=\"journal-original-h2\">Add a Combatant</p><p>为了让战斗更加刺激，你可以考虑添加一名参战者。也许一个可怕的掠食者游荡到了角色与另一敌人交战的场景中。或者，持续的战斗声吸引了附近地城住民们的注意。新加入的战斗人员可能会同时攻击角色与其敌人，也可能加入其中的任意一方。每当一个或多个新的参战者加入遭遇时，请为他们投掷先攻并将其列入先攻顺序中。</p><h2>改变战场</h2><p class=\"journal-original-h2\">Change the Terrain</p><p>为了让参战者们有理由四处移动，你可以考虑改变战场来引入新的元素。也许一次强劲的攻击或爆裂的法术会倾覆一根柱子，粉碎一面墙，或崩裂地板。地面上可能因此裂开缝隙，释放出毒气、烟雾或熔岩。魔法可以撕开存在位面间的边界，释放原初元素或其他位面的能量。又或者，怪物的绝望情绪导致了狂野魔法将现实架构彻底扭曲。你可以使用第 3 章中的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.xgLA30rErlkjIPAK]{环境效应}、@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7]{危害}和@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.RLB1MPQRqYDR0CtI]{陷阱}来展示这些效应。</p><h2>更改怪物</h2><p class=\"journal-original-h2\">Change the Monster</p><p>你可以将一个怪物转化成另一个怪物，让战斗更有趣。也许一只座狼从中间裂开，而一只惧噬体自里面溢了出来。或者一位邪教徒被炼狱的火柱吞噬，随即一个魔鬼从灰烬中乍现。你还可以在战斗中巧妙地临场改变怪物的数据卡；例如，你可以决定让一个怪物在&amp;Reference[bloodied]{浴血}时进入狂怒，它在攻击时会获得优势，而角色们攻击它时也会获得优势，从而加速战斗直至结束。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540233855,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.6UthtPzF3dIb2EnV"
+    },
+    {
+      "sort": 1000000,
+      "name": "调整难度",
+      "type": "text",
+      "_id": "uzLn0nAIl4bGzj0B",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Adjusting Difficulty</p><p>当战斗比预期更艰难或更容易，需要进行调整时，许多有助于战斗推进的技巧同样适用。怪物在即将获胜时可能会主动谈判，让实力差距的角色投降或撤退。其中一只怪物可能会（出于高尚或自私的理由）倒戈相向，去帮助角色们击败其同胞。战场的变化可能会为角色提供逃脱的机会，或让实力不够的怪物占尽优势。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540251606,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.uzLn0nAIl4bGzj0B"
+    },
+    {
+      "sort": 1100000,
+      "name": "战斗或逃跑",
+      "type": "text",
+      "_id": "eEk4t57LVkiVhbjj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Fight or Flight</p><p>很少有生物会血战到底。几乎所有生物都有求生本能，直面灭亡会让迫使它们重新评估战斗的策略。面对数量明显更多或实力更强的对手时，智能生物通常会尽量避免战斗。但勇敢、绝望或忠诚的生物可能决不后退一步。</p><p>如果你无法确定生物是否有战斗的意愿，可以在掷骰决定先攻前，让它进行一次 DC 10 的感知豁免。你可以根据需要把 DC 设置得更高或更低。如果未能通过，生物要么逃跑，要么尝试与敌人谈和（见下文“避免或结束战斗”）。如果通过，则生物愿意参战。当处理一群生物时，使其领导者代表该群体进行此豁免。</p><p>当已参战的生物意识到自己可能会输时，通常将试图脱离战斗。当出现以下情况时怪物很可能会逃跑：</p><ul><li class=\"Core-Styles_Core-Bulleted\">怪物开始其回合时已经&amp;Reference[Bloodied]{浴血}，且超过一半的盟友死亡或处于&amp;Reference[Incapacitated apply=false]{失能}状态，而另一方人没有死亡或处于失能状态。</li><li class=\"Core-Styles_Core-Bulleted\">怪物开始回合时，已经浴血且处于&amp;Reference[Frightened apply=false]{恐慌}状态。</li></ul><p>在上述这种情况下，你可以决定让怪物直接逃跑，或者让它进行一次[[/save wis 10 format=long]]；若未通过，则它会逃跑或者试图谈和。通常来说，如果对你而言这只生物被击败已是显而易见，那么对它自己来说也会是如此。</p><h2>避免或结束战斗</h2><p class=\"journal-original-h2\">Avoiding or Ending a Fight</p><p>希望结束或避免战斗的生物有两种选择：</p><p><strong>逃跑。</strong>生物可以在其回合内撤退或逃跑。为逃跑的一方选择一个目的地，例如一个已知的安全区（这可能是一个可以关门和上锁的房间）。如果对手继续追击，你可以使用第 3 章中的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.7zmKJrfgd9aTtzFp]{追逐}”部分来帮助判断会发生什么。</p><p><strong>谈和。</strong>谈和是指尝试以非暴力方式来解决冲突。希望结束或避免战斗的一方举手投降或提出某种交换条件。如果一方想在战斗中谈和而另一方同意，你可以暂停先攻顺序来进行一些互动。如果双方没有谈拢，则从中断处继续先攻顺序。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776540262643,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgRunningCombat.eEk4t57LVkiVhbjj"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": true,
+      "append": 2,
+      "type": "special",
+      "order": 204000,
+      "navigation": {
+        "previous": "dmgRunningExplor",
+        "next": "dmgCharacterAdva"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776539868932,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 93750,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgRunningCombat"
+}

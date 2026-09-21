@@ -1,0 +1,77 @@
+{
+  "name": "思维之盾",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_great-old-one_thought-shield.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>除非获得你的允许，否则你的思维无法被心灵感应或者其他手段阅读。此外你还具有对心灵伤害的抗性，且每当一个生物对你造成心灵伤害时，该生物将受到与你受到的伤害相同的伤害。</p><p class=\"item-original\">Thought Shield</p>",
+      "chat": ""
+    },
+    "identifier": "thought-shield",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "旧日支配者宗主",
+    "advancement": [
+      {
+        "_id": "3NyMe68LMftOwkXq",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:psychic"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 10,
+        "title": "思维之盾",
+        "hint": "你具有对心灵伤害的抗性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_great-old-one_thought-shield.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777581699342,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "5ixosNwl3fpYtkjP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!5ixosNwl3fpYtkjP"
+}

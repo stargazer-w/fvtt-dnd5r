@@ -1,0 +1,80 @@
+{
+  "name": "元素宝石",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_elemental-gem.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这枚宝石蕴含了一道元素能量的微尘。</p><p>你可以使用一个&amp;Reference[Utilize]{操作}动作来打破宝石，随后宝石便会失去魔法，并召唤出一只元素（见<em>《怪物图鉴》</em>以获悉其数据）。元素会出现在距离被打破的宝石最近的未被占据的空间、理解你所说的语言、服从你的命令、使用你的先攻值并在你之后立即执行其回合。元素会在 1 小时后、它死亡时、你用一个&amp;Reference[BonusAction]{附赠动作}解消时消失。宝石的种类决定了其能召唤哪种元素，如下表。</p><table><thead><tr><th>宝石</th><th>召唤的元素</th></tr></thead><tbody><tr><td>蓝色蓝宝石</td><td>气元素</td></tr><tr><td>绿宝石</td><td>水元素</td></tr><tr><td>红刚玉</td><td>火元素</td></tr><tr><td>黄色钻石</td><td>土元素</td></tr></tbody></table><p class=\"item-original\">Elemental Gem</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-gem",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "B2rHOufnWi8Fn1pp",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!B2rHOufnWi8Fn1pp"
+}

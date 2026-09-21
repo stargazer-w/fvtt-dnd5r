@@ -1,0 +1,223 @@
+{
+  "name": "艾恩石（警觉）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_E.webp",
+  "system": {
+    "activities": {
+      "BLZeMhz0N6frCSfU": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "LxcKl9FHekT6Ga0j"
+          },
+          {
+            "_id": "tAItgWFUcN5WyRgX"
+          },
+          {
+            "_id": "XcrRyaRrTzHXhuII"
+          },
+          {
+            "_id": "VK7rX6mVQxw4AXin"
+          },
+          {
+            "_id": "Xsk2zi1k69Wksaes"
+          },
+          {
+            "_id": "rvwrvSt5TOEUsRTV"
+          },
+          {
+            "_id": "1UaHcqNsIwvX7JmC"
+          },
+          {
+            "_id": "h2rg4GkX8rEZmTgw"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "",
+        "_id": "BLZeMhz0N6frCSfU"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（需同调）</em></p><p>在这颗暗蓝色的长菱形艾恩石环绕在你头顶期间，你的先攻掷骰和察觉（感知）检定都具有优势。</p><p>当你用一个&amp;Reference[Magic]{魔法}动作将<em>艾恩石</em>扔向空中时，此石会环绕在距离你头顶[[/r 1d3]]尺高之处，并为你带来其增益。同一时间内至多只能有 3 颗<em>艾恩石</em>环绕在你的头顶。</p><p>环绕在你头顶的每颗<em>艾恩石</em>都视为你正在穿戴着的物件。正在环绕着的<em>艾恩石</em>会避免与其他生物和物件接触，调整自己环绕的轨道以避免碰撞，并能使其他生物对<em>艾恩石</em>的攻击与抢夺无效。</p><p>你可以用一个&amp;Reference[Utilize]{操作}动作，抓住并收起环绕在你头顶的任意颗<em>艾恩石</em>。如果你结束正环绕在你头顶的<em>艾恩石</em>的同调，石头就会如同你将其丢弃一样掉落下来。</p><p class=\"item-original\">Awareness, Ioun Stone</p>",
+      "chat": ""
+    },
+    "identifier": "awareness-ioun-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "艾恩石（警觉）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_E.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.HXjmZyUQhF1zWwD3",
+      "transfer": false,
+      "_id": "h2rg4GkX8rEZmTgw",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761896064692,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HXjmZyUQhF1zWwD3.h2rg4GkX8rEZmTgw"
+    }
+  ],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895740839,
+    "modifiedTime": 1761895874320,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "HXjmZyUQhF1zWwD3",
+  "_key": "!items!HXjmZyUQhF1zWwD3"
+}

@@ -1,0 +1,189 @@
+{
+  "name": "心灵低语",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_psionicPower_psychic-whispers.webp",
+  "system": {
+    "activities": {
+      "sx1ggNdtiqJXQgBt": {
+        "type": "utility",
+        "_id": "sx1ggNdtiqJXQgBt",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.BecgqFf5aN7RLyKH",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "ZjczHX3uwOXUo13U"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "any",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "@prof",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": "@scale.soulknife.psionic-energy.die"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "ZjczHX3uwOXUo13U"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你能够利用灵能在自己和他人之间建立起基于心灵感应的交流。以一个&amp;Reference[Magic]{魔法}动作，从可见的生物中选择一到至多等同于你熟练加值数量的生物，掷一枚灵能骰。你在投掷结果的小时内，你选择的生物能够通过心灵感应与你进行交流，你也能通过心灵感应与他们进行交流。你们在发送或接收信息时（无需动作），你和选择生物之间的距离不可超过 1 里。生物可以随时终止心灵感应的链接（无需动作）。</p><p class=\"item-original\">Psychic Whispers</p>",
+      "chat": ""
+    },
+    "identifier": "psychic-whispers",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "psionicPower"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魂刃"
+  },
+  "effects": [
+    {
+      "name": "交流",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_psionicPower_psychic-whispers.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.moBWSbNMqKTZSQLi",
+      "transfer": false,
+      "_id": "ZjczHX3uwOXUo13U",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你能通过心灵感应与此来源进行交流。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1736002494562,
+        "modifiedTime": 1757164122873,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!moBWSbNMqKTZSQLi.ZjczHX3uwOXUo13U"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731682040970,
+    "modifiedTime": 1758189933369,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "moBWSbNMqKTZSQLi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!moBWSbNMqKTZSQLi"
+}

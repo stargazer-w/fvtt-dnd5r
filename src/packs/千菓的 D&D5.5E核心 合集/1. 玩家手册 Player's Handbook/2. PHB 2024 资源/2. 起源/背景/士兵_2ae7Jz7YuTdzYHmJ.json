@@ -1,0 +1,144 @@
+{
+  "name": "士兵",
+  "type": "background",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/backgrounds/soldier.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性值：</strong>力量、敏捷、体质</p><p><strong>专长：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E93tz5X13K0SXZui]{凶蛮打手}</p><p><strong>技能熟练：</strong>运动和威吓</p><p><strong>工具熟练：</strong>选择一种赌具</p><p><strong>装备：</strong> <em>选择 A 或 B：</em>(A) @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KRjK6FwloGxEsjrN]{矛}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8b32mUnV9Q0d2pds]{短弓}、20 支@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wujsJTqyYZlpVSfT]{箭}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.GCvg8n7Q7ltSPRxe#赌具-gaming-set（多类）]{赌具}（同上所选）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mlYk3NU2JM4A39Sn]{急救包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD]{箭袋}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ]{旅行服装}、14 GP；或者 (B) 50 GP。</p><p>你从成年开始便接受战阵训练，鲜少有拿起武器之前的生活回忆，战斗已融入你的血液。有时候你会发现自己正在反复操练着最初学会的基本战斗训练。而最终，你会将这些训练运用到战场上，在战场中通过战斗保护你的王国。</p>",
+      "chat": ""
+    },
+    "identifier": "soldier",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "advancement": [
+      {
+        "_id": "fnssmNezHZ4MYWS8",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 3
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值加成",
+        "hint": "你分配 3 点属性值到力量、敏捷或体质上。你可以将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "_id": "bsDVW5Qg09Gp0WPB",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:prc",
+            "skills:itm"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "熟练项",
+        "hint": "你熟练于运动和威吓，以及自选的一种赌具。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "E2EenPg09l6HmA1s",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:standard:common"
+          ],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:standard:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 0,
+        "title": "语言",
+        "hint": "你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_guide.webp"
+      },
+      {
+        "_id": "pGAiobp1mq0i0oFm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.E93tz5X13K0SXZui"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "专长",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "wealth": "50"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1729864473146,
+    "modifiedTime": 1735443018909,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_id": "2ae7Jz7YuTdzYHmJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!2ae7Jz7YuTdzYHmJ"
+}

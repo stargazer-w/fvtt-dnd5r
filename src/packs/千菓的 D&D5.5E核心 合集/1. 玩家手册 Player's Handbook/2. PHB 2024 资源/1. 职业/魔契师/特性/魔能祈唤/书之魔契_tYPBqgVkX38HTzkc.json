@@ -1,0 +1,63 @@
+{
+  "name": "书之魔契",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_pact-of-the-tome.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在一次短休或长休结束时，你将幽影聚在手中，编织为一本书册。这本书（由你决定外观）中承载着只有你能理解的骇人魔法，令你获得以下增益。书册会在你以此特性咒唤另一本书或死亡时消失。</p><p><em><strong>戏法和仪式。</strong></em>当书册出现时，选择三道戏法和两道带有仪式标签的 1 环法术。这些法术可以来自任何职业的法术列表，且不能是你已经准备了的法术。当这本书册在你的角色身上时，你总是准备了这些法术，且对你而言这些法术是魔契师法术。</p><p><em><strong>施法法器。</strong></em>你可以将此书册作为施法的法器。</p><p class=\"item-original\">Pact of the Tome</p>",
+      "chat": ""
+    },
+    "identifier": "pact-of-the-tome",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758195020902,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "tYPBqgVkX38HTzkc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!tYPBqgVkX38HTzkc"
+}

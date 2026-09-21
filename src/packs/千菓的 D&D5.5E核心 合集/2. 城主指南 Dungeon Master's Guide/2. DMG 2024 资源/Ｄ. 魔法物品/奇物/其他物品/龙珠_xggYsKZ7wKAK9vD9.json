@@ -1,0 +1,539 @@
+{
+  "name": "龙珠",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_orb-of-dragonkind.webp",
+  "system": {
+    "activities": {
+      "fhR8BbpY7HDdORok": {
+        "type": "save",
+        "_id": "fhR8BbpY7HDdORok",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": "同调"
+      },
+      "fr5z4mUNcNvf9ozo": {
+        "type": "cast",
+        "_id": "fr5z4mUNcNvf9ozo",
+        "sort": 200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.u7IL5qlkhzAxCMFB",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "xH66DMxMrVKRg6Oq": {
+        "type": "cast",
+        "_id": "xH66DMxMrVKRg6Oq",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.V3R7ySjbxqIr6D6I",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "0em7GxtHzSGG6ia7": {
+        "type": "cast",
+        "_id": "0em7GxtHzSGG6ia7",
+        "sort": 300000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 4,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.dRuvDWlDoKsg694E",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "1zkuqWXkq1JhfCso": {
+        "type": "cast",
+        "_id": "1zkuqWXkq1JhfCso",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.0NnW4SYqrBBHYE8G",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "87F7aMLxU5s9CvoY": {
+        "type": "cast",
+        "_id": "87F7aMLxU5s9CvoY",
+        "sort": 500000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "4",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 9,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "POCX3dxuyF6meuTH": {
+        "type": "utility",
+        "name": "呼唤巨龙",
+        "_id": "POCX3dxuyF6meuTH",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d4 + 3"
+        }
+      ],
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>奇物，神器（需同调）</em></p><section class=\"item-quote\"><p>很久以前，在龙枪设定中，精灵与人类对色彩巨龙发动了一场惨烈的战争。在最后世界接近崩溃之际，大法师诸塔的法师们齐聚一堂，铸造了五颗龙珠来帮助击败巨龙。五颗龙珠分给了五座法师塔，他们凭借龙珠的力量克敌制胜。法师们用龙珠引诱龙族，然后以强大的法术轰杀之。</p><p>随着大法师诸塔在后来的年代中倒塌，其持有的五颗龙珠也相继被摧毁或遗失在传说之中。相传仍然有三颗保存完好的龙珠流传在世。虽然它们的魔法在几个世纪中被扭曲变换，但其呼唤巨龙的原始功能却依然健全，还能在一定程度上控制龙族。</p><p>每颗龙珠内都包含着一条邪恶巨龙的精神，对任何尝试从中引出魔法的企图怀有愤恨。那些试图使用龙珠但意志不坚定的人有时会发现自身实为被龙珠所蛊惑。</p></section><p>龙珠是一枚直径约 10 寸的蚀刻水晶球。使用时，其直径增长至 20 寸，并且在内部萦绕着迷雾。</p><p>与龙珠维持同调期间，你能够以&amp;Reference[Magic]{魔法}动作窥视龙珠深处。然后你必须进行一次[[/save format=long]]。若豁免成功，你将可以控制龙珠直至同调中断。若豁免失败，你将被龙珠&amp;Reference[charmed]{魅惑}直至同调中断。</p><p>被龙珠魅惑期间，你不能自行中断同调，而龙珠可以对你随意施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5KhBtK2VPnA5SzwC]{暗示术}</em>（豁免 DC 18），并蛊惑你助推其邪恶目标。龙珠里的巨龙精神有着各种需求：歼灭某个特定社团或组织；从龙珠中解放；四处折磨世人；传播提亚马特信仰，或是由 DM 决定的其他事情。</p><details><summary><em><strong>法术。</strong></em></summary><p><em>龙珠</em>具有 7 充能，并在每日黎明时重获 1d4 + 3 已消耗的充能。你能以龙珠施展下表中的法术（豁免 DC 18）。表中表明了你施展对应的法术需要消耗多少充能。</p><table><thead><tr><th>法术</th><th>充能消耗</th></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.V3R7ySjbxqIr6D6I]{侦测魔法}</em></td><td>0</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u7IL5qlkhzAxCMFB]{昼明术}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dRuvDWlDoKsg694E]{防死结界}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0NnW4SYqrBBHYE8G]{探知术}</em>（豁免 DC 18）</td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7rVeRZS2tcyBY5Cu]{疗伤术}</em>（9 环版本）</td><td>4</td></tr></tbody></table></details><details><summary><em><strong>呼唤巨龙。</strong></em></summary><p>控制龙珠期间，你能够以&amp;Reference[Magic]{魔法}动作令龙珠发出心灵感应呼唤，此呼唤向所有方向延伸 40 英里。范围内的色彩龙族将被迫以最直接的路线尽可能快的来到龙珠处。龙族神祇（如提亚马特）不受此呼唤影响。被龙珠唤来的色彩龙族可能因其非自愿的到来与你敌对。该词条一经使用，一小时内你都无法再次使用。</p></details><details><summary><em><strong>随机词条。</strong></em></summary><p><em>龙珠</em>具有下列随机词条：</p><ul><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu]{次要增益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.X3favP6TQPrbd0Rz]{次要减益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.45ZCMYyS9SrTUzLw]{主要减益词条}</li></ul></details><details><summary><em><strong>摧毁龙珠。</strong></em></summary><p><em>龙珠</em>的 AC 为 20，当其受到 +3 魔法武器或法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vJ7VPMjff89cxkAF]{解离术}</em>的伤害时，龙珠被摧毁。其余任何事物都无法摧毁龙珠。</p></details><p class=\"item-original\">Orb of Dragonkind</p>",
+      "chat": ""
+    },
+    "identifier": "orb-of-dragonkind",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895718520,
+    "modifiedTime": 1761895879363,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xggYsKZ7wKAK9vD9",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!xggYsKZ7wKAK9vD9"
+}

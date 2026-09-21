@@ -1,0 +1,263 @@
+{
+  "name": "神器词条：主要增益",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#神器的词条]{主要增益词条}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_id": "y7KRc8hT50WtXxqk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你的一项属性值（由 DM 选择）提升 2，最多为 24。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.y7KRc8hT50WtXxqk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "Yoy0SHIdOYgZGiTY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，若你具有至少 1 点生命值，则你在你的每个回合开始时，恢复 1d6 生命值。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.Yoy0SHIdOYgZGiTY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "Zoj4ujJTAU9s6mMr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，当你的攻击检定命中时，目标将额外受到 1d6 力场伤害。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.Zoj4ujJTAU9s6mMr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "_id": "Cw6DEilVzVArhBg6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你的速度提升 10 尺。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.Cw6DEilVzVArhBg6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "_id": "IufmWoFGgqqBnLdo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你可以从该神器中施展一道 4 环法术（法术由 DM 选择）。在你施展该法术后，掷 1d6。若结果为 1–5，则直至次日黎明你无法再次以此方式施展该法术。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.IufmWoFGgqqBnLdo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "_id": "Ww90YT73uhFSDuvZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "如 51–60 一行所述，除了把法术环阶改为 5 环。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.Ww90YT73uhFSDuvZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_id": "AcODEruj8Zb11M9I",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "如 51–60 一行所述，除了把法术环阶改为 6 环。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.AcODEruj8Zb11M9I"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_id": "7OGgDM2XFOZlqOeC",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "如 51–60 一行所述，除了把法术环阶改为 7 环。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.7OGgDM2XFOZlqOeC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "_id": "4KZjuFRxv91XUmRj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你具有对目盲、耳聋、石化以及震慑状态的免疫。",
+      "name": "",
+      "_key": "!tables.results!OcWc8txQePfpNZG6.4KZjuFRxv91XUmRj"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750388377677,
+    "modifiedTime": 1756869879794,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "OcWc8txQePfpNZG6",
+  "sort": 1400000,
+  "_key": "!tables!OcWc8txQePfpNZG6"
+}

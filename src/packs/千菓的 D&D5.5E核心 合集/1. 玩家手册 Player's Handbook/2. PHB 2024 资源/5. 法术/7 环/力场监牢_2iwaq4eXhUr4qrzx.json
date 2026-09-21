@@ -1,0 +1,216 @@
+{
+  "name": "力场监牢",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/EVO_forcecage.webp",
+  "system": {
+    "activities": {
+      "C9MSCD8KVtuvpuLg": {
+        "type": "utility",
+        "name": "笼状监牢",
+        "_id": "C9MSCD8KVtuvpuLg",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cube",
+            "size": "20",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "dddBfUSmB1I1XcsT": {
+        "type": "utility",
+        "name": "盒状监牢",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "count": "",
+            "type": "cube",
+            "size": "10"
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "dddBfUSmB1I1XcsT",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你围绕施法距离内一处指定地点力场构筑出一个固定的立方状隐形监牢。你可以选择监牢的形式为笼状或盒状。</p><p>笼状监牢为各边长至多 20 尺的立方体，其墙体由 1/2 寸粗的力场栅栏杆组成，每根杆子之间相距 1/2 寸。盒状监牢为各边长至多 10 尺的立方体，其墙体为由力场墙密封，并阻隔一切物质进出，也会阻挡任何从区域中向外界施展或从外界向区域中施展的法术。</p><p>施展该法术时，所有完全在法术区域内的生物将被牢笼困住。部分处于区域内或者体型比区域更大的生物则被从区域中心向外推开，直至其完全离开该区域。</p><p>牢笼内的生物不能以非魔法的手段离开。如果该生物试图使用传送或跨位面旅行来离开牢笼，则其必须先进行一次[[/save cha dc=@attributes.spell.dc]]{魅力豁免}。豁免成功则该生物可以用该魔法离开牢笼。豁免失败者将无法以此离开牢笼并浪费掉该法术或效应。该牢笼同时延伸至以太位面从而屏蔽途经以太位面的旅行。</p><p>该法术不能被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>解除。</p><p class=\"item-original\">Forcecage</p>",
+      "chat": ""
+    },
+    "identifier": "forcecage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 7,
+    "materials": {
+      "value": "价值至少 1500 GP 的红宝石尘，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "100"
+    },
+    "school": "evo",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194942609,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "2iwaq4eXhUr4qrzx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!2iwaq4eXhUr4qrzx"
+}

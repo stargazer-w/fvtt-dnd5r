@@ -1,0 +1,80 @@
+{
+  "name": "屠灭众敌",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_ranger_foe-slayer.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.011JcD4JPt3IBQYa]{猎人印记}</em>的额外伤害骰从 d6 变为 d10。</p><p class=\"item-original\">Foe Slayer</p>",
+      "chat": ""
+    },
+    "identifier": "foe-slayer",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游侠",
+    "advancement": [
+      {
+        "_id": "2Wma1d7xii6GUWC9",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "damage",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "20": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "屠灭众敌",
+        "hint": "你的猎人印记的额外伤害骰从 d6 变为 d10。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_ranger_foe-slayer.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777651659175,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "mYsbELoXHu0gv56H",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!mYsbELoXHu0gv56H"
+}

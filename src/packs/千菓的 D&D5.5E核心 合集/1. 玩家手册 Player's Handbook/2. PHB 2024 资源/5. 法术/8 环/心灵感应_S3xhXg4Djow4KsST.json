@@ -1,0 +1,193 @@
+{
+  "name": "心灵感应",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_telepathy.webp",
+  "system": {
+    "activities": {
+      "brdFJnzUo2kaD0Vi": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "brdFJnzUo2kaD0Vi",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "wso9zlvyOyRmcLjg"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与一个你熟识的自愿生物建起心灵连接。该生物可以身处你所在的存在位面的任意位置。一旦你与目标生物不再位于同一位面，则该法术随即终止。</p><p>直至法术终止，你可以和目标生物通过心灵连接即时共享任何言语、图像、声音以及其他形式的感官信息，而目标也能够辨认出与之交流的对象正是你本人。该法术可以让目标生物理解你所发送的话语和任何感官信息。</p><p class=\"item-original\">Telepathy</p>",
+      "chat": ""
+    },
+    "identifier": "telepathy",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "24"
+    },
+    "level": 8,
+    "materials": {
+      "value": "一对相连的银环",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "any",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "心灵感应",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_telepathy.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.S3xhXg4Djow4KsST",
+      "transfer": false,
+      "_id": "wso9zlvyOyRmcLjg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你可以通过心灵连接与施法者即时共享任何言语、图像、声音以及其他形式的感官信息。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733472515907,
+        "modifiedTime": 1734846892418,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!S3xhXg4Djow4KsST.wso9zlvyOyRmcLjg"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194980319,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "S3xhXg4Djow4KsST",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!S3xhXg4Djow4KsST"
+}

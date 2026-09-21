@@ -1,0 +1,276 @@
+{
+  "_id": "dmgGreyhawkGazet",
+  "name": "灰鹰地理志",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "引言",
+      "type": "text",
+      "_id": "E6fcN908SfuOT9if",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本书中的海报地图展示了整个法兰尼斯的全貌，@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgFreeCityOfGre]{自由之城灰鹰}在靠近其中心的位置。当角色们在城市及其周边区域之外冒险时，你可以使用这张地图及这部分信息来为自己的冒险和世界细节获取灵感。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.BpHyWRcMyFKYDdfL cite=false]</p><h2>局势概述</h2><p class=\"journal-original-h2\">The Big Picture</p><aside class=\"notable float-right size-three\"><h3>鲜活历史</h3><p>灰鹰有着历史悠久的古代帝国和近年来的连绵战乱，但这段历史中唯一重要的细节，是你决定在冒险中使用的那些部分。你可以在冒险过程展示重要的世界细节，通过以下的技巧，你可以和玩家们分享关于这个世界的学识：</p><p><strong>往昔回响。</strong>山坡上的巨坑、城中广场上被污损的雕像、纪念当地英雄的节日，这些事物都是对过去事件的坚实印证。角色们可能会得知他们正在探索的废墟是因一场灾难性的战斗、或是自然中的灾害而被毁灭。</p><p><strong>历史记录。</strong>书面历史记录可能出现在冒险中的任何地方：古代地城墙上的象形文字、图书馆里的书籍、皇家宝库中的文献或记录了关键事件的挂毯。使用这样的东西来和玩家们分享重要的细节。对长篇作品的内容应当进行总结概述，并专注于最具有情节价值的部分。</p><p><strong>专家学者。</strong>具有奥秘、历史或宗教技能的角色可以成为有用信息的来源。当一支队伍了解到一些信息会有所帮助时，你可以让这些角色使用相关技能进行治理检定。如果他们的检定结果足够，则和他们分享与剧情相关的信息。</p><p><strong>魔法附注。</strong>诸如<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5KmXgIZHipOytGHv]{异界探知}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI]{通晓传奇}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pBiqkcEYPnRqOlS0]{死者交谈}</em>等法术能让角色们获得信息，并且你能控制其中的细节。</p><p><strong>当事人。</strong>悲惨的幽魂、异界守卫、智能神器、古代贤者、还有其他的长寿存在可以扮演“活着的历史”。这些 NPC 能为你提供一种分享相关信息和回答队伍问题的方式。如果角色们错过了一个重要细节，这位 NPC 能够以书籍和回忆发生的事情无法做到的方式强调这个细节。</p><p>这些方法苏有助于展示一部分细节。你可以将它们结合起来，为玩家分享细致入微的历史，帮助玩家们感觉到他们正在挖掘一段丰富而真实的过去。</p></aside><p>要了解如今的灰鹰（标准历 576 年），应当从 200 年前的法兰尼斯开始讲起。当时，艾尔迪至高王国的疆域南至大沼泽，北到到耙齿山，东瞰索尔诺洋，西抵亚提尔山脉和洛特米尔山脉。在洛特米尔山脉和晶雾山脉之间是科奥兰王国，它模仿了至高王国的制度。在这些山脉的西面，巴克鲁尼什诸国——“祈来之灭”的幸存者们——和如今没什么区别。在北面，游牧民族（威格维武、查奇克、荒地漫游者）和北方的王国与现在一样，独立于南方的政治之外。</p><p>在过去的两个世纪中，两个南方王国的收缩是塑造现代法兰尼斯局面的主要推动力。首先，佩里兰、维露纳和弗利昂迪——这些地区远离位于都城劳克塞斯的王座，开始宣布脱离王国独立。而奈隆宣布加入他们的行列时（CY 356 年），至高王国的缓慢解体和东法兰尼斯时至今日接连不断的叛乱便已经拉开了序幕。</p><p>艾尔迪的衰落标志着科奥兰扩张主义政策的高潮，而它在从波马吉到凯特的边境都占据主导。在塞勒涅的帮助下，乌莱克亲王领遏制住了科奥兰王国的好战举动。CY 453 年，塔维什四世国王的等级标志和王国政策的巨大转变。自由民联盟和乌莱克亲王领获得了自治权，格兰边地和斯特里克边地在忠于王室的同时实现了半独立，该地区的不同种族的人民再次相对和平地共存下来。</p><p>考虑到这一局势，你可以把灰鹰自由城之外的法兰尼斯想象为五个主要地区，每个地区都有自己的冒险可能性亟待探索：</p><p><strong>@UUID[.RGuWdlWj7PvscnWV]{中法兰尼斯。}</strong>不同种族的人民和埃乌兹与邪恶元素势力发生冲突。</p><p><strong>@UUID[.MLkmQwhXeFrBBzLM]{东法兰尼斯。}</strong>至高王国的残余势力正在试图决定那些被邪恶的至高王统治之地的命运。</p><p><strong>@UUID[.RcVa0d9sIvKpKbh0]{北法兰尼斯。}</strong>在土著居民居住的广袤荒野中，在这里，险恶的环境和巡游的巨龙将考验来者的勇气。</p><p><strong>@UUID[.GXxO0RjxTWK9BeQX]{旧科奥兰地区。}</strong>科奥兰的前行省对抗着来自西部山区的邪恶怪物，包括龙与巨人。</p><p><strong>@UUID[.VBJzHRKMpt0B70V7]{西法兰尼斯。}</strong>巴克鲁尼什的人民和国家在复杂的政治关系之间交错。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1729454052732,
+        "modifiedTime": 1776581831258,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.E6fcN908SfuOT9if"
+    },
+    {
+      "sort": 0,
+      "name": "中法兰尼斯",
+      "type": "text",
+      "_id": "RGuWdlWj7PvscnWV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Central Flanaess</p><p>奈尔·戴夫和亚提尔山脉之间的地区有肥沃的土地和宜人的气候，再加上这些地区与其东部、南部和西部邻国之间健康的贸易关系，让这里成为了一个强大而繁荣的区域。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.5t7a53QXXiNuZfL1 cite=false]</p><h3>艾历底牧原之战</h3><p class=\"journal-original-h3\">Battle of Emridy Meadows</p><p>七年前，来自弗利昂迪、维露纳教国、威伯本克子爵领和精灵王国塞勒涅的骑士和士兵们组成联军，击退了聚集在维乌迪瓦河南岸草原上的邪恶大军。这场大军交战——可以说是东奥瑞克地区最激烈的战斗——被称为艾历底牧原之战。邪恶的势力被粉碎，他们的残余被赶回其据点邪恶元素神殿下的地城。在弗利昂迪的索梅尔四世王子的指挥下，善良的势力围攻了神殿，在两周内将它攻陷。只有少数邪恶头目逃出生天，人们怀疑这些家伙是随后王子遭到绑架的始作俑者。</p><p>索梅尔王子与约勒妮女士，一位来自维露纳的著名贵族家族的牧师定下婚姻。他们的结合将会将弗利昂迪和维露纳统一为一个国家，让维露纳的教会管理精神，而弗利昂迪的君王统治世俗事务。这个联合的国度，再加上他们在塞勒涅强大的精灵盟友，能够对肆虐在东奥瑞克地区的邪恶势力发动一场旷日持久的战争。而王子的失踪让这些计划陷入了僵局。</p><h3>埃乌兹的崛起</h3><p class=\"journal-original-h3\">The Rise of Iuz</p><p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.ZAFNPyoKrepOF7BS]{埃乌兹}是恶魔领主格拉兹特和一位名叫伊格薇尔伏的人类大法师的子嗣。多年以来，他统治着从嚎叫山丘到沃耶斯提尔湖之间的土地，并以自己的名字为其命名。这些土地满目疮痍，危险异常，以至于狩猎之地和威格维武的凶悍游牧民们宁愿穿过冷沼，也不愿靠近埃乌兹国的边境哪怕半步。</p><p>埃乌兹的邪恶统治因他被关入灰鹰堡的地下城而被暂时打断，他被囚禁在那里，长达六十五年。在他消失期间，弗利昂迪王国和其盟国繁荣昌盛，而埃乌兹的土地则被邪恶的盗匪和怪物占据。埃乌兹的消失让他成为了一个传说，并吸引了许多新的追随者，他们错误的信仰赋予了他半神的力量。</p><p>在获得自由后，埃乌兹毫不费力地夺回了自己的家园。他和强盗王国及魔角联合会的领导者结成了脆弱的联盟，并以恐怖手段操纵他们。在这些盟友的帮助下，他的目标是摧毁自己的邻国，并将自由城市灰鹰化作废土。</p><p>自埃乌兹复苏以来，维斯维森林和嚎叫山丘的北部到处都是掠夺者和怪物。当狼之蛮族在咆哮山丘和埃乌兹的部队作战时，来自弗利昂迪的斥候和士兵们与高民城的守军联手，一同驱逐维斯维森林中栖息的邪恶生物。</p><h3>中法兰尼斯的文化</h3><p class=\"journal-original-h3\">Central Flanaess Culture</p><p>中法兰尼斯的文化是至高王国对周边区域居住的各种人民长期统治的结果。总体来说，这些人民都有着至高王国的务实、勤劳的价值观，但他们更依靠家族和当地社区，而非挂架和军队的力量，这与至高王国严格的社会等级制度并不相同。他们有着强烈的平等主义倾向，并且（在埃乌兹国和魔角联合会之外）他们对潜在的暴君或冷漠的贵族几乎没有容忍度。在众多自由都市和联合王国之中，弗利昂迪和塞勒涅的君主制度实际上比其他地区要民主得多。</p><p>中法兰尼斯的典型服饰包括不同长度的束腰外衣，有时会搭配紧身裤。一件有椭圆或菱形花纹的斗篷或披风会让整体显得更加完美。中法兰尼斯的菜肴使用米饭和土豆搭配奶酪和通常煮或烤熟的肉类。</p><table><caption>中法兰尼斯地区 Central Flanaess Locations</caption><thead><tr><th>地区</th><th>统治者</th><th>描述</th></tr></thead><tbody><tr><td><p>塞勒涅<br />Celene</p></td><td><p>悠兰德女王（精灵）</p></td><td>有大量侏儒和半身人居民的精灵君主国</td></tr><tr><td><p>戴文斯自由城<br />Dyvers (Free City)</p></td><td><p>希曼提亚·戈拓兹总督（阿斯莫）</p></td><td>有着强大海军的重要港口和贸易中心</td></tr><tr><td><p>弗利昂迪王国<br />Furyondy, the <span>Kingdom of</span></p></td><td><p>贝尔沃四世（人类）</p></td><td>至高王国的前行省，亦是其中第一个宣布独立成为王国的</td></tr><tr><td><p>高民自由城<br />Highfolk (Free City)</p></td><td><p>塔利斯尔市长（外表是一位精灵）</p></td><td>有大量精灵人口的设防城市，市长是一条伪装成精灵的银龙</td></tr><tr><td><p>魔角联会<br />Horned Society, the</p></td><td><p>九位大主教（多是人类和大地精）</p></td><td>由和埃乌兹结盟的魔鬼崇拜者统治的神权政体，雇佣士兵支持并推行着残暴的法律</td></tr><tr><td><p>埃乌兹国<br />Iuz</p></td><td><p>埃乌兹（魔裔半神）</p></td><td>魔族独裁者治下怪物肆虐的国度，深陷邪恶之中</td></tr><tr><td><p>奈尔·戴夫<br />Nyr Dyv</p></td><td>—</td><td>深度未知的湖泊（又称无底大湖），船民的家园</td></tr><tr><td><p>佩里兰<br />Perrenland</p></td><td><p>伊伦达·施瓦茨主席（人类）</p></td><td>强硬独立的教权联邦</td></tr><tr><td><p>波马吉<br />Pomarj, the</p></td><td>—</td><td>半岛上的无法之地，强盗和劫匪的家园</td></tr><tr><td><p>护盾之地<br />Shield Lands, the</p></td><td>许多贵族组成的同盟</td><td>由圣盾骑士团保护的贵族独立同盟，由骑士指挥官阿勒什·卡斯（龙裔）领导，并得到弗利昂迪和厄恩斯特的支持</td></tr><tr><td><p>维露纳大司教国<br />Veluna, the <span>Archclericy of</span></p></td><td><p>圣堂参事哈森（人类）</p></td><td>由拉奥，一位带来正义和希望之神的祭司统治的神权国度</td></tr><tr><td><p>自由城市威伯本克／威本伯克子爵领<br />Verbobonc (Free City and Viscounty)</p></td><td><p>威尔弗里克·雷金子爵（人类）</p></td><td>维露纳的附属国，邪恶元素神殿的所在地</td></tr><tr><td><p>风暴海岸<br />Wild Coast, the</p></td><td>各种镇长、市长和其他统治者</td><td>定居点自治的自由领土，被流放者和不同政见者的避风港</td></tr></tbody></table><h3>中法兰尼斯冒险</h3><p class=\"journal-original-h3\">Central Flanaess Adventures</p><p>埃乌兹和邪恶元素的双重威胁为中法兰尼斯提供了丰富的冒险机会（见本章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.EymaTb4UXmb4buZF]{灰鹰的冲突}”）。这一地区特别适合以史诗奇幻、超自然恐怖或战争（见本章中的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}”）。这个地区也是许多著名的灰鹰世界的地城和废墟的所在地，包括下文所述的这几个。</p><p><em><strong>因弗内斯幽魂塔。</strong></em>很久以前，一位大法师在阿博-阿尔兹丘陵的岩石上筑起了宏伟的因弗内斯堡垒。在城堡的巨大内塔中，他藏起来自己最珍贵的宝物：灵魂宝石。传说这颗巨大的宝石从天而降，闪耀着太阳的炽光，它的魔力能把尖叫的凡人灵魂从身体里拽出来，并困在宝石中。这座堡垒很久之前就毁灭了，但在迷雾蒙蒙的夜晚，巨大的中央塔依然会浮现。</p><p><em><strong>索吉坎失落洞群。</strong></em>传说，大法师伊格薇尔伏从她在索吉坎失落洞群（音 SAWJ-kahn）中发现的隐藏魔法获得了强大的力量。在这些洞群中，她进行了实验和仪式，用于增进自身的力量。然而，其中一个仪式导致了她的失败，这个仪式意外地将恶魔领主格拉兹特从她用于束缚他的牢笼中释放。虽然格拉兹特逃回了深渊，但伊格薇尔伏被削弱，被迫放弃了洞群，但传说她的宝藏仍旧藏在其中一处秘密之地。<em>《索吉坎失落洞群》</em>在<em>《来自无尽阶梯的委托集》</em>中有详细的介绍。</p><p><em><strong>莫瑞堡。</strong></em>莫瑞堡是一个荒凉而不祥之地，周围都是沼泽地和稀疏的树木。传言在城堡中有一本书，其中有难以想象的邪恶魔法，由一位强大的恶魔守卫着。</p><p><em><strong>邪恶元素神殿。</strong></em>邪恶元素神殿建造于很久以前，里面是生出了成群的嗜血怪物，它们在塞勒涅和维露纳之间的土地上肆虐。这片地区的任何人都知道，这座神殿如今已经遭到废弃，自 CY 569 年的艾历底牧原之战起就没有再构成过威胁。不过，该地区的善良势力对这座神殿及其邪教的任何可能再次复苏的迹象都保持着警惕。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454058654,
+        "modifiedTime": 1776581860515,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.RGuWdlWj7PvscnWV"
+    },
+    {
+      "sort": 0,
+      "name": "东法兰尼斯",
+      "type": "text",
+      "_id": "MLkmQwhXeFrBBzLM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Eastern Flanaess</p><p>艾尔迪至高王国曾是一支秩序和善良的强大力量，但在过去的一个世纪中，它已经衰颓到了彻底堕落的底部。据传，现任至高王——爱维德五世，将邪魔作为自己的顾问，宫廷之中满是邪恶的贵族。爱维德在劳克塞斯的王座上统治自己的国家，他指挥着一只无与伦比的大军，目前同时卷入了两场战争：一场是对奈隆王国和阿尔莫教廷的战争，而另一场则是对铁联盟（伊迪、铁门、岛屿联盟、安瓦尔和桑迪）。为了支撑战争昂贵的军费，至高王对自己的臣民征收重税，进一步让自己声名狼藉。</p><p>阿尔迪亚克、阿里沙、梅德吉亚和雷尔·阿斯特拉是至高王国的行省和封地。护海男爵领是其附庸国，为王国提供了大部分的海军力量。</p><h3>沙尔</h3><p class=\"journal-original-h3\">Shar</p><p>狂热的苏族军国主义组织“猩红秘会”建立了隐秘帝国沙尔，它闭关锁国，不对外人开放。秘会控制着提瓦海峡西面的半岛，向北直至大沼泽。关于猩红秘社的更多信息，请见本章前文的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.vGkRCDjIWMtzpUEr]{派系和组织}”部分。</p><h3>东法兰尼斯文化</h3><p class=\"journal-original-h3\">Eastern Flanaess Culture</p><p>东法兰尼斯的文化主要是 800 年前征服该地区并建立了至高王国的古艾尔迪部族文化。艾尔迪人重视常识、勤劳和在严格的社会秩序中的地位。他们通过征服获得了自己的权力地位，非常重视军事力量和战斗技巧。这些价值观在整个地区一直存在，在至高王国中通过严格的法律和更严苛的社会修得到了强化。</p><p>这些相同的价值观在许多反抗至高王统治的土地上依然存在。他们仍然保留了至高王国等级分明的社会结构，国王与主教和他们统治的平民保持距离。铁联盟的独立国家中则更加平等，和中法兰尼斯的人民有同样的特点。</p><p>东法兰尼斯的典型服装是长度不同的束腰外衣，通常搭配裤子、斗篷和披风。东部的织物通常有格子图案，不同的图案则通常和穿着者的血统有关。东部的美食将米饭和土豆和各种肉类，尤其是海鲜搭配食用。</p><table><caption>东法兰尼斯地区 Eastern Flanaess Locations</caption><thead><tr><th>地区</th><th>统治者</th><th>描述</th></tr></thead><tbody><tr><td><p>阿尔迪亚克<br />Aerdiaak</p></td><td>赫尔佐格·瓦尔兹·格雷内尔（人类）</td><td>至高王国的北方行省，由一位至高王的表亲统治，其宫廷中充满了道德败坏和阴谋诡计</td></tr><tr><td><p>阿里沙<br />Ahlissa</p></td><td>赫尔佐金·瑟普雷那·卡林（人类）</td><td>至高王国的南方行省，由一位至高王的表亲统治，陷入了与铁联盟的战争</td></tr><tr><td><p>阿尔莫教国<br />Almor, the Prelacy of</p></td><td>赞瑟尔·吉利斯汀教长（人类）</td><td>一位培罗的祭司统治的教国，当至高王国陷入邪恶后，宣布了独立</td></tr><tr><td><p>骸骨边地<br />Bone March, the</p></td><td>—</td><td>帝国的沦陷领土，如今被来自阿尔莫和奈隆的军队占领</td></tr><tr><td><p>瑟拉冬森林<br />Celadon Forest</p></td><td>—</td><td>被德鲁伊结社和妖精守护的古代森林</td></tr><tr><td><p>燧石山岭和藤黄森林<br />Flinty Hills and <span>Gamboge Forest</span></p></td><td>—</td><td>数个独立聚落的家园，他们对奈隆或佩尔都没有特别的喜爱</td></tr><tr><td><p>至高王国<br />Great Kingdom, the</p></td><td>至高王爱维德五世（人类）</td><td>邪恶得难以言说的君王</td></tr><tr><td><p>伊迪<br />Idee</p></td><td>瓦斯里克·冬斯坦伯爵（人类）</td><td>独立封地，铁联盟的成员</td></tr><tr><td><p>铁门自由城<br />Irongate (Free City)</p></td><td>乌瑟拉·西尔维奇市长（外表是一位矮人）</td><td>繁荣的大都市，铁联盟的成员，市长是一位伪装成矮人的成年青铜龙</td></tr><tr><td><p>岛屿联盟<br />Lordship of the <span>Isles, the</span></p></td><td>隆萨尔三世公主（人类）</td><td>独立公国，铁联盟的成员</td></tr><tr><td><p>梅德吉亚教区<br />Medegia, the See of</p></td><td>神圣监察官斯塔威克·杰瑞尔（人类）</td><td>神权领地，由一位祭司统治。传言说他的力量来自与大魔鬼的契约</td></tr><tr><td><p>奈隆王国<br />Nyrond, the Kingdom of</p></td><td>国王顿斯坦一世（人类）</td><td>对抗至高王国的反抗力量中心</td></tr><tr><td><p>安瓦尔<br />Onnwal</p></td><td>“安瓦尔之鸦”泽尔·灰影（矮人）</td><td>独立国度，铁联盟的成员</td></tr><tr><td><p>佩尔教权国<br />Pale, the Theocracy <span>of the</span></p></td><td>至高牧师俄贡·提利特（人类）</td><td>由佛尔图斯的祭司统治的教权国</td></tr><tr><td><p>雷尔·阿斯特拉市<br />Rel Astra, City of</p></td><td>治安长官德拉克斯（兽人）</td><td>密谋反对至高王国的独立领地，希望能够和梅德吉亚与护海男爵领拉入同盟</td></tr><tr><td><p>护海男爵领<br />Sea Baronies, the</p></td><td>四位护海男爵，其中包括海军上将卡拉什·阿斯普迪（人类）</td><td>独立的岛屿领地，效忠至高王国，并为其提供海军</td></tr><tr><td><p>隐秘帝国沙尔<br />Shar, the Hidden <span>Empire of</span></p></td><td>“服从圣父”科伦斯·赞（人类？）</td><td>苏族激进分子的孤立组织，其间谍在整个法兰尼斯都有活动</td></tr><tr><td><p>浪花群岛<br />Spindrift Isles, the</p></td><td>五人议会（北面岛屿）和七人议会（南面岛屿）</td><td>对侵略性的邻居岛国保持警惕的独立岛屿</td></tr><tr><td><p>桑迪<br />Sunndi</p></td><td>瓦伦塔总管（精灵）</td><td>独立国家，铁联盟的成员</td></tr><tr><td><p>坦恩公国<br />Tenh, the Duchy of</p></td><td>艾丽叶·雷纳女公爵三世（人类）</td><td>独立国家，和奈隆结盟共同抵御埃乌兹</td></tr><tr><td><p>厄恩斯特伯爵领<br />Urnst, the County of</p></td><td>贝利西卡·格勒女伯爵（人类）</td><td>独立封地</td></tr><tr><td><p>厄恩斯特公爵领<br />Urnst, the Duchy of</p></td><td>雅肯·罗瑞纳公爵（人类）</td><td>独立封地</td></tr><tr><td><p>大沼泽<br />Vast Swamp, the</p></td><td>—</td><td>将提瓦诺半岛和沙尔从东部其他地区分隔开的泥沼</td></tr></tbody></table><h3>东法兰尼斯与其临近地区</h3><p class=\"journal-original-h3\">Eastern Flanaess and Its Neighbors</p><p>厄恩斯特公爵领和伯爵领连接着中法兰尼斯和东部地区，它们曾经是至高王国的奈隆行省的一部分，并在同时宣布从至高王国和新的奈隆王国独立出来，以最小的流血事件为代价实现了和奈隆的分离。虽然厄恩斯特的人民不信任奈隆王，但也不像憎恨至高王那样憎恨他。</p><p>靠近奈尔·戴夫、石冢山丘和护盾之地意味着厄恩斯特的领土无法忽视埃乌兹王国日益增长的威胁和自由城市灰鹰的政治。与此同时，奈隆是厄恩斯特和至高王国之间的缓冲区，但至高王的威胁依然迫在眉睫。厄恩斯特公爵和女伯爵相信，一个统一的厄恩斯特能够更有力地抵抗来自东面和西面的压力，他们希望通过促成贝利西卡·格勒女伯爵和拜伦·洛瑞纳（雅肯·罗瑞纳公爵的长子）的联姻来实现这一目标。</p><h3>东法兰尼斯冒险</h3><p class=\"journal-original-h3\">Eastern Flanaess Adventures</p><p>东法兰尼斯的故事是一群散乱的叛军——奈隆、阿尔莫和铁联盟反抗腐朽和衰败的至高王国压倒性力量的故事。这个故事能让战役探索超自然恐怖（在至高王那邪魔出没的王廷中）、历险（在本区域东部的城市及东部海域）和战争（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}”）这样的主题。</p><p><em><strong>叛逆者的避风港。</strong></em>那些蔑视和挑战至高王国压迫的人们——无论是善良还是邪恶，都能在至高王的士兵无法抵达的边境地区躲避追捕。这些区域包括雷尔·阿斯特拉附近的树林和沼泽（巨木森林的东部和孤苦荒原），以及桑迪以东的令记高原。巨木森林中的法外之徒们包括大量的精灵、半身人和人类，而令记高原则大多是矮人和侏儒。</p><p><em><strong>恐怖之墓。</strong></em>在大沼泽深处坐落着险象环生的恐怖之墓——一个迷宫般的墓穴，里面充满了可怕的陷阱、古怪而凶残的怪物，以及丰富而神奇的宝藏。半巫妖@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgALoreGlossary.JournalEntryPage.et9wBCIcimRvAFJu]{阿瑟瑞克}就藏在其中，很久之前，他统治着这片地区的大部分区域。据说，这位半巫妖以吞噬冒险者的灵魂为乐。</p><p><em>《恐怖之墓》</em>在<em>《哈欠门故事集》</em>中有详细的介绍。</p><p><em><strong>巨魔沼地。</strong></em>巨魔沼泽的冷雾笼罩着狮鹫山脉和耙齿山的山肩，盖住了这个难以形容的恐怖之地。顾名思义，沼泽地里到处都是特别巨大和残暴的巨魔。佩尔教国小心翼翼地用瞭望塔和要塞围住了这片区域，强大的巡逻队沿着巨魔沼地的南端巡逻，监视着居住在里面的怪物，以防它们不请自来的造访。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.hHW8yRg6Vtqhuven cite=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454060258,
+        "modifiedTime": 1776581884883,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.MLkmQwhXeFrBBzLM"
+    },
+    {
+      "sort": 0,
+      "name": "北法兰尼斯",
+      "type": "text",
+      "_id": "RcVa0d9sIvKpKbh0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Northern Flanaess</p><p>北法兰尼斯包括三个不同的地区，上面住着不同的民族：查奇克和威格维武的巴克鲁尼什马上民族，北方王国的苏族人，狩猎之地的法兰游牧民。</p><h3>巴克鲁尼什游牧民族</h3><p class=\"journal-original-h3\">Baklunish Nomads</p><p>查奇克和威格维武——被他们的邻居成为“虎之部族”和“狼之部族”——是巴克鲁尼什血统的马上部族。他们居住在亚提尔山脉和泽塘湖以北的大草原上。他们的草原和松树林中的气候好的时候算得上凉爽，而糟糕的时候便是严寒。两国的人民都建造了分散的贸易哨站，欢迎来自邻国和遥远国家的访客。</p><p>草原游牧民们有丰富多彩的讲故事传统，这强化了他们的氏族认同感和氏族内部的家庭关系。他们的故事不仅包括自己氏族的英雄，还包括英雄马匹的故事，这些游牧民像追溯他们自己的血脉一般仔细追溯马的血脉。他们保留了民族的传统文化，其中很多能够追溯至巴克鲁尼帝国时期。</p><p>巴克鲁尼什游牧民们喜欢在外套和长袍上使用鲜艳的粉彩。不过，在旅行和战争中，他们更喜欢坚固的皮革和兽皮装备。</p><h3>北方王国</h3><p class=\"journal-original-h3\">The North Kingdoms</p><p>三个有血缘相近的民族的王国占据了北法兰尼斯的蒂伦瑞安半岛，这是一片美丽的亚北极区域，有着高山、针叶林和深深的峡湾。这些王国以居住在其中的三支不同的部族血脉命名：克鲁斯基（名字的意思是“冰”）、弗鲁兹提（“霜”）、斯齐耐（“雪”）。</p><p>斯齐耐王国强大而人口众多。当斯齐耐的英格丽德女王想要袭击护海男爵的群岛、阿尔迪亚克或至高王国的海岸时，她会召集弗鲁兹提的国王和克鲁斯基的女王加入她的军队。弗鲁兹提国王别无选择，只能履行自己对斯齐耐的誓言。而克鲁斯基会很少拒绝攻打敌人的机会。在其他时候，克鲁斯基还会袭击弗鲁兹提、斯齐耐和石拳领。</p><p>正如他们不同的王国名字表示的那样，北方王国的人民重视他们与氏族血统的联系。他们仍热爱向苏帝国的远祖学习，他们重视对自然世界的知识的了解，就像他们对狩猎、航海和战斗技艺的重视程度一样。他们的衣服包括羊毛衬衫和裤子，再加上皮草、斗篷、手套和保暖的靴子。他们常常在斗篷上配上别针、胸针或徽章，作为财富或成就的象征。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.FJYna085InoDzEGZ cite=false]</p><h3>狩猎之地</h3><p class=\"journal-original-h3\">The Hunting Lands</p><p>狩猎之地（邻国称之为“漫游者荒地”）有袭击弗利昂迪、强盗王国、特恩和威格维武的历史，这让他们没有多少盟友。由于埃乌兹和魔角联会的大军朝他们发动了旷日持久的战争，游牧民族在北方传奇般的统治地位已经消失，而石拳领地的劫掠者则袭击了狩猎之地更偏远的东部。在漫游者们最强大的战士——“战争之犬”中，有许多都在和这些残酷的敌人的交战中丧生。</p><p>狩猎之地的人民重视和自然世界的密切联系，他们认为自然是一个值得被尊重，而非被控制的存在，他们的神话传说交到了他们接受自然的给予作为值得感恩的礼物的价值。他们穿着完全由动物皮革制成的衣服，包括皮带、斗篷、长袍和便鞋，并用油漆和纹身装饰皮肤。</p><h3>北法兰尼斯与其临近地区</h3><p class=\"journal-original-h3\">Northern Flanaess and Its Neighbors</p><p>北部地区是法兰尼斯的边缘。有三个国度是北法兰尼斯和其临近地区的主要交汇点。</p><p><em><strong>强盗王国。</strong></em>强盗王国是位于北方的狩猎之地、中法兰尼斯的护盾之地以及东部的坦恩公国之间无法的边境地带。没有哪个强盗领主有足够的力量来征服整个领土，而他们通常需要所有人联合起来防御邻国对强盗领主的报复。至少有一位强盗领主，即“斑点”伦弗斯，完全效忠于@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawksPrem.JournalEntryPage.ZAFNPyoKrepOF7BS]{埃乌兹}。</p><p><em><strong>拉提克。</strong></em>作为前至高王国的一个行省，拉提克位于北法兰尼斯和东部地区的边界上。没有至高王国的保护，拉提克被迫要抵御北方王国和护海男爵领的频繁劫掠，还有对付山中怪物的袭击。莱克西诺·哈尔科夫男爵的大使希望能够和北方王国结为同盟，让狂战士们的侵攻方向改为石拳领。</p><p><em><strong>威格维武。</strong></em>威格维武诸部的“狼母”巴格拉·耶夫科斯正在专注应对来自埃乌兹的威胁，她常常和部族首领、佩里兰雇佣兵会面，制定战略。威格维武人认为他们的领土应到杜尔西河，因此他们奋勇战斗，保护嚎叫山丘西部免受效忠埃乌兹的可怖怪物的入侵。威格维武和埃乌兹的军队在该地区发生了好几次大规模的战斗。</p><table><caption>北法兰尼斯地区 Northern Flanaess Locations</caption><thead><tr><th>地区</th><th>统治者</th><th>描述</th></tr></thead><tbody><tr><td><p>阿恩大男爵领<br />Arn, the Archbarony of</p></td><td>阿恩大男爵（身份未知）</td><td>人们知之甚少的偏远地区，它附近有一座废墟城堡，下面有满是怪物的地城</td></tr><tr><td><p>强盗王国<br />Bandit Kingdoms, the</p></td><td>四到六位强盗领主</td><td>贪婪的强盗领主和他们的私人武装统治的混乱王国</td></tr><tr><td><p>贫瘠废土<br />Barren Wastes, the</p></td><td>—</td><td>严酷、满目疮痍的土地，巨龙在这里游荡，有时也在这里消亡</td></tr><tr><td><p>查奇克<br />Chakyik</p></td><td>阿古尔·库尔斯夫大王（人类）</td><td>虎之部族的土地，他们是马背上的民族，建有零星的贸易站</td></tr><tr><td><p>狩猎之地<br />Hunting Lands, the</p></td><td>护国霸主亚林·沙卡（提夫林）</td><td>法兰人游牧部族的家园，他们的邻居将这里成为“漫游者荒地”</td></tr><tr><td><p>克鲁斯基北方王国<br />North Kingdom of the Cruski, the</p></td><td>克鲁斯基的萨娜女王（人类）</td><td>北方王国中凶猛的海上狂战士</td></tr><tr><td><p>弗鲁兹提北方王国<br />North Kingdom of the Fruzti, the</p></td><td>弗鲁兹提的韩格雷德国王（人类）</td><td>三个北方王国中最弱的一个，在骸骨边地的战争中遭受了最大的损失</td></tr><tr><td><p>斯齐耐北方王国<br />North Kingdom of the Schnai, the</p></td><td>斯齐耐的英格丽德女王（人类）</td><td>北方王国中最强和人口最多的一个王国</td></tr><tr><td><p>拉提克男爵领<br />Ratik, the Barony of</p></td><td>莱克西诺·哈尔科夫男爵（人类）</td><td>至高王国的前行省，试图和北方三国结成同盟</td></tr><tr><td><p>石拳领<br />Stonefist, The Hold of</p></td><td>石拳领的“红胡子”瑟夫沃德国王（人类）</td><td>一位强盗建立的君主国家，他吸引来了许多国家的异见者</td></tr><tr><td><p>威格维武<br />Wegwiur</p></td><td>“狼母”巴格拉·耶夫科斯（人类）</td><td>狼之部族的土地，他们是马背上的民族，正在和埃乌兹交战</td></tr></tbody></table><h3>北法兰尼斯冒险</h3><p class=\"journal-original-h3\">Northern Flanaess Adventures</p><p>苦寒北方是开展以剑与巫术奇幻为主题的战役的理想地点（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}”）。北法兰尼斯人在同样危险的环境中与巨人、龙和其他可怕的怪物作战，同时对南方城市和国家的衰弱持怀疑的态度。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454061979,
+        "modifiedTime": 1776581927148,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.RcVa0d9sIvKpKbh0"
+    },
+    {
+      "sort": 0,
+      "name": "旧科奥兰地区",
+      "type": "text",
+      "_id": "GXxO0RjxTWK9BeQX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Old Keoland</p><p>作为古老的科奥兰王国的一部分，洛特米尔山脉和西部更高的群山之间的边地和封国依靠共同的历史团结在了一起，彼此和平相处，聚集了许多不同种族的人民。在现任科奥兰的统治者金伯托斯·斯考提的领导下，科奥兰与海上亲王领的长期矛盾也可能即将结束。这片地区气候温暖宜人，但面临许多来自可怕敌人的威胁。</p><h3>旧科奥兰地区</h3><p class=\"journal-original-h3\">Old Keoland Culture</p><p>旧科奥兰是法兰尼斯一个多元化的地区，数个世纪以来，不同的文化在这里交织融合。科奥兰人常常打理园圃，保持密切的家庭关系，有着脚踏实地的品格，还喜欢讲故事。</p><p>旧科奥兰地区穿的衣服往往是宽松的衬衫和阔腿长裤，在寒冷和潮湿的天气中穿宽大的斗篷和结实的靴子。该地区的美食融合了中法兰尼斯的米饭、土豆和肉类菜肴，以及从西面来的香料和调味料，创造出了自己独特的风味。</p><table><caption>旧科奥兰地区 Old Keoland Locations</caption><thead><tr><th>地区</th><th>统治者</th><th>描述</th></tr></thead><tbody><tr><td><p>比塞尔边侯国<br />Bissel, the March of</p></td><td>伊姆兰·伦杜卡尔侯爵（人类）</td><td>科奥兰、维露纳和凯特之间的争夺焦点</td></tr><tr><td><p>杰夫大公爵领<br />Geoff, the Grand <span>Duchy of</span></p></td><td>欧文娜·黑棘女大公（人类）</td><td>孤立的封国，有和巨人作战的悠久历史</td></tr><tr><td><p>格兰边地<br />Gran March, the</p></td><td>马格努斯·玛瑙须司令（矮人）</td><td>科奥兰名义上的附庸，与比塞尔结盟，司令是从边地的贵族中选拔产生</td></tr><tr><td><p>海上亲王领<br />Hold of the Sea Princes, the</p></td><td>蒙莫格的齐格蒙德亲王三世（人类）</td><td>海盗建立的独立海上商人寡头政治，现在是一支强大的海军力量</td></tr><tr><td><p>科奥兰王国<br />Keoland, the <span>Kingdom of</span></p></td><td>金伯托斯·斯考提（人类）</td><td>旧科奥兰地区的核心，周边多是友善的邻国，都发誓效忠科奥兰的君王</td></tr><tr><td><p>洛特米尔山脉<br />Lortmil Mountains, the</p></td><td><span>—</span></td><td>旧科奥兰地区和中法兰尼斯之间的天然边界</td></tr><tr><td><p>斯特里克边侯国<br />Sterich, the March of</p></td><td>奎尔茶·艾蒙达夫女侯爵（人类）</td><td>科奥兰名义上的附庸国，但其统治者更像是科奥兰王的妹妹而非附庸</td></tr><tr><td><p>乌莱克伯爵领<br />Ulek, the County of</p></td><td>雷雯·瑞奇菲尔德女伯爵（人类）</td><td>科奥兰的前附庸国</td></tr><tr><td><p>乌莱克公爵领<br />Ulek, the Duchy of</p></td><td>格雷诺温公爵（精灵）</td><td>科奥兰的前附庸国，有大量精灵人口</td></tr><tr><td><p>乌莱克亲王领<br />Ulek, the Principality of</p></td><td>奥琳·科隆德女亲王（矮人）</td><td>拥有强大海军的封地，其女亲王赢得了乌莱克以外许多矮人的尊重</td></tr><tr><td><p>法师之谷<br />Valley of the Mage, the</p></td><td>法师之谷的法师（身份未知）</td><td>古代大法师的隐秘庇护所，当前居民未知</td></tr><tr><td><p>自由民领<br />Yeomanry, the</p></td><td>自由执政官温迪·天空之矛（歌利亚）</td><td>由选举产生自由执政官的独立共和国</td></tr></tbody></table><h3>旧科奥兰与其临近地区</h3><p class=\"journal-original-h3\">Old Keoland and Its Neighbors</p><p>长长的洛特米尔山脉在旧科奥兰地区和中法兰尼斯地区间形成了一道天然的屏障。这些山脉有着东奥瑞克地区最丰富的宝石和贵金属矿藏。居住在这些山脉及其山麓的人类、龙裔、矮人、半身人、类地精、歌利亚和兽人是山脉周围王国的主题，但他们也尝尝联合起来对付山脉两侧更大的威胁。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.rGrroWg9dRAS9mvf cite=false]</p><h3>旧科奥兰地区冒险</h3><p class=\"journal-original-h3\">Old Keoland Adventures</p><p>旧科奥兰地区的国家之间保持友好的原因之一就是整片地区发现的龙、巨人和其他怪物构成的威胁。这让这个地区特别适合英雄奇幻战役（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}”）。最危险的地方包括以下提到的几处。</p><p><em><strong>屏障峰。</strong></em>这些禁忌的高山是古怪怪物的家园。<em>《屏障峰远征》</em>，一个在<em>《来自无尽阶梯的委托集》</em>中的冒险探索了这些怪物的起源。</p><p><em><strong>晶雾山脉。</strong></em>巨人、白龙和其他怪物频繁从晶雾山脉上下到杰夫和斯特里克两个地区，寻找食物，掠夺财宝。一条古老的隧道从自由民领的西部一路延伸至尘沙之海，引来许多冒险者探索它的长度。</p><p><em><strong>昏暗森林。</strong></em>虽然精灵们居住在昏暗森林的西部，但其东部是一片蛮荒之地，包括绿龙在内的怪物在其中出没。</p><p><em><strong>地狱熔炉山脉。</strong></em>地狱熔炉是晶雾山脉火山活动区域的延伸，充满了包括火巨人和红龙在内的威胁。山脉之下是和幽暗地域相连的迷宫，里面隐藏着隐秘的城市、要塞和神庙，可怕的邪恶在其中潜藏。</p><p><em><strong>约顿山脉。</strong></em>来自约顿山脉的山丘巨人、刺尾狮和飞龙常常威胁斯特里克和自由民领地的安全。</p><p><em><strong>奔腾沼地。</strong></em>饥饿的黑龙、食腐兽和其他怪物在奔腾沼地中出没。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454063317,
+        "modifiedTime": 1776581946319,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.GXxO0RjxTWK9BeQX"
+    },
+    {
+      "sort": 0,
+      "name": "西法兰尼斯",
+      "type": "text",
+      "_id": "VBJzHRKMpt0B70V7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Western Flanaess</p><p>大约一千年前，曾经摧毁了古代巴克鲁尼什帝国的“祈来之灭”的幸存者居住在西法兰尼斯的温带草原、森林和沿海地区。这些地区和法兰尼斯其他地区基本被亚提尔山脉、屏障峰和晶雾山脉隔开，成为了巴克鲁尼什文化的堡垒。</p><p>埃科勃、图斯米特和泽夫这些国家代表了这片区域的中心，两条河流——巴拉什蒙德河和图菲克河形成了他们之间的自然边界。尽管这些国家之间享有和平的关系，但图斯米特正在通过让邻国互相对抗而获利——比如让埃科勃对抗泽夫，让泽夫对抗乌拉康达游牧民，让乌拉康达游牧民对抗凯特等等。夸兰·希尔巴帕夏小心翼翼地让自己的名字远离这些阴谋，这样他就能避免图斯米特卷入公开的战争。但图斯米特的间谍正在散播谣言，声称泽夫计划入侵埃科勃，引发了不和。埃科勃的苏丹听信了这一谣言，并开始让他的军队备战。</p><p>泽夫的纳克萨斯·穆拉德苏丹是一位深居简出的大哲学家，也是图斯米特和埃科勃的统治者严厉父辈一般的人物。多年以来，顾问和家族成员一直在鼓动纳克萨斯通过军事征服扩大泽夫的边界，但他拒绝这么做，理由是历史上王国开疆拓土的失败证明了扩展领土很少有好结局。</p><h3>西法兰尼斯的文化</h3><p class=\"journal-original-h3\">Western Flanaess Culture</p><p>西法兰尼斯的文化保留了古代巴克鲁尼什帝国的许多习俗和传统。热情好客和慷慨的美德被赋予了巨大的价值，尤其是对神殿和神职人员的施舍和虔诚捐赠。自古代帝国灭亡以来，比起扩张或军事支配，西法兰尼斯的人民对贸易表现出了更大的兴趣。贸易不仅是他们积累权力和财富的方式，也是他们和邻国联系和共存的手段。</p><p>西法兰尼斯的人民喜爱的服装以鲜艳的色彩和明亮的图案为特色，他们常常穿飘逸的长袍、罩衣和长外套搭配马裤。他们的美食以浓郁的味道和辛辣而闻名。</p><table><caption>西法兰尼斯地区 Western Flanaess Locations</caption><thead><tr><th>地区</th><th>统治者</th><th>描述</th></tr></thead><tbody><tr><td><p>干涸之原<br />Dry Steppes, the</p></td><td><span>—</span></td><td>巴克鲁尼什帝国昔日所在，如今是一片荒漠</td></tr><tr><td><p>埃科勃苏丹国<br />Ekbir, the Sultanate of</p></td><td>沙昆苏丹二世（阿斯莫）</td><td>与邻国处于不稳定的和平状态的君主国，为泽夫传言中的入侵做着准备</td></tr><tr><td><p>凯特<br />Ket</p></td><td>佐尔坦娜·拉兹贝伊伯（人类）</td><td>交界区域王国</td></tr><tr><td><p>乌拉康达平原<br />Plains of the <span>Ulakandar, the</span></p></td><td>许多乌拉康达部族首领</td><td>乌拉康达游牧民的土地，他们在干涸之原和泽夫的边界间漫游</td></tr><tr><td><p>尘沙之海<br />Sea of Dust, the</p></td><td><span>—</span></td><td>苏帝国昔日所在，如今是一片废土</td></tr><tr><td><p>图斯米特帕夏国<br />Tusmit, the Pashalik of</p></td><td>夸兰·希尔巴帕夏（人类）</td><td>通过挑拨邻国互相对抗而坐收渔利的君主国</td></tr><tr><td><p>乌尔<br />Ull</p></td><td>奥拉汗德拉斯卡·波里诺克（人类）</td><td>由在这片土地定居的乌拉康达游牧民建立的国家</td></tr><tr><td><p>泽夫苏丹国<br />Zeif, the Sultanate of</p></td><td>纳克萨斯·穆拉德苏丹（人类）</td><td>一位隐世的哲学家君王统治的君主国，他抵制着顾问们对扩展领土的呼吁</td></tr></tbody></table><h3>西法兰尼斯与其临近地区</h3><p class=\"journal-original-h3\">Western Flanaess and Its Neighbors</p><p>凯特是西法兰尼斯和大陆其他地方的交界地，坐落在亚提尔山脉和屏障峰之间。尽管它由巴克鲁尼什定居者建立，但凯特靠近比塞尔（和旧科奥兰地区）和维露纳（和中法兰尼斯地区），这让它成为了一片充满活力，文化多元的土地，还有丰富的贸易资源。其文化反映了了贸易交流的广度，这里有大量的龙裔和提夫林人口，并展现出巴克鲁尼什文化和奥尔迪安文化的融合，这种混合可以从统治者的头衔贝伊伯（Beygraf）中看出，它是巴克鲁尼什头衔贝伊（bey）和奥尔迪安头衔伯（graf）的组合。贝伊伯是洛珀拉最有钱有势的家族领主中选出的一位贵族，这些领主中的许多人还担任凯特军队的将军。现任贝伊伯佐尔坦娜·拉兹是一位经验丰富的外交官，迄今为止，她平衡了国内和邻国不同势力的利益。</p><h3>西法兰尼斯冒险</h3><p class=\"journal-original-h3\">Western Flanaess Adventures</p><p>埃科勃、图斯米特和泽夫之间的政治和商业阴谋为西法兰尼斯的角色提供了丰富的冒险机会。围绕阴谋或神话（见本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}”）的战役在这个地方尤其适合。</p><p>当然，西法兰尼斯也有相当多的怪物、地城和废墟。干涸之原上的巴克鲁尼什帝国废墟，以及尘沙之海中苏帝国的废墟都引来了许多冒险者和恶徒，他们希望能够获得关于灭亡这些帝国的可怕灾难的魔法知识。和他们的东方邻居一样，凯特和乌尔也同样遭到来自屏障峰和亚提尔山脉的怪物的袭击。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.2",
+        "createdTime": 1729454064455,
+        "modifiedTime": 1776581965070,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawkGazet.VBJzHRKMpt0B70V7"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": false,
+      "append": 5,
+      "order": 501100,
+      "navigation": {
+        "previous": "dmgFreeCityOfGre",
+        "next": "dmgCosmology0000"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729453880971,
+    "modifiedTime": 1776581818495,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 396875,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgGreyhawkGazet"
+}

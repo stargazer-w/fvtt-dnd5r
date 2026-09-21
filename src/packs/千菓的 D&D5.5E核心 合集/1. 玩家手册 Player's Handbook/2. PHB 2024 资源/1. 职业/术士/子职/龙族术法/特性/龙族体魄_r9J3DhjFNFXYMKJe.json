@@ -1,0 +1,108 @@
+{
+  "name": "龙族体魄",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_draconic-resilience.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>魔法在你的体内流动，外化为龙族赠礼体现出的生理特质。你的生命值上限提升 3 点，此后每提升一个术士等级，都将再次提升 1 点。</p><p>你部分皮肤覆盖着龙鳞样式的柔鳞。未着装护甲时，你的基础 AC 等于 10 + 你的敏捷调整值 + 你的魅力调整值。</p><p class=\"item-original\">Draconic Resilience</p>",
+      "chat": ""
+    },
+    "identifier": "draconic-resilience",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "龙族术法",
+    "advancement": []
+  },
+  "effects": [
+    {
+      "name": "龙族体魄",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_draconic-resilience.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.r9J3DhjFNFXYMKJe",
+      "_id": "rQ1CvGswTFjHJ1lW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "unarmoredBard",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.hp.bonuses.overall",
+          "mode": 2,
+          "value": "@classes.sorcerer.levels",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736603368543,
+        "modifiedTime": 1736603395765,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!r9J3DhjFNFXYMKJe.rQ1CvGswTFjHJ1lW"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777579649476,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "r9J3DhjFNFXYMKJe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!r9J3DhjFNFXYMKJe"
+}

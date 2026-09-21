@@ -1,0 +1,132 @@
+{
+  "name": "元素善用",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_elemental-adept.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>通用专长（先决：等级 4+，施法或契约魔法特性）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你的智力、感知或魅力提升 1，最多为 20。</p><p><em><strong>能量掌控。</strong></em>选择以下伤害类型之一：强酸，冷冻，火焰，闪电或雷鸣。你施展的法术无视所选伤害类型的抗性。此外，当你为你施展的造成该类型伤害的法术投掷伤害时，你可以将伤害骰中的任何 1 都视为 2。</p><p><em><strong>复选。</strong></em>你可多次选择本专长，但你每次都必须为能量掌控选择一个不同的伤害类型。</p><p class=\"item-original\">Elemental Adept</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-adept",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    },
+    "prerequisites": {
+      "level": null,
+      "repeatable": true
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "_id": "Ywy1W8MVypcdA2hW",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 1,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "属性值提升",
+        "hint": "你的智力、感知或魅力提升 1，最多为 20。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "type": "ItemChoice",
+        "title": "能量掌控",
+        "_id": "t209iBvochVqNoZH",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.8ntj9n7K7lCwyryB"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.FXrOGh44wcGwUi2l"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.WKWOaLG4Q9cYkwcE"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.4FbhSWhD65MNqfDx"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.F53zpY3Lxrn1AeLK"
+            }
+          ],
+          "restriction": {
+            "list": [],
+            "type": "",
+            "subtype": ""
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": "选择以下伤害类型之一。你施展的法术无视所选伤害类型的抗性。此外，当你为你施展的造成该类型伤害的法术投掷伤害时，你可以将伤害骰中的任何 1 都视为 2。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731048967755,
+    "modifiedTime": 1775990234147,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "HftudGRdNx94GyIi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!HftudGRdNx94GyIi"
+}

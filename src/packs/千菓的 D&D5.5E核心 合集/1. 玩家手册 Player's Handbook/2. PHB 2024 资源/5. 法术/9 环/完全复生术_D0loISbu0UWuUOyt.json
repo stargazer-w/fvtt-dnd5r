@@ -1,0 +1,142 @@
+{
+  "name": "完全复生术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_true-resurrection.webp",
+  "system": {
+    "activities": {
+      "rXV0IYMUUGOKy9lB": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "rXV0IYMUUGOKy9lB",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一名已死，但死亡时间不超过 200 年，并非死于年老的生物，使其以生命值全满的状态回生。</p><p>该法术治愈该生物死亡时仍在生效的所有伤口，中和所有该生物死亡时仍在生效的毒素，结束所有该生物死亡时仍在生效的魔法疾病，也会移除该生物死亡时仍在生效的所有诅咒。该法术能替换所有受损或失去的器官和肢体。若生物曾是亡灵，则其会恢复到其非亡灵形态。</p><p>若受术生物的遗体已经不再存在，该法术能给它再造一个新的身体。这种情况下，你必须喊出该生物的名字。该生物出现在你指定的距你 10 尺内一处未占空间中。</p><p class=\"item-original\">True Resurrection</p>",
+      "chat": ""
+    },
+    "identifier": "true-resurrection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 9,
+    "materials": {
+      "value": "一颗价值至少 25000 GP 的钻石，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194958232,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "D0loISbu0UWuUOyt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!D0loISbu0UWuUOyt"
+}

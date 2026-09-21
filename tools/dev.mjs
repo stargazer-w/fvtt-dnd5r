@@ -45,6 +45,9 @@ if ( !modulesDirs.length ) {
 
 const { recompiled } = await build();
 
+/** 同步失败计数（被占用的文件、写不完整的包） */
+let failures = 0;
+
 for ( const modulesDir of modulesDirs ) {
   const target = path.join(modulesDir, MODULE_ID);
   fs.mkdirSync(modulesDir, { recursive: true });
@@ -60,18 +63,69 @@ for ( const modulesDir of modulesDirs ) {
     fs.symlinkSync(DIST_DIR, target, "junction");
     console.log(`已链接：${target}\n     ->  ${DIST_DIR}`);
   } else {
+    // 正要动 compendium 时，先探测目标里的包是否正被 Foundry 打开：
+    // LevelDB 会独占 LOCK 文件，探得占用就直接停手——在 Foundry 运行中改写包，
+    // 塞进去的 .ldb 会被它的会话当成「无引用文件」回收掉，最终留下空包。
+    if ( recompiled ) {
+      const packsDir = path.join(target, "packs");
+      const inUse = [];
+      if ( fs.existsSync(packsDir) ) {
+        for ( const pack of fs.readdirSync(packsDir, { withFileTypes: true }) ) {
+          if ( !pack.isDirectory() ) continue;
+          const lock = path.join(packsDir, pack.name, "LOCK");
+          if ( !fs.existsSync(lock) ) continue;
+          try {
+            fs.closeSync(fs.openSync(lock, "r+"));
+          } catch {
+            inUse.push(pack.name);
+          }
+        }
+      }
+      if ( inUse.length ) {
+        console.error(`\n✗ 有 ${inUse.length} 个 compendium 正被 Foundry 占用：${inUse.join(", ")}`);
+        console.error("\n请先停掉 Foundry（关闭浏览器 / 退回设置界面都不够——服务端进程仍握着这些包）：");
+        console.error("    docker stop dosi-foundry-1 demo-foundry-1");
+        console.error("同步完再启动它们即可。现在没有改动目标目录，可以放心重试。");
+        process.exit(1);
+      }
+    }
+
     // compendium 没重新编译时完全不动目标里的 packs：
     // Foundry 会一直持有已打开的 LevelDB，重写/删除会被系统直接拒绝
     const { copied, skipped, removed, failed } = syncDirectory(DIST_DIR, target, rel => (rel === "packs") && !recompiled);
     console.log(`已同步：${target}\n     复制 ${copied} 个 / 未变化 ${skipped} 个 / 清理 ${removed} 个`);
-    if ( failed.length ) {
-      console.warn(`\n⚠ ${failed.length} 个文件被占用，未能更新：`);
-      for ( const name of failed.slice(0, 5) ) console.warn(`    ${name}`);
-      if ( failed.length > 5 ) console.warn(`    …另有 ${failed.length - 5} 个`);
-      console.warn("  通常是 Foundry 正在使用这些 compendium 包。"
-        + "重启 Foundry（容器）后重跑本次命令即可完成更新。");
+
+    // 同步后核对每个包是否还有数据：漏掉 .ldb 会让 Foundry 读到空包
+    const broken = [];
+    for ( const pack of fs.readdirSync(path.join(DIST_DIR, "packs"), { withFileTypes: true }) ) {
+      if ( !pack.isDirectory() ) continue;
+      const from = path.join(DIST_DIR, "packs", pack.name);
+      const dir = path.join(target, "packs", pack.name);
+      const sizeOf = where => fs.readdirSync(where)
+        .filter(name => name.endsWith(".ldb") || name.endsWith(".log"))
+        .reduce((sum, name) => sum + fs.statSync(path.join(where, name)).size, 0);
+      if ( !sizeOf(from) ) continue; // dist 里本来就是空包，不判断
+      if ( !fs.existsSync(dir) ) { broken.push(`${pack.name}（整个目录缺失）`); continue; }
+      if ( !sizeOf(dir) ) broken.push(`${pack.name}（没有 .ldb，.log 也是空的）`);
+    }
+
+    if ( failed.length || broken.length ) {
+      failures++;
+      if ( failed.length ) {
+        console.error(`\n✗ ${failed.length} 个文件未能写入（目标被占用）：`);
+        for ( const name of failed.slice(0, 10) ) console.error(`    ${name}`);
+        if ( failed.length > 10 ) console.error(`    …另有 ${failed.length - 10} 个`);
+      }
+      if ( broken.length ) {
+        console.error(`\n✗ ${broken.length} 个 compendium 包在目标里没有数据：`);
+        for ( const name of broken ) console.error(`    ${name}`);
+      }
+      console.error("\n目标里的 compendium 包处于不完整状态，Foundry 会读到空包。"
+        + "\n请先关掉 Foundry（容器）——至少退回到设置界面——然后重跑本命令；"
+        + "\n同步完成后重新进入世界即可。");
     }
   }
 }
 
 console.log(`\n${title} v${version} 已就绪，在 Foundry 中刷新（F5）即可加载。`);
+process.exit(failures ? 1 : 0);

@@ -1,0 +1,142 @@
+{
+  "name": "敲击术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_knock.webp",
+  "system": {
+    "activities": {
+      "z5lIB4be81QJ1bpU": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "z5lIB4be81QJ1bpU",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>指定施法距离内一个你能看见的物件。该物件可以是一扇门，一个盒子，一个箱子，一副镣铐，一把挂锁，或是一个其他的通过魔法或普通手段来防止被打开的物件。</p><p>被一把普通锁锁住的目标其锁会被解开，被卡死的目标会被松开，被闩住的目标会被打开。如果目标被多把锁锁住，则只有一把锁会被打开。</p><p>若你指定的目标被法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AxfK0wW0YSzDUqLe]{秘法锁}</em>锁住，则该秘法锁被压制 10 分钟，这段时间内目标可被正常开启和关闭。</p><p>施展该法术时，受术目标会发出一声响亮的敲击声，其声响最远 300 尺内都能听见。</p><p class=\"item-original\">Knock</p>",
+      "chat": ""
+    },
+    "identifier": "knock",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "object",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195002739,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "hyjDEXtsLk2gfyb3",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!hyjDEXtsLk2gfyb3"
+}

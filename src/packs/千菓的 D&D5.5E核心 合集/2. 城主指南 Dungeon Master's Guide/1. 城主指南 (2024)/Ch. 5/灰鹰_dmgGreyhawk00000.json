@@ -1,0 +1,124 @@
+{
+  "_id": "dmgGreyhawk00000",
+  "name": "灰鹰",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "6fn81G2GSXCVhoJA",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p><em>灰鹰</em>是一个你可以用作你战役背景的 D&amp;D 世设，你也能将它作为创造自己世设时使用的模版。为了方便你自行使用，这一部分讲述了关于灰鹰的重要内容，你可以随心所欲地修改和扩展它们。</p><p>灰鹰是 Gary Gygax， D&amp;D 游戏最初创造者之一的作品。加里在这个自创的世设中创作了许多 D&amp;D 早期冒险。本书中的这一版灰鹰则很大程度上脱胎于在 1980 年出版的<em>《灰鹰世界地理志》</em>。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776581418598,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawk00000.6fn81G2GSXCVhoJA"
+    },
+    {
+      "sort": 200000,
+      "name": "重要名词",
+      "type": "text",
+      "_id": "M9vbZAA4UDLJH9SF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Important Names</p><p>下面列出了几个重要的名词：</p><p><strong>奥斯 Oerth</strong>（音：<em>orth</em> 或 <em>oyth</em>）是灰鹰的世界。它有四个大陆、四片大洋，以及许许多多的岛屿和海洋。</p><p><strong>奥瑞克 Oerik</strong>（音：<em>or-ick</em> 或 <em>oy-rick</em>）是奥斯世界的一片大陆。</p><p><strong>东奥瑞克 Eastern Oerik</strong>，是本章中将会描述的广阔国度，这里是许多强大国家和 D&amp;D 中著名地城与冒险者们的家园。</p><p><strong>法兰尼斯 The Flanaess</strong>（音：<em>flah-nay-ess</em> 或 <em>flay-nayz</em>）是东奥瑞克地区的另一个名字，意为“法兰的土地”。这个国度最初的人类居民和他们后裔也被称为“法兰人”。</p><p><strong>灰鹰 Greyhawk</strong> 是一座位于东奥瑞克的独立城市，吸引了数量众多的冒险者。灰鹰同样也是此战役设定的名字。</p><aside class=\"notable\"><h3>海报地图</h3><p>在这本规则书中有一张一面是@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.BpHyWRcMyFKYDdfL]{东奥瑞克}地区（每格六角格为 30 英里），一面是@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.rAgmgaKVdnkoesCA]{灰鹰自由城}的海报地图。上面的地点见本章后文的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgFreeCityOfGre]{灰鹰自由城}”和“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawkGazet]{灰鹰地理志}”。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 500800
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581424606,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgGreyhawk00000.M9vbZAA4UDLJH9SF"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 5,
+      "order": 500700,
+      "navigation": {
+        "previous": "dmgEndingACampai",
+        "next": "dmgGreyhawksPrem"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776581413161,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 387500,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgGreyhawk00000"
+}

@@ -1,0 +1,204 @@
+{
+  "name": "重生坩埚",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_cauldron-of-rebirth.webp",
+  "system": {
+    "activities": {
+      "7Byep30BC7PLLgHM": {
+        "type": "utility",
+        "_id": "7Byep30BC7PLLgHM",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "酿造药水"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "24"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "酿造药水"
+      },
+      "vw4O8yr4Ku5VWT6d": {
+        "type": "utility",
+        "name": "复活死者",
+        "_id": "vw4O8yr4Ku5VWT6d",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "复活死者"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，极珍稀（需德鲁伊或魔契师同调）</em></p><p>这只微型小锅的铸铁侧边上刻有英雄群像的浮雕。</p><p>你可以将这件坩埚作为施法法器使用，且其可以作为法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0NnW4SYqrBBHYE8G]{探知术}</em>的代替材料。</p><p><em><strong>酿造药水。</strong></em>当你完成一次长休时，你可以使用坩埚制造一瓶<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.pBhheOVAZxM4irGV]{高等治疗药水}</em>，这需要花费你 1 分钟的时间。药水持续 24 个小时，若其没有被使用，则它失去魔力。</p><p><em><strong>复活死者。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你可以让坩埚增大至足以容纳一个中型生物。你也可以用一个魔法动作让坩埚恢复其普通大小，并且无害地将任何它无法容纳的东西转出到最近未被占据的位置。</p><p>如果你将一个类人生物的尸体放入坩埚之中并将 200 磅的盐（耗费 10 金币）掩埋尸体持续 8 小时，那么盐会被消耗，而那个生物会在下一个黎明时复活，如同法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZEX9RmEByJuYNy83]{死者复活}</em>。使用后七日之内，坩埚的此项词条都无法再次使用。</p><p class=\"item-original\">Cauldron of Rebirth</p>",
+      "chat": ""
+    },
+    "identifier": "cauldron-of-rebirth",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895695988,
+    "modifiedTime": 1761895879262,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "x5aWC8GIW7pyWQZH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!x5aWC8GIW7pyWQZH"
+}

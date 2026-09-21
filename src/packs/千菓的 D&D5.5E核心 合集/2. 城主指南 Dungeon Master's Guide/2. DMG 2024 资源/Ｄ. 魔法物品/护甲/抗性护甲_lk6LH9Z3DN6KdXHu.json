@@ -1,0 +1,1541 @@
+{
+  "name": "抗性护甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_armor-of-resistance.webp",
+  "system": {
+    "activities": {
+      "BkPINEZxU8JUWfsK": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "7Hb097h1wZNMi2Sa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "HjOb49bvBm6YOCE3"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "okHvLQOVVaNodKdL",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "R4hQXbxkF1fCaDSc"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "77n1ELgFbGfXlZvq",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "0nDQg7ylNS9pK3ti"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "i8NDpDjrBcNkzegB",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "kcFq3hbN70cZaSx1"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "4aszXkzJi2Gx9gAg",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "X57I1H2Wrbx7wTWU"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "te06e52TtFmDMrhm",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "z1EfnmNEkZjGgZYA"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "9v8iB0bgEtx0cZb5",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "i27o99Uz6Nh9ANMq"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "itxFH0EK7f4DCwJC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "O1QYMZzLn0Ns6IK7"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "lVYl0At6PNQBgIDh",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "5BGGi7rQ8U0PdH45"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "yR4fjGUtA4SFkWq4",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "SYSWKVJhOfjOMmIl"
+              ],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "BkPINEZxU8JUWfsK"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（任意轻甲、中甲或重甲），珍稀（需同调）</em></p><p>着装此护甲期间，你具有一种特定伤害类型的抗性。具体伤害类型由 DM 选择，或在以下表格中掷骰随机决定。</p><table><thead><tr><th>[[/r 1d10]]</th><th>伤害类型</th></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.7Hb097h1wZNMi2Sa]{强酸}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.okHvLQOVVaNodKdL]{寒冷}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.77n1ELgFbGfXlZvq]{火焰}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.i8NDpDjrBcNkzegB]{力场}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.4aszXkzJi2Gx9gAg]{闪电}</td></tr><tr><td>6</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.te06e52TtFmDMrhm]{暗蚀}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.9v8iB0bgEtx0cZb5]{毒素}</td></tr><tr><td>8</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.yR4fjGUtA4SFkWq4]{心灵}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.itxFH0EK7f4DCwJC]{光耀}</td></tr><tr><td>10</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu.ActiveEffect.lVYl0At6PNQBgIDh]{雷鸣}</td></tr></tbody></table><p class=\"item-original\">Armor of Resistance</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "armor-of-resistance",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "强酸抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "7Hb097h1wZNMi2Sa",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有强酸伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504705490,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.7Hb097h1wZNMi2Sa"
+    },
+    {
+      "name": "强酸抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "_id": "HjOb49bvBm6YOCE3",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "acid",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497043,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.HjOb49bvBm6YOCE3"
+    },
+    {
+      "type": "enchantment",
+      "name": "寒冷抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有寒冷伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504709034,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "okHvLQOVVaNodKdL",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.okHvLQOVVaNodKdL"
+    },
+    {
+      "type": "enchantment",
+      "name": "火焰抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有火焰伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504712961,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "77n1ELgFbGfXlZvq",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.77n1ELgFbGfXlZvq"
+    },
+    {
+      "type": "enchantment",
+      "name": "力场抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有力场伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504717656,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "i8NDpDjrBcNkzegB",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.i8NDpDjrBcNkzegB"
+    },
+    {
+      "type": "enchantment",
+      "name": "闪电抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有闪电伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504720666,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "4aszXkzJi2Gx9gAg",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.4aszXkzJi2Gx9gAg"
+    },
+    {
+      "type": "enchantment",
+      "name": "暗蚀抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有暗蚀伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504725992,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "te06e52TtFmDMrhm",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.te06e52TtFmDMrhm"
+    },
+    {
+      "type": "enchantment",
+      "name": "毒素抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有毒素伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504729228,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "9v8iB0bgEtx0cZb5",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.9v8iB0bgEtx0cZb5"
+    },
+    {
+      "type": "enchantment",
+      "name": "心灵抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有心灵伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504731984,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "yR4fjGUtA4SFkWq4",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.yR4fjGUtA4SFkWq4"
+    },
+    {
+      "type": "enchantment",
+      "name": "光耀抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有光耀伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504734737,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "itxFH0EK7f4DCwJC",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.itxFH0EK7f4DCwJC"
+    },
+    {
+      "type": "enchantment",
+      "name": "雷鸣抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "抗性{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有雷鸣伤害的抗性。{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504737489,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "lVYl0At6PNQBgIDh",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.lVYl0At6PNQBgIDh"
+    },
+    {
+      "name": "寒冷抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497048,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "R4hQXbxkF1fCaDSc",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.R4hQXbxkF1fCaDSc"
+    },
+    {
+      "name": "火焰抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497053,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "0nDQg7ylNS9pK3ti",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.0nDQg7ylNS9pK3ti"
+    },
+    {
+      "name": "力场抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "force",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497058,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "kcFq3hbN70cZaSx1",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.kcFq3hbN70cZaSx1"
+    },
+    {
+      "name": "闪电抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497063,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "X57I1H2Wrbx7wTWU",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.X57I1H2Wrbx7wTWU"
+    },
+    {
+      "name": "暗蚀抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497068,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "z1EfnmNEkZjGgZYA",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.z1EfnmNEkZjGgZYA"
+    },
+    {
+      "name": "毒素抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497073,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "i27o99Uz6Nh9ANMq",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.i27o99Uz6Nh9ANMq"
+    },
+    {
+      "name": "心灵抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497078,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "SYSWKVJhOfjOMmIl",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.SYSWKVJhOfjOMmIl"
+    },
+    {
+      "name": "光耀抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "radiant",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497083,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "O1QYMZzLn0Ns6IK7",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.O1QYMZzLn0Ns6IK7"
+    },
+    {
+      "name": "雷鸣抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.lk6LH9Z3DN6KdXHu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497088,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "5BGGi7rQ8U0PdH45",
+      "_key": "!items.effects!lk6LH9Z3DN6KdXHu.5BGGi7rQ8U0PdH45"
+    }
+  ],
+  "sort": 225000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": [
+          "HjOb49bvBm6YOCE3",
+          "R4hQXbxkF1fCaDSc",
+          "0nDQg7ylNS9pK3ti",
+          "kcFq3hbN70cZaSx1",
+          "X57I1H2Wrbx7wTWU",
+          "z1EfnmNEkZjGgZYA",
+          "i27o99Uz6Nh9ANMq",
+          "O1QYMZzLn0Ns6IK7",
+          "5BGGi7rQ8U0PdH45",
+          "SYSWKVJhOfjOMmIl"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751463589665,
+    "modifiedTime": 1758199226659,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "lk6LH9Z3DN6KdXHu",
+  "_key": "!items!lk6LH9Z3DN6KdXHu"
+}

@@ -1,0 +1,388 @@
+{
+  "name": "象牙山羊",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_figurine-of-wondrous-power_ivory-goats.webp",
+  "system": {
+    "activities": {
+      "MrVFwWCLDaccW3ne": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "15",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "可怖山羊"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "3"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "formula",
+              "formula": "1"
+            }
+          ],
+          "max": "15"
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "uYn2ko7qaQCXZQrv",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "可怖山羊",
+        "_id": "MrVFwWCLDaccW3ne"
+      },
+      "7KwCF6yqCe9FeJdx": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "客运山羊"
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "value": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "formula",
+              "formula": "1"
+            }
+          ],
+          "max": "7"
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "uYn2ko7qaQCXZQrv",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "客运山羊",
+        "_id": "7KwCF6yqCe9FeJdx"
+      },
+      "gntx9PRCujmZhoY0": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "30",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "苦力山羊"
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "3"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "formula",
+              "formula": "1"
+            }
+          ],
+          "max": "30"
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "uYn2ko7qaQCXZQrv",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "苦力山羊",
+        "_id": "gntx9PRCujmZhoY0"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这种象牙制成的山羊雕像总是三个为一组制造。每个山羊雕像都有独特的外形和功能，如下所述：</p><p><strong>可怖山羊。</strong>该塑像可以变为一只<strong>巨山羊</strong>并至多维持 3 小时。它无法发动攻击，但你可以（不造成伤害地）卸下它的角作为武器。其中一只角变为 <em>+1 骑枪</em>，而另一只角则变为 <em>+2 长剑</em>。卸下一只角需要一个&amp;Reference[Magic]{魔法}动作。当山羊变回雕像时，角变成的武器也将随之消失，而山羊的角会恢复原状。另外，当你骑乘这头巨山羊时，它将散发出 30 尺半径的光环，任何在光环范围内开始其回合的敌对生物都必须进行一次[[/save wis 15 format=long]]，豁免失败则陷入&amp;Reference[frightened]{恐慌}状态 1 分钟，当你不再骑乘山羊、或是山羊变回雕像后该恐慌也会提前结束。该受恐慌生物可以在它的每个回合结束时再次进行该豁免，成功则终止其身上的该效应。生物豁免成功时，它将在随后的 24 小时里免疫该效应。使用后，此雕像需要经过 15 日才能再次启动。</p><p><strong>客运山羊。</strong>该塑像可以变为一只数据和<strong>乘用马</strong>相同的大型山羊。它有 24 发充能，处于野兽形态下时每小时（不足 1 小时按 1 小时计）将消耗 1 发充能。只要雕像还有充能，你就能随意使用它。当充能耗尽时，它将变回雕像且需要等到 7 日后充能完全恢复时才能再次启动。</p><p><strong>苦力山羊。</strong>该塑像可以变为一只<strong>巨山羊</strong>，其存在至多维持 3 小时。使用后，此雕像需要经过 30 日才能再次启动。</p><p>异能塑像是小到可以装在口袋里的小雕塑。当你用一个&amp;Reference[Magic]{魔法}动作来将雕像扔到你周围 60 尺以内的某处时，它将变成一只活体生物。如果雕像被扔到的地方被其他生物或物件占据，或者周围的空间不足以容纳该雕像变成的生物，则它将不会变成生物。</p><p>雕像变成的生物对你和你的盟友态度为友善。它能听懂你的语言并会按你的口头命令行事，使用你的先攻并在你回合结束后立即执行其回合。如果你不下达任何命令，则该生物会保护自己而不作其他动作。</p><p>生物存在的时间依雕像而不同。持续时间结束时，生物将变回异能塑像形态。当它的生命值降至 0，或是你在触碰它期间用一个&amp;Reference[Magic]{魔法}动作令其变回雕像时，它亦将提前变回雕像状态。变回雕像后，异能塑像的词条必须经过一段时间后才能再次启动。</p><p class=\"item-original\">Ivory Goats, Figurine of Wondrous Power</p>",
+      "chat": ""
+    },
+    "identifier": "ivory-goats-figurine-of-wondrous-power",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895789311,
+    "modifiedTime": 1761895879469,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zC21hjUbP024Jnoh",
+  "_key": "!items!zC21hjUbP024Jnoh"
+}

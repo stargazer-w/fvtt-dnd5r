@@ -1,0 +1,140 @@
+{
+  "name": "博学多才之恩惠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_epicBoon_boon-of-skill.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>传奇恩惠专长（先决：等级 19+）</em></p><p>你获得以下增益。</p><p><em><strong>属性值提升。</strong></em>你使你选择的一项属性值提升 1 点，最多为 30。</p><p><em><strong>全能专家。</strong></em>你获得所有技能的熟练。</p><p><em><strong>专精。</strong></em>选择一项你没有专精的技能，你获得该技能的专精。</p><p class=\"item-original\">Boon of Skill</p>",
+      "chat": ""
+    },
+    "identifier": "boon-of-skill",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "epicBoon"
+    },
+    "prerequisites": {
+      "level": 19
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "title": "属性值提升",
+        "_id": "H4wh2IJorELVrj2s",
+        "configuration": {
+          "cap": null,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 1,
+          "recommendation": null,
+          "max": 30
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "hint": "你使你选择的一项属性值提升 1 点，最多为 30。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_general_ability-score-improvement.webp"
+      },
+      {
+        "type": "Trait",
+        "title": "全能专家",
+        "_id": "DvMunzS5nu7wJ4oC",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:arc",
+            "skills:prf",
+            "skills:prc",
+            "skills:inv",
+            "skills:ins",
+            "skills:his",
+            "skills:dec",
+            "skills:slt",
+            "skills:sur",
+            "skills:acr",
+            "skills:itm",
+            "skills:ani",
+            "skills:med",
+            "skills:ste",
+            "skills:per",
+            "skills:ath",
+            "skills:nat",
+            "skills:rel"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "你获得所有技能的熟练。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "专精",
+        "_id": "DBw7ZUCBlcerrokh",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "expertise"
+        },
+        "level": 0,
+        "hint": "选择一项你没有专精的技能，你获得该技能的专精。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_expertise.webp",
+        "value": {}
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049676609,
+    "modifiedTime": 1775988211979,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "1t1ow8MMaAiLGI8Y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1t1ow8MMaAiLGI8Y"
+}

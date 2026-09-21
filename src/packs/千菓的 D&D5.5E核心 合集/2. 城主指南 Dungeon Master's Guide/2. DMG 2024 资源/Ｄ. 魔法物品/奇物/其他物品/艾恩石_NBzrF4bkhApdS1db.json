@@ -1,0 +1,80 @@
+{
+  "name": "艾恩石",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_F.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，多种珍稀度（需同调）</em></p><p>每一颗<em>艾恩石</em>的大小都和一枚弹珠相仿。这种石头是以知识与预言之神——艾恩之名命名的，祂在某些世界中备受敬仰。<em>艾恩石</em>分为很多种，不同种类的<em>艾恩石</em>具有不同的颜色和外观。</p><p>当你用一个&amp;Reference[Magic]{魔法}动作将<em>艾恩石</em>扔向空中时，此石会环绕在距离你头顶[[/r 1d3]]尺高之处，并为你带来其增益。同一时间内至多只能有 3 颗<em>艾恩石</em>环绕在你的头顶。</p><p>环绕在你头顶的每颗<em>艾恩石</em>都视为你正在穿戴着的物件。正在环绕着的<em>艾恩石</em>会避免与其他生物和物件接触，调整自己环绕的轨道以避免碰撞，并能使其他生物对<em>艾恩石</em>的攻击与抢夺无效。</p><p>你可以用一个&amp;Reference[Utilize]{操作}动作，抓住并收起环绕在你头顶的任意颗<em>艾恩石</em>。如果你结束正环绕在你头顶的<em>艾恩石</em>的同调，石头就会如同你将其丢弃一样掉落下来。</p><p>石头的种类决定了它的稀有度和效果。</p><aside style=\"display:flex;flex-wrap:wrap\"><div style=\"flex:1 1 50%\"><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.HzbWYbCWeMh2YR8P]{吸收（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.tPr2jH1eFuRlDwZ0]{机敏（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.HXjmZyUQhF1zWwD3]{警觉（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wUhN5SnwZOS4fwfd]{坚韧（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.sYe2pTg91a0nETs2]{高等吸收（传说）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.75LvREvLJcXDKMEv]{洞悉（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.RpZQ2JJhy3hTfbQR]{才智（极珍稀）}</p></div><div style=\"flex:1 1 50%\"><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.alfMnTBXwNFMtFRe]{统御（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Gix3odl6adLBueHu]{精通（传说）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.kRDix5vnJTi5jti2]{防护（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Y9PAvHwu9RkQPxFO]{再生（传说）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.TMdCGz6rPyZg5Cpt]{储法（珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.sTbBTiAaVQrH92Y3]{力量（极珍稀）}</p><p>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.XXMICYJzFKtbPpXJ]{维生（珍稀）}</p></div></aside><p class=\"item-original\">Ioun Stone</p>",
+      "chat": ""
+    },
+    "identifier": "ioun-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895670405,
+    "modifiedTime": 1761897307095,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "NBzrF4bkhApdS1db",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!NBzrF4bkhApdS1db"
+}

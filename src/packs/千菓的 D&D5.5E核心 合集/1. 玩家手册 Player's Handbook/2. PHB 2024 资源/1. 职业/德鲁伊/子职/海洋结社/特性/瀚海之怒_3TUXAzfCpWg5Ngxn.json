@@ -1,0 +1,301 @@
+{
+  "name": "瀚海之怒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_sea_wrath-of-the-sea.webp",
+  "system": {
+    "activities": {
+      "M63lNPgon2oNdULp": {
+        "type": "utility",
+        "_id": "M63lNPgon2oNdULp",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "AzNdZMsGO8DwQSfB",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": "",
+          "value": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "@scale.wrath-of-the-sea.range",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "AzNdZMsGO8DwQSfB"
+        ],
+        "visibility": {
+          "level": {
+            "min": null,
+            "max": null
+          },
+          "identifier": ""
+        }
+      },
+      "AFJqAA3R9O7E3W3W": {
+        "type": "save",
+        "_id": "AFJqAA3R9O7E3W3W",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "@scale.sea.wrath-range"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "(max(1,@abilities.wis.mod))d6"
+              },
+              "number": null,
+              "denomination": 0,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以消耗一次你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}次数来在自己周围显现出海浪形态的 5 尺光环。灵光会持续存在 10 分钟。当你解除它（无需任何动作）、再度显现灵光或陷入失能时，它会提前结束。</p><p>当你显现出灵光时，以及在之后的回合中以一个&amp;Reference[Bonus Action]{附赠动作}，你可以选择另一个在你灵光范围内可以看见的生物。该生物必须成功通过一次对抗你的法术豁免 DC 的[[/save]]{体质豁免}，否则受到寒冷伤害，如果该生物是大型或更小体型，它会被从你身边推离至多 15 尺距离。投掷等于你感知调整值数量（最少 1 颗）的 d6 骰来决定伤害。</p><p class=\"item-original\">Wrath of the Sea</p>",
+      "chat": ""
+    },
+    "identifier": "wrath-of-the-sea",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "海洋结社",
+    "advancement": [
+      {
+        "_id": "MSlo0HUIORP5XiIw",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "range",
+          "type": "distance",
+          "distance": {
+            "units": "ft"
+          },
+          "scale": {
+            "3": {
+              "value": 5
+            },
+            "6": {
+              "value": 10
+            }
+          }
+        },
+        "value": {},
+        "title": "瀚海之怒：范围",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_sea_aquatic-affinity.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "瀚海之怒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_sea_wrath-of-the-sea.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.3TUXAzfCpWg5Ngxn",
+      "transfer": false,
+      "_id": "AzNdZMsGO8DwQSfB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你周围显现出海浪形态的光环，当你解除它（无需任何动作）、再度显现灵光或陷入失能时，它会提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734181597818,
+        "modifiedTime": 1735457849416,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!3TUXAzfCpWg5Ngxn.AzNdZMsGO8DwQSfB"
+    }
+  ],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777640819735,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "3TUXAzfCpWg5Ngxn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3TUXAzfCpWg5Ngxn"
+}

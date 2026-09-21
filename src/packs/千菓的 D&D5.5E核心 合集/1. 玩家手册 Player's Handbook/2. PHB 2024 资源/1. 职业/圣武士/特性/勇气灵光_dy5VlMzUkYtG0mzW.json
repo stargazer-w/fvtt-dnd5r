@@ -1,0 +1,101 @@
+{
+  "name": "勇气灵光",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_aura-of-courage.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP]{守护灵光}内盟友获得恐慌免疫。陷入恐慌的盟友进入灵光时，该状态在灵光内会暂时无效。</p><p class=\"item-original\">Aura of Courage</p>",
+      "chat": ""
+    },
+    "identifier": "aura-of-courage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "圣武士"
+  },
+  "effects": [
+    {
+      "name": "勇气灵光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_aura-of-courage.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.dy5VlMzUkYtG0mzW",
+      "_id": "tBxRagtxQzmiCRs7",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得恐慌免疫。如果你已陷入恐慌状态，位于此灵光内时其暂时无效。</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735492902116,
+        "modifiedTime": 1735493276440,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dy5VlMzUkYtG0mzW.tBxRagtxQzmiCRs7"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194995796,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dy5VlMzUkYtG0mzW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dy5VlMzUkYtG0mzW"
+}

@@ -1,0 +1,125 @@
+{
+  "name": "阿斯莫",
+  "type": "race",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/species/aasimar.webp",
+  "system": {
+    "description": {
+      "value": "<p>阿斯莫（音近 AH-sih-mar）的灵魂承载着上层位面之火花，但仍有凡性。他们有些是天使们的血嗣，有些则承接了天界之力，但都能用那火花的力量引来光明，治疗或是天怒。</p><p>阿斯莫可能在任何凡命族群中出现。他们的样貌和父母相似，但是寿命却能长达 160 岁，并且携带着代表其天族传承的特征，比如说金属般的雀斑，闪耀的双眼，头顶光圈，或者天使般的肤色（即银色，亮绿色，或者红铜色）。这些特征都是阿斯莫与生俱来的，并且会随着他们天界本质的显露而愈发醒目。</p><h3>阿斯莫特质</h3><p class=\"journal-original-h3\">Aasimar Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>在选择种族时决定是中型（约 4–7 尺高）还是小型（约 2–4 尺高）</p><p><strong>速度：</strong>30 尺</p><p>作为阿斯莫，你有以下特殊特质：</p><p><em><strong>天界抗性。</strong></em>你对光耀和暗蚀伤害有抗性。</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>治愈之手。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你触碰一个生物，并掷数量等于你熟练加值的 d4 骰。该生物恢复等于掷骰结果总值的生命值。当你使用此特质后，直到你完成一次长休为止都不能再次使用。</p><p><em><strong>光辉掌者。</strong></em>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IjDGjlzyZ8BlIv8s]{光亮术}</em>戏法。其施法属性为魅力。</p><p><em><strong>天启。</strong></em>当你到达 3 级时，你获得以一个&amp;Reference[Bonus Action]{附赠动作}使用下列变身选项之一（在每次进行变身时选择）的能力。变身会持续 1 分钟，或直到你主动结束为止（无需动作）。每当你变身之后，直到你完成一次长休为止都不能再次使用。</p><p>在变身期间，每个你的回合中一次，当你以攻击或法术对一个目标造成伤害时，你可以对其额外造成等于你熟练加值的伤害。该伤害为暗蚀（选择死灵环绕时）或光耀（选择天堂飞翼与内耀辉光时）伤害。</p><p>变身选项如下：</p><p><strong>天堂飞翼。</strong>你的后背暂时伸出两片灵体飞翼。直到变身结束前，你获得等于你速度的飞行速度。</p><p><strong>内耀辉光。</strong>你的双眼与嘴巴暂时放出灼热的光芒。持续时间内，你散发出 10 尺&amp;Reference[Bright Light]{明亮光照}和再往外 10 尺的&amp;Reference[Dim Light]{微光光照}。在你每个回合结束时，每个位于你 10 尺内的生物都会受到等于你熟练加值的光耀伤害。</p><p><strong>死灵环绕。</strong>你的双目暂时变得如同黑暗深潭一般，无法飞行的双翼从你的背上涌出。除你盟友外，任何在你 10 尺内能够看到你的生物都必须通过一次[[/save cha]]{魅力豁免}（DC = 8 + 你的熟练加值 + 你的魅力调整值），否则将会陷入&amp;Reference[frightened]{恐慌}状态直到你的下一回合结束。</p>",
+      "chat": ""
+    },
+    "identifier": "aasimar",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "1P6xFzbXPoDqJUwf",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm",
+            "med"
+          ]
+        },
+        "level": 0,
+        "title": "体型",
+        "hint": "在选择种族时决定是中型（约 4–7 尺高）还是小型（约 2–4 尺高）。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+        "value": {}
+      },
+      {
+        "_id": "95p14DnOj9UH90jo",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.os6NzGjdkvEBv6zM"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7pXDRy2GLWVWnsfo"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.iHGTayWt8TNT9PnF"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "阿斯莫特质",
+        "hint": "你的种族赋予你以下特质。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "_id": "Eg2JetEPnNm6mYfm",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.av3P8KhYyVxdqLBC"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "阿斯莫特质",
+        "hint": "你的种族赋予你以下特质。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "custom": "",
+      "subtype": "阿斯莫"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729940303502,
+    "modifiedTime": 1777694092468,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "1oV0rwHdyiciBr4d",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1oV0rwHdyiciBr4d"
+}

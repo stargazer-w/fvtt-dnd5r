@@ -7,6 +7,9 @@
   "scripts": {
     "unpack": "node tools/unpack.mjs",
     "build": "node tools/build.mjs",
+    "check": "node tools/check.mjs",
+    "folders": "node tools/folders.mjs",
+    "folders:write": "node tools/folders.mjs --write",
     "verify": "node tools/verify.mjs",
     "dev": "node tools/dev.mjs"
   },

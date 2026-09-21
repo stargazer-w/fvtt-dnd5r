@@ -1,0 +1,195 @@
+{
+  "name": "拉瑞心灵联结",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_rarys-telepathic-bond.webp",
+  "system": {
+    "activities": {
+      "FdxUGDQzGUNXRGJF": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "FdxUGDQzGUNXRGJF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "u0gYYgELODe7MP42"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与施法距离内你选择的至多八名自愿生物在法术持续时间内建立心灵连线。不能以任何语言进行沟通的生物不受该法术影响。</p><p>直到法术终止，所有受术生物都可以通过心灵连线与其他受术生物进行心灵感应，而不论他们是否语言相通。该交流方式可以跨越任意远近的距离但不能跨存在位面。</p><p class=\"item-original\">Rary's Telepathic Bond</p>",
+      "chat": ""
+    },
+    "identifier": "rarys-telepathic-bond",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "两颗蛋",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "心灵联结",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_rarys-telepathic-bond.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Cm2MSSExmO3kXWP7",
+      "transfer": false,
+      "_id": "u0gYYgELODe7MP42",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你可以通过这个心灵连线与其他受术生物进行心灵感应，而不论是否语言相通。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733292260138,
+        "modifiedTime": 1734784775424,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Cm2MSSExmO3kXWP7.u0gYYgELODe7MP42"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194957832,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Cm2MSSExmO3kXWP7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Cm2MSSExmO3kXWP7"
+}

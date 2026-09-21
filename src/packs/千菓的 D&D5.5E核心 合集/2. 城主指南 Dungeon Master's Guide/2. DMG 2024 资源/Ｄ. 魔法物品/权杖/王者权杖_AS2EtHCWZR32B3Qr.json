@@ -1,0 +1,1499 @@
+{
+  "name": "王者权杖",
+  "system": {
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QrBHTuvWdVcPfcoZ]{权杖}，传说（需同调）</em></p><p>这把权杖顶端有尖刺状凸起，其可以被用作一把魔法@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FGjUVf3Ed9zjarRt]{硬头锤}。你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。王者权杖的杖柄上排列着六个不同的按钮，用来启动权杖的相应属性，它还有三个额外词条。词条的描述见下文：</p><p><em><strong>按钮。</strong></em>你能够以一个&amp;Reference[Bonus Action]{附赠动作}按压下列按钮之一。按钮的效应将持续生效，直至你按压另一个按钮或再次按压同一个按钮。再次按压同一个按钮将使权杖变回通常形态。</p><p><strong>　　按钮 1。</strong>烈焰覆盖的刀刃从权杖凸缘的另一端伸出。火焰发出半径 40 尺的&amp;Reference[Bright Light]{明亮光照}以及额外 40 尺的&amp;Reference[Dim Light]{微光光照}，剑刃可以被用作一柄魔法@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rmSJn9nJpCyK85Zt]{长剑}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VaSejvkOe0FtpfH5]{短剑}（由你选择），命中时额外造成 2d6 火焰伤害。</p><p><strong>　　按钮 2。</strong>权杖凸缘头向下折叠，弹出两片月牙状斧刃，这使得权杖变为一柄魔法@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8RnXJkdQuguu8wL1]{战斧}。你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。</p><p><strong>　　按钮 3。</strong>权杖凸缘头向下折叠，杖柄顶端弹出矛尖，杖柄伸长至 6 尺，将权杖变为一把魔法@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KRjK6FwloGxEsjrN]{矛}。你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。</p><p><strong>　　按钮 4。</strong>权杖将变为一根至多 50 尺长的爬杆（长度由你指定），但权杖的按钮仍在你触及内。在花岗岩一般坚硬的表面上，爬杆尾部的岩钉和顶部的三个爪钩可以固定住爬杆。爬杆上每隔 1 尺向侧面伸展出一根 3 寸长的水平杆，构成一架梯子。爬杆最多可以承受 4000 磅的重量。如果超重或是失去固定点，则爬杆将会变回权杖。</p><p><strong>　　按钮 5。</strong>权杖将变为一把手持式攻城锤。用它破坏门、路障或其他障碍时，持用者进行的力量（运动）检定获得 +10 加值。</p><p><strong>　　按钮 6。</strong>权杖将变回或维持通常形态，并指出地磁北极。（如果权杖所在的地点并没有地磁北极的概念，则此功能无效。）权杖还会让你了解到自己在地下的大致深度或在地上的高度。</p><p><em><strong>吸取生命。</strong></em>当你以权杖发动的近战攻击命中一名生物时，你可以迫使目标进行一次[[/save activity=bYM7fDVBMDcCXaZP format=long]]。豁免失败则目标额外受到 4d6 暗蚀伤害，而你恢复等于此暗蚀伤害值一半的生命值。该词条一经使用，直至次日黎明你都无法再次使用。</p><p><em><strong>麻痹。</strong></em>当你以权杖发动的近战攻击命中一名生物时，你可以迫使目标进行一次[[/save activity=PncJNGEtNUrj5AXc format=long]]。豁免失败则目标陷入&amp;Reference[paralyzed]{麻痹}状态，持续 1 分钟。目标在其每回合结束时都可以重新豁免，豁免成功则结束该效应。该词条一经使用，直至次日黎明你都无法再次使用。</p><p><em><strong>惊惧。</strong></em>持握此权杖期间，你能够以一个&amp;Reference[Magic]{魔法}动作迫使位于你 30 尺内你可见的每名生物进行一次[[/save activity=LRk6sWq0gg05gfng format=long]]。豁免失败则目标将陷入&amp;Reference[frightened]{恐慌}状态，持续 1 分钟。陷入恐慌状态的目标在其每回合结束时都可以重新豁免，豁免成功则结束其身上的该效应。该词条一经使用，直至次日黎明你都无法再次使用。</p><p class=\"item-original\">Rod of Lordly Might</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 200000,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "DMG 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": true,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "mace"
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "proficient": null,
+    "activities": {
+      "KiHlb6kIDAvWmnhv": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 500000,
+        "_id": "KiHlb6kIDAvWmnhv",
+        "name": "攻击",
+        "img": "",
+        "appliedEffects": []
+      },
+      "etranUmqbBWqu7kb": {
+        "type": "enchant",
+        "name": "按钮",
+        "_id": "etranUmqbBWqu7kb",
+        "sort": 100000,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "按钮"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "FvMpmGezMQloW9WQ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "DYaYz4efI5ZHafO1",
+                "y4xPJ4H2mkvnoGKe"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "IVSGCEwRJORjkh1z",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "KtCrsGEa8cbEGQqq"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "LHIaug8BpLqYTW6m",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "DYaYz4efI5ZHafO1",
+                "y4xPJ4H2mkvnoGKe"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "6JULzzVETr8byt9d",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "KtCrsGEa8cbEGQqq",
+                "tnNwzjJhMiV40kJX"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "KCuZFtUzyE9GfapV",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "MCrZLEAyFHMqabJZ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "20I2VCCuRNZ7g31z",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "KiHlb6kIDAvWmnhv"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        }
+      },
+      "bYM7fDVBMDcCXaZP": {
+        "type": "save",
+        "name": "吸取生命",
+        "_id": "bYM7fDVBMDcCXaZP",
+        "sort": 200000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "吸取生命"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 4,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        }
+      },
+      "PncJNGEtNUrj5AXc": {
+        "type": "save",
+        "name": "麻痹",
+        "sort": 300000,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "麻痹"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "VgIN5OHVMjOOJVGO",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        },
+        "_id": "PncJNGEtNUrj5AXc"
+      },
+      "LRk6sWq0gg05gfng": {
+        "type": "save",
+        "name": "惊惧",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "惊惧"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "dHX9nL8PfijGtj0M",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "17"
+          }
+        },
+        "_id": "LRk6sWq0gg05gfng"
+      },
+      "KtCrsGEa8cbEGQqq": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": false,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "6",
+              "bonus": "@mod",
+              "types": [
+                "piercing"
+              ]
+            }
+          ]
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 600000,
+        "name": "攻击",
+        "_id": "KtCrsGEa8cbEGQqq",
+        "img": "",
+        "appliedEffects": []
+      },
+      "DYaYz4efI5ZHafO1": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": false,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "8",
+              "bonus": "@mod",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 700000,
+        "name": "攻击",
+        "_id": "DYaYz4efI5ZHafO1",
+        "img": "",
+        "appliedEffects": []
+      },
+      "y4xPJ4H2mkvnoGKe": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": false,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "10",
+              "bonus": "@mod",
+              "types": [
+                "slashing"
+              ]
+            }
+          ]
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 900000,
+        "name": "攻击 (多用)",
+        "_id": "y4xPJ4H2mkvnoGKe",
+        "img": "",
+        "appliedEffects": []
+      },
+      "tnNwzjJhMiV40kJX": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": false,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "8",
+              "bonus": "@mod",
+              "types": [
+                "piercing"
+              ]
+            }
+          ]
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 1000000,
+        "name": "攻击 (多用)",
+        "_id": "tnNwzjJhMiV40kJX",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "ammunition": {},
+    "mastery": "sap",
+    "identifier": "rod-of-lordly-might"
+  },
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ROD_rod-of-lordly-might.webp",
+  "effects": [
+    {
+      "name": "瘫痪",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_physical.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.AS2EtHCWZR32B3Qr",
+      "transfer": false,
+      "_id": "VgIN5OHVMjOOJVGO",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[paralyzed]{麻痹}状态。</p><p>在每个你的回合结束时，你可以进行一次[[/save con 17 format=long]]，豁免成功则结束该效应。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "paralyzed"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759901262829,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.VgIN5OHVMjOOJVGO"
+    },
+    {
+      "name": "畏惧",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_physical.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.AS2EtHCWZR32B3Qr",
+      "transfer": false,
+      "_id": "dHX9nL8PfijGtj0M",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[frightened]{恐慌}状态。</p><p>在每个你的回合结束时，你可以进行一次[[/save wis 17 format=long]]，豁免成功则结束该效应。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759901281501,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.dHX9nL8PfijGtj0M"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 1（长剑）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "_id": "FvMpmGezMQloW9WQ",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{}（长剑）",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d6\", \"fire\"]]",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_flame-tongue.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.FvMpmGezMQloW9WQ"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 1（短剑）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{}（短剑）",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 3,
+          "value": "0",
+          "priority": null
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"2d6\", \"fire\"]]",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_flame-tongue.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "IVSGCEwRJORjkh1z",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.IVSGCEwRJORjkh1z"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 2（战斧）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{}（战斧）",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/WPN_battleaxe.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "LHIaug8BpLqYTW6m",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.LHIaug8BpLqYTW6m"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 3（矛）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "{}（矛）",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/WPN_spear.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "6JULzzVETr8byt9d",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.6JULzzVETr8byt9d"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 4（爬杆）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_pole.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "KCuZFtUzyE9GfapV",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.KCuZFtUzyE9GfapV"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 5（攻城锤）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_ram-portable.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "MCrZLEAyFHMqabJZ",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.MCrZLEAyFHMqabJZ"
+    },
+    {
+      "type": "enchantment",
+      "name": "按钮 6（硬头锤）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_enchant.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "20I2VCCuRNZ7g31z",
+      "_key": "!items.effects!AS2EtHCWZR32B3Qr.20I2VCCuRNZ7g31z"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "DYaYz4efI5ZHafO1",
+          "y4xPJ4H2mkvnoGKe",
+          "KtCrsGEa8cbEGQqq",
+          "tnNwzjJhMiV40kJX",
+          "KiHlb6kIDAvWmnhv"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757250878573,
+    "modifiedTime": 1758729441029,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AS2EtHCWZR32B3Qr",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!AS2EtHCWZR32B3Qr"
+}

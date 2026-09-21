@@ -1,0 +1,81 @@
+{
+  "name": "灵魂之刃",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_soul-blades.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你现在能够通过念刃使用以下能力。</p><p><em><strong>寻的斩击。</strong></em>如果你在使用念刃进行攻击检定时没有命中目标，你可以掷一枚灵能骰，并将掷骰结果加到这次攻击检定中。如果这使攻击变为了命中，那枚灵能骰将被消耗。</p><p><em><strong>心灵传送。</strong></em>以一个&amp;Reference[Bonus Action]{附赠动作}，你塑造一把念刃，消耗并投掷一枚灵能骰，将心灵之刃投掷到至多距离灵能骰结果数字十倍尺数的一处可见的未被占据的空间内。你传送到目标位置，同时那把念刃将消失。</p><p class=\"item-original\">Soul Blades</p>",
+      "chat": ""
+    },
+    "identifier": "soul-blades",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魂刃",
+    "advancement": [
+      {
+        "_id": "1INBGkI37GSQE9mD",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Tp8KXk7zJ3cY5OqM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.17EiQZ97zSEtkTNP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "灵魂之刃",
+        "hint": "这个特性为你提供了以下子项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_rogue_soulknife_soul-blades.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777657435092,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "OwUXfKqnAPDWhti4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!OwUXfKqnAPDWhti4"
+}

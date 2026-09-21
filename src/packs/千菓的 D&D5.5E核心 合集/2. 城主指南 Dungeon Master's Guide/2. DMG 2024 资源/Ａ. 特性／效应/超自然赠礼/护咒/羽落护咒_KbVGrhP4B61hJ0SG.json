@@ -1,0 +1,60 @@
+{
+  "name": "羽落护咒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GIFT_charm_azure.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>超自然赠礼（护咒）</p><p>该护咒可以让你获得<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.H5mI2jHx3f1ybKeC]{羽落戒指}</em>的增益。该增益持续 10 日，随后该护符便会从你身上消失。</p><p class=\"item-original\">Charm of Feather Falling</p>",
+      "chat": ""
+    },
+    "identifier": "charm-of-feather-falling",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "supernaturalGift",
+      "subtype": "charm"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750520888975,
+    "modifiedTime": 1761896446620,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "KbVGrhP4B61hJ0SG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!KbVGrhP4B61hJ0SG"
+}

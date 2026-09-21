@@ -1,0 +1,320 @@
+{
+  "name": "变巨术／缩小术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enlarge-reduce.webp",
+  "system": {
+    "activities": {
+      "WT2t9JPRDgS03vUD": {
+        "type": "utility",
+        "name": "变巨",
+        "_id": "WT2t9JPRDgS03vUD",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "FNKstsja218z8tke"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enlarge-reduce_enlarge.webp",
+        "appliedEffects": [
+          "FNKstsja218z8tke"
+        ]
+      },
+      "sKlnXc7oxVtq9M9v": {
+        "type": "utility",
+        "name": "缩小",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "UWdYHRUcoa5RRvWx"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enlarge-reduce_reduce.webp",
+        "_id": "sKlnXc7oxVtq9M9v",
+        "appliedEffects": [
+          "FNKstsja218z8tke"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在法术持续时间内，法术使施法距离内一个你可见的生物或物件的大小发生改变（见下可选效应）。若你以物件为目标，则其不能被着装或携带。如果目标为非自愿生物，则其可以进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。豁免成功则法术无效。</p><p>如果目标是生物，则其着装物和携带物的尺寸也随之变化。随后任何从该生物身上脱离的物品都会立即恢复为正常大小。一把投掷武器或一枚弹药在命中或未命中目标后会恢复为正常大小。</p><p><em><strong>变巨。</strong></em>目标的体型增大一级（如中型到大型）。目标在力量检定和力量豁免时具有优势。目标使用变巨的武器发动攻击或进行徒手打击时，命中时将额外造成 1d4 点伤害。</p><p><em><strong>缩小。</strong></em>目标的体型缩小一级（如中型到小型）。目标在力量检定和力量豁免时具有劣势。目标使用缩小的武器发动攻击或进行徒手打击时，命中时将额外减少 1d4 点伤害。</p><p class=\"item-original\">Enlarge/Reduce</p>",
+      "chat": ""
+    },
+    "identifier": "enlarge-reduce",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "一撮铁粉",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creatureOrObject",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "变巨",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enlarge-reduce_enlarge.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.scYPQAmh5NO3cnO8",
+      "transfer": false,
+      "_id": "FNKstsja218z8tke",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的体型增大一级（如从中型变为大型）。</p><p>你在力量检定和力量豁免时具有优势。</p><p>当你使用武器或徒手打击命中目标时，将额外造成 1d4 点伤害。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732424192474,
+        "modifiedTime": 1734767194263,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!scYPQAmh5NO3cnO8.FNKstsja218z8tke"
+    },
+    {
+      "name": "缩小",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enlarge-reduce_reduce.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.scYPQAmh5NO3cnO8",
+      "transfer": false,
+      "_id": "UWdYHRUcoa5RRvWx",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "- 1d4",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "- 1d4",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的体型缩小一级（如从中型变为小型）。</p><p>你在力量检定和力量豁免时具有劣势。</p><p>当你使用武器或徒手打击命中目标时，伤害将减少 1d4 点。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732424344783,
+        "modifiedTime": 1734767208233,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!scYPQAmh5NO3cnO8.UWdYHRUcoa5RRvWx"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195320939,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "scYPQAmh5NO3cnO8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!scYPQAmh5NO3cnO8"
+}

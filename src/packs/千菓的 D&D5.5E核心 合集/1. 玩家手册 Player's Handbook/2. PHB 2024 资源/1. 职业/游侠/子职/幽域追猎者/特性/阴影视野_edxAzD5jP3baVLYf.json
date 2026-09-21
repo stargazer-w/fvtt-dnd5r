@@ -1,0 +1,101 @@
+{
+  "name": "阴影视野",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_gloom-stalker_umbral-sight.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得 60 尺黑暗视觉。如果你获得本特性时已拥有了黑暗视觉，那个黑暗视觉的范围增加 60 尺。</p><p>你还擅长避开依赖黑暗视觉的角色。在完全身处黑暗期间，对于任何依靠黑暗视觉观察黑暗中的你的生物而言，你具有&amp;Reference[invisible]{隐形}状态。</p><p class=\"item-original\">Umbral Sight</p>",
+      "chat": ""
+    },
+    "identifier": "umbral-sight",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "幽域追猎者"
+  },
+  "effects": [
+    {
+      "name": "阴影视野",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_gloom-stalker_umbral-sight.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.edxAzD5jP3baVLYf",
+      "_id": "cVs11vdNZbzR47CA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 2,
+          "value": "60",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735895778886,
+        "modifiedTime": 1735895787274,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!edxAzD5jP3baVLYf.cVs11vdNZbzR47CA"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194997229,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "edxAzD5jP3baVLYf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!edxAzD5jP3baVLYf"
+}

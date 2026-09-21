@@ -1,0 +1,165 @@
+{
+  "name": "斗转星移",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_archfey_beguiling-defenses.webp",
+  "system": {
+    "activities": {
+      "hoqcoRPaEUfuuNsa": {
+        "type": "save",
+        "_id": "hoqcoRPaEUfuuNsa",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你的宗主教会你如何通过逆转敌人所施展的心智魔法对付其自身。你获得对魅惑状态的免疫。</p><p>此外，当一个你能看见的敌人攻击命中你时，你可以用&amp;Reference[Reaction]{反应}令该次攻击的伤害减半（向下取整），且你可以迫使攻击者进行一次对抗你法术豁免 DC 的[[/save]]{感知豁免}，豁免失败则受到等于你受到的伤害的心灵伤害。一旦你使用了此反应，你就不能再使用它，直到你完成一次长休或是消耗一枚契约魔法特性的法术位（无需动作）来恢复其使用次数。</p><p class=\"item-original\">Beguiling Defenses</p>",
+      "chat": ""
+    },
+    "identifier": "beguiling-defenses",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "至高妖精宗主",
+    "advancement": [
+      {
+        "_id": "P1HvyqG4d4xyOtWh",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "ci:charmed"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 10,
+        "title": "斗转星移",
+        "hint": "你获得对魅惑状态的免疫。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777581511055,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "Alxmuzx0EyMKvTGT",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Alxmuzx0EyMKvTGT"
+}

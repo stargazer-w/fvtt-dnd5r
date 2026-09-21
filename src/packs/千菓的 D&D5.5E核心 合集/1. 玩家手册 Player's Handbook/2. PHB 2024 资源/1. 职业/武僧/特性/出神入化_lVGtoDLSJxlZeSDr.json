@@ -1,0 +1,56 @@
+{
+  "name": "出神入化",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_heightened-focus.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KaqqaeWjS5jBHmDl]{疾风连击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.P87oF9z9S8npAVCn]{坚强防御}和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.z5VEfRThm5s9Q2Bs]{快步如风}获得以下增益。</p><p><em><strong>疾风连击。</strong></em>你消耗功力施展疾风连击时可以进行三次攻击而非两次。</p><p><em><strong>坚强防御。</strong></em>当你消耗功力使用坚强防御时，你获得相当于你两个武艺骰的临时生命值。</p><p><em><strong>快步如风。</strong></em>当你消耗功力使用快步如风时，你可以选择你周围 5 尺内一个体型为大型或更小的自愿生物。在你的回合结束前，该生物将一直随你移动。该生物如此移动不会触发借机攻击。</p><p class=\"item-original\">Heightened Focus</p>",
+      "chat": ""
+    },
+    "identifier": "heightened-focus",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "武僧"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195009100,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "lVGtoDLSJxlZeSDr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!lVGtoDLSJxlZeSDr"
+}

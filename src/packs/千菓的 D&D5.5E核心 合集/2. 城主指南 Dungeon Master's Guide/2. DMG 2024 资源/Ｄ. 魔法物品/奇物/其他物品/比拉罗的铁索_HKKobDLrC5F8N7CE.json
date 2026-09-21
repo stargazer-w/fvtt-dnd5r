@@ -1,0 +1,222 @@
+{
+  "name": "比拉罗的铁索",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_iron-bands-of-bilarro.webp",
+  "system": {
+    "activities": {
+      "hxSUx7Hdbe9pf2RR": {
+        "type": "attack",
+        "_id": "hxSUx7Hdbe9pf2RR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "r8Q0sdX9FDeawi74"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "weapon"
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "抛掷"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这颗锈迹斑斑的铁球直径 3 寸，重 1 磅。你可以使用一个&amp;Reference[Magic]{魔法}动作将铁球扔向 60 尺内一个你可见的巨型或更小体型的生物。铁球会在空中飞行时展开成为一团铁索。</p><p>进行一次远程攻击检定，将你的熟练加值和敏捷调整值加到这次攻击检定中。如果攻击命中，目标会陷入&amp;Reference[restrained]{束缚}状态，直至你使用一个&amp;Reference[BonusAction]{附赠动作}下令释放它。如果攻击未命中，或是你下达了释放命令，铁索会重新收缩为铁球。</p><p>一个能触及到铁索的生物（包括被铁索束缚的生物）可以使用一个动作进行一次[[/skill ath 20 format=long]]来尝试打破铁索。如果检定成功，此物品将被摧毁，被束缚的生物将被释放。如果检定失败，进行此次检定的生物在随后的 24 小时内进行的任何尝试都会自动失败。</p><p>此铁索一经使用，直至次日黎明前它都无法再次被使用。</p><p class=\"item-original\">Iron Bands of Bilarro</p>",
+      "chat": ""
+    },
+    "identifier": "iron-bands-of-bilarro",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "铁索禁锢",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_iron-bands-of-bilarro.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.HKKobDLrC5F8N7CE",
+      "transfer": false,
+      "_id": "r8Q0sdX9FDeawi74",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[restrained]{束缚}状态。</p><p>一个能触及到铁索的生物可以使用一个动作进行一次[[/skill ath 20 format=long]]来尝试打破铁索。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761896049174,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HKKobDLrC5F8N7CE.r8Q0sdX9FDeawi74"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895707285,
+    "modifiedTime": 1761895874272,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "HKKobDLrC5F8N7CE",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!HKKobDLrC5F8N7CE"
+}

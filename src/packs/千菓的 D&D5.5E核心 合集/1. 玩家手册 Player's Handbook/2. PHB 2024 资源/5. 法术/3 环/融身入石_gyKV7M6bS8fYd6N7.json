@@ -1,0 +1,143 @@
+{
+  "name": "融身入石",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_meld-into-stone.webp",
+  "system": {
+    "activities": {
+      "1C8I67XmtsKnUFPa": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "1C8I67XmtsKnUFPa",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你进入一个足以完全容纳你身体的石料物件或石料表面内，使你自己和你携带的所有装备在法术持续时间内与石料融为一体，你必须接触该石料来做到这一点。此后，任何非魔法的感官都无法看到或侦测到你的存在。</p><p>与石料融合后，你看不到外界发生了什么，并且你为了聆听外界声音而进行的任何感知（察觉）检定都具有劣势。与石头融合时，你仍能感觉到时间的流逝，也可以对自己施展法术。你无法移动，但可以消耗 5 尺移动力从进入石头的地方离开石内，法术随之终止。</p><p>石头所受的轻微损伤不会对你造成伤害，不过石头部分损毁或者形状改变时（改变到不再适合容纳你的程度），会将你从石中排挤出并对你造成 6d6 的力场伤害。石头完全损毁（或材质改变）时，也会将你从石中排挤出并对你造成 50 点力场伤害。被排挤出石头时，你移动至距离第一次进入石头处最近的一处未被占据的空间位置，并陷入&amp;Reference[prone]{倒地}状态。</p><p class=\"item-original\">Meld Into Stone</p>",
+      "chat": ""
+    },
+    "identifier": "meld-into-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "8"
+    },
+    "level": 3,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "ritual"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195001775,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gyKV7M6bS8fYd6N7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gyKV7M6bS8fYd6N7"
+}

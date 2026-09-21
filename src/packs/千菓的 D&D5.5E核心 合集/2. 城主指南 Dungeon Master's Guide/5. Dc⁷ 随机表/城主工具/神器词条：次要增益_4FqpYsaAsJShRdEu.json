@@ -1,0 +1,263 @@
+{
+  "name": "神器词条：次要增益",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.iA3mHmvlXvWKlyBo#神器的词条]{次要增益词条}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        20
+      ],
+      "drawn": false,
+      "_id": "y7KRc8hT50WtXxqk",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你获得一项由 DM 所选择的技能熟练。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.y7KRc8hT50WtXxqk"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "Yoy0SHIdOYgZGiTY",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你具有对中毒状态的免疫。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.Yoy0SHIdOYgZGiTY"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "Zoj4ujJTAU9s6mMr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你具有对魅惑状态与恐慌状态的免疫。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.Zoj4ujJTAU9s6mMr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "_id": "Cw6DEilVzVArhBg6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你具有对由 DM 所选择的一项伤害类型的抗性。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.Cw6DEilVzVArhBg6"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "_id": "IufmWoFGgqqBnLdo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你可以从该神器中施展一道戏法（戏法由 DM 选择）。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.IufmWoFGgqqBnLdo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "_id": "Ww90YT73uhFSDuvZ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你可以从该神器中施展一道 1 环法术（法术由 DM 选择）。在你施展该法术后，掷 1d6。若结果为 1–5，则直至次日黎明，你无法再次以此方式施展该法术。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.Ww90YT73uhFSDuvZ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_id": "AcODEruj8Zb11M9I",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "如 61–70 一行所述，除了把法术环阶改为 2 环。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.AcODEruj8Zb11M9I"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_id": "7OGgDM2XFOZlqOeC",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "如 61–70 一行所述，除了把法术环阶改为 3 环。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.7OGgDM2XFOZlqOeC"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        100
+      ],
+      "drawn": false,
+      "_id": "4KZjuFRxv91XUmRj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "在与该神器同调期间，你的护甲等级获得 +1 加值。",
+      "name": "",
+      "_key": "!tables.results!4FqpYsaAsJShRdEu.4KZjuFRxv91XUmRj"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750388068925,
+    "modifiedTime": 1756869855294,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "4FqpYsaAsJShRdEu",
+  "sort": 1500000,
+  "_key": "!tables!4FqpYsaAsJShRdEu"
+}

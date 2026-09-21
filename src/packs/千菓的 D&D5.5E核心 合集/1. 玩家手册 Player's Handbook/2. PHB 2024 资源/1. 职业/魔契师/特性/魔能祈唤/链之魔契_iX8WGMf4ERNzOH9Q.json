@@ -1,0 +1,121 @@
+{
+  "name": "链之魔契",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_eldritchInvocation_pact-of-the-chain.webp",
+  "system": {
+    "activities": {
+      "CZbn4VT9lyGDP4E9": {
+        "type": "cast",
+        "_id": "CZbn4VT9lyGDP4E9",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": true
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": "1",
+          "properties": [],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.rmW7l1rm1mqAacaA"
+        },
+        "name": "寻获魔宠",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你习得法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rmW7l1rm1mqAacaA]{寻获魔宠}</em>且能以一动作施展它，无需消耗法术位。</p><p>每当你施展该法术，并为你的魔宠选择形态时，除了通常的形态选项，你还可以改为选择下列特殊形态之一：@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Jl6ixuTZqV7rO1eA]{小魔鬼}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.WvTpIexEUeCggAbi]{伪龙}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.k9U7d11rmMtTDEMg]{夸塞魔}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0NSEwg9YpNbAD9QS]{骷髅}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.cB4WmMzB0HwhaFQI]{史拉蟾蝌蚪}，@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.x7d58EUfTAd0vZT2]{求索斯芬克斯}，@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0SJ8EERAteDrD2m3]{小妖精}或@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.UamPjSPbtKImotPp]{毒蛇}。</p><p>此外，当你执行&amp;Reference[Attack]{攻击}动作时可以放弃所有攻击中的一次攻击，转而让你的魔宠使用其反应发动一次攻击。</p><p class=\"item-original\">Pact of the Chain</p>",
+      "chat": ""
+    },
+    "identifier": "pact-of-the-chain",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "eldritchInvocation"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魔契师"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731681861737,
+    "modifiedTime": 1758195004075,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iX8WGMf4ERNzOH9Q",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iX8WGMf4ERNzOH9Q"
+}

@@ -1,0 +1,135 @@
+{
+  "name": "庇护权杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ROD_rod-of-security.webp",
+  "system": {
+    "activities": {
+      "Qx7qqEy2KRW0AKuK": {
+        "type": "utility",
+        "_id": "Qx7qqEy2KRW0AKuK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QrBHTuvWdVcPfcoZ]{权杖}，极珍稀</em></p><p>当持握这根权杖时，你可以执行&amp;Reference[Magic]{魔法}动作来激活它。权杖会立刻将你和你可见的至多 199 名自愿生物传送入一个半位面。你选择半位面所呈现的形式。它可以是宁静的花园、热闹的酒馆、宏伟的宫殿、热带岛屿、梦幻般的嘉年华，或者任何你能想象的场景。无论性质如何，这个半位面有足够的食物和水供访客享用，并且半位面的任何环境都无法伤害到其中的居住者们。此处一切可交互的事物都只能存在于该半位面中。例如，把半位面中花园里摘的花带出半位面时，该花将消失。</p><p>在半位面里每度过 1 小时，访客们都能如同花费了 1 个生命骰一般地恢复生命值。并且尽管半位面中时间将正常流动，但其中的生物不会变老。访客们可以在此停留最多 200 除以生物数量的天数（向下取整）。</p><p>当停留时间耗尽或你执行&amp;Reference[Magic]{魔法}动作以结束该效应时，所有访客都会重新出现在权杖激活前的位置或该位置最近的未占据的空间里。该词条被使用后，直至过去 10 天时间才能再次使用。</p><p class=\"item-original\">Rod of Security</p>",
+      "chat": ""
+    },
+    "identifier": "rod-of-security",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "rod",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756971932143,
+    "modifiedTime": 1758204223210,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "v554QGuwgnRwkp6V",
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!v554QGuwgnRwkp6V"
+}

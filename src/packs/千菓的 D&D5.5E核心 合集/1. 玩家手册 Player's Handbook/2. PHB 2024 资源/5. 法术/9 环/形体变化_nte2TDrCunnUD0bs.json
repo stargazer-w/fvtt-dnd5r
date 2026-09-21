@@ -1,0 +1,156 @@
+{
+  "name": "形体变化",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_shapechange.webp",
+  "system": {
+    "activities": {
+      "hhgnOqwST2Y6E637": {
+        "type": "utility",
+        "_id": "hhgnOqwST2Y6E637",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "nQDLZrrknpNBjWJF"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在法术持续时间内，你变形为另一个生物。你可以使用&amp;Reference[Magic]{魔法}动作来变形为另一个符合条件的形态。新形态必须是一个挑战等级不高于你的级别或挑战等级的生物。你必须在之前见过该生物至少一次，并且它不能是构装或亡灵。</p><p>当你变形时，你获得等于新形态生命值的临时生命值。如果你没有临时生命值剩下，该法术提前结束。</p><p>你的游戏资料卡替换为选择形态的资料卡，但你保留你的生物类型、阵营、人格、智力、感知、魅力、生命值、生命骰、熟练以及交流的能力。如果你具有施法特性，你同样保留它。</p><p>在变形时，你可以决定你的装备落到地上，或者改变其尺寸和形状来适应你的新形态。</p><p class=\"item-original\">Shapechange</p>",
+      "chat": ""
+    },
+    "identifier": "shapechange",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 9,
+    "materials": {
+      "value": "一只价值至少 1500 GP 的玉环",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195012470,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "nte2TDrCunnUD0bs",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!nte2TDrCunnUD0bs"
+}

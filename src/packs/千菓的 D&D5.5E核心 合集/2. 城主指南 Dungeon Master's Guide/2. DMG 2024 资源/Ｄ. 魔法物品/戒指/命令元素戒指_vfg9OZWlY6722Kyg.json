@@ -1,0 +1,80 @@
+{
+  "name": "命令元素戒指",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_RING_ring-of-elemental-command.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>戒指，传说（需同调）</em></p><p>每枚命令元素戒指都连接着四个元素位面之一。由 DM 选择或随机决定连接着的位面。例如，一枚命令元素戒指（气）连接着气元素位面。</p><p>每枚命令元素戒指都具有以下两种词条：</p><p><strong>元素灾厄。</strong>着装戒指期间，你对元素的攻击检定具有优势，且元素对你的攻击具有劣势。</p><p><strong>元素强令。</strong>着装戒指期间，你可以执行&amp;Reference[Magic]{魔法}动作来尝试强迫一个可见的，位于你 60 尺内的元素服从于你。该元素进行一次[[/save wis 18 format=long]]。豁免失败时，该元素直到你的下个回合开始前陷入&amp;Reference[charmed]{魅惑}状态，且你决定其下一回合进行的的移动和动作。</p><p><em><strong>元素集中。</strong></em>着装戒指期间，你受益于与该戒指连接的元素位面对应的额外词条：</p><p><strong>气。</strong>你理解气族语，你对闪电伤害具有抗性，你获得等于你的速度的飞行速度并且可以悬浮。</p><p><strong>土。</strong>你理解土族语，你对强酸伤害具有抗性。你无视因碎石、岩石或泥土造成的困难地形。此外，你可以在固态土地或岩石内部穿行，如同它们是困难地形一般，且不会影响你所穿过的物质。如果你在固态土地或岩石中结束你的回合，你会被推回你先前所处的最近的未占据空间。</p><p><strong>火。</strong>你理解火族语，你对火焰伤害具有免疫。</p><p><strong>水。</strong>你理解水族语，你获得 60 尺游泳速度并且可以在水下呼吸。</p><p><em><strong>施法。</strong></em>这枚戒指具有 5 充能，并在每日黎明时重获 1d4 + 1 已消耗的充能。着装戒指期间，你可以从中施展法术。根据戒指连接的元素位面，从以下表格中选择对应的法术，施展相应法术所需的充能数如该表所示，法术的豁免 DC 为 18。</p><table><thead><tr><th>位面</th><th>法术（充能数）</th></tr></thead><tbody><tr><td>气</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.evALu9oJV22vvn5i]{羽落术}</em>（0 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XLp80cYXVhuSXxlh]{风墙术}</em>（1 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2pt4h2Fe1kf8ZhcN]{造风术}</em>（2 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.f74PasucJ5nKKKzz]{连锁闪电}</em>（3 充能）</td></tr><tr><td>土</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8IB5rTZNCLJMU8TM]{塑石术}</em>（2 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sgfF4dShcwoZfRt7]{石肤术}</em>（3 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FwtQ4ewj6dhJswqg]{石墙术}</em>（3 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rE0BCrb9X6Lm4ByM]{地震术}</em>（5 充能）</td></tr><tr><td>火</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4]{燃烧之手}</em>（1 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>（2 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw]{火墙术}</em>（3 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1WpU2I7Fm35TkL8l]{火焰风暴}</em>（4 充能）</td></tr><tr><td>水</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.udKSYj0yFWyn8PSs]{枯水术／造水术}</em>（1 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5YU6YLSuUuu1Kd7E]{冰风暴}</em>（2 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7cpUXBjzHEYUzrWs]{水上行走}</em>（2 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CKyaVRtvJngRx2h7]{冰墙术}</em>（3 充能）、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CqK2WYvTZm48uv35]{海啸术}</em>（5 充能）</td></tr></tbody></table><p class=\"item-original\">Ring of Elemental Command</p>",
+      "chat": ""
+    },
+    "identifier": "ring-of-elemental-command",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "ring",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751966728241,
+    "modifiedTime": 1758466148248,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "vfg9OZWlY6722Kyg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!vfg9OZWlY6722Kyg"
+}

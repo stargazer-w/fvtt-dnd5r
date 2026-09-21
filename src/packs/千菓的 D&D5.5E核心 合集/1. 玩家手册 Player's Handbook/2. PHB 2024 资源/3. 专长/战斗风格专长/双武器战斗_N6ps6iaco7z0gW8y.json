@@ -1,0 +1,59 @@
+{
+  "name": "双武器战斗",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_fightingStyle_two-weapon-fighting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>战斗风格专长（先决：战斗风格特性）</em></p><p>当你因使用具有轻型词条的武器而得以发动追加攻击时，如果这次追加攻击的伤害并未加入你的属性调整值，你可以加入你的属性调整值。</p><p class=\"item-original\">Two-Weapon Fighting</p>",
+      "chat": ""
+    },
+    "identifier": "two-weapon-fighting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "fightingStyle"
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [
+        "fighting-style"
+      ]
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731049483016,
+    "modifiedTime": 1775979022848,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "N6ps6iaco7z0gW8y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!N6ps6iaco7z0gW8y"
+}

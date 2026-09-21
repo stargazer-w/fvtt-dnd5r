@@ -1,0 +1,265 @@
+{
+  "name": "配重投石机",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_trebuchet.webp",
+  "system": {
+    "activities": {
+      "YPCLrSQvTMN8HDEc": {
+        "_id": "YPCLrSQvTMN8HDEc",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "配重投石"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "5"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "配重投石"
+      },
+      "TewbdtD8h4nXDZG5": {
+        "type": "utility",
+        "name": "装填",
+        "sort": -200000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "装填"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "_id": "TewbdtD8h4nXDZG5"
+      }
+    },
+    "uses": {
+      "spent": 2,
+      "recovery": [],
+      "max": "2"
+    },
+    "description": {
+      "value": "<p><em>巨型物件</em></p><p><strong>AC：</strong>15　<strong>HP：</strong>150</p><p><em><strong>配重投石（需要装填与瞄准）。</strong></em>[[/attack extended]]（无法命中 60 尺内的目标）。[[/damage extended]]。</p><p>配重投石机是一种以弧线抛射重型投石的攻城器，其投出的石弹可以越过城墙打击目标。装填和瞄准配重投石机各需要两次&amp;Reference[Utilize]{操作}动作，随后操作手便可执行配重投石动作。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.aNXDI5ilcnTSC53Z]{Trebuchet}</p>",
+      "chat": ""
+    },
+    "identifier": "trebuchet",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 15
+    },
+    "damage": {
+      "base": {
+        "number": 8,
+        "denomination": 10,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": 300,
+      "long": 1200,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "",
+    "hp": {
+      "value": 150,
+      "max": 150,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [],
+  "sort": 12500,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751043113209,
+    "modifiedTime": 1758199879422,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ifvGJKp7PW7RF6KU",
+  "_key": "!items!ifvGJKp7PW7RF6KU"
+}

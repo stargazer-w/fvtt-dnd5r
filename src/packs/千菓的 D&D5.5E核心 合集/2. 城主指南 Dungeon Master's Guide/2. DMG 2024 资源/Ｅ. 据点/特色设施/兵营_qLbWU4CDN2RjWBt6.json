@@ -1,0 +1,94 @@
+{
+  "name": "兵营",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-01.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>5 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>招募</p><p>每个据点可以拥有多个兵营。每个兵营都安置了家具，可以作为至多十二名据点卫兵的宿舍。</p><p><em><strong>招募：据点卫兵。</strong></em>每当你对此设施下达招募指令，至多四位据点卫兵会被招募到你的据点，并被分配到这个兵营中。招募不会花费任何金钱。你不能在这个兵营已经满员的情况下对此设施下达招募指令。</p><p>记录下每个兵营中的据点卫兵。如果你损失了据点卫兵，从你的据点卫兵名单中划掉他们。你可以按自己的喜好为每个据点卫兵分配姓名和个性。</p><p><em><strong>扩大设施。</strong></em>你可以花费 2000 GP，将兵营扩大为庞大设施。一个庞大的兵营可以容纳最多二十四名据点卫兵。</p><p class=\"item-original\">Barrack</p>",
+      "chat": ""
+    },
+    "identifier": "barrack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": 12
+    },
+    "disabled": false,
+    "enlargeable": true,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "barrack"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013109351,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "qLbWU4CDN2RjWBt6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!qLbWU4CDN2RjWBt6"
+}

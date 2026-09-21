@@ -1,0 +1,209 @@
+{
+  "name": "诡术师",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/rogue_arcane-trickster.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>利用奥术魔法强化潜行</p></blockquote><p>有些游荡者会通过法术来进一步提高自己早已炉火纯青的潜行技艺，并学习各类魔法花招来辅助自己的行当。一些诡术师会利用自己的天赋去帮助自己偷盗或入室行窃，而还有一些诡术师则乐于将掌握的魔法化为恶作剧。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.yiBzQeWdFjXrWxY2]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TPL78Y9cK9uejHQ8]{Arcane Trickster}</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-trickster",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.DPAab5PRsRRPtKi7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.EpLPnBE8pxhnAnBR",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.kKRMEUAtOwniN3Ap",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "AJKQMPocFc9KbeVt"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.G5R5kj28TZ0SLUhs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "y2ntu1HCtZCGnovj"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.LrBW2Vc7ajo7i4wz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "uH3t1XNwlFIkeRSv"
+      },
+      {
+        "_id": "euJHhdIZBeLz1Wyc",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 3
+            },
+            "4": {
+              "value": 4
+            },
+            "7": {
+              "value": 5
+            },
+            "8": {
+              "value": 6
+            },
+            "10": {
+              "value": 7
+            },
+            "11": {
+              "value": 8
+            },
+            "13": {
+              "value": 9
+            },
+            "14": {
+              "value": 10
+            },
+            "16": {
+              "value": 11
+            },
+            "19": {
+              "value": 12
+            },
+            "20": {
+              "value": 13
+            }
+          }
+        },
+        "value": {},
+        "title": "准备法术",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp"
+      },
+      {
+        "type": "ScaleValue",
+        "title": "法术环阶",
+        "_id": "KfSbKSbh8KUmOMN7",
+        "configuration": {
+          "identifier": "spelllevel",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 1
+            },
+            "7": {
+              "value": 2
+            },
+            "13": {
+              "value": 3
+            },
+            "19": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "hint": "你提升最大法术环阶，这是你在该职业中所能够准备法术的最大环阶等级。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell-slot.webp"
+      }
+    ],
+    "classIdentifier": "rogue",
+    "spellcasting": {
+      "progression": "third",
+      "preparation": {
+        "formula": "@scale.arcane-trickster.max-prepared"
+      },
+      "ability": "int"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777578819075,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "TPL78Y9cK9uejHQ8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!TPL78Y9cK9uejHQ8"
+}

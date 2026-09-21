@@ -1,0 +1,341 @@
+{
+  "name": "魔豆之袋：效应",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>魔豆之袋</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "pBUFZ0BWjvIwcUDb",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>长出[[/r 5d4]]个毒蕈。吃掉毒蕈的生物必须掷一个任意面数的骰子。 如果骰值为奇数，则食用者必须进行一次[[/save con 15 format=long]]，豁免失败则受[[/damage 5d6 poison]]伤害并陷入&amp;Reference[poisoned]{中毒}状态 1 小时。 如果骰值为偶数，则食用者获得[[/heal 5d6 temp]]，效应持续 1 小时。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.pBUFZ0BWjvIwcUDb"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        10
+      ],
+      "drawn": false,
+      "_id": "0KGME0dUoiuRoU5P",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>喷出一股间歇泉，喷涌达 30 尺高，持续[[/r 1d4]]分钟，喷出的可以是水、啤酒、蛋黄酱、茶、醋、葡萄酒或者油（由 DM 决定）。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.0KGME0dUoiuRoU5P"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        20
+      ],
+      "drawn": false,
+      "_id": "58iSAnXZcMUA5xTU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>长出一个<strong>树人</strong>。掷一个任意面数的骰子，如果骰值为奇数，此树人的阵营为混乱邪恶；如果骰值为偶数，则此树人的阵营为混乱善良。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.58iSAnXZcMUA5xTU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        30
+      ],
+      "drawn": false,
+      "_id": "BJrTwWCH9krP7kaR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一座和你外表相仿但不可移动的活化石雕从地上升起。它会用言语威胁你。如果你离开石雕而其他人靠近它，它就会把你描述成最卑劣的恶棍并引导他们去攻击你。只要你和雕像身处同一位面，它就可以知道你的位置。雕像的活化状态在 24 小时后终止。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.BJrTwWCH9krP7kaR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        31,
+        40
+      ],
+      "drawn": false,
+      "_id": "N9mFTDPWp3GkM4It",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>出现一团跃动着绿色火焰的篝火，其效应持续 24 小时或直到它被熄灭。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.N9mFTDPWp3GkM4It"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        50
+      ],
+      "drawn": false,
+      "_id": "QyRJ30sizRAh443J",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>长出三只<strong>尖叫菌</strong>。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.QyRJ30sizRAh443J"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        60
+      ],
+      "drawn": false,
+      "_id": "5VjVCBuW725tLBLp",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>爬出[[/r 1d4 + 4]]只亮粉色的<strong>蟾蜍</strong>。蟾蜍被触碰时会变成一只大型或更小体型的怪物（由 DM 选择），并依照其阵营和本性行动。怪物存在 1 分钟，然后消失在一阵粉红色的烟雾中。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.5VjVCBuW725tLBLp"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        70
+      ],
+      "drawn": false,
+      "_id": "WRsh0cCYIUM6xJFR",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一只饥饿的<strong>鲨蜥</strong>从地下爬出来并发起攻击。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.WRsh0cCYIUM6xJFR"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        71,
+        80
+      ],
+      "drawn": false,
+      "_id": "uq8V3oTLEceWtTNK",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>长出一棵果树。树上有[[/r 1d10 + 20]]个水果，其中[[/r 1d8]]个作用相当于随机决定的药水。果树将在 1 小时后消失，但摘下来的水果仍保留，其魔法保持 30 天。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.uq8V3oTLEceWtTNK"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        90
+      ],
+      "drawn": false,
+      "_id": "crG9DswJqcNE8bHB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>出现一窝[[/r 1d4 + 3]]个彩虹色的蛋。任何食用了一颗蛋的生物进行一次[[/save con 20 format=long]]，成功则其最低一项属性永久提升 1，多个属性同为最低则随机选定。豁免失败则该生物体内发生爆炸，受到[[/damage 10d6 force]]伤害。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.crG9DswJqcNE8bHB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        95
+      ],
+      "drawn": false,
+      "_id": "sX2Tz5UvogXX0NIA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一座占地为 60 尺方形区域的金字塔从地下升起。金字塔内的墓室中有一只<strong>木乃伊</strong>、一名<strong>木乃伊领主</strong>或其他由 DM 决定的不死生物。墓室石棺内的宝藏由 DM 决定。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.sX2Tz5UvogXX0NIA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        96,
+        100
+      ],
+      "drawn": false,
+      "_id": "8AJCO6EHYubeCpK6",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一颗巨大的豌豆茎从地下长出，其高度由 DM 决定。茎的顶端通往 DM 选择的地点，例如一处宏伟的景点，一座云巨人的城堡，或是另一存在位面。</p>",
+      "name": "",
+      "_key": "!tables.results!2ooDs0QHaCZEGZNo.8AJCO6EHYubeCpK6"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757647183695,
+    "modifiedTime": 1759939166097,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "2ooDs0QHaCZEGZNo",
+  "sort": 25000,
+  "_key": "!tables!2ooDs0QHaCZEGZNo"
+}

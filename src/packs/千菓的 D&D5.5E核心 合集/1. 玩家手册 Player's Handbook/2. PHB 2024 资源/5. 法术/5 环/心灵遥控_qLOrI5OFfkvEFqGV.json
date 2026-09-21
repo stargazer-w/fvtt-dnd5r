@@ -1,0 +1,277 @@
+{
+  "name": "心灵遥控",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_telekinesis.webp",
+  "system": {
+    "activities": {
+      "Wnjen99bZQXmN7d3": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "Wnjen99bZQXmN7d3",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "GkDdZfF11JTisdT7": {
+        "type": "save",
+        "name": "生物遥控",
+        "_id": "GkDdZfF11JTisdT7",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "tBYCff67Fy9DRa9A": {
+        "type": "utility",
+        "name": "物件遥控",
+        "_id": "tBYCff67Fy9DRa9A",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "object"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得以思想移动或操纵生物或物件的能力。你施展法术时或在法术终止前的其后回合中用一个&amp;Reference[Magic]{魔法}动作，你可以向施法距离内可见的一名生物或一个物件伸展你的意志，造成对应的下述效应。你可以一轮接一轮地影响同一个目标，也可以在任何时候选择一个新的目标。如果你改变了目标，则之前的目标将不再受该法术影响。</p><p><em><strong>生物。</strong></em>你可以尝试移动一名巨型或更小的生物。目标必须成功于一次[[/save]]{力量豁免}，否则你可以将其往任意方向移动 30 尺，但不能让它离开施法距离。在你的下个回合结束前，该生物陷入&amp;Reference[restrained]{束缚}状态，而被你举到空中的生物会在半空中悬停。除非你再次使用此选项且目标失败于豁免，否则被举到空中的生物会在你的下个回合结束坠落。</p><p><em><strong>物件。</strong></em>你可以尝试移动一个巨型或更小的物件。如果该物品没有被着装或携带，则你可以自动使它朝任何方向移动 30 尺，但不能让它离开施法距离。</p><p>如果该物件已被一名生物着装或携带，则那名生物必须成功于一次[[/save]]{力量豁免}，否则你可以把目标物件从该生物身上拿走，并且使该物体朝任意方向移动 30 尺，但不能让它离开施法距离。</p><p>你可以使用心灵遥控对物体进行精密操作，例如操纵一件简单的工具，打开一扇门或一个容器，把东西放进或拿出一个打开的容器中，或是把一个小瓶子里的东西倒出来。</p><p class=\"item-original\">Telekinesis</p>",
+      "chat": ""
+    },
+    "identifier": "telekinesis",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creatureOrObject",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534793144,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "qLOrI5OFfkvEFqGV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!qLOrI5OFfkvEFqGV"
+}

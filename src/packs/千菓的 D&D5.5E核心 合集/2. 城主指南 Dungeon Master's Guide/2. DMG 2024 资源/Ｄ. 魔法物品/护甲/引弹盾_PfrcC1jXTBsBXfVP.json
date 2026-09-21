@@ -1,0 +1,138 @@
+{
+  "name": "引弹盾",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_shield-of-missile-attraction.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（盾牌）, 珍稀（需同调）</em></p><p>持握这面盾牌期间，你对使用远程武器进行的攻击所造成的伤害具有抗性。</p><section class=\"secret\" id=\"secret-AIk3WGdjSafZEjEP\"><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.PfrcC1jXTBsBXfVP.ActiveEffect.hZbzhTvn7tBEVoFB]{诅咒。}</strong></em>这面盾牌被诅咒了。与之同调会使你也被诅咒，直至你成为法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jtt83qZ5kmO8nr1U]{移除诅咒}</em>或类似魔法的目标。每当使用远程武器进行的攻击以你 10 尺内一个生物为目标时，诅咒会使你代替该生物成为目标。</p></section><p class=\"item-original\">Shield of Missile Attraction</p>",
+      "chat": ""
+    },
+    "identifier": "shield-of-missile-attraction",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "shield",
+      "baseItem": "shield"
+    },
+    "armor": {
+      "value": 2,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_magic_curse.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.PfrcC1jXTBsBXfVP",
+      "_id": "hZbzhTvn7tBEVoFB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>每当远程武器进行的攻击以你 10 尺内一个生物为目标时，诅咒会使你代替该生物成为目标。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751715954027,
+        "modifiedTime": 1759950258340,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PfrcC1jXTBsBXfVP.hZbzhTvn7tBEVoFB"
+    }
+  ],
+  "sort": 251563,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751527947435,
+    "modifiedTime": 1758199218551,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PfrcC1jXTBsBXfVP",
+  "_key": "!items!PfrcC1jXTBsBXfVP"
+}

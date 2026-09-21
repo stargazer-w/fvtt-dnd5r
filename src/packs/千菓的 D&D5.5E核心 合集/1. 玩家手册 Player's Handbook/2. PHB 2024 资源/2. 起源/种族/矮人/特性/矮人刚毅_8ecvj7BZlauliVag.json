@@ -1,0 +1,101 @@
+{
+  "name": "矮人刚毅",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的生命值最大值加 1，且此后每次升级时再加 1。</p><p class=\"item-original\">Dwarven Toughness</p>",
+      "chat": ""
+    },
+    "identifier": "dwarven-toughness",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "矮人"
+  },
+  "effects": [
+    {
+      "name": "矮人刚毅",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.8ecvj7BZlauliVag",
+      "_id": "XLbewuaHHA5XKXAE",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.level",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732994324210,
+        "modifiedTime": 1735411141652,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!8ecvj7BZlauliVag.XLbewuaHHA5XKXAE"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1730882969278,
+    "modifiedTime": 1758194951057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "8ecvj7BZlauliVag",
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!8ecvj7BZlauliVag"
+}

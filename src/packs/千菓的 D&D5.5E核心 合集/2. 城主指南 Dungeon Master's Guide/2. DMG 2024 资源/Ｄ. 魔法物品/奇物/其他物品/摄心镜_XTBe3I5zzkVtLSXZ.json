@@ -1,0 +1,202 @@
+{
+  "name": "摄心镜",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_mirror-of-life-trapping.webp",
+  "system": {
+    "activities": {
+      "n45wtS0jgznrYERq": {
+        "type": "utility",
+        "name": "启用／停用",
+        "_id": "n45wtS0jgznrYERq",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "7c0zqcLJYDIv7qJy": {
+        "type": "save",
+        "_id": "7c0zqcLJYDIv7qJy",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，极珍稀</em></p><p>当以间接的方式看向这面 4 尺高，2 尺宽的镜子时，其表面会显示出生物的模糊影像。这面镜子重 50 磅，AC 11，HP 10，免疫毒素和心灵伤害，对钝击伤害具有易伤。当生命值降至 0 时，镜子会粉碎且被摧毁。</p><p>如果镜子悬挂于一处垂直表面，且你在镜子周边 5 尺范围内时，你可以执行一个&amp;Reference[Magic]{魔法}动作并使用一个命令语激活它。它会一直保持激活状态，直至你执行一个魔法动作并重复命令语来取消激活。</p><p>如果除你之外的任何生物在镜子周边 30 尺范围内看到自己在已激活镜面中的倒影，该生物必须成功通过一次[[/save format=long]]，否则将会连同自己着装或携带的所有物品一起被困入镜中的十二个异次元牢房之一。了解<em>摄心镜</em>本质的生物在进行该豁免时具有优势，构装生物在进行该豁免时直接成功。</p><p>每个异次元牢房都是一处无限广阔的空间，里面充满了浓雾，能见度只有 10 尺。被困入镜中牢房的生物不会衰老，也无需饮食和睡眠。被困于牢房的生物可以使用位面旅行般的魔法进行逃脱，无法做到这件事的生物将被永远囚禁在牢房中，直至被释放为止。</p><p>如果镜子困住一个生物，而十二个异次元牢房又已被占满，则它将随机释放一名被困生物以容纳新囚犯。一个被释放的生物会背对镜子出现在镜子视野范围内一处未被占据的空间中。如果镜子被打碎，它囚禁的所有生物都会被释放，并出现在它附近未被占据的空间里。</p><p>位于镜子周边 5 尺范围内时，你可以使用一个&amp;Reference[Magic]{魔法}动作说出一位被囚禁生物的名字或呼喊一个特定牢房的编号。被说出名字或被囚禁于该编号牢房的生物会以一幅影像的形式出现在镜子表面，随后你可与该生物进行交流。</p><p>以类似的方式，你可以执行一个&amp;Reference[Magic]{魔法}动作并使用另一个命令语释放一位被困于镜中的生物。被释放的生物会连同其所有物出现离镜子最近的未被占据的空间里，背对着镜子。</p><p>将<em>摄心镜</em>放入<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MtNdbAgGmGsr9opW]{次元袋}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.VmbEBkCDiVKgjdTH]{次元洞}</em>或其他类似物品产生的异次元空间时，将立即摧毁这两件物品并打开一扇通往星光位面的门扉。门扉会产生在被放入另一件物品的前一件物品所在的空间位置。任何在门扉周边 10 尺范围内且不在全身掩护之后的生物将被吸入门内并送到星光位面的随机位置，随后该门关闭。这扇门扉只能单向通过且无法被再次打开。</p><p class=\"item-original\">Mirror of Life Trapping</p>",
+      "chat": ""
+    },
+    "identifier": "mirror-of-life-trapping",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 50,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895695988,
+    "modifiedTime": 1761896831052,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "XTBe3I5zzkVtLSXZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!XTBe3I5zzkVtLSXZ"
+}

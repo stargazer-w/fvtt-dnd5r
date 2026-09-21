@@ -1,0 +1,808 @@
+{
+  "name": "装备",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "4qZb5TSboG6GmLTv",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.oigXm44lXs35DNSH cite=false]</p><p>作为冒险者，携带合适的装备是决定成败的关键——本章将介绍角色们在冒险中可能购买或找到的种种武器、护甲和其他各类装备的规则细则与对应价格。DM 能够决定一家商店里有哪些物品出售，以及这些物品是否会按本章列出的价格贩卖。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776358131324,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.4qZb5TSboG6GmLTv"
+    },
+    {
+      "sort": 200000,
+      "name": "硬币",
+      "type": "text",
+      "_id": "XJAhidsdr94Oxcii",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Coins</p><p>角色们经常能在冒险中收集到硬币。这些硬币可以用在商店、酒馆或其他业务的开销上。硬币的面额会根据它们的制作材料的相对价值而定。而下方的硬币价值列表，则列出了各种硬币相较于金币的相对价值。金币是这个游戏中主要使用的货币，例如，100 铜币价值 1 金币。</p><p>一枚硬币的重量大约有三分之一盎司，50 枚硬币则大约有一磅沉。</p><table><caption>硬币价值 Coin Values</caption><thead><tr><th>硬币</th><th>换算为金币</th></tr></thead><tbody><tr><td>铜币 Copper Piece (CP)</td><td style=\"text-align:center\">1/100</td></tr><tr><td>银币 Silver Piece (SP)</td><td style=\"text-align:center\">1/10</td></tr><tr><td>银金币 Electrum Piece (EP)</td><td style=\"text-align:center\">1/2</td></tr><tr><td>金币 Gold Piece (GP)</td><td style=\"text-align:center\">1</td></tr><tr><td>铂金币 Platinum Piece (PP)</td><td style=\"text-align:center\">10</td></tr></tbody></table><aside class=\"notable\"><h3>出售装备</h3><p>装备通常只能以半价出售，而交易货物或贵重物品——例如是宝石或艺术品等物时则与之不同，在市场上能保持原价卖出。另外，魔法物品的价格会在<em>《城主指南》</em>中详列。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800100
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776358142980,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.XJAhidsdr94Oxcii"
+    },
+    {
+      "sort": 300000,
+      "name": "武器",
+      "type": "text",
+      "_id": "dWQ2ZTLOuKr3PMAx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Weapons</p><p>本节内的@UUID[.z1wx4cNO7AfqyNof]{武器表}展示了游戏内主要的各类武器。该表格还会提供每把武器的价格与重量，以及下述的这些细节：</p><p><strong>分类。</strong>任何武器都隶属于一个武器分类：简易武器或军用武器。而武器熟练通常会直接依照分类获取。例如，你也许会具有简易武器的熟练项。</p><p><strong>近战或远程。</strong>任何武器都会被定义为近战或远程。近战武器可以用于攻击周围 5 尺范围内的目标，而远程武器可以攻击到远距离的目标。</p><p><strong>伤害。</strong>每把武器在命中时能够造成的伤害数值及其伤害类型，均有在武器列表中列出。</p><p><strong>词条。</strong>每把武器拥有的词条都在词条一列上列出。“@UUID[.7qSj8lqMAP0FBNKK]{词条}”一节中有每个词条的详细定义。</p><p><strong>精通。</strong>每把武器都具有一个精通词条，在这一章的“@UUID[.EOW6yQHLKlXre3jn]{精通词条}”一节中有所详细定义。若想使用此类词条，你必须拥有可以令你使用它的特性。</p><h2>武器熟练</h2><p class=\"journal-original-h2\">Weapon Proficiency</p><p>任何人都可以持用一把武器，但只有那些拥有对应熟练项的人，才能在使用武器发动攻击检定时加入熟练加值。玩家角色的特性能为该角色提供各类武器熟练；而怪物则直接拥有其资料卡中列举的所有武器的熟练。</p><aside class=\"notable\"><h3>临时武器</h3><p>若你使用一件物件——诸如桌腿、煎锅或瓶子，作为权宜之计的武器时，请见术语汇编中的“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.Dyw6b9rQIdbkIIQD]{临时武器}”一节。你也可从中获知你以不寻常方式持用武器时的规则，例如以一件远程武器进行近战攻击。</p></aside>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800200
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776358154629,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.dWQ2ZTLOuKr3PMAx"
+    },
+    {
+      "sort": 400000,
+      "name": "武器表",
+      "type": "text",
+      "_id": "z1wx4cNO7AfqyNof",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<table><caption>武器 Weapons</caption><thead><tr><th>名称</th><th>伤害</th><th>词条</th><th>精通</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td style=\"white-space:nowrap\" colspan=\"2\"><em>⚔️ 简易近战武器</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cCnRdsuj3AMyjZ42]{短棒}</td><td>1d4 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>2 磅</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TYHK2TmGMxTQhUrR]{匕首}</td><td>1d4 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60 尺）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.8n6ZjYfr0ExZnu8g\" data-tooltip=\"rule\">迅击</a></td><td>1 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BeRQw38CpK15Q7rn]{巨棒}</td><td>1d8 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN\" data-tooltip=\"rule\">推离</a></td><td>10 磅</td><td>2 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QX6LfQOoEkIxB2hp]{手斧}</td><td>1d6 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60 尺）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>2 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pbyqmgzEgD7bnBPY]{标枪}</td><td>1d6 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a> 30/120 尺）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>2 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YNdVHj252RowFMiL]{轻锤}</td><td>1d4 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60 尺）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.8n6ZjYfr0ExZnu8g\" data-tooltip=\"rule\">迅击</a></td><td>2 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FGjUVf3Ed9zjarRt]{硬头锤}</td><td>1d6 钝击</td><td>—</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>4 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8aO87tJ7hlxjKt49]{长棍}</td><td>1d6 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d8）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5\" data-tooltip=\"rule\">失衡</a></td><td>4 磅</td><td>2 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CXAkZte56H7ApGCg]{镰刀}</td><td>1d4 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.8n6ZjYfr0ExZnu8g\" data-tooltip=\"rule\">迅击</a></td><td>2 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KRjK6FwloGxEsjrN]{矛}</td><td>1d6 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60 尺），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d8）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>3 磅</td><td>1 GP</td></tr><tr><td style=\"white-space:nowrap\" colspan=\"2\"><em>🏹 简易远程武器</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Vb3qHZDZMZy0DSuL]{飞镖}</td><td>1d4 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>1/4 磅</td><td>5 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fbU38f7jCv3CRZN9]{轻弩}</td><td>1d8 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>80/320 尺；弩矢），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>5 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8b32mUnV9Q0d2pds]{短弓}</td><td>1d6 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>80/320 尺；箭），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>2 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qbB6pWvBhFcrUZKP]{投石索}</td><td>1d4 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>30/120 尺；弹丸）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>—</td><td>1 SP</td></tr><tr><td style=\"white-space:nowrap\" colspan=\"2\"><em>⚔️ 军用近战武器</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8RnXJkdQuguu8wL1]{战斧}</td><td>1d8 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d10）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5\" data-tooltip=\"rule\">失衡</a></td><td>4 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VYkIG6C6YnCIpRhv]{链枷}</td><td>1d8 钝击</td><td>—</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>2 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KOlJf0iaOOaS0xzS]{长柄刀}</td><td>1d10 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG\" data-tooltip=\"rule\">触及</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.FXMDFyz5IFOIEVVi\" data-tooltip=\"rule\">擦掠</a></td><td>6 磅</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gYvop24Mz3dUisXB]{巨斧}</td><td>1d12 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TO9QtGi7Hutus0Qe\" data-tooltip=\"rule\">横扫</a></td><td>7 磅</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RFZ6nnVlkoCrmpji]{巨剑}</td><td>2d6 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.FXMDFyz5IFOIEVVi\" data-tooltip=\"rule\">擦掠</a></td><td>6 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VJ16JTK5o3qpHOI7]{戟}</td><td>1d10 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG\" data-tooltip=\"rule\">触及</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em>​<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TO9QtGi7Hutus0Qe\" data-tooltip=\"rule\">横扫</a></td><td>6 磅</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.J8L7UX4wjuikLBPC]{骑枪}</td><td>1d10 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG\" data-tooltip=\"rule\">触及</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a>（骑乘时除外）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5\" data-tooltip=\"rule\">失衡</a></td><td>6 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rmSJn9nJpCyK85Zt]{长剑}</td><td>1d8 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d10）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>3 磅</td><td>15 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2AhPiRQA1L25Y4AR]{巨锤}</td><td>2d6 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5\" data-tooltip=\"rule\">失衡</a></td><td>10 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qb99WfaZVgyA94CT]{钉头锤}</td><td>1d8 穿刺</td><td>—</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>4 磅</td><td>15 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oKOhtLoc1rCYEcdE]{长矛}</td><td>1d10 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG\" data-tooltip=\"rule\">触及</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN\" data-tooltip=\"rule\">推离</a></td><td>18 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xgLHRzLQOcfmzldX]{刺剑}</td><td>1d8 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>2 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HlOvL5ont4BTTPoo]{弯刀}</td><td>1d6 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.8n6ZjYfr0ExZnu8g\" data-tooltip=\"rule\">迅击</a></td><td>3 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VaSejvkOe0FtpfH5]{短剑}</td><td>1d6 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>2 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ivJmL2nAr1KWOPQf]{三叉戟}</td><td>1d8 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9\" data-tooltip=\"rule\">投掷</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>20/60 尺），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d10）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5\" data-tooltip=\"rule\">失衡</a></td><td>4 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oKo6EbTjh4KMYZYh]{战锤}</td><td>1d8 钝击</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d10）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN\" data-tooltip=\"rule\">推离</a></td><td>5 磅</td><td>15 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.f6MtntbXPJrzBo8M]{战镐}</td><td>1d8 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP\" data-tooltip=\"rule\">多用</a>（1d10）</td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a></td><td>2 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jfnhdAB1BY5GGodI]{鞭}</td><td>1d4 挥砍</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu\" data-tooltip=\"rule\">灵巧</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG\" data-tooltip=\"rule\">触及</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>3 磅</td><td>2 GP</td></tr><tr><td style=\"white-space:nowrap\" colspan=\"2\"><em>🏹 军用远程武器</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zdReQRaTZSYTTFmt]{吹箭筒}</td><td>1 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>25/100 尺；吹矢），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>1 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BEAoW9SigYbFofuc]{手弩}</td><td>1d6 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>30/120 尺；弩矢），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw\" data-tooltip=\"rule\">轻型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>3 磅</td><td>75 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TkVZoP6ZQzodRChM]{重弩}</td><td>1d10 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>100/400 尺；弩矢），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN\" data-tooltip=\"rule\">推离</a></td><td>18 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NrkMTxRVoJzDVqkc]{长弓}</td><td>1d8 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>150/600 尺；箭），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu\" data-tooltip=\"rule\">重型</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>2 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7p90pgKSDEo5GkgT]{火铳}</td><td>1d12 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>40/120 尺；弹丸），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2\" data-tooltip=\"rule\">双手</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a></td><td>10 磅</td><td>500 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iepEmXxcuO7cTiRy]{手铳}</td><td>1d10 穿刺</td><td><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k\" data-tooltip=\"rule\">弹药</a>（<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7\" data-tooltip=\"rule\">射程</a>30/90 尺；弹丸），<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD\" data-tooltip=\"rule\">装填</a></td><td style=\"white-space:nowrap\"><em class=\"fas fa-medal\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z\" data-tooltip=\"rule\">侵扰</a></td><td>3 磅</td><td>250 GP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776360583970,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.z1wx4cNO7AfqyNof"
+    },
+    {
+      "sort": 500000,
+      "name": "护甲",
+      "type": "text",
+      "_id": "flJnTPWIwTrAzqTi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Armor</p><p>本节内的@UUID[.adlJqek4sIyJePKO]{护甲表}展示了游戏内主要的各类护甲。该表格还会提供每套护甲的价格与重量，以及下述的这些细节：</p><p><strong>分类。</strong>任何护甲都隶属于一个护甲分类：轻型、中型或重型。护甲的穿脱时长会根据其分类决定（详见表中）。</p><p><strong>护甲等级 (AC)。</strong>护甲表的护甲等级一列会向你展示你穿上某类护甲时的基础 AC 为多少。例如，如果你身穿皮甲，你的基础 AC 就会变成 11 + 你的敏捷调整值，而你穿上链甲时你的 AC 是 16。</p><p><strong>力量。</strong>如果护甲表中的力量一列为某款护甲标注出了力量属性值，那么穿戴者必须要有等于或高于这一数值的力量属性，否则速度减少 10 尺。</p><p><strong>隐匿。</strong>如果护甲列表中的隐匿一列为某款护甲标注出了“劣势”，那么穿戴者在着装这款护甲时所进行的敏捷（隐匿）检定将具有劣势。</p><h2>护甲受训</h2><p class=\"journal-original-h2\">Armor Training</p><p>任何人都可以穿戴盔甲或持用盾牌，但只有那些经过受训的角色才能有效使用它们。角色的职业和其他特性决定了该角色的护甲受训；而怪物则直接拥有其资料卡中列举的所有护甲受训。</p><h3>轻型、中型与重型</h3><p class=\"journal-original-h3\">Light, Medium, or Heavy Armor</p><p>如果你穿上了没有受训的轻型、中型或重型护甲，你在所有涉及力量或敏捷的&amp;Reference[D20 Test]{D20 检定}上都具有劣势，并且你不能施法。</p><h3>盾牌</h3><p class=\"journal-original-h3\">Shield</p><p>你必须拥有盾牌受训才能从一面盾牌中获得其护甲等级的增益。</p><h2>一次一件</h2><p class=\"journal-original-h2\">One at a Time</p><p>一个生物只能同时穿戴一套护甲与持用一面盾牌。</p><aside class=\"notable\"><h3>变体：装备尺寸</h3><p>在大部分战役中，你一般需要按照符合常识的方式去使用或穿戴你在冒险中找到的任何装备。例如，一个兽人冒险者通常穿不进半身人的皮甲，云巨人的长袍对侏儒而言也会尺寸过大。</p><p>这种情况下，DM 可以为游戏增添更多的真实性。例如，为人类打打造的板甲可能需要大改一番才能适合其他种族。想要伪装的玩家若仅是随便套上某个警卫的制服，也可能会肉眼可见的不合身。</p><p>若是启用了这个变体规则，玩家找到类似护甲、衣服或其他用来穿戴在身的物品时，他们可能需要拜托铁匠、裁缝、皮匠或是其他类似的专家来使物品变得合身。其花费为物品市场价的百分之 1d4 × 10。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800500
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776359251687,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.flJnTPWIwTrAzqTi"
+    },
+    {
+      "sort": 600000,
+      "name": "护甲表",
+      "type": "text",
+      "_id": "adlJqek4sIyJePKO",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<table><caption>护甲 Armor</caption><thead><tr><th>护甲</th><th>护甲等级（AC）</th><th>力量</th><th>隐匿</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td colspan=\"2\"><em>轻甲（1 分钟穿戴或卸除）</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HrVJIG3CVlwhUGtA]{布甲}</td><td>11 + 敏捷调整值</td><td>—</td><td>劣势</td><td>8 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVoJiLlIlADGLtSy]{皮甲}</td><td>11 + 敏捷调整值</td><td>—</td><td>—</td><td>10 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lguKvMSFwjpvzioT]{镶钉皮甲}</td><td>12 + 敏捷调整值</td><td>—</td><td>—</td><td>13 磅</td><td>45 GP</td></tr><tr><td colspan=\"2\"><em>中型护甲（5 分钟穿戴／1 分钟卸除）</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fLEEN7XpC8G66S3Y]{兽皮甲}</td><td>12 + 敏捷调整值（最大 2）</td><td>—</td><td>—</td><td>12 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0t7nCdX8kWIrDubL]{链甲衫}</td><td>13 + 敏捷调整值（最大 2）</td><td>—</td><td>—</td><td>20 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UtYVLrMfgPK0XB76]{鳞甲}</td><td>14 + 敏捷调整值（最大 2）</td><td>—</td><td>劣势</td><td>45 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VwT157gBiBocr8ku]{胸甲}</td><td>14 + 敏捷调整值（最大 2）</td><td>—</td><td>—</td><td>20 磅</td><td>400 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wSgxuD4ZI838PObv]{半身板甲}</td><td>15 + 敏捷调整值（最大 2）</td><td>—</td><td>劣势</td><td>40 磅</td><td>750 GP</td></tr><tr><td colspan=\"2\"><em>重型护甲（10 分钟穿戴／5 分钟卸除）</em></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oViJiPB73r1bUDu6]{环甲}</td><td>14</td><td>—</td><td>劣势</td><td>40 磅</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ftP6TTzEyyPy15l3]{链甲}</td><td>16</td><td>力量 13</td><td>劣势</td><td>55 磅</td><td>75 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2v1K3kMvydzHG2dq]{板条甲}</td><td>17</td><td>力量 15</td><td>劣势</td><td>60 磅</td><td>200 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vgepaYZeIu73ikvY]{板甲}</td><td>18</td><td>力量 15</td><td>劣势</td><td>65 磅</td><td>1,500 GP</td></tr><tr><td><em>盾牌（以动作穿戴或卸除）</em></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jw7zTIXKYOyHNZeq]{盾牌}</td><td>+ 2</td><td>—</td><td>—</td><td>6 磅</td><td>10 GP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776360629000,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.adlJqek4sIyJePKO"
+    },
+    {
+      "sort": 700000,
+      "name": "工具",
+      "type": "text",
+      "_id": "MK3tMrY7pZgPQZo8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Tools</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.ONNSLmGXIAKNksBs inline classes=\"right three\"]</p><p>工具能够协助你进行专项的属性检定、制作特定物品或辅助你在造物时的检定。一项工具的描述部分不仅包括它的价格和重量，同时也包含以下几个条目：</p><p><strong>属性。</strong>这一条目列出了使用工具进行属性检定时所采用的属性。</p><p><strong>操作。</strong>这一条目列出了当你通过工具执行&amp;Reference[Utilize]{操作}动作时，能做到的各个事项。每当你执行&amp;Reference[Utilize]{操作}动作，你就可以进行列出的其中一个事项。这一条目同时还会列出对应事项的 DC。</p><p><strong>制造。</strong>若工具描述包含这一条目，那么该工具可以制造的物品也会在其中列出。造物规则的细则请见本章稍后的“@UUID[.PqgP4xUdubWFmGgR]{制造装备}“部分。</p><p><strong>变体。</strong>若工具描述包含这一条目，则该工具具有多种变体，并会被一一列出。每种工具变体的熟练项都是独立的。</p><h2>工具熟练</h2><p class=\"journal-original-h2\">Tool Proficiency</p><p>如果你具有某个工具的熟练项，则你可以在使用这个工具进行任意属性检定时加入你的熟练加值。如果你同时拥有该次属性检定中所使用到的技能的熟练项，你在这次检定中还会具有优势。</p><p>你的特性或许会给予你某个工具的熟练项。而怪物则直接拥有其资料卡中列举的所有工具的熟练项。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800600
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776359301008,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.MK3tMrY7pZgPQZo8"
+    },
+    {
+      "sort": 750000,
+      "name": "工匠工具",
+      "type": "text",
+      "_id": "ibFcHkHH1icuT3l8",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Artisan Tools</p><p>工匠工具的主要用途为制造物品或辅助交易贸易。使用这些工具需要拥有对应的独立熟练项。</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TeNE1oggLImvNh8Q]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TeNE1oggLImvNh8Q inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OoaZX0EHKHyjZnwL]（20 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OoaZX0EHKHyjZnwL inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OszG1xFzZkL5LQhx]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OszG1xFzZkL5LQhx inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8sz0XsuaO7qZT4Un]（8 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8sz0XsuaO7qZT4Un inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.erErs9022aP94znC]（15 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.erErs9022aP94znC inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.527z1IuBAtYhBKmU]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.527z1IuBAtYhBKmU inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nbHr9QgT3kyTCy7Z]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.nbHr9QgT3kyTCy7Z inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kfU19aGrYhVNZ1ta]（30 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kfU19aGrYhVNZ1ta inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.amcwWI0eB6uhxTx4]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.amcwWI0eB6uhxTx4 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xDEVHzjM1wRWZGAm]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xDEVHzjM1wRWZGAm inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NCf6g6UnOXoDs3uj]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.NCf6g6UnOXoDs3uj inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DLy9qPI1rp6iKZCI]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DLy9qPI1rp6iKZCI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bBTCVKKVRGF0iTk5]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.bBTCVKKVRGF0iTk5 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kE9pVT40W5YMtVjX]（20 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kE9pVT40W5YMtVjX inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pbabrvYgehZOO5wJ]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pbabrvYgehZOO5wJ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MXOWdIEzv1202LNQ]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MXOWdIEzv1202LNQ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.buRZLru2HNCpCvp6]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.buRZLru2HNCpCvp6 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776575757055,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.ibFcHkHH1icuT3l8"
+    },
+    {
+      "sort": 775000,
+      "name": "其他工具",
+      "type": "text",
+      "_id": "GCvg8n7Q7ltSPRxe",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Other Tools</p><p>这些工具能够辅助冒险和其他事情。</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2p2uEUK0fmIIPT0U]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2p2uEUK0fmIIPT0U inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1mc33ggWBaQUNGWW]（15 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1mc33ggWBaQUNGWW inline]</p><h3>赌具（多类）</h3><p><strong>属性：</strong>感知　　　<strong>重量：</strong>—</p><p><strong>操作：</strong>判断某人是否作弊（DC 10），或赢取游戏（DC 20）</p><p><strong>变体：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.P0w3netopUDBKVEp]{骰子}（1 SP）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3TQGBGFI2ngWporc]{龙棋}（1 GP）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.orNR8nEkPoncDv8B]{纸牌}（5 SP）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xkVOqZKPi0V1dqrF]{三龙牌}（1 GP）</p><p class=\"item-original\">Gaming Set</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UAiVX2CeBaHVa0vY]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UAiVX2CeBaHVa0vY inline]</p><h3>乐器（多类）</h3><p><strong>属性：</strong>魅力　　　<strong>重量：</strong>多类</p><p><strong>操作：</strong>演奏一个熟知的曲调（DC 10），或是演奏一首即兴的乐曲（DC 15）</p><p><strong>变体：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HY7DU10P80NNoyiv]{风笛}（30 GP，6 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZSyfjIPMIDufenat]{鼓}（6 GP，3 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.34RLa3DMjTHgkcj0]{扬琴}（25 GP，10 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PY6uZSxyyR4mpkYa]{长笛}（2 GP，1 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Rwd0VlYK0nyNu1nL]{号角}（3 GP，2 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.faGlyUkfoRufz8WV]{鲁特琴}（35 GP，2 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BS601oqeQIiNpnLh]{里拉琴}（30 GP，2 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yEk7zqMDqzDeuV2c]{排箫}（12 GP，2 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jAVDLZZ7sJVxUHhl]{芦笛}（2 GP，1 磅）、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OiFZKoQHwt3D4dCB]{提琴}（30 GP，1 磅）</p><p class=\"item-original\">Musical Instrument</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.e9p3FGMHGa0QDa5X]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.e9p3FGMHGa0QDa5X inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qlIRx0KocXlwDmCW]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qlIRx0KocXlwDmCW inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.4TEUVBR5SDoXSzDE]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.4TEUVBR5SDoXSzDE inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776575757055,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.GCvg8n7Q7ltSPRxe"
+    },
+    {
+      "sort": 350000,
+      "name": "词条",
+      "type": "text",
+      "_id": "7qSj8lqMAP0FBNKK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Properties</p><p>以下是武器表所提及过的各项词条的具体定义。</p><h3>弹药</h3><p class=\"journal-original-h3\">Ammunition</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.s0HqR6Vd6twQCq7k inline]</p><h3>灵巧</h3><p class=\"journal-original-h3\">Finesse</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TkMcwZ9jaCrhMdOu inline]</p><h3>重型</h3><p class=\"journal-original-h3\">Heavy</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.BZ1fzlDRDfsb47cu inline]</p><h3>轻型</h3><p class=\"journal-original-h3\">Light</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.F4kqHBY9kVDLfZbw inline]</p><h3>装填</h3><p class=\"journal-original-h3\">Loading</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.At6rR4Mksc3F2kaD inline]</p><h3>射程</h3><p class=\"journal-original-h3\">Range</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.KnYTsH3uXNzbJzp7 inline]</p><h3>触及</h3><p class=\"journal-original-h3\">Reach</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.o1vnzndnwD4XxLUG inline]</p><h3>投掷</h3><p class=\"journal-original-h3\">Thrown</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.I86czNIQQyKfrhq9 inline]</p><h3>双手</h3><p class=\"journal-original-h3\">Two-Handed</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.CduLT57UfEfrsPP2 inline]</p><h3>多用</h3><p class=\"journal-original-h3\">Versatile</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1j3PaDmNNwA6chYP inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776358201642,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.7qSj8lqMAP0FBNKK"
+    },
+    {
+      "sort": 375000,
+      "name": "精通词条",
+      "type": "text",
+      "_id": "EOW6yQHLKlXre3jn",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Mastery Properties</p><p>每把武器都具有自己的精通词条。一个角色必须拥有能够解锁精通词条的特性（例如@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S21VphfsXUhA7keM]{武器精通}）才能使用这类词条。精通词条如下所示。</p><h3>横扫</h3><p class=\"journal-original-h3\">Cleave</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.TO9QtGi7Hutus0Qe inline]</p><h3>擦掠</h3><p class=\"journal-original-h3\">Graze</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.FXMDFyz5IFOIEVVi inline]</p><h3>迅击</h3><p class=\"journal-original-h3\">Nick</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.8n6ZjYfr0ExZnu8g inline]</p><h3>推离</h3><p class=\"journal-original-h3\">Push</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN inline]</p><h3>削弱</h3><p class=\"journal-original-h3\">Sap</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF inline]</p><h3>缓速</h3><p class=\"journal-original-h3\">Slow</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81 inline]</p><h3>失衡</h3><p class=\"journal-original-h3\">Topple</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.yrzb8TwsLmXaQFt5 inline]</p><h3>侵扰</h3><p class=\"journal-original-h3\">Vex</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.1Pq6ZQmxAyeSQB0z inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776359159185,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.EOW6yQHLKlXre3jn"
+    },
+    {
+      "sort": 776000,
+      "name": "冒险装备佇列",
+      "type": "text",
+      "_id": "xIDcbjgXOndS8zRl",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WsvXcI3R0EWlnLUy]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WsvXcI3R0EWlnLUy inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LndWw0KTB1ZxmWoO]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LndWw0KTB1ZxmWoO inline]</p><h3>弹药（多类）</h3><p>具有弹药词条的武器需要弹药才能发射。武器的描述部分会指定这把武器需要哪种弹药。下面的弹药表列出了不同类型的弹药，以及购买这些弹药时一份能买到多少枚。列表还会列出这些弹药通常需要哪种容器存放；容器必须要单独购买。</p><table><caption>弹药 Ammunition</caption><thead><tr><th>种类</th><th>份量</th><th>容器</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wujsJTqyYZlpVSfT]{箭矢}</td><td>20</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD]{箭袋}</td><td>1 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fH7unHvErSi8yeWX]{弩矢}</td><td>20</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]{弩矢匣}</td><td>1½ 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yiB9z7JgfQ164exI]{火器弹丸}</td><td>10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}</td><td>2 磅</td><td>3 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AqKwYAFuYYDX0zcA]{投石索弹丸}</td><td>20</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}</td><td>1½ 磅</td><td>4 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6ku3O1XUFg8awjdk]{吹矢}</td><td>50</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}</td><td>1 磅</td><td>1 GP</td></tr></tbody></table><p class=\"item-original\">Ammunition</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wAKRsRBX7KW2oONo]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.wAKRsRBX7KW2oONo inline]</p><h3>奥术法器（多类）</h3><p>奥术法器是一种利用宝石或是雕刻来引导奥术魔法的物品，它会以下列奥术法器表中的一种形式存在。术士、魔契师和法师可以使用这种物品作为施法法器。</p><table><caption>奥术法器 Arcane Focuses</caption><thead><tr><th>法器</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pKN8w9yJxPw5h1tU]{水晶}</td><td>1 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.R562QXJK74Htu5MH]{法球}</td><td>3 磅</td><td>20 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QrBHTuvWdVcPfcoZ]{权杖}</td><td>2 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gBYJRZ0zkHHJFUzo]{法杖}（也视作长棍）</td><td>4 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m5sVvygLw8QzMyh5]{魔杖}</td><td>1 磅</td><td>10 GP</td></tr></tbody></table><p class=\"item-original\">Arcane Focus</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.neAkUPh67m5yoM6O]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.neAkUPh67m5yoM6O inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iEdguBK24idYj9j0]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iEdguBK24idYj9j0 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xbJvIugmwBmWgZMM]（4 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xbJvIugmwBmWgZMM inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FRBSbv5r7mvz0Zsf]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FRBSbv5r7mvz0Zsf inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ON6f172z2TGGW3eT]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ON6f172z2TGGW3eT inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nySaVf5AdPuvJzzh]（5 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.nySaVf5AdPuvJzzh inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UYWbCNmoJzMd4RnS]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UYWbCNmoJzMd4RnS inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bbxMxB8kQPPCdYSv]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.bbxMxB8kQPPCdYSv inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8TsGxAJDfdp0dx8p]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8TsGxAJDfdp0dx8p inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3zZLYBNKKtEmDN0u]（5 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3zZLYBNKKtEmDN0u inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.w5FcTJv8a915lV1F]（16 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.w5FcTJv8a915lV1F inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ueOXplop7Li2pSE4]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ueOXplop7Li2pSE4 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.O5AGZq0fH08LFKMO]（1 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.O5AGZq0fH08LFKMO inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mLEUIA3kquClvLCa]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mLEUIA3kquClvLCa inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lqdMr8ddoqBB9hRK]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lqdMr8ddoqBB9hRK inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dQ7SIDsbX763hm2w]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dQ7SIDsbX763hm2w inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GdF09eBVZO4Zbxrg]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GdF09eBVZO4Zbxrg inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT]（15 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TDigbll3zCbPOxiI]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TDigbll3zCbPOxiI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U6eSxy7JKVracmFJ]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.U6eSxy7JKVracmFJ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nkkEGv8eesKh1egk]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.nkkEGv8eesKh1egk inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.J6bJQ17r6cnqUYCH]（39 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.J6bJQ17r6cnqUYCH inline]</p><h3>德鲁伊法器（多类）</h3><p>德鲁伊法器是一种利用刻纹、绑带或图画来引导原初魔法的物品，它会以下列德鲁伊法器表中的一种形式存在。德鲁伊和游侠可以使用这种物品作为施法法器。</p><table><caption>德鲁伊法器 Druidic Focuses</caption><thead><tr><th>法器</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WSkIBWVplq1yjn56]{槲寄生枝条}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vmk7tk5oD1Nqtka8]{木杖}（也视作长棍）</td><td>4 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.4A42nkoY5SGWxsKp]{紫衫魔杖}</td><td>1 磅</td><td>10 GP</td></tr></tbody></table><p class=\"item-original\">Druidic Focus</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LihZtRu33zRkohKx]（12 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LihZtRu33zRkohKx inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.goxqF60W45IKi1RR]（40 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.goxqF60W45IKi1RR inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x7bRLtOlQUSRnQia]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.x7bRLtOlQUSRnQia inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YO7jnXmupsC4TcER]（2 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YO7jnXmupsC4TcER inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2UIYU18BUjw2xls4]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2UIYU18BUjw2xls4 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mlYk3NU2JM4A39Sn]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mlYk3NU2JM4A39Sn inline]</p><h3>圣徽（多类）</h3><p>圣徽是一种利用宝石或图画来引导神术魔法的物品，它会以下列圣徽表中的一种形式存在。</p><p>列表还会向玩家展示不同圣徽所需要的携带方式，例如手持、佩戴或挂载到织物上（例如披挂或横幅）或盾牌上。</p><table><caption>圣徽 Holy Symbols</caption><thead><tr><th>徽章</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BN14VBP9mqAb3QbB]{护符}（佩戴或手持）</td><td>1 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GuGtF4qBfjDm67O4]{纹章}（挂载到织物或盾牌上）</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AtAtxZnWt685QcfN]{圣物匣}（手持）</td><td>2 磅</td><td>5 GP</td></tr></tbody></table><p class=\"item-original\">Holy Symbol</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.M5iyJxCJWla9Cusu]（25 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.M5iyJxCJWla9Cusu inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6qgJIJMPIftWoTHx]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6qgJIJMPIftWoTHx inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.69bobwGPMiW2bO3g]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.69bobwGPMiW2bO3g inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LsRVEcHwAsMGcfJ3]（2 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LsRVEcHwAsMGcfJ3 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Hk9CEnEtX58dOhI1]（2 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Hk9CEnEtX58dOhI1 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZxKdis2K6sY1P2TD]（1 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZxKdis2K6sY1P2TD inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.riInqSptvw3RN9Jm]（5 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.riInqSptvw3RN9Jm inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUArRAfYGZRmWLN3]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tUArRAfYGZRmWLN3 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.okQQpnffsfzpAFuA]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.okQQpnffsfzpAFuA inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xAG5D3QRRzUOuNur]（10 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xAG5D3QRRzUOuNur inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bwZrFum6gsPDs5p9]（100 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.bwZrFum6gsPDs5p9 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zWPqjQzj3MlG8LBU]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zWPqjQzj3MlG8LBU inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sQ63b5ikjeNKvcFr]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.sQ63b5ikjeNKvcFr inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Bi4obbOx6ftdqNlL]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Bi4obbOx6ftdqNlL inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K7wfaxDS70dgzAxQ]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.K7wfaxDS70dgzAxQ inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.mbqrCWYtrH6U00pI cite=false classes=\"right three\"]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]（1 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZKa3ARa4dsdPgGBv]（1 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZKa3ARa4dsdPgGBv inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo]（2 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iSjlpSSc3iMHtLJ0]（5 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iSjlpSSc3iMHtLJ0 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0sEcHa8B0pVmh34C]（100 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0sEcHa8B0pVmh34C inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zSaj8WlKmAFk9rc7]（5 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zSaj8WlKmAFk9rc7 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zuWV2Tbpx3khuiBp]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.zuWV2Tbpx3khuiBp inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BbyXPLPC5bTqr4J7]（50 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BbyXPLPC5bTqr4J7 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]（5 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.292omm0ycLa363GP]（33 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.292omm0ycLa363GP inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IE0w5h8N8UKuC9RE]（4 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.IE0w5h8N8UKuC9RE inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7wKNH2uvs1jL5Lco]（5 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7wKNH2uvs1jL5Lco inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.z4UreW9RJLJG4uwa]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.z4UreW9RJLJG4uwa inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.k9EV5csgeaL0ZIay]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.k9EV5csgeaL0ZIay inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZLxIGrAJpSDgUK9c]（1 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ZLxIGrAJpSDgUK9c inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pz6kYOLV8pGOYu0X]（40 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pz6kYOLV8pGOYu0X inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K2RJ9YKuYcdEJBEp]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.K2RJ9YKuYcdEJBEp inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iVABXOqlcZwuLtfJ]（5 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iVABXOqlcZwuLtfJ inline]</p><p class=\"item-title\">法术卷轴（戏法、30 GP；1 环、50 GP）</p><p>一个戏法法术卷轴或 1 环法术卷轴是一种记载了戏法或 1 环法术的魔法物品。具体是哪一种由卷轴的创造者决定。如果卷轴的法术处在你的职业法术列表中，你就可以阅读这卷卷轴并在无需材料的情况下，使用法术的正常施法时间来施展这道法术。</p><p>如果法术要求豁免检定或攻击检定，法术的 DC 则为 13，而攻击加值为 5。当法术施展完毕，卷轴会立刻烟消云散。</p><p class=\"item-original\">Spell Scroll</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x3R8C0vbpw06mjUx]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.x3R8C0vbpw06mjUx inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.lAOpY1sPLtCZwvS1 caption=false classes=\"right three\" cite=false]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xTMBYZMDKPz3jX6E]（1,000 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.xTMBYZMDKPz3jX6E inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qdQlphkS1zc4UVCU]（1 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qdQlphkS1zc4UVCU inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SUFqvCwhyXY2M7iZ]（2 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.SUFqvCwhyXY2M7iZ inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]（5 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE]（1 CP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x6qCgIT2j0kMALE0]（1 GP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.x6qCgIT2j0kMALE0 inline]</p><p class=\"item-title\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX]（2 SP）</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800800,
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776575757055,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.xIDcbjgXOndS8zRl"
+    },
+    {
+      "sort": 775000,
+      "name": "冒险装备",
+      "type": "text",
+      "_id": "fWDbFyRcjabZV9lW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Adventuring Gear</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.EjxAfYmIpsg2fs00 cite=false]</p><p>本节内的冒险装备列表囊括了许多对冒险者有用的装备。这些物品的名字后会标注价格，并且将根据英文原名按照字母表顺序排序。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 800700
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776359548507,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.fWDbFyRcjabZV9lW"
+    },
+    {
+      "sort": 777000,
+      "name": "冒险装备表",
+      "type": "text",
+      "_id": "cfhVAnmKmLQ5RUmD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Adventuring Gear Table</p><table><caption>冒险装备 Adventuring Gear</caption><thead><tr><th>物品</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WsvXcI3R0EWlnLUy]{强酸}</td><td>1 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LndWw0KTB1ZxmWoO]{炽火胶}</td><td>1 磅</td><td>50 GP</td></tr><tr><td>弹药</td><td>多类</td><td>多类</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wAKRsRBX7KW2oONo]{抗毒剂}</td><td>—</td><td>50 GP</td></tr><tr><td>奥术法器</td><td>多类</td><td>多类</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE]{背包}</td><td>5 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.neAkUPh67m5yoM6O]{滚珠}</td><td>2 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iEdguBK24idYj9j0]{木桶}</td><td>70 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xbJvIugmwBmWgZMM]{篮子}</td><td>2 磅</td><td>4 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FRBSbv5r7mvz0Zsf]{铺盖}</td><td>7 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ON6f172z2TGGW3eT]{铃铛}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nySaVf5AdPuvJzzh]{毯子}</td><td>3 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UYWbCNmoJzMd4RnS]{滑轮组}</td><td>5 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bbxMxB8kQPPCdYSv]{书籍}</td><td>5 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8TsGxAJDfdp0dx8p]{玻璃瓶}</td><td>2 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3zZLYBNKKtEmDN0u]{吊桶}</td><td>2 磅</td><td>5 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.w5FcTJv8a915lV1F]{窃贼套组}</td><td>42 磅</td><td>16 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ueOXplop7Li2pSE4]{铁蒺藜}</td><td>2 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.O5AGZq0fH08LFKMO]{蜡烛}</td><td>—</td><td>1 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]{弩矢匣}</td><td>1 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mLEUIA3kquClvLCa]{地图或卷轴匣}</td><td>1 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lqdMr8ddoqBB9hRK]{链条}</td><td>10 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dQ7SIDsbX763hm2w]{箱子}</td><td>25 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GdF09eBVZO4Zbxrg]{攀爬工具}</td><td>12 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT]{高档服装}</td><td>6 磅</td><td>15 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8MMj0eyN8DHCB0CJ]{旅行服装}</td><td>4 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TDigbll3zCbPOxiI]{材料包}</td><td>2 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.U6eSxy7JKVracmFJ]{戏服}</td><td>4 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nkkEGv8eesKh1egk]{撬棍}</td><td>5 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.J6bJQ17r6cnqUYCH]{外交套组}</td><td>39 磅</td><td>39 GP</td></tr><tr><td>德鲁伊法器</td><td>多类</td><td>多类</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LihZtRu33zRkohKx]{地城套组}</td><td>55 磅</td><td>12 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.goxqF60W45IKi1RR]{艺人套组}</td><td>58½ 磅</td><td>40 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x7bRLtOlQUSRnQia]{探索套组}</td><td>55 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YO7jnXmupsC4TcER]{扁瓶}</td><td>1 磅</td><td>2 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2UIYU18BUjw2xls4]{爪钩}</td><td>4 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mlYk3NU2JM4A39Sn]{急救包}</td><td>3 磅</td><td>5 GP</td></tr><tr><td>圣徽</td><td>多类</td><td>多类</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.M5iyJxCJWla9Cusu]{圣水}</td><td>1 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6qgJIJMPIftWoTHx]{捕猎陷阱}</td><td>25 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.69bobwGPMiW2bO3g]{墨水}</td><td>—</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LsRVEcHwAsMGcfJ3]{墨水笔}</td><td>—</td><td>2 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Hk9CEnEtX58dOhI1]{壶}</td><td>4 磅</td><td>2 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZxKdis2K6sY1P2TD]{梯子}</td><td>25 磅</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.riInqSptvw3RN9Jm]{油灯}</td><td>1 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUArRAfYGZRmWLN3]{牛眼提灯}</td><td>2 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.okQQpnffsfzpAFuA]{附盖提灯}</td><td>2 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xAG5D3QRRzUOuNur]{锁}</td><td>1 磅</td><td>10 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bwZrFum6gsPDs5p9]{放大镜}</td><td>—</td><td>100 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zWPqjQzj3MlG8LBU]{镣铐}</td><td>6 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sQ63b5ikjeNKvcFr]{地图}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Bi4obbOx6ftdqNlL]{镜子}</td><td>1/2 磅</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K7wfaxDS70dgzAxQ]{捕网}</td><td>3 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]{燃油}</td><td>1 磅</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZKa3ARa4dsdPgGBv]{纸张}</td><td>—</td><td>2 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo]{羊皮纸}</td><td>—</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iSjlpSSc3iMHtLJ0]{香水}</td><td>—</td><td>5 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0sEcHa8B0pVmh34C]{基础毒药}</td><td>—</td><td>100 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zSaj8WlKmAFk9rc7]{长杆}</td><td>7 磅</td><td>5 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zuWV2Tbpx3khuiBp]{铁壶}</td><td>10 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BbyXPLPC5bTqr4J7]{治疗药水}</td><td>1/2 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}</td><td>1 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.292omm0ycLa363GP]{祭司套组}</td><td>29 磅</td><td>33 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD]{箭袋}</td><td>1 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IE0w5h8N8UKuC9RE]{便携式攻城锤}</td><td>35 磅</td><td>4 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7wKNH2uvs1jL5Lco]{口粮}</td><td>2 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.z4UreW9RJLJG4uwa]{长袍}</td><td>4 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.k9EV5csgeaL0ZIay]{绳索}</td><td>5 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZLxIGrAJpSDgUK9c]{麻袋}</td><td>1/2 磅</td><td>1 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pz6kYOLV8pGOYu0X]{学者套组}</td><td>22 磅</td><td>40 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K2RJ9YKuYcdEJBEp]{铲子}</td><td>5 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iVABXOqlcZwuLtfJ]{信号笛}</td><td>—</td><td>5 CP</td></tr><tr><td>戏法卷轴</td><td>—</td><td>30 GP</td></tr><tr><td>1 环卷轴</td><td>—</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x3R8C0vbpw06mjUx]{铁钉}</td><td>5 磅</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xTMBYZMDKPz3jX6E]{望远镜}</td><td>1 磅</td><td>1,000 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qdQlphkS1zc4UVCU]{细线}</td><td>—</td><td>1 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SUFqvCwhyXY2M7iZ]{帐篷}</td><td>20 磅</td><td>2 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]{火绒盒}</td><td>1 磅</td><td>5 SP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE]{火把}</td><td>1 磅</td><td>1 CP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.x6qCgIT2j0kMALE0]{小瓶}</td><td>—</td><td>1 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX]{水袋}</td><td>5 磅（装满）</td><td>2 SP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776360866132,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.cfhVAnmKmLQ5RUmD"
+    },
+    {
+      "sort": 778000,
+      "name": "坐骑与载具",
+      "type": "text",
+      "_id": "R77Qq9hgxDmb6r9V",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Mounts and Vehicles</p><p>坐骑的主要用途为替你驮载那些可能拖累你的行李，但它们同样能够帮助你在野外快速旅行。坐骑与其他动物表将为你展示每种动物的载重。详见附录 B 来查阅动物数据卡。</p><h2>坐骑与货物</h2><p class=\"journal-original-h2\">Mounts and Cargo</p><p>包括载具自身的重量在内，一个挂载了客车、货车、战车、雪橇或四轮货车的动物，可以拉动其基础载重五倍的重量。如果有多个动物在拉同一辆载具，它们的载重则会叠加。</p><h2>具装</h2><p class=\"journal-original-h2\">Barding</p><p>具装是一种专为坐骑设计的护甲。本章的护甲表中的每一款护甲都可以买到对应的具装版本，其价格是正常护甲的四倍，重量为正常版本的两倍。</p><h2>鞍座</h2><p class=\"journal-original-h2\">Saddles</p><p>鞍座包括嚼子、缰绳、笼头以及其他鞍座所需的装备。军用鞍座可以在你为维持骑乘所作的一切属性检定上提供优势，而骑乘水生或飞行坐骑则需要特种鞍座。</p><table><caption>坐骑与其他动物 Mounts and Other Animals</caption><thead><tr><th>物品</th><th>载重</th><th>价格</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.XKU1ZMeFbVQJPdrz]{骆驼}</td><td>450 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.VxnSPxqsBQ6LV8sV]{大象}</td><td>1,320 磅</td><td>200 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.HCQ8o7uUFDFUUmOY]{驮用马}</td><td>540 磅</td><td>50 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.LjDJb00Eusx6M7rE]{乘用马}</td><td>480 磅</td><td>75 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.hAM8vTadKiVRSNrV]{獒犬}</td><td>195 磅</td><td>25 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0D0tlGA4wQMzgFd8]{骡子}</td><td>420 磅</td><td>8 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.nkeRBT3haf1uWg3S]{矮种马}</td><td>225 磅</td><td>30 GP</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Wqn2pBKvnJgYmgC9]{战马}</td><td>540 磅</td><td>400 GP</td></tr></tbody></table><table><caption>鞍具、挽具与陆运载具 Tack, Harness, and Drawn Vehicles</caption><thead><tr><th>物品</th><th>重量</th><th>价格</th></tr></thead><tbody><tr><td>客车（四轮）Carriage</td><td>600 磅</td><td>100 GP</td></tr><tr><td>货车（二轮）Cart</td><td>200 磅</td><td>15 GP</td></tr><tr><td>战车（二轮）Chariot</td><td>100 磅</td><td>250 GP</td></tr><tr><td>饲料（每日）Feed per day</td><td>10 磅</td><td>5 CP</td></tr><tr><td colspan=\"3\"><em>鞍座 Saddle</em></td></tr><tr><td>　特种 Exotic</td><td>40 磅</td><td>60 GP</td></tr><tr><td>　军用 Military</td><td>30 磅</td><td>20 GP</td></tr><tr><td>　乘用 Riding</td><td>25 磅</td><td>10 GP</td></tr><tr><td>雪橇 Sled</td><td>300 磅</td><td>20 GP</td></tr><tr><td>马厩（每日）Stabling per day</td><td>—</td><td>5 SP</td></tr><tr><td>货车（四轮）Wagon</td><td>400 磅</td><td>35 GP</td></tr></tbody></table><h2>大型载具</h2><p class=\"journal-original-h2\">Large Vehicles</p><p>空运或水运载具表提供了各类大型载具的数据，其中包括以下几种数据。</p><h3>速度</h3><p class=\"journal-original-h3\">Speed</p><p>船只在强逆风中仅能以半速行驶。在风平浪静（无风）的环境中，水运船只无法通过船帆移动，而仅能依靠船桨来行驶。龙骨船和划艇仅适用于湖水与河流。当载具顺流而下时，载具的速度将获得等同于当前速度的提升（通常是时速 3 里）。这些载具也无法通过船桨在过强的水流中逆行，但是可以通过驮兽在陆地上拖行的方式逆流而上。划艇重 100 磅，可被随身携带。</p><h3>船员</h3><p class=\"journal-original-h3\">Crew</p><p>一切比龙骨船或划艇大的船只都需要一队熟练@UUID[.92nSepFZVbspzkcB#雇工]{雇工}（见本章后文的“服务”）才能正常运转。如列表中所示，一艘船所需的最少熟练雇工由船只类型决定。</p><h3>乘客</h3><p class=\"journal-original-h3\">Passengers</p><p>以吊床为单位，下方的列表列出了一艘船可搭乘的小型与中型乘客上限。若以私人房间为单位，一艘船可搭乘的乘客数量为列表中的五分之一。一张吊床床位的价格通常为每日 5 SP，但不同船只可能也会导致价格变动。一小间私人船舱的价格通常为每日 2 GP。</p><h3>伤害阈值</h3><p class=\"journal-original-h3\">Damage Threshold</p><p>拥有&amp;Reference[Damage Threshold]{伤害阈值}的载具会在下方的列表中写明其数值。</p><h3>修复船只</h3><p class=\"journal-original-h3\">Ship Repair</p><p>修复损坏的船只仅可在船只停泊时进行。修复已损失的 1 点 HP 需要花费 1 天时间和 20 GP 的材料与人工费。若修复地点位于某个资源和熟练雇工充裕的地方，例如城市船坞，用于修复所花费的时间和金钱减半。</p><table><caption>空中与水上载具 Airborne and Waterborne Vehicles</caption><thead><tr><th>船只类型</th><th>速度</th><th>船员</th><th>乘客</th><th>货物（吨）</th><th>AC</th><th>HP</th><th>伤害阈值</th><th>价格</th></tr></thead><tbody><tr><td>飞艇 Airship</td><td>8 mph</td><td>10</td><td>20</td><td>1</td><td>13</td><td>300</td><td>—</td><td>40,000 GP</td></tr><tr><td>桨帆船 Galley</td><td>4 mph</td><td>80</td><td>—</td><td>150</td><td>15</td><td>500</td><td>20</td><td>30,000 GP</td></tr><tr><td>龙骨船 Keelboat</td><td>1 mph</td><td>1</td><td>6</td><td>1/2</td><td>15</td><td>100</td><td>10</td><td>3,000 GP</td></tr><tr><td>单帆长船 Longship</td><td>3 mph</td><td>40</td><td>150</td><td>10</td><td>15</td><td>300</td><td>15</td><td>10,000 GP</td></tr><tr><td>划艇 Rowboat</td><td>1½ mph</td><td>1</td><td>3</td><td>—</td><td>11</td><td>50</td><td>—</td><td>50 GP</td></tr><tr><td>帆船 Sailing Ship</td><td>2 mph</td><td>20</td><td>20</td><td>100</td><td>15</td><td>300</td><td>15</td><td>10,000 GP</td></tr><tr><td>战舰 Warship</td><td>2½ mph</td><td>60</td><td>60</td><td>200</td><td>15</td><td>500</td><td>20</td><td>25,000 GP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1728982661826,
+        "modifiedTime": 1776363196612,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.R77Qq9hgxDmb6r9V"
+    },
+    {
+      "sort": 779000,
+      "name": "服务",
+      "type": "text",
+      "_id": "92nSepFZVbspzkcB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Services</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pDZH4axEmSmOJrEY.JournalEntryPage.YHtZU3O5MQdVjqoJ cite=false]</p><p>本节介绍了各项服务，以及冒险者可能需要花钱的开销。</p><h2>生活开支</h2><p class=\"journal-original-h2\">Lifestyle Expenses</p><p>生活开支部分总结了生活在奇幻世界中的各类花费，包括住宿、饮食、装备维护与其他必要开支。</p><p>在每周或每月之初（由 DM 决定），玩家需要选择下列生活方式中的一个——乞食、流浪、穷困、俭朴、舒适、富裕或奢华，并支付对应生活方式的开支。</p><p>一种生活方式不会招致必然的结果。但 DM 可能会根据不同的生活方式来决定他人如何看待你的角色，或是你的角色在生活中可能碰到的隐患。</p><p class=\"item-title\">乞食（无开支）</p><p>你仅依靠运气和施舍生存。你经常因露宿街头而遭受来自自然的种种危险。</p><p class=\"item-title\">流浪（每日 1 SP）</p><p>你以最低限度为自己购置必需品。</p><p>你很可能陷入不健康的状态或招来投机倒把的罪犯光顾。</p><p class=\"item-title\">穷困（每日 2 SP）</p><p>你节约地为自己购置必需品。</p><p class=\"item-title\">俭朴（每日 1 GP）</p><p>你为自己提供平均水平的生活。</p><p class=\"item-title\">舒适（每日 2 GP）</p><p>你较为宽松地为自己购置必需品，并且还能偶尔享乐。</p><p class=\"item-title\">富裕（每日 4 GP）</p><p>你习惯了优越的生活，或许还拥有几个仆人。</p><p class=\"item-title\">奢华（每日 10 GP）</p><p>你生活的方方面面都追求最好，甚至可能雇佣了一队人来专门为你提供奢华的生活。其他人会注意到你的富有，并可能会想从中合法或非法地分上一杯羹。</p><h2>饮食与住宿</h2><p class=\"journal-original-h2\">Food, Drink, and Lodging</p><p>饮食与住宿表展示了食物和住宿一晚的价格。而每日的餐饮与住宿则被包括在了你的生活开支中。</p><table><caption>饮食与住宿 Food, Drink, and Lodging</caption><thead><tr><th>物品</th><th>价格</th></tr></thead><tbody><tr><td>麦酒 Ale（马克杯）</td><td>4 CP</td></tr><tr><td>面包 Bread（一块）</td><td>2 CP</td></tr><tr><td>奶酪 Cheese（一角）</td><td>1 SP</td></tr><tr><td><em>旅馆住宿 Inn Stay（每日）</em></td><td></td></tr><tr><td>　流浪 Squalid</td><td>7 CP</td></tr><tr><td>　穷困 Poor</td><td>1 SP</td></tr><tr><td>　俭朴 Modest</td><td>5 SP</td></tr><tr><td>　舒适 Comfortable</td><td>8 SP</td></tr><tr><td>　富裕 Wealthy</td><td>2 GP</td></tr><tr><td>　奢华 Aristocratic</td><td>4 GP</td></tr><tr><td><em>食膳 Meal</em></td><td></td></tr><tr><td>　流浪 Squalid</td><td>1 CP</td></tr><tr><td>　穷困 Poor</td><td>2 CP</td></tr><tr><td>　俭朴 Modest</td><td>1 SP</td></tr><tr><td>　舒适 Comfortable</td><td>2 SP</td></tr><tr><td>　富裕 Wealthy</td><td>3 SP</td></tr><tr><td>　奢华 Aristocratic</td><td>6 SP</td></tr><tr><td><em>红酒 Wine（瓶装）</em></td><td></td></tr><tr><td>　普通 Common</td><td>2 SP</td></tr><tr><td>　优质 Fine</td><td>10 GP</td></tr></tbody></table><h2>旅行</h2><p class=\"journal-original-h2\">Travel</p><p>雇佣载客的车夫或船员来前往目的地时，具体费用为下方旅行表中的所示价格，外加途中的过路费与其他开支。</p><table><caption>旅行 Travel</caption><thead><tr><th>服务</th><th>价格</th></tr></thead><tbody><tr><td>城际旅程</td><td>每里 3 CP</td></tr><tr><td>城内旅程</td><td>每里 1 CP</td></tr><tr><td>道路或关卡费</td><td>1 CP</td></tr><tr><td>船运费</td><td>每里 1 SP</td></tr></tbody></table><h2>雇工</h2><p class=\"journal-original-h2\">Hirelings</p><p>提供的服务与某些特定熟练有关的雇工被称为熟练雇工（包括武器、工具或技能），例如：佣兵、工匠、文员等。下方雇工表所展示的雇佣费为最低标准；雇佣某些专家级的雇工需要支付更多的佣金。新手雇工则只能从事不需要特定熟练的工作，例如苦力和运货。</p><table><caption>雇工 Hirelings</caption><thead><tr><th>服务</th><th>价格</th></tr></thead><tbody><tr><td>熟练雇工</td><td>每日 2 GP</td></tr><tr><td>新手雇工</td><td>每日 2 SP</td></tr><tr><td>信使</td><td>每日 2 CP</td></tr></tbody></table><h2>施法</h2><p class=\"journal-original-h2\">Spellcasting</p><p>很多聚落中都存在愿意通过施法来赚取服务费的施法者。如果需要施展的法术中包含昂贵材料，那么支付服务费时需要在施法服务表中的价格里额外加上材料的钱。一般而言，环阶越高的法术越难找到能够施展的人。</p><table><caption>施法服务 Spellcasting Services</caption><thead><tr><th>法术环阶</th><th>可购地点</th><th>价格</th></tr></thead><tbody><tr><td>戏法</td><td>村庄、城镇或城市</td><td>30 GP</td></tr><tr><td>1</td><td>村庄、城镇或城市</td><td>50 GP</td></tr><tr><td>2</td><td>村庄、城镇或城市</td><td>200 GP</td></tr><tr><td>3</td><td>仅城镇或城市</td><td>300 GP</td></tr><tr><td>4–5</td><td>仅城镇或城市</td><td>2,000 GP</td></tr><tr><td>6–8</td><td>仅城市</td><td>20,000 GP</td></tr><tr><td>9</td><td>仅城市</td><td>100,000 GP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1728982875621,
+        "modifiedTime": 1776361123183,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.92nSepFZVbspzkcB"
+    },
+    {
+      "sort": 779500,
+      "name": "魔法物品",
+      "type": "text",
+      "_id": "0QZKNTQ4hRi9Pndj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Magic Items</p><p>在冒险中找到魔法物品——虽不保证，但概率不小。<em>《城主指南》</em>中详细记录了数百种魔法物品，DM 能够决定你在何时找到类似的物品。而有关使用魔法物品，这里介绍了那些你需要知道的内容。</p><h2>鉴别魔法物品</h2><p class=\"journal-original-h2\">Identifying a Magic Item</p><p>某些魔法物品从外观上与它们的非魔法版本并无区别，而有些则明显的带有魔法性质。把弄一件魔法物品足以让你感受到物品的非凡本质，但你无法因此自动知晓魔法物品的各项词条。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em>是揭示魔法物品各项词条的最快方式。另外，你也可以在短休时将精神集中于一件魔法物品，并在那期间保持与物品的物理接触。当短休结束，你能够知晓魔法物品所包含的词条与使用方法（但是不包括该物品可能附有的任何诅咒）。</p><p>有时，一件魔法物品自身可能就携带着暗示其词条的线索。例如，启用某枚戒指的命令语可能就刻在了戒指的内侧，或是上面的羽毛图纹暗示了这是枚羽落戒指。</p><p>着装或拿着物品进行试验也能找到提示物品词条的线索。具体的案例就如药水——尝一小口就足够让品尝者判断出药水的作用了。其他物品则可能需要更多试验。例如，如果你的角色戴上了一枚善泳戒指，DM 可能会说，“你移动时感到了一种奇异的流畅感”。也许你会决定跳进河里，看看会发生什么。接着你的 DM 可能会表示你突然变得出奇地会游泳。</p><h2>同调</h2><p class=\"journal-original-h2\">Attunement</p><p>一些魔法物品需要一个生物与其形成某种连结——这种连结被称之为同调。生物必须与该物品同调后才能使用其魔法词条。</p><p>若你不与需要同调的物品形成同调，你仅能获得其非魔法的增益，除非它的描述部分中有特别的描述。例如，一面需要同调的魔法盾牌，在你没有与其同调的情况下，仍然能为你提供正常盾牌的增益，但不会提供你任何它的魔法词条。</p><h3>在短休期间同调</h3><p class=\"journal-original-h3\">Attune during a Short Rest</p><p>与物品同调需要你进行一次短休，并在那期间将精神只集中于那件物品，并持续保持与物品的物理接触（不能与知晓物品词条的短休为同一次）。这种集中的形式主要包括使用武器进行演练（同调武器）、冥想（同调魔杖）或其他合适的活动。如果同调期间短休被打断，则同调失败。若短休顺利进行，你在短休结束时成功与物品同调，并能够使用它全部的魔法能力。</p><h3><strong>不可过三</strong></h3><p class=\"journal-original-h3\">No More Than Three Items</p><p>你不能同时同调超过三个魔法物品。同调第四个魔法物品的任何尝试都会失败；你必须先结束对某个物品的同调后才能尝试同调新的物品。此外，你也不能同时同调多个同一物品。例如，你不能同时同调多个防御戒指。</p><h3>结束同调</h3><p class=\"journal-original-h3\">Ending Attunement</p><p>当你不再满足物品的同调条件、或同调的物品处于你 100 尺以外的地方至少 24 小时、你死亡或另一个生物同调了同一件物品时，你对物品的同调会立刻结束。你也可以通过进行短休来再次集中于已同调的物品上，并自愿地解除与该物品的同调，除非该物品附有诅咒。</p><h2>着装和持用物品</h2><p class=\"journal-original-h2\">Wearing and Wielding Items</p><p>使用魔法物品的词条通常代表着装或持用该物品。一件魔法物品必须按照它理应的方式着装或穿戴，例如：靴子必须穿在脚上、手套要套在手上、帽子和头盔要戴在头上、戒指要佩戴在某根手指上。魔法护甲必须正常穿戴才能起效、一面盾牌要绑在手臂上、一件斗篷要固定在肩膀上。同样，一把武器也必须握在手里。</p><p>大部分情况下，魔法物品不管生物的体型体格如何，都能适配并着装在身。魔法服装通常极易修改，或是能够魔法性的适配着装者。</p><h3>多个同类物品</h3><p class=\"journal-original-h3\">Multiple Items of the Same Kind</p><p>你不能着装多个同类魔法物品。你正常情况只能着装一双足具、一副手套或护手、一副护腕、一套护甲、一件头饰和一件披风。但 DM 可能会允许特例。</p><h3>成对物品</h3><p class=\"journal-original-h3\">Paired Items</p><p>成对的物品——例如靴子、护腕、护手和手套，只有在这对物品一起被着装时才能提供其增益。例如，一个角色如果一只脚上穿着跑跳之靴，另一只脚上穿着精灵之靴，那么他不会获得任何增益。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1728983335541,
+        "modifiedTime": 1776361245988,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.0QZKNTQ4hRi9Pndj"
+    },
+    {
+      "sort": 800000,
+      "name": "制作装备",
+      "type": "text",
+      "_id": "PqgP4xUdubWFmGgR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Crafting Equipment</p><p>角色可以使用以下规则来制作非魔法物品、治疗药水和法术卷轴。</p><h2>制造非魔法物品</h2><p class=\"journal-original-h2\">Crafting Nonmagical Items</p><p>下方列出了制作非魔法物品所需的工具、原料和时间。如果你满足了这些需求，那么你就能够将物品制作出来并拿来使用或以其正常价格出售。</p><h3>工具</h3><p class=\"journal-original-h3\">Tools</p><p>本章的“@UUID[.MK3tMrY7pZgPQZo8]{工具}”部分列出了制作不同物品所需的不同工具。DM还可以为没有列在其中的物品分配某种能够制作它的工具。</p><p>你必须使用一个物品指定的工具才能制作出该物品，并且你还必须拥有对应的工具熟练。任何协助你制作的成员也必须拥有其熟练。</p><h3>原料</h3><p class=\"journal-original-h3\">Raw Materials</p><p>制作物品时，你需要拥有价值该物品正常购买价的一半（向下取整）的原料才能进行制作。例如，你需要 750 GP 的原料才能造出售价为 1500 GP 的板甲。DM 能够决定适合的原料是否有机会获取。</p><h3>时间</h3><p class=\"journal-original-h3\">Time</p><p>决定一件物品需要花费多少天（一天工作 8 小时）才能完成制作时，将物品的购买价格以 GP 为单位并除以 10（将零头算作一天）。例如，你需要 5 天时间来制作一把售价 50 GP的重弩。</p><p>如果某个物品需要多日制作，那么制作天数不需要连贯。</p><p>角色们可以一起努力来缩减制作所需的时间。多个角色共同参与制作时，将制作时间除以参与制作的角色数量。正常情况下，协助你进行制作的仅能有一个角色，但 DM 也可能允许更多的角色参与协助。</p><h2>酿造治疗药水</h2><p class=\"journal-original-h2\">Brewing Potions of Healing</p><p>拥有草药工具熟练的角色可以制造治疗药水。酿造一瓶治疗药水需要使用草药工具并花费 25 GP 的原料来进行一天（工作 8 小时）的制作。</p><h2>抄录法术卷轴</h2><p class=\"journal-original-h2\">Scribing Spell Scrolls</p><p>施法者可以将法术化为卷轴。制造法术卷轴遵循以下规则。</p><h3>时间与价格</h3><p class=\"journal-original-h3\">Time and Cost</p><p>抄录卷轴所花费的时间和金钱依据法术的环阶决定，具体如下方法术卷轴价格表所示。你必须工作 8 小时才能满足一日的抄录。如果某个卷轴需要多日抄录，那么抄录天数不需要连贯。</p><h3>抄录卷轴的先决条件</h3><p class=\"journal-original-h3\">Prerequisites for the Scribe</p><p>你必须拥有奥秘技能或书法工具的熟练才能抄录卷轴。你还必须在每日抄录的期间一直准备着对应法术。你同时必须提供法术所需要的任何材料成分；如果抄录的法术会消耗其材料成分，那么材料只有在你完成卷轴时才会被消耗。卷轴中抄录的法术使用你的法术豁免 DC 与法术攻击加值。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>创建法术卷轴</h3><p>在 Foundry 中，滑鼠右键任何法术，选择 <span class=\"reference\"><em class=\"fa-solid fa-scroll\"> </em>创建卷轴</span> 选项以快速创建法术卷轴，你还可以配置其法术环阶、难度等级、豁免和攻击加值等选项。</p></article></section><h3>戏法</h3><p class=\"journal-original-h3\">Cantrips</p><p>如果抄录的法术是戏法，那么卷轴将使用你的等级作为施法者等级。</p><table style=\"text-align:center\"><caption>法术卷轴价格 Spell Scroll Costs</caption><thead><tr><th>法术环阶</th><th>时间</th><th>价格</th></tr></thead><tbody><tr><td>戏法</td><td>1 天</td><td>15 GP</td></tr><tr><td>1</td><td>1 天</td><td>25 GP</td></tr><tr><td>2</td><td>3 天</td><td>100 GP</td></tr><tr><td>3</td><td>5 天</td><td>150 GP</td></tr><tr><td>4</td><td>10 天</td><td>1,000 GP</td></tr><tr><td>5</td><td>25 天</td><td>1,500 GP</td></tr><tr><td>6</td><td>40 天</td><td>10,000 GP</td></tr><tr><td>7</td><td>50 天</td><td>12,500 GP</td></tr><tr><td>8</td><td>60 天</td><td>15,000 GP</td></tr><tr><td>9</td><td>120 天</td><td>50,000 GP</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1728983486271,
+        "modifiedTime": 1776364002349,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!yFzzxIJsgpTWKtlt.PqgP4xUdubWFmGgR"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 7,
+      "title": "第六章：装备",
+      "order": 1,
+      "navigation": {
+        "previous": "ge4f5a7mc55QciIn",
+        "next": "fNF1GpDQAc8CNGMk"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1728960393956,
+    "modifiedTime": 1776358106639,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "yFzzxIJsgpTWKtlt",
+  "sort": 100000,
+  "categories": [],
+  "_key": "!journal!yFzzxIJsgpTWKtlt"
+}

@@ -1,0 +1,409 @@
+{
+  "_id": "dmgResolvingOutc",
+  "name": "决定掷骰结果",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "KVLPQvRhO0daXwoh",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>你以角色尝试去做什么为基础，决定玩家该何时进行一次&amp;Reference[D20 Test]{D20 检定}。玩家们不应该凭空进行属性检定而脱离情景；它们应该告诉你它们的角色想要达成什么，并只有在你要求时它们才能进行属性检定。</p><p>当出现状况且你不确定如何用规则裁定时，使用以下四个问题来帮助你决定：</p><p><strong>这个 D20 检定合理吗？</strong>如果这个目标太过琐碎或不可能完成，就不必进行 D20 检定。一个角色可以穿过一间空房或从长颈瓶里喝水而不需要进行敏捷检定，但再怎么幸运的掷骰也不能让角色用普通的弓箭射中月亮。D20 检定只有在成功和失败的可能性并存、且失败将带来有意义的后果时才需要进行。</p><p><strong>这是什么类型的 D20 检定？</strong>如果一个角色正积极尝试去做某事，使用属性检定（或当角色试图命中某物时用攻击检定）。如果角色正被动地试图避免或抵抗某物时，使用豁免检定。</p><p><strong>检定使用了哪个属性？</strong>思考一下哪个属性对于角色的属性检定或豁免检定的成功几率影响最大。请参阅@UUID[.jqN6QSvryhP8ACN6]{属性，属性检定和豁免检定表}以获得帮助。</p><p><strong>DC 是多少？</strong>基于你认为这个检定应有多难，通过下列来设定 DC：简单目标为 10，适中难度目标为 15，困难目标为 20。</p><p>以下几节为如何使用每种 D20 检定，何时应用优势和劣势，以及如何决定可能的成功或失败的后果给出了建议。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>内置于日志条目中的行内检定</h3><p>在 Foundry 中，D&amp;D 第五版系统支持内联检定与豁免；你可以将其发送至聊天栏，让玩家自行掷骰，或者通过选择他们的 Token 自动掷骰。以下是一些示例：</p><ul><li><strong>属性检定：</strong>[[/check str dc=10]]（/check str dc=10）</li><li><strong>技能检定：</strong>[[/skill ath dc=10]]（/skill ath dc=10）</li><li><strong>豁免掷骰：</strong>[[/save con dc=10]]（/save con dc=10）</li><li><strong>工具检定：</strong>[[/tool thief dc=10]]（/tool thief dc=10）</li><li><strong>被动察觉：</strong>[[/check perception dc=10 passive=true]]（/check perception dc=10 passive=true）</li><li><strong>其他被动技能：</strong>[[/check inv dc=10 passive=true]]（/check inv dc=10 passive=true）</li></ul><p><strong>重要提示：</strong>如果你已经创建了一个默认队伍角色，则悬停在被动检定条目上即会告诉你该队伍中谁自动通过了这个检定。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776537596971,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.KVLPQvRhO0daXwoh"
+    },
+    {
+      "sort": 200000,
+      "name": "属性检定",
+      "type": "text",
+      "_id": "jqN6QSvryhP8ACN6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Ability Checks</p><p>属性检定是一种确认角色是否能在其试图尝试的目标上成功的检定。属性，属性检定和豁免检定表总结了各个属性的作用。（体质检定很罕见，因为对于角色耐力的检定通常为被动反应，故而使用豁免检定更加合适。）</p><table><caption>属性，属性检定和豁免检定 Abilities, Ability Checks, and Saving Throws</caption><thead><tr><th style=\"white-space:nowrap\">属性</th><th>该值量化了…</th><th>进行属性检定以…</th><th>进行豁免检定以…</th></tr></thead><tbody><tr><td>力量</td><td>力气</td><td>举起、推动、拉拽或破坏某样东西</td><td>承担对身体的直观冲击</td></tr><tr><td>敏捷</td><td>灵活性、反应能力和平衡感</td><td>灵巧、迅捷或安静地移动</td><td>躲开有害效应</td></tr><tr><td>体质</td><td>健康程度和耐力</td><td>努力超越身体的极限</td><td>承受毒性的危害</td></tr><tr><td>智力</td><td>推理能力和记忆力</td><td>推理或回忆</td><td>识破虚假的幻象</td></tr><tr><td>感知</td><td>洞察力和精神坚韧程度</td><td>从环境或生物的行为表现中感知事物</td><td>抵抗精神攻击</td></tr><tr><td>魅力</td><td>自信、仪态和吸引力</td><td>影响，取悦或误导</td><td>维持你的存在</td></tr></tbody></table><h2>熟练</h2><p class=\"journal-original-h2\">Proficiency</p><p>当规则或出版物中的冒险要求进行属性检定时，技能或工具熟练总会被提及：例如，“通过[[/skill arc dc=15 format=long]]的角色可以破解其中的魔法。”有些时候规则允许在具有两个以上熟练时，在检定上应用其中一个。当判断这个角色将使用何种检定时，你可以宽容地决定角色的熟练加值能否应用进去。你可以具体地要求一次智力（奥秘）检定，或你也可以要求一次智力检定并让玩家与你商量，看看其中一位角色的技能或工具熟练可否应用。</p><h2>再次尝试</h2><p class=\"journal-original-h2\">Trying Again</p><p>有时，角色在属性检定中失败，但他的玩家想再试一次。许多情况下，在属性检定中失败让再次尝试相同的事变为不可能。然而，在某些目标中，失败的后果仅有花费更多时间重新尝试目标。例如，在撬开宝箱的锁的敏捷检定中失败并不意味着角色不能再度尝试，而是每次尝试都需要花费 1 分钟。</p><p>如果失败没有任何后果且角色可以反复尝试，你可以跳过属性检定而直接告诉玩家这个目标花费了多长时间。另外，你也可以要求单次属性检定并使用其结果来决定该角色为了完成目标花费了多少时间。</p><h2>团队检定</h2><p class=\"journal-original-h2\">Group Checks</p><p>当队伍正试图共同达成某事，且在目标中最熟练的角色可以掩护并不擅长的角色时，你可以将团队检定作为工具使用。要进行团队属性检定，团队中的所有人都进行一次属性检定。如果至少团队中有一半以上的成功，则整个团队通过检定。否则，团队检定将失败。</p><p>当一个角色的失败将会为整个队伍都带来灾难时，团队检定并不合适，例如角色正试图在不惊动警卫的情况下匍匐穿过城堡的庭院时。这种情况下，一个吵闹的角色将会吸引警卫的注意，并且其他更善于隐匿的角色对此无能为力，因此依靠个人的检定会更合理。类似的，不要在只需一次成功即可通过的检定中使用团队检定，例如使用[[/skill prc format=long]]来寻找隐藏的隔层时。</p><p>考虑在下列示例情况中使用团队检定：</p><p><strong>调查任务。</strong>角色们试图从档案中了解一个古老的预言。角色们可以进行一次团队[[/skill inv format=long]]以寻找档案中的资料来源；对此主题或通用的研究方式了解颇深的角色可以告诉其他角色最有可能的搜查方向。如果团队检定成功，角色们找到了不同来源的预言，帮助它们拼凑出清晰的画面；否则，它们的信息是残缺的。</p><p><strong>同舟共济。</strong>角色们在攀登悬崖或穿越摇摇欲坠的绳索桥时，将被绑在一起。如果一两个角色在检定中失败，成功的角色可以停止他们的坠落并预防灾难发生，但当队伍里有超过一半的失败时，整个团队都会坠落。类似的检定方式也可以应用在长途游泳上：队伍中的游泳健将也可以帮助那些游泳能力较差的同伴。</p><p><strong>社交场合。</strong>一个角色在外交活动中冒犯了某人，而一位贵族指示把冒险者们护送出场。角色们可以进行一次团体[[/skill per format=long]]来避免被轰出去；他们只需要令人信服的论点和巧妙打圆场的能力。你可以在使用欺瞒，威吓或表演的其他魅力检定中应用同一原则。</p><h2>被动检定</h2><p class=\"journal-original-h2\">Passive Checks</p><p>属性检定通常表现了角色在完成某事上的积极努力，但有时你需要一个被动地衡量角色做某事的能力。被动察觉是最普遍的例子。（见本章后文“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgRunningExplor.JournalEntryPage.Ye1j2WmZkNtL03ee]{察觉}”。）你也可以将被动检定的概念扩展到其他属性和技能上。</p><p>例如，如果你的游戏设有大量的交涉，你可以记录每个角色的被动洞悉值，与被动察觉有着相同的计算方式：10 + 所有通常应用于感知（察觉）检定中的调整值。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537631419,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.jqN6QSvryhP8ACN6"
+    },
+    {
+      "sort": 300000,
+      "name": "攻击检定",
+      "type": "text",
+      "_id": "1v4AjogEhQOwNqFz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Attack Rolls</p><p>战斗中使用@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.W8uJrd1D8NeOuawp]{攻击检定}来判定一次攻击是否命中。</p><p>你也可以使用攻击检定来处理与战斗中的攻击行为相近的非战斗活动，比如一场箭术比试或飞镖游戏。为目标确立护甲等级，决定角色是否具有所使用武器的熟练项，随后让玩家进行一次攻击检定。（又见本章中“@UUID[.5gs6qtB2cbRudeoG]{成功程度}”。）</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537649158,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.1v4AjogEhQOwNqFz"
+    },
+    {
+      "sort": 400000,
+      "name": "豁免检定",
+      "type": "text",
+      "_id": "m8Z5M6pQddJfP7rr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Saving Throws</p><p>与属性检定相反，@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.Vlri6Mp6grn9wt3g]{豁免检定}是对效应的即时反应，且几乎无法自愿进行。一次豁免检定在某些坏事威胁到角色，而角色有机会去避免或抵抗时进行则最为合理。</p><p>大多数时间下，豁免检定只会在某种效应(例如法术、怪物能力或陷阱）要求你为其进行豁免时才需要进行，且该效应亦会告知你需进行哪种豁免检定，并提供其 DC。</p><p>而在其他要求进行豁免检定的情况下，则由你来决定该豁免与哪个属性值相关。@UUID[.jqN6QSvryhP8ACN6]{属性、属性检定和豁免检定表}为你提供了建议。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537663426,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.m8Z5M6pQddJfP7rr"
+    },
+    {
+      "sort": 500000,
+      "name": "难度等级",
+      "type": "text",
+      "_id": "ixCAmr5XBgsPmCfP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Difficulty Class</p><p>如果规则或冒险并没有给予你某次属性检定或豁免检定的难度等级，那就由你来决定该检定具体的难度等级。你可以根据该目标的难度来从范例 DC 表中选择一个 DC。</p><table class=\"float-right size-three\"><caption>范例 DC 表 Typical DCs</caption><thead><tr><th>目标难度</th><th>DC</th></tr></thead><tbody><tr><td>非常简单</td><td>5</td></tr><tr><td>简单</td><td>10</td></tr><tr><td>中等</td><td>15</td></tr><tr><td>困难</td><td>20</td></tr><tr><td>非常困难</td><td>25</td></tr><tr><td>几乎不可能</td><td>30</td></tr></tbody></table><p>目标难度的说明如下：</p><p><strong>非常简单。</strong>大部分人都能在只有极小的失败概率下完成 DC 5 的目标。对于这类目标，除非情况特殊，否则请让角色们自动成功于此类检定，不要为此掷骰。</p><p><strong>简单，中等与困难。</strong>这些是最常见的难度，你可以只使用它们来运作你的游戏。相关属性为 10 且不具有熟练项的角色有 50% 的成功率通过一次简单目标。对于中等难度的目标，角色则需更高的属性值或熟练项之一以达到类似的成功率，而困难目标通常需要两者兼具来达到类似的概率。如果你无法在两个难度之中做出决定，就选一个夹在两者之间的 DC，例如为一个比“困难”要稍微简单些的目标选择 17 或 18 作为 DC。</p><p><strong>非常困难和几乎不可能。</strong>DC 25 的目标对低等级角色来说几乎遥不可及，但对于 10 级以上的角色来说则更加合理。低等级角色没有任何机会去通过 DC 30 的目标，哪怕对于 20 级，具有熟练项且相关属性值为 20 的角色来说依旧需要在掷骰中扔出 19 或 20 才得在这个难度的目标中成功。</p><p>如果你在为豁免检定设立 DC，不要让其低于 10 或高于 20。如果某生物是强迫进行豁免检定的来源时，使用豁免 DC 的标准公式进行计算。（见下文“计算 DC”。）</p><h4>计算 DC</h4><p>对于某些属性检定和大部分豁免检定来说，规则默认了如下公式：</p><p style=\"text-align:center\"><strong>DC</strong> = 8 + 属性调整值 + 熟练加值</p><p>这个公式通常用于设定生物施法或使用特殊能力时的豁免检定 DC，但这也可以应用于两个生物之间的属性检定的对抗。举例来说，如果一个生物正堵着门，使用它的力量调整值和熟练加值以设立开门的 DC。当另一生物尝试强行打开门时，该生物进行一次[[/skill ath format=long]]以对抗此 DC。</p><p>另一种处理类似情况的方式是用一个生物的属性检定结果来设立另一生物的属性检定 DC。这就是躲藏的运行方式，例如：用一个躲藏的生物的总[[/skill ste format=long]]结果设立为找到隐匿生物而进行的[[/skill prc format=long]]的 DC。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583641931,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.ixCAmr5XBgsPmCfP"
+    },
+    {
+      "sort": 600000,
+      "name": "优势与劣势",
+      "type": "text",
+      "_id": "U1QYeRG2N6EMzSfx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Advantage and Disadvantage</p><p>优势与劣势是你手中最有用的工具。它们反映了可能影响角色进行某个目标时的成功概率的各种临时情景。优势也是给在游戏中展现出卓越创造力的玩家奖励的好方法。</p><p>角色们通常从使用特殊能力、动作、法术或其他职业或种族特性中获取优势或劣势。除此之外，由你来决定哪种情况值得获取优势或劣势。</p><p>如<em>《玩家手册》</em>所描述一般，如果不同情景同时给予优势或劣势的情况下，无论有多少个情景将会给予优势或劣势，它们都将互相抵消。</p><h2>优势</h2><p class=\"journal-original-h2\">Advantage</p><p>当……时，考虑给予优势：</p><ul><li class=\"Core-Styles_Core-Bulleted\">和角色自身能力无关的情形使其占据了有利条件。</li><li class=\"Core-Styles_Core-Bulleted\">环境中的某方面提高了角色成功的几率。</li><li class=\"Core-Styles_Core-Bulleted\">玩家在尝试或描述如何完成目标时展现了卓越的创造力或灵活的思路。</li><li class=\"Core-Styles_Core-Bulleted\">先前的行动（无论由进行尝试的角色还是其他角色所执行）提高了成功的几率。</li></ul><h2>劣势</h2><p class=\"journal-original-h2\">Disadvantage</p><p>当……时，考虑施加劣势：</p><ul><li class=\"Core-Styles_Core-Bulleted\">情形在某些方面阻碍了成功。</li><li class=\"Core-Styles_Core-Bulleted\">环境中的某方面使成功的可能性降低。</li><li class=\"Core-Styles_Core-Bulleted\">计划或描述中的某项内容使成功的可能性显著降低。</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537716709,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.U1QYeRG2N6EMzSfx"
+    },
+    {
+      "sort": 700000,
+      "name": "后果",
+      "type": "text",
+      "_id": "5gs6qtB2cbRudeoG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Consequences</p><p>作为 DM，你可以使用一系列的方法来根据你的喜好调整成功或失败。</p><h2>有代价的成功</h2><p class=\"journal-original-h2\">Success at a Cost</p><p>当角色在失败的&amp;Reference[D20 Test]{D20 检定}中离通过仅仅只差 1 或 2 时，你可以提出以出现复杂情况或阻碍为代价来让角色在检定中通过。这种复杂情况可能以以下几种方式运作：</p><ul><li class=\"Core-Styles_Core-Bulleted\">角色让她的剑刃穿透了敌人的防御并使临近失手的攻击转为命中，但她的剑紧接着失手掉落。</li><li class=\"Core-Styles_Core-Bulleted\">角色堪堪躲过了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>法术的全部冲击力但陷入了&amp;Reference[Prone apply=false]{倒地}状态。</li><li class=\"Core-Styles_Core-Bulleted\">角色在威吓一个狗头人囚犯时失败，但狗头人在惊声尖叫，让周边怪物引起警惕的同时，不管怎样也透露了它的秘密。</li></ul><p>你可以把以付出代价的成功作为选择放到玩家的面前，甚至让他们去选择将发生的后果，这样做能在玩家创作角色于故事中的事迹时赋予其更多的权限。</p><h2>失败程度</h2><p class=\"journal-original-h2\">Degrees of Failure</p><p>有时，一次失败的 D20 检定会根据失败的程度而具有不同的后果。举个例子，角色在解除陷阱宝箱的检定中扔出 5 以上差值的失败时可能会意外启动该陷阱，而轻微程度的失败意味着这个陷阱并未被这次拙劣的解除尝试所触发。你可以考虑为其他检定也加入类似的区别。或许一个失败的魅力（游说）检定意味着女王不会予以协助，而 5 以上差值的失败意味着她会因角色的厚颜无耻而将他扔进地牢去。</p><h2>成功程度</h2><p class=\"journal-original-h2\">Degrees of Success</p><p>成功的 D20 检定可以具有成功程度。举个例子，当角色们参与一场箭术对决时，你可能会决定攻击检定超过目标的 AC 越多，角色的得分就越高。箭靶可能具有 AC 11，但由 5 个同心环来标明成功的程度。因此你可以决定攻击检定为 11 或 12 时命中在外围的环上，13 或 14 则命中离中心更近的一环，15 或 16 命中三环，17 或 18 命中四环，而 19 或更高正中靶心。</p><h2>大成功或大失败</h2><p class=\"journal-original-h2\">Critical Success or Failure</p><p>通常来说，在属性检定或豁免检定中扔出 20 或 1 并没有任何特殊效果。然而，你可以在判定结果时将这些意料之外的掷骰考虑进去。如何在游戏中体现这一点则取决于你；增加大成功或大失败的影响，即是这样的一种体现方式。例如，在试图撬锁时扔出了 1 可能导致锁孔卡死，而在成功的智力（调查）检定中扔出 20 则可能会揭示一条额外的线索。</p><p>对于攻击检定，规则已经覆盖了扔出天然 20（这是一次重击）时或扔出天然 1（这永远会失手）时将发生什么。请抵抗住为攻击检定的天然 1 添加额外负面后果的诱惑：必定失手已经够糟了。角色们通常都会进行非常多次攻击检定，随着时间推移总会伴随着一堆天然 1 的掷骰结果。因此，某些乍一看很有趣的后果（例如用来发动攻击的武器损坏之类的）很快就会令人生厌。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537731205,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.5gs6qtB2cbRudeoG"
+    },
+    {
+      "sort": 800000,
+      "name": "即兴伤害",
+      "type": "text",
+      "_id": "YThtWUSw1VjY1cY6",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Improvising Damage</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh2ArtHandout.JournalEntryPage.wnTzM2xaPk4yg3tb cite=false]</p><p>即兴伤害表为决定临时出现的伤害给出方针。</p><table><caption>即兴伤害 Improvising Damage</caption><thead><tr><th>伤害</th><th>例子</th></tr></thead><tbody><tr><td style=\"white-space:nowrap\">[[/damage 1d10]]</td><td>被炭烫伤，被倒下的书柜砸伤，被毒针刺伤</td></tr><tr><td style=\"white-space:nowrap\">[[/damage 2d10]]</td><td>被闪电劈中，跌进火坑中</td></tr><tr><td style=\"white-space:nowrap\">[[/damage 4d10]]</td><td>在坍塌的隧道里被落下的碎石砸中，滚入装满强酸的桶里</td></tr><tr><td style=\"white-space:nowrap\">[[/damage 10d10]]</td><td>被紧实的墙壁碾压，被飞旋的钢铁利刃击中，淌过熔岩</td></tr><tr><td style=\"white-space:nowrap\">[[/damage 18d10]]</td><td>淹没进熔岩里，被坠毁的飞行堡垒砸中</td></tr><tr><td style=\"white-space:nowrap\">[[/damage 24d10]]</td><td>被卷入火元素位面的火焰涡流，被类神生物或和月亮一般大的怪物一口咬碎</td></tr></tbody></table><p>伤害危害度与等级表是一份关于不同等级的角色而言伤害总数有多致命的指南。交叉比对角色等级与即将收到的伤害来衡量伤害的危害度。</p><table><caption>伤害危害度与等级 Damage Severity and Level</caption><thead><tr><th>角色等级</th><th>妨害</th><th>致命</th><th></th></tr></thead><tbody><tr><td>1–4</td><td>[[/damage 1d10 average]]</td><td>[[/damage 2d10 average]]</td><td></td></tr><tr><td>5–10</td><td>[[/damage 2d10 average]]</td><td>[[/damage 4d10 average]]</td><td></td></tr><tr><td>11–16</td><td>[[/damage 4d10 average]]</td><td>[[/damage 10d10 average]]</td><td></td></tr><tr><td>17–20</td><td>[[/damage 10d10 average]]</td><td>[[/damage 18d10 average]]</td><td></td></tr></tbody></table><p>妨害型伤害很少在角色处于所示等级时将他们置于死地，但已被严重削弱的角色可能会被这次伤害所击溃。</p><p>致死型伤害对处于所示等级的角色构成了显著的威胁，且有可能杀死已经失去生命值的角色。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537748957,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.YThtWUSw1VjY1cY6"
+    },
+    {
+      "sort": 900000,
+      "name": "即兴答复",
+      "type": "text",
+      "_id": "3i7ndnxVAYh4YkeH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Improvising Answers</p><p>只要稍加准备和大量的灵活运用，你就能应对玩家们朝你抛来的任何话题。</p><p>即兴剧的基石之一被称作“是，然后…”。这基于一种理念，即演员需接受与他对手戏的演员所演的任何东西，并以此为基准进行创作。当你为你的玩家们运行游戏回时，也可以应用类似的原则。尽可能多的将玩家们给予你的内容编入故事里。</p><p>一个同等重要的原则是“不，但是…”。有时角色无法完成玩家想做的事，但你可以提供另一选项来让游戏继续进行。</p><p>举个例子，想象一下角色们正在寻找某位巫妖的巢穴。一位玩家询问你附近城市里是否开张着魔法师公会，希望能找到任何提及这位巫妖的记录。这并非你已经预料到的一种可能，且你对此没有做任何准备。一个选项是说“可以”并用可使用的工具来创造一个合适的魔法师公会。通过这样做，你为玩家的奇思妙想给出奖励。同样的，该公会也可以作为冒险引子的绝佳来源。</p><p>另一选项是说“不行”，但镇中一个独居的魔法师可能手握所需的信息。这种方式在奖励了有创造力的玩家的同时也减少了你的工作量。</p><h2>即兴答复小帮手</h2><p class=\"journal-original-h2\">Aids to Improvisation</p><p>当你需要临场编造出某些东西。比如，你先前从未计划过的，镇子中的魔法师公会——你可以利用这些丰富的资源：</p><ul><li class=\"Core-Styles_Core-Bulleted\">NPC 姓名列表（见第 3 章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.5GOEEHaai1dsSxbx]{非玩家角色}”）</li><li class=\"Core-Styles_Core-Bulleted\">随机表格（例如第 3 章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.AsAAwKcFZegKYVsW]{聚落}”一节中的表格）</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCreatingCampa.JournalEntryPage.Lr9F52qH48dMNOGA]{战役日志}（在第 5 章中所述）</li><li class=\"Core-Styles_Core-Bulleted\">@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBMaps00000000]{地图}（见附录 B）</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776537779128,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgResolvingOutc.3i7ndnxVAYh4YkeH"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "append": 2,
+      "type": "special",
+      "showPages": true,
+      "order": 201000,
+      "navigation": {
+        "previous": "dmgRunningTheGam",
+        "next": "dmgRunningSocial"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776537574130,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgResolvingOutc"
+}

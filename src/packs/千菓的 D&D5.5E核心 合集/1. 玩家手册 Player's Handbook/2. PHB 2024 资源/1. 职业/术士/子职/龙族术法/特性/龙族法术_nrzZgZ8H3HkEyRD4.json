@@ -1,0 +1,194 @@
+{
+  "name": "龙族法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你达到龙族法术表中所述的相应术士等级时，你视为总是准备了列出的对应法术。</p><table class=\"right-three\"><caption>龙族法术 Draconic Spells</caption><thead><tr><td>术士等级</td><td>法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.M2OyZeLgV7wQoHJz]{变造自身}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.D8Lt2QCRoMnTJys7]{繁彩球}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MExq97njl4rCtG9x]{命令术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iPzx4yMEBKqh7cIT]{龙息术}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gGgw5MhpAJKrtWFw]{恐惧术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jfbY2J1NLBko50a7]{飞行术}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cQ43kVLr8p7Ruxix]{秘法眼}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kNgOt0qHJ5dYSEOj]{魅惑怪物}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI]{通晓传奇}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ambtJ1KNkQumn2Q1]{龙类召唤术}</em></td></tr></tbody></table><p class=\"item-original\">Draconic Spells</p>",
+      "chat": ""
+    },
+    "identifier": "draconic-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "龙族术法",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.M2OyZeLgV7wQoHJz",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.D8Lt2QCRoMnTJys7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.MExq97njl4rCtG9x",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.iPzx4yMEBKqh7cIT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "龙族法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "EyazZeCcX6HBEKI8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gGgw5MhpAJKrtWFw",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jfbY2J1NLBko50a7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "龙族法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "Ct9b7GndsCIogZTT"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.cQ43kVLr8p7Ruxix",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.kNgOt0qHJ5dYSEOj",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "龙族法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "OycKvblKjZxk5Ihb"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ambtJ1KNkQumn2Q1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "龙族法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "TJ71oBY6jZEJn4vp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777658029310,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "nrzZgZ8H3HkEyRD4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!nrzZgZ8H3HkEyRD4"
+}

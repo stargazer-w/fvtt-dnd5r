@@ -1,0 +1,60 @@
+{
+  "name": "锆石",
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/LOOT_gem_zircon.webp",
+  "system": {
+    "description": {
+      "value": "<p>淡蓝绿。</p><p class=\"item-original\">Zircon</p>",
+      "chat": ""
+    },
+    "identifier": "zircon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gem",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.KcsOUXuyFRfmrkmS",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750769054236,
+    "modifiedTime": 1758199210380,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "4VBR7NASLevv8Bd7",
+  "_key": "!items!4VBR7NASLevv8Bd7"
+}

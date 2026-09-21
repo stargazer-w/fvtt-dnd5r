@@ -1,0 +1,289 @@
+{
+  "name": "游侠",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "游侠",
+      "type": "text",
+      "_id": "fgzoeAJE4EEUSOYQ",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.7qN4IGLvwpc7j7KP inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.r9NYYGWNoSxEYTlU inline classes=\"right three\"]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.wtxggHNlMRwxrFTr inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776350932959,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.fgzoeAJE4EEUSOYQ"
+    },
+    {
+      "sort": 200000,
+      "name": "驯兽师",
+      "type": "text",
+      "_id": "9Y6m5wyW2K8LUqzp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Beast Master</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5vyC9hZFQoK71E5I inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.fzHuYQM4SG6qynLV inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.js9Ccxw6HPKrJ9vX]{原初行侣}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQYA500VIVsDpsCF]{特效训练}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6CDPZophgvmRPvmA]{兽性狂怒}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.J4uXsxSr4GELeWcb]{法术共享}</td></tr></tbody></table><p class=\"item-title\">3 级：原初行侣</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.js9Ccxw6HPKrJ9vX inline]</p><p class=\"item-title\">7 级：特效训练</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FQYA500VIVsDpsCF inline]</p><p class=\"item-title\">11 级：兽性狂怒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6CDPZophgvmRPvmA inline]</p><p class=\"item-title\">15 级：法术共享</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.J4uXsxSr4GELeWcb inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776351168309,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.9Y6m5wyW2K8LUqzp"
+    },
+    {
+      "sort": 300000,
+      "name": "妖精漫游者",
+      "type": "text",
+      "_id": "3M6p7GyZeEPBlYOv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Fey Wanderer</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UZR9K9dUHhf9A47K inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.ckJhsBIlf7Qxo19z inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.796rDeSlpBYwyPlC]{哀惧灵袭}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RNkuAhwgDV9x5Ony]{妖精漫游者魔法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5HLp8TuKlm0h9eKC]{脱凡仙姿}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gMh6B9B8HaIh3GG7]{妖曲解惑}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ciWSSacF2n31c17T]{精宸所与}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YuiXkCZX2o7btQ6q]{雾行漫游}</td></tr></tbody></table><p class=\"item-title\">3 级：哀惧灵袭</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.796rDeSlpBYwyPlC inline]</p><p class=\"item-title\">3 级：妖精漫游者魔法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.RNkuAhwgDV9x5Ony inline]</p><p class=\"item-title\">3 级：脱凡仙姿</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5HLp8TuKlm0h9eKC inline]</p><p class=\"item-title\">7 级：妖曲解惑</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gMh6B9B8HaIh3GG7 inline]</p><p class=\"item-title\">11 级：精宸所与</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ciWSSacF2n31c17T inline]</p><p class=\"item-title\">15 级：雾行漫游</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YuiXkCZX2o7btQ6q inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352359209,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.3M6p7GyZeEPBlYOv"
+    },
+    {
+      "sort": 400000,
+      "name": "幽域追猎者",
+      "type": "text",
+      "_id": "kydldl9wYbxqUuzD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Gloom Stalker</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.63vXXX9sJbrBMyf1 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.6lH0bBjC8Fxg9rkI inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6GxjRmCg1R76innA]{恐惧伏击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2AEfvfZzeEn03VZ8]{幽域追猎者魔法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.edxAzD5jP3baVLYf]{阴影视野}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uGCM3hC2XrLt7i4d]{钢铁意志}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RTqc0knQqQXVWsU7]{追猎如风}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.K0QXXaZDKHLIMGk7]{如影随行}</td></tr></tbody></table><p class=\"item-title\">3 级：恐惧伏击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6GxjRmCg1R76innA inline]</p><p class=\"item-title\">3 级：幽域追猎者魔法 Gloom Stalker Magic</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2AEfvfZzeEn03VZ8 inline]</p><p class=\"item-title\">3 级：阴影视野</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.edxAzD5jP3baVLYf inline]</p><p class=\"item-title\">7 级：钢铁意志</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.uGCM3hC2XrLt7i4d inline]</p><p class=\"item-title\">11 级：追猎如风</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.RTqc0knQqQXVWsU7 inline]</p><p class=\"item-title\">15 级：如影随行</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.K0QXXaZDKHLIMGk7 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352408403,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.kydldl9wYbxqUuzD"
+    },
+    {
+      "sort": 500000,
+      "name": "猎人",
+      "type": "text",
+      "_id": "80h94evzbL3MwLk1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Hunter</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.CCMAwr1b8we94wGz inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.eDSDWaZqyZqNAGxd inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ymNNEaSwsBb8B8z8]{猎人学识}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.URGA40NoheM6sHjJ]{猎杀技艺}</td></tr><tr><td style=\"text-align:center\">7</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CLgFdNw7nN9uEUzj]{防守战术}</td></tr><tr><td style=\"text-align:center\">11</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.q7Fv7k3dYJjn7Xvz]{高阶猎杀技艺}</td></tr><tr><td style=\"text-align:center\">15</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BIlIGwUo8QOSjcxF]{高阶防守战术}</td></tr></tbody></table><p class=\"item-title\">3 级：猎人学识</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ymNNEaSwsBb8B8z8 inline]</p><p class=\"item-title\">3 级：猎杀技艺</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.URGA40NoheM6sHjJ inline]</p><p class=\"item-title\">7 级：防守战术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.CLgFdNw7nN9uEUzj inline]</p><p class=\"item-title\">11 级：高阶猎杀技艺</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.q7Fv7k3dYJjn7Xvz inline]</p><p class=\"item-title\">15 级：高阶防守战术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BIlIGwUo8QOSjcxF inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776352446360,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.80h94evzbL3MwLk1"
+    },
+    {
+      "sort": 150000,
+      "name": "游侠职业特性",
+      "type": "text",
+      "_id": "JdSrw1sMlsHUF9qA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Ranger Class Features</p><p>作为游侠，当你达到特定的游侠等级时，你将获得以下职业特性。这些特性也列在游侠特性表中。</p><table border=\"0\"><caption>游侠特性 Ranger Features</caption><thead><tr><th rowspan=\"2\">等级</th><th rowspan=\"2\">熟练加值</th><th rowspan=\"2\">职业特性</th><th rowspan=\"2\">宿敌</th><th rowspan=\"2\">准备法术</th><th colspan=\"5\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GCHcio0naWMZ15ia]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.O0xPnVsTAx5oH4rS]{宿敌}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7urbGdt0VZ5gALkg]{武器精通}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qn60GUpwpmjNMhLd]{熟练探险家}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MxuvoSLh1bPL9l6G]{战斗风格}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>游侠子职</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DpN7DRlSZGecBBMK]{额外攻击}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yES0kw3yoFhxhicI]{越野}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qM2lW2tx4SKLZAZo]{专精}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dqHtzZT0D041zdVW]{不知疲倦}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3bOg6iE3oJB2Krco]{不折猎手}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Dpxl2vD01AaoZgxZ]{自然面纱}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m7XRwmeehBQ7PDbS]{致命猎杀}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EaEpcrZNQWeOkblt]{野性感官}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PIQL12to8hWOUUNx]{传奇恩惠}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mYsbELoXHu0gv56H]{屠灭众敌}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td></tr></tbody></table><p class=\"item-title\">1 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GCHcio0naWMZ15ia inline]</p><p class=\"item-title\">1 级：宿敌</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.O0xPnVsTAx5oH4rS inline]</p><p class=\"item-title\">1 级：武器精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7urbGdt0VZ5gALkg inline]</p><p class=\"item-title\">2 级：熟练探险家</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qn60GUpwpmjNMhLd inline]</p><p class=\"item-title\">2 级：战斗风格</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MxuvoSLh1bPL9l6G inline]</p><p class=\"item-title\">3 级：游侠子职</p><p>你选择获得一项游侠子职：驯兽师、妖精漫游者、幽域追猎者、猎人。这些子职会在此职业的描述后详细说明。子职是一种特化能力，会在特定的游侠等级给予你对应的独特能力。此后你将获得你所选的子职所有能力——只要能力所需的等级等于或低于你的游侠等级即可。游侠职业表列出了你从子职中获得新特性的游侠等级。</p><p class=\"item-original\">Ranger Subclass</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。你还会在你的游侠等级达到第 8、第 12 和第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：额外攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DpN7DRlSZGecBBMK inline]</p><p class=\"item-title\">6 级：越野</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yES0kw3yoFhxhicI inline]</p><p class=\"item-title\">9 级：专精</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qM2lW2tx4SKLZAZo inline]</p><p class=\"item-title\">10 级：不知疲倦</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dqHtzZT0D041zdVW inline]</p><p class=\"item-title\">13 级：永恒追猎</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3bOg6iE3oJB2Krco inline]</p><p class=\"item-title\">14 级：自然面纱</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Dpxl2vD01AaoZgxZ inline]</p><p class=\"item-title\">17 级：致命猎杀</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.m7XRwmeehBQ7PDbS inline]</p><p class=\"item-title\">18 级：野性感官</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EaEpcrZNQWeOkblt inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PIQL12to8hWOUUNx inline]</p><p class=\"item-title\">20 级：屠灭众敌</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mYsbELoXHu0gv56H inline]</p><h1>游侠子职业</h1><p class=\"journal-original-h1\">Ranger Subclasses</p><p>游侠子职是一种你在达到特定游侠等级时，职业会给予你的特化能力，其具体能力取决于子职描述。本段提供了以下四个子职业：驯兽师、妖精漫游者、幽域追猎者和猎人。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730438831942,
+        "modifiedTime": 1776351099694,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!kmE6XaEVgi3DKLvw.JdSrw1sMlsHUF9qA"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500800,
+      "navigation": {
+        "previous": "A3n5d6aSbTNGxqIV",
+        "next": "zRqR2wN57Z0BPzMP"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334143683,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "kmE6XaEVgi3DKLvw",
+  "sort": 100391,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!kmE6XaEVgi3DKLvw"
+}

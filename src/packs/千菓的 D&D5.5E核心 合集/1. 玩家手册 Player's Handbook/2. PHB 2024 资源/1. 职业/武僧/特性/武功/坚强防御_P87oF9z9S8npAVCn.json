@@ -1,0 +1,380 @@
+{
+  "name": "坚强防御",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_ki_patient-defense.webp",
+  "system": {
+    "activities": {
+      "usN17xWkuFH0PQnL": {
+        "type": "utility",
+        "_id": "usN17xWkuFH0PQnL",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "g27VdmlhcBxmCDlw"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "撤离",
+        "img": "",
+        "appliedEffects": [
+          "g27VdmlhcBxmCDlw"
+        ]
+      },
+      "3opMLTA4LJUXDVFU": {
+        "type": "utility",
+        "name": "撤离・回避",
+        "_id": "3opMLTA4LJUXDVFU",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "g27VdmlhcBxmCDlw"
+          },
+          {
+            "_id": "wcMiJNlwNWmnBWyt"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "g27VdmlhcBxmCDlw",
+          "wcMiJNlwNWmnBWyt"
+        ]
+      },
+      "LHkpWTmrc37S3ddd": {
+        "type": "heal",
+        "name": "出神入化",
+        "_id": "LHkpWTmrc37S3ddd",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "出神入化"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "2@scale.monk.martial-arts"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你能以一个&amp;Reference[Bonus Action]{附赠动作}执行&amp;Reference[Disengage]{撤离}动作。此外，你可以消耗 1 点功力，以一个&amp;Reference[Bonus Action]{附赠动作}同时执行&amp;Reference[Disengage]{撤离}与&amp;Reference[Dodge]{回避}动作。</p><p>在你 10 级获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVGtoDLSJxlZeSDr]{出神入化}特性后，适用以下增益。</p><p><em><strong>出神入化。</strong></em>当你消耗功力使用坚强防御时，你获得相当于你两个武艺骰的临时生命值。</p><p class=\"item-original\">Patient Defense</p>",
+      "chat": ""
+    },
+    "identifier": "patient-defense",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "ki"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "武僧"
+  },
+  "effects": [
+    {
+      "name": "撤离",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_disengaged.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.P87oF9z9S8npAVCn",
+      "_id": "g27VdmlhcBxmCDlw",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>当前回合的剩余时间内，你的移动不会引发借机攻击。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1735374742423,
+        "modifiedTime": 1759948075906,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!P87oF9z9S8npAVCn.g27VdmlhcBxmCDlw"
+    },
+    {
+      "name": "回避",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_dodge.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.P87oF9z9S8npAVCn",
+      "_id": "wcMiJNlwNWmnBWyt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>直至你的下个回合开始，任何以你为目标的攻击检定具有劣势，除非你看不见攻击者，且你进行的敏捷豁免具有优势。</p><p>如果你陷入失能或你的速度降至了 0，你会失去这些增益。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1735374743396,
+        "modifiedTime": 1759948095827,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!P87oF9z9S8npAVCn.wcMiJNlwNWmnBWyt"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194976143,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "P87oF9z9S8npAVCn",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!P87oF9z9S8npAVCn"
+}

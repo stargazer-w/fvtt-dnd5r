@@ -1,0 +1,114 @@
+{
+  "name": "森侏儒血系",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_gnome_forest-gnome-lineage.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JiMaBuExPb4AUKSh]{次级幻影}</em>戏法。你也始终准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA]{动物交谈}</em>法术，你可以不消耗法术位施展此法术，次数等于你的熟练加值，当你完成一次长休后，你重获全部已消耗的使用次数。你也可以用任何你拥有的法术位施展那道法术。</p><p class=\"item-original\">Forest Gnome Lineage</p>",
+      "chat": ""
+    },
+    "identifier": "forest-gnome-lineage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "侏儒 (森林侏儒)",
+    "advancement": [
+      {
+        "_id": "8A3QDyCw8iskFeP2",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.JiMaBuExPb4AUKSh"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0,
+            "method": ""
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "森侏儒血系",
+        "hint": "你习得以下戏法。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "@prof",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "森侏儒血系",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_gnome_forest-gnome-lineage.webp",
+        "_id": "0JD1VPxXBmL9i5GH"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730900207583,
+    "modifiedTime": 1777697689485,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "b25h3sEy8eUFywPZ",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!b25h3sEy8eUFywPZ"
+}

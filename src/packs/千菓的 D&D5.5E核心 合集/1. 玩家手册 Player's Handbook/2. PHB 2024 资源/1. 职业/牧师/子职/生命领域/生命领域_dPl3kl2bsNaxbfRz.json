@@ -1,0 +1,115 @@
+{
+  "name": "生命领域",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/cleric_life.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>抚慰世界，疗愈伤痛</p></blockquote><p>生命领域专精于掌握支撑着多元宇宙众生灵的正能量。选择这个领域的牧师都是治愈大师，他们用这一生命原力治愈了无数的创伤。</p><p>生命的存在本身即是依赖着与此领域所关联的正能量，因此任何宗教系统的牧师都可能选择它。这个领域与农业之神、医疗与坚韧之神、以及家庭与社会之神的联系尤为紧密。那些致力于治愈众生的教团也十分重视这一领域的魔法。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.aGYpgynZ3nkBCPaT]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dPl3kl2bsNaxbfRz]{Life Domain}</p>",
+      "chat": ""
+    },
+    "identifier": "life",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5AJf83TZkzdjWXXc"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.vSf3zi1OYXNjmMxO"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.58OLiImWGYJiE3J8"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.9MWQHK5V8Q0MaQxX"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "5ep2DMZ15uHhgl3n"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.H3p2gr5nP5gOSNQB"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "ymh2Dk0kPH7cza9x"
+      }
+    ],
+    "classIdentifier": "cleric",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777308917802,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "dPl3kl2bsNaxbfRz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dPl3kl2bsNaxbfRz"
+}

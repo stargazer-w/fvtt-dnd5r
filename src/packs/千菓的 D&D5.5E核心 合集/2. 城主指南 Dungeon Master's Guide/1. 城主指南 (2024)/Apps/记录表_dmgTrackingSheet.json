@@ -1,0 +1,280 @@
+{
+  "_id": "dmgTrackingSheet",
+  "name": "记录表",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "聚落跟进卡",
+      "type": "text",
+      "_id": "8wdbi5nuj0XAXcuL",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>聚落跟进卡</h1><div class=\"inline\"><h3 class=\"label\">聚落名称</h3><div class=\"field\"><p></p></div></div><div class=\"settlement-size highlight\"><div class=\"inline\"><div class=\"field bubble\"><p></p></div><h5 class=\"label\">村庄<br />人口数最多 500</h5></div><div class=\"inline\"><div class=\"field bubble\"><p></p></div><h5 class=\"label\">小镇<br />人口数 501–5,000</h5></div><div class=\"inline\"><div class=\"field bubble\"><p></p></div><h5 class=\"label\">城市<br />人口数 5,001+</h5></div></div><div class=\"inline\"><h3 class=\"label\">聚落规模</h3><div class=\"field\"><p></p></div></div><h3>重要特征</h3><div class=\"field block\"><p></p></div><h3>闻名之处</h3><div class=\"field block\"><p></p></div><h3>当前灾难</h3><div class=\"field block\"><p></p></div><h3>当地领袖</h3><div class=\"field block\"><p></p></div><div class=\"space-around\"><div class=\"col\"><h4>重要人物</h4><div class=\"field block\"><p></p></div></div><div class=\"col\"><h4>重要地点</h4><div class=\"field block\"><p></p></div></div></div><div class=\"inline\"><h5>在售物品中最贵一件的金币价值：</h5><div class=\"field\"><p></p></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731081099583,
+        "modifiedTime": 1776587451772,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.8wdbi5nuj0XAXcuL"
+    },
+    {
+      "sort": -100000,
+      "name": "游戏预期卡",
+      "type": "text",
+      "_id": "UD0pbakMWgZIvj5c",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>游戏预期卡</h1><div class=\"inline\"><h3 class=\"label\">地下城主名：</h3><div class=\"field\"><p></p></div></div><div class=\"inline\"><h3 class=\"label\">玩家名：</h3><div class=\"field\"><p></p></div></div><h3 style=\"text-align:center\">游戏主题与风格</h3><div class=\"field block\"><p></p></div><h3 style=\"text-align:center\">潜在敏感内容</h3><p class=\"highlight\"><sup>示例：蜘蛛、蛇、恶魔、恋爱、精神控制等</sup></p><div class=\"field block\"><p></p></div><div class=\"highlight\"><p><sup>❌硬底线：请不要提及或包含</sup></p><p><sup>❓软底线：谨慎处理或仅在“幕后”发生</sup></p></div><h3 style=\"text-align:center\">玩家希望与预期</h3><p class=\"highlight\"><sup>你希望在这场战役中看到什么内容？</sup></p><div class=\"field block\"><p></p></div><h3 style=\"text-align:center\">桌上的注意事项</h3><p class=\"highlight\"><sup>示例：大声喧哗、粗口、饮酒、共用骰子等</sup></p><div class=\"field block\"><p></p></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731081117255,
+        "modifiedTime": 1776586600790,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.UD0pbakMWgZIvj5c"
+    },
+    {
+      "sort": -50000,
+      "name": "旅行规划卡",
+      "type": "text",
+      "_id": "9gW8NWa2ETg8tO9V",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>旅行规划卡</h1><div class=\"space-around\"><div class=\"inline\"><h4>起始地点</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>目的地</h4><div class=\"field\"><p></p></div></div></div><h2 class=\"highlight\">第 1 阶段</h2><div class=\"travel-info\"><div class=\"space-around\"><div class=\"inline\"><h4>起点</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>终点</h4><div class=\"field\"><p></p></div></div></div><div class=\"space-around\"><div class=\"inline\"><h4>距离</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>地形</h4><div class=\"field\"><p></p></div></div></div><div class=\"inline\"><h4>天气</h4><div class=\"field\"><p></p></div></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>快速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>中速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>慢速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div></div><div class=\"space-around\"><div class=\"col\" style=\"align-self:start\"><h3>旁白笔记</h3><div class=\"field block\"><p></p></div></div><div class=\"col\" style=\"align-self:start\"><h3>挑战</h3><div class=\"field block\"><p></p></div><div class=\"inline\"><h5 class=\"label\">已耗时（天／小时）</h5><div class=\"field\"><p></p></div></div></div></div><h2 class=\"highlight\">第 2 阶段</h2><div class=\"travel-info\"><div class=\"space-around\"><div class=\"inline\"><h4>起点</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>终点</h4><div class=\"field\"><p></p></div></div></div><div class=\"space-around\"><div class=\"inline\"><h4>距离</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>地形</h4><div class=\"field\"><p></p></div></div></div><div class=\"inline\"><h4>天气</h4><div class=\"field\"><p></p></div></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>快速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>中速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>慢速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div></div><div class=\"space-around\"><div class=\"col\" style=\"align-self:start\"><h3>旁白笔记</h3><div class=\"field block\"><p></p></div></div><div class=\"col\" style=\"align-self:start\"><h3>挑战</h3><div class=\"field block\"><p></p></div><div class=\"inline\"><h5 class=\"label\">已耗时（天／小时）</h5><div class=\"field\"><p></p></div></div></div></div><h2 class=\"highlight\">第 3 阶段</h2><div class=\"travel-info\"><div class=\"space-around\"><div class=\"inline\"><h4>起点</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>终点</h4><div class=\"field\"><p></p></div></div></div><div class=\"space-around\"><div class=\"inline\"><h4>距离</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4>地形</h4><div class=\"field\"><p></p></div></div></div><div class=\"inline\"><h4>天气</h4><div class=\"field\"><p></p></div></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>快速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>中速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><h4>慢速</h4><div class=\"field\"><p></p></div><h5>天／小时</h5></div></div><div class=\"space-around\"><div class=\"col\" style=\"align-self:start\"><h3>旁白笔记</h3><div class=\"field block\"><p></p></div></div><div class=\"col\" style=\"align-self:start\"><h3>挑战</h3><div class=\"field block\"><p></p></div><div class=\"inline\"><h5 class=\"label\">已耗时（天／小时）</h5><div class=\"field\"><p></p></div></div></div></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731082053586,
+        "modifiedTime": 1776586595381,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.9gW8NWa2ETg8tO9V"
+    },
+    {
+      "sort": 100000,
+      "name": "战役日志",
+      "type": "text",
+      "_id": "C1UeVOEjn0EDuIPn",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>战役日志</h1><div class=\"space-around\"><div class=\"inline\"><h4 class=\"label\">游戏回数</h4><div class=\"field\"><p></p></div></div><div class=\"inline\"><h4 class=\"label\">游戏日期</h4><div class=\"field\"><p></p></div></div></div><div class=\"inline\"><h4 class=\"label\">本次冒险标题</h4><div class=\"field\"><p></p></div></div><p class=\"highlight\">与本场相关的重要往期事件：</p><div class=\"field block\"><p></p></div><p class=\"highlight\">本场游戏的简要计划：</p><div class=\"field block\"><p></p></div><p class=\"highlight\">附加备注：</p><div class=\"field block\"><p></p></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731083640587,
+        "modifiedTime": 1776587461246,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.C1UeVOEjn0EDuIPn"
+    },
+    {
+      "sort": 200000,
+      "name": "战役冲突跟进卡",
+      "type": "text",
+      "_id": "d1DCajODZHrrhjvj",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>战役冲突跟进卡</h1><h2 class=\"label\">冲突 1</h2><p>冒险者们 vs.</p><div class=\"field block\"><p></p></div><h2 class=\"label\">冲突 2</h2><p>冒险者们 vs.</p><div class=\"field block\"><p></p></div><h2 class=\"label\">冲突 3</h2><p>冒险者们 vs.</p><div class=\"field block\"><p></p></div></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731084728794,
+        "modifiedTime": 1776587466945,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.d1DCajODZHrrhjvj"
+    },
+    {
+      "sort": 300000,
+      "name": "魔法物品跟进卡",
+      "type": "text",
+      "_id": "v3Dy6zomR2zka7fh",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<div class=\"dmg-tracker\"><h1>魔法物品跟进卡</h1><table><caption>等级 1–4</caption><thead><tr><th>稀有度</th><th>物品</th></tr></thead><tbody><tr><td style=\"width:122px\">6 普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">4 非普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">1 珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div></div></td></tr></tbody></table><table><caption>等级 5–10</caption><thead><tr><th>稀有度</th><th>物品</th></tr></thead><tbody><tr><td style=\"width:122px\">10 普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">17 非普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">6 珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">1 极珍稀</td><td><div class=\"field bubble\"><p></p></div></td></tr></tbody></table><table><caption>等级 11–16</caption><thead><tr><th>稀有度</th><th>物品</th></tr></thead><tbody><tr><td style=\"width:122px\">3 普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">7 非普通</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">11 珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">7 极珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">2 传说</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr></tbody></table><table><caption>等级 17–20</caption><thead><tr><th>稀有度</th><th>物品</th></tr></thead><tbody><tr><td style=\"width:122px\">5 珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">11 极珍稀</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr><tr><td style=\"width:122px\">9 传说</td><td><div class=\"inline wrap\"><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div><div class=\"field bubble\"><p></p></div></div></td></tr></tbody></table></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1731084795311,
+        "modifiedTime": 1776587484346,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgTrackingSheet.v3Dy6zomR2zka7fh"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "position": 11,
+      "type": "chapter",
+      "title": "记录表",
+      "showPages": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776585878820,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 425000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgTrackingSheet"
+}

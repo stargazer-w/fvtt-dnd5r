@@ -1,0 +1,136 @@
+{
+  "name": "活杀自在",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_monk_mercy_flurry-of-healing-and-harm.webp",
+  "system": {
+    "activities": {
+      "7ye4SHFAHIwqKiAO": {
+        "type": "utility",
+        "_id": "7ye4SHFAHIwqKiAO",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "(max(1,@abilities.wis.mod))"
+    },
+    "description": {
+      "value": "<p>当你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KaqqaeWjS5jBHmDl]{疾风连击}时，每一次徒手打击都可以替换为使用你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.s3F5mezbklpnfO2p]{予命之手}，且都不需要为治疗额外消耗功力。</p><p>此外，当你在疾风连击中发动的徒手打击并造成伤害时，你可以无需消耗功力就使用一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jyHNHvp8kQXwayBf]{夺命之手}。不过你仍然只能在每回合中使用一次夺命之手。</p><p>你能使用此增益的次数为你的感知调整值（最少 1 次）。你在完成一次长休后回复所有消耗的次数。</p><p class=\"item-original\">Flurry of Healing and Harm</p>",
+      "chat": ""
+    },
+    "identifier": "flurry-of-healing-and-harm",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "命流武者"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195010900,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "mZCVLwG3sdrc7sxW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!mZCVLwG3sdrc7sxW"
+}

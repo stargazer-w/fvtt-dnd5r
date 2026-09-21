@@ -1,0 +1,206 @@
+{
+  "name": "塔莎狂笑术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_tashas-hideous-laughter.webp",
+  "system": {
+    "activities": {
+      "dYG40MZiMMoaSUB1": {
+        "type": "save",
+        "name": "施法",
+        "_id": "dYG40MZiMMoaSUB1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "rr9Kq6fFzS2Yjb2z",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>施法距离内你可见的一名生物进行一次[[/save]]{感知豁免}。豁免失败，目标在持续时间内陷入&amp;Reference[incapacitated]{失能}和&amp;Reference[prone]{倒地}状态。在此期间，目标会不受控制地狂笑（只要它能够发笑），且无法结束自身的倒地状态。</p><p>目标在其每回合结束或受到伤害时，可以再进行一次[[/save]]{感知豁免}。如果豁免是因受到伤害所致，则该次豁免具有优势。豁免成功，法术终止。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 1 环高一环，就可以额外指定一个目标。</p><p class=\"item-original\">Tasha's Hideous Laughter</p>",
+      "chat": ""
+    },
+    "identifier": "tashas-hideous-laughter",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一块甜馅饼和一根羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "失控狂笑",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_tashas-hideous-laughter.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.zAC6NL1hj5EdH9xz",
+      "transfer": false,
+      "_id": "rr9Kq6fFzS2Yjb2z",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>在法术持续时间内，你陷入&amp;Reference[incapacitated]{失能}和&amp;Reference[prone]{倒地}状态。在此期间，你会不受控制地狂笑（只要你能够发笑），并且无法自行结束倒地状态。</p><p>在每个你的回合结束时，或者当你受到伤害时，你可以再进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。如果因受到伤害触发豁免，你在该次豁免中具有优势。豁免成功时，法术的效果将终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "prone",
+        "incapacitated"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732391080651,
+        "modifiedTime": 1734765739973,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!zAC6NL1hj5EdH9xz.rr9Kq6fFzS2Yjb2z"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534335005,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zAC6NL1hj5EdH9xz",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zAC6NL1hj5EdH9xz"
+}

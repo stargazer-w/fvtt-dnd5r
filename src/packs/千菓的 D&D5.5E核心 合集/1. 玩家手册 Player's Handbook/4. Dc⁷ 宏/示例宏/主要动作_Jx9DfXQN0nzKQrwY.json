@@ -1,0 +1,27 @@
+{
+  "name": "主要动作",
+  "type": "script",
+  "command": "// 获取选中的托可\nlet selectedToken = canvas.tokens.controlled[0];\nif (!selectedToken) {\n    ui.notifications.warn(\"未选中拓可！\");\n    return;\n}\n\n// 定义聊天卡\nlet Action = `\n    <div class=\"message-content\">\n        <div class=\"dnd5e2 chat-card activation-card\" data-display-challenge=\"\">\n            <section class=\"card-header description collapsible\">\n                <header class=\"summary\">\n                    <img class=\"gold-icon\" src=\"modules/dnd5e-collection-2024/assets/⠚.webp\">\n                    <div class=\"name-stacked border\">\n                        <span class=\"title\">疾走 Dash</span>\n                        <span class=\"subtitle\">动作</span>\n                    </div>\n                    <i class=\"fa-solid fa-chevron-down fa-fw\" inert=\"\"></i>\n                </header>\n                <section class=\"details collapsible-content card-content\">\n                    <div class=\"wrapper\">\n                        @Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.6l6nBKip4LqB1sCU inline]\n                    </div>\n                </section>\n            </section>\n        </div>\n    </div>\n`;\n\n// 技能检定（弃用）\nactor.rollSkill('ste');\n\n// 创建聊天卡\nChatMessage.create({\n    speaker: ChatMessage.getSpeaker({token: actor}),\n    content: Action\n});",
+  "img": "icons/svg/dice-target.svg",
+  "_id": "Jx9DfXQN0nzKQrwY",
+  "author": "Jqoj9dwIRPPEU1Xu",
+  "scope": "global",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1729966734040,
+    "modifiedTime": 1732636428235,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_key": "!macros!Jx9DfXQN0nzKQrwY"
+}

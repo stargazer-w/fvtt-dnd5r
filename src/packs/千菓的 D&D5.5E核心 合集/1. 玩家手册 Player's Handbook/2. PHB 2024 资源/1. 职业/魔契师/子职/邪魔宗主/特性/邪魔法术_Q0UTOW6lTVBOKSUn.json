@@ -1,0 +1,194 @@
+{
+  "name": "邪魔法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>宗主赐予的魔法令你始终准备了特定的法术；当你达到邪魔法术表中提及的魔契师等级时，你便始终准备了列出的法术。</p><table class=\"right-three\"><caption>邪魔法术 Fiend Spells</caption><thead><tr><td>魔契师等级</td><td>法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4]{燃烧之手}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MExq97njl4rCtG9x]{命令术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.eRWWPXSkH8M3q1Mh]{灼热射线}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5KhBtK2VPnA5SzwC]{暗示术}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CyL40Fy99sUMr1Nb]{臭云术}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7HdsSTOVSLycY5OG]{火焰护盾}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw]{火墙术}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Z9wfLDPdhMwtPEBu]{指使术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5m0oQFhzzKySuRN8]{疫病虫群}</em></td></tr></tbody></table><p class=\"item-original\">Fiend Spells</p>",
+      "chat": ""
+    },
+    "identifier": "fiend-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "邪魔宗主",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.MExq97njl4rCtG9x",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.eRWWPXSkH8M3q1Mh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5KhBtK2VPnA5SzwC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "邪魔法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "EyazZeCcX6HBEKI8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CyL40Fy99sUMr1Nb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "邪魔法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "OWGh3KzGHKEvvMVT"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7HdsSTOVSLycY5OG",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gsf730v9Syplbluw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 7,
+        "title": "邪魔法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "bWwU8t4UpNCzF1aJ"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Z9wfLDPdhMwtPEBu",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5m0oQFhzzKySuRN8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "邪魔法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "fPaXmkr2yXhhDmMW"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777659195881,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "Q0UTOW6lTVBOKSUn",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Q0UTOW6lTVBOKSUn"
+}

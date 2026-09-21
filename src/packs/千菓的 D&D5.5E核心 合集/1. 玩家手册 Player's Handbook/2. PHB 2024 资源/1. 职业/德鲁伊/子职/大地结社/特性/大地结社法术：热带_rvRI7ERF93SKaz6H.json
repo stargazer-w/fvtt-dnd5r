@@ -1,0 +1,183 @@
+{
+  "name": "大地结社法术：热带",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>参照以下的表格，你自动将表中对应你德鲁伊等级及更低等级的法术加入准备。</p><table class=\"left-three\"><caption>热带 Tropical Land</caption><thead><tr><td>德鲁伊等级</td><td>结社法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.75S6zhRFifHpH327]{酸液飞溅}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy]{致病射线}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wsGBy2GSy37W6xMV]{蛛网术}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CyL40Fy99sUMr1Nb]{臭云术}</em></td></tr><tr><td style=\"text-align:center\">7</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S58EZtQXPSFycVf0]{变形术}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5m0oQFhzzKySuRN8]{疫病虫群}</em></td></tr></tbody></table><p class=\"item-original\">Tropical Land, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.I5aoNJ3PC6nEEUJs]{Circle of the Land Spells}</p>",
+      "chat": ""
+    },
+    "identifier": "circle-of-the-land-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "大地结社",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "结社法术",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.75S6zhRFifHpH327",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wsGBy2GSy37W6xMV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "rSDDAdlu4Fax0Qm4"
+      },
+      {
+        "type": "ItemGrant",
+        "title": "结社法术",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CyL40Fy99sUMr1Nb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "xyzgQ3ETUYDh9mBW"
+      },
+      {
+        "type": "ItemGrant",
+        "title": "结社法术",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.S58EZtQXPSFycVf0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 7,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "LcslGRLBCFOpACbQ"
+      },
+      {
+        "type": "ItemGrant",
+        "title": "结社法术",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.5m0oQFhzzKySuRN8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "5TDPUbAqguEwuNbV"
+      }
+    ],
+    "crewed": false
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1777315340458,
+    "modifiedTime": 1777640596716,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n"
+  },
+  "ownership": {
+    "default": 0,
+    "CeZkjlhN2tfJgg4n": 3
+  },
+  "_id": "rvRI7ERF93SKaz6H",
+  "sort": 150000,
+  "_key": "!items!rvRI7ERF93SKaz6H"
+}

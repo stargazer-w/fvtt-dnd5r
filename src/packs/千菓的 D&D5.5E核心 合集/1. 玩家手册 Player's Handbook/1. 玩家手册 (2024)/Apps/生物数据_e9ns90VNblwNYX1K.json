@@ -1,0 +1,2063 @@
+{
+  "name": "生物数据",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "23iinS1LHrYAzHL3",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本附录提供了本书其他部分提及的生物数据，尤其是在职业、装备和法术章节中提到的内容。有关生物@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.JaBtNuiFJZaRoJWX.JournalEntryPage.St3ANvrKOgxECnTn]{数据卡}的说明，请见数据汇编；想了解更多生物，参考<em>《怪物图鉴》</em>。</p><p>以下数据卡按首字母顺序排列。地下城主（DM）在使用数据卡时，可根据需要更改其中的细节。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776364587701,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.23iinS1LHrYAzHL3"
+    },
+    {
+      "sort": 250000,
+      "name": "猿 Ape",
+      "type": "text",
+      "_id": "UQkeGnxNZjHMXlwf",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.ZvplVdS9mNIZHSXz statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748782763116,
+        "modifiedTime": 1758304388784,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.UQkeGnxNZjHMXlwf"
+    },
+    {
+      "sort": 450000,
+      "name": "獾 Badger",
+      "type": "text",
+      "_id": "Ey6lWmwGJGs6QAiw",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.vgHORQpYJaQnsj9r statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783315631,
+        "modifiedTime": 1748783758001,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.Ey6lWmwGJGs6QAiw"
+    },
+    {
+      "sort": 550000,
+      "name": "蝙蝠 Bat",
+      "type": "text",
+      "_id": "4mnQr8f0ju2D8CWu",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Mmck4W7OF9r1xUQi statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783332660,
+        "modifiedTime": 1748783763457,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.4mnQr8f0ju2D8CWu"
+    },
+    {
+      "sort": 650000,
+      "name": "黑熊 Black Bear",
+      "type": "text",
+      "_id": "hv2uRYPUBPoXiRrf",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.ABRIZh2Q5NOEstyY statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783341137,
+        "modifiedTime": 1748783772405,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.hv2uRYPUBPoXiRrf"
+    },
+    {
+      "sort": 750000,
+      "name": "野猪 Boar",
+      "type": "text",
+      "_id": "yEyeGp8MKc6eoAnU",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.rrqNO2pcCLZzlgoJ statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783349521,
+        "modifiedTime": 1748783807004,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.yEyeGp8MKc6eoAnU"
+    },
+    {
+      "sort": 850000,
+      "name": "棕熊 Brown Bear",
+      "type": "text",
+      "_id": "7m37RsAO6EeDoGJh",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.qdN5OK6W7T1F4COB statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783368312,
+        "modifiedTime": 1748783824946,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.7m37RsAO6EeDoGJh"
+    },
+    {
+      "sort": 950000,
+      "name": "骆驼 Camel",
+      "type": "text",
+      "_id": "tIA1eiXdrKbIP0qs",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.XKU1ZMeFbVQJPdrz statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783377004,
+        "modifiedTime": 1748783833037,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.tIA1eiXdrKbIP0qs"
+    },
+    {
+      "sort": 1050000,
+      "name": "猫 Cat",
+      "type": "text",
+      "_id": "w77nnEcZTjQlSJRU",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.OrnGzmbsEu1H1Izg statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783383806,
+        "modifiedTime": 1748783842033,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.w77nnEcZTjQlSJRU"
+    },
+    {
+      "sort": 1150000,
+      "name": "蟒蛇 Constrictor Snake",
+      "type": "text",
+      "_id": "3mbDaIW0Rjq14L4V",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.D7XX93kFmt4nc8a6 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783390701,
+        "modifiedTime": 1748783849423,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.3mbDaIW0Rjq14L4V"
+    },
+    {
+      "sort": 1250000,
+      "name": "蟹 Crab",
+      "type": "text",
+      "_id": "xtPPTmWctw7x9nW4",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.2vUbTywScKI2TzDj statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783397934,
+        "modifiedTime": 1748783856906,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.xtPPTmWctw7x9nW4"
+    },
+    {
+      "sort": 1350000,
+      "name": "鳄鱼 Crocodile",
+      "type": "text",
+      "_id": "hwaAw41gsEN2VBNd",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Mo3FrFDhamgqg0Xw statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783406001,
+        "modifiedTime": 1748783862856,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.hwaAw41gsEN2VBNd"
+    },
+    {
+      "sort": 1450000,
+      "name": "恐狼 Dire Wolf",
+      "type": "text",
+      "_id": "YFd4EdC79lJ3p6QR",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Vvd70dxgkap8o0XS statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783418623,
+        "modifiedTime": 1748783870768,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.YFd4EdC79lJ3p6QR"
+    },
+    {
+      "sort": 1550000,
+      "name": "驮用马 Draft Horse",
+      "type": "text",
+      "_id": "IcSAaFqteNGhDxYL",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.HCQ8o7uUFDFUUmOY statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783425826,
+        "modifiedTime": 1748783877986,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.IcSAaFqteNGhDxYL"
+    },
+    {
+      "sort": 1650000,
+      "name": "象 Elephant",
+      "type": "text",
+      "_id": "8kW8pzkYEXxr551u",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.VxnSPxqsBQ6LV8sV statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783433221,
+        "modifiedTime": 1748783887123,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.8kW8pzkYEXxr551u"
+    },
+    {
+      "sort": 1750000,
+      "name": "驼鹿 Elk",
+      "type": "text",
+      "_id": "fXDVFk9xCSn1XEVb",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.8DTuV2caVLgAO7Qn statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783441928,
+        "modifiedTime": 1748783894529,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.fXDVFk9xCSn1XEVb"
+    },
+    {
+      "sort": 1850000,
+      "name": "青蛙 Frog",
+      "type": "text",
+      "_id": "YOc3RUoFuScaH41d",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.9gsPXkiOvhI3VJXi statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783450146,
+        "modifiedTime": 1748783903014,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.YOc3RUoFuScaH41d"
+    },
+    {
+      "sort": 1950000,
+      "name": "巨獾 Giant Badger",
+      "type": "text",
+      "_id": "57qAvyla2jLMzrJm",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.jaW5uyQe4O99GSk2 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783456024,
+        "modifiedTime": 1748783912207,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.57qAvyla2jLMzrJm"
+    },
+    {
+      "sort": 2050000,
+      "name": "巨蟹 Giant Crab",
+      "type": "text",
+      "_id": "tivZKY6kaTlK7dx5",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.q3O1LcCUs8Gx02OM statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783462193,
+        "modifiedTime": 1748783919380,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.tivZKY6kaTlK7dx5"
+    },
+    {
+      "sort": 2150000,
+      "name": "巨山羊 Giant Goat",
+      "type": "text",
+      "_id": "VyKc5wQBnN45io4e",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.CRh5jBKPmqLGoLr2 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783468104,
+        "modifiedTime": 1748783925376,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.VyKc5wQBnN45io4e"
+    },
+    {
+      "sort": 2250000,
+      "name": "巨海马 Giant Seahorse",
+      "type": "text",
+      "_id": "MGL2aQ1xQtywyB8a",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.qsvIBuCn58BkboC9 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783477605,
+        "modifiedTime": 1748783931894,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.MGL2aQ1xQtywyB8a"
+    },
+    {
+      "sort": 2350000,
+      "name": "巨蜘蛛 Giant Spider",
+      "type": "text",
+      "_id": "hBZwKhCEGxk7C9is",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.x6JpbuUUGOGjaSZx statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783489444,
+        "modifiedTime": 1748783938459,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.hBZwKhCEGxk7C9is"
+    },
+    {
+      "sort": 2450000,
+      "name": "巨鼬 Giant Weasel",
+      "type": "text",
+      "_id": "pZAD748gj9cFJd57",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.2hEh0JEGota2dgXb statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783496514,
+        "modifiedTime": 1748783944590,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.pZAD748gj9cFJd57"
+    },
+    {
+      "sort": 2550000,
+      "name": "山羊 Goat",
+      "type": "text",
+      "_id": "537eEzPwyG8rV0Fu",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.QYWPTjhNXKqEm6Cn statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783504085,
+        "modifiedTime": 1748783951283,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.537eEzPwyG8rV0Fu"
+    },
+    {
+      "sort": 2650000,
+      "name": "猎鹰 Hawk",
+      "type": "text",
+      "_id": "WN91CbgmRYt8w5ac",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.mied8e5HOmw2Bzot statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783514218,
+        "modifiedTime": 1748783957819,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.WN91CbgmRYt8w5ac"
+    },
+    {
+      "sort": 2750000,
+      "name": "小魔鬼 Imp",
+      "type": "text",
+      "_id": "430sdbD4Xg75k4nG",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Jl6ixuTZqV7rO1eA statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783520659,
+        "modifiedTime": 1748783964065,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.430sdbD4Xg75k4nG"
+    },
+    {
+      "sort": 2850000,
+      "name": "狮子 Lion",
+      "type": "text",
+      "_id": "T1F5qLX80XEAie1c",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.IFgdEbUgGIiACxrp statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783533220,
+        "modifiedTime": 1748783973777,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.T1F5qLX80XEAie1c"
+    },
+    {
+      "sort": 2950000,
+      "name": "蜥蜴 Lizard",
+      "type": "text",
+      "_id": "stxeFviNlN07AFDS",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.uDsXaRE5B4h7BDdI statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783539711,
+        "modifiedTime": 1748783982872,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.stxeFviNlN07AFDS"
+    },
+    {
+      "sort": 3050000,
+      "name": "獒犬 Mastiff",
+      "type": "text",
+      "_id": "n2nBe2IwNEBM6h1F",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.hAM8vTadKiVRSNrV statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783555669,
+        "modifiedTime": 1748783994471,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.n2nBe2IwNEBM6h1F"
+    },
+    {
+      "sort": 3150000,
+      "name": "骡 Mule",
+      "type": "text",
+      "_id": "JZOhrm8yYFmcCh6P",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0D0tlGA4wQMzgFd8 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783570381,
+        "modifiedTime": 1748784000478,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.JZOhrm8yYFmcCh6P"
+    },
+    {
+      "sort": 3250000,
+      "name": "章鱼 Octopus",
+      "type": "text",
+      "_id": "9IH6oLJLySrJh1vJ",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.cfwocR0h0qq7ibWA statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783576618,
+        "modifiedTime": 1748784006523,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.9IH6oLJLySrJh1vJ"
+    },
+    {
+      "sort": 3350000,
+      "name": "猫头鹰 Owl",
+      "type": "text",
+      "_id": "mUt2xDb6itVvc6HL",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.9ULIvenDwTcSK4aj statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783584004,
+        "modifiedTime": 1748784020044,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.mUt2xDb6itVvc6HL"
+    },
+    {
+      "sort": 3450000,
+      "name": "黑豹 Panther",
+      "type": "text",
+      "_id": "HF07GkAL0eqZK4cN",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.XjqEfXkEj4UBBaQE statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783589818,
+        "modifiedTime": 1748784024912,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.HF07GkAL0eqZK4cN"
+    },
+    {
+      "sort": 3550000,
+      "name": "矮种马 Pony",
+      "type": "text",
+      "_id": "SvNEuFYVDxC7dGjz",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.nkeRBT3haf1uWg3S statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783599629,
+        "modifiedTime": 1748784029726,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.SvNEuFYVDxC7dGjz"
+    },
+    {
+      "sort": 3650000,
+      "name": "伪龙 Pseudodragon",
+      "type": "text",
+      "_id": "KqW2FcFoUEb2FRm3",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.WvTpIexEUeCggAbi statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783607101,
+        "modifiedTime": 1748784034917,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.KqW2FcFoUEb2FRm3"
+    },
+    {
+      "sort": 3750000,
+      "name": "夸塞魔 Quasit",
+      "type": "text",
+      "_id": "dePGBD7P8N3tn3cb",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.k9U7d11rmMtTDEMg statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783615650,
+        "modifiedTime": 1748784040100,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.dePGBD7P8N3tn3cb"
+    },
+    {
+      "sort": 3850000,
+      "name": "老鼠 Rat",
+      "type": "text",
+      "_id": "GuQzEipqT2aNLHbR",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.qM8bDd0R5R73LB1b statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783624273,
+        "modifiedTime": 1748784046841,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.GuQzEipqT2aNLHbR"
+    },
+    {
+      "sort": 3950000,
+      "name": "渡鸦 Raven",
+      "type": "text",
+      "_id": "jrzz86CsyFUMsoN1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.tJTuyyaUseWn4QLq statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783629822,
+        "modifiedTime": 1748784051638,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.jrzz86CsyFUMsoN1"
+    },
+    {
+      "sort": 4050000,
+      "name": "礁鲨 Reef Shark",
+      "type": "text",
+      "_id": "ysQTG4nxtaa8AFwo",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.OyaqStxautIxVAoQ statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783635733,
+        "modifiedTime": 1748784056335,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.ysQTG4nxtaa8AFwo"
+    },
+    {
+      "sort": 4150000,
+      "name": "乘用马 Riding Horse",
+      "type": "text",
+      "_id": "UMezw6a6vpnL4MfT",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.LjDJb00Eusx6M7rE statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783641485,
+        "modifiedTime": 1748784061284,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.UMezw6a6vpnL4MfT"
+    },
+    {
+      "sort": 4250000,
+      "name": "蝎 Scorpion",
+      "type": "text",
+      "_id": "wn3K1xU2kHEfbK2a",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.2yjJFk7nqVs07TUX statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783646688,
+        "modifiedTime": 1748784065835,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.wn3K1xU2kHEfbK2a"
+    },
+    {
+      "sort": 4350000,
+      "name": "骷髅 Skeleton",
+      "type": "text",
+      "_id": "XqNsINJFKpEgxeAT",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0NSEwg9YpNbAD9QS statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783652549,
+        "modifiedTime": 1748784070343,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.XqNsINJFKpEgxeAT"
+    },
+    {
+      "sort": 4450000,
+      "name": "史拉蟾蝌蚪 Slaad Tadpole",
+      "type": "text",
+      "_id": "EuEEcWjX7pb6zUHc",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.cB4WmMzB0HwhaFQI statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783658384,
+        "modifiedTime": 1748784077305,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.EuEEcWjX7pb6zUHc"
+    },
+    {
+      "sort": 4550000,
+      "name": "斯芬克斯好奇宝宝 Sphinx of Wonder",
+      "type": "text",
+      "_id": "GbiHJzarxwcBHlsV",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.x7d58EUfTAd0vZT2 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783665023,
+        "modifiedTime": 1748784081535,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.GbiHJzarxwcBHlsV"
+    },
+    {
+      "sort": 4650000,
+      "name": "蜘蛛 Spider",
+      "type": "text",
+      "_id": "c94T8mMcPicpbwn6",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.fqWLwBeWeRj5HIme statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783672721,
+        "modifiedTime": 1748784085903,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.c94T8mMcPicpbwn6"
+    },
+    {
+      "sort": 4750000,
+      "name": "小妖精 Sprite",
+      "type": "text",
+      "_id": "uo1ejtlLvNVlniM1",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0SJ8EERAteDrD2m3 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783680267,
+        "modifiedTime": 1748784094514,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.uo1ejtlLvNVlniM1"
+    },
+    {
+      "sort": 4850000,
+      "name": "虎 Tiger",
+      "type": "text",
+      "_id": "BVakcAbSfYnbL7Fn",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.tTCyg7MPQrUt1a5o statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783687810,
+        "modifiedTime": 1748784099497,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.BVakcAbSfYnbL7Fn"
+    },
+    {
+      "sort": 4950000,
+      "name": "毒蛇 Venomous Snake",
+      "type": "text",
+      "_id": "OFnkzqCetaEBUq9O",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.UamPjSPbtKImotPp statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783693566,
+        "modifiedTime": 1748784109640,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.OFnkzqCetaEBUq9O"
+    },
+    {
+      "sort": 5050000,
+      "name": "战马 Warhorse",
+      "type": "text",
+      "_id": "bG7SfI9TFDEsM0FJ",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Wqn2pBKvnJgYmgC9 statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783701885,
+        "modifiedTime": 1748784114784,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.bG7SfI9TFDEsM0FJ"
+    },
+    {
+      "sort": 5150000,
+      "name": "鼬 Weasel",
+      "type": "text",
+      "_id": "YhzhmWLWnmphiqtG",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.CPKA0H4hDXc3j1tI statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783709466,
+        "modifiedTime": 1748784119813,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.YhzhmWLWnmphiqtG"
+    },
+    {
+      "sort": 5250000,
+      "name": "狼 Wolf",
+      "type": "text",
+      "_id": "So9aBlfbi28AkYew",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.GtJfMoC6HbJM4MCH statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783715870,
+        "modifiedTime": 1748784125319,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.So9aBlfbi28AkYew"
+    },
+    {
+      "sort": 5350000,
+      "name": "丧尸 Zombie",
+      "type": "text",
+      "_id": "iWRKnOihjQSsCz2J",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.louRCjMpG5jx9Zuv statblock caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1748783722789,
+        "modifiedTime": 1748784131945,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!e9ns90VNblwNYX1K.iWRKnOihjQSsCz2J"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": false,
+      "position": 10,
+      "title": "附录 B：生物数据"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1728960556347,
+    "modifiedTime": 1776364585110,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "e9ns90VNblwNYX1K",
+  "sort": 300000,
+  "categories": [],
+  "_key": "!journal!e9ns90VNblwNYX1K"
+}

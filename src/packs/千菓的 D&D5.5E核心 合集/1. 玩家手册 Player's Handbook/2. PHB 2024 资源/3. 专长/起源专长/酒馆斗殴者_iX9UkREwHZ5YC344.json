@@ -1,0 +1,128 @@
+{
+  "name": "酒馆斗殴者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_tavern-brawler.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>起源专长</em></p><p><em><strong>强化徒手打击。</strong></em>当你使用徒手攻击命中并造成伤害时，你可以造成 1d4 + 你力量调整值的钝击伤害，而非徒手攻击的原本伤害。</p><p><em><strong>伤害重掷。</strong></em>当你为徒手攻击掷伤害骰时，如果掷出 1，可以再重掷一次，但你必须使用重掷的结果。</p><p><em><strong>临时武器专家。</strong></em>你拥有临时武器的熟练项。</p><p><em><strong>推离。</strong></em>在你的回合内，如果你用&amp;Reference[Attack]{攻击}动作中的一次徒手打击命中了一个生物，你可以对目标同时造成伤害并把它推离 5 尺。你每回合只能使用这个增益一次。</p><p class=\"item-original\">Tavern Brawler</p>",
+      "chat": ""
+    },
+    "identifier": "tavern-brawler",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "强化徒手打击",
+        "_id": "hrZpBFQtNZSjFbCJ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gLEBwv27NIQZRD5X",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "临时武器专家",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_tavern-brawler.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.iX9UkREwHZ5YC344",
+      "_id": "OuP64kCaqfyT8DQz",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.tavernBrawlerFeat",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1775985129235,
+        "modifiedTime": 1775985206907,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28"
+      },
+      "_key": "!items.effects!iX9UkREwHZ5YC344.OuP64kCaqfyT8DQz"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731046918875,
+    "modifiedTime": 1777120506189,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "iX9UkREwHZ5YC344",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!iX9UkREwHZ5YC344"
+}

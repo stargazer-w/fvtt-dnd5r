@@ -1,0 +1,191 @@
+{
+  "name": "龙裔",
+  "type": "race",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/species/dragonborn.webp",
+  "system": {
+    "description": {
+      "value": "<p>龙裔的先祖由金属龙和色彩龙的龙蛋孵化而来。有故事传言，这些龙蛋乃是得到了龙神巴哈姆特或提亚马特的祝福，应两位希望让多元宇宙布满自己造物的愿景而生。但也有故事称，最初的龙裔是由巨龙们独立制造，与神无关。无论起源如何，龙裔都已经在物质位面中扎根落地，繁衍生息。</p><p>龙裔看起来就如同双足行走的无翼巨龙——明亮而灼热的眼瞳，头顶细长的骨角，其独有的色泽和其他特征更是彰显着其龙类先祖。</p><h3>龙裔特质</h3><p class=\"journal-original-h3\">Dragonborn Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>中型（约 5–7 尺高）</p><p><strong>速度：</strong>30 尺</p><p>作为龙裔，你有以下特殊特质：</p><p><em><strong>龙族血统。</strong></em>你的血脉可以追溯到某种巨龙祖先。从龙族血统表格中选择一种龙。你选择的龙种将会影响你的吐息武器和伤害抗性特质，以及你的外表。</p><table><caption>龙族血统 Draconic Ancestors</caption><thead><tr><td>龙种</td><td>伤害类型</td><td>龙种</td><td>伤害类型</td></tr></thead><tbody><tr><td>黑龙</td><td>强酸</td><td>金龙</td><td>火焰</td></tr><tr><td>蓝龙</td><td>闪电</td><td>绿龙</td><td>毒素</td></tr><tr><td>黄铜龙</td><td>火焰</td><td>红龙</td><td>火焰</td></tr><tr><td>青铜龙</td><td>闪电</td><td>银龙</td><td>寒冷</td></tr><tr><td>赤铜龙</td><td>强酸</td><td>白龙</td><td>寒冷</td></tr></tbody></table><p><em><strong>吐息武器。</strong></em>每当你在自己回合内进行&amp;Reference[Attack]{攻击}动作时，你可以将其中一次攻击替换为释放魔法性的能量，覆盖 15 尺锥形或 30 尺长 5 尺宽的线形范围（每次吐息分别选择）。区域内的生物必须进行一次[[/save dex]]{敏捷豁免}（DC = 8 + 你的体质调整值 + 你的熟练加值）。豁免失败的生物受到 1d10 伤害，伤害类型取决于你在龙族血统特质的选择。豁免成功的生物只受到一半伤害。此伤害会在你达到 5 级（2d10），11 级（3d10）和 17 级（4d10）时提升 1d10。</p><p>你可以使用此吐息武器的次数等于你的熟练加值，当你完成一次长休后，你重获全部已消耗的使用次数。</p><p><em><strong>伤害抗性。</strong></em>你的龙族血统为你带来相应伤害类型的伤害抗性。</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>龙族飞翼。</strong></em>当你到达 5 级时，你获得引导体内龙之魔法的能力，让自己暂时获得飞行能力。以一个&amp;Reference[Bonus Action]{附赠动作}，你的后背临时伸出两片灵体飞翼，持续 10 分钟或直到你收起飞翼（无需动作），或直到你陷入失能状态。持续时间内，你获得等于你速度的飞行速度。你的翅膀看起来像是和你吐息武器相同的能量凝聚而成。当你使用此特质后，直到你完成一次长休为止都不能再次使用。</p>",
+      "chat": ""
+    },
+    "identifier": "dragonborn",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "1P6xFzbXPoDqJUwf",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "title": "体型",
+        "hint": "中型（约 5–7 尺高）。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+        "value": {}
+      },
+      {
+        "_id": "qy8XZogcMlQ7IkQA",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.4LBJFG9pvDKZDLFa"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ipYfW1aeJO1370Dh"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.n5Qxfw50csXP29ja"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jpGM3W9Z90rBBU4t"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.scgkC3L34ZSK1uTt"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.IzyaGMLeFAOYDXQY"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.k9vCU91j18Yd5WpH"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wd86Zsv2FC5RFkau"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.yrkCLcKnBj08OHnt"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.qNgPCRn4dhc4DuAX"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "龙族血统",
+        "hint": "从龙族血统表格中选择一种龙。你选择的龙种将会影响你的吐息武器和伤害抗性特质，以及你的外表。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_positive.webp"
+      },
+      {
+        "_id": "NMyoimOzicO5s7bj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.NdteGxaWGF4Q9DiV"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "龙裔特质",
+        "hint": "你的种族赋予你以下特质。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "_id": "XE4SKpe3TbHI3bOv",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "breath-weapon",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "0": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            },
+            "5": {
+              "number": 2,
+              "faces": 10,
+              "modifiers": []
+            },
+            "11": {
+              "number": 3,
+              "faces": 10,
+              "modifiers": []
+            },
+            "17": {
+              "number": 4,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "吐息武器：伤害骰",
+        "hint": "吐息武器的伤害会在你达到特定等级时增加。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_die.webp"
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "龙裔",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729940303502,
+    "modifiedTime": 1777697992189,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "lCgdTEvzS1tA8OJL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!lCgdTEvzS1tA8OJL"
+}

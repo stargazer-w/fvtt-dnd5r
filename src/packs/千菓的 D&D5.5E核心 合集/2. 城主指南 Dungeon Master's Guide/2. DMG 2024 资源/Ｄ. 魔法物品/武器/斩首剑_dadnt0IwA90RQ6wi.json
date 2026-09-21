@@ -1,0 +1,287 @@
+{
+  "name": "斩首剑",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_vorpal-sword.webp",
+  "system": {
+    "activities": {
+      "kIFVSpBBd79tHaFX": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "VD9NPyNcGWZXGCQj",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "XX9l4DWZivzFuDml",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "kIFVSpBBd79tHaFX"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KOlJf0iaOOaS0xzS]{长柄刀}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RFZ6nnVlkoCrmpji]{巨剑}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rmSJn9nJpCyK85Zt]{长剑}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HlOvL5ont4BTTPoo]{弯刀}），传说（需同调）</em></p><p>你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。此外，此武器无视对挥砍伤害的抗性。</p><p>你在以此武器进行攻击检定的 d20 中掷出 20，且目标生物至少有一个脑袋时，你砍下该生物的一颗头颅。如果该生物无法在失去这颗头的情况下生存，则它立即死亡。若该生物具有对挥砍伤害的免疫、没有头或不需要头部、或是 DM 认为此武器无法斩下如此巨大的头颅，则作为被斩首的替代，该生物在此次被命中时额外受到 30 挥砍伤害。若该生物具有传奇抗性，它可以消耗一次该特性的使用次数来避免被斩首，但仍需受到额外伤害。</p><p class=\"item-original\">Vorpal Sword</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "vorpal-sword",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "斩首剑",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "XX9l4DWZivzFuDml",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "斩首{}",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，传说（需同调）</em></p> <p>你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。此外，此武器无视对挥砍伤害的抗性。</p> <p>你在以此武器进行攻击检定的 d20 中掷出 20，且目标生物至少有一个脑袋时，你砍下该生物的一颗头颅。如果该生物无法在失去这颗头的情况下生存，则它立即死亡。若该生物具有对挥砍伤害的免疫、没有头或不需要头部、或是 DM 认为此武器无法斩下如此巨大的头颅，则作为被斩首的替代，该生物在此次被命中时额外受到 30 挥砍伤害。若该生物具有传奇抗性，它可以消耗一次该特性的使用次数来避免被斩首，但仍需受到额外伤害。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.magicalBonus",
+          "mode": 4,
+          "value": "3",
+          "priority": null
+        },
+        {
+          "key": "activities[attack].damage.critical.bonus",
+          "mode": 2,
+          "value": "30",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!dadnt0IwA90RQ6wi.XX9l4DWZivzFuDml"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752572905090,
+    "modifiedTime": 1758199223646,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dadnt0IwA90RQ6wi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!dadnt0IwA90RQ6wi"
+}

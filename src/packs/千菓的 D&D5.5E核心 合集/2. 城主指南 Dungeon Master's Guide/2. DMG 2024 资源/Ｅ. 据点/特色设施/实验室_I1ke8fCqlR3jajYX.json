@@ -1,0 +1,94 @@
+{
+  "name": "实验室",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/sage.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>9 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>制造</p><p>实验室包含了存放炼金材料的储藏间以及制造各类调和物的工作间。</p><p><em><strong>制造选项。</strong></em>当你对此设施下达制造指令时，从下列选项中选择一项：</p><p><strong>制造：炼金工具。</strong>设施雇员制造任意能用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TeNE1oggLImvNh8Q]{炼金工具}制造的物品，使用<em>《玩家手册》</em>和本书第 7 章的相关规则。</p><p><strong>制造：毒药。</strong>你委托设施雇员制造一小瓶毒药。该毒药可以是下列任意一种：@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Dh2iQ5w39epXXHhi]{焦引熏烟}、@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ly212gSiXBVDyaY1]{乙醚精}、@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.SWKiXi31tafIbUFo]{蒙汗药}。这项工作需要 7 天，你必须支付毒药价格一半的成本费用。该毒药的具体功效和价格见第 3 章“毒药”一节。</p><p class=\"item-original\">Laboratory</p>",
+      "chat": ""
+    },
+    "identifier": "laboratory",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "laboratory"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763002058222,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "I1ke8fCqlR3jajYX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!I1ke8fCqlR3jajYX"
+}

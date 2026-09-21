@@ -1,0 +1,739 @@
+{
+  "name": "背景详述",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "概览",
+      "type": "text",
+      "_id": "lXqvtf9mIp8RYjFr",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本节按字母顺序介绍了十六种背景。</p><aside style=\"display:flex;flex-wrap:wrap\"><div style=\"flex:1 1 25%\"><p>@UUID[.7DAvTQlrw7OTsgpX]{侍僧 Acolyte}</p><p>@UUID[.MVASrQM3UCgM0kHP]{工匠 Artisan}</p><p>@UUID[.pGmoBJDRLrVUIHR7]{欺诈师 Charlatan}</p><p>@UUID[.PnqnUJNaPQUZPlLR]{罪犯 Criminal}</p></div><div style=\"flex:1 1 25%\"><p>@UUID[.GrUJAFlgbVtJAUvM]{艺人 Entertainer}</p><p>@UUID[.C4SKduiGiKWQnbct]{农民 Farmer}</p><p>@UUID[.96wRmIMXL56wc93D]{警卫 Guard}</p><p>@UUID[.sWETOJP5gl7Ab6Ax]{向导 Guide}</p></div><div style=\"flex:1 1 25%\"><p>@UUID[.8EYJdksBFi8PYROS]{隐士 Hermit}</p><p>@UUID[.4odA9engX032HZpT]{商人 Merchant}</p><p>@UUID[.CubKd9NYBUQRUOHm]{贵族 Noble}</p><p>@UUID[.Vsc9EKUUGboSI6jy]{智者 Sage}</p></div><div style=\"flex:1 1 25%\"><p>@UUID[.APL7pJ7446etLuQN]{水手 Sailor}</p><p>@UUID[.96LvQblGm4SHhLSv]{抄写员 Scribe}</p><p>@UUID[.l8iMjw1XZgyqWFFf]{士兵 Soldier}</p><p>@UUID[.xn6PhvDWU07GfaAr]{流浪者 Wayfarer}</p></div></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "type": "special",
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776354575232,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.lXqvtf9mIp8RYjFr"
+    },
+    {
+      "sort": 0,
+      "name": "侍僧",
+      "type": "text",
+      "_id": "7DAvTQlrw7OTsgpX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Acolyte</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.ZrCWNN1jl5kwSQ4B inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KTVbqrVZww9ELZd5 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354586419,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.7DAvTQlrw7OTsgpX"
+    },
+    {
+      "sort": 0,
+      "name": "工匠",
+      "type": "text",
+      "_id": "MVASrQM3UCgM0kHP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Artisan</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.cY1l08zpFLL2PdTB inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PVJMqT2G4d2WIXRB caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354590868,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.MVASrQM3UCgM0kHP"
+    },
+    {
+      "sort": 0,
+      "name": "欺诈师",
+      "type": "text",
+      "_id": "pGmoBJDRLrVUIHR7",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Charlatan</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.cZyHdW65Y0ybFsI1 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.RfFbfEBfxRhTmE7R caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354597364,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.pGmoBJDRLrVUIHR7"
+    },
+    {
+      "sort": 0,
+      "name": "罪犯",
+      "type": "text",
+      "_id": "PnqnUJNaPQUZPlLR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Criminal</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.eUjJq3a2oaoFGXi5 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5xrhmIh6XzdGqVHl caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354601021,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.PnqnUJNaPQUZPlLR"
+    },
+    {
+      "sort": 0,
+      "name": "艺人",
+      "type": "text",
+      "_id": "GrUJAFlgbVtJAUvM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Entertainer</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.WvFh27yilf2Z15ev inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MjXvMxnb0WKo2SX6 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354605064,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.GrUJAFlgbVtJAUvM"
+    },
+    {
+      "sort": 0,
+      "name": "农民",
+      "type": "text",
+      "_id": "C4SKduiGiKWQnbct",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Farmer</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.L20EhHrfr3Q7uyXN inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pwFxvfM9FEcvl0YX caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354610147,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.C4SKduiGiKWQnbct"
+    },
+    {
+      "sort": 0,
+      "name": "警卫",
+      "type": "text",
+      "_id": "96wRmIMXL56wc93D",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Guard</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.aO6Iuc73nltEC08p inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tFkjr382zJdZlvm0 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354613637,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.96wRmIMXL56wc93D"
+    },
+    {
+      "sort": 0,
+      "name": "向导",
+      "type": "text",
+      "_id": "sWETOJP5gl7Ab6Ax",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Guide</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.93NmoEfNQiZlftxh inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.DPitMmetoxZxfssR caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354617526,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.sWETOJP5gl7Ab6Ax"
+    },
+    {
+      "sort": 0,
+      "name": "隐士",
+      "type": "text",
+      "_id": "8EYJdksBFi8PYROS",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Hermit</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.b9AwctjIsYRAXVZo inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.G7vxNonLJOGN7mwh caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354620762,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.8EYJdksBFi8PYROS"
+    },
+    {
+      "sort": 0,
+      "name": "商人",
+      "type": "text",
+      "_id": "4odA9engX032HZpT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Merchant</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.WHnC2PBizLwDu8aX inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EKCZiKrFLsbUZoba caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354624161,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.4odA9engX032HZpT"
+    },
+    {
+      "sort": 0,
+      "name": "贵族",
+      "type": "text",
+      "_id": "CubKd9NYBUQRUOHm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Noble</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.OkobZ920QVlNcRKD inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.hZvxHUG6rMIiEkSA caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354628487,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.CubKd9NYBUQRUOHm"
+    },
+    {
+      "sort": 0,
+      "name": "智者",
+      "type": "text",
+      "_id": "Vsc9EKUUGboSI6jy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Sage</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.BGYB4yD4N98LPIYo inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.EYkXmp40YLJ4OFYW caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354631806,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.Vsc9EKUUGboSI6jy"
+    },
+    {
+      "sort": 0,
+      "name": "水手",
+      "type": "text",
+      "_id": "APL7pJ7446etLuQN",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Sailor</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.yU0UzztmEutdSjJq inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.C9FdqdUjaIfpP6bh caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354635961,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.APL7pJ7446etLuQN"
+    },
+    {
+      "sort": 0,
+      "name": "抄写员",
+      "type": "text",
+      "_id": "96LvQblGm4SHhLSv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Scribe</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.Qr020aZhkjlD17Pc inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tx6Uk8FPHxR4dMpO caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354639985,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.96LvQblGm4SHhLSv"
+    },
+    {
+      "sort": 0,
+      "name": "士兵",
+      "type": "text",
+      "_id": "l8iMjw1XZgyqWFFf",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Soldier</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.YWPdYX6YHdnmtVNj inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.2ae7Jz7YuTdzYHmJ caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354643627,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.l8iMjw1XZgyqWFFf"
+    },
+    {
+      "sort": 0,
+      "name": "流浪者",
+      "type": "text",
+      "_id": "xn6PhvDWU07GfaAr",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Wayfarer</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.n8Aq2cNMIR7aE4H9 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.E7rkDJEXOCrWyQ0J caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354646881,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!T3NalTzBdplpcIwd.xn6PhvDWU07GfaAr"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 5,
+      "order": 600200,
+      "navigation": {
+        "previous": "ztV4AlM4iT5GZAN4",
+        "next": "owOzzcy5eMJgHNpu"
+      }
+    },
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1728960351851,
+    "modifiedTime": 1776354571051,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "T3NalTzBdplpcIwd",
+  "sort": 300000,
+  "categories": [],
+  "_key": "!journal!T3NalTzBdplpcIwd"
+}

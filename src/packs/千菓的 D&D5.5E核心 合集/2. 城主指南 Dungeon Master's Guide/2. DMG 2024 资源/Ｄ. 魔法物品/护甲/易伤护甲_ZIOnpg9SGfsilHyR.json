@@ -1,0 +1,742 @@
+{
+  "name": "易伤护甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_armor-of-vulnerability.webp",
+  "system": {
+    "activities": {
+      "BkPINEZxU8JUWfsK": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "7Hb097h1wZNMi2Sa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "b7zSP8AkSNhf9Cml"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "6esh45PmRQlVSzjN",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "qiiWSUOL44Ionh0O"
+              ],
+              "item": []
+            }
+          },
+          {
+            "_id": "uUuHq6SL1g1TBFwa",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [
+                "251dMGXmISM7KkJ6"
+              ],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "BkPINEZxU8JUWfsK",
+        "img": "",
+        "appliedEffects": [
+          "7Hb097h1wZNMi2Sa",
+          "6esh45PmRQlVSzjN",
+          "uUuHq6SL1g1TBFwa"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（任意轻甲、中甲或重甲），珍稀（需同调）</em></p><p>着装此护甲期间，你具有以下三种伤害类型之一的抗性：钝击、穿刺、或挥砍。具体伤害类型由 DM 选择，或由 DM 随机选定。</p><section class=\"secret\" id=\"secret-RaizBHv6PcUXAxkt\"><p><em><strong>诅咒。</strong></em>这是一件被诅咒的护甲，这一点只有在你同调此护甲或对它使用<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em>时才会揭晓。同调此护甲将会使你被诅咒，卸除该护甲不会终止诅咒，只有对你施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jtt83qZ5kmO8nr1U]{移除诅咒}</em>或以类似的魔法才能将其移除。此诅咒使你具有上述三种伤害类型中除护甲提供抗性的类型之外的两种伤害的易伤。</p></section><p class=\"item-original\">Armor of Vulnerability</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "armor-of-vulnerability",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "钝击抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "7Hb097h1wZNMi2Sa",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "易伤{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有钝击伤害的抗性。</p><section class=\"secret\" id=\"secret-RaizBHv6PcUXAxkt\"><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR.ActiveEffect.sUd8GaWYwdVO1FEH]{诅咒。}</strong></em>你具有穿刺与挥砍伤害的易伤。</p></section>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504913986,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.7Hb097h1wZNMi2Sa"
+    },
+    {
+      "type": "enchantment",
+      "name": "穿刺抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "易伤{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有穿刺伤害的抗性。</p><section class=\"secret\" id=\"secret-RaizBHv6PcUXAxkt\"><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR.ActiveEffect.dhyt37UYr2vfOOVH]{诅咒。}</strong></em>你具有钝击与挥砍伤害的易伤。</p></section>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504910606,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "6esh45PmRQlVSzjN",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.6esh45PmRQlVSzjN"
+    },
+    {
+      "type": "enchantment",
+      "name": "挥砍抗性",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "易伤{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>护甲，珍稀（需同调）</em></p><p>着装此护甲期间，你具有挥砍伤害的抗性。</p><section class=\"secret\" id=\"secret-RaizBHv6PcUXAxkt\"><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR.ActiveEffect.WzHBUhV6nXnDlhCD]{诅咒。}</strong></em>你具有钝击与穿刺伤害的易伤。</p></section>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752504916941,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "uUuHq6SL1g1TBFwa",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.uUuHq6SL1g1TBFwa"
+    },
+    {
+      "name": "钝击抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "_id": "b7zSP8AkSNhf9Cml",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496858,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.b7zSP8AkSNhf9Cml"
+    },
+    {
+      "name": "穿刺抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496860,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "qiiWSUOL44Ionh0O",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.qiiWSUOL44Ionh0O"
+    },
+    {
+      "name": "挥砍抗性",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496864,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "251dMGXmISM7KkJ6",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.251dMGXmISM7KkJ6"
+    },
+    {
+      "name": "诅咒（穿刺）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_magic_curse.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "_id": "dhyt37UYr2vfOOVH",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你具有钝击与挥砍伤害的易伤。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759950291001,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.dhyt37UYr2vfOOVH"
+    },
+    {
+      "name": "诅咒（钝击）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_magic_curse.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你具有穿刺与挥砍伤害的易伤。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759950299827,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "sUd8GaWYwdVO1FEH",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.sUd8GaWYwdVO1FEH"
+    },
+    {
+      "name": "诅咒（挥砍）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_magic_curse.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.ZIOnpg9SGfsilHyR",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dv.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你具有穿刺与钝击伤害的易伤。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759950302653,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "WzHBUhV6nXnDlhCD",
+      "_key": "!items.effects!ZIOnpg9SGfsilHyR.WzHBUhV6nXnDlhCD"
+    }
+  ],
+  "sort": 259375,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": [
+          "b7zSP8AkSNhf9Cml",
+          "qiiWSUOL44Ionh0O",
+          "251dMGXmISM7KkJ6"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751472285282,
+    "modifiedTime": 1758199221875,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ZIOnpg9SGfsilHyR",
+  "_key": "!items!ZIOnpg9SGfsilHyR"
+}

@@ -1,0 +1,229 @@
+{
+  "name": "谭森浮碟术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_tensers-floating-disk.webp",
+  "system": {
+    "activities": {
+      "X5lE6BvKyeLfbCUi": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "X5lE6BvKyeLfbCUi",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "T4YxUL56kJhW4Fjx"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "4HjPTi2mx9yCei5v",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.sDAuSR2H04KvZ9Zl",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "T4YxUL56kJhW4Fjx"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>指定施法距离内一处你可见的未占空间，并在该处创造一个圆盘状的碟型水平力场。浮碟直径 3 尺，厚 1 寸，悬浮在离地 3 尺的空中。其可以在法术持续时间内持续存在，并至多可负载 500 磅重量。如果放在浮碟上的物件重量超过 500 磅，则该法术终止，浮碟上的所有东西也将掉落地面。</p><p>浮碟距你 20 尺内时静止不动。只要你与其距离超过 20 尺，浮碟就会跟随你移动，并保持在距你 20 尺范围内。浮碟可以自由通过崎岖地形，上下阶梯，斜坡面或者诸如此类的地面，但它不能越过高差超过 10 尺的地面。例如，浮碟不能越过一个 10 尺深的坑，如果浮碟在坑底被创造，则它也无法离开这个深坑。</p><p>如果你距浮碟超过 100 尺（通常是因为它受障碍所阻无法跟上你），则法术终止。</p><p class=\"item-original\">Tenser's Floating Disk</p>",
+      "chat": ""
+    },
+    "identifier": "tensers-floating-disk",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一滴水银",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "法术造物",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/MARK_generic_magic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.trLkvAtRF3FEaaJK",
+      "_id": "T4YxUL56kJhW4Fjx",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>该造物将随着法术的终止而解消。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732391441739,
+        "modifiedTime": 1759948163825,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!trLkvAtRF3FEaaJK.T4YxUL56kJhW4Fjx"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195021202,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "trLkvAtRF3FEaaJK",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!trLkvAtRF3FEaaJK"
+}

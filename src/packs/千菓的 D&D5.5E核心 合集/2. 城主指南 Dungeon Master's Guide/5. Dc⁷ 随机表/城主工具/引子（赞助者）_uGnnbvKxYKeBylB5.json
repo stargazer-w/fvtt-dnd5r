@@ -1,0 +1,185 @@
+{
+  "name": "引子（赞助者）",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDrawInThePlay.JournalEntryPage.bZ5ZIDKKitwmgxul]{赞助者引子}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "HeeUQLdkXLlEF7JU",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一个城镇布告员宣布有人正希望雇佣冒险者。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.HeeUQLdkXLlEF7JU"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "39oxz5a4pa8huMYz",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "角色们想要示好或需要寻求帮助的对象要求他们处理一个冒险情景。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.39oxz5a4pa8huMYz"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "78AC2FEzfIbrDTBl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "当角色们来到一个新城市时，他们找到一个招聘栏，上面发布着征集冒险者的消息。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.78AC2FEzfIbrDTBl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "rEC6dWWqRdR61MQj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一个了解到冒险者们的功绩的富有赞助者给他们写了一份信，愿意为他们的才能买单。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.rEC6dWWqRdR61MQj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "0diPA1Hx2cGDC5cl",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一个需要帮助的市民在了解到冒险者们的功绩和善举后，不远千里来找到他们，寻求他们的帮助。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.0diPA1Hx2cGDC5cl"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "GVED7RhMsZPzBJmV",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "冒险者们被捕（罪名可以成立或捏造），并有机会通过完成一项任务来逃脱责罚。",
+      "name": "",
+      "_key": "!tables.results!uGnnbvKxYKeBylB5.GVED7RhMsZPzBJmV"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750263487398,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "_id": "uGnnbvKxYKeBylB5",
+  "sort": 2900000,
+  "_key": "!tables!uGnnbvKxYKeBylB5"
+}

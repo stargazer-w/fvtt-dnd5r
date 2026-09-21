@@ -1,0 +1,192 @@
+{
+  "name": "以太化",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_etherealness.webp",
+  "system": {
+    "activities": {
+      "Cac0o5nwhr0RWFMG": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "Cac0o5nwhr0RWFMG",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "FXSty0GGkpMNyteA"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你进入当前所处位面与以太位面边缘的重叠空间。你在法术持续时间内一直呆在该以太边界。在此期间，你可以向任意方向移动。如果你向上或向下移动，则你移动的每尺距离需要额外消耗一尺的移动力。你可以观察原位面，但是所有事物都以灰度显示，而你也看不到 60 尺外的东西。</p><p>处于以太位面期间，只有同样处在以太位面的其他生物、物件和效应才能被你影响或影响你。不在以太位面的生物无法察觉你，也无法与你互动，除非有一项特性允许他们这么做。</p><p>法术终止时，你立刻回到原本所在的位面中与以太边界中你所处位置相对应的空间位置。若你出现于一处被占空间，则你立刻被弹到最靠近的一处未占空间中，并受到两倍于你因此被移动尺数点的力场伤害。</p><p>如果你在施展法术时正处于以太位面，或所在位面与以太位面不相连（比如某个外层位面），则法术立即结束。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 7 环高一环，你就可以多指定三名自愿生物（包括你在内）。这些生物在你施法时必须距你 10 尺内。</p><p class=\"item-original\">Etherealness</p>",
+      "chat": ""
+    },
+    "identifier": "etherealness",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "8"
+    },
+    "level": 7,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "以太化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_etherealness.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.pk5KHy4TZWVd3hHh",
+      "transfer": false,
+      "_id": "FXSty0GGkpMNyteA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你进入当前所处位面与以太位面边缘的重叠空间。你在法术持续时间内一直呆在该以太边界。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733468539114,
+        "modifiedTime": 1734845508790,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!pk5KHy4TZWVd3hHh.FXSty0GGkpMNyteA"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195015546,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "pk5KHy4TZWVd3hHh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pk5KHy4TZWVd3hHh"
+}

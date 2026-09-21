@@ -1,0 +1,139 @@
+{
+  "name": "龙族血统：金龙",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_gold-dragon.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的血脉可以追溯到某种巨龙祖先。你选择的龙种将会影响你的吐息武器和伤害抗性特质，以及你的外表。</p><p><em><strong>伤害抗性。</strong></em>你的龙族血统为你带来火焰伤害的伤害抗性。</p><p class=\"item-original\">Gold Dragon</p>",
+      "chat": ""
+    },
+    "identifier": "gold-dragon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "龙裔",
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "oYKogFAjQTHccMNh",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:fire"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "伤害抗性",
+        "hint": "你的龙族血统为你带来相应伤害的伤害抗性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+        "value": {}
+      },
+      {
+        "_id": "NMyoimOzicO5s7bj",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.REk7CHOo1syzNSel",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "龙裔特质",
+        "hint": "你的种族赋予你以下特质。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "龙族血统",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_gold-dragon.webp",
+      "_id": "QWIzmhUxxyEZj7l2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.IzyaGMLeFAOYDXQY",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1758193431512,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!IzyaGMLeFAOYDXQY.QWIzmhUxxyEZj7l2"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730824545117,
+    "modifiedTime": 1777696538046,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "IzyaGMLeFAOYDXQY",
+  "sort": 3900000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!IzyaGMLeFAOYDXQY"
+}

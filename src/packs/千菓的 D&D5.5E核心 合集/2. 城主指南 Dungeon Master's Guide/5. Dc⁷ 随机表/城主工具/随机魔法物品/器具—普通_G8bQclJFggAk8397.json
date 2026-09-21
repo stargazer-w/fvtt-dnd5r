@@ -1,0 +1,939 @@
+{
+  "name": "器具—普通",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{随机魔法物品：器具表}</p>",
+  "results": [
+    {
+      "range": [
+        1,
+        2
+      ],
+      "type": "text",
+      "_id": "cMaPfJu1NRIasjfG",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.oZECRqFjnTD0EfLi]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.cMaPfJu1NRIasjfG"
+    },
+    {
+      "range": [
+        3,
+        4
+      ],
+      "type": "text",
+      "_id": "wVzo2NSVeXNKgaoz",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.1UH5axyGytJylM1B]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.wVzo2NSVeXNKgaoz"
+    },
+    {
+      "range": [
+        5,
+        6
+      ],
+      "type": "text",
+      "_id": "guhTBifODuuaTvnJ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.znjH0k9kcwf3VJYZ]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.guhTBifODuuaTvnJ"
+    },
+    {
+      "range": [
+        7,
+        8
+      ],
+      "type": "text",
+      "_id": "aZziXHKpz739gpmv",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MZLaLB5bOa6qfEb7]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.aZziXHKpz739gpmv"
+    },
+    {
+      "range": [
+        9,
+        10
+      ],
+      "type": "text",
+      "_id": "741DFuhPqPBwOSib",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6ns1SzaaajtZZsti]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.741DFuhPqPBwOSib"
+    },
+    {
+      "range": [
+        11,
+        13
+      ],
+      "type": "text",
+      "_id": "T4RUW6VoPPUMShOU",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.oelOlk5wCQYEI4lU]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.T4RUW6VoPPUMShOU"
+    },
+    {
+      "range": [
+        14,
+        15
+      ],
+      "type": "text",
+      "_id": "pyrzVOuZ5GofuTTF",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.lkbefInhA7An8ZhI]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.pyrzVOuZ5GofuTTF"
+    },
+    {
+      "range": [
+        16,
+        17
+      ],
+      "type": "text",
+      "_id": "MAbegXjM5C4FlLaQ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.JNhwpq4tMlAYC35z]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.MAbegXjM5C4FlLaQ"
+    },
+    {
+      "range": [
+        18,
+        19
+      ],
+      "type": "text",
+      "_id": "ZepMFHKgzKzYuX9a",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.FfshmqOtiFQaDOCp]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.ZepMFHKgzKzYuX9a"
+    },
+    {
+      "range": [
+        20,
+        21
+      ],
+      "type": "text",
+      "_id": "r83DJZU4u9sXr5Qv",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.suLwxh8LE1r2BZqA]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.r83DJZU4u9sXr5Qv"
+    },
+    {
+      "range": [
+        22,
+        23
+      ],
+      "type": "text",
+      "_id": "zuBuVnifAqHxus9v",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.IC1wBzlyLY7qhbli]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.zuBuVnifAqHxus9v"
+    },
+    {
+      "range": [
+        24,
+        25
+      ],
+      "type": "text",
+      "_id": "BrmGcJ87cmCtGLGZ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.VunbyAXO3wzlP3Kx]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.BrmGcJ87cmCtGLGZ"
+    },
+    {
+      "range": [
+        26,
+        27
+      ],
+      "type": "text",
+      "_id": "IDzByTridpByktsi",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.BDv46NYZ2TaT18nY]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.IDzByTridpByktsi"
+    },
+    {
+      "range": [
+        28,
+        29
+      ],
+      "type": "text",
+      "_id": "HEhqvEfBMwOTIuOc",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wIJ2fgbvlRz9Ja0y]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.HEhqvEfBMwOTIuOc"
+    },
+    {
+      "range": [
+        30,
+        32
+      ],
+      "type": "text",
+      "_id": "0lZje0fS8M8tQ08G",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Rq4PMdwdthESwTlJ]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.0lZje0fS8M8tQ08G"
+    },
+    {
+      "range": [
+        33,
+        34
+      ],
+      "type": "text",
+      "_id": "PKuTgMCkktN2kWyT",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.giBWZjn04Zjws3fM]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.PKuTgMCkktN2kWyT"
+    },
+    {
+      "range": [
+        35,
+        36
+      ],
+      "type": "text",
+      "_id": "utyc0P0xNgZEo5JP",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.H6wuovo6n3K4MQAD]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.utyc0P0xNgZEo5JP"
+    },
+    {
+      "range": [
+        37,
+        38
+      ],
+      "type": "text",
+      "_id": "CLCPNHOSSt6Ly68R",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.XkIFZQfKfawjxlXr]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.CLCPNHOSSt6Ly68R"
+    },
+    {
+      "range": [
+        39,
+        40
+      ],
+      "type": "text",
+      "_id": "WkN6OtGCXraw01Ou",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fogYh4b6qbm7vhaw]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.WkN6OtGCXraw01Ou"
+    },
+    {
+      "range": [
+        41,
+        42
+      ],
+      "type": "text",
+      "_id": "diaQNN0r53ylRgX8",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.gVBrdcqY8ebuZ4o4]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.diaQNN0r53ylRgX8"
+    },
+    {
+      "range": [
+        43,
+        44
+      ],
+      "type": "text",
+      "_id": "7MRM31fukCmhpbWi",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wHncUPZm67NkmKtq]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.7MRM31fukCmhpbWi"
+    },
+    {
+      "range": [
+        45,
+        46
+      ],
+      "type": "text",
+      "_id": "IORR7wRnPZ2jkdfc",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.rg8b6xzpHuLrjKGG]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.IORR7wRnPZ2jkdfc"
+    },
+    {
+      "range": [
+        47,
+        52
+      ],
+      "type": "text",
+      "_id": "ezLGa2YA8Gi81ZN4",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.TPd5opRCu7J5daL7]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.ezLGa2YA8Gi81ZN4"
+    },
+    {
+      "range": [
+        53,
+        58
+      ],
+      "type": "text",
+      "_id": "8KXaFFdtZ3tyquo6",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.IDsGgtjjrlkfdWIr]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.8KXaFFdtZ3tyquo6"
+    },
+    {
+      "range": [
+        59,
+        74
+      ],
+      "type": "text",
+      "_id": "d99P4o3FbnK96VYC",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fjCySXxofVJVT2Cd]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.d99P4o3FbnK96VYC"
+    },
+    {
+      "range": [
+        75,
+        76
+      ],
+      "type": "text",
+      "_id": "ZEjiQt6uDz79yZtC",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.q9LOu2HTCHS2fWy6]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.ZEjiQt6uDz79yZtC"
+    },
+    {
+      "range": [
+        77,
+        78
+      ],
+      "type": "text",
+      "_id": "PzvDbCMVXQQXxjtC",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6MTAR1Mb4s96aklH]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.PzvDbCMVXQQXxjtC"
+    },
+    {
+      "range": [
+        79,
+        80
+      ],
+      "type": "text",
+      "_id": "x3N64ue11KmR6opk",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.OjspNAYYsKK7Zts6]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.x3N64ue11KmR6opk"
+    },
+    {
+      "range": [
+        81,
+        82
+      ],
+      "type": "text",
+      "_id": "IWcBflG3X9y0F5rP",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Hffw7CbHt1BfA0gX]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.IWcBflG3X9y0F5rP"
+    },
+    {
+      "range": [
+        83,
+        84
+      ],
+      "type": "text",
+      "_id": "sBuVswqi9LopJqDK",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.NL6wtbpWr4OtMJ0P]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.sBuVswqi9LopJqDK"
+    },
+    {
+      "range": [
+        85,
+        86
+      ],
+      "type": "text",
+      "_id": "kl2juNOOMSWh09eZ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.7SsR88NxQUr9hPJz]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.kl2juNOOMSWh09eZ"
+    },
+    {
+      "range": [
+        87,
+        90
+      ],
+      "type": "text",
+      "_id": "jVbroWEvsOPrD3gM",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jamvUCihcJzETjjX]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.jVbroWEvsOPrD3gM"
+    },
+    {
+      "range": [
+        91,
+        93
+      ],
+      "type": "text",
+      "_id": "maKmROvqccYXNAII",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.WrGXaCZnnMVvAq0j]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.maKmROvqccYXNAII"
+    },
+    {
+      "range": [
+        94,
+        96
+      ],
+      "type": "text",
+      "_id": "2qgC8sPs9e4LaR32",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.qjLcdvNH3Okvjsr9]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.2qgC8sPs9e4LaR32"
+    },
+    {
+      "range": [
+        97,
+        100
+      ],
+      "type": "text",
+      "_id": "v2Vu0F2X2e9SQyVH",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.iLXRuqYjlVl4mmrq]",
+      "name": "",
+      "_key": "!tables.results!G8bQclJFggAk8397.v2Vu0F2X2e9SQyVH"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1762794256154,
+    "modifiedTime": 1762801042774,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "G8bQclJFggAk8397",
+  "sort": 900000,
+  "_key": "!tables!G8bQclJFggAk8397"
+}

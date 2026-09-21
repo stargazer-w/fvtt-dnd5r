@@ -1,0 +1,284 @@
+{
+  "name": "龙族伙伴",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_dragon-companion.webp",
+  "system": {
+    "activities": {
+      "dOdhhTcZhhfuyxaJ": {
+        "type": "enchant",
+        "_id": "dOdhhTcZhhfuyxaJ",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "27SsQw1PPG2PggYH",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "phapZUtsjNtJSWq4"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "27SsQw1PPG2PggYH"
+        ]
+      },
+      "phapZUtsjNtJSWq4": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.Z3vUz0loWVAJenLg",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "<em class=\"fas fa-sparkles\">​</em><a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.phb-content.Item.Z3vUz0loWVAJenLg\" data-tooltip=\"item\">龙族伙伴</a>"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "10 * (@item.level - 5)",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "巨龙灵魄",
+            "_id": "GrcKmU01ycns9yrp",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "施法 (龙族伙伴)",
+        "_id": "phapZUtsjNtJSWq4",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你可以无需材料成分施放<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ambtJ1KNkQumn2Q1]{龙类召唤术}</em>。你可以无需法术位施放它一次，随后你在完成一次长休后重获以此法施放它的能力。</p><p>你开始施放这一法术时，都可以微调这一法术使无需专注。以此法施展时，该法术的持续时间将变为 1 分钟。</p><p class=\"item-original\">Dragon Companion</p><section class=\"dc7-note\"><p>将此附魔添加至你的<strong>龙类召唤术</strong>法术以追加额外效应。</p></section>",
+      "chat": ""
+    },
+    "identifier": "dragon-companion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "龙族术法"
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "龙族伙伴",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_dragon-companion.webp",
+      "disabled": false,
+      "_id": "27SsQw1PPG2PggYH",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736603893150,
+        "modifiedTime": 1736603897906,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Z3vUz0loWVAJenLg.27SsQw1PPG2PggYH"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "phapZUtsjNtJSWq4"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758303768064,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Z3vUz0loWVAJenLg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Z3vUz0loWVAJenLg"
+}

@@ -1,0 +1,203 @@
+{
+  "name": "魅惑怪物",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_charm-monster.webp",
+  "system": {
+    "activities": {
+      "RZWNQfUsNTLSJved": {
+        "type": "save",
+        "name": "施法",
+        "_id": "RZWNQfUsNTLSJved",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "I459Q2v0A12XsmlB",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>一个你可见的法术距离内的生物进行一次[[/save]]{感知豁免}，如果你或者你的同伴正在与它战斗，它在这次豁免上具有优势。如果它豁免失败，它陷入&amp;Reference[charmed]{魅惑}状态直到法术结束，或者直到你或你的同伴对它造成伤害。被魅惑的生物将对你&amp;Reference[Friendly]{友好}。在法术结束时，生物会知道它曾被你魅惑。</p><p><em><strong>升环施法。</strong></em>当你使用高于 4 环的法术位施放该法术时，使用的法术位每高一环，你就可以多指定一个额外生物作为目标。</p><p class=\"item-original\">Charm Monster</p>",
+      "chat": ""
+    },
+    "identifier": "charm-monster",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 4,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "惑变内心",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_charm-monster.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.kNgOt0qHJ5dYSEOj",
+      "transfer": false,
+      "_id": "I459Q2v0A12XsmlB",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[charmed]{魅惑}状态直到法术结束，或者施法者或其同伴对你造成伤害。</p><p>在此期间，你对施法者表现得&amp;Reference[Friendly]{友好}。当法术结束时，你将意识到自己曾被施法者魅惑。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733038475552,
+        "modifiedTime": 1734782912364,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!kNgOt0qHJ5dYSEOj.I459Q2v0A12XsmlB"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535112511,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "kNgOt0qHJ5dYSEOj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!kNgOt0qHJ5dYSEOj"
+}

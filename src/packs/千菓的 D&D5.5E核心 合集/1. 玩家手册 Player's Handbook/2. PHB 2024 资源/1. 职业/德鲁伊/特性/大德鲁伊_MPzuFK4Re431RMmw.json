@@ -1,0 +1,224 @@
+{
+  "name": "大德鲁伊",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_druid_archdruid.webp",
+  "system": {
+    "activities": {
+      "kyYNI1RRbH2Ji8LM": {
+        "type": "utility",
+        "name": "不凋化形",
+        "_id": "kyYNI1RRbH2Ji8LM",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "- 1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "不凋化形"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "h6qcptpR5ieyXij6": {
+        "type": "utility",
+        "name": "自然术使",
+        "_id": "h6qcptpR5ieyXij6",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@scale.druid.wild-shape"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            },
+            {
+              "type": "spellSlots",
+              "value": "- 1",
+              "target": "2",
+              "scaling": {
+                "mode": "level",
+                "formula": "2"
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "自然术使"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>自然的活力在你的身上永不凋零，令你获得以下增益。</p><p><em><strong>不凋化形。</strong></em>当你投掷先攻时，若你没有荒野变形的使用次数，你获得一次荒野形态使用次数。</p><p><em><strong>自然术使。</strong></em>你可以将@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}使用次数转化为法术位（无需任何动作）。选择一定数量的你未使用的荒野变形使用次数，将它们转化为一个法术位，每个使用次数可以转为 2 的法术环阶。比如说，如果你转化两个荒野变形使用次数，你就可以创造出一个 4 环法术位。当你如此做后，你必须在完成一次长休后才能再次使用该特性。</p><p><em><strong>青春永驻。</strong></em>你行使的原力魔法让你的衰老速度减缓。每经过 10 年的岁月，你的身体就仿佛只过了 1 年。</p><p class=\"item-original\">Archdruid</p>",
+      "chat": ""
+    },
+    "identifier": "archdruid",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "德鲁伊"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194972617,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "MPzuFK4Re431RMmw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MPzuFK4Re431RMmw"
+}

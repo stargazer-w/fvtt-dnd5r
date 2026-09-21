@@ -1,0 +1,77 @@
+{
+  "name": "光耀之魂",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_celestial_radiant-soul.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与你天界宗主的链接允许你成为光耀能量的渠道。你获得对光耀伤害的抗性。每回合一次，当一个你施展的法术造成光耀伤害或火焰伤害时，你可以将你的魅力调整值加到该法术对其中一个目标所造成的伤害上。</p><p class=\"item-original\">Radiant Soul</p>",
+      "chat": ""
+    },
+    "identifier": "radiant-soul",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "天界宗主",
+    "advancement": [
+      {
+        "_id": "D8mXvQePeyMTYnJI",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "dr:radiant"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 6,
+        "title": "光耀之魂",
+        "hint": "你获得对光耀伤害的抗性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_celestial_radiant-soul.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777581599607,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "3pqFPvOEoK85Phby",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3pqFPvOEoK85Phby"
+}

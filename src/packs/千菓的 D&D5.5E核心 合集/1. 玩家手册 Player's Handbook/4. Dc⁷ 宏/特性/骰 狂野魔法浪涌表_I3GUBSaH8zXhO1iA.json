@@ -1,0 +1,27 @@
+{
+  "name": "骰 狂野魔法浪涌表",
+  "type": "script",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_wild-magic_controlled-chaos.webp",
+  "command": "const table = await fromUuid(\"Compendium.dnd5e-collection-2024.tables.RollTable.4lvbJisn1hwHawmK\");\nawait table.draw();",
+  "author": "qVlhELJIaanIsDyq",
+  "scope": "global",
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.1",
+    "createdTime": 1733568521719,
+    "modifiedTime": 1736647147323,
+    "lastModifiedBy": "qVlhELJIaanIsDyq",
+    "exportSource": null
+  },
+  "_id": "I3GUBSaH8zXhO1iA",
+  "sort": 100000,
+  "_key": "!macros!I3GUBSaH8zXhO1iA"
+}

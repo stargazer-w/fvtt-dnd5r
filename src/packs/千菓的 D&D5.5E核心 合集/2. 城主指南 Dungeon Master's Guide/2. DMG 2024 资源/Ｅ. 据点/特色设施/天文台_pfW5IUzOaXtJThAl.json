@@ -1,0 +1,94 @@
+{
+  "name": "天文台",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-observatory.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>13 级据点设施</em></p><p><strong>先决条件：</strong>可以使用施法法器<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>增强</p><p>天文台坐落在你据点的最高处，其中包含一座直指夜空的望远镜。</p><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.trwSW9HsHt0zhvtg]{天文护咒。}</strong></em>你可以用天文台观察到荒宇和@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.lNqkZFfXDs9S3sft]{星光位面}的遥远角落。当你在天文台内完成一次长休后，你获得一个魔法护咒（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{超自然恩惠}”一节），此护咒持续 7 天或持续至你将其使用为止。此护咒允许你施展一次<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5KmXgIZHipOytGHv]{异界探知}</em>，无需消耗法术位。你无法在已拥有该护咒时再次获得它。</p><p><em><strong>增强：奇异发现。</strong></em>当你对此设施下达增强指令时，你让自己或设施雇员在连续 7 天夜里探索奇异诡谲的星空之秘。在这段时间结束后，丢一个任意骰子。如果结果为偶数，那么一无所获；如果结果为奇数，那么某种未知的伟力向你或者你所选的一个与你同一位面的生物赠予了一个护咒。该护咒为下列护咒之一：@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.mutIJ3sT8RDve9gB]{黑暗视觉护咒}、@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X3ITp2cjsbGXGuJV]{英勇护咒}、@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6eTywyriWdOfAIVb]{活力护咒}。</p><p class=\"item-original\">Observatory</p>",
+      "chat": ""
+    },
+    "identifier": "observatory",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 13,
+    "order": "empower",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "observatory"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763013406951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "pfW5IUzOaXtJThAl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!pfW5IUzOaXtJThAl"
+}

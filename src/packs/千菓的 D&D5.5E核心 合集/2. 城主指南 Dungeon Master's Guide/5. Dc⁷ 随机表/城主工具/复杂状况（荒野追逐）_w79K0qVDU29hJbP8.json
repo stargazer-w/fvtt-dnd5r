@@ -1,0 +1,211 @@
+{
+  "name": "复杂状况（荒野追逐）",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.7zmKJrfgd9aTtzFp#追逐的复杂状况]{荒野追逐复杂状况}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "5GOOTfj3Omi1vhwL",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你闯进了一个<strong>昆虫集群</strong> （查阅<em>《怪物图鉴》</em>，由 DM 确定一种最合理的虫类），<strong>昆虫集群</strong>使用了它的其中一个动作项，而目标是你。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.5GOOTfj3Omi1vhwL"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "EASGEeXEq7VXXFvq",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一个小溪流或是地缝阻碍了你的去路，成功通过一个[[/save str 10]]或[[/save dex 10]]{敏捷豁免}（由你决定）以跨越阻碍。若失败，这个阻碍对你而言视为 10 尺&amp;Reference[Difficult Terrain]{困难地形}。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.EASGEeXEq7VXXFvq"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "M69EEogMEuU3mCsh",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "进行一次[[/save con 10 format=long]]，如果豁免失败，吹拂而来的沙子、泥土、灰烬、雪或者花粉会导致你&amp;Reference[blinded]{目盲}，直到你的回合结束。当你因这种方式目盲时，你的速度减半。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.M69EEogMEuU3mCsh"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "Z2IZFiBP23kAZwDG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "地面突然开始向下倾斜，使你措手不及。成功通过一个[[/save dex 10 format=long]]以处理这一状况，如果豁免失败，你会从 10 尺高处&amp;Reference[falling]{坠落}。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.Z2IZFiBP23kAZwDG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "cO78J5VZES0v30Bi",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "你前方的路直直通往一片@UUID[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.ROCr5mK00PtUcNHD]{利刃藤}（参考本章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.lVkdQivhFHqVmxg7]{危害}”一节）。成功通过一个[[/save dex 15 format=long]]或是耗费 10 尺移动（由你选择）即可避开利刃藤。如果豁免失败，你会受到[[/damage 1d10 slashing]]伤害。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.cO78J5VZES0v30Bi"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "prjILz82ZxiS3neT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "这个区域的原生生物注意到了你（由 DM 决定一个适合该地区的生物）。进行一次[[/save wis 10]]或[[/save cha 10]]{魅力豁免}（由你决定）。如果豁免失败，该生物会加入到追逐中，将你视为追捕的目标。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.prjILz82ZxiS3neT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        12
+      ],
+      "drawn": false,
+      "_id": "DBTnUafEv1dzzFjE",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "没有复杂的状况发生。",
+      "name": "",
+      "_key": "!tables.results!w79K0qVDU29hJbP8.DBTnUafEv1dzzFjE"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750228159677,
+    "modifiedTime": 1759902538255,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d12",
+  "_id": "w79K0qVDU29hJbP8",
+  "sort": 4800000,
+  "_key": "!tables!w79K0qVDU29hJbP8"
+}

@@ -1,0 +1,223 @@
+{
+  "name": "异界探知",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/DIV_contact-other-plane.webp",
+  "system": {
+    "activities": {
+      "uJjTld5Fvwt8bfzj": {
+        "type": "save",
+        "_id": "uJjTld5Fvwt8bfzj",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": true,
+          "special": ""
+        },
+        "effects": [
+          {
+            "_id": "AVK9kUP3za9jaLM6",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 6,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "scaling": {
+                "mode": "",
+                "number": 1
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": [
+          "AVK9kUP3za9jaLM6"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你与一名半神、一名古老贤者的亡魂或是其他位面的博学实体建立了精神的连接。与超越人智存在的连接可能会破坏你的心智。当你施展此法术时，进行一次[[/save format=long]]。豁免成功时，你可以询问该实体最多五个问题。你必须在法术结束前提出你的问题。DM 将以一个单词回答你的每个问题，例如“是”“不是”“可能”“不可能”“无关”或“不清楚”（如果该实体不知道该问题的答案）。如果一个单词的答案会造成误解，DM 可能会用一句短语作为答案。</p><p>豁免失败时，你将受到 6d6 的心灵伤害并且直到你完成一次长休为止，你处于&amp;Reference[incapacitated]{失能}状态。对你施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>将结束该效应。</p><p class=\"item-original\">Contact Other Plane</p>",
+      "chat": ""
+    },
+    "identifier": "contact-other-plane",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "ritual"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "div",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "心智受损",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_psychic.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.5KmXgIZHipOytGHv",
+      "transfer": false,
+      "_id": "AVK9kUP3za9jaLM6",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>直到你完成一次长休为止，你处于&amp;Reference[incapacitated]{失能}状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "incapacitated"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733296127749,
+        "modifiedTime": 1735409677623,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!5KmXgIZHipOytGHv.AVK9kUP3za9jaLM6"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758530048227,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "5KmXgIZHipOytGHv",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!5KmXgIZHipOytGHv"
+}

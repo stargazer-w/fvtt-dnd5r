@@ -1,0 +1,142 @@
+{
+  "name": "持久狂暴",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_persistent-rage.webp",
+  "system": {
+    "activities": {
+      "8vqt6o34lErK6ThF": {
+        "type": "utility",
+        "_id": "8vqt6o34lErK6ThF",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            },
+            {
+              "type": "itemUses",
+              "value": "- @scale.barbarian.rages",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>当你投掷先攻时，你可以重获所有已使用的狂暴次数。你以此法重获狂暴次数后，直到完成一次长休时，你都不能再这么做。</p><p>此外，你的狂暴是如此凶悍，现在你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6]{狂暴}总是能持续 10 分钟，无需你做任何事来延长狂暴的回合。你陷入昏迷状态（不再仅是陷入失能状态）或穿戴重甲时，你的狂暴提前结束。</p><p class=\"item-original\">Persistent Rage</p>",
+      "chat": ""
+    },
+    "identifier": "persistent-rage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "野蛮人"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731070004226,
+    "modifiedTime": 1758195020427,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "t4BVlsEUxnbFI25Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!t4BVlsEUxnbFI25Z"
+}

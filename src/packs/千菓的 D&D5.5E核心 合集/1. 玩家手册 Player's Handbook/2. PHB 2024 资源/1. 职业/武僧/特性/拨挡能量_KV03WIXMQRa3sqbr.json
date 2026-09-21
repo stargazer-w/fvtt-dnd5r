@@ -1,0 +1,56 @@
+{
+  "name": "拨挡能量",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_deflect-energy.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你现在可以使用你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.diC8UnduHCCMeBPu]{拨挡攻击}特性对抗造成任何伤害类型的攻击，而不仅限于钝击，穿刺或挥砍。</p><p class=\"item-original\">Deflect Energy</p>",
+      "chat": ""
+    },
+    "identifier": "deflect-energy",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "武僧"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194969674,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "KV03WIXMQRa3sqbr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!KV03WIXMQRa3sqbr"
+}

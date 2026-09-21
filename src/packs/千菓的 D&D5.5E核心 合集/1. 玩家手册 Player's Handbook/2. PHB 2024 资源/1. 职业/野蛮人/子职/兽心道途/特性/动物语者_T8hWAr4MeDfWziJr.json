@@ -1,0 +1,92 @@
+{
+  "name": "动物语者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_animal-speaker.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你可以施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zS7Ekl2NKeczj5kL]{野兽感官}</em>与法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA]{动物交谈}</em>，你只能以仪式的方式施展这些法术。感知是你这些法术的施法属性。</p><p class=\"item-original\">Animal Speaker</p>",
+      "chat": ""
+    },
+    "identifier": "animal-speaker",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "兽心道途",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.zS7Ekl2NKeczj5kL"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "ritual",
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "动物语者",
+        "hint": "你能以仪式的方式施展以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_animal-speaker.webp",
+        "_id": "lbgCSocNqXTl46I3"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777610465246,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "T8hWAr4MeDfWziJr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!T8hWAr4MeDfWziJr"
+}

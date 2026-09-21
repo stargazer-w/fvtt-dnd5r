@@ -1,0 +1,257 @@
+{
+  "name": "力场壁垒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_psi-warrior_bulwark-of-force.webp",
+  "system": {
+    "activities": {
+      "NWy294IcgwHsJ8Q4": {
+        "type": "utility",
+        "_id": "NWy294IcgwHsJ8Q4",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oRCtZ8hT03ZbH3D5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Nwjj2cHk7i5gsWdK": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.fjZjzot12Nw855QZ",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "oRCtZ8hT03ZbH3D5"
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "效用（灵能骰）",
+        "_id": "Nwjj2cHk7i5gsWdK",
+        "img": "",
+        "appliedEffects": [
+          "oRCtZ8hT03ZbH3D5"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你可以使用念力庇护你自己和其他人。以一个&amp;Reference[Bonus Action]{附赠动作}，包括你在内，你可以选择数个位于你 30 尺范围内的生物，其数量等同于你的智力调整值（最少 1 个）。每个被选中的生物将在 1 分钟内视为处于&amp;Reference[Half Cover]{半身掩护}中，该保护将会在你陷入失能状态时提前结束。</p><p>当你使用此特性后，除非消耗一枚灵能骰（无需动作），否则直到你完成一次长休为止你都不能再次使用它。</p><p class=\"item-original\">Bulwark of Force</p>",
+      "chat": ""
+    },
+    "identifier": "bulwark-of-force",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "灵能武士"
+  },
+  "effects": [
+    {
+      "name": "力场壁垒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_fighter_psi-warrior_bulwark-of-force.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.2ir1haXTNZbLKrfS",
+      "transfer": false,
+      "_id": "oRCtZ8hT03ZbH3D5",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你视为处于&amp;Reference[Half Cover]{半身掩护}中。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "coverHalf"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1734260944377,
+        "modifiedTime": 1757228164199,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!2ir1haXTNZbLKrfS.oRCtZ8hT03ZbH3D5"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758729920539,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "2ir1haXTNZbLKrfS",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!2ir1haXTNZbLKrfS"
+}

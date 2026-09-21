@@ -1,0 +1,382 @@
+{
+  "name": "强化属性",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability.webp",
+  "system": {
+    "activities": {
+      "bLI3IIJQcLTGJRkm": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "bLI3IIJQcLTGJRkm",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "n7adzm69eb5EmvdT"
+          },
+          {
+            "_id": "3PxOG28m0FuxQQHG"
+          },
+          {
+            "_id": "pzVQGgzFblNmIy0V"
+          },
+          {
+            "_id": "nltGTlGbT0kYgHDf"
+          },
+          {
+            "_id": "qp4HeerYBMrGAtIZ"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触碰一名生物并在力量、敏捷、智力、感知、魅力中选择一种属性。法术持续时间内，目标在使用所选属性进行的属性检定上具有优势。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 2 环高一环，就可以多指定一个目标。你可以为每个目标选择不同的属性。</p><p class=\"item-original\">Enhance Ability</p>",
+      "chat": ""
+    },
+    "identifier": "enhance-ability",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "毛发或羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "力量强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability_str.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU",
+      "transfer": false,
+      "_id": "n7adzm69eb5EmvdT",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以力量进行的属性检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732438970204,
+        "modifiedTime": 1734769251057,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HzWr8VnhBMxpqcLU.n7adzm69eb5EmvdT"
+    },
+    {
+      "name": "敏捷强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability_dex.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU",
+      "transfer": false,
+      "_id": "3PxOG28m0FuxQQHG",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以敏捷进行的属性检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732438971179,
+        "modifiedTime": 1734769264106,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HzWr8VnhBMxpqcLU.3PxOG28m0FuxQQHG"
+    },
+    {
+      "name": "智力强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability_int.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU",
+      "transfer": false,
+      "_id": "pzVQGgzFblNmIy0V",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以智力进行的属性检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732438971566,
+        "modifiedTime": 1734769273487,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HzWr8VnhBMxpqcLU.pzVQGgzFblNmIy0V"
+    },
+    {
+      "name": "感知强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability_wis.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU",
+      "transfer": false,
+      "_id": "nltGTlGbT0kYgHDf",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以感知进行的属性检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732438971855,
+        "modifiedTime": 1734769243249,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HzWr8VnhBMxpqcLU.nltGTlGbT0kYgHDf"
+    },
+    {
+      "name": "魅力强化",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_enhance-ability_cha.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU",
+      "transfer": false,
+      "_id": "qp4HeerYBMrGAtIZ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 3600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以魅力进行的属性检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732438972082,
+        "modifiedTime": 1734769257786,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!HzWr8VnhBMxpqcLU.qp4HeerYBMrGAtIZ"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194966268,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "HzWr8VnhBMxpqcLU",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!HzWr8VnhBMxpqcLU"
+}

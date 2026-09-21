@@ -1,0 +1,97 @@
+{
+  "name": "魔法学徒",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/FEAT_origin_magic-initiate.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>起源专长</em></p><p>你获得以下增益。</p><p><em><strong>两道戏法。</strong></em>你从牧师、德鲁伊或法师的法术列表中选择两道戏法。你从这个专长中习得的法术使用智力、感知或魅力作为施法关键属性（当你选择专长时选择属性）。</p><p><em><strong>1 环法术。</strong></em>你选择一道 1 环法术，并始终准备了这道法术。这道法术所属的法术列表，必须与你通过本专长习得的戏法相同。你可以不花任何法术位地施展它一次，并且当你完成长休后，你将重新获得以这种方式施展该法术的能力。你也可以使用你拥有的任意法术位来施展这道法术。</p><p><em><strong>改变法术。</strong></em>每当你获得一级新等级，你都能将通过本专长习得的一道法术替换为同法术列表中同等级的另一道法术。</p><p><em><strong>复选。</strong></em>你可多次选择本专长，但是你每次都必须选择一个不同的法术列表。</p><p class=\"item-original\">Magic Initiate</p>",
+      "chat": ""
+    },
+    "identifier": "magic-initiate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    },
+    "prerequisites": {
+      "level": null,
+      "repeatable": true
+    },
+    "properties": [],
+    "requirements": "",
+    "advancement": [
+      {
+        "type": "ItemChoice",
+        "_id": "lmIedy32PKB08ope",
+        "configuration": {
+          "allowDrops": false,
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1yiobMcdCHsZMwDq"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PYqnEMjU7sFW5VLj"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.bruTnPMmz1vInnrU"
+            }
+          ],
+          "restriction": {
+            "list": [],
+            "type": "feat",
+            "subtype": "origin"
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "魔法学徒",
+        "hint": "你将从牧师、德鲁伊或法师的法术列表中选择法术。你可多次选择本专长，但是你每次都必须选择一个不同的法术列表。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731046918875,
+    "modifiedTime": 1775978542969,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "Tllap2nUwXgzu303",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Tllap2nUwXgzu303"
+}

@@ -1,0 +1,56 @@
+{
+  "name": "施法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你已经学会了如何通过祈祷，冥想与奉献来施展法术。参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk]{第 7 章}有关施法的规则。下述信息将详述如何将这些规则应用于圣武士法术，具体法术详见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk.JournalEntryPage.8yD9Jgp404hfZ9ie]{圣武士法术列表}。</p><p><em><strong>法术位。</strong></em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV.JournalEntryPage.zsz4uLNZe6iQV6co]{圣武士特性表}显示了你在 1 级以上的每个等级各拥有多少个法术位来施展你的法术。你在完成一次长休以后恢复所有法术位。</p><p><em><strong>1 环及以上的准备法术。</strong></em>你根据本特性准备法术列表中的 1 环或更高级的法术。一开始，从你的圣武士法术列表中选择两个 1 环法术为准备法术，比如<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1zENqyRQICmbbLML]{英雄气概}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kWq62uyXIxkN7sRX]{炽热斩}</em>。</p><p>你能选择的法术数量会随着你的圣武士等级提升，如圣武士特性表中的准备法术列所示。每当该列数字增加时，你都可以从圣武士法术列表中选择一个新的法术，直到你的准备法术数量与该数字相等。你所选法术必须与你的法术位环级相匹配。比如，你作为一个 5 级的圣武士，你的准备法术可以包含六个 1 环或 2 环的法术，可以任意组合。</p><p>如果其他的圣武士特性给予了你总是已准备的新法术，那么该法术并不计入施法特性所规定的准备法术的总数，且对你而言它们是圣武士法术。</p><p><em><strong>改变你的准备法术。</strong></em>每当你完成一次长休，你可以从圣武士法术列表中选择一个其他法术替换掉你的一个已知法术。你必须拥有施展该法术所需的法术位。</p><p><em><strong>施法属性。</strong></em>魅力是你施展圣武士法术的施法属性。</p><p><em><strong>施法法器。</strong></em>你可以使用圣徽作为你施展圣武士法术的法器。</p><p class=\"item-original\">Spellcasting</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "圣武士"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777641845359,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "lJDLmgKnpKjUcx7h",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!lJDLmgKnpKjUcx7h"
+}

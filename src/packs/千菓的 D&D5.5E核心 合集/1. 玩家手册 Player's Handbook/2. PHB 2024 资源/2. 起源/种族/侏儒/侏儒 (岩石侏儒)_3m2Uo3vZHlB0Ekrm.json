@@ -1,0 +1,101 @@
+{
+  "name": "侏儒 (岩石侏儒)",
+  "type": "race",
+  "img": "modules/dnd5e-collection-2024/assets/icons/origins/species/gnome_rock.webp",
+  "system": {
+    "description": {
+      "value": "<p>侏儒是由发明、幻影以及地下生命之神祇所创造出来的奇妙魔法族裔。侏儒的先民们因为其神秘的天性和居住在森林与地道中的习性而很少被外人遇见。他们用机敏弥补了体型上的缺陷。他们用陷阱迷宫般的隧道迷惑掠夺者。他们还从像加尔 · 闪金，贝尔凡 · 野游者和巴瑞瓦 · 影斗篷这样会伪装拜访他们的神祇处学到了魔法。这些魔法最终创造出了岩石侏儒和森林侏儒两个血系。</p><p>侏儒们有着娇小的身材，大眼睛和尖耳朵，还有大约 425 岁的寿命。侏儒们就非常喜欢头上有“顶”的感觉，哪怕这个“顶”只不过是帽子也好。</p><h3>侏儒特质</h3><p class=\"journal-original-h3\">Gnome Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>小型（约 3–4 尺高）</p><p><strong>速度：</strong>30 尺</p><p>作为一个侏儒，你有以下特殊特质：</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>侏儒狡黠。</strong></em>你在智力，感知与魅力豁免上具有优势。</p><p><em><strong>侏儒血系。</strong></em>你属于一支侏儒血系，并因此获得了一些超自然能力。</p><p><strong>岩石侏儒。</strong>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NIAbAPgT8OE60Gxi]{修复术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n]{魔法伎俩}</em>戏法。此外，你可以花费 10 分钟时间，通过施展<em>魔法伎俩</em>法术来创造一个微型发条装置（AC 5，1 HP），比如一件玩具，一个打火机，或一个音乐盒。当你创造这个设备时，你可以从<em>魔法伎俩</em>戏法中选择一个效果来决定它的功能；当你或其他生物使用&amp;Reference[Bonus Action]{附赠动作}触碰该装置并激活它时，该装置就会产生效果。如果选择的效果存在选项，则在创建时选择其中一项应用。例如，你选择法术中的点燃或熄灭效果，就要决定设备是用来点火还是熄火的；一台设备不能做到两个功能。你同时最多拥有三台这样的装置，每一个都会在被创建出来的 8 小时后解体消失。你也可以触摸你的一台设备，用一个&amp;Reference[utilize]{利用}动作将其拆除。</p>",
+      "chat": ""
+    },
+    "identifier": "gnome-rock",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "_id": "1P6xFzbXPoDqJUwf",
+        "type": "Size",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "体型",
+        "hint": "小型（约 3–4 尺高）。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp",
+        "value": {}
+      },
+      {
+        "_id": "b5fVuXoJMBUE7DHU",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.DFWxg3geN5eqAM0y"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.0MDm2PRq0j4HSRz6"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0,
+        "title": "侏儒特质",
+        "hint": "你的种族赋予你以下特质。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      }
+    ],
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": null,
+      "hover": false
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": null,
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid",
+      "subtype": "侏儒",
+      "custom": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1729940303502,
+    "modifiedTime": 1777697984269,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "3m2Uo3vZHlB0Ekrm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!3m2Uo3vZHlB0Ekrm"
+}

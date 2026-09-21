@@ -1,0 +1,1638 @@
+{
+  "name": "魔咒武器",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_enspelled-weapon.webp",
+  "system": {
+    "activities": {
+      "tyrwHdhdqbuj0KGt": {
+        "type": "enchant",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "urWkoUpn2lfTqCmv",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "sraYGnfXbgOqN6ce"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "rq1Z2A99I2E33uLg",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "aWGWsP8cHWeOFpdz"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "hERJ3wBBpL6eZcw6",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "Tf7bPd9WswgNCikl"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "uISynqIaVY7nffZW",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "wW3cem10oX6qjUS3"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "OGR7HeEn3nY55Qts",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "9YtanP3mwqaDgDQU"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "D7efZ0v6bydHYAjI",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "7e5yEUH62VGFs3XW"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "MQttly766Ez5YvF0",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "f1tAmUS3kBk16bzb"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "LwwVS0atQBgjaaGL",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "4ukCgBKrmFMTWAdE"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "NcHJSppZTAGGNBm3",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "kmioHWOaFza2JeXr"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "_id": "tyrwHdhdqbuj0KGt"
+      },
+      "sraYGnfXbgOqN6ce": {
+        "type": "cast",
+        "name": "戏法",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "sraYGnfXbgOqN6ce"
+      },
+      "aWGWsP8cHWeOFpdz": {
+        "type": "cast",
+        "name": "1 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "aWGWsP8cHWeOFpdz"
+      },
+      "Tf7bPd9WswgNCikl": {
+        "type": "cast",
+        "name": "2 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 5,
+            "save": 13,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "Tf7bPd9WswgNCikl"
+      },
+      "wW3cem10oX6qjUS3": {
+        "type": "cast",
+        "name": "3 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 7,
+            "save": 15,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "wW3cem10oX6qjUS3"
+      },
+      "9YtanP3mwqaDgDQU": {
+        "type": "cast",
+        "name": "4 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 7,
+            "save": 15,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "9YtanP3mwqaDgDQU"
+      },
+      "7e5yEUH62VGFs3XW": {
+        "type": "cast",
+        "name": "5 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "7e5yEUH62VGFs3XW"
+      },
+      "f1tAmUS3kBk16bzb": {
+        "type": "cast",
+        "name": "6 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "f1tAmUS3kBk16bzb"
+      },
+      "4ukCgBKrmFMTWAdE": {
+        "type": "cast",
+        "name": "7 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 10,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "4ukCgBKrmFMTWAdE"
+      },
+      "kmioHWOaFza2JeXr": {
+        "type": "cast",
+        "name": "8 环",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "formula",
+              "formula": "1d6"
+            }
+          ],
+          "max": "6"
+        },
+        "spell": {
+          "challenge": {
+            "attack": 10,
+            "save": 18,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "_id": "kmioHWOaFza2JeXr"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>武器（任意简易或军用武器），多种稀有度（需同调）</em></p><p>这把武器中铭刻了一道 8 环或更低环阶的法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p><p>武器中铭刻的法术其环阶决定了这道法术的豁免 DC 和攻击加值，还有这把武器的稀有度（见下表）。</p><table><thead><tr><th>法术环阶</th><th>稀有度</th><th>豁免 DC</th><th>攻击加值</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.urWkoUpn2lfTqCmv]{戏法}</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.rq1Z2A99I2E33uLg]{1 环}</td><td>非普通</td><td>13</td><td>+5</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.hERJ3wBBpL6eZcw6]{2 环}</td><td>珍稀</td><td>13</td><td>+5</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.uISynqIaVY7nffZW]{3 环}</td><td>珍稀</td><td>15</td><td>+7</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.OGR7HeEn3nY55Qts]{4 环}</td><td>极珍稀</td><td>15</td><td>+7</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.D7efZ0v6bydHYAjI]{5 环}</td><td>极珍稀</td><td>17</td><td>+9</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.MQttly766Ez5YvF0]{6 环}</td><td>传说</td><td>17</td><td>+9</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.LwwVS0atQBgjaaGL]{7 环}</td><td>传说</td><td>18</td><td>+10</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wfjpf6Y2orvkSSsp.ActiveEffect.NcHJSppZTAGGNBm3]{8 环}</td><td>传说</td><td>18</td><td>+10</td></tr></tbody></table><p class=\"item-original\">Enspelled Weapon</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "enspelled-weapon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": ""
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（１环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "rq1Z2A99I2E33uLg",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，非普通（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>1 环</td> <td>13</td> <td>+5</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "uncommon",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.rq1Z2A99I2E33uLg"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（２环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，珍稀（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>2 环</td> <td>13</td> <td>+5</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "hERJ3wBBpL6eZcw6",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.hERJ3wBBpL6eZcw6"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（３环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，珍稀（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>3 环</td> <td>15</td> <td>+7</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "rare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "uISynqIaVY7nffZW",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.uISynqIaVY7nffZW"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（４环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>4 环</td> <td>15</td> <td>+7</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "OGR7HeEn3nY55Qts",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.OGR7HeEn3nY55Qts"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（５环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，极珍稀（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>5 环</td> <td>17</td> <td>+9</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "veryRare",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "D7efZ0v6bydHYAjI",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.D7efZ0v6bydHYAjI"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（６环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，传说（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>6 环</td> <td>17</td> <td>+9</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "MQttly766Ez5YvF0",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.MQttly766Ez5YvF0"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（７环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，传说（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>7 环</td> <td>18</td> <td>+10</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "LwwVS0atQBgjaaGL",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.LwwVS0atQBgjaaGL"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（８环）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，传说（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>8 环</td> <td>18</td> <td>+10</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "NcHJSppZTAGGNBm3",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.NcHJSppZTAGGNBm3"
+    },
+    {
+      "type": "enchantment",
+      "name": "魔咒武器（戏法）",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "魔咒{}",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>武器，非普通（需同调）</em> <table style=\"text-align:center\"> <thead> <tr> <th>法术环阶</th> <th>豁免 DC</th> <th>攻击加值</th> </tr> </thead> <tbody> <tr> <td>戏法</td> <td>13</td> <td>+5</td> </tr> </tbody> </table> <p>这把武器中铭刻了一道法术。这道法术必须是一道属于咒法、预言、塑能、死灵或变化学派的法术，在制造此武器的时候决定。</p><p>此武器具有 6 充能，且在每日黎明时重获 1d6 已消耗的充能。持握此武器期间，你可以消耗 1 充能以施展该法术。</p>{}",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.attunement",
+          "mode": 5,
+          "value": "required",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "uncommon",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "urWkoUpn2lfTqCmv",
+      "_key": "!items.effects!wfjpf6Y2orvkSSsp.urWkoUpn2lfTqCmv"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "sraYGnfXbgOqN6ce",
+          "aWGWsP8cHWeOFpdz",
+          "Tf7bPd9WswgNCikl",
+          "wW3cem10oX6qjUS3",
+          "9YtanP3mwqaDgDQU",
+          "7e5yEUH62VGFs3XW",
+          "f1tAmUS3kBk16bzb",
+          "4ukCgBKrmFMTWAdE",
+          "kmioHWOaFza2JeXr"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1752828015659,
+    "modifiedTime": 1775482609310,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "wfjpf6Y2orvkSSsp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!wfjpf6Y2orvkSSsp"
+}

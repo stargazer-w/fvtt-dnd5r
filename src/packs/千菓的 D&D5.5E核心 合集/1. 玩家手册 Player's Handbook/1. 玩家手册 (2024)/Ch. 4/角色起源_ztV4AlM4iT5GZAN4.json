@@ -1,0 +1,170 @@
+{
+  "name": "角色起源",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "I4pMIU6bhnyHnTlm",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.2tRHWrt4zwY6tqoD cite=false]</p><p>本章节叙述了角色起源的两个组成部分：背景和种族，以便整合。这些要素表明你的角色在冒险生涯和展现一个职业潜力之前的早期经历和家庭身世。</p><h2>起源的构成部分</h2><p class=\"journal-original-h2\">Origin Components</p><p>角色起源的每个构成部分会反映角色的方方面面，他们的生活，以及让他们踏上冒险之旅的环境。</p><p>如果您决定选择一个旧版本中的背景或者种族，查看第 2 章的“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pHMEDq6JZOxYAm4U.JournalEntryPage.t1WP9VEevo4TOTXw#旧书中的背景和种族]{旧书中的背景和种族}”边栏，了解如何将它们与现在的选择合并使用。</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 1
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354430527,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ztV4AlM4iT5GZAN4.I4pMIU6bhnyHnTlm"
+    },
+    {
+      "sort": 200000,
+      "name": "角色背景",
+      "type": "text",
+      "_id": "rT7WsIIPWp54Zvsg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Character Backgrounds</p><p>你的角色背景是一系列的特别之处，代表了在你的角色踏上冒险生活之前对其影响最大的地点和工作。</p><p>每个背景都有一段简单叙述描写了你的角色，过去可能是什么样的。你可以根据自己的喜好对叙述的细节做出调整。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.T3NalTzBdplpcIwd]{此见}本书可用的背景。</p><h2>背景的特性组成</h2><p class=\"journal-original-h2\">Parts of a Background</p><p>背景包括以下部分。</p><p><em><strong>属性值。</strong></em>背景列出了角色的三项属性值。将其中一项提升 2，另一项提升 1；或者将三项都分别增加 1。这些提升都不能使得属性值超过 20。</p><p><em><strong>专长。</strong></em>背景为你的角色提供一项特定的起源专长（见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn]{第 5 章}）。</p><p><em><strong>技能熟练。</strong></em>背景可使你的角色熟练掌握两种特定的技能。</p><p><em><strong>工具熟练。</strong></em>每个背景会赋予角色一种工具的熟练项，可以是一种特定工具，也可以是从工匠工具类别中选择的一种。工具的详细介绍在@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}。</p><p><em><strong>装备。</strong></em>每个背景会提供一套行装或 50 GP 之间的选择。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776354444833,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ztV4AlM4iT5GZAN4.rT7WsIIPWp54Zvsg"
+    },
+    {
+      "sort": 300000,
+      "name": "角色种族",
+      "type": "text",
+      "_id": "YD1uHIdQFEjpRZY9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Character Species</p><p>在你选择角色的种族时，你将要决定角色是一个人类，还是奇幻种族的一员，例如龙裔或地精。</p><p>D&amp;D 多元宇宙的种族来自不同的世界，包括了多种的智慧生命。一个玩家角色的种族，是冒险者从某个特定生命形式处获得的游戏性上的一系列特质。</p><p>一些种族可以将他们的起源追溯到一个特定的世界，存在的位面，或是一位神祇。另一些种族则同时存在于各种地方。无论一个种族的起源是什么，其族员都已遍布多元宇宙，并共同凝聚成许多与众不同的文化。</p><p>大多数种族的族员寿命约 80 岁，本章节关于种族的正文中提到的例外情况除外。无论寿数几何，所有种族的族员会在大约相同的年龄达到生理上的成熟。你的角色可以是任何年龄，只要不超出其种族的正常寿命范围。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu]{此见}本书可用的种族。</p><h2>种族的特质组成</h2><p class=\"journal-original-h2\">Parts of a Species</p><p>一个种族会包括以下部分。</p><p><em><strong>生物类型。</strong></em>角色的种族决定角色的生物类型，这在规则术语表中进行了描述。本章节中每个种族都是类人；可扮演的非类人种族将出现在其他 D&amp;D 书籍中。</p><p><em><strong>体型。</strong></em>角色的种族会影响角色的大小。一个种族内个体的身高区别很大，而且有些种族的体型极具差异，以至于你可以决定你的角色是小型还是中型。</p><p><em><strong>速度。</strong></em>角色的种族会影响角色的速度。</p><p><em><strong>特殊特质。</strong></em>每个种族都会赋予角色独特的特质——独特的特质来源于种族的生理机能或是魔法特性。当你选择一个种族时，你的角色会获得所有列出的特殊特质。有些特质将会需要从几个选项中做出选择。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776354454691,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!ztV4AlM4iT5GZAN4.YD1uHIdQFEjpRZY9"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 5,
+      "title": "第四章：角色起源",
+      "order": 600100,
+      "navigation": {
+        "previous": "fQ9csZHPMIqE3A6o",
+        "next": "T3NalTzBdplpcIwd"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1728960315578,
+    "modifiedTime": 1776334177591,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "ztV4AlM4iT5GZAN4",
+  "sort": 100000,
+  "categories": [],
+  "_key": "!journal!ztV4AlM4iT5GZAN4"
+}

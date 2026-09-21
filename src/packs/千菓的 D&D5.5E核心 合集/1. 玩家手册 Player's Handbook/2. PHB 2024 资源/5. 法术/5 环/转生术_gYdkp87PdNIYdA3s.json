@@ -1,0 +1,142 @@
+{
+  "name": "转生术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_reincarnate.webp",
+  "system": {
+    "activities": {
+      "uozZBZlHMGa15GaA": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "uozZBZlHMGa15GaA",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你触及一名类人的遗体或遗体的一部分。若该生物死亡时间不超过 10 日，则法术会创造出一具新的成年身体，并呼唤该生物的灵魂进入此新身躯。骰 1d10，然后参照下表来决定新躯体的种族，或者 DM 也可以选择其他可选种族。</p><table><thead><tr></tr></thead><tbody><tr><td style=\"text-align:center\"><strong>[[/r 1d10]]</strong></td><td><strong>种族</strong></td></tr><tr><td style=\"text-align:center\">1</td><td>阿斯莫</td></tr><tr><td style=\"text-align:center\">2</td><td>龙裔</td></tr><tr><td style=\"text-align:center\">3</td><td>矮人</td></tr><tr><td style=\"text-align:center\">4</td><td>精灵</td></tr><tr><td style=\"text-align:center\">5</td><td>侏儒</td></tr><tr><td style=\"text-align:center\">6</td><td>歌利亚</td></tr><tr><td style=\"text-align:center\">7</td><td>半身人</td></tr><tr><td style=\"text-align:center\">8</td><td>人类</td></tr><tr><td style=\"text-align:center\">9</td><td>兽人</td></tr><tr><td style=\"text-align:center\">10</td><td>提夫林</td></tr></tbody></table><p>若种族描述中提供了可选选项，则由被转生的生物做出选择，且其保留其前生记忆。目标保留原形的一切能力，不过其种族特质将以新种族的相应特质做更替。</p><p class=\"item-original\">Reincarnate</p>",
+      "chat": ""
+    },
+    "identifier": "reincarnate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 5,
+    "materials": {
+      "value": "价值至少 1000 GP 的珍稀油，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "touch",
+      "special": ""
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195001137,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gYdkp87PdNIYdA3s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gYdkp87PdNIYdA3s"
+}

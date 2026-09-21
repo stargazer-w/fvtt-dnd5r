@@ -1,0 +1,289 @@
+{
+  "name": "野蛮人",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "狂战士道途",
+      "type": "text",
+      "_id": "GvRPKO7EAbXB7TXM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Path of the Berserker</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fRntYG4BbePiCEtZ inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.EceyH0R2456kRdtW inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.isVGccUhtwWLs7MC]{狂怒}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0zs6n4LLwHpAYOy1]{无我狂暴}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yE89OM5aPWJSrNlm]{报偿}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9vUcU9T0tOPeigw0]{威慑之姿}</td></tr></tbody></table><p class=\"item-title\">3 级：狂怒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.isVGccUhtwWLs7MC inline]</p><p class=\"item-title\">6 级：无我狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0zs6n4LLwHpAYOy1 inline]</p><p class=\"item-title\">10 级：报偿</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yE89OM5aPWJSrNlm inline]</p><p class=\"item-title\">14 级：威慑之姿</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.9vUcU9T0tOPeigw0 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776336960066,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.GvRPKO7EAbXB7TXM"
+    },
+    {
+      "sort": 200000,
+      "name": "兽心道途",
+      "type": "text",
+      "_id": "DZftqg73PEeRWY4J",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Path of the Wild Heart</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kfbnGigTlcdHk9Au inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.Rk0QcsmW6g5c4XzL inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.T8hWAr4MeDfWziJr]{动物语者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc]{兽性狂暴}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bKx5WvWw9ZxM8vAb]{兽之形貌}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LmHMsdrJF3HaMZWQ]{自然语者}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BAcq074vCsSkVLwA]{兽力威能}</td></tr></tbody></table><p class=\"item-title\">3 级：动物语者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.T8hWAr4MeDfWziJr inline]</p><p class=\"item-title\">3 级：兽性狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc inline]</p><p class=\"item-title\">6 级：兽之形貌</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.bKx5WvWw9ZxM8vAb inline]</p><p class=\"item-title\">10 级：自然语者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LmHMsdrJF3HaMZWQ inline]</p><p class=\"item-title\">14 级：兽力威能</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BAcq074vCsSkVLwA inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776337084439,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.DZftqg73PEeRWY4J"
+    },
+    {
+      "sort": 300000,
+      "name": "世界树道途",
+      "type": "text",
+      "_id": "0NPflCZJaxFKhpXu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Path of the World Tree</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.JtLlCGbSa1inXCSx inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.Z2RPOWDkIBXRG0CQ inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gouVaWQIo7FnIOGT]{圣树活力}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0elGJPPiCZFYAyQN]{灵树枝杈}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5C747Wr0pdjN1Qio]{根击千钧}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Vbmo5VotrB6kWcRs]{世界树之奇旅}</td></tr></tbody></table><p class=\"item-title\">3 级：圣树活力</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.gouVaWQIo7FnIOGT inline]</p><p class=\"item-title\">6 级：灵树枝杈</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0elGJPPiCZFYAyQN inline]</p><p class=\"item-title\">10 级：根击千钧</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5C747Wr0pdjN1Qio inline]</p><p class=\"item-title\">14 级：世界树之奇旅</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Vbmo5VotrB6kWcRs inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776344323830,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.0NPflCZJaxFKhpXu"
+    },
+    {
+      "sort": 400000,
+      "name": "狂热者道途",
+      "type": "text",
+      "_id": "JZkVWnkmB47BwtLi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Path of the Zealot</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.AcGUbSF46WQL8Lct inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.rbUcTqEpuFZlIQiX inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WEqWMy7hSTD8aWgs]{神性之怒}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UgVKbtBRuVZ5szQ8]{神之勇者}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JKW6rWRhZdIZv4UL]{专心炽志}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qdWBprMpFijGTxnZ]{狂热威仪}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WoWEgNsPObwT6seg]{神之狂暴}</td></tr></tbody></table><p class=\"item-title\">3 级：神性之怒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WEqWMy7hSTD8aWgs inline]</p><p class=\"item-title\">3 级：神之勇者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UgVKbtBRuVZ5szQ8 inline]</p><p class=\"item-title\">6 级：专心炽志</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.JKW6rWRhZdIZv4UL inline]</p><p class=\"item-title\">10 级：狂热威仪</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qdWBprMpFijGTxnZ inline]</p><p class=\"item-title\">14 级：神之狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WoWEgNsPObwT6seg inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776337312503,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.JZkVWnkmB47BwtLi"
+    },
+    {
+      "sort": 0,
+      "name": "野蛮人",
+      "type": "text",
+      "_id": "z2RxKBICH6e6SkUT",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.SEwCFWmoe5wPqLWP inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.TA4xDoWO2cXuWKgX inline classes=\"right three\"]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ony0WJ1T4HuzekuP inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776334392451,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.z2RxKBICH6e6SkUT"
+    },
+    {
+      "sort": 50000,
+      "name": "野蛮人职业特性",
+      "type": "text",
+      "_id": "ZxrKkI98Sp3Wm5x0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Barbarian Class Features</p><p>野蛮人在到达特定等级时会获得下述职业特性，如野蛮人特性表中所示。</p><table border=\"0\"><caption>野蛮人特性 Barbarian Features</caption><thead><tr><th>等级</th><th>熟练加值</th><th>职业特性</th><th>狂暴次数</th><th>狂暴伤害</th><th>武器精通</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6]{狂暴}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.40GL7Fsh1aXjkxKr]{无甲防御}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.q9DqCvvFjqloEWhH]{武器精通}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">2</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WPq3TfvWJAG5BDlz]{危机感应}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pqzUiEoi83m6Z069]{鲁莽攻击}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">2</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>野蛮人子职，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uAIhSyTQEbXnSIOY]{原初学识}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">2</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MsZWsRTHxzE3h9Xm]{额外攻击}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SqiJjC2T97PEeKaf]{快速移动}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YQLm1kCM3virPmUy]{野性直觉}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fvtyXeLzaKkpyPOy]{莽驰}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0BYXmSouMHyH2MlO]{凶蛮打击}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">3</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VgC8s6sMi0zaB8Ni]{坚韧狂暴}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C]{进阶凶蛮打击}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.t4BVlsEUxnbFI25Z]{持久狂暴}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 4</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WlO2Gd5YWJeNgqzO]{强化凶蛮打击}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 4</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UdtoYtn3Le0RyoO4]{不屈勇武}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 4</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ENGlsXTJnukCGe1h]{传奇恩惠}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 4</td><td style=\"text-align:center\">4</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VG5iT5FutdmizUEr]{原初斗士}</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 4</td><td style=\"text-align:center\">4</td></tr></tbody></table><p class=\"item-title\">1 级：狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6 inline]</p><p class=\"item-title\">1 级：无甲防御</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.40GL7Fsh1aXjkxKr inline]</p><p class=\"item-title\">1 级：武器精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.q9DqCvvFjqloEWhH inline]</p><p class=\"item-title\">2 级：危机感应</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WPq3TfvWJAG5BDlz inline]</p><p class=\"item-title\">2 级：鲁莽攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pqzUiEoi83m6Z069 inline]</p><p class=\"item-title\">3 级：野蛮人子职</p><p>你选择获得一项野蛮人子职：狂战士道途，兽心道途，世界树道途或狂热者道途。子职业的内容见后文。子职是一种特化，在特定的野蛮人等级给予你对应的独特能力。此后你将获得你所选的子职所有能力——只要其所需等级等于或低于你的野蛮人等级。野蛮人职业表列出了你从子职中获得新特性的野蛮人等级。</p><p class=\"item-original\">Barbarian Subclass</p><p class=\"item-title\">3 级：原初学识</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.uAIhSyTQEbXnSIOY inline]</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。如野蛮人特性表所示，你还会在第 8，第 12，第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：额外攻击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MsZWsRTHxzE3h9Xm inline]</p><p class=\"item-title\">5 级：快速移动</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.SqiJjC2T97PEeKaf inline]</p><p class=\"item-title\">7 级：野性直觉</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.YQLm1kCM3virPmUy inline]</p><p class=\"item-title\">7 级：莽驰</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fvtyXeLzaKkpyPOy inline]</p><p class=\"item-title\">9 级：凶蛮打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.0BYXmSouMHyH2MlO inline]</p><p class=\"item-title\">11 级：坚韧狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VgC8s6sMi0zaB8Ni inline]</p><p class=\"item-title\">13 级：进阶凶蛮打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.SjRCMErLQpk4MB1C inline]</p><p class=\"item-title\">15 级：持久狂暴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.t4BVlsEUxnbFI25Z inline]</p><p class=\"item-title\">17 级：强化凶蛮打击</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WlO2Gd5YWJeNgqzO inline]</p><p class=\"item-title\">18 级：不屈勇武</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UdtoYtn3Le0RyoO4 inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ENGlsXTJnukCGe1h inline]</p><p class=\"item-title\">20 级：原初斗士</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.VG5iT5FutdmizUEr inline]</p><h1>野蛮人子职业</h1><p class=\"journal-original-h1\">Barbarian Subclasses</p><p>野蛮人子职是在特定野蛮人等级给予你取决于子职业的能力的特化选项。本段提供了以下四个子职业：狂战士道途，兽心道途，世界树道途以及狂热者道途。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730195018854,
+        "modifiedTime": 1776335973613,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!r3WI0QUBUCyKnP7O.ZxrKkI98Sp3Wm5x0"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500100,
+      "navigation": {
+        "previous": "sCXjN6JzLcqhimHI",
+        "next": "NEqUIUlivXxgZwW3"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334108250,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "r3WI0QUBUCyKnP7O",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!r3WI0QUBUCyKnP7O"
+}

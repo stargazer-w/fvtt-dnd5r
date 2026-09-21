@@ -1,0 +1,523 @@
+{
+  "name": "召唤魔方",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_cube-of-summoning.webp",
+  "system": {
+    "activities": {
+      "ydPM951KcmlRlYpY": {
+        "type": "cast",
+        "_id": "ydPM951KcmlRlYpY",
+        "sort": 100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.xRhQD1lgVwYTRsZL",
+          "ability": ""
+        },
+        "name": "1：异怪"
+      },
+      "BVIhWWAOxCEERVXP": {
+        "type": "cast",
+        "_id": "BVIhWWAOxCEERVXP",
+        "sort": 300000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.SUVyjzkR4KQWbCul",
+          "ability": ""
+        },
+        "name": "2：野兽"
+      },
+      "GAs56WMaApy7v0r8": {
+        "type": "cast",
+        "sort": 400000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.aPvKxaO9gvYEN5mc",
+          "ability": ""
+        },
+        "_id": "GAs56WMaApy7v0r8",
+        "name": "3：构装"
+      },
+      "bskWtMWUqZY9PMNp": {
+        "type": "cast",
+        "sort": 500000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ambtJ1KNkQumn2Q1",
+          "ability": ""
+        },
+        "_id": "bskWtMWUqZY9PMNp",
+        "name": "4：龙"
+      },
+      "aHC3YMHPEPoBBoyT": {
+        "type": "cast",
+        "sort": 600000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.MhF2WVNLoOa41wp2",
+          "ability": ""
+        },
+        "_id": "aHC3YMHPEPoBBoyT",
+        "name": "5：元素"
+      },
+      "0iQfQ2dm9VqecUiv": {
+        "type": "cast",
+        "sort": 700000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": 9,
+            "save": 17,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": false,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.mTZQF9DfqSqqC31y",
+          "ability": ""
+        },
+        "_id": "0iQfQ2dm9VqecUiv",
+        "name": "6：妖精"
+      },
+      "kDUsqKE0X9EysPd7": {
+        "type": "utility",
+        "_id": "kDUsqKE0X9EysPd7",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "摇动曲柄"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这个小立方体如同一个玩偶盒。当你用一个&amp;Reference[Magic]{魔法}动作转动立方体的曲柄时，它的盖子将在欢快的曲调中弹开，一个生物出现在距离盒子最近的未被占据的空间，而后盖子再次关闭。该盖子无法被其他手段打开。</p><p>在召唤魔方表中掷骰以确定魔方施展了哪种法术以召唤生物。该法术以 5 环法术位施展（豁免 DC 17，攻击加值 +9）且无需维持专注，但你在其他方面视为该法术的施法者。</p><p>一旦该立方体召唤了一个生物，直至次日黎明前它都无法再次召唤生物。</p><table><caption>召唤魔方 Cube of Summoning</caption><thead><tr><th>[[/r d6]]</th><th>法术</th></tr></thead><tbody><tr><td>1</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xRhQD1lgVwYTRsZL]{异怪召唤术}</em></td></tr><tr><td>2</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SUVyjzkR4KQWbCul]{野兽召唤术}</em></td></tr><tr><td>3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aPvKxaO9gvYEN5mc]{构装召唤术}</em></td></tr><tr><td>4</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ambtJ1KNkQumn2Q1]{龙类召唤术}</em></td></tr><tr><td>5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MhF2WVNLoOa41wp2]{元素召唤术}</em></td></tr><tr><td>6</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mTZQF9DfqSqqC31y]{妖精召唤术}</em></td></tr></tbody></table><p class=\"item-original\">Cube of Summoning</p>",
+      "chat": ""
+    },
+    "identifier": "cube-of-summoning",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895707285,
+    "modifiedTime": 1761895875180,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "QmR7nHO81VcpXMyw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!QmR7nHO81VcpXMyw"
+}

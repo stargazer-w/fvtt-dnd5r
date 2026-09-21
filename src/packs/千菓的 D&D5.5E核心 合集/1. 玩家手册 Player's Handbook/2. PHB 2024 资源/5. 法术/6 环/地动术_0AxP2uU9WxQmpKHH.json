@@ -1,0 +1,145 @@
+{
+  "name": "地动术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_move-earth.webp",
+  "system": {
+    "activities": {
+      "f9qckopToQxQL2DZ": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "f9qckopToQxQL2DZ",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>指定施法距离内一处任何方向边长都不大于 40 尺的地形区域，在法术持续时间内你可以随意重塑区域内的泥土，沙土或黏土。你可以升高或降低区域内的地面高度，制造或填平一道沟渠，竖起或夷平一道屏障，或是形成一根立柱。上述任何改造的地形范围不得超过整个区域最大边长的一半。例如，如果你影响了 40 尺立方区域，则你可以创造一根至多 20 尺高的立柱，将地面升高或降低至多 20 尺，挖一条至多 20 尺深的壕沟，等等。这些改变需要花 10 分钟的时间来完成。由于地形的变化发生得很缓慢，区域内的生物通常不会被地面的移动困住或者受伤。</p><p>每为法术维持 10 分钟专注，你都可以选择一片新的地形区域再施以影响。</p><p>该法术无法改变天然的岩石或石制建筑。但石头和建筑仍会因适应地形的变化而被改变。如果你改变地形的方式会使得建筑不稳定，则它有可能倒塌。</p><p>类似地，该法术也无法直接影响植物生长。而被移走的地面会带走任何生长在其上的植物。</p><p class=\"item-original\">Move Earth</p>",
+      "chat": ""
+    },
+    "identifier": "move-earth",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "2"
+    },
+    "level": 6,
+    "materials": {
+      "value": "一个微缩模型的铲子",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194938412,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "0AxP2uU9WxQmpKHH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!0AxP2uU9WxQmpKHH"
+}

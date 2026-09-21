@@ -1,0 +1,147 @@
+{
+  "name": "蛛网术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_web.webp",
+  "system": {
+    "activities": {
+      "Ffme7ZuWrxEIHVOX": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "Ffme7ZuWrxEIHVOX",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在法术范围内指定一点召唤出一大片黏黏的网状物。蛛网覆盖以该点为源点的 20 尺立方区域，并在法术持续时间内维持存在。蛛网范围内视为&amp;Reference[Difficult Terrain]{困难地形}，并造成&amp;Reference[Lightly Obscured]{轻度遮蔽}。</p><p>如果蛛网没有被固定在两个固体中间（例如墙和树）或跨在一片地板、墙壁、天花板中间，则蛛网会自动坍塌，而导致法术在你的下一回合开始时终止。摊在平面上的蛛网深度为 5 尺。</p><p>在一个回合中首次进入蛛网，或任何在蛛网中开始其回合的生物必须进行一次[[/save dex dc=@attributes.spell.dc]]{敏捷豁免}，否则陷入&amp;Reference[restrained]{束缚}状态，直至其离开蛛网或挣脱束缚。</p><p>一名因蛛网陷入束缚状态的生物可以用一个动作进行一次对抗你的法术豁免 DC 的[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}。如果成功，则其不再被束缚。</p><p>蛛网是可燃的。任何 5 尺立方区域的蛛网在遇到火焰后会在一轮内燃烧殆尽，并对火焰中开始其回合的生物造成[[/damage 2d4 fire]]伤害。</p><p class=\"item-original\">Web</p>",
+      "chat": ""
+    },
+    "identifier": "web",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "少量蜘蛛网",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cube",
+        "size": "20",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534452503,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wsGBy2GSy37W6xMV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wsGBy2GSy37W6xMV"
+}

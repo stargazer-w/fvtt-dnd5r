@@ -1,0 +1,202 @@
+{
+  "name": "亡灵召唤术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_summon-undead.webp",
+  "system": {
+    "activities": {
+      "ph7Rtfv9JmvKqhXS": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "ph7Rtfv9JmvKqhXS",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "10 * (@item.level - 3)",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "幽体",
+            "_id": "B0abJnXts1RMOLZZ",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.AkZbE6bxZwgnLUc6",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "腐尸",
+            "_id": "vGTAIC80brtUP3t1",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.JfNym65e461offbO",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "骷髅",
+            "_id": "2mUIE7je3WAozB8P",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Xnc8WtYux3YRNpOu",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你唤来一个亡灵灵魄。其使用亡灵灵魄的数据，并会在施法距离内一处你可见的未被占据的空间中显现。当你施展法术时，从幽体，腐尸，骷髅中选择一类，该生物会显现为你所选的那类形态的亡灵生物，其数据中的部分特性也受此影响。该生物会在生命值降为 0 或是法术结束时消失。</p><p>该生物是你的盟友（对你的其它盟友亦是如此）。它在战斗中使用你的先攻，并在你回合结束后立即行动。它遵从于你的口头指令（无需任何动作）。如果你不发令，它将执行&amp;Reference[Dodge]{回避}动作并远离危险。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.AkZbE6bxZwgnLUc6 inline]</p><p></p></details><p><em><strong>升环施法。</strong></em>该生物的数据使用相应法术位的等级。</p><p class=\"item-original\">Summon Undead</p>",
+      "chat": ""
+    },
+    "identifier": "summon-undead",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "一个镀金头骨，价值至少 300 GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194953472,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ALCsdq6jJZnmh6AJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ALCsdq6jJZnmh6AJ"
+}

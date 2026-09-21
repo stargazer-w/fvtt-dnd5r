@@ -1,0 +1,94 @@
+{
+  "name": "传送法阵",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/dungeon-masters-guide/bastion-grows-over-time-02.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>9 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>招募</p><p>一个由法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YhF0iJp8uRb0wZjW]{传送法阵}</em>制造的永久法阵铭刻在这个房间的地板上。</p><p><em><strong>招募：施法者。</strong></em>当你对此设施下达招募指令时，设施雇员会向一个友善的非玩家角色 NPC 发出邀请。掷一次骰，如果结果为偶数，则该角色拒绝了邀请，你不会从这个指令中获得任何好处；如果结果为奇数，则该角色接受了邀请，并使用传送法阵来到你的据点内。</p><p>在你位于据点内时，你可以请求这位施法者为你施展一个不超过 4 环的法师法术；在你达到 17 级后，能施展的法术环位限制提高到 8 环。施法者被视为准备了该法术，如果该法术需要任何标有价格的材料，你必须在法术施展前准备好这些材料。</p><p>这位施法者会在 14 天后或他为你施展一个法术后离开。他不会帮忙防御你的据点，并且在据点遭受攻击（见“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgBastions00000.JournalEntryPage.KiujX8sthhH791vM]{据点事件}”）时立刻离开。</p><p class=\"item-original\">Teleportation Circle</p>",
+      "chat": ""
+    },
+    "identifier": "teleportation-circle",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 9,
+    "order": "recruit",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "teleportationCircle"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013408373,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "yDaRYMFKMP9U8dRr",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!yDaRYMFKMP9U8dRr"
+}

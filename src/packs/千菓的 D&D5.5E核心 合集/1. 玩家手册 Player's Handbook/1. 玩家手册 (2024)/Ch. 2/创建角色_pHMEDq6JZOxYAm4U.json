@@ -1,0 +1,595 @@
+{
+  "name": "创建角色",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "8Dkn6nfrJruZzH83",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.7r610isGOF9NImBL cite=false]</p><p>你可以使用本书中的构建元素，为龙与地下城创建一个角色。你的角色是游戏数据、角色扮演引子以及你的想象的结合。你选择一个职业（比如@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf]{战士}或@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o]{法师}）、一个背景（比如@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.T3NalTzBdplpcIwd.JournalEntryPage.APL7pJ7446etLuQN]{水手}或@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.T3NalTzBdplpcIwd.JournalEntryPage.7DAvTQlrw7OTsgpX]{侍僧}）、以及一个种族（比如@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.8t4u8CWYbxubXflR]{人类}或@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.h9oGyt2Wh9mp0xbg]{精灵}）。你还需要创造出你角色的个性和外貌。完成之后，你的角色将作为你在 D&amp;D 多元宇宙的化身。</p><h2>做好准备</h2><p class=\"journal-original-h2\">Get Ready</p><p>在你一头扎进角色创建之前，需要做几件事来做好准备，如下所述。</p><h2>跟 DM 谈谈</h2><p class=\"journal-original-h2\">Talk with Your DM</p><p>首先从跟你的地下城主谈谈他们想要运行的 D&amp;D 战役类型开始。比如，如果 DM 是从希腊神话中获取灵感的，那你为角色选择的方向可能会与正在计划一场在大海上的精彩冒险的 DM 所期待的不同。想一下你要在这场游戏中游玩的是哪一种冒险者。如果你不知道从何开始，用本书中的角色插图激发灵感吧。</p><h2>选择一张角色卡</h2><p class=\"journal-original-h2\">Choose a Character Sheet</p><p>你要把你角色的主要细节记录在一张角色卡上。在本章中，我们使用“角色卡”这个术语指代你用来记录角色细节的任何东西——不管这是打印的角色卡（比如下一页展示的那种）、D&amp;D Beyond 上的数字角色卡、还是一张大白纸。选择任何一种适合你的角色卡，然后着手创建角色吧！</p><aside class=\"notable\"><h3>第零回</h3><p>有些地下城主会先举办一场被称为“第零回”的小聚会，主要用于探讨角色创建、构想期望达成的目标，以及用来探讨团中应当发扬光大的元素和尽量避免的内容。第零回为你和其他玩家提供了互相交流的机会、也为你们和 DM 提供了互相沟通的机会。你们可以一起决定角色之间是否彼此相识、角色之间该如何见面，以及团队可能会接到哪种委托等种种问题。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329347781,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.8Dkn6nfrJruZzH83"
+    },
+    {
+      "sort": 200000,
+      "name": "创建你的角色",
+      "type": "text",
+      "_id": "l4eqkEUGLVS2jBhO",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Create Your Character</p><p>下面是创建角色的步骤，每一个步骤在本章中都会详细介绍：</p><ol><li><strong>选择职业。</strong>每一个冒险者都是某个职业的一员。职业大致描述了角色的天职、特殊禀赋，以及偏好战术。</li><li><strong>决定起源。</strong>角色的起源包含了两个元素：背景和种族。你的角色如何度过投身冒险之前的年岁？你角色的祖先是谁？你也可以选择你角色的语言。</li><li><strong>决定属性值。</strong>你角色在游戏中所做的许多事情都取决于角色的六项属性。</li><li><strong>选择阵营。</strong>阵营是对角色道德取向的简记。</li><li><strong>填写细节。</strong>使用你已做出的选择，填写你角色卡上剩余的细节。</li></ol><p>在下一页的角色卡上，许多空格都标注了一个数字，这个数字对应上述步骤之一。（角色卡图略）</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>在 Foundry 中车卡</h3><p>用 Foundry 中的角色卡来创建角色很简单。只需按照以下步骤操作：</p><ol><li>在左上角（扳手开关）开启“编辑”模式。</li><li><p>在 <span class=\"reference\"><em class=\"fas fa-cog\"> </em>详情</span> 页下点击右侧 <span class=\"reference\">添加种族</span>（在你的豁免骰下方），在合集浏览器中勾选你的种族，并点击 <span class=\"reference\">选择</span>。</p><ul><li>你可以在左侧选择过滤器。单击一次包括，第二次单击排除，第三次单击恢复为未勾选状态。</li></ul></li><li><p>在你的种族下方点击 <span class=\"reference\">添加背景</span>，在合集浏览器中做出选择。</p></li><li><p>切换到 <span class=\"reference\"><em class=\"fas fa-list\"> </em> 特性</span> 页，点击 <span class=\"reference\">添加职业</span>，在合集浏览器中做出选择。</p></li><li><p>一旦达到可获得子职业的等级，你可以返回 <span class=\"reference\"><em class=\"fas fa-list\"> </em> 特性</span> 页，点击“＋”图标以选择你的子职业。</p></li></ol><p>每当你做出选择或升级时，其升级系统会引导你获得特性，允许你做出选择，并掷骰（或按平均值）决定你的生命值。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776329365255,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.l4eqkEUGLVS2jBhO"
+    },
+    {
+      "sort": 300000,
+      "name": "第一步：选择职业",
+      "type": "text",
+      "_id": "5ay66aAVgkgRH7qH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Step 1: Choose a Class</p><p>选择一个职业，把它写在你的角色卡上。职业简介表概括了这些职业。参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.sCXjN6JzLcqhimHI]{第 3 章}获取职业细节。</p><table><caption>职业简介 Class Overview</caption><thead><tr><th>职业</th><th>喜好……</th><th>主属性</th><th>复杂度</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O]{野蛮人}</td><td>战斗</td><td>力量</td><td>中</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3]{吟游诗人}</td><td>表演</td><td>魅力</td><td>高</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt]{牧师}</td><td>神</td><td>感知</td><td>中</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP]{德鲁伊}</td><td>自然</td><td>感知</td><td>高</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf]{战士}</td><td>武器</td><td>力量或敏捷</td><td>低</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx]{武僧}</td><td>徒手战斗</td><td>敏捷和感知</td><td>高</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV]{圣武士}</td><td>防御</td><td>力量和魅力</td><td>中</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw]{游侠}</td><td>生存</td><td>敏捷和感知</td><td>中</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP]{游荡者}</td><td>隐匿</td><td>敏捷</td><td>低</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7]{术士}</td><td>法力</td><td>魅力</td><td>高</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0]{魔契师}</td><td>秘传学识</td><td>魅力</td><td>高</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o]{法师}</td><td>法术书</td><td>智力</td><td>中</td></tr></tbody></table><aside class=\"notable\"><h3>平衡的队伍</h3><p>传统的 D&amp;D 团队包括一名牧师、一名战士、一名游荡者和一名法师。这四个职业在游戏中有着最长的历史，但更重要的是，它们为冒险带来了一种平衡的能力组合。你可以使用这种团队配置，或者参照以下指南进行调整：</p><p><strong>牧师。</strong>用吟游诗人或德鲁伊替代</p><p><strong>战士。</strong>用野蛮人、武僧、圣武士或游侠替代</p><p><strong>游荡者。</strong>用吟游诗人或游侠替代</p><p><strong>法师。</strong>用吟游诗人、术士或魔契师替代</p></aside><h2>写下你的等级</h2><p class=\"journal-original-h2\">Write Your Level</p><p>把你角色的等级写在角色卡上。通常来说，角色是从 1 级开始，并通过冒险与获得经验值（XP）提升等级。</p><p><em><strong>写下你的 XP。</strong></em>也记录下你的经验值。1 级角色有 0 点 XP。</p><p><em><strong>从更高等级开始。</strong></em>你的 DM 可能会让你从某个更高的等级开始。如果你从 3 级或更高级开始游戏，在角色卡上写下你选择的子职。参见本章后边的“@UUID[.DE7Ff0cOkQgid3fG]{从更高等级开始}”一节获取更多信息。</p><h2>标记护甲训练</h2><p class=\"journal-original-h2\">Note Armor Training</p><p>你的职业可能会给你对特定护甲类别的训练。在角色卡上标记你的护甲训练。对特定护甲类型的护甲训练意味着你可以有效穿着这种护甲，从中获得防御奖励防守上的加成。护甲类别在@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}详述。</p><h2>暂放一边</h2><p class=\"journal-original-h2\">Hold That Thought</p><p>在之后，你会为你的职业填写更多细节。选择职业是你在创建角色阶段做出的最重要的决定，并且它会引领你在后续步骤做出的许多决定。在完成创建角色阶段之前，你还会回到第 3 章好几次，以查阅你职业的详述。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329554970,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.5ay66aAVgkgRH7qH"
+    },
+    {
+      "sort": 400000,
+      "name": "第二步：决定起源",
+      "type": "text",
+      "_id": "t1WP9VEevo4TOTXw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Step 2: Determine Origin</p><p>决定你角色的起源，包括了选择一个@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.T3NalTzBdplpcIwd]{背景}、一个@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu]{种族}、以及两种语言。</p><p>角色的背景体现了对角色影响最大的地点和工作。背景、种族和语言的组合则在你思考角色的早年生活时，为你的构想提供了丰饶的土壤。</p><h2>选择一个背景</h2><p class=\"journal-original-h2\">Choose a Background</p><p>选择你角色的背景，把它写在你的角色卡上。你可以选择@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ztV4AlM4iT5GZAN4]{第 4 章}介绍的任何一个背景，你的 DM 可能也会提供其他背景作为可选项。</p><p>在第三步：决定你的属性值时，你选择的背景会有影响。如果你在做出选择时感到困难，下边的属性值与背景表给出了哪一个背景为哪一个属性提供增益。在表里找找你职业的主属性吧。</p><table><caption>属性值与背景 Ability Scores and Backgrounds</caption><thead><tr><th>属性</th><th>背景</th></tr></thead><tbody><tr><td style=\"white-space:nowrap\">力量</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PVJMqT2G4d2WIXRB]{工匠}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MjXvMxnb0WKo2SX6]{艺人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pwFxvfM9FEcvl0YX]{农民}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tFkjr382zJdZlvm0]{警卫}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hZvxHUG6rMIiEkSA]{贵族}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.C9FdqdUjaIfpP6bh]{水手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2ae7Jz7YuTdzYHmJ]{士兵}</td></tr><tr><td style=\"white-space:nowrap\">敏捷</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PVJMqT2G4d2WIXRB]{工匠}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RfFbfEBfxRhTmE7R]{欺诈师}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5xrhmIh6XzdGqVHl]{罪犯}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MjXvMxnb0WKo2SX6]{艺人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DPitMmetoxZxfssR]{向导}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.C9FdqdUjaIfpP6bh]{水手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tx6Uk8FPHxR4dMpO]{抄写员}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2ae7Jz7YuTdzYHmJ]{士兵}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E7rkDJEXOCrWyQ0J]{流浪者}</td></tr><tr><td style=\"white-space:nowrap\">体质</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RfFbfEBfxRhTmE7R]{欺诈师}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5xrhmIh6XzdGqVHl]{罪犯}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pwFxvfM9FEcvl0YX]{农民}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DPitMmetoxZxfssR]{向导}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G7vxNonLJOGN7mwh]{隐士}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EKCZiKrFLsbUZoba]{商人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EYkXmp40YLJ4OFYW]{智者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2ae7Jz7YuTdzYHmJ]{士兵}</td></tr><tr><td style=\"white-space:nowrap\">智力</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KTVbqrVZww9ELZd5]{侍僧}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PVJMqT2G4d2WIXRB]{工匠}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5xrhmIh6XzdGqVHl]{罪犯}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tFkjr382zJdZlvm0]{警卫}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EKCZiKrFLsbUZoba]{商人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hZvxHUG6rMIiEkSA]{贵族}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EYkXmp40YLJ4OFYW]{智者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tx6Uk8FPHxR4dMpO]{抄写员}</td></tr><tr><td style=\"white-space:nowrap\">感知</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KTVbqrVZww9ELZd5]{侍僧}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pwFxvfM9FEcvl0YX]{农民}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tFkjr382zJdZlvm0]{警卫}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DPitMmetoxZxfssR]{向导}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G7vxNonLJOGN7mwh]{隐士}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EYkXmp40YLJ4OFYW]{智者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.C9FdqdUjaIfpP6bh]{水手}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tx6Uk8FPHxR4dMpO]{抄写员}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E7rkDJEXOCrWyQ0J]{流浪者}</td></tr><tr><td style=\"white-space:nowrap\">魅力</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KTVbqrVZww9ELZd5]{侍僧}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RfFbfEBfxRhTmE7R]{欺诈师}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MjXvMxnb0WKo2SX6]{艺人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.G7vxNonLJOGN7mwh]{隐士}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.EKCZiKrFLsbUZoba]{商人}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hZvxHUG6rMIiEkSA]{贵族}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.E7rkDJEXOCrWyQ0J]{流浪者}</td></tr></tbody></table><p><em><strong>记录你的专长。</strong></em>背景会给你一个专长，这个专长会为你的角色提供特定的能力。专长详见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ge4f5a7mc55QciIn]{第 5 章}。把这个专长写在你的角色卡上。</p><p><em><strong>标记熟练项。</strong></em>你的背景会给你对于两项技能与一项工具的熟练。把这些信息记录在你的角色卡上。</p><p>你的职业也提供了熟练。在@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.sCXjN6JzLcqhimHI]{第 3 章}查阅你职业的详述，把有关熟练项标记在你的角色卡上。</p><p>在范例角色卡上，你可以通过在技能与豁免左侧的圆圈打勾的方式，表明你熟练于它们。</p><p>你职业详述中的特性表格显示了你的熟练加值（详述于@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZXHEwWtSUcCIogyG]{第 1 章}），这个数值对 1 级角色而言是 + 2。把这个数字记录在你的角色卡上。你会在第五步填写关于这些熟练项的其他数字。</p><h2>选择起始装备</h2><p class=\"journal-original-h2\">Choose Starting Equipment</p><p>你的背景和职业都提供了起始装备。在这一步骤中，你获得的任何钱币都能立刻用于@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}所述的装备。此在，你还能无代价地获得一个饰品（参见本章结尾的饰品表）。</p><p>将你选择的装备记录在你的角色卡上。装备详述于第 6 章，但现在你可以先把这些东西都写下来，回头再去那一章查详细内容。范例角色卡上还有一块空间来记录你购买装备之后剩余的钱币，以及你在冒险过程中获得的财宝。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.rTyz0wynAu0MZbyf classes=\"right three blend-multiply\" cite=false]</p><h2>选择种族</h2><p class=\"journal-original-h2\">Choose a Species</p><p>为你的角色选择一个种族。下列种族选项详述于@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ztV4AlM4iT5GZAN4]{第 4 章}：@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.vN6Ugk7UOj38fpdv]{阿斯莫}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.Duq9xnLywFNK3gv1]{龙裔}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.4zCNgk0JSKVzv9Y9]{矮人}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.h9oGyt2Wh9mp0xbg]{精灵}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.BKZ4ViHHUMxaqPz4]{侏儒}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.l4PycBAExkT2g62X]{歌利亚}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.I5mX89tfojsyQmdA]{半身人}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.8t4u8CWYbxubXflR]{人类}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.qUxclCvBClnEafEY]{兽人}和@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.owOzzcy5eMJgHNpu.JournalEntryPage.xiCNZr3S4OmJezyv]{提夫林}。选好种族之后，把它写在你的角色卡上。之后记录你种族的特性。</p><p>你角色的体型和速度是由角色种族决定的：也把这些记录在角色卡的适当位置（关于体型，你可以只写首字母）。</p><aside class=\"notable\"><h3>旧书中的背景和种族</h3><p>在比较旧的 D&amp;D 书籍中，背景并不包括属性值调整。如果你正使用一个来自旧书的背景，就这样调整你的属性值：将一个数值增加 2、一个不同的数值增加 1，或者把三个数值增加 1。这些增长不能把属性值提升到 20 以上。</p><p>类似地，旧书中的种族包括了属性值提升。如果你正使用一个来自旧书的种族，无视这些提升，只使用来自你背景的属性值提升。</p><p>同样，如果你选择的背景没有提供专长，那么你获得一个自选的起源专长。</p></aside><h2>想象你的过往和现在</h2><p class=\"journal-original-h2\">Imagine Your Past and Present</p><p>让你的角色背景和种族激发你对他们过往的想象吧。这份过往会引向角色的现在。考虑这一点同时，以你角色的视角，思考一下以下问题的答案：</p><ul><li>谁抚养了你？</li><li>你儿时最亲密的朋友是谁？</li><li>你是和宠物一同长大的吗？</li><li>你坠入爱河过吗？是的话，你爱上了谁？</li><li>你加入过一个组织（比如某种公会或宗教）吗？如果是，你现在仍是它的成员吗？</li><li>你过去的哪些元素激发你踏上如今的冒险之路？</li></ul><h2>选择语言</h2><p class=\"journal-original-h2\">Choose Languages</p><p>你的角色至少了解三门语言：通用语，加上两种你从标准语言表掷骰生成或选取的语言。了解一门语言意味着你的角色能以之交流、进行阅读、以及书写。你的职业和其他特性可能也会给你语言。</p><p>标准语言表列出了遍布于 D&amp;D 诸世界的语言。每一个玩家角色都了解通用语这门源于位面大都会、多元宇宙之焦点——印记城的语言。其他标准语言源自 D&amp;D 诸世界中最突出的那些种族的最初成员，自那之后并已经广泛传播。</p><table id=\"standard-languages\"><caption>标准语言 Standard Languages</caption><thead><tr><th>[[/r 1d12]]</th><th>语言</th><th>起源</th></tr></thead><tbody><tr><td style=\"text-align:center\">––</td><td>通用语</td><td>印记城</td></tr><tr><td style=\"text-align:center\">1</td><td>通用手语</td><td>印记城</td></tr><tr><td style=\"text-align:center\">2</td><td>龙语</td><td>龙</td></tr><tr><td style=\"text-align:center\">3–4</td><td>矮人语</td><td>矮人</td></tr><tr><td style=\"text-align:center\">5–6</td><td>精灵语</td><td>精灵</td></tr><tr><td style=\"text-align:center\">7</td><td>巨人语</td><td>巨人</td></tr><tr><td style=\"text-align:center\">8</td><td>侏儒语</td><td>侏儒</td></tr><tr><td style=\"text-align:center\">9</td><td>地精语</td><td>类地精</td></tr><tr><td style=\"text-align:center\">10–11</td><td>半身人语</td><td>半身人</td></tr><tr><td style=\"text-align:center\">12</td><td>兽人语</td><td>兽人</td></tr></tbody></table><p>稀有语言表列出了隐秘的，或因源于其他存在位面而在物质位面较不为人知的语言。某些特性会让角色学会一种稀有语言。</p><table id=\"rare-languages\"><caption>稀有语言 Rare Languages</caption><thead><tr><th>语言</th><th>起源</th></tr></thead><tbody><tr><td>深渊语</td><td>深渊的恶魔</td></tr><tr><td>天界语</td><td>天界生物</td></tr><tr><td>深潜语</td><td>异怪</td></tr><tr><td>德鲁伊语</td><td>德鲁伊结社</td></tr><tr><td>炼狱语</td><td>九狱的魔鬼</td></tr><tr><td>原初语 *</td><td>元素</td></tr><tr><td>木族语</td><td>妖精荒野</td></tr><tr><td>盗贼黑话</td><td>各种犯罪公会</td></tr><tr><td>地底通用语</td><td>幽暗地域</td></tr></tbody></table><p>* 原初语包括了水族语、气族语、火族语和土族语几种方言，会其中一种方言的生物可以和另一种方言的生物交流。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329624568,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.t1WP9VEevo4TOTXw"
+    },
+    {
+      "sort": 500000,
+      "name": "第三步：确定属性值",
+      "type": "text",
+      "_id": "9o8NbQ1Ph2xCxlQh",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Step 3: Determine Ability Scores</p><p>要确定你角色的属性值，你需要先按照下列指导生成一组 6 个数字，然后将这些数字分配给你的六属性。第 1 章解释了每个属性的意义。</p><table id=\"ability-score-point-costs\" class=\"right-three\"><caption>属性值点数花费 Ability Score Point Costs</caption><thead><tr><th>数值</th><th>花费</th></tr></thead><tbody style=\"text-align:center\"><tr><td>8</td><td>0</td></tr><tr><td>9</td><td>1</td></tr><tr><td>10</td><td>2</td></tr><tr><td>11</td><td>3</td></tr><tr><td>12</td><td>4</td></tr><tr><td>13</td><td>5</td></tr><tr><td>14</td><td>7</td></tr><tr><td>15</td><td>9</td></tr></tbody></table><h2>生成你的数值</h2><p class=\"journal-original-h2\">Generate Your Scores</p><p>以下列三种方法之一确定你的属性值。你的 DM 也许会偏好其中特定的某一个。</p><p><em><strong>标准数列。</strong></em>使用下面六个数值作为你的属性值：15、14、13、12、10、8。</p><p><em><strong>随机生成。</strong></em>投掷 [[/r 4d6kh3 #随机生成的属性值]]{4d6} 将骰面最高的三个骰子的总和记录下来。再这么做五次，这样就有六个数字了。</p><p><em><strong>购点法。</strong></em>你有 27 点可以花费在属性值上。每一个数值的费用都在属性值点数花费表中给出。比如，14 这个数值会用掉你 27 点中的 7 点。</p><h2>分配属性值</h2><p class=\"journal-original-h2\">Assign Ability Scores</p><p>在你生成了六个数值之后，就把它们分配给力量、敏捷、体质、智力、感知和魅力六个属性，别忘了你职业的主属性。也把属性调整值填上。</p><p>如果你正使用标准数列选项，请查询按职业给出的标准数列表格，获取对于你的职业而言应该把哪个数值分配给什么属性的建议。这张表格把最大的数字分配给了职业的主属性。如果你使用其他方法生成数字，你仍然可以将这张表用作分配最高和最低数值的指导。</p><table id=\"standard-array-class\"><caption>按职业给出的标准数列 Standard Array by Class</caption><thead><tr><th>职业</th><th>力量</th><th>敏捷</th><th>体质</th><th>智力</th><th>感知</th><th>魅力</th></tr></thead><tbody style=\"text-align:center\"><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ony0WJ1T4HuzekuP]{野蛮人}</td><td>15</td><td>13</td><td>14</td><td>10</td><td>12</td><td>8</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pbwIuVxCYRQ8AEhA]{吟游诗人}</td><td>8</td><td>14</td><td>12</td><td>13</td><td>10</td><td>15</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tIWfPyeNrnGvA3XW]{牧师}</td><td>14</td><td>8</td><td>13</td><td>10</td><td>15</td><td>12</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ivh0XDvnUSFMDD9B]{德鲁伊}</td><td>8</td><td>12</td><td>14</td><td>13</td><td>15</td><td>10</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.S9jHoU7CcbLbbIAc]{战士}</td><td>15</td><td>14</td><td>13</td><td>8</td><td>10</td><td>12</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MVi1uFusq1QdCQkq]{武僧}</td><td>12</td><td>15</td><td>13</td><td>10</td><td>14</td><td>8</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8Tbr2TuxfmiCvi3S]{圣武士}</td><td>15</td><td>10</td><td>13</td><td>8</td><td>12</td><td>14</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wtxggHNlMRwxrFTr]{游侠}</td><td>12</td><td>15</td><td>13</td><td>8</td><td>14</td><td>10</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3EVzSlK6FiSyVwqC]{游荡者}</td><td>12</td><td>15</td><td>13</td><td>14</td><td>10</td><td>8</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.9yvnQfH524t0E1Tr]{术士}</td><td>10</td><td>13</td><td>14</td><td>8</td><td>12</td><td>15</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HOl3HZ0djMgfcHx5]{魔契师}</td><td>8</td><td>14</td><td>13</td><td>12</td><td>10</td><td>15</td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KkVgaq9S5aiMQc4A]{法师}</td><td>8</td><td>12</td><td>13</td><td>15</td><td>14</td><td>10</td></tr></tbody></table><h2>调整属性值</h2><p class=\"journal-original-h2\">Adjust Ability Scores</p><p>在你的属性值分配完毕之后，根据你的背景来调整它们。你的背景列出了三项属性；将其中一项属性值提升 2 点并再将另外一项不同的属性值提升 1 点，又或者令这三项属性均提升 1 点。这些提升均无法将某项属性增加到 20 以上。</p><p>某些玩家会喜欢提升他们职业的主要属性，而其他一些玩家则会更倾向于提升某项较低的数值。</p><h2>确定属性调整值</h2><p class=\"journal-original-h2\">Determine Ability Modifiers</p><p>最后，使用属性值与调整值表确定你的属性调整值。把这些调整值写在每一个属性值旁边。</p><table id=\"ability-scores-modifiers\"><caption>属性值与调整值 Ability Scores and Modifiers</caption><thead><tr><th>属性值</th><th>调整值</th></tr></thead><tbody style=\"text-align:center\"><tr><td>3</td><td>− 4</td></tr><tr><td>4–5</td><td>− 3</td></tr><tr><td>6–7</td><td>− 2</td></tr><tr><td>8–9</td><td>− 1</td></tr><tr><td>10–11</td><td>+ 0</td></tr><tr><td>12–13</td><td>+ 1</td></tr><tr><td>14–15</td><td>+ 2</td></tr><tr><td>16–17</td><td>+ 3</td></tr><tr><td>18–19</td><td>+ 4</td></tr><tr><td>20</td><td>+ 5</td></tr></tbody></table><h2>描述外貌与个性</h2><p class=\"journal-original-h2\">Describe Appearance and Personality</p><p>属性值是规则的必要部分，但它们可以不仅止于此。分配完属性值之后，想一想这些数字可能会对你角色的外貌和个性有什么影响。非常强壮而低魅力的角色，他的外貌与表现与一位充满魅力但低力量的角色可能是不同的。下列描述性词语表格给出了关于你可以如何根据某项属性数值的高低来描述你角色的建议。</p><p>将你角色的外貌与个性标注在角色卡上。</p><table><caption>力量 Strength</caption><thead><tr><th>[[/r 1d4]]</th><th>高力量</th><th>低力量</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>筋肉</td><td>虚弱</td></tr><tr><td style=\"text-align:center\">2</td><td>矫健</td><td>纤细</td></tr><tr><td style=\"text-align:center\">3</td><td>安全感</td><td>局促</td></tr><tr><td style=\"text-align:center\">4</td><td>直爽</td><td>拐弯抹角</td></tr></tbody></table><table><caption>敏捷 Dexterity</caption><thead><tr><th>[[/r 1d4]]</th><th>高敏捷</th><th>低敏捷</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>柔韧</td><td>紧张</td></tr><tr><td style=\"text-align:center\">2</td><td>活力四射</td><td>笨拙</td></tr><tr><td style=\"text-align:center\">3</td><td>好动</td><td>犹豫</td></tr><tr><td style=\"text-align:center\">4</td><td>稳定</td><td>不稳</td></tr></tbody></table><table><caption>体质 Constitution</caption><thead><tr><th>[[/r 1d4]]</th><th>高体质</th><th>低体质</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>精力充沛</td><td>瘦弱</td></tr><tr><td style=\"text-align:center\">2</td><td>健壮</td><td>神经脆弱</td></tr><tr><td style=\"text-align:center\">3</td><td>快活</td><td>无精打采</td></tr><tr><td style=\"text-align:center\">4</td><td>沉稳</td><td>无力</td></tr></tbody></table><table><caption>智力 Intelligence</caption><thead><tr><th>[[/r 1d4]]</th><th>高智力</th><th>低智力</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>果断</td><td>天真</td></tr><tr><td style=\"text-align:center\">2</td><td>逻辑性强</td><td>逻辑性差</td></tr><tr><td style=\"text-align:center\">3</td><td>有见地</td><td>没见识</td></tr><tr><td style=\"text-align:center\">4</td><td>好奇</td><td>愚蠢</td></tr></tbody></table><table><caption>感知 Wisdom</caption><thead><tr><th>[[/r 1d4]]</th><th>高感知</th><th>低感知</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>安详</td><td>轻率</td></tr><tr><td style=\"text-align:center\">2</td><td>体贴</td><td>易分心</td></tr><tr><td style=\"text-align:center\">3</td><td>专注</td><td>不在意</td></tr><tr><td style=\"text-align:center\">4</td><td>警觉</td><td>幼稚</td></tr></tbody></table><table><caption>魅力 Charisma</caption><thead><tr><th>[[/r 1d4]]</th><th>高魅力</th><th>低魅力</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td>有吸引力</td><td>迂腐</td></tr><tr><td style=\"text-align:center\">2</td><td>威严</td><td>缺乏幽默</td></tr><tr><td style=\"text-align:center\">3</td><td>风趣</td><td>内向</td></tr><tr><td style=\"text-align:center\">4</td><td>鼓舞人心</td><td>不得体</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329678756,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.9o8NbQ1Ph2xCxlQh"
+    },
+    {
+      "sort": 600000,
+      "name": "第四步：选择阵营",
+      "type": "text",
+      "_id": "6ThVICG0QSRy7L0F",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Step 4: Choose an Alignment</p><p>从下列选项中选择你角色的阵营，将之标记在你的角色卡上。</p><p>D&amp;D 假设玩家角色不属于邪恶阵营。在构建邪恶角色之前，请先与你的 DM 确认一下。</p><aside class=\"notable\"><h3>无阵营生物</h3><p>绝大多数缺乏理性思维能力的生物没有阵营；它们是无阵营的。比如，鲨鱼是凶猛的掠食者，但它们并不邪恶；它们无阵营。</p></aside><h2>九阵营</h2><p class=\"journal-original-h2\">The Nine Alignments</p><p>生物的阵营大致描述了其伦理方面的态度和理念。阵营是两种因素的结合：一种因素区分道德（善良、邪恶或中立），另一种因素描述对秩序的态度（守序、混乱或中立）。</p><p>下面的阵营总结描述了某一阵营生物的典型表现；特定生物个体的表现可能与这些表现不同。</p><p><em><strong>守序善良（LG）。</strong></em>守序善良生物尽力做社会认为正确的事情。毫不犹豫地与不公作斗争、毫不犹豫地保护无辜者的人，可能是守序善良的。</p><p><em><strong>中立善良（NG）。</strong></em>中立善良生物尽其所能地做行善，在规则限度内行事，但并不感觉被规则束缚。按照他人需求帮助他们的和善之人，可能是中立善良的。</p><p><em><strong>混乱善良（CG）。</strong></em>混乱善良生物依照其良心行动，几乎不在意别人怎么想。拦路抢劫某个冷酷男爵的税官，将赃款用于帮助穷人的人，可能是混乱善良的。</p><p><em><strong>守序中立（LN）。</strong></em>守序中立的个体依法律、传统或个人信条办事。遵守一套严格的行事准则，且不会被临危者的请求或邪恶的诱惑动摇的人，可能是守序中立的。</p><p><em><strong>绝对中立（N）。</strong></em>绝对中立阵营是那些宁可回避道德问题，不要选边站，按当时看来最好的做法行事的人的阵营。厌倦了道德思辨的人可能是绝对中立的。</p><p><em><strong>混乱中立（CN）。</strong></em>混乱中立的生物按其一时奇想行事，认为他们的个人自由比其他一切都重要。靠小聪明谋生、四处游荡的流氓，可能是混乱中立的。</p><p><em><strong>守序邪恶（LE）。</strong></em>守序邪恶的生物有条不紊地在传统、忠诚或秩序的规定之内获取他们想要的东西。在利用市民同时又阴谋获取权力的贵族，可能是守序邪恶的。</p><p><em><strong>中立邪恶（NE）。</strong></em>中立邪恶是那些不在意在追逐自身想要的东西过程中造成破坏的人所属的阵营。随心所欲抢劫杀人的罪犯，可能是中立邪恶的。</p><p><em><strong>混乱邪恶（CE）。</strong></em>混乱邪恶的生物会随意施暴，这种暴力受其憎恨或嗜血欲望的驱策。致力于复仇与破坏阴谋的恶棍，可能是混乱邪恶的。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.eYCtlrpgpc2R0T5p cite=false]</p><h4>阵营与个性</h4><p>阵营可以塑造一个角色的个性、目标与核心信念。根据阵营的两个核心元素，你可以使用下表赋予你对角色个性细节的灵感。</p><table><caption>根据阵营的个性特征 Personality Traits by Alignment</caption><thead><tr><th>阵营</th><th>[[/r 1d4]]</th><th>相关特征</th></tr></thead><tbody><tr><td>混乱</td><td style=\"text-align:center\">1</td><td>自吹自擂</td></tr><tr><td></td><td style=\"text-align:center\">2</td><td>冲动</td></tr><tr><td></td><td style=\"text-align:center\">3</td><td>叛逆</td></tr><tr><td></td><td style=\"text-align:center\">4</td><td>自我中心</td></tr><tr><td>善良</td><td style=\"text-align:center\">1</td><td>慈悲</td></tr><tr><td></td><td style=\"text-align:center\">2</td><td>乐于助人</td></tr><tr><td></td><td style=\"text-align:center\">3</td><td>诚实</td></tr><tr><td></td><td style=\"text-align:center\">4</td><td>和善</td></tr><tr><td>邪恶</td><td style=\"text-align:center\">1</td><td>不诚实</td></tr><tr><td></td><td style=\"text-align:center\">2</td><td>睚眦必报</td></tr><tr><td></td><td style=\"text-align:center\">3</td><td>残忍</td></tr><tr><td></td><td style=\"text-align:center\">4</td><td>贪婪</td></tr><tr><td>守序</td><td style=\"text-align:center\">1</td><td>合作</td></tr><tr><td></td><td style=\"text-align:center\">2</td><td>忠诚</td></tr><tr><td></td><td style=\"text-align:center\">3</td><td>严以待人</td></tr><tr><td></td><td style=\"text-align:center\">4</td><td>有条不紊</td></tr><tr><td>中立</td><td style=\"text-align:center\">1</td><td>自私</td></tr><tr><td></td><td style=\"text-align:center\">2</td><td>冷漠</td></tr><tr><td></td><td style=\"text-align:center\">3</td><td>简练</td></tr><tr><td></td><td style=\"text-align:center\">4</td><td>务实</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329749413,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.6ThVICG0QSRy7L0F"
+    },
+    {
+      "sort": 700000,
+      "name": "第五步：丰富细节",
+      "type": "text",
+      "_id": "O1kCtOyXyxlJ1hz9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Step 5: Fill In Details</p><p>现在来填写角色卡的其他部分。</p><h2>记录职业特性</h2><p class=\"journal-original-h2\">Record Class Features</p><p>看一下@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.sCXjN6JzLcqhimHI]{第 3 章}里你职业的特性表，将 1 级的特性抄下来。这些职业特性的详述也在第 3 章。</p><p>某些职业特性提供了选择。确定你完整读过所有的特性，并作出了所有被提供的选择。</p><h2>填上数字</h2><p class=\"journal-original-h2\">Fill In Numbers</p><p>把这些数字填在你的角色卡上：</p><p><em><strong>豁免检定。</strong></em>对于你熟练的豁免检定，将你的熟练加值加到相应的属性调整值上，记下总值。某些玩家也喜欢把他们不熟练的豁免检定调整值也记下来，这就仅仅是相关属性调整值。</p><p><em><strong>技能。</strong></em>对于你熟练的技能，将你的熟练加值加到与该项技能相关的属性调整值上，记下总值。你或许也想将你不熟练的技能调整值记下来，这就仅仅是相关属性调整值。</p><p><em><strong>被动察觉。</strong></em>有时候你的 DM 会不要求你进行感知（察觉）检定，就判定你的角色是否注意到某些东西；DM 将使用你的被动察觉作为替代。被动察觉这个数值反映了当你没有主动寻找某些东西时的，一种通常的、对周围环境的警觉。使用下列公式确定你的被动察觉值：</p><p class=\"List-Styles_List-Item-Centered\" style=\"text-align:center\"><strong>被动察觉</strong> = 10 + 感知（察觉）检定调整值</p><p>将适用于你感知（察觉）检定的所有调整值都算上。比如，如果你的角色感知 15 且熟练于察觉技能，你的被动察觉就是 14（10 + 2 感知调整值 + 2 熟练）。</p><p><em><strong>生命值。</strong></em>你的职业和体质调整值确定了你在 1 级时的生命值上限，如各职业 1 级生命值表所述。</p><table><caption>各职业 1 级生命值 Level 1 Hit Points by Class</caption><thead><tr><th>职业</th><th>生命值上限</th></tr></thead><tbody><tr><td>野蛮人</td><td>12 + 体质调整值</td></tr><tr><td>战士、圣武士或游侠</td><td>10 + 体质调整值</td></tr><tr><td>吟游诗人、牧师、德鲁伊、武僧、游荡者或魔契师</td><td>8 + 体质调整值</td></tr><tr><td>术士或法师</td><td>6 + 体质调整值</td></tr></tbody></table><p>角色卡中有位置可以记录你当前的生命值，以及你可能获得的临时生命值。此外，其还有用于追踪死亡豁免的空间。</p><p><em><strong>生命值骰。</strong></em>你的职业描述中说明了你的角色的生命值骰（或简称生命骰）类型，将它写在你的角色卡上。在 1 级时，你的角色有 1 个生命骰。你可以在短休时消耗生命骰来回复生命值。你的角色卡上还有预留的空间，可以记录你已经消耗的生命骰数量。</p><p><em><strong>先攻。</strong></em>在你的角色卡上的先攻栏写下你的敏捷调整值。</p><p><em><strong>护甲等级。</strong></em>在没有装备护甲和盾牌的情况下，你的基础护甲等级是 10 加上你的敏捷调整值。如果你的起始装备包含护甲或盾牌（或者两个都有），使用@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt]{第 6 章}中的规则计算你的 AC。职业特性可能会为你提供不同的 AC 计算方式。</p><p><em><strong>攻击。</strong></em>在角色卡的武器 &amp; 伤害类戏法部分写下你的起始武器。你具有熟练项的武器的攻击检定的加值计算方式如下，除非该武器的词条另有说明：</p><p style=\"text-align:center\"><strong>近战攻击加值</strong> = 力量调整值 + 熟练加值</p><p style=\"text-align:center\"><strong>远程攻击加值</strong> = 敏捷调整值 + 熟练加值</p><p>查看第 6 章中你的武器的伤害和词条。你使用武器进行攻击时使用的属性调整值也同样加在伤害掷骰中。</p><p><em><strong>施法。</strong></em>使用以下公式，计算出并记下你法术的豁免 DC 和你使用法术进行攻击的加值：</p><p style=\"text-align:center\"><strong>法术豁免 DC</strong> = 8 + 施法属性调整值 + 熟练加值</p><p style=\"text-align:center\"><strong>法术攻击加值</strong> = 施法属性调整值 + 熟练加值</p><p>你的法术的施法属性调整值取决于让你获得施展该法术的能力的特性。</p><p><em><strong>法术位、戏法和准备法术。</strong></em>如果你的职业给你@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUMC9UfgpPuv4wkn]{施法}或@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aw9zZzq9OrA6vrEX]{契约魔法}特性，你的职业特性表中会显示你可以使用的法术位数量，你掌握的戏法数量和你可以准备的法术数量。选择你的戏法和准备法术，并把它们和你的法术位数量一起记到你的角色卡上。</p><h2>为你的角色取名</h2><p class=\"journal-original-h2\">Name Your Character</p><p>为你的角色取一个名字，然后将它写到你的角色卡上。名字可以随你喜欢。它是一位先祖的名字吗？它有某种宗教含义或者特别的意义吗？还是说它就是你为自己选择的名字？</p><h2>创建最后一点细节</h2><p class=\"journal-original-h2\">Create Final Details</p><p>当你创建完角色后，想想看你会为自己的角色添加的细节。这里有一些你作为角色可能会问自己的内容：</p><ul><li>你的性别（代词）是什么？</li><li>你会最关注什么样的人或人群？</li><li>你最害怕什么东西？</li><li>在你的冒险中，你在寻求什么？知识、财富、荣耀、启迪、正义、慈悲、力量，或者其他东西？</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329798114,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.O1kCtOyXyxlJ1hz9"
+    },
+    {
+      "sort": 700000,
+      "name": "等级提升",
+      "type": "text",
+      "_id": "Vz5QcYKA74tWkDqy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Level Advancement</p><p>在冒险中，你的角色会获得各种经验，这个过程在游戏中表示为经验值 Experimece Points（XP）。当角色获得的总经验值达到特定的数值时，其能力将得到质的突破，这个突破点即为升级。</p><p>角色升级表列出了了你提升到相应某个等级升级时所需的 XP 以及相应等级角色的熟练加值。当你的总 XP 等于或超过经验值栏中某个数值时，你就能提升到对应的等级。</p><table id=\"character-advancement\"><caption>角色升级 Character Advancement</caption><thead><tr><th>等级</th><th>经验值</th><th>熟练加值</th></tr></thead><tbody style=\"text-align:center\"><tr><td>1</td><td>0</td><td>+ 2</td></tr><tr><td>2</td><td>300</td><td>+ 2</td></tr><tr><td>3</td><td>900</td><td>+ 2</td></tr><tr><td>4</td><td>2,700</td><td>+ 2</td></tr><tr><td>5</td><td>6,500</td><td>+ 3</td></tr><tr><td>6</td><td>14,000</td><td>+ 3</td></tr><tr><td>7</td><td>23,000</td><td>+ 3</td></tr><tr><td>8</td><td>34,000</td><td>+ 3</td></tr><tr><td>9</td><td>48,000</td><td>+ 4</td></tr><tr><td>10</td><td>64,000</td><td>+ 4</td></tr><tr><td>11</td><td>85,000</td><td>+ 4</td></tr><tr><td>12</td><td>100,000</td><td>+ 4</td></tr><tr><td>13</td><td>120,000</td><td>+ 5</td></tr><tr><td>14</td><td>140,000</td><td>+ 5</td></tr><tr><td>15</td><td>165,000</td><td>+ 5</td></tr><tr><td>16</td><td>195,000</td><td>+ 5</td></tr><tr><td>17</td><td>225,000</td><td>+ 6</td></tr><tr><td>18</td><td>265,000</td><td>+ 6</td></tr><tr><td>19</td><td>305,000</td><td>+ 6</td></tr><tr><td>20</td><td>355,000</td><td>+ 6</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776329827120,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.Vz5QcYKA74tWkDqy"
+    },
+    {
+      "sort": 700000,
+      "name": "获得新的等级",
+      "type": "text",
+      "_id": "iHbj5aJvc1T7i5YI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Gaining a Level</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.ix3AlcFliscD57YK classes=\"blend-multiply\" cite=false]</p><p>当你获得一个新的等级时，按照以下步骤完成升级：</p><ol><li><strong>选择一个职业。</strong>大多数角色会在同一个职业中升级。不过你也可以选择使用“@UUID[.vcs4jfEKRxPCsgXm]{兼职}”部分中的规则来在另一个职业上提升等级。</li><li><strong>调整生命值和生命值骰。</strong>每当你提升一个新的等级时，你会获得一个额外的生命骰。投掷这个生命骰并在掷骰结果中加上你的体质调整值，将其总和（至少为 1）加到你的生命值上限中。你也可以直接使用职业固定生命值表中对应的数值代替掷骰结果，其数值其实是生命骰掷骰结果的平均值（向上取整）。</li><li><strong>记录新的职业特性。</strong>查看@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.sCXjN6JzLcqhimHI]{第 3 章}中你的职业特性，然后记下你在该职业的新等级中获得的新特性。如果新特性让你进行选择，记下选择后的选项。</li><li><strong>调整熟练加值。</strong>一个角色的熟练加值会在特定等级提升，如角色升级表和第 3 章中你的职业特性表所示。当你的熟练加值提升时，你的角色卡上所有包含你的熟练加值的数值也会相应提升。</li><li><strong>调整属性调整值。</strong>如果你选择了一个提升一点及以上属性值的专长，你的属性调整值也会在该属性值达到偶数等级时相应提升。当属性调整值提升时，修改你角色卡上所有使用了该属性调整值的数值。当你的体质值调整值提升 1 时，你的最大生命值也会提升等于你现有等级的数值。比如说，如果一位角色的体质值从 17 提升到 18，其体质调整值提升到 + 4，并且由于升到了 8 级，该角色的最大生命值最大生命值提升 8。</li></ol><table id=\"fixed-hit-points-by-class\"><caption>职业对应固定生命值 Fixed Hit Points by Class</caption><thead><tr><th>职业</th><th>每级生命值</th></tr></thead><tbody><tr><td>野蛮人</td><td>7 + 体质调整值</td></tr><tr><td>战士、圣武士或游侠</td><td>6 + 体质调整值</td></tr><tr><td>诗人、牧师、德鲁伊、武僧、游荡者或魔契师</td><td>5 + 体质调整值</td></tr><tr><td>术士或法师</td><td>4 + 体质调整值</td></tr></tbody></table><aside class=\"notable\"><h3>于 20 级后的额外专长</h3><p>DM 可以使用专长作为让在抵达 20 级后无法升级的角色变得更强的提升奖励。通过这种方式，每位角色会在获得 355,000 XP 后，每获得 30,000 XP 就获得一项自己选择的专长。传奇恩惠专长非常适合作为这些额外奖励专长，但玩家也可以为他们的 20 级角色选择任何合适的专长。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776329842616,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.iHbj5aJvc1T7i5YI"
+    },
+    {
+      "sort": 700000,
+      "name": "游戏阶段",
+      "type": "text",
+      "_id": "wkg7ZTl7O5iGTXrM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Tiers of Play</p><p>每获得一个新等级，角色都会获得新的能力，来强化他们以应对更强的挑战。当角色们等级提升时，游戏的风格会有所改变，冒险的回报也会相应提升。将角色（或战役）分为四个阶段，描述他们从刚刚开始冒险生涯的一级角色到成为 20 级的传奇英雄的过程，有助于塑造角色（和战役）的弧光 *。这些阶段没有相关的规则，它们只是表明，随着角色们升级，他们的经历也会随之变化。</p><section class=\"secret\" id=\"secret-IPqn3Tf6HM7N0VQj\"><p>* 译者注：弧光指的是角色在故事里经历的成长的考验和磨难，他的状态及品质逐渐发生了改变</p></section><h2>一阶段（1–4 级）</h2><p class=\"journal-original-h2\">Tier 1 (Level 1–4)</p><p>在 T1，角色们还是新手冒险者，虽然他们已经凭借自己出类拔萃的能力从平凡民众里崭露头角。在这个阶段，他们会掌握自己最初的职业特性并选择子职。他们面对的威胁通常也就是本地农舍或村庄附近的某个危机。</p><h2>二阶段（5–10 级）</h2><p class=\"journal-original-h2\">Tier 2 (Level 5–10)</p><p>在 T2，角色们已经成为了成熟的冒险者。施法者们获得了如<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PNhRzF6H22d3fUeB]{火球术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pRluZVjWUgDLqHOT]{闪电束}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZEX9RmEByJuYNy83]{死者复活}</em>这样的标志性法术。大多数专注于武器的职业也获得了能让他们一轮做出多次攻击的能力。角色们现在将面对那些危害着城市与王国的危机。</p><h2>三阶段（11–16 级）</h2><p class=\"journal-original-h2\">Tier 3 (Level 11–16)</p><p>在 T3，角色们已经触碰到了足以让他们从冒险者中脱颖而出的力量层次。在 11 级，许多施法者已经学会了能扭曲现实的法术。其他角色也获得了新的特性，能让他们进行更多次攻击或是在攻击的同时实现更多惊人之举。这些强大的冒险者面对的则是那些威胁整个区域乃至整个大陆的事物。</p><h2>四阶段（17–20 级）</h2><p class=\"journal-original-h2\">Tier 4 (Level 17–20)</p><p>在 T4，角色们达到其职业特性的巅峰，成为了英雄的典范。他们的冒险活动影响着世界的命运，乃至多元宇宙的秩序。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776330059067,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.wkg7ZTl7O5iGTXrM"
+    },
+    {
+      "sort": 700000,
+      "name": "从更高等级开始",
+      "type": "text",
+      "_id": "DE7Ff0cOkQgid3fG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Starting at Higher Levels</p><p>你的 DM 可能会让你们的队伍角色在高于 1 级的情况下开始冒险。当你的队伍由熟练的 D&amp;D 玩家组成时，非常推荐从 3 级开始进行冒险。</p><h2>创建你的角色</h2><p class=\"journal-original-h2\">Creating Your Character</p><p>创建高等级角色使用的规则和本章前文创建 1 级角色的步骤和“@UUID[.Vz5QcYKA74tWkDqy]{等级提升}”部分的规则相同。你起始时拥有升到起始等级所需的最小经验值。比如说，如果 DM 决定你们 10 级开始，你具有 64,000 XP。</p><h2>起始装备</h2><p class=\"journal-original-h2\">Starting Equipment</p><p>DM 决定你的角色是否在起始时拥有比 1 级角色标准更多的装备，甚至可能是一件或更多的魔法物品。高等级的起始装备表格是给 DM 的参考内容。</p><p>同样，向你的 DM 确认你的起始资金能购买的东西。比如，第 6 章中的火枪对 1 级角色过于昂贵，但如果 DM 允许的话，它也是能够购买的。</p><table><caption>高等级起始装备 Starting Equipment at Higher Levels</caption><thead><tr><th>起始等级</th><th>装备和资金</th><th>魔法物品</th></tr></thead><tbody><tr><td>2–4</td><td>正常起始装备</td><td>1 件普通</td></tr><tr><td>5–10</td><td>[[/award 1d10*25+500gp]]，外加正常起始装备</td><td>1 件普通，1 件非普通</td></tr><tr><td>11–16</td><td>[[/award 1d10*250+5000gp]]，外加正常起始装备</td><td>2 件普通，3 件非普通，1 件珍稀</td></tr><tr><td>17–20</td><td>[[/award 1d10*250+20000gp]]，外加正常起始装备</td><td>2 件普通，4 件非普通，3 件珍稀，1 件极珍稀</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776330192436,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.DE7Ff0cOkQgid3fG"
+    },
+    {
+      "sort": 700000,
+      "name": "兼职",
+      "type": "text",
+      "_id": "vcs4jfEKRxPCsgXm",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Multiclassing</p><p>兼职可以让你在复数职业中升级。在这个规则中，你可以在角色升级时，选择以提升新的职业等级代替提升当前职业等级。兼职的角色可以同时拥有不同职业的能力，以实现标准职业所无法完全表现的角色概念。</p><h2>先决条件</h2><p class=\"journal-original-h2\">Prerequisites</p><p>要满足新职业的兼职条件，你必须的新职业和你现在的职业对应的主属性值必须至少有 13 点。比如说，一个选择兼职德鲁伊职业的野蛮人必须有至少 13 点力量和 13 点感知，因为力量是野蛮人的主属性值，而感知是德鲁伊的主属性值。</p><h2>经验值</h2><p class=\"journal-original-h2\">Experience Points</p><p>如本章中的角色升级表所示，升级所需的经验值基于你角色的总等级，而非你所具有的某一项职业等级。比如说，如果你是一位 6 级牧师／1 级战士，你必须获得足够升到 8 级的经验值才能将战士升到 2 级或将牧师升到 7 级。</p><h2>生命值和生命值骰</h2><p class=\"journal-original-h2\">Hit Points and Hit Point Dice</p><p>你如同高于 1 级时一样获得新职业的生命值。你只有在作为 1 级角色时才能获得相应职业的“1 级生命值”。</p><p>你所有职业所对应的生命骰集合在一起，组成你的可用生命骰池。如果它们的类型一样，你就可以把他们汇聚在一起。比如说，战士和圣武士都是 d10，所以一名 5 级圣武士／5 级战士有十颗 d10 生命骰。如果你的职业给你不同的生命骰，则你要将它们分开计算。例如，5 级圣武士／5 级牧师有五颗 d8 生命骰和五颗 d10 生命骰。</p><h2>熟练加值</h2><p class=\"journal-original-h2\">Proficiency Bonus</p><p>你的熟练加值基于你角色的总等级，而非你所具有的某一项职业等级，如角色升级表所示。例如，如果你是一名 3 级战士／2 级游荡者，那你会有 5 级角色的熟练加值，也就是 + 3。</p><h2>熟练项</h2><p class=\"journal-original-h2\">Proficiencies</p><p>当你获得一个并非你起始职业的第一级时，你只会获得一部分该职业的起始熟练项，详见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.sCXjN6JzLcqhimHI]{第 3 章}中各个职业部分。</p><h2>职业特性</h2><p class=\"journal-original-h2\">Class Features</p><p>你获得一个新的职业等级时，你获得对应等级的特性。少数特殊的特性在兼职时有额外的规则。请查看在每个职业描述中的兼职相关信息。</p><p>特殊的特性包括额外攻击、施法和给你不同的护甲等级计算方式的特性（比如@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PyATdby3zodhsgKV]{无甲防御}）。</p><h3>护甲等级</h3><p class=\"journal-original-h3\">Armor Class</p><p>如果你有多种计算护甲等级的方式，你只能同时使用其中一种。比如说，一位武僧／术士具有武僧的无甲防御特性和术士的龙族体魄特性，则必须选择其中一种作为自己护甲等级的计算方式。</p><h3>额外攻击</h3><p class=\"journal-original-h3\">Extra Attack</p><p>如果你从一个以上职业中获得了额外攻击特性，该特性的效果不会叠加。你无法以该特性发动两次以上的攻击，除非你有专门提到让你能够做出更多攻击的特性（如战士的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KI17pSib7WdQ93YJ]{额外攻击}特性）。</p><p>同样，魔契师的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bNhtaFXgBNl1oIss]{饥渴魔刃}祈唤能让你在使用你的契约武器时进行额外攻击，也不会在你同样有额外攻击特性时再给你额外的攻击次数。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.rSPWZt1If4YqQSGR classes=\"right three blend-multiply\" cite=false]</p><h3>施法</h3><p class=\"journal-original-h3\">Spellcasting</p><p>你施法的能力部分基于你的所有施法职业的总等级，亦有部分基于你个别施法职业的等级。当你从多种职业获得施法能力时，请使用以下规则。如果你只从某一兼职职业中获得施法特性，则只需遵从该职业的相关规则。</p><p><em><strong>法术准备。</strong></em>你为每个职业单独决定你准备的法术，即如同作为该职业的专职角色一样。例如，作为一名 4 级游侠／3 级术士角色，你可以准备五个 1 环游侠法术。同时，你还可以准备六个 1 环或 2 环的术士法术（还有四个术士戏法）。</p><p>你准备的每一个法术都只跟与其对应的职业相关联，而你只能以特定职业的施法属性施展相应的法术。</p><p><em><strong>戏法。</strong></em>如果你的某个戏法因等级提高而提升威力，除非该法术另有说明，其提升的程度基于你的角色等级而非某特定职业的等级。</p><p><em><strong>法术位。</strong></em>你将以下规则累加以决定你可用的法术位：</p><ul><li>你所有的吟游诗人、牧师、德鲁伊、术士和法师职业等级</li><li>你的圣武士和游侠等级的一半（向上取整）</li><li>如果你有奥法骑士和诡术师子职，你的战士和游荡者等级的三分之一（向下取整）</li></ul><p>然后将这样加起来的总等级对应兼职施法者表格中的等级一列。你拥有表中对应等级的法术位，能够用来施展来自任何你具有的职业的施法特性的法术。</p><p>表格可能会给你高于你准备的法术环阶的法术位，你能够使用这些法术位，但只能用来施展低环法术。如果你施展的低环法术在升环施展时具有强化效应（比如法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyLQcp3ZE9B3Npt4]{燃烧之手}</em>），你也可以在这种情况下照常达成这些强化效应。</p><p>比如说，如果你是一位 4 级游侠／3 级术士，在计算法术位时，将你的术士等级与游侠等级的一半相加，算作一位 5 级角色。如兼职施法者表格所示，你有四个 1 环法术位，三个 2 环法术位和两个 3 环法术位。但是，你无法准备任何 3 环法术，也不能准备 2 环游侠法术。你可以使用这些法术位来施展你所准备的法术，还能使用它们潜在的增强效果。</p><p><em><strong>契约魔法。</strong></em>如果你具有魔契师职业的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.aw9zZzq9OrA6vrEX]{契约魔法}特性和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUMC9UfgpPuv4wkn]{施法}特性，你能够使用来自契约魔法特性的法术位来施展你通过从拥有施法特性的职业所准备的法术，并且你也可以使用来自施法特性的法术位施展你准备的魔契师法术。</p><table><caption><p>兼职施法者 Multiclass Spellcaster：<br />每环阶的法术位 Spell Slots per Spell Level</p></caption><thead><tr><th>等级</th><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th><th>6 环</th><th>7 环</th><th>8 环</th><th>9 环</th></tr></thead><tbody style=\"text-align:center\"><tr><td>1</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>2</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>4</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>5</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>6</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>7</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>8</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>9</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>12</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>—</td><td>—</td><td>—</td></tr><tr><td>13</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>14</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>—</td><td>—</td></tr><tr><td>15</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>16</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>—</td></tr><tr><td>17</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>1</td><td>1</td><td>1</td><td>1</td></tr><tr><td>19</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>1</td><td>1</td><td>1</td></tr><tr><td>20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776330219990,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.vcs4jfEKRxPCsgXm"
+    },
+    {
+      "sort": 700000,
+      "name": "饰品",
+      "type": "text",
+      "_id": "2nJWForKrOIXzELQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Trinkets</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.V7dqG3wmn1ZU1Q6C inline]</p><p>在创作角色时，你可以根据饰品表掷骰来获得一件小饰品——一件带点神秘色彩的简单物品。DM 有时候也会用到本表格，比如用来点缀地下城的房间，或者用来装满某个生物的口袋。</p><div style=\"column-count:2\"><p class=\"table-caption\">饰品 Trinkets</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.WMBgtO8ZezWZiOTl rollable inline]</p></div><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.SheJSilJMsPT8Ye0.JournalEntryPage.YmXFN6XmWeSZQB04 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9WJhm6SgDkYE0UmP": 3,
+        "rL0ykqNFC97PcTW6": 3,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1730185952213,
+        "modifiedTime": 1776334004146,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pHMEDq6JZOxYAm4U.2nJWForKrOIXzELQ"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 3,
+      "title": "第二章：创建角色",
+      "navigation": {
+        "previous": "k7HhEjwYRJoZmKIa",
+        "next": "sCXjN6JzLcqhimHI"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1727590937041,
+    "modifiedTime": 1776329298232,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "pHMEDq6JZOxYAm4U",
+  "sort": 100000,
+  "categories": [],
+  "_key": "!journal!pHMEDq6JZOxYAm4U"
+}

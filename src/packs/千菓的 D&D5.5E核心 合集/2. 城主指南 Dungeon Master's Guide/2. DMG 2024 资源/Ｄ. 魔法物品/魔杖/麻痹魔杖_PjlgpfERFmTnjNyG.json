@@ -1,0 +1,220 @@
+{
+  "name": "麻痹魔杖",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WAND_wand-of-paralysis.webp",
+  "system": {
+    "activities": {
+      "kw2eG7mLPvYnpmTv": {
+        "type": "save",
+        "_id": "kw2eG7mLPvYnpmTv",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "wh6OPh31kkDa6cCW",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "15"
+          }
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d6 + 1"
+        }
+      ],
+      "max": "7"
+    },
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m5sVvygLw8QzMyh5]{魔杖}，珍稀（需施法者同调）</em></p><p>这根魔杖具有 7 充能。持握它时，你可以执行&amp;Reference[Magic]{魔法}动作并消耗 1 充能，从魔杖尖端向位于你 60 尺内的一个你可见的生物射出一发纤细的蓝色光线。目标必须成功通过一次[[/save format=long]]，否则将陷入&amp;Reference[Paralyzed]{麻痹}状态 1 分钟。目标在其每回合结束时可以重新进行该豁免，豁免成功则终止其身上的该效应。</p><p><em><strong>重获充能。</strong></em>这根魔杖在每日黎明时重获 1d6 + 1 已消耗的充能。当充能数耗尽时，骰[[/r 1d20]]。如果骰值为 1，魔杖将化作灰烬并被摧毁。</p><p class=\"item-original\">Wand of Paralysis</p>",
+      "chat": ""
+    },
+    "identifier": "wand-of-paralysis",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wand",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "瘫痪",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_physical.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.PjlgpfERFmTnjNyG",
+      "transfer": false,
+      "_id": "wh6OPh31kkDa6cCW",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[Paralyzed]{麻痹}状态。</p><p>在每个你的回合结束时，你可以进行一次[[/save con 15 format=long]]，豁免成功则该效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "paralyzed"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759901340435,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!PjlgpfERFmTnjNyG.wh6OPh31kkDa6cCW"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756796899956,
+    "modifiedTime": 1758464916536,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "PjlgpfERFmTnjNyG",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!PjlgpfERFmTnjNyG"
+}

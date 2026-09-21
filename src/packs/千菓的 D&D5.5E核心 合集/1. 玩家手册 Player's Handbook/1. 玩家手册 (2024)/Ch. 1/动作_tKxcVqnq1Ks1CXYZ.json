@@ -1,0 +1,207 @@
+{
+  "name": "动作",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "nLHvph6iAlDVom9f",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>当你进行除移动或交流以外的行动时，你通常需要执行一个动作。下方的动作列表列出了游戏中主要的动作选项，其具体细节详见术语汇编。</p><table><caption>动作 Actions</caption><thead><tr><th>动作</th><th>概述</th></tr></thead><tbody><tr><td>&amp;Reference[Attack]{攻击 Attack}</td><td>使用武器发动攻击或发动徒手打击。</td></tr><tr><td>&amp;Reference[Dash]{疾走 Dash}</td><td>在回合余下的时间里，给予自己等同于自身速度的额外移动力。</td></tr><tr><td>&amp;Reference[Disengage]{撤离 Disengage}</td><td>在回合余下的时间里，你的移动不会引发借机攻击。</td></tr><tr><td>&amp;Reference[Dodge]{回避 Dodge}</td><td>直至你的下个回合开始，对你进行的攻击检定具有劣势，并且你进行的敏捷豁免检定获得优势。你会在陷入失能状态或速度为 0 时失去这些增益。</td></tr><tr><td>&amp;Reference[Help]{协助 Help}</td><td>协助另一个生物进行属性或攻击检定，或进行急救。</td></tr><tr><td>&amp;Reference[Hide]{躲藏 Hide}</td><td>进行一次敏捷（隐匿）检定。</td></tr><tr><td>&amp;Reference[Influence]{影响 Influence}</td><td>通过魅力（欺瞒、威吓、表演或说服）检定，或是感知（驯兽）检定来改变一个生物的态度。</td></tr><tr><td>&amp;Reference[Magic]{魔法 Magic}</td><td>施展一道法术、使用一个魔法物品或是使用一个魔法特性。</td></tr><tr><td>&amp;Reference[Ready]{预备 Ready}</td><td>做好执行某个动作的准备，该动作的触发时机或情况由你决定。</td></tr><tr><td>&amp;Reference[Search]{搜索 Search}</td><td>进行一次感知（洞悉、医药、察觉或求生）检定。</td></tr><tr><td>&amp;Reference[Study]{研究 Study}</td><td>进行一次智力（奥秘、历史、调查、自然或宗教）检定。</td></tr><tr><td>&amp;Reference[Utilize]{操作 Utilize}</td><td>使用一个非魔法物件。</td></tr></tbody></table><p>玩家角色和怪物也可以进行除这些动作以外的事情。有很多职业特性和其他能力都会提供额外的动作选项，此外你也可以即兴做其他动作。当你描述一项规则中没有的动作时，地下城主会告诉你这个动作是否可行，以及你是否需要进行某些特定的&amp;Reference[D20 Test]{D20 检定}。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776325302627,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tKxcVqnq1Ks1CXYZ.nLHvph6iAlDVom9f"
+    },
+    {
+      "sort": 200000,
+      "name": "一次一件事",
+      "type": "text",
+      "_id": "69IzOHUyHlEqHA48",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">One Thing at a Time</p><p>这个游戏通过动作来衡量你同一时间内能做多少事情。你一次只能执行一个动作。这条准则在战斗中尤为重要，本章稍后些的“@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.l1pw74allEfZFTaY]{战斗}”部分会详细解释。</p><p>当然，动作也会发生在除战斗以外的情况，例如：社交互动时，你可以通过&amp;Reference[Influence]{影响}动作来影响一个生物，或是通过&amp;Reference[Search]{搜索}动作来判断生物的肢体语言，但你不能同时进行这两个行为。或是当你探索地城时，你也不能同时一边使用&amp;Reference[Search]{搜索}动作来寻找陷阱、一边使用&amp;Reference[Help]{协助}动作来帮助另一个（正在使用&amp;Reference[Utilize]{操作}动作的）角色尝试打开卡住的门。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776325318557,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tKxcVqnq1Ks1CXYZ.69IzOHUyHlEqHA48"
+    },
+    {
+      "sort": 400000,
+      "name": "反应",
+      "type": "text",
+      "_id": "v1hdTakUKmhnSBUv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Reactions</p><p>某些特定的能力、法术或情况允许你执行一种特别的动作，这种动作被称为“&amp;Reference[Reaction]{反应}”。反应是对某种触发条件的及时响应，它既可能在你的回合中发生，也可能在其他人的回合中出现。例如在本章稍后的部分所描述的“&amp;Reference[Opportunity Attacks]{借机攻击}”就是一种最常见的反应项。</p><p>当你执行了一次反应后，你在直至你的下个回合开始前都不能再次执行反应。如果该反应发生在另一个生物的回合中，那么该生物可以在你执行的反应结束后立刻继续自己的回合。</p><p>执行反应的时点在反应的触发条件满足后立刻发生，除非该反应项的文本另有说明。</p><aside class=\"notable\"><h3>你的角色会做什么？</h3><p>在你游玩的过程中，不妨问问自己：“我的角色应该做些什么？”，扮演一个角色需要设身处地地代入角色、理解角色各个行为背后的驱动力，以及搞清这些角色动机该如何转化为行动。在 D&amp;D 中，一切都发生在仅存于幻象中的奇幻世界，试想一下你的角色在面对这些情况时，又会做出怎样的反应？</p><p>关于这条建议，有一个重点你需要注意：避免让角色做出会摧毁其他玩家与 DM 的乐趣的决定。践行那些能够令你和你的朋友感到愉快的抉择吧。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776325349688,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tKxcVqnq1Ks1CXYZ.v1hdTakUKmhnSBUv"
+    },
+    {
+      "sort": 300000,
+      "name": "附赠动作",
+      "type": "text",
+      "_id": "znz3n8BHERTkntdK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Bonus Actions</p><p>有很多职业特性、法术或其他能力允许你在你的回合中执行一种额外的动作，这种动作叫做&amp;Reference[Bonus Action]{附赠动作}。例如，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gArcoPuL61gzMOLI]{灵巧动作}特性就能够让游荡者执行附赠动作。只有在某个特殊能力、法术或游戏中其他明确了你能以附赠动作来做某事的特性的允许下，你才能执行附赠动作。否则，你没有可以执行的附赠动作。</p><p>你只能在自己的回合执行一次附赠动作，因此在你拥有多个可执行的附赠动作时，你必须选择你要执行哪一个。</p><p>除非该附赠动作项的发生时点有明确规定，否则你可以自行选择在你的回合内何时执行附赠动作。任何能够让你无法执行动作的效应，都会同样使你无法执行附赠动作。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776325330841,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!tKxcVqnq1Ks1CXYZ.znz3n8BHERTkntdK"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 2,
+      "order": 400200,
+      "navigation": {
+        "previous": "kRiblP7qNpfu3hLR",
+        "next": "8MCZGEL3lF3DSjJb"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727590893427,
+    "modifiedTime": 1776325298789,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "tKxcVqnq1Ks1CXYZ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!tKxcVqnq1Ks1CXYZ"
+}

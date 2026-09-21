@@ -1,0 +1,386 @@
+{
+  "name": "波涛",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WPN_wave.webp",
+  "system": {
+    "activities": {
+      "ijWMv2YMjaG0cepK": {
+        "_id": "ijWMv2YMjaG0cepK",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": "21[necrotic]"
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": ""
+      },
+      "UDG9a7Y7rJJhkEuz": {
+        "type": "cast",
+        "_id": "UDG9a7Y7rJJhkEuz",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "命令水栖"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": 4,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jKpkUfkgThZ3IQ8B",
+          "ability": ""
+        },
+        "name": "命令水栖"
+      },
+      "MpwiFHilBQtMddtR": {
+        "type": "cast",
+        "_id": "MpwiFHilBQtMddtR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 9,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wWx2uIrrRNksWsJi",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d3"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>武器（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ivJmL2nAr1KWOPQf]{三叉戟}），神器（需同调）</em></p><section class=\"item-quote\"><p>波涛藏在白羽山的地下城中，这把精致的三叉戟上面雕有波浪、贝壳和海洋生物的图案。</p></section><p>你用此魔法武器进行的攻击检定和伤害掷骰获得 +3 加值。当你在以此武器进行的攻击检定的 d20 中掷出 20 时，目标额外受到 21 暗蚀伤害。</p><p>持用<em>波涛</em>期间，你获得以下增益：</p><p><strong>枕戈待命。</strong>你投掷先攻时具有优势。</p><p><strong>水下适性。</strong>你身处水下期间，一个空气泡泡环绕着你的脑袋，令你可以在该环境下如常呼吸。</p><details><summary><em><strong>命令水栖。</strong></em></summary><p><em>波涛</em>具有 3 充能并在每日黎明时重获 1d3 充能，当你携带<em>波涛</em>时，你可以消耗 1 充能，对一只具有游泳速度的野兽施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jKpkUfkgThZ3IQ8B]{支配野兽}</em>（豁免 DC 20）。</p></details><details><summary><em><strong>法术无效结界。</strong></em></summary><p>持握<em>波涛</em>时，你可以从中施展 9 环版本的<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wWx2uIrrRNksWsJi]{法术无效结界}</em>。该词条一经使用，直至次日黎明你都无法再次使用。</p></details><details><summary><em><strong>智能。</strong></em></summary><p><em>波涛</em>是一把具有绝对中立阵营的智能武器，其智力 14，感知 10，魅力 18。它具有 120 尺听觉及 120 尺黑暗视觉。波涛与其持用者通过心灵感应交流，波涛也会说水族语。</p></details><details><summary><em><strong>个性。</strong></em></summary><p><em>波涛</em>热衷于劝诫凡人信仰海神，并有哼唱船歌的习惯。如果其持用者没有将波涛的目标传遍世界，波涛将进行反噬。</p></details><details><summary><em><strong>摧毁波涛。</strong></em></summary><p><em>波涛</em>只会在雷铸岛——其被锻造出来的地方——被摧毁。<em>波涛</em>只能由风暴巨人或拥有着风暴巨人力量之人亲手熔化。摧毁<em>波涛</em>将激怒一位海神，其将派遣强大的使徒们攻打小岛并惩罚其摧毁之人。</p></details><p class=\"item-original\">Wave</p>",
+      "chat": ""
+    },
+    "identifier": "wave",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 4,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "martialM",
+      "baseItem": "trident"
+    },
+    "ammunition": {},
+    "armor": {
+      "value": null
+    },
+    "damage": {
+      "base": {
+        "number": 1,
+        "denomination": 8,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "ver",
+      "mgc",
+      "thr"
+    ],
+    "proficient": null,
+    "range": {
+      "value": 20,
+      "long": 60,
+      "reach": 5,
+      "units": "ft"
+    },
+    "mastery": "topple"
+  },
+  "effects": [
+    {
+      "name": "枕戈待命",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_warning.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.c8bJdRdteeiYGHnl",
+      "_id": "jz9uodG3RcFIjvbY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "flags.dnd5e.initiativeAdv",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496884,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!c8bJdRdteeiYGHnl.jz9uodG3RcFIjvbY"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752762648229,
+    "modifiedTime": 1758199223046,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "c8bJdRdteeiYGHnl",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!c8bJdRdteeiYGHnl"
+}

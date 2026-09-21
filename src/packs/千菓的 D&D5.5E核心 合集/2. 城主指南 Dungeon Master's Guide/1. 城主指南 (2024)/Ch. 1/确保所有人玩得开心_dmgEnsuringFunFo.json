@@ -1,0 +1,246 @@
+{
+  "_id": "dmgEnsuringFunFo",
+  "name": "确保所有人玩得开心",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "相互尊重",
+      "type": "text",
+      "_id": "4lDNRk5n5HMopbPT",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Mutual Respect</p><p>无论你是在给亲友还是给陌生人开团，奠定彼此间的信任都十分重要。要知道，最好的团是要在一桌人都能有足够的安全感来展现个性、畅所欲言、代入角色时才能跑出来的。</p><p>所有人都应当坚守“尊重”这一原则。如果有人违反了这一点，那通常就得由 DM 出面解决。但这并不绝对——如果一个玩家的行为影响到了其他所有人的兴致，那所有人都该帮 DM 解决这一问题。</p><h2>建立预期</h2><p class=\"journal-original-h2\">Setting Expectations</p><p>在为你的桌找人之前，你需要为你想拉过来的玩家描述你想开的团——写出这个虚幻世界中可能发生的冲突、这个设定总体基调、还有你想探寻的游戏主题。（本章前述的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTheBasics0000.JournalEntryPage.di6PPvo499vRq1NT]{每个 DM 都是独一无二}的”一节能助你向他人描述自己的团。）</p><p>当玩家们想象自己能车什么样的角色时，你可以告诉玩家他们能期待什么样的内容，并询问玩家们，他们对游戏中可能出现的哪些要素的可以接受的，哪些又是应当避免的。讨论这些内容不需要透露你故事中的剧情与转折，但你应当告知你想在团内探讨的主题、分享你受到了哪些故事的启发、还有你对哪种@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi.JournalEntryPage.POSq3DLFFBnQJF9E]{奇幻风格}更感兴趣（在第 5 章中对此有概述）——你得在开团前让玩家明白这是不是他们想跑的团。</p><p>明确你自己的游戏预期，同时确保自己理解玩家的游戏预期，可以帮助你更流畅地主持游戏。慎重对待你的玩家的意见和期待，并让玩家在对待你的意见和期待时同样慎重。理想情况下，你会找到一种适合所有人的游玩风格。</p><h2>硬底线与软底线</h2><p class=\"journal-original-h2\">Hard and Soft Limits</p><aside class=\"notable float-right size-three\"><h3>使用游戏预期卡</h3><p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTrackingSheet]{游戏预期跟进卡}是用来在游戏开始时确立预期，以确保每个人都能玩得开心的工具。</p><p>在给玩家们发卡之前，请你填写顶部的这两栏：</p><p><strong>游戏主题与风格。</strong>在本栏，大致描述一下你对游戏内容设想的方向。见“建立预期”一节获取其中包含的各种信息。</p><p><strong>潜在敏感元素。</strong>如果你知道游戏中的一些元素可能会触碰到玩家的底线，就在本栏中将它们列出来。见“硬底线与软底线”一节获取例子。</p><p>填好上述信息后请把卡的复印件发给每位玩家。玩家填卡时可以选择匿名，但以下信息不该省略：</p><p><strong>底线。</strong>使用叉号作为硬底线并用问号作为软底线，以此标明哪些元素是可能会导致问题的潜在敏感元素、又有哪些元素根本不应加入。</p><p><strong>希望，预期和担忧。</strong>填写者需要在最后两个栏里分享自己对游戏任何的希望和预期，并且列出对本团表现的担忧。</p><p>收集全部的卡，并将玩家们的底线汇总成一份全团人都可查看的独立匿名文档。</p></aside><p>除了战役的主题与奇幻风格，询问玩家对方有哪些觉得敏感或不舒服的内容也很重要。进行此类讨论时可以划分软硬两种底线：</p><ul><li>软底线代表那些应慎重使用的内容，它们可能会导致无法接受的焦虑、恐惧或难过。</li><li>硬底线则是那些根本不该提及或描述的内容。</li></ul><p>DM 和玩家都可能会有其他人没能意识到的恐惧症或诱因。任何让大家感到不安全感（硬底线）的游戏内主题和内容都应该避免。如果某个主题或内容让一个或多个玩家感到焦虑，但是他们同意将其加入游戏中（软底线），请保持慎重，并做好随时将这些内容移除的准备。</p><p>通常来说，游戏内的底线用于例如角色间的恋爱、性爱、压迫操控、种族主义、奴役以及对未成年人和动物的暴力之类的内容。底线也可以用于具体的生物，例如蜘蛛、蛇、老鼠和恶魔。谈论“什么样的灾厄可能会降临到角色的头上”这样的底线同样十分重要，例如精神控制类魔法、无助感、还有死亡。</p><p>尽管上边说了那么多，D&amp;D 还是一个包含有虚拟冲突和混乱的游戏。游戏中必然具有的核心元素是难以抛掉的。例如，受到伤害并不是一个能轻易解决的底线。类似的，角色死亡有时也是无法阻止的事，不过在游戏中仍有许多办法去消除或避免它（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.jIrLPq7Lh3yA6Ezh]{死亡}”一节获取建议）。</p><p><em><strong>交流底线。</strong></em>讨论底线时请确保你所用的方式不会让对方感到不适。玩家们可能并不愿意公开讨论自己的底线，尤其对于那些角色扮演游戏的新手，以及跟团里其他人并不熟悉的玩家而言。匿名分享底线可以缓解这种不适感——通过匿名调查来收集玩家们的底线，例如使用本章中的游戏预期跟进卡。</p><p>将底线汇总成一份团内共享的列表。底线不容商议，团内的所有人都要尊重这些底线。</p><p>这类问题最好在战役开始时讨论，但如果有新玩家入队，或是战役的故事或风格发生转变时，亦需要进行进一步的讨论。有些人可能无意间触及到了某个底线，此时需要进行提醒；另一些人则可能是在游玩过程中才发觉某些内容是自己的底线——即使战役开始前早就讨论过这类内容。同样的，随着战役的展开，玩家们说不定也会发觉新的底线。DM 最好每隔几回团就确认一下：有没有人感觉自己可能对游戏的发展感到不适？如果有，就按需更新团内底线。</p><p><em><strong>改变底线。</strong></em>不管是私下询问还是当面提出，你都应该鼓励玩家及时补充或提出新的底线，并将其添加到列表之中。请相信玩家们最懂自己的需求，并据此来更新游戏。</p><p><em><strong>游玩中的底线。</strong></em>D&amp;D 是即兴的，所以游戏中可能会出现出乎意料的走向。为了避免触及底线造成恶劣影响，玩家们可以使用一种公认的特定标识来表明“当前的内容突破了底线”。这能够让你迅速调整。这个标识可以是某种姿势（例如交叉胳膊形成“X”形，或举起手比出“停止”的姿势），一串密语或词，身体接触或是举起一个专用的物品，又或是其他你团队中所有人认可的方式。其它玩家们也不应质疑有人提出“停止”，并停止游戏，直到问题得以解决。使用停止标识的玩家可以评论他认为需要调整的内容，但无需解释为什么自己对这些内容有异议。停止标识不应引起争议或讨论：请感谢玩家们如实表达自己的需求。此后你需要正确重设场景，继续游戏。</p><p>你应当让玩家们清楚知晓：如果有人不愿使用停止标识，那他也可以选择离开游戏，或申请游戏暂停，并与你私下谈谈。玩家还可能会让自己的朋友代为使用标识。作为 DM，你要以身作则：严肃对待玩家们的需求，使用一切可用的工具来调整故事的走向。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh1ArtHandout.JournalEntryPage.uIGVePEtg5fYEoiB cite=false]</p><h2>团内矛盾</h2><p class=\"journal-original-h2\">Intra-party Conflict</p><p>当冒险队伍中的玩家或冒险者之间发生了冲突，通常预示着以下三种情况：</p><p><strong>搞破坏的玩家。</strong>一名玩家在游戏中表现出了反社会行为。“@UUID[.yBdkX7XGvlRVcyya#反社会行为]{反社会行为}”一节包含了如何处理这种情况。</p><p><strong>玩家冲突。</strong>角色间的冲突有时是玩家间冲突的表象。这些冲突最好在远离游戏桌的地方解决。请鼓励玩家们在游戏之外解决他们之间的的冲突。如果桌内的冲突持续升温，你可能需要让他们暂时离开战役，甚至直接离开游戏。</p><p><strong>角色扮演。</strong>角色间的冲突并不总是不好的。例如：该怎么处置俘虏的敌人、或是该在即将到来的战争中支持哪方势力——角色（和玩家）对于这样的问题上产生异议是完全正常且可行的。不过如果异议发展得太过火了，请暂停游戏，跳出角色的视角，讨论玩家们想要如何进行。</p><p>如果你无法辨识角色或玩家们是因上述哪种情况而冲突，请和他们谈一谈。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776530470016,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgEnsuringFunFo.4lDNRk5n5HMopbPT"
+    },
+    {
+      "sort": 200000,
+      "name": "尊重玩家",
+      "type": "text",
+      "_id": "5NXvjb1HLEYfUSf0",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Respect for the Players</p><p>你的玩家们在游戏开始之时应当知晓，你运作的游戏会是一场有趣、公平且适度的游戏。你会允许他们为这个故事添砖加瓦、在他们的回合时给予关注。你的玩家也应该相信，冒险中的危险绝不会为了针对某个人而刻意设置——千万不要让你的玩家感到难受或被威胁。</p><h2>分享高光时刻</h2><p class=\"journal-original-h2\">Sharing the Spotlight</p><p>作为 DM，不要偏心。不要让一名玩家进行所有的对话，并确保你回应了每名玩家正在做的事情，尤其是在探索和社交的时候——而不是仅关注某名特定玩家的角色。</p><p>有些时候你会遇到一些玩家，他们告诉其他人对方的角色应该怎么做、把最好的魔法物品夺给自己、欺负其他玩家、独占所有高光时刻。你需要在游戏外指出，这名玩家的行为正在破坏其他人的乐趣，并让这名玩家少出点风头。如果他仍然拒绝改变，那就把他踢掉。</p><p>一些问题发生在某些玩家认为自己的游玩风格比其他玩家更好的时候，他们会失去为其他玩家而准备的遭遇战的耐心。提醒这些不耐烦的玩家（也许是在游戏之外）你们是一个队伍，而非一人。</p><aside class=\"notable float-right size-three\"><h3>你确定吗？</h3><p>玩家们能撤销他们刚才宣言的角色的行为吗？一些 DM 的说辞强硬：“你说了什么，角色就做了什么。”这样强硬的说辞会让玩家们更小心于自己说了什么，从而抑制了幽默的气氛。</p><p>另一些 DM 则允许玩家们随意改动想法。这能够创造更加轻松舒适的情绪，减慢游戏的节奏。</p><p>一种妥协的办法便是：让玩家们在知晓自己行为造成的结果前，能够随意撤回并修改角色的行动。而一旦你描述了行动导致的结果，玩家们就不能再这么做了。</p></aside><h2>悲剧的底线</h2><p class=\"journal-original-h2\">Tragic Limits</p><p>一些玩家不愿将自己沉浸于游戏世界中，因为他们不想忍受眼见自己所关心的地方与人们遭到威胁与破坏的痛苦。另一些玩家乐此不疲地创造一个详细且充满了友爱 NPC 的背景故事——并满怀期待地希望 DM 用这些人当作诱饵、悲剧的受害者、甚至是出乎意料的反派。因此，了解玩家的喜好非常重要，这样你就不会因破坏玩家所喜欢的情节而被他们疏远，也不会因把他们的背景故事与战役割裂开而让玩家们感到厌烦了。</p><p>当你让反派威胁玩家所深爱的人或地时，请确保给玩家阻止最坏情况发生的机会。在游戏中，角色们应该有机会通过英雄般的方式去减轻甚至免受损失——对于这些重要之物而言，悲剧只应是角色的行为与决策造就的后果，而不该是无法改变的定局。那些无可挽回的悲剧还是留在角色背景里最好。</p><h2>DM 掷骰</h2><p class=\"journal-original-h2\">DM Die Rolling</p><p>你喜欢在 DM 帷幕后面暗骰，还是更喜欢坦诚布公让所有玩家着看你丢骰子？选哪种都是可以的，但你应当坚持下去。每一种方式都有好处：</p><p><strong>暗骰。</strong>暗骰能让玩家们感到神秘，还让你可以偷偷把骰出目替换成你想要的果。例如，你可以忽略掉一次重击，来救下来一个角色。不要经常改掷骰结果，也千万不要让玩家们知道你在捏造掷骰结果。</p><p><strong>明骰。</strong>坦诚布公地掷骰能够显示出公平性——你不会因角色的利弊而捏造掷骰结果。</p><p>即使你通常在帷幕后投骰子，偶尔在大家面前投某些骰子也是极具节目效果的。</p><h2>过于谨慎的玩家</h2><p class=\"journal-original-h2\">Overly Cautious Players</p><p>过于谨慎的玩家可能会为了找出陷阱和其他隐藏的危险，而检查地下城的每一块石板、每一道门、每一面墙，从而拖慢游戏的进度。有时候，这种行为是在过往的冒险中经历过太多的不愉快与意外，以此形成的条件反射；而另一些时候，这不过是玩家性格的一种表现。</p><p>你可以使用下列游戏内手段来鼓励玩家们大胆行动：</p><p><strong>避免随机危险。</strong>在接下来的冒险中去除让人感到随机感和不重要的陷阱与埋伏。</p><p><strong>创造时间压力。</strong>设置玩家们需要为了某个目标或目的争分夺秒的情景。（使用这个手段需要谨慎，因为时间压力会加剧玩家们的焦虑。）</p><p><strong>预示遭遇。</strong>给玩家们一场遭遇正在迫近的事先警告。也许他们听到了巨人沉重的脚步声，或是在不得不面对前看到龙在头顶飞过。这样做可以鼓励玩家们靠近或远离这些遭遇，而不是焦虑地防范着袭击。</p><p>如果这些游戏内的手段不能达到预期效果，那就在团外与你的玩家谈一谈哪些游戏元素让他们以这样过于谨慎的方式游玩游戏。之后，把这些要素从游戏中移除吧——只有能进行下去的游戏才能带来好的体验。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776530536342,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgEnsuringFunFo.5NXvjb1HLEYfUSf0"
+    },
+    {
+      "sort": 300000,
+      "name": "尊重 DM",
+      "type": "text",
+      "_id": "yBdkX7XGvlRVcyya",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Respect for the DM</p><p>作为 DM，你有权让玩家尊重你——尊重你为了每个人都有一场愉快的游戏所做出的努力。玩家们需要让你来引导这场战役（在他们的参与下），仲裁规则，解决争议。在你叙述游戏的进程时，玩家们应当集中注意力。</p><h2>玩家掷骰</h2><p class=\"journal-original-h2\">Player Die Rolling</p><p>玩家们应当在所有人的注视下投骰子。如果一名玩家在其他任何人看到掷骰结果前拿起了骰子，请委婉地劝他不要这样做。</p><p>当骰子掉到地上，你会让它的结果算数还是重投？当骰子斜着卡在书上，你会把书拿开然后查看它在哪里落地，还是重投？与你的玩家共同讨论这些问题的回答，并把答案作为房规记录下来。</p><h2>冒险的社会契约</h2><p class=\"journal-original-h2\">The Social Contract of Adventures</p><p>你必须提供充分有力的原因，来让玩家们的角色游玩你准备的冒险。（见第 4 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDrawInThePlay]{引导玩家}”一节获取关于此内容的建议。）作为回应，玩家们应该紧跟那些将他们导入冒险中的引子。有时玩家会表示反对，表示他们的角色应该想要做他们想让角色做的事情，这没问题；但如果他们故意背道而驰，让你为冒险准备的努力付之东流，这就有问题了。</p><p>如果你觉得你遵守了你的承诺，但是玩家们没有遵守，那么离开游戏桌与他们谈一谈。请试着弄清楚什么样的引子才能成为角色的动机，并确保玩家们理解你为备团所做的付出。</p><h2>规则讨论</h2><p class=\"journal-original-h2\">Rules Discussions</p><p>你需要制定一项关于在桌上讨论规则的原则。一些桌并不介意为了争辩某个规则的判法而暂停游戏；而另一些桌在这种时候也许会让 DM 拍板决定，然后继续游戏。你也可以将游玩过程中遇到的问题记下来，并暂时忽略它，等到大家有足够时间讨论的时候再解决这一问题。</p><p>一些玩家喜欢使用规则跟你律。此类玩家有助于在你卡住或出现常见错判时给出正确意见，但需要注意的是这些经常律规则的玩家通常会干扰游戏的运作。</p><p>如果一名玩家想要暂停游戏去寻找某个规则或参考，你可以让那名玩家自己找一会，并和剩下的玩家继续游戏。那名玩家的角色本质上脱离了游戏，直到玩家本人回归。怪物不会攻击那名角色，而那名角亦色会在战斗中执行&amp;Reference[Dodge]{回避}动作直到玩家本人回归。这种做法能让其他的玩家得以继续游戏，而不是因想要律规则的玩家而使游戏暂停。</p><h2>角色的学识</h2><p class=\"journal-original-h2\">Character Knowledge</p><p>请鼓励玩家们在角色的学识和认知内扮演角色。你可以通过简单询问玩家，“你的<em>角色</em>是怎么想的？”来明确玩家和角色的知识储备区别。</p><p>时代错节的想法是另一个潜在的隐患。你可能需要提醒玩家们，他们的角色不知道如何制造游戏世界中不存在的东西，例如现代火器和抗生素，并且他们也没有玩家们关于现代科学的知识（可能在游戏世界的宇宙中不适用）。</p><p>类似的，有时候玩家对你正在运作着的这个出版物中的冒险十分熟悉，或是对<em>《怪物图鉴》</em>了如指掌。鼓励玩家们把这些知识与角色的知识分隔开来，让其他玩家在游戏中逐步发掘这些知识。</p><h2>反社会行为</h2><p class=\"journal-original-h2\">Antisocial Behavior</p><p>人们通常游玩 D&amp;D 是因为，这个游戏让他们通过自己的角色，做一些现实生活中做不了的事情——打怪，施法，等等如此的事情。然而，对于一些玩家，这意味着在小镇上制造大破坏，或是背叛他们的阵营——他们想要在游戏中做的事情不是英雄般的冒险，而是用游戏来表演出一些反社会性质的幻想。</p><p>如果此类行为进入了你的游戏中，可能就到了针对你所想游玩的游戏种类，重新进行一次大讨论的时候了。如果只是一名玩家造成了麻烦，只需要对那名玩家发出最后通牒：失控的玩家如果还想在这一桌继续游玩，那就必须得停止造成破坏，之后像队伍的一份子一样游玩游戏。不要让玩家用“这就是我的角色会干的事情。”作借口来对其他玩家干出见鬼的事情。</p><p><em><strong>邪恶角色。</strong></em>想要扮演邪恶角色的玩家可能会想要在游戏中干出反社会的行为。如果玩家向你要游玩邪恶角色的许可，或带着已经做出了这样的事的卡来跑你的团，跟这名玩家谈一谈他们的想法，来确保他们的想法符合一桌人对你游戏的预期。有些时候玩家想要探索去扮演一个邪恶角色是出于好的理由（而非破坏），并且有的时候全团人都认为一块扮演邪恶角色很好玩。这些都是行之有效的选择，只要所有人对战役的发展意见一致。</p><aside class=\"notable float-right size-three\"><h3>了解规则</h3><p>成为一名好DM并不意味着成为规则方面的专家。当然，熟悉规则仍然是十分有帮助的事情，尤其是<em>《玩家手册》</em>当中的规则。但比起完美执行规则，提升游戏的乐趣才更加重要。如果你不确定在某个情况下如何应用规则，你可以问同桌之内某个玩家会怎么做。这可能会花一些时间，但是通常可能会得到一个对所有人来说都公平的答案，而且这比“正确的”答案更加重要。</p><p>你不需要知道<em>《玩家手册》</em>中的每一道法术或每个职业的特性。你可以告诉玩家们：他们有责任告诉你他们这些能力和法术能干什么。</p></aside><h2>玩家滥用规则</h2><p class=\"journal-original-h2\">Players Exploiting the Rules</p><p>一些玩家很享受阅读 D&amp;D 的规则，找出那些最优的组合。这种优化是游戏的一部分（见第 2 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgRunningTheGam.JournalEntryPage.tiekOc44JRTfFZgS]{了解你的玩家}”一节），但是它也会变成一种不正当的使用，损害其他所有人的乐趣。</p><p>处理这种对规则的滥用时，设置清晰的预期很有必要。牢记以下这些原则：</p><p><strong>规则不是物理。</strong>游戏规则的意义是为了提供更好的游戏体验，而不是归纳 D&amp;D 世界中的物理法则——人类连真实世界的运行法则都没能彻底解明，又怎么能准确描述出虚构世界的法则。不要让玩家争辩说，通过预备动作将矛传给队伍中的下一个人，即使是普通人也可以这样接力来把一根矛加速至光速。预备动作的设计意图是让英雄般的行为更容易实现；它并不是6秒中的战斗轮内所发生的事情的物理限制。</p><p><strong>游戏不是经济学。</strong>游戏规则并不是为了模拟现实中的经济学而存在的。一些玩家寻找通过法术的组合来让他们能够产生无穷财富的漏洞——他们是在不正当地利用规则。</p><p><strong>战斗的目标是敌人。</strong>一些规则只有在战斗中或角色位于先攻轮中才使用。不要让玩家攻击其他人或无助的生物，以此来利用那些规则。</p><p><strong>规则依赖的是基于善意的解释。</strong>规则假定了每个阅读与解释规则的人本质上都以团队的乐趣为重，并以此来解释这些规则。</p><p>上述这些原则能够帮助你在陷入困境时按住玩家们对规则的不正当利用。如果一名玩家执意尝试曲解规则，在游戏之外与那名玩家谈一谈，并让他停止这么做。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776530721366,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgEnsuringFunFo.yBdkX7XGvlRVcyya"
+    },
+    {
+      "sort": 400000,
+      "name": "为虚拟桌面而准备的规则",
+      "type": "text",
+      "_id": "Bi9wBpwMEF1hsQNY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Rules for the Virtual Table</p><p>在虚拟环境下设置预期与面对面一样重要。</p><p>一些桌将不符合角色设定的笑话、场外评论、梗图等内容限制在文本聊天里，而让语音频道专注于游戏本身。但另一些桌则会认为在游戏进行时单开一个聊天框会分散注意力。选择一个对你桌而言最好的方式。</p><p>在虚拟桌面上谁来移动指示物？玩家们被希望使用内置的掷骰器，还是说，展示线下的掷骰结果也没问题？你正在使用的特定技术可能会给出这些问题的答案，而游玩中也可能会出现需要你解决的其他问题。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776530765435,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgEnsuringFunFo.Bi9wBpwMEF1hsQNY"
+    },
+    {
+      "sort": 0,
+      "name": "引言",
+      "type": "text",
+      "_id": "BGxcIHsXjLEtJUer",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>如果你还没有与你的玩家们讨论关于本次游戏的预期，例如主题和那些可能会破坏游戏兴致的行为，那一定要在游戏开始前讨论一下。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1727981730659,
+        "modifiedTime": 1776530431689,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgEnsuringFunFo.BGxcIHsXjLEtJUer"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": true,
+      "append": 1,
+      "type": "special",
+      "navigation": {
+        "previous": "dmgTheBasics0000",
+        "next": "dmgRunningTheGam"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776530425948,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgEnsuringFunFo"
+}

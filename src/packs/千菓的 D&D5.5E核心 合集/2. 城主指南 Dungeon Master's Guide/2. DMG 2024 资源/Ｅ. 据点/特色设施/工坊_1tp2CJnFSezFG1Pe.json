@@ -1,0 +1,94 @@
+{
+  "name": "工坊",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/artisan-origin.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>5 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>3<br /><strong>指令：</strong>制造</p><p>工坊是充满创意的地方，许多有用的东西都能在这里制造。</p><p><em><strong>工匠工具。</strong></em>工坊被加入据点时，其内有六种工匠工具可以投入使用。从下述列表中进行选择：</p><aside style=\"display:flex;flex-wrap:wrap\"><div style=\"flex:1 1 50%\"><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8sz0XsuaO7qZT4Un]{木匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.527z1IuBAtYhBKmU]{鞋匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kfU19aGrYhVNZ1ta]{玻璃匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.amcwWI0eB6uhxTx4]{珠宝匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xDEVHzjM1wRWZGAm]{皮匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DLy9qPI1rp6iKZCI]{画家工具}</p></div><div style=\"flex:1 1 50%\"><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bBTCVKKVRGF0iTk5]{陶匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NCf6g6UnOXoDs3uj]{石匠工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pbabrvYgehZOO5wJ]{修补工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MXOWdIEzv1202LNQ]{织布工具}</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.buRZLru2HNCpCvp6]{木雕工具}</p></div></aside><p><em><strong>制造选项。</strong></em>当你对此设施下达制造指令时，从以下选项中选择一项：</p><p><strong>制造：冒险装备。</strong>设施雇员制造任意能用工坊内已有的工匠工具（见上文）制造的物品，使用<em>《玩家手册》</em>中的相关规则。</p><p><strong>制造：魔法物品（器具）。</strong>如果你的等级达到或高于 9 级，你可以委托此设施的雇员制造一件由你选择的普通或非普通魔法物品，该物品必须来自第 7 章的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{器具表}。此设施拥有制造该物品所需的工具，而其雇员拥有该工具的熟练以及奥秘技能的熟练。参考第 7 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{制造魔法物品}”一节来决定制造该物品所需的时间与金钱花费。如果该物品允许使用者用它施展任何法术，你必须亲自制造它（设施雇员可以协助你），并且在制造该物品期间，你每天都必须准备所有该物品可以施展的法术。</p><p><em><strong>灵感之源。</strong></em>当你在工坊内完成一次完整的短休后，你获得英雄激励。你在完成一次长休前不能再次获得此增益。</p><p><em><strong>扩大设施。</strong></em>可以花费 2000 GP，将工坊扩大为庞大设施。这样做之后，工坊获得额外两位雇员以及额外三种工匠工具（从上述列表中选择）。</p><p class=\"item-original\">Workshop</p>",
+      "chat": ""
+    },
+    "identifier": "workshop",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": true,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 3
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "workshop"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763005364925,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1tp2CJnFSezFG1Pe",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!1tp2CJnFSezFG1Pe"
+}

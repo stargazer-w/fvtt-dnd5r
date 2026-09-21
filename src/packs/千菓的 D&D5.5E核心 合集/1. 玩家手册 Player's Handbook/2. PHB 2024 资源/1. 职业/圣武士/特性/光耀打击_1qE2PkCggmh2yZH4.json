@@ -1,0 +1,101 @@
+{
+  "name": "光耀打击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_radiant-strikes.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>神圣之力充盈你身，连带你的武器也承载着超自然力量。当你使用近战武器或徒手打击进行攻击检定并命中目标时，目标额外受到 1d8 光耀伤害。</p><p class=\"item-original\">Radiant Strikes</p>",
+      "chat": ""
+    },
+    "identifier": "radiant-strikes",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "圣武士"
+  },
+  "effects": [
+    {
+      "name": "光耀打击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_radiant-strikes.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.1qE2PkCggmh2yZH4",
+      "_id": "wTRenaUdcU5XudrM",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "1d8[radiant]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735493364391,
+        "modifiedTime": 1735493375627,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!1qE2PkCggmh2yZH4.wTRenaUdcU5XudrM"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194941175,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "1qE2PkCggmh2yZH4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1qE2PkCggmh2yZH4"
+}

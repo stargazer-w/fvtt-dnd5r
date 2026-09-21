@@ -1,0 +1,200 @@
+{
+  "name": "X 射线戒指",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_RING_ring-of-x-ray-vision.webp",
+  "system": {
+    "activities": {
+      "5UIJPm0Ha8xHiFEt": {
+        "type": "utility",
+        "_id": "5UIJPm0Ha8xHiFEt",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "2jyjKGWISXsyF0yg"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>戒指，珍稀（需同调）</em></p><p>着装此戒指期间，你可以执行&amp;Reference[Magic]{魔法}动作以获得范围 30 尺的 X 射线视觉，持续 1 分钟。对你来说，半径内的固态物件变为透明，并且不会阻碍光线通过。这种视觉可以穿透 1 尺厚的石头，1 寸厚的常见金属或最多 3 尺厚的木头或泥土。更厚的物质或一张薄铅片会阻挡这种视觉。</p><p>每当你在完成一次长休前再次使用这枚戒指时，你必须成功通过一次[[/save con 15 format=long]]，否则获得 1 级&amp;Reference[exhaustion]{力竭}。</p><p class=\"item-original\">Ring of X-Ray Vision</p>",
+      "chat": ""
+    },
+    "identifier": "ring-of-x-ray-vision",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "ring",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "通透视觉",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_RING_ring-of-x-ray-vision.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.dkSMh8Jbng6Bd9Ui",
+      "transfer": false,
+      "_id": "2jyjKGWISXsyF0yg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751945551306,
+        "modifiedTime": 1751963124398,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dkSMh8Jbng6Bd9Ui.2jyjKGWISXsyF0yg"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751945456775,
+    "modifiedTime": 1758465099674,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dkSMh8Jbng6Bd9Ui",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!dkSMh8Jbng6Bd9Ui"
+}

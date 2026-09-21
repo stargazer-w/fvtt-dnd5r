@@ -1,0 +1,289 @@
+{
+  "name": "法师",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "法师",
+      "type": "text",
+      "_id": "g7cMRWzsgAsEF7zC",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.PL7bJ0pKJowitAfU inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KkVgaq9S5aiMQc4A inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.n1xrSQG1U8RQ4vJj cite=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776353973203,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.g7cMRWzsgAsEF7zC"
+    },
+    {
+      "sort": 200000,
+      "name": "防护师",
+      "type": "text",
+      "_id": "iMbdRPsxWV1pV61w",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Abjurer</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.brDkm6tgLqWIeRqQ inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.M8tgQdPBaQ7jyCqk inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.s8ARXlU0q0AjQPlA]{防护学者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ReSvwO7fsCpX6GjJ]{奥术守御}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NnxxVXjATXZhkCGo]{投射守御}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Ml51IxucBgQiKcdb]{破法者}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pJD4irllO8U2e1B8]{法术抗性}</td></tr></tbody></table><p class=\"item-title\">3 级：防护学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.s8ARXlU0q0AjQPlA inline]</p><p class=\"item-title\">3 级：奥术守御</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ReSvwO7fsCpX6GjJ inline]</p><p class=\"item-title\">6 级：投射守御</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.NnxxVXjATXZhkCGo inline]</p><p class=\"item-title\">10 级：破法者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Ml51IxucBgQiKcdb inline]</p><p class=\"item-title\">14 级：法术抗性</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.pJD4irllO8U2e1B8 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354151696,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.iMbdRPsxWV1pV61w"
+    },
+    {
+      "sort": 300000,
+      "name": "预言师",
+      "type": "text",
+      "_id": "LTpN3JESyYoxT24T",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Diviner</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.5VQOdTjy7sSQhmSE inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.hzwogHc8FgJFXMmX inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3Sg22feokP5LHmc4]{预言学者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mRZYdcNcWHy4FkEw]{预兆}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LNg9nVCOBHmBYcIO]{专业预言}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.OE9A9ntEIz1PqeMQ]{天眼通}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.El8UuJna0o1PFHgv]{高等预兆}</td></tr></tbody></table><p class=\"item-title\">3 级：预言学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3Sg22feokP5LHmc4 inline]</p><p class=\"item-title\">3 级：预兆</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.mRZYdcNcWHy4FkEw inline]</p><p class=\"item-title\">6 级：专业预言</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LNg9nVCOBHmBYcIO inline]</p><p class=\"item-title\">10 级：天眼通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OE9A9ntEIz1PqeMQ inline]</p><p class=\"item-title\">14 级：高等预兆</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.El8UuJna0o1PFHgv inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354190850,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.LTpN3JESyYoxT24T"
+    },
+    {
+      "sort": 400000,
+      "name": "塑能师",
+      "type": "text",
+      "_id": "F5Nlk4mkB1nUUaob",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Evoker</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.OCMqHFEmDsweP1Ey inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.kFstrFfYAMz5QZmV inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.h0MsYx8B5f3JGrXs]{塑能学者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ApYyuW4AhBON0Lxi]{强力戏法}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HlCIcH6Wu07CiPbg]{塑形法术}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Cwjuyuw2PvEnTurJ]{强效塑能}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WNbFhqYededscU6b]{超限导能}</td></tr></tbody></table><p class=\"item-title\">3 级：塑能学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.h0MsYx8B5f3JGrXs inline]</p><p class=\"item-title\">3 级：强力戏法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ApYyuW4AhBON0Lxi inline]</p><p class=\"item-title\">6 级：塑形法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.HlCIcH6Wu07CiPbg inline]</p><p class=\"item-title\">10 级：强效塑能</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Cwjuyuw2PvEnTurJ inline]</p><p class=\"item-title\">14 级：超限导能</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WNbFhqYededscU6b inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354229455,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.F5Nlk4mkB1nUUaob"
+    },
+    {
+      "sort": 500000,
+      "name": "幻术师",
+      "type": "text",
+      "_id": "ZKPFPF7JbjO73m4I",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Illusionist</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.E4VvoPqGLz0iyHg6 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.rDfM6y3Au4DQ9HS3 inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FZ83MEhXcRWBbAsG]{幻术学者}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GDz5qJ3d2q8ICGCb]{强化幻术}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.QpHVFifFEXb122rt]{魅影生灵}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KlWj9Cwik0VOGa5j]{幻影化形}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GzpQcj09WCqZvhfM]{亦真亦幻}</td></tr></tbody></table><p class=\"item-title\">3 级：幻术学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FZ83MEhXcRWBbAsG inline]</p><p class=\"item-title\">3 级：强化幻术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GDz5qJ3d2q8ICGCb inline]</p><p class=\"item-title\">6 级：魅影生灵</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.QpHVFifFEXb122rt inline]</p><p class=\"item-title\">10 级：幻影化形</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KlWj9Cwik0VOGa5j inline]</p><p class=\"item-title\">14 级：亦真亦幻</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GzpQcj09WCqZvhfM inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354261350,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.ZKPFPF7JbjO73m4I"
+    },
+    {
+      "sort": 150000,
+      "name": "法师职业特性",
+      "type": "text",
+      "_id": "mZRH7dS1851rMaE4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Wizard Class Features</p><p>法师在到达特定等级时会获得下述职业特性，如法师特性表中所示。</p><table border=\"0\"><caption>法师特性 Wizard Features</caption><thead><tr><th rowspan=\"2\">等级</th><th rowspan=\"2\">熟练加值</th><th rowspan=\"2\">职业特性</th><th rowspan=\"2\">戏法</th><th rowspan=\"2\">准备法术</th><th colspan=\"9\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th><th>6 环</th><th>7 环</th><th>8 环</th><th>9 环</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tUMC9UfgpPuv4wkn]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.R1pmUWvdaf1IW1Kt]{仪式学家}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hJt5g2Zw34tiszxt]{奥术回想}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PbBd1OCP0ClLUwwd]{学者}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>法师子职</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6hr8SNthIUuzWJeG]{记忆法术}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>—</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>—</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>—</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">19</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">21</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>—</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">22</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jvTTpLutb7B6UEp4]{法术精通}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">23</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Pq0UmsZz8BGnfESr]{传奇恩惠}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">24</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.GZmVTCva8WEKsTuY]{招牌法术}</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">25</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr></tbody></table><p class=\"item-title\">1 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.tUMC9UfgpPuv4wkn inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.rU3ZOyOp2VugnZM2 inline]</p><p class=\"item-title\">1 级：仪式学家</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.R1pmUWvdaf1IW1Kt inline]</p><p class=\"item-title\">1 级：奥术回想</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.hJt5g2Zw34tiszxt inline]</p><p class=\"item-title\">2 级：学者</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PbBd1OCP0ClLUwwd inline]</p><p class=\"item-title\">3 级：法师子职</p><p>你获得一个你选择的法师子职。防护师、预言师、塑能师和幻术师四个子职在后文职业描述之后详述。子职是一种特化，它会在特定的法师等级为你提供特性。随着你继续获得法师等级，你将随之获得你子职中等于或低于你法师等级的所有特性。</p><p class=\"item-original\">Wizard Subclass</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长，或其它你满足条件的专长。你会在 8、12、和 16 级时再次获得该特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：记忆法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.6hr8SNthIUuzWJeG inline]</p><p class=\"item-title\">18 级：法术精通</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.jvTTpLutb7B6UEp4 inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.Pq0UmsZz8BGnfESr inline]</p><p class=\"item-title\">20 级：招牌法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GZmVTCva8WEKsTuY inline]</p><h1>法师子职业</h1><p class=\"journal-original-h1\">Wizard Subclasses</p><p>法师子职是一种特化，它会在特定的法师等级为你提供特性。本节介绍了以下子职业：防护师、预言师、塑能师和幻术师。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730441941500,
+        "modifiedTime": 1776354069002,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!fQ9csZHPMIqE3A6o.mZRH7dS1851rMaE4"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 501200,
+      "navigation": {
+        "previous": "ftZAtHAsPUoMCDV0",
+        "next": "ztV4AlM4iT5GZAN4"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334167061,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "fQ9csZHPMIqE3A6o",
+  "sort": 100049,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!fQ9csZHPMIqE3A6o"
+}

@@ -1,0 +1,529 @@
+{
+  "name": "魔契师",
+  "type": "class",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/warlock.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>自异界魔契中汲取力量的玄秘学者</p></blockquote><h3>魔契师核心特质</h3><p class=\"journal-original-h3\">Core Warlock Traits</p><table><thead><tr></tr></thead><tbody><tr><td><span style=\"white-space:nowrap\"><strong>主属性</strong></span></td><td>魅力</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>生命值骰</strong></span></td><td>每魔契师等级 D8</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>豁免熟练</strong></span></td><td>感知和魅力</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>技能熟练</strong></span></td><td><em>选择 2 项：</em>奥秘、欺瞒、历史、威吓、调查、自然或宗教</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>武器熟练</strong></span></td><td>简易武器</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>护甲受训</strong></span></td><td>轻甲</td></tr><tr><td><span style=\"white-space:nowrap\"><strong>起始装备</strong></span></td><td><em>选择 A 或 B：</em> (A) @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVoJiLlIlADGLtSy]{皮甲}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CXAkZte56H7ApGCg]{镰刀}，2 把@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.TYHK2TmGMxTQhUrR]{匕首}，@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#奥术法器-arcane-focus（多类）]{奥术法器}（@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.R562QXJK74Htu5MH]{法球}），@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pz6kYOLV8pGOYu0X]{学者套组}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.bbxMxB8kQPPCdYSv]{书}（隐秘学识），以及 15 GP；或者 (B) 100 GP</td></tr></tbody></table><p>魔契师追寻那些隐于多元宇宙结构之中的知识。它们往往是因钻研一些旨在连结异界存在之力的祈唤的禁忌知识，或是寻找能感受到这些存在之力量的特殊地点，从而踏入研习魔法力量之路。而很快，魔契师便都会与一个强大的宗主签下具有约束力的契约。魔契师从诸如天使，至高妖精，恶魔，魔鬼，鬼婆还有来自遥远国度的异界实体等存在处收集远古的知识，并用这些奥术秘密来增进自己的力量。</p><p>魔契师是指与异界存在缔约之人。大多数魔契师将自己的宗主视为一种获取魔法力量的途径。一些魔契师仰慕，崇敬甚至爱上其宗主；另一些则不情愿地为宗主服务；还有些魔契师甚至在驭使宗主所赐之力的同时致力于反抗其宗主。</p><p>一旦契约达成，魔契师对知识和力量的渴望便不再是仅靠学习就能满足的了。大多数魔契师都投身于追求更强大的力量与更深奥的知识，这通常会令魔契师投身于冒险之中。</p><h2>成为一名魔契师……</h2><p class=\"journal-original-h2\">Becoming a Warlock …</p><h3>作为 1 级角色</h3><p class=\"journal-original-h3\">As a Level 1 Character</p><ul><li>获得魔契师核心特质表里的全部能力。</li><li>获得魔契师的 1 级特性（见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.ur3pgv8nadJdtYiO]{魔契师特性表}）。</li></ul><h3>作为兼职角色</h3><p class=\"journal-original-h3\">As a Multiclass Character</p><ul><li>获得魔契师核心特质表里的以下能力：生命骰和轻甲的护甲受训。</li><li>获得魔契师的 1 级特性（见魔契师特性表）。同时见第 2 章中的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pHMEDq6JZOxYAm4U.JournalEntryPage.vcs4jfEKRxPCsgXm#施法]{兼职}规则以决定你的可用法术位。</li></ul><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HOl3HZ0djMgfcHx5]{Warlock}</p>",
+      "chat": ""
+    },
+    "identifier": "warlock",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "startingEquipment": [],
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "cha"
+      ],
+      "all": false
+    },
+    "hitDice": "d8",
+    "hitDiceUsed": 0,
+    "advancement": [
+      {
+        "_id": "W9auMtMHTf0KV1Xw",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "豁免熟练",
+        "hint": "",
+        "classRestriction": "primary",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_physique.webp"
+      },
+      {
+        "_id": "9LblGv17rkWDNni2",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:inv",
+                "skills:his",
+                "skills:dec",
+                "skills:itm",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "技能熟练",
+        "hint": "",
+        "classRestriction": "primary",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_magic.webp"
+      },
+      {
+        "_id": "yB5RTWToMnl2sB6c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "护甲受训",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_armor-training.webp",
+        "classRestriction": "primary"
+      },
+      {
+        "_id": "4XUbrDNUSRAH6TqT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "weapon:sim"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "武器熟练",
+        "hint": "",
+        "classRestriction": "primary",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_weapon-prof.webp"
+      },
+      {
+        "_id": "mraWduU8Ly0YhmWP",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "armor:lgt"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "兼职熟练",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_martial-training.webp",
+        "classRestriction": "secondary"
+      },
+      {
+        "_id": "maFD2ztwIiatgS5H",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.i1BDorbD4F4tUY3J",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.aw9zZzq9OrA6vrEX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.fcfYTxZ7Ugvdx8ne",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "wdAUVcMsAzUpgmlM"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.xxSEgj9zyFR8GgpH",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "T7xgN6DPSuk2iKBC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jYFpDCyOdfaoebbp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "1xZ6gW82C89kYxDY"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.LQFKpVSpjv6QZTAv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 19,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "huCZT1dMDfnEHfYC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Li6N8X5WGYhiCU4E",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "职业特性",
+        "hint": "你的职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "fUVvZyLMAgraCBTa"
+      },
+      {
+        "_id": "dZ29O2QGbIsj25Vg",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "cantrips",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "4": {
+              "value": 3
+            },
+            "10": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "戏法",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_cantrip.webp"
+      },
+      {
+        "_id": "v3lym1uxhRr5SHcH",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "max-prepared",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 2
+            },
+            "2": {
+              "value": 3
+            },
+            "3": {
+              "value": 4
+            },
+            "4": {
+              "value": 5
+            },
+            "5": {
+              "value": 6
+            },
+            "6": {
+              "value": 7
+            },
+            "7": {
+              "value": 8
+            },
+            "8": {
+              "value": 9
+            },
+            "9": {
+              "value": 10
+            },
+            "11": {
+              "value": 11
+            },
+            "13": {
+              "value": 12
+            },
+            "15": {
+              "value": 13
+            },
+            "17": {
+              "value": 14
+            },
+            "19": {
+              "value": 15
+            }
+          }
+        },
+        "value": {},
+        "title": "准备法术",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp"
+      },
+      {
+        "_id": "aRSEiEi6b2Zc6OUt",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 4,
+        "title": "属性值提升",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 8,
+        "title": "属性值提升",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+        "_id": "mafQTL2N4k8t2Y7O"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 12,
+        "title": "属性值提升",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+        "_id": "UgyXQzYDq3dJ7F86"
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 2,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 16,
+        "title": "属性值提升",
+        "hint": "",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+        "_id": "oJeglNdtO8L03tzZ"
+      },
+      {
+        "_id": "EdQhXCmVCfWxGFdt",
+        "type": "Subclass",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "level": 3,
+        "title": "魔契师子职",
+        "hint": "你选择并获得一项子职业。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_branch.webp"
+      },
+      {
+        "_id": "nUOpizWel5lDEu9o",
+        "type": "HitPoints",
+        "configuration": {},
+        "value": {},
+        "title": "生命值",
+        "hint": "每魔契师等级 D8",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_hit-point.webp"
+      },
+      {
+        "type": "ScaleValue",
+        "title": "法术环阶",
+        "_id": "KfSbKSbh8KUmOMN7",
+        "configuration": {
+          "identifier": "spelllevel",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": 1
+            },
+            "3": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "7": {
+              "value": 4
+            },
+            "9": {
+              "value": 5
+            }
+          }
+        },
+        "value": {},
+        "hint": "你提升最大法术环阶，这是你在该职业中所能够准备法术的最大环阶等级。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_spell-slot.webp"
+      }
+    ],
+    "spellcasting": {
+      "progression": "pact",
+      "preparation": {
+        "formula": "@scale.warlock.max-prepared"
+      },
+      "ability": "cha"
+    },
+    "wealth": "100"
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730254919871,
+    "modifiedTime": 1777643235584,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "HOl3HZ0djMgfcHx5",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!HOl3HZ0djMgfcHx5"
+}

@@ -1,0 +1,1678 @@
+{
+  "name": "巨龙灵魄",
+  "type": "npc",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/draconic-spirit.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 19,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 17,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": 60,
+        "swim": 30,
+        "walk": 30,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": 30,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "str",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "ac": {
+        "flat": 14,
+        "calc": "natural"
+      },
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 50,
+        "max": 50,
+        "temp": null,
+        "tempmax": null,
+        "formula": "50"
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<div class=\"statblock npc rules-2024\"><h4 class=\"statblock-title\">巨龙灵魄</h4><p><span class=\"statblock-tags\">大型龙类，绝对中立</span></p><div class=\"statblock-header\"><div class=\"half-width\"><p><strong>AC</strong> 14 + 法术环阶<br /><strong>HP</strong> 50 + 每比 5 环高的法术环阶 10 点<br /><strong>速度</strong> 30 尺，飞行 60 尺，游泳 30 尺</p></div><div class=\"abilities\"><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">力量</th><td class=\"score\">19</td><td>+4</td><td>+4</td></tr><tr><th scope=\"row\">智力</th><td class=\"score\">10</td><td>+0</td><td>+0</td></tr></tbody></table><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">敏捷</th><td class=\"score\">14</td><td>+2</td><td>+2</td></tr><tr><th scope=\"row\">感知</th><td class=\"score\">14</td><td>+2</td><td>+2</td></tr></tbody></table><table><thead><tr><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\" class=\"visually-hidden\"></th><th scope=\"col\">调整</th><th scope=\"col\">豁免</th></tr></thead><tbody><tr><th scope=\"row\">体质</th><td class=\"score\">17</td><td>+3</td><td>+3</td></tr><tr><th scope=\"row\">魅力</th><td class=\"score\">14</td><td>+2</td><td>+2</td></tr></tbody></table></div><div class=\"half-width\"><p><strong>抗性</strong> 强酸，冷冻，火焰，闪电，毒素<strong><br />免疫</strong> 魅惑，恐慌，中毒<strong><br />感官</strong> 盲视 30 尺，黑暗视觉 60 尺，被动察觉 12<br /><strong>语言</strong> 龙语，理解你的语言<br /><strong>CR</strong> 无（XP 0；PB 等同于你的熟练加值）</p></div></div><h5 class=\"statblock-actions-title\">特质</h5><p><em><strong>分享抗性。</strong></em>当你召唤此灵魄时，选择一项它具有的伤害抗性。直至法术结束前，你也会获得所选伤害的抗性。</p><h5 class=\"statblock-actions-title\">动作</h5><p><em><strong>多重攻击。</strong></em>灵魄发动等于法术环阶一半次数的[[/item 撕裂]]攻击（向下取整），并使用其[[/item 吐息武器]]。</p><p><em><strong>撕裂。</strong>近战攻击：</em>加值等于你的法术攻击加值，触及 10 尺。<em>命中：</em>1d6 + 4 + 法术环阶的穿刺伤害。</p><p><em><strong>吐息武器。</strong>[[/save dex]]{敏捷豁免}：</em>DC 等于你的法术豁免 DC，30 尺锥状内的每个生物。<em>失败：</em>2d6 点伤害（伤害类型由你在施法时从灵魄的伤害抗性中选择）。<em>成功：</em>半伤。</p></div>",
+        "public": "<div><h4><em>Draconic Spirit</em></h4></div>"
+      },
+      "alignment": "绝对中立",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "environment": "",
+      "cr": null,
+      "spellLevel": 0
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "bypasses": [],
+        "value": [
+          "acid",
+          "cold",
+          "fire",
+          "lightning",
+          "poison"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "bypasses": [],
+        "value": [],
+        "custom": ""
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [
+          "charmed",
+          "frightened",
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "draconic"
+        ],
+        "custom": "理解你的语言"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "巨龙灵魄",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/dnd5e-collection-2024/assets/tokens/draconic-spirit.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": 1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 60,
+      "angle": 360,
+      "visionMode": "darkvision",
+      "color": null,
+      "attenuation": 0,
+      "brightness": 0,
+      "saturation": -1,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 11,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/dnd5e-collection-2024/assets/subjects/draconic-spirit.webp"
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "分享抗性",
+      "type": "feat",
+      "_id": "J7D8LHv8NXxF86T8",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_resistance.webp",
+      "system": {
+        "activities": {
+          "xNuKfGI7k3xxjNMC": {
+            "type": "utility",
+            "_id": "xNuKfGI7k3xxjNMC",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "1M47f2QABmMGCRLS"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "强酸抗性"
+          },
+          "mWCfhXIfeE3uB3hF": {
+            "type": "utility",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "i44jjcIJ8mEi57pK"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "冷冻抗性",
+            "_id": "mWCfhXIfeE3uB3hF"
+          },
+          "MkCfoLVNnPhwYRrj": {
+            "type": "utility",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "WHBTPgtepBzCNDiw"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "火焰抗性",
+            "_id": "MkCfoLVNnPhwYRrj"
+          },
+          "bl1rAd5botWnIdL5": {
+            "type": "utility",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "0E1LNEViIA4tqe0N"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "闪电抗性",
+            "_id": "bl1rAd5botWnIdL5"
+          },
+          "qmJwrSVDVmVGhMCU": {
+            "type": "utility",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "J8Tar5nLcxAglG9Q"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": "毒素抗性",
+            "_id": "qmJwrSVDVmVGhMCU"
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>当你召唤此灵魄时，选择一项它具有的伤害抗性。直至法术结束前，你也会获得所选伤害的抗性。</p><p class=\"item-original\">Shared Resistances</p>",
+          "chat": ""
+        },
+        "identifier": "shared-resistances",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [
+        {
+          "name": "分享抗性：强酸",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz.Item.J7D8LHv8NXxF86T8",
+          "transfer": false,
+          "_id": "1M47f2QABmMGCRLS",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "acid",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你获得所选伤害的抗性。</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1759777956183,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "compendiumSource": null,
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8.1M47f2QABmMGCRLS"
+        },
+        {
+          "name": "分享抗性：冷冻",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz.Item.J7D8LHv8NXxF86T8",
+          "transfer": false,
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "cold",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你获得所选伤害的抗性。</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1759777953119,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "compendiumSource": null,
+            "exportSource": null
+          },
+          "_id": "i44jjcIJ8mEi57pK",
+          "_key": "!actors.items.effects!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8.i44jjcIJ8mEi57pK"
+        },
+        {
+          "name": "分享抗性：火焰",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz.Item.J7D8LHv8NXxF86T8",
+          "transfer": false,
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "fire",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你获得所选伤害的抗性。</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1759777950085,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "compendiumSource": null,
+            "exportSource": null
+          },
+          "_id": "WHBTPgtepBzCNDiw",
+          "_key": "!actors.items.effects!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8.WHBTPgtepBzCNDiw"
+        },
+        {
+          "name": "分享抗性：闪电",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz.Item.J7D8LHv8NXxF86T8",
+          "transfer": false,
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "lightning",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你获得所选伤害的抗性。</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1759777945683,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "compendiumSource": null,
+            "exportSource": null
+          },
+          "_id": "0E1LNEViIA4tqe0N",
+          "_key": "!actors.items.effects!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8.0E1LNEViIA4tqe0N"
+        },
+        {
+          "name": "分享抗性：毒素",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_resistance.webp",
+          "origin": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OkxAMaO2yLDfQgSz.Item.J7D8LHv8NXxF86T8",
+          "transfer": false,
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.traits.dr.value",
+              "mode": 2,
+              "value": "poison",
+              "priority": null
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": 3600,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你获得所选伤害的抗性。</p>",
+          "tint": "#ffffff",
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1759777940935,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "compendiumSource": null,
+            "exportSource": null
+          },
+          "_id": "J8Tar5nLcxAglG9Q",
+          "_key": "!actors.items.effects!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8.J8Tar5nLcxAglG9Q"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114068,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OkxAMaO2yLDfQgSz.J7D8LHv8NXxF86T8"
+    },
+    {
+      "name": "多重攻击",
+      "type": "feat",
+      "_id": "Es5K7BEYhwY1iGsK",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_multiattack_beast.webp",
+      "system": {
+        "activities": {
+          "JfEtpTRyy9zsQltc": {
+            "type": "utility",
+            "_id": "JfEtpTRyy9zsQltc",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>灵魄发动等于法术环阶一半次数的[[/item 撕裂]]攻击（向下取整），并使用其[[/item 吐息武器]]。</p><p>[[floor(@flags.dnd5e.summon.level / 2)]]{攻击次数}</p><p class=\"item-original\">Multiattack</p>",
+          "chat": ""
+        },
+        "identifier": "multiattack",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114083,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OkxAMaO2yLDfQgSz.Es5K7BEYhwY1iGsK"
+    },
+    {
+      "name": "撕裂",
+      "type": "feat",
+      "_id": "NB7WGOKTKq5ijg5u",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_rend.webp",
+      "system": {
+        "activities": {
+          "29RwDacMphjWEmhc": {
+            "type": "attack",
+            "_id": "29RwDacMphjWEmhc",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "value": "10",
+              "units": "ft",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              },
+              "ability": "",
+              "bonus": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "@mod",
+                  "types": [
+                    "piercing"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p><em>近战攻击：</em>加值等于你的法术攻击加值，触及 10 尺。</p><p><em>命中：</em>1d6 + 4 + 法术环阶的穿刺伤害。</p><p class=\"item-original\">Rend</p>",
+          "chat": ""
+        },
+        "identifier": "rend",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758305114098,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OkxAMaO2yLDfQgSz.NB7WGOKTKq5ijg5u"
+    },
+    {
+      "name": "吐息武器",
+      "type": "feat",
+      "_id": "ITJHZO8FS1HqWlKv",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/MONSTER_active_breath-weapon.webp",
+      "system": {
+        "activities": {
+          "vhsOG41OGeZnCdXy": {
+            "type": "save",
+            "_id": "vhsOG41OGeZnCdXy",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "count": "",
+                "type": "cone",
+                "size": "30"
+              },
+              "affects": {
+                "choice": false,
+                "count": "",
+                "type": "creature",
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire",
+                    "cold",
+                    "acid",
+                    "lightning",
+                    "poison"
+                  ],
+                  "scaling": {
+                    "number": 1
+                  }
+                }
+              ],
+              "onSave": "half"
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p><em>[[/save]]{敏捷豁免}：</em>DC 等于你的法术豁免 DC，30 尺锥状内的每个生物。</p><p><em>失败：</em>2d6 点伤害（伤害类型由你在施法时从灵魄的伤害抗性中选择）。</p><p><em>成功：</em>半伤。</p><p class=\"item-original\">Breath Weapon</p>",
+          "chat": ""
+        },
+        "identifier": "breath-weapon",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "enchant": {},
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "prerequisites": {
+          "level": null
+        },
+        "properties": [],
+        "requirements": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qVlhELJIaanIsDyq": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758734043416,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "compendiumSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!OkxAMaO2yLDfQgSz.ITJHZO8FS1HqWlKv"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1734026262325,
+    "modifiedTime": 1748782265570,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "compendiumSource": null,
+    "exportSource": null
+  },
+  "_id": "OkxAMaO2yLDfQgSz",
+  "sort": 1500000,
+  "_key": "!actors!OkxAMaO2yLDfQgSz"
+}

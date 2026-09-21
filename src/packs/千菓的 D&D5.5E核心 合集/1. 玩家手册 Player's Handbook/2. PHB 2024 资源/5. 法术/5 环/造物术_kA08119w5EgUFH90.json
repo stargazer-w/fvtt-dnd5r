@@ -1,0 +1,144 @@
+{
+  "name": "造物术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ILL_creation.webp",
+  "system": {
+    "activities": {
+      "KZoXVa2B5e3tMVCO": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "KZoXVa2B5e3tMVCO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你从堕影冥界取来一些暗影物质，在施法距离内创造一个物件。你可以创造一个植物质（类似纺织品、绳索、木质等）物件，也可以创造一个矿物质（类似石质、水晶、金属等）物件。创造出来的物件大小必须不超过 5 尺立方，且其必须是一种你见过的形态与材质。</p><p>法术的持续时间由所创造物件的材质决定，如材料表中所示。如果所创造物件由多种材质组合而成，则其存在时间取其中最短者。施展其他法术时，如果以这些创造物作为其材料成分将会使该法术失败。</p><table><caption>材料 Materials</caption><thead><tr><th>材料</th><th>持续时间</th></tr></thead><tbody><tr><td>植物质</td><td>24 小时</td></tr><tr><td>岩石或水晶</td><td>12 小时</td></tr><tr><td>贵金属</td><td>1 小时</td></tr><tr><td>宝石</td><td>10 分钟</td></tr><tr><td>精金或秘银</td><td>1 分钟</td></tr></tbody></table><p><em><strong>升环施法。</strong></em>使用的法术位每比 5 环高一环，创造物尺寸的立方边长就增加 5 尺。</p><p class=\"item-original\">Creation</p>",
+      "chat": ""
+    },
+    "identifier": "creation",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "spec",
+      "special": ""
+    },
+    "level": 5,
+    "materials": {
+      "value": "一支画笔",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "ill",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195007301,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "kA08119w5EgUFH90",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!kA08119w5EgUFH90"
+}

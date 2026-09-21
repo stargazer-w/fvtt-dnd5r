@@ -1,0 +1,202 @@
+{
+  "name": "艾恩石（储法）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_D.webp",
+  "system": {
+    "activities": {
+      "2pdLHX0ZHxxmF7h0": {
+        "type": "utility",
+        "_id": "2pdLHX0ZHxxmF7h0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "LxcKl9FHekT6Ga0j"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀（需同调）</em></p><p>这颗艳紫色的棱柱形艾恩石能够储存对其施展的法术，直至你使用之。该艾恩石同时只能储存总计不超过 4 环的法术。这个艾恩石在被发现时存储有[[/r 1d4]]环由 DM 决定的法术。</p><p>任何生物都可以在施展一个 1 至 4 环的法术时触碰该艾恩石，以将该法术储于石中。此时法术将被储存，而非直接产生效应。如果石头无法储存该法术，则该法术不生效且被消耗。被储存的法术以其所耗用的法术位环阶来决定其在石头中占用的空间。</p><p>在这颗艾恩石环绕在你头顶期间，你可以施展任何储存在其中的法术。该法术使用原施法者的法术位、法术豁免 DC、法术攻击加值和施法关键属性，但其他方面则视为由你施放。法术施放后，它将从艾恩石内消失，并解放其占用的空间。</p><p>当你用一个&amp;Reference[Magic]{魔法}动作将<em>艾恩石</em>扔向空中时，此石会环绕在距离你头顶[[/r 1d3]]尺高之处，并为你带来其增益。同一时间内至多只能有 3 颗<em>艾恩石</em>环绕在你的头顶。</p><p>环绕在你头顶的每颗<em>艾恩石</em>都视为你正在穿戴着的物件。正在环绕着的<em>艾恩石</em>会避免与其他生物和物件接触，调整自己环绕的轨道以避免碰撞，并能使其他生物对<em>艾恩石</em>的攻击与抢夺无效。</p><p>你可以用一个&amp;Reference[Utilize]{操作}动作，抓住并收起环绕在你头顶的任意颗<em>艾恩石</em>。如果你结束正环绕在你头顶的<em>艾恩石</em>的同调，石头就会如同你将其丢弃一样掉落下来。</p><p class=\"item-original\">Reserve, Ioun Stone</p>",
+      "chat": ""
+    },
+    "identifier": "reserve-ioun-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "艾恩石（储法）",
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_ioun-stone_D.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.TMdCGz6rPyZg5Cpt",
+      "transfer": false,
+      "_id": "LxcKl9FHekT6Ga0j",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1761896143614,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!TMdCGz6rPyZg5Cpt.LxcKl9FHekT6Ga0j"
+    }
+  ],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895740839,
+    "modifiedTime": 1761895875419,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "TMdCGz6rPyZg5Cpt",
+  "_key": "!items!TMdCGz6rPyZg5Cpt"
+}

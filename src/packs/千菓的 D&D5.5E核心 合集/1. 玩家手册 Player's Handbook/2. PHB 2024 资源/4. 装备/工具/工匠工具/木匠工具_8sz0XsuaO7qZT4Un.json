@@ -1,0 +1,127 @@
+{
+  "name": "木匠工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>力量　　　<strong>重量：</strong>6 磅</p><p><strong>操作：</strong>封死或撬开一扇门或一个容器（DC 20）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cCnRdsuj3AMyjZ42]{短棒}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BeRQw38CpK15Q7rn]{巨棒}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8aO87tJ7hlxjKt49]{长棍}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iEdguBK24idYj9j0]{木桶}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dQ7SIDsbX763hm2w]{箱子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZxKdis2K6sY1P2TD]{梯子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zSaj8WlKmAFk9rc7]{长杆}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IE0w5h8N8UKuC9RE]{便携式攻城锤}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u19QSMOcQ4PcHpSE]{火把}</p><p class=\"item-original\">Carpenter's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 6,
+      "units": "lb"
+    },
+    "price": {
+      "value": 8,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "carpenter"
+    },
+    "ability": "str",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "qiHClvxXovCUdFOl": {
+        "type": "check",
+        "_id": "qiHClvxXovCUdFOl",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "carpenters-tools"
+  },
+  "type": "tool",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_carpenters-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758194951543,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "8sz0XsuaO7qZT4Un",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!8sz0XsuaO7qZT4Un"
+}

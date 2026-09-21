@@ -1,0 +1,127 @@
+{
+  "name": "木雕工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>敏捷　　　<strong>重量：</strong>5 磅</p><p><strong>操作：</strong>在木头上雕刻图案（DC 10）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cCnRdsuj3AMyjZ42]{短棒}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BeRQw38CpK15Q7rn]{巨棒}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.8aO87tJ7hlxjKt49]{长棍}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.z1wx4cNO7AfqyNof]{远程武器}（除了手铳、火铳和投石索）、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#奥术法器-arcane-focus（多类）]{奥术法器}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wujsJTqyYZlpVSfT]{箭矢}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fH7unHvErSi8yeWX]{弩矢}、@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#德鲁伊法器-druidic-focus（多类）]{德鲁伊法器}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LsRVEcHwAsMGcfJ3]{墨水笔}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6ku3O1XUFg8awjdk]{吹矢}</p><p class=\"item-original\">Woodcarver's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "woodcarver"
+    },
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "YCJhtz4VZzABQGEz": {
+        "type": "check",
+        "_id": "YCJhtz4VZzABQGEz",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "woodcarvers-tools"
+  },
+  "type": "tool",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_woodcarvers-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758194993450,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "buRZLru2HNCpCvp6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!buRZLru2HNCpCvp6"
+}

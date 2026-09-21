@@ -1,0 +1,142 @@
+{
+  "name": "幻象牌组",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-illusions.webp",
+  "system": {
+    "activities": {
+      "iZokh8tpFr8IznII": {
+        "type": "summon",
+        "_id": "iZokh8tpFr8IznII",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "bonuses": {},
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false
+        },
+        "profiles": [],
+        "summon": {
+          "prompt": true
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>这个匣子里装着一套卡牌。一套完整的牌组有 34 张卡牌：32 张描绘着特定的生物，2 张则是镜面牌。作为宝藏找到的牌组通常会缺失[[/r 1d20 - 1]]{1d20 − 1}张卡牌。</p><p>牌组的魔法只有在随机抽出时才会生效。你可以用一个&amp;Reference[Magic]{魔法}动作从牌组中随机抽出一张卡牌，并将其扔到距离你 30 尺范围以内的一处地面上。某一生物（根据“幻象牌组表”掷骰来确定）的幻象会从被扔出的卡牌中显现，并将持续存在直至被解除。由卡牌创造出的幻象生物看起来活灵活现，和真实生物行为相仿，但无法造成伤害。如果你在幻象生物周围 120 尺范围内且你能看到它，你就可以用一个&amp;Reference[Magic]{魔法}动作令其移动到卡牌周围 30 尺内的任何地方。</p><p>由于物件可以穿透幻象，因此与幻象生物进行的任何物理互动都将揭示其幻象本质。任一生物都可以用一个研究动作来对幻象生物进行视觉性的观察，此时其成功通过一次[[/skill inv 15 format=long]]即可发现幻象的本质。幻象将持续存在，直至被解除（使用<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>或类似的效应）或其卡牌被移动。当幻象终止时，其卡牌上的图像也随之消失，该卡牌也无法再次使用。</p><p class=\"table-caption\">幻象牌组 Deck of Illusions</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.xN2wZIJByk6eYmxY rollable inline]</p><p>* 除抽牌者以外的生物数据在<em>《怪物图鉴》</em>中都有出现。</p><p class=\"item-original\">Deck of Illusions</p>",
+      "chat": ""
+    },
+    "identifier": "deck-of-illusions",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xJ7Y8kwwVQiJbRag",
+  "sort": 5100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!xJ7Y8kwwVQiJbRag"
+}

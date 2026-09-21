@@ -1,0 +1,68 @@
+{
+  "name": "Foundry 指南",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "如何使用范例物品",
+      "type": "text",
+      "_id": "Ok4iCgD25ENgoRxE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/magic/symbols/runes-star-blue.webp\" class=\"square\" /></figure><article><p style=\"font-size:1.17em\"><strong>魔法物品模板</strong></p><p>魔法物品拥有多种版本。例如，一件 <em>+1 护甲</em>可以是轻甲、中甲、重甲的任意一种；为了轻量化合集，这些版本不会单独列在魔法物品伫列，而是通过「模板」的形式，它可以用“附魔”效果来创建任何魔法物品：</p><p>打开一个魔法物品，如<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6cIkXHz5lllARwSF]{护甲，+1、+2、+3}</em>，切至“效应”标签页，拖拽对应的效果至你想创建的物品上。以此将自动应用附魔及活动效果，并附加魔法物品的描述等信息至你的物品中。</p><p>同样，如果你想移除一个魔法物品的附魔效果，切至“效应”标签页，以滑鼠右键点选对应效果，你可以从选单中关闭或删除它。</p></article></section>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752828586400,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!vMVpW7MMHz2RFo4V.Ok4iCgD25ENgoRxE"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751444789275,
+    "modifiedTime": 1751444813757,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_id": "vMVpW7MMHz2RFo4V",
+  "sort": 0,
+  "categories": [],
+  "_key": "!journal!vMVpW7MMHz2RFo4V"
+}

@@ -1,0 +1,1415 @@
+{
+  "name": "流沙陷坑",
+  "type": "npc",
+  "img": "modules/dnd5e-collection-2024/assets/tokens/objects/HAZ_quicksand-pit.webp",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "dex": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "con": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "int": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "wis": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "cha": {
+        "value": 0,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "attributes": {
+      "ac": {
+        "calc": "default",
+        "flat": null
+      },
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": null,
+        "units": null,
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": null,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": null,
+        "special": ""
+      },
+      "spellcasting": "str",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "loyalty": {
+        "value": null
+      },
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 1,
+        "max": 1,
+        "temp": null,
+        "tempmax": null,
+        "formula": "1"
+      },
+      "death": {
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0,
+        "bonuses": {
+          "save": ""
+        }
+      },
+      "spell": {
+        "level": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><em>妨碍危害（等级 1–4）</em></p><p>@Embed[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.BFUcMeuPo3FEC7DD.Item.k8po8CiwuCKoIy4U inline]</p><p><em><strong>针对更高等级。</strong></em>你可以通过加深陷坑深度和提高每回合生物下陷的英尺数来提高对应的等级范围，如以下表格所示。</p><table><thead><tr><th>等级范围</th><th>陷坑深度</th><th>豁免 DC</th></tr></thead><tbody><tr><td>[[/item CWSiHBr2169eDeke]]{5–10}</td><td>15 尺</td><td>[[/r 1d6]]尺</td></tr><tr><td>[[/item fF87E8rqmBfacqYb]]{11–16}</td><td>20 尺</td><td>[[/r 1d8]]尺</td></tr><tr><td>[[/item AwMRChWc0q8HLU5G]]{17–20}</td><td>30 尺</td><td>[[/r 1d10]]尺</td></tr></tbody></table><p class=\"item-original\">Quicksand Pit</p>",
+        "public": "<p class=\"actor-original\">Quicksand Pit</p>"
+      },
+      "alignment": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {},
+      "habitat": {
+        "value": [],
+        "custom": ""
+      },
+      "cr": null,
+      "treasure": {
+        "value": []
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null,
+        "inside": false
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dr": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dv": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      },
+      "important": false
+    }
+  },
+  "prototypeToken": {
+    "name": "流沙陷坑",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 2,
+    "height": 2,
+    "texture": {
+      "src": "modules/dnd5e-collection-2024/assets/tokens/objects/HAZ_quicksand-pit.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -2,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "items": [
+    {
+      "name": "流沙陷坑",
+      "type": "feat",
+      "_id": "k8po8CiwuCKoIy4U",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+      "system": {
+        "activities": {
+          "SL6UwmWbekuTh8dR": {
+            "type": "utility",
+            "_id": "SL6UwmWbekuTh8dR",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": "危害"
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "t6DLjFiE2a3hC4P7"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature"
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>一处流沙陷坑有 10 尺深，覆盖 10 尺方形范围的地面。进入区域的生物会在流沙内下陷[[/r 1d4 + 1]]尺，并陷入&amp;Reference[restrained]{束缚}状态。在该生物每回合开始时，将再次下陷[[/r 1d4]]尺。只要生物没有完全被流沙吞没，它就能用一个动作尝试逃脱，进行一次[[/skill ath format=long]]（DC 为 10 + 生物陷入流沙的英尺数），检定成功则脱困。完全被流沙吞没的生物将陷入&amp;Reference[blinded]{目盲}状态，并有&amp;Reference[suffocation]{窒息}的风险。</p><p>生物可以将其触及内的另一位生物拉出流沙陷坑，这需要救援者用其动作进行一次成功的[[/skill ath format=long]]（DC 为 5 + 生物陷入流沙的英尺数）。</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "advancement": [],
+        "cover": null,
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "T1",
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "下陷",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+          "origin": "Compendium.dnd5e-collection-2024.dmg-creatures.Actor.BFUcMeuPo3FEC7DD.Item.k8po8CiwuCKoIy4U",
+          "transfer": false,
+          "_id": "t6DLjFiE2a3hC4P7",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你在流沙内下陷，陷入&amp;Reference[restrained]{束缚}状态。</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1758204030335,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BFUcMeuPo3FEC7DD.k8po8CiwuCKoIy4U.t6DLjFiE2a3hC4P7"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758735127587,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!actors.items!BFUcMeuPo3FEC7DD.k8po8CiwuCKoIy4U"
+    },
+    {
+      "name": "流沙陷坑",
+      "type": "feat",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+      "system": {
+        "activities": {
+          "SL6UwmWbekuTh8dR": {
+            "type": "utility",
+            "_id": "SL6UwmWbekuTh8dR",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": "危害"
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "t6DLjFiE2a3hC4P7"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature"
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>一处流沙陷坑有 15 尺深，覆盖 10 尺方形范围的地面。进入区域的生物会在流沙内下陷[[/r 1d4 + 1]]尺，并陷入&amp;Reference[restrained]{束缚}状态。在该生物每回合开始时，将再次下陷[[/r 1d6]]尺。只要生物没有完全被流沙吞没，它就能用一个动作尝试逃脱，进行一次[[/skill ath format=long]]（DC 为 10 + 生物陷入流沙的英尺数），检定成功则脱困。完全被流沙吞没的生物将陷入&amp;Reference[blinded]{目盲}状态，并有&amp;Reference[suffocation]{窒息}的风险。</p><p>生物可以将其触及内的另一位生物拉出流沙陷坑，这需要救援者用其动作进行一次成功的[[/skill ath format=long]]（DC 为 5 + 生物陷入流沙的英尺数）。</p>",
+          "chat": ""
+        },
+        "identifier": "-",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "advancement": [],
+        "cover": null,
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "T2",
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "下陷",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+          "origin": "Compendium.dnd5e-collection-2024.dmg-creatures.Actor.BFUcMeuPo3FEC7DD.Item.CWSiHBr2169eDeke",
+          "transfer": false,
+          "_id": "t6DLjFiE2a3hC4P7",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你在流沙内下陷，陷入&amp;Reference[restrained]{束缚}状态。</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1758204030346,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BFUcMeuPo3FEC7DD.CWSiHBr2169eDeke.t6DLjFiE2a3hC4P7"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758735144188,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "CWSiHBr2169eDeke",
+      "_key": "!actors.items!BFUcMeuPo3FEC7DD.CWSiHBr2169eDeke"
+    },
+    {
+      "name": "流沙陷坑",
+      "type": "feat",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+      "system": {
+        "activities": {
+          "SL6UwmWbekuTh8dR": {
+            "type": "utility",
+            "_id": "SL6UwmWbekuTh8dR",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": "危害"
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "t6DLjFiE2a3hC4P7"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature"
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>一处流沙陷坑有 20 尺深，覆盖 10 尺方形范围的地面。进入区域的生物会在流沙内下陷[[/r 1d4 + 1]]尺，并陷入&amp;Reference[restrained]{束缚}状态。在该生物每回合开始时，将再次下陷[[/r 1d8]]尺。只要生物没有完全被流沙吞没，它就能用一个动作尝试逃脱，进行一次[[/skill ath format=long]]（DC 为 10 + 生物陷入流沙的英尺数），检定成功则脱困。完全被流沙吞没的生物将陷入&amp;Reference[blinded]{目盲}状态，并有&amp;Reference[suffocation]{窒息}的风险。</p><p>生物可以将其触及内的另一位生物拉出流沙陷坑，这需要救援者用其动作进行一次成功的[[/skill ath format=long]]（DC 为 5 + 生物陷入流沙的英尺数）。</p>",
+          "chat": ""
+        },
+        "identifier": "-",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "advancement": [],
+        "cover": null,
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "T3",
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "下陷",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+          "origin": "Compendium.dnd5e-collection-2024.dmg-creatures.Actor.BFUcMeuPo3FEC7DD.Item.fF87E8rqmBfacqYb",
+          "transfer": false,
+          "_id": "t6DLjFiE2a3hC4P7",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你在流沙内下陷，陷入&amp;Reference[restrained]{束缚}状态。</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1758204030360,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BFUcMeuPo3FEC7DD.fF87E8rqmBfacqYb.t6DLjFiE2a3hC4P7"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758735154669,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "fF87E8rqmBfacqYb",
+      "_key": "!actors.items!BFUcMeuPo3FEC7DD.fF87E8rqmBfacqYb"
+    },
+    {
+      "name": "流沙陷坑",
+      "type": "feat",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+      "system": {
+        "activities": {
+          "SL6UwmWbekuTh8dR": {
+            "type": "utility",
+            "_id": "SL6UwmWbekuTh8dR",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "value": null,
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": "危害"
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "t6DLjFiE2a3hC4P7"
+              }
+            ],
+            "range": {
+              "override": false,
+              "units": "spec",
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature"
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "formula": "",
+              "name": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "<p>一处流沙陷坑有 30 尺深，覆盖 10 尺方形范围的地面。进入区域的生物会在流沙内下陷[[/r 1d4 + 1]]尺，并陷入&amp;Reference[restrained]{束缚}状态。在该生物每回合开始时，将再次下陷[[/r 1d10]]尺。只要生物没有完全被流沙吞没，它就能用一个动作尝试逃脱，进行一次[[/skill ath format=long]]（DC 为 10 + 生物陷入流沙的英尺数），检定成功则脱困。完全被流沙吞没的生物将陷入&amp;Reference[blinded]{目盲}状态，并有&amp;Reference[suffocation]{窒息}的风险。</p><p>生物可以将其触及内的另一位生物拉出流沙陷坑，这需要救援者用其动作进行一次成功的[[/skill ath format=long]]（DC 为 5 + 生物陷入流沙的英尺数）。</p>",
+          "chat": ""
+        },
+        "identifier": "-",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "advancement": [],
+        "cover": null,
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "level": null,
+          "repeatable": false
+        },
+        "properties": [],
+        "requirements": "T4",
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "下陷",
+          "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_active_negative.webp",
+          "origin": "Compendium.dnd5e-collection-2024.dmg-creatures.Actor.BFUcMeuPo3FEC7DD.Item.AwMRChWc0q8HLU5G",
+          "transfer": false,
+          "_id": "t6DLjFiE2a3hC4P7",
+          "type": "base",
+          "system": {},
+          "changes": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "combat": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "<p>你在流沙内下陷，陷入&amp;Reference[restrained]{束缚}状态。</p>",
+          "tint": "#ffffff",
+          "statuses": [
+            "restrained"
+          ],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "4.3.6",
+            "createdTime": null,
+            "modifiedTime": 1758204030373,
+            "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+            "exportSource": null
+          },
+          "_key": "!actors.items.effects!BFUcMeuPo3FEC7DD.AwMRChWc0q8HLU5G.t6DLjFiE2a3hC4P7"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "dWA6Gj2SYcZMP8wT": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "activity": [],
+            "effect": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758735187864,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "AwMRChWc0q8HLU5G",
+      "_key": "!actors.items!BFUcMeuPo3FEC7DD.AwMRChWc0q8HLU5G"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1751127863857,
+    "modifiedTime": 1776571286610,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "BFUcMeuPo3FEC7DD",
+  "sort": 100000,
+  "_key": "!actors!BFUcMeuPo3FEC7DD"
+}

@@ -1,0 +1,205 @@
+{
+  "name": "石化术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_flesh-to-stone.webp",
+  "system": {
+    "activities": {
+      "h16ddjaoYhTwmtg6": {
+        "type": "save",
+        "name": "施法",
+        "_id": "h16ddjaoYhTwmtg6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "mTwsFVAeNFscwlDh",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你尝试将施法距离内一名你可见的生物变为石头。目标必须进行一次[[/save con]]{体质豁免}。豁免失败，目标陷入&amp;Reference[restrained]{束缚}状态。豁免成功，目标的速度直至你的下个回合开始前变为 0。构装体在此豁免中自动成功。</p><p>因该法术陷入束缚的生物必须在其每回合结束时再进行一次[[/save]]{体质豁免}。在累计三次豁免成功后，该法术终止。在累计三次豁免失败后，该生物被转化为石头并在持续时间内陷入&amp;Reference[petrified]{石化}状态。成功或失败的检定不需要连续；只要记录各情况的次数直至其中一方累计三次为止。</p><p>如果你为该法术维持的专注持续至法术最长的持续时间，则该生物陷入的石化状态将持续至被一道<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>或类似的魔法移除为止。</p><p class=\"item-original\">Flesh to Stone</p>",
+      "chat": ""
+    },
+    "identifier": "flesh-to-stone",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 6,
+    "materials": {
+      "value": "一根鸡蛇兽羽毛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "石化转变",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_flesh-to-stone.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.wxDiDKfDthmJ4ahM",
+      "transfer": false,
+      "_id": "mTwsFVAeNFscwlDh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[restrained]{束缚}状态。</p><p>你必须在每回合结束时进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。累计三次豁免成功后，该法术效应终止。累计三次豁免失败后，你将被转化为石头，并在持续时间内陷入&amp;Reference[petrified]{石化}状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733462123748,
+        "modifiedTime": 1734843963935,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wxDiDKfDthmJ4ahM.mTwsFVAeNFscwlDh"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534436465,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wxDiDKfDthmJ4ahM",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wxDiDKfDthmJ4ahM"
+}

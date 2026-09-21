@@ -1,0 +1,94 @@
+{
+  "name": "奥术研究室",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/sage.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>5 级据点设施</em></p><p><strong>先决条件：</strong>可以使用奥术法器或可以将工具作为施法法器<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>制造</p><p>奥术研究室是一个安静的实验场所，包含一台或更多的书桌与书架。</p><p><em><strong>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.EbGkCSBFiuz64tuV]{秘学护咒。}</strong></em>当你在据点内进行一次长休后，你获得一个魔法护咒（见第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.U9qU1oUFTPAK7g50]{超自然恩惠}”一节），此护咒持续 7 天或持续至你将其使用为止。此护咒允许你施展一次<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em> ，无需消耗法术位也无需准备施法材料。你无法在已拥有该护咒时再次获得它。</p><p><em><strong>制造选项。</strong></em>当你对此设施下达制造指令时，从以下选项中选择一项：</p><p><strong>制造：奥术法器。</strong>你委托该设施的雇员制造一个@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.xIDcbjgXOndS8zRl#奥术法器-arcane-focus（多类）]{奥术法器}，这项工作需要 7 天且无需花费金钱。在你领取它之前，造好的法器会留在你的据点内。</p><p><strong>制造：书卷。</strong>你委托该设施的雇员制造一本空白的书。 这项工作需要 7 天并且需要花费 10 GP。在你将其领取前，造出的书会留在你的据点内。</p><p><strong>制造：魔法物品（奥秘）。</strong>如果你的等级达到或高于 9 级，你可以委托此设施的雇员制造一件由你选择的普通或非普通魔法物品，该物品必须来自第 7 章的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{奥秘表}。此设施拥有制造该物品所需的工具，而其雇员拥有该工具的熟练以及奥秘技能的熟练。参考第 7 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.CmKJpbyrDuVrAkIs]{制造魔法物品}”一节来决定制造该物品所需的时间与金钱花费。如果该物品允许使用者用它施展任何法术，你必须亲自制造它（设施雇员可以协助你），并且在制造该物品期间，你每天都必须准备所有该物品可以施展的法术。</p><p class=\"item-original\">Arcane Study</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-study",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "craft",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": null,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": null
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "arcaneStudy"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1763013310946,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "2p3AlpR4m3dy7C6y",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!2p3AlpR4m3dy7C6y"
+}

@@ -1,0 +1,951 @@
+{
+  "name": "召唤泰坦卷轴",
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_SCROLL_scroll-of-protection.webp",
+  "system": {
+    "activities": {
+      "8NSvSrx5zNFtgdTB": {
+        "type": "enchant",
+        "_id": "8NSvSrx5zNFtgdTB",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "ieSNaN7bhLVSoxMC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "EuFDVNgh9ul4mloV",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "kVb4vyFT4llX5gX5",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "ufLHRwN97GEDxU3d",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "Dr6QEmmBmGI2U0Rr",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "RFbydFmrkz75HxiC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          },
+          {
+            "_id": "H2pA5D4rj4rIIjYE",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [
+                "D7SHIRNo14tdR8LV"
+              ],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "ieSNaN7bhLVSoxMC",
+          "EuFDVNgh9ul4mloV",
+          "kVb4vyFT4llX5gX5",
+          "ufLHRwN97GEDxU3d",
+          "Dr6QEmmBmGI2U0Rr",
+          "RFbydFmrkz75HxiC",
+          "H2pA5D4rj4rIIjYE"
+        ]
+      },
+      "D7SHIRNo14tdR8LV": {
+        "type": "summon",
+        "_id": "D7SHIRNo14tdR8LV",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "1",
+          "units": "mi",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p><em>卷轴，传说</em></p><p>当你以&amp;Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。由 DM 选择合适的泰坦或根据下表随机决定（生物数据见<em>《怪物图鉴》</em>）。</p><p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><table><thead><tr><th>[[/r 1d100]]</th><th>泰坦</th></tr></thead><tbody><tr><td>01–15</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.ieSNaN7bhLVSoxMC]{兽主}</td></tr><tr><td>16–30</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.EuFDVNgh9ul4mloV]{吞世黏浆}</td></tr><tr><td>31–45</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.kVb4vyFT4llX5gX5]{巨神兵}</td></tr><tr><td>46–60</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.ufLHRwN97GEDxU3d]{元初天劫}</td></tr><tr><td>61–75</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.Dr6QEmmBmGI2U0Rr]{至高天}</td></tr><tr><td>76–90</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.RFbydFmrkz75HxiC]{克拉肯}（召唤一只克拉肯需要足以容纳它躯体的水体，否则召唤失败且卷轴被浪费）</td></tr><tr><td>91–00</td><td>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jpuQxYhyIfvaTnfh.ActiveEffect.H2pA5D4rj4rIIjYE]{泰拉斯奎}</td></tr></tbody></table><p class=\"item-original\">Scroll of Titan Summoning</p><p>@Embed[Compendium.dnd5e-collection-2024.index.JournalEntry.vMVpW7MMHz2RFo4V.JournalEntryPage.Ok4iCgD25ENgoRxE inline classes=\"hide-in-embed\"]</p>",
+      "chat": ""
+    },
+    "identifier": "scroll-of-titan-summoning",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "legendary",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "scroll",
+      "subtype": ""
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "magicalBonus": null,
+    "properties": [
+      "mgc"
+    ]
+  },
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：兽主",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "_id": "ieSNaN7bhLVSoxMC",
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：兽主",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408489124,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.ieSNaN7bhLVSoxMC"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：吞世黏浆",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：吞世黏浆",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408492709,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "EuFDVNgh9ul4mloV",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.EuFDVNgh9ul4mloV"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：巨神兵",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：巨神兵",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408495590,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "kVb4vyFT4llX5gX5",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.kVb4vyFT4llX5gX5"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：元初天劫",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：元初天劫",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408498155,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "ufLHRwN97GEDxU3d",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.ufLHRwN97GEDxU3d"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：至高天",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：至高天",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408500836,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "Dr6QEmmBmGI2U0Rr",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.Dr6QEmmBmGI2U0Rr"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：克拉肯",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：克拉肯",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408503742,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "RFbydFmrkz75HxiC",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.RFbydFmrkz75HxiC"
+    },
+    {
+      "type": "enchantment",
+      "name": "召唤泰坦卷轴：泰拉斯奎",
+      "img": "icons/magic/symbols/runes-star-blue.webp",
+      "disabled": true,
+      "system": {},
+      "changes": [
+        {
+          "key": "name",
+          "mode": 5,
+          "value": "召唤泰坦卷轴：泰拉斯奎",
+          "priority": null
+        },
+        {
+          "key": "system.rarity",
+          "mode": 5,
+          "value": "legendary",
+          "priority": null
+        },
+        {
+          "key": "system.description.value",
+          "mode": 5,
+          "value": "<p><em>卷轴，传说</em></p> <p>当你以&Reference[Magic]{魔法}动作阅读此卷轴时，卷轴指定的特定泰坦会显现在你 1 里内的地面或水里的未占据空间中。</p> <p>泰坦对其他所有生物态度敌对，并将在生命值降至 0 时消失。若泰坦被召唤到不足以容纳它的空间中，则召唤失败且卷轴被浪费。</p><p class=\"item-original\">Scroll of Titan Summoning</p>",
+          "priority": null
+        },
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": null
+        },
+        {
+          "key": "system.price.value",
+          "mode": 5,
+          "value": "100000",
+          "priority": null
+        },
+        {
+          "key": "system.price.denomination",
+          "mode": 5,
+          "value": "gp",
+          "priority": null
+        },
+        {
+          "key": "img",
+          "mode": 5,
+          "value": "modules/dnd5e-collection-2024/assets/items/MAG_Scroll_R5001.webp",
+          "priority": null
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1752408507193,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_id": "H2pA5D4rj4rIIjYE",
+      "_key": "!items.effects!jpuQxYhyIfvaTnfh.H2pA5D4rj4rIIjYE"
+    }
+  ],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [
+          "D7SHIRNo14tdR8LV"
+        ],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.aoVSNhOWS2SS8aNK",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1752063256668,
+    "modifiedTime": 1758199225808,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "jpuQxYhyIfvaTnfh",
+  "_key": "!items!jpuQxYhyIfvaTnfh"
+}

@@ -1,0 +1,367 @@
+{
+  "name": "万象无常牌（残缺牌组）",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things.webp",
+  "description": "<p><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.TbyRhhlOOVNctvoB]{万象无常牌}</em></p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        8
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_euryale.webp",
+      "_id": "xAxVnHi7T358hol5",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.5Mg7d6d4vk8dxK1r]{尤瑞艾莉}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.xAxVnHi7T358hol5"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        16
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_flames.webp",
+      "_id": "mX3XnfXpZF5UKO5D",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.IesDXtmMj0HqPI3P]{火焰}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.mX3XnfXpZF5UKO5D"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        24
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_jester.webp",
+      "_id": "KKbIzz29JeztU0Xw",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.gaXXVEaI34JAzCHT]{小丑}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.KKbIzz29JeztU0Xw"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        25,
+        32
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_key.webp",
+      "_id": "t2My1Y47Ys2TfeQo",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.rNgLM8YWgdsQVMmC]{钥匙}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.t2My1Y47Ys2TfeQo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        33,
+        40
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_knight.webp",
+      "_id": "51cAcTlqTT15eL7e",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.sgefo8c1Y33M3mBO]{骑士}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.51cAcTlqTT15eL7e"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        48
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_moon.webp",
+      "_id": "PYv99asv4oXTQtjM",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.VetymrNYgGHbukFG]{月亮}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.PYv99asv4oXTQtjM"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        49,
+        56
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_rogue.webp",
+      "_id": "t73Ey0KZMmxrAQ0r",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.O9qs2ZwkUKKR19iz]{浪客}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.t73Ey0KZMmxrAQ0r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        57,
+        64
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_ruin.webp",
+      "_id": "V2CnHmhHwgEihh9K",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.sLxM8TbD3mGwj80I]{废墟}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.V2CnHmhHwgEihh9K"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        72
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_skull.webp",
+      "_id": "SODgEG9etJuTML4E",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.X7fYJO8feyTE0yaB]{头骨}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.SODgEG9etJuTML4E"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        73,
+        80
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_star.webp",
+      "_id": "a7ubGeg5ybhv8yBI",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.AT5smRGc9NLmFcKW]{星辰}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.a7ubGeg5ybhv8yBI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        88
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_sun.webp",
+      "_id": "AKqOboeRC6QkPkJt",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Zx2fBBrOUUgqoEKl]{太阳}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.AKqOboeRC6QkPkJt"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        89,
+        96
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_throne.webp",
+      "_id": "Z3N4eC3xHKuNbJbj",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.VRexcnGkVa91apeY]{王座}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.Z3N4eC3xHKuNbJbj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        97,
+        100
+      ],
+      "drawn": false,
+      "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_deck-of-many-things_void.webp",
+      "_id": "ME0P4iC3c6i6JSl5",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.ki4bT3PdW2pVcv0I]{虚空}",
+      "name": "",
+      "_key": "!tables.results!K4C9NL2fMqBr9ryY.ME0P4iC3c6i6JSl5"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1763203997455,
+    "modifiedTime": 1763203997455,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "K4C9NL2fMqBr9ryY",
+  "sort": 0,
+  "_key": "!tables!K4C9NL2fMqBr9ryY"
+}

@@ -1,0 +1,295 @@
+{
+  "name": "妖曲解惑",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_beguiling-twist.webp",
+  "system": {
+    "activities": {
+      "fTfBg7PMgI5zyEEF": {
+        "type": "save",
+        "_id": "fTfBg7PMgI5zyEEF",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "jW0WRFk5MR1pPhoo",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "惑控 (魅惑)",
+        "img": "",
+        "appliedEffects": []
+      },
+      "gKX13tQqEnnGL76N": {
+        "type": "save",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "8zCntBTPSQNe8vCm",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "惑控 (恐慌)",
+        "_id": "gKX13tQqEnnGL76N",
+        "img": "",
+        "appliedEffects": [
+          "8zCntBTPSQNe8vCm"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>妖精荒原的魔法护卫着你的心灵。你在对抗或终止魅惑或恐惧状态的豁免检定上具有优势。</p><p>此外，当你或位于你 120 尺内的一个你可见的生物，通过了一次对抗或终止魅惑或恐惧状态的豁免检定时，你可以用你的&amp;Reference[Reaction]{反应}迫使位于你 120 尺内的另一个你可见的不同生物，进行一次对抗你法术豁免 DC 的[[/save]]{感知豁免}。豁免失败，目标则陷入&amp;Reference[charmed]{魅惑}或&amp;Reference[frightened]{恐慌}状态（由你选择）1 分钟。目标在其每回合结束时重复此豁免，豁免成功则结束此效应。</p><p class=\"item-original\">Beguiling Twist</p>",
+      "chat": ""
+    },
+    "identifier": "beguiling-twist",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "妖精漫游者"
+  },
+  "effects": [
+    {
+      "name": "惑变",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_beguiling-twist.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.gMh6B9B8HaIh3GG7",
+      "transfer": false,
+      "_id": "jW0WRFk5MR1pPhoo",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内陷入&amp;Reference[charmed]{魅惑}状态。</p><p>每个你的回合结束时，你可以重新进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}，成功则你身上的该状态提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735875618911,
+        "modifiedTime": 1735875668055,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!gMh6B9B8HaIh3GG7.jW0WRFk5MR1pPhoo"
+    },
+    {
+      "name": "惑变",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_fey-wanderer_beguiling-twist.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.gMh6B9B8HaIh3GG7",
+      "transfer": false,
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内陷入&amp;Reference[frightened]{恐慌}状态。</p><p>每个你的回合结束时，你可以重新进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}，成功则你身上的该状态提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735875676194,
+        "modifiedTime": 1735875692818,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_id": "8zCntBTPSQNe8vCm",
+      "_key": "!items.effects!gMh6B9B8HaIh3GG7.8zCntBTPSQNe8vCm"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758468871429,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gMh6B9B8HaIh3GG7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gMh6B9B8HaIh3GG7"
+}

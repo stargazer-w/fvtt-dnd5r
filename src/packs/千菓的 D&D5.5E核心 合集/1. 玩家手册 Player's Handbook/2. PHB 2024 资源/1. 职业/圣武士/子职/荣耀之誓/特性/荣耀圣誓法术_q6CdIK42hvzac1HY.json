@@ -1,0 +1,218 @@
+{
+  "name": "荣耀圣誓法术",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你誓言具有的魔法让你获得了下列特定法术。当你达到荣耀之誓法术表所示的特定圣武士等级，你就视为总是准备了所列法术。</p><table class=\"left-three\"><caption>荣耀之誓法术 Oath of Glory Spells</caption><thead><tr><td>圣武士等级</td><td>法术</td></tr></thead><tbody><tr><td style=\"text-align:center\">3</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.oDSWFRiXQkUXQ1jf]{光导箭}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1zENqyRQICmbbLML]{英雄气概}</em></td></tr><tr><td style=\"text-align:center\">5</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU]{强化属性}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1IYqSOm6cn4O6hZA]{魔化武器}</em></td></tr><tr><td style=\"text-align:center\">9</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7kfO7nFaWWHR644W]{加速术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4]{防护能量}</em></td></tr><tr><td style=\"text-align:center\">13</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.xVwnpaN79CoHGto7]{强迫术}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL]{行动自如}</em></td></tr><tr><td style=\"text-align:center\">17</td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI]{通晓传奇}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CJl79tlGJL0TgQ6G]{悠兰德王者威仪}</em></td></tr></tbody></table><p class=\"item-original\">Oath Spells</p>",
+      "chat": ""
+    },
+    "identifier": "oath-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "荣耀之誓",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.oDSWFRiXQkUXQ1jf"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1zENqyRQICmbbLML"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "荣耀圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "EyazZeCcX6HBEKI8"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.HzWr8VnhBMxpqcLU"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.1IYqSOm6cn4O6hZA"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "荣耀圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "pMsAHnDJdHbKQ16t"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.7kfO7nFaWWHR644W"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Nx4AQJxIj8VOSHC4"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 9,
+        "title": "荣耀圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "mJW2F2WsZilJqeRU"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.xVwnpaN79CoHGto7"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.B9PNDuhHWfdeLmdL"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 13,
+        "title": "荣耀圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "vDjzBGODVCOwT0Wy"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.XuNPcSUp7GXXLwvI"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.CJl79tlGJL0TgQ6G"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "method": "spell",
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 17,
+        "title": "荣耀圣誓法术",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp",
+        "_id": "sYH2g11jMILUUc05"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777649990580,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "q6CdIK42hvzac1HY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!q6CdIK42hvzac1HY"
+}

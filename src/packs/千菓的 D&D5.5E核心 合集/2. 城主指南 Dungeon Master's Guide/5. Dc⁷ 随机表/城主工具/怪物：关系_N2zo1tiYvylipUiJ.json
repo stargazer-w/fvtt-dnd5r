@@ -1,0 +1,185 @@
+{
+  "name": "怪物：关系",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanEncounter.JournalEntryPage.Qa7LIRWcz3vC9lVb#怪物关系]{怪物关系}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "I5fndjS6GIhmPDqA",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两只怪物处于敌对关系；他们彼此都想让对方吃点苦头。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.I5fndjS6GIhmPDqA"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_id": "lic3UriXJD8N4o5F",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只被其他生物欺凌的怪物总是畏缩不前，他一有机会就会立刻逃走。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.lic3UriXJD8N4o5F"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_id": "YBHrYsiwjMaExT50",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只怪物受到了其他生物的尊敬甚至崇拜，它们愿意为它而死。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.YBHrYsiwjMaExT50"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_id": "LA1YiDSW9sNGCgX2",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只怪物受到了族群的欣赏，而它的盟友则在试图讨好或帮助它。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.LA1YiDSW9sNGCgX2"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_id": "QvAd2bu7ttIGx1Ff",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只怪物只关心它自己，而对剩余的同伴置之不顾。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.QvAd2bu7ttIGx1Ff"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_id": "gnUqf2GXFknIpUbF",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "一只怪物喜欢霸凌其他人，它迫使它们身陷险境，而它们希望这个怪物遭人击败。",
+      "name": "",
+      "_key": "!tables.results!N2zo1tiYvylipUiJ.gnUqf2GXFknIpUbF"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750264910577,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d6",
+  "_id": "N2zo1tiYvylipUiJ",
+  "sort": 2100000,
+  "_key": "!tables!N2zo1tiYvylipUiJ"
+}

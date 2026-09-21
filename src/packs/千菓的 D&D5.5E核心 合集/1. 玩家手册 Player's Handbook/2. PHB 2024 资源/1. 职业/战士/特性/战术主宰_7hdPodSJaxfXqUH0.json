@@ -1,0 +1,113 @@
+{
+  "name": "战术主宰",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_fighter_tactical-master.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每当你用武器发动攻击，且你可以使用此武器的精通词条时，你可以将此次攻击的精通属性改为<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.PPCAl7mZVhs40tDN\" data-tooltip=\"rule\">推离</a>，<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.Y8aZSZijQnLXOnqF\" data-tooltip=\"rule\">削弱</a>或<a class=\"content-link\" data-uuid=\"Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.vF1Kqptk2gQmyq9P.JournalEntryPage.xAqgTc9Qn42Esj81\" data-tooltip=\"rule\">缓速</a>中的一种。</p><p class=\"item-original\">Tactical Master</p>",
+      "chat": ""
+    },
+    "identifier": "tactical-master",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "战士"
+  },
+  "effects": [
+    {
+      "name": "战术主宰",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_fighter_tactical-master.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.7hdPodSJaxfXqUH0",
+      "_id": "VW9i1rrGp9sXMlVm",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.weaponProf.mastery.bonus",
+          "mode": 2,
+          "value": "push",
+          "priority": null
+        },
+        {
+          "key": "system.traits.weaponProf.mastery.bonus",
+          "mode": 2,
+          "value": "sap",
+          "priority": null
+        },
+        {
+          "key": "system.traits.weaponProf.mastery.bonus",
+          "mode": 2,
+          "value": "slow",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734250284452,
+        "modifiedTime": 1735458978425,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7hdPodSJaxfXqUH0.VW9i1rrGp9sXMlVm"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194949096,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "7hdPodSJaxfXqUH0",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!7hdPodSJaxfXqUH0"
+}

@@ -1,0 +1,167 @@
+{
+  "_id": "dmgCreatingCampa",
+  "name": "创作战役",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "eJkr6lVtG7H73UdN",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>如果说遭遇是 D&amp;D 冒险的基石，那么冒险则是 D&amp;D 战役的基石，因为战役实际上是由两个或多个冒险串联而成的。而战役发生的世界则被称为“战役设定”——它不仅是你的冒险故事发生时所依赖的背景，同时也是滋生冲突与个性发展的温床，正是这些内容源源不断地推动着冒险的进行。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.A8z5jTN2foaqr2NS cite=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776578718971,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCreatingCampa.eJkr6lVtG7H73UdN"
+    },
+    {
+      "sort": 200000,
+      "name": "战役的设计步骤",
+      "type": "text",
+      "_id": "M1FH7ee4ihAeld2x",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Step-by-Step Campaigns</p><p>请按照以下步骤来创造一个战役：</p><p><strong>第 1 步：@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignPremi]{铺设背景。}</strong>设计驱动战役推进的核心冲突，并选择一个合适的战役设定，最好要贴合你想展现的基调与风格。</p><p><strong>第 2 步：@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignStart]{导入玩家。}</strong>战役需要一个令人印象深刻的开端。请思考角色们是如何被卷入一系列事件中的，以及角色的个人目标和理想在此时又起到了什么样的作用。</p><p><strong>第 3 步：@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanAdventure]{规划冒险。}</strong>战役中的大冲突是由更多细化的小冲突组成的，你可以设计各种有趣的任务，在这些任务中将其逐步揭示。你还需要着重设计有血有肉的反派、充实的关键地点、还有那些将冒险串联在一起的元素。</p><p><strong>第 4 步：@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgEndingACampai]{步入终局。}</strong>请考虑你的战役会以何种方式结束，以及在战役结束时角色们会升至几级。</p><p>你也许注意到上述内容和第 4 章开头给出的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCreatingAdven.JournalEntryPage.Yj1abxxXzi5U0FVL]{冒险的设计步骤}”很贴近。这是因为，战役在各种意义上不过是一场更大层面的“冒险”。每当战役中的一场冒险结束，下一场冒险便会开始。</p><p>本章中的后文给出了关于这四步的详解与灵感，还提供了一套范例战役设定。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 500100
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776578724777,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCreatingCampa.M1FH7ee4ihAeld2x"
+    },
+    {
+      "sort": 300000,
+      "name": "你的战役日志",
+      "type": "text",
+      "_id": "Lr9F52qH48dMNOGA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Your Campaign Journal</p><p>任何战役开始时，各个参与者都是非常兴奋的——你和你的玩家们期待着一起创建一个充满了冒险与希望的新世界。每次团都是你展示战役设定中的内容的机会，以此加深玩家们对战役的投入。</p><p>但若是你的战役要持续数月甚至数年，那维持这种高度兴奋的状态就不容易了——这需要你和玩家们的共同努力。战役日志可以助你维持这种兴奋感——这是一份记录了过去每次团中有用信息的笔记。使用战役日志能令你重温战役中发生过的各个事件，同时也能让你时刻了解战役中有哪些冲突和秘密是还没解决的。</p><h2>更新日志</h2><p class=\"journal-original-h2\">Keeping a Journal</p><p>战役日志上记录了战役的进度，从第一回团一直到最新的那回团。战役日志的载体没有限制，你可以随心选用，例如一本笔记；一套手记、地图、跟进卡合集；一个 wiki 网页；甚至是电脑上的一系列文件。战役日志最好依照日期或团次来归档整理。（一些 DM 更喜欢用“episode”而不是“game session”来指代一次跑团，这两个词是意思的相同的）。</p><p>附录给出了一张标准的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTrackingSheet.JournalEntryPage.C1UeVOEjn0EDuIPn]{战役日志}页，你可以复制它或以此为灵感自行设计自己的战役日志格式。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>日志随心记</h3><p>日志系统允许你以任何你喜欢的方式记录游戏回的笔记。如果你想使用示例的战役日志，将其拖拽复制到你的日志中，即可用于你想跟进的每一回游戏。</p></article></section><h2>使用日志</h2><p class=\"journal-original-h2\">Using Your Journal</p><p>你的战役日志可用于规划下一回团（见第 1 章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTheBasics0000.JournalEntryPage.5EAxqsbHGxNrxEA7]{准备一次团}”部分）。在跑完新一回团后，你需要使用日志记录那些可能对未来的团产生影响的重要事物，例如您即兴创作出的 NPC 的名字，或是角色们拿到的关键线索。</p><p>你也可以在带团的过程中使用战役日志。你可以查阅战役日志以快速找到自己忘掉的某条信息（比如角色的骡子叫什么），或是记下你认为值得记录的内容（如一家小酒馆的名字）。正是靠着一条条这样的记录，战役日志才得以成为一篇鲜活的冒险编年史。</p><h3>伏笔</h3><p class=\"journal-original-h3\">Foreshadowing</p><p>在故事中埋入伏笔是永不过时的好用技巧。玩家们会喜欢伏笔的，尤其是当这些事情发生的线索早在早期的几次团中就有体现的时候。</p><p>埋伏笔就像提前播下种子，这样你便能在日后收获回报。实时更新的战役日志使得埋伏笔变得更加轻松——你可以随时重读早期团中的笔记，找出那些可能在接下来的团中揭露的内容，从而为已发生的事件赋予更高的权重或更大的回报。以下是一个例子。</p><p>角色们发现了一位身份不明的半身人冒险者的遗体。在检查尸体的过程中，他们发现了一条项链，其中有着另一个半身人的肖像。一名角色决定拿走这枚项链，留做装饰。你在战役日志中记下这点——几个月后，当你正在在规划下一回团的时候，你查阅了日志并想起了那枚项链。以此为启发，你设计了一场与一位半身人的遭遇，角色们也许会认出这就是项链中刻画的那个半身人——如果角色们将项链还给这个半身人，会发生什么事情？也许这个半身人与更重要的情节有所关联，或是知道某些能帮角色们解决一些冲突的信息。一件小小的饰品就这样摇身一变，变成了昭示更重要的情节即将到来的伏笔。</p><h3>冒险储备</h3><p class=\"journal-original-h3\">Adventure Stockpile</p><p>当你记录日志时，除了跟进每次团的内容，最好还要记下你想到的冒险点子，将其整理成一份清单。如此一来，即使你没有用上清单里的所有冒险点子，拥有充足的冒险储备也能让你随时准备好接下玩家抛出的奇怪想法。你甚至可以从其他内容中借用各种点子，融入接下来的冒险中。此外，不是每个冒险都必须靠早期情节的铺垫才能在战役使用；在连载战役中偷偷藏一段优秀的独立冒险，对参与者来说也许是个不错的节奏调剂。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 500200
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776578739660,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCreatingCampa.Lr9F52qH48dMNOGA"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "title": "第五章：创作战役",
+      "position": 5,
+      "navigation": {
+        "previous": "dmgAdventureExam",
+        "next": "dmgCampaignPremi"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.1.0",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776578712954,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgCreatingCampa"
+}

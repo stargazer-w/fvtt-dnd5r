@@ -1,0 +1,175 @@
+{
+  "name": "唤醒心灵",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_great-old-one_awakened-mind.webp",
+  "system": {
+    "activities": {
+      "xTeyj8OztpgJV9TS": {
+        "type": "utility",
+        "_id": "xTeyj8OztpgJV9TS",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "@classes.warlock.levels"
+        },
+        "effects": [
+          {
+            "_id": "Op45ACWpmHX54ac7"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的心灵可以与其它心灵建立感应联系。以一个&amp;Reference[Bonus Action]{附赠动作}，你指定一个位于你 30 尺内的可见生物并创造一道心灵连结。当你与目标相距不超过等于你魅力调整值（至少 1 英里）的英里数时，你们便可以互相用心灵感应交谈。为了理解彼此，你们都必须在心灵交流中使用一种对方具有的语言。</p><p>这道心灵连结持续等于你魔契师等级的分钟数。它也会在你陷入失能或死亡，或是你使用此特性形成另一道心灵连结时提前结束。</p><p class=\"item-original\">Awakened Mind</p>",
+      "chat": ""
+    },
+    "identifier": "awakened-mind",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "旧日支配者宗主"
+  },
+  "effects": [
+    {
+      "name": "唤醒心灵",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_great-old-one_awakened-mind.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.lXzBlset36oKjZXY",
+      "transfer": false,
+      "_id": "Op45ACWpmHX54ac7",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你能够与此来源通过心灵感应的方式进行交流。</p><p>你们必须使用互相知晓的语言进行心灵交流，才能理解其通过心灵感应传达的话语。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736610720353,
+        "modifiedTime": 1736610790000,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!lXzBlset36oKjZXY.Op45ACWpmHX54ac7"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195009253,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "lXzBlset36oKjZXY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!lXzBlset36oKjZXY"
+}

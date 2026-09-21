@@ -1,0 +1,555 @@
+{
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Wyvern Attacks Adventurers",
+      "type": "image",
+      "_id": "NCqVVY9VEWKFblqu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "在龙枪设定的冒险中，Caramon Majere、Raistlin Majere 和 Kitiara uth Matar 三兄妹惹怒了一头飞龙。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/wyvern-attacks-adventurers.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750319869227,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.NCqVVY9VEWKFblqu"
+    },
+    {
+      "sort": 200000,
+      "name": "Line Up of Dice",
+      "type": "image",
+      "_id": "HEU9IiUlNzn0ab4c",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "d4、d6、d8、d10（个位数）、d10（十位数）、d12 和 d20。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/dice-lineup.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750319904532,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.HEU9IiUlNzn0ab4c"
+    },
+    {
+      "sort": 300000,
+      "name": "Depiction of Success and Failure",
+      "type": "image",
+      "_id": "ymfhWNYtvdIWdm7k",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一次 D20 检定可能带来戏剧性的成功、普通地完成，或是一场灾难。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/d20-success-failure.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750319982096,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.ymfhWNYtvdIWdm7k"
+    },
+    {
+      "sort": 400000,
+      "name": "Advantage/Disadvantage",
+      "type": "image",
+      "_id": "idgUrCsM8U11Aq04",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "如果你有优势，采用 18，而如果你有劣势，采用 3。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/advantage-disadvantage.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727617689994,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.idgUrCsM8U11Aq04"
+    },
+    {
+      "sort": 500000,
+      "name": "Characters Charming/Bartering with a Hag",
+      "type": "image",
+      "_id": "c0ZssNvHFwmnJCJK",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "角色们施展魅力，与一位绿鬼婆讨价魔法物品。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/characters-charming-bartering-with-hag.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750320068350,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.c0ZssNvHFwmnJCJK"
+    },
+    {
+      "sort": 600000,
+      "name": "Social Interaction Example",
+      "type": "image",
+      "_id": "nVhrpIUQUIPgHzZ5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/dungeon-master-social-example.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592615387,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.nVhrpIUQUIPgHzZ5"
+    },
+    {
+      "sort": 700000,
+      "name": "Adventurers Exploring",
+      "type": "image",
+      "_id": "678vnBXr3wCQ8onH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/adventurers-exploring.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592633604,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.678vnBXr3wCQ8onH"
+    },
+    {
+      "sort": 800000,
+      "name": "Dungeon Master Social Example 2",
+      "type": "image",
+      "_id": "bKEMjE49kEM8ej5Z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/dungeon-master-social-example-2.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592645742,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.bKEMjE49kEM8ej5Z"
+    },
+    {
+      "sort": 900000,
+      "name": "Adventurers Fighting",
+      "type": "image",
+      "_id": "by5JzzXbrTugi96a",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/adventurers-fighting.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592660957,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.by5JzzXbrTugi96a"
+    },
+    {
+      "sort": 1000000,
+      "name": "Creatures Occupy Space",
+      "type": "image",
+      "_id": "wDIv6PADi8Evwao3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "生物占据的空间大小各不相同。这只移位兽占据了 10 × 10 英尺的空间，而冒险者们则各自占据 5 × 5 英尺的空间。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/creatures-occupy-space.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750320226959,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.wDIv6PADi8Evwao3"
+    },
+    {
+      "sort": 1100000,
+      "name": "Tiefling Paladin on Seahorse",
+      "type": "image",
+      "_id": "scOKuazwklM6F4VX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一位圣武士骑在巨海马背上，在水下展开冒险。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/tiefling-paladin-on-seahorse.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750320275662,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.scOKuazwklM6F4VX"
+    },
+    {
+      "sort": 1200000,
+      "name": "Group Rolls and Cheers",
+      "type": "image",
+      "_id": "BSbOt3TSripzxVLx",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/group-rolls-cheers.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592695137,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.BSbOt3TSripzxVLx"
+    },
+    {
+      "sort": 0,
+      "name": "Book Cover",
+      "type": "image",
+      "_id": "sf9XsYrZ4T9e1nzd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "2024 Player's Handbook Cover by Tyler Jacobsen"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/phb-2024-cover.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1727592507798,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!XqZeZgToyP1y7knt.sf9XsYrZ4T9e1nzd"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": false,
+      "append": 2,
+      "order": 999999999
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727590893427,
+    "modifiedTime": 1776329272052,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "XqZeZgToyP1y7knt",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!XqZeZgToyP1y7knt"
+}

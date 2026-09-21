@@ -1,0 +1,127 @@
+{
+  "name": "皮匠工具",
+  "system": {
+    "description": {
+      "value": "<p><strong>属性：</strong>敏捷　　　<strong>重量：</strong>5 磅</p><p><strong>操作：</strong>对一个皮制品进行图案设计（DC 10）</p><p><strong>制造：</strong>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qbB6pWvBhFcrUZKP]{投石索}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jfnhdAB1BY5GGodI]{鞭子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.fLEEN7XpC8G66S3Y]{兽皮甲}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVoJiLlIlADGLtSy]{皮甲}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lguKvMSFwjpvzioT]{镶钉皮甲}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JPAvppr7usFSFbBE]{背包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7QFDS97gFFBZfoj4]{弩矢匣}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mLEUIA3kquClvLCa]{地图或卷轴匣}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo]{羊皮纸}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BvK1RJmogcB5JQmI]{小包}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZtTa8G09aJPb7NzD]{箭袋}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VbDReZykJVZIk1DX]{水袋}</p><p class=\"item-original\">Leatherworker's Tools</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 5,
+      "units": "lb"
+    },
+    "price": {
+      "value": 5,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "art",
+      "baseItem": "leatherworker"
+    },
+    "ability": "dex",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": "",
+    "activities": {
+      "TIaF69vCJGZlqPU0": {
+        "type": "check",
+        "_id": "TIaF69vCJGZlqPU0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "identifier": "leatherworkers-tools"
+  },
+  "type": "tool",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/TOOL_art_leatherworkers-tools.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729649707655,
+    "modifiedTime": 1758195026618,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xDEVHzjM1wRWZGAm",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!xDEVHzjM1wRWZGAm"
+}

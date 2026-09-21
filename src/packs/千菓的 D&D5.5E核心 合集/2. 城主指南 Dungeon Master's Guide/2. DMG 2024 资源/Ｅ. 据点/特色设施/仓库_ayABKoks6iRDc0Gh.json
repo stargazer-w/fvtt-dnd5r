@@ -1,0 +1,94 @@
+{
+  "name": "仓库",
+  "type": "facility",
+  "img": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/artisan-origin.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "description": {
+      "value": "<p><em>5 级据点设施</em></p><p><strong>先决条件：</strong>无<br /><strong>空间：</strong>宽敞<br /><strong>雇员：</strong>1<br /><strong>指令：</strong>贸易</p><p>仓库是一个凉爽而阴暗的空间，用于存放贸易物品，这些物品来自本书第 7 章的@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTreasure00000.JournalEntryPage.ctRdFYRoxmYc5yh5]{贸易商品表}和<em>《玩家手册》</em>第 6 章的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.cfhVAnmKmLQ5RUmD]{冒险装备}。</p><p><em><strong>贸易：商品。</strong></em>你对此设施下达贸易指令时，你委托设施雇员在之后 7 天里购买总价不超过 500 GP 的非魔法物品，并将其储存在仓库中；或者，你委托设施雇员花费 7 天时间将之前储存在仓库内的商品卖出。你承担购买商品所需的金钱成本，并且能购买的商品总价在你达到 9 级时提升至 2000 GP， 13 级时提升至 5000 GP。</p><p>当你从仓库中出售商品时，买家会额外支付你 10% 于标准价格的酬金；额外酬金将在你达到 9 级后提升至 20%、13 级后提升至 50%、17 级后提升至 100%。</p><p class=\"item-original\">Storehouse</p>",
+      "chat": ""
+    },
+    "identifier": "storehouse",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "building": {
+      "built": false,
+      "size": "cramped"
+    },
+    "craft": {
+      "item": null,
+      "quantity": 1
+    },
+    "defenders": {
+      "value": [],
+      "max": null
+    },
+    "disabled": false,
+    "enlargeable": false,
+    "free": false,
+    "hirelings": {
+      "value": [],
+      "max": 1
+    },
+    "level": 5,
+    "order": "trade",
+    "progress": {
+      "value": 0,
+      "max": null,
+      "order": ""
+    },
+    "size": "roomy",
+    "trade": {
+      "creatures": {
+        "value": [],
+        "max": null
+      },
+      "pending": {
+        "creatures": [],
+        "operation": null,
+        "stocked": false,
+        "value": null
+      },
+      "profit": 10,
+      "stock": {
+        "stocked": false,
+        "value": null,
+        "max": 500
+      }
+    },
+    "type": {
+      "value": "special",
+      "subtype": "storehouse"
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750605719678,
+    "modifiedTime": 1762013265825,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ayABKoks6iRDc0Gh",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!ayABKoks6iRDc0Gh"
+}

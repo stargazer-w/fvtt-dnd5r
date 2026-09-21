@@ -1,0 +1,62 @@
+{
+  "name": "便携式攻城锤",
+  "system": {
+    "description": {
+      "value": "<p>你可以使用便携式攻城锤撞破一扇门。当你这么做时，你在力量检定上获得 +4 加值。其他一名角色可以协助你使用攻城锤，并使你这次检定具有优势。</p><p class=\"item-original\">Ram, Portable</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 4,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 35,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "ram-portable"
+  },
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_ram-portable.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194966602,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "IE0w5h8N8UKuC9RE",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!IE0w5h8N8UKuC9RE"
+}

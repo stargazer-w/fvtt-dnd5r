@@ -1,0 +1,3115 @@
+{
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Heroes Protecting a Portal",
+      "type": "image",
+      "_id": "aM4O5ms7ShU53CaZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "英雄 Mercion、Molliver、Strongheart 和 Ringlerun 守护着通往另一个位面的传送门，抵御邪恶的入侵者。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/heroes-protect-portal.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750320870642,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.aM4O5ms7ShU53CaZ"
+    },
+    {
+      "sort": 200000,
+      "name": "Barbarian",
+      "type": "image",
+      "_id": "SEwCFWmoe5wPqLWP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "A Fierce Warrior of Primal Rage"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/barbarian.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1730194986179,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.SEwCFWmoe5wPqLWP"
+    },
+    {
+      "sort": 150000,
+      "name": "Sword, axe, and rock",
+      "type": "image",
+      "_id": "TA4xDoWO2cXuWKgX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/sword-axe-rock.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962286451,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.TA4xDoWO2cXuWKgX"
+    },
+    {
+      "sort": 300000,
+      "name": "Path of the Berserker",
+      "type": "image",
+      "_id": "EceyH0R2456kRdtW",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/path-of-the-berserker.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962336219,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.EceyH0R2456kRdtW"
+    },
+    {
+      "sort": 400000,
+      "name": "Path of the Wild Heart",
+      "type": "image",
+      "_id": "Rk0QcsmW6g5c4XzL",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/path-of-the-wild-heart.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962346161,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Rk0QcsmW6g5c4XzL"
+    },
+    {
+      "sort": 500000,
+      "name": "Path of the World Tree",
+      "type": "image",
+      "_id": "Z2RPOWDkIBXRG0CQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/path-of-the-world-tree.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962355982,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Z2RPOWDkIBXRG0CQ"
+    },
+    {
+      "sort": 600000,
+      "name": "Path of the Zealot",
+      "type": "image",
+      "_id": "rbUcTqEpuFZlIQiX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/path-of-the-zealot.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962363767,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.rbUcTqEpuFZlIQiX"
+    },
+    {
+      "sort": 700000,
+      "name": "Bard",
+      "type": "image",
+      "_id": "UH2FRBZlS7owFx0R",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "An Inspiring Performer of Music, Dance, and Magic"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/bard.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962377606,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.UH2FRBZlS7owFx0R"
+    },
+    {
+      "sort": 800000,
+      "name": "Bard Shapes Magic",
+      "type": "image",
+      "_id": "mwPJyvhdaQxLSOkX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "吟游诗人将灵感与想象塑造为魔力。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/bard-shapes-magic.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1777638276107,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.mwPJyvhdaQxLSOkX"
+    },
+    {
+      "sort": 900000,
+      "name": "College of Dance",
+      "type": "image",
+      "_id": "RISGrIITP20DrPKj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/college-of-dance.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962396522,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.RISGrIITP20DrPKj"
+    },
+    {
+      "sort": 1000000,
+      "name": "College of Glamour",
+      "type": "image",
+      "_id": "8FZ9RIiHgj7UPntB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/college-of-glamour.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962405535,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.8FZ9RIiHgj7UPntB"
+    },
+    {
+      "sort": 1100000,
+      "name": "College of Lore",
+      "type": "image",
+      "_id": "rKcbuxF24YtAkfrB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/college-of-lore.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962623883,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.rKcbuxF24YtAkfrB"
+    },
+    {
+      "sort": 1200000,
+      "name": "College of Valor",
+      "type": "image",
+      "_id": "Ddbv0hTmdZCJ7N7u",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/college-of-valor.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962637268,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Ddbv0hTmdZCJ7N7u"
+    },
+    {
+      "sort": 1300000,
+      "name": "Cleric",
+      "type": "image",
+      "_id": "UuvlT8YBqkDMyj9R",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "A Miraculous Priest of Divine Power"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/cleric.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962648524,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.UuvlT8YBqkDMyj9R"
+    },
+    {
+      "sort": 1400000,
+      "name": "A Cleric Prays for the Day's Spells",
+      "type": "image",
+      "_id": "iYYIz9iJWpRfYyFF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/cleric-prays-for-spells.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962660464,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.iYYIz9iJWpRfYyFF"
+    },
+    {
+      "sort": 1500000,
+      "name": "Life Domain",
+      "type": "image",
+      "_id": "ni0tD2OhmzJVVjxZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/life-domain.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962670628,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.ni0tD2OhmzJVVjxZ"
+    },
+    {
+      "sort": 1600000,
+      "name": "Light Domain",
+      "type": "image",
+      "_id": "TJBxb5HP0PQZbYKY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/light-domain.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962680888,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.TJBxb5HP0PQZbYKY"
+    },
+    {
+      "sort": 1700000,
+      "name": "Trickery Domain",
+      "type": "image",
+      "_id": "XofZMGocNyaKDoNg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/trickery-domain.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962693714,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.XofZMGocNyaKDoNg"
+    },
+    {
+      "sort": 1800000,
+      "name": "War Domain",
+      "type": "image",
+      "_id": "YG7dCEzrtTYtdhZz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "War Domain"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/war-domain.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962706663,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.YG7dCEzrtTYtdhZz"
+    },
+    {
+      "sort": 1900000,
+      "name": "Druid",
+      "type": "image",
+      "_id": "psX0aM7vWPnjDy1f",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "A Nature Priest of Primal Power"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/druid.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962720492,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.psX0aM7vWPnjDy1f"
+    },
+    {
+      "sort": 2000000,
+      "name": "Druid Channeling Power",
+      "type": "image",
+      "_id": "AR1PO8dBsG8VMT4K",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "A Druid channels the power of nature through their magic."
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/druid-channels-power.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962744020,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.AR1PO8dBsG8VMT4K"
+    },
+    {
+      "sort": 2100000,
+      "name": "Circle of the Land",
+      "type": "image",
+      "_id": "nZYRZlB2TkxCbQC5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/circle-of-the-land.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962765091,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.nZYRZlB2TkxCbQC5"
+    },
+    {
+      "sort": 2200000,
+      "name": "Circle of the Moon",
+      "type": "image",
+      "_id": "n1JJcOrHZkyaTHZ3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/circle-of-the-moon.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962783209,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.n1JJcOrHZkyaTHZ3"
+    },
+    {
+      "sort": 1950000,
+      "name": "A Druid in wolf form howls at the moon",
+      "type": "image",
+      "_id": "pBmHaKHliLvuPfUs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/druid-in-wolf-form.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728962732506,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.pBmHaKHliLvuPfUs"
+    },
+    {
+      "sort": 2400000,
+      "name": "Circle of the Sea",
+      "type": "image",
+      "_id": "mHpIstCE24qkzKqy",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/circle-of-the-sea.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963609208,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.mHpIstCE24qkzKqy"
+    },
+    {
+      "sort": 2500000,
+      "name": "Circle of the Stars",
+      "type": "image",
+      "_id": "lOyX9K8LEAd5IswG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/circle-of-the-stars.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963619139,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.lOyX9K8LEAd5IswG"
+    },
+    {
+      "sort": 2600000,
+      "name": "Fighter",
+      "type": "image",
+      "_id": "esJhJ8UP0U2EJu74",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "A Master of All Arms and Armor"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/fighter.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963636784,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.esJhJ8UP0U2EJu74"
+    },
+    {
+      "sort": 2700000,
+      "name": "Fighter Stands Between Ally and Dragon",
+      "type": "image",
+      "_id": "Dxmovf4md47R3EjZ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "A Fighter stands between an ally and the onslaught of a black dragon."
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/fighter-stands-between-ally-dragon.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963649356,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Dxmovf4md47R3EjZ"
+    },
+    {
+      "sort": 2800000,
+      "name": "Battle Master",
+      "type": "image",
+      "_id": "Lmsac07AO6ZzvEcG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/battle-master.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963661911,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Lmsac07AO6ZzvEcG"
+    },
+    {
+      "sort": 2900000,
+      "name": "Champion",
+      "type": "image",
+      "_id": "qayHNwOyTmTv3cXj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/champion.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963675931,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.qayHNwOyTmTv3cXj"
+    },
+    {
+      "sort": 3000000,
+      "name": "Eldritch Knight",
+      "type": "image",
+      "_id": "iW2cLi93r3AuYxUi",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/eldritch-knight.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963696087,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.iW2cLi93r3AuYxUi"
+    },
+    {
+      "sort": 3100000,
+      "name": "Psi Warrior",
+      "type": "image",
+      "_id": "1A9tH1YFWh3bj4Ps",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/psi-warrior.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963707731,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.1A9tH1YFWh3bj4Ps"
+    },
+    {
+      "sort": 3200000,
+      "name": "Monk",
+      "type": "image",
+      "_id": "fYVTGxSWBTBc602Y",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "A Martial Artist of Supernatural Focus"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/monk.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963716234,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.fYVTGxSWBTBc602Y"
+    },
+    {
+      "sort": 3300000,
+      "name": "Warrior of Mercy",
+      "type": "image",
+      "_id": "LbGptG9eEuu2nNwL",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/warrior-of-mercy.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963726145,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.LbGptG9eEuu2nNwL"
+    },
+    {
+      "sort": 3400000,
+      "name": "Warrior of Shadow",
+      "type": "image",
+      "_id": "yIwAis0MvTMsjCe5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/warrior-of-shadow.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963739200,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.yIwAis0MvTMsjCe5"
+    },
+    {
+      "sort": 3500000,
+      "name": "Warrior of the Elements",
+      "type": "image",
+      "_id": "NLBWCSUy2sIvCtzJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/warrior-of-the-elements.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963748345,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.NLBWCSUy2sIvCtzJ"
+    },
+    {
+      "sort": 3600000,
+      "name": "Warrior of the Open Mind",
+      "type": "image",
+      "_id": "jmcZttoCPWV91sB1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/warrior-of-the-open-mind.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963758972,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.jmcZttoCPWV91sB1"
+    },
+    {
+      "sort": 3700000,
+      "name": "Paladin",
+      "type": "image",
+      "_id": "iPWoJTCp4yt4DQRw",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/paladin.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963770844,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.iPWoJTCp4yt4DQRw"
+    },
+    {
+      "sort": 3800000,
+      "name": "A Paladin Dedicates Themselves",
+      "type": "image",
+      "_id": "TC9abWoNH0c8izAp",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "圣骑士对自身信条的奉献，具现为澎湃的魔法神力。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/paladin-dedicating-themselves.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1777649062593,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.TC9abWoNH0c8izAp"
+    },
+    {
+      "sort": 3900000,
+      "name": "Oath of Devotion",
+      "type": "image",
+      "_id": "3DHjTK7qlPg4HNYU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/oath-of-devotion.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963791404,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.3DHjTK7qlPg4HNYU"
+    },
+    {
+      "sort": 4000000,
+      "name": "Oath of Glory",
+      "type": "image",
+      "_id": "NSQCO8WeewZNRNvb",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/oath-of-glory.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963879689,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.NSQCO8WeewZNRNvb"
+    },
+    {
+      "sort": 4100000,
+      "name": "Oath of the Ancients",
+      "type": "image",
+      "_id": "MOn6qZ2dV0VBHusB",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/oath-of-the-ancients.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963889941,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.MOn6qZ2dV0VBHusB"
+    },
+    {
+      "sort": 4200000,
+      "name": "Oath of Vengeance",
+      "type": "image",
+      "_id": "8J2SuRksDxJJcFiv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/oath-of-vengeance.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963901318,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.8J2SuRksDxJJcFiv"
+    },
+    {
+      "sort": 4300000,
+      "name": "Ranger",
+      "type": "image",
+      "_id": "7qN4IGLvwpc7j7KP",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/ranger.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963912851,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.7qN4IGLvwpc7j7KP"
+    },
+    {
+      "sort": 4400000,
+      "name": "Deer Watching a Druid",
+      "type": "image",
+      "_id": "r9NYYGWNoSxEYTlU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/deer-watching-druid.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728963924628,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.r9NYYGWNoSxEYTlU"
+    },
+    {
+      "sort": 4500000,
+      "name": "Hunter",
+      "type": "image",
+      "_id": "eDSDWaZqyZqNAGxd",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/hunter.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964860842,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.eDSDWaZqyZqNAGxd"
+    },
+    {
+      "sort": 4450000,
+      "name": "Gloom Stalker",
+      "type": "image",
+      "_id": "6lH0bBjC8Fxg9rkI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/gloom-stalker.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964029098,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.6lH0bBjC8Fxg9rkI"
+    },
+    {
+      "sort": 4425000,
+      "name": "Fey Wanderer",
+      "type": "image",
+      "_id": "ckJhsBIlf7Qxo19z",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/fey-wanderer.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964017629,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.ckJhsBIlf7Qxo19z"
+    },
+    {
+      "sort": 4412500,
+      "name": "Beast Master",
+      "type": "image",
+      "_id": "fzHuYQM4SG6qynLV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/beast-master.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964007430,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.fzHuYQM4SG6qynLV"
+    },
+    {
+      "sort": 4600000,
+      "name": "Rogue",
+      "type": "image",
+      "_id": "EJGPmvmIPA4IT60s",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/rogue-balancing-knife.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964870833,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.EJGPmvmIPA4IT60s"
+    },
+    {
+      "sort": 4700000,
+      "name": "Arcane Trickster",
+      "type": "image",
+      "_id": "Hkz5LQZS0MKSTWoM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/arcane-trickster.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964899990,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Hkz5LQZS0MKSTWoM"
+    },
+    {
+      "sort": 4612500,
+      "name": "Rogue Running from Fire Breath",
+      "type": "image",
+      "_id": "si6movwFtZhNx4q3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/rogue-running-from-fire-breath.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964878615,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.si6movwFtZhNx4q3"
+    },
+    {
+      "sort": 4800000,
+      "name": "Assassin",
+      "type": "image",
+      "_id": "GcgIi51M6G6QXj6l",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/assassin.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964909778,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.GcgIi51M6G6QXj6l"
+    },
+    {
+      "sort": 4900000,
+      "name": "Soulknife",
+      "type": "image",
+      "_id": "jkA7ZFJd0Brfoor9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/soulknife.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964922940,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.jkA7ZFJd0Brfoor9"
+    },
+    {
+      "sort": 4625000,
+      "name": "Infiltrators Restraining Guards",
+      "type": "image",
+      "_id": "A8wujCme7opVrxUE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/infiltrators-restraining-guards.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964889019,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.A8wujCme7opVrxUE"
+    },
+    {
+      "sort": 5000000,
+      "name": "Thief",
+      "type": "image",
+      "_id": "DE7Opse8FQcWzA45",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/thief.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964932803,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.DE7Opse8FQcWzA45"
+    },
+    {
+      "sort": 5100000,
+      "name": "Sorcerer",
+      "type": "image",
+      "_id": "9RyrQV2snF08NjFc",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/sorcerer.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964942802,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.9RyrQV2snF08NjFc"
+    },
+    {
+      "sort": 5200000,
+      "name": "Sorcerer on Rock",
+      "type": "image",
+      "_id": "CaXX3GYGe2p3JJ33",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/sorcerer-on-rock.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964955605,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.CaXX3GYGe2p3JJ33"
+    },
+    {
+      "sort": 5300000,
+      "name": "Aberrant",
+      "type": "image",
+      "_id": "V5olgMSrd0Zacz0K",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/aberrant.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964982278,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.V5olgMSrd0Zacz0K"
+    },
+    {
+      "sort": 5400000,
+      "name": "Clockwork",
+      "type": "image",
+      "_id": "H0eF1w5Ar7ksQI98",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/clockwork.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965020464,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.H0eF1w5Ar7ksQI98"
+    },
+    {
+      "sort": 5500000,
+      "name": "Draconic",
+      "type": "image",
+      "_id": "bJx0jRA0yw5VQH8U",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/draconic.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965033423,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.bJx0jRA0yw5VQH8U"
+    },
+    {
+      "sort": 5600000,
+      "name": "Wild Magic",
+      "type": "image",
+      "_id": "oVr588YdgC7sUNmD",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/wild-magic.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965044779,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.oVr588YdgC7sUNmD"
+    },
+    {
+      "sort": 5250000,
+      "name": "Delina Manipulates Wild Magic",
+      "type": "image",
+      "_id": "Sc9DhurPdmkq4ole",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "The Sorcerer Delina manipulates wild magic to create unpredictable wonders."
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/delina-manipulates-wild-magic.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728964966013,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.Sc9DhurPdmkq4ole"
+    },
+    {
+      "sort": 5700000,
+      "name": "Warlock",
+      "type": "image",
+      "_id": "IwQ9ZXbNnPbNVcWH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/warlock.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965056255,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.IwQ9ZXbNnPbNVcWH"
+    },
+    {
+      "sort": 5800000,
+      "name": "Skull and Spiders",
+      "type": "image",
+      "_id": "v8TYtn6TvIcdCntg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/skull-and-spiders.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965106917,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.v8TYtn6TvIcdCntg"
+    },
+    {
+      "sort": 5750000,
+      "name": "Archfey",
+      "type": "image",
+      "_id": "yLL5lQDuwybWHdR3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/archfey.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965066306,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.yLL5lQDuwybWHdR3"
+    },
+    {
+      "sort": 5775000,
+      "name": "Celestial",
+      "type": "image",
+      "_id": "0ODzCQ4DDHMYzAqQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/celestial.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965076859,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.0ODzCQ4DDHMYzAqQ"
+    },
+    {
+      "sort": 5787500,
+      "name": "Fiend",
+      "type": "image",
+      "_id": "hBj1dxfsrtTE3qET",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/fiend.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965087240,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.hBj1dxfsrtTE3qET"
+    },
+    {
+      "sort": 5793750,
+      "name": "Great Old One",
+      "type": "image",
+      "_id": "GlIQYJVBy6ndD6La",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/great-old-one.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965097182,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.GlIQYJVBy6ndD6La"
+    },
+    {
+      "sort": 5900000,
+      "name": "Wizard",
+      "type": "image",
+      "_id": "PL7bJ0pKJowitAfU",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/wizard.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965117235,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.PL7bJ0pKJowitAfU"
+    },
+    {
+      "sort": 5925000,
+      "name": "Elf Queen Yolande",
+      "type": "image",
+      "_id": "n1xrSQG1U8RQ4vJj",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "精灵女王悠兰德以法术“悠兰德王者威仪”令一头红龙心生敬畏。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/elf-queen-yolande.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1777643667926,
+        "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.n1xrSQG1U8RQ4vJj"
+    },
+    {
+      "sort": 5950000,
+      "name": "Spellbook and Potions",
+      "type": "image",
+      "_id": "rU3ZOyOp2VugnZM2",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/spellbook-and-potions.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965135477,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.rU3ZOyOp2VugnZM2"
+    },
+    {
+      "sort": 6050000,
+      "name": "Leomund Studying",
+      "type": "image",
+      "_id": "SOjdgB8klLbnYlgE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": "The Wizard Leomund studies spellbooks to prepare his magic."
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/leomund-studying-spellbooks.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965145652,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.SOjdgB8klLbnYlgE"
+    },
+    {
+      "sort": 6150000,
+      "name": "Abjurer",
+      "type": "image",
+      "_id": "M8tgQdPBaQ7jyCqk",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/abjurer.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965157130,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.M8tgQdPBaQ7jyCqk"
+    },
+    {
+      "sort": 6250000,
+      "name": "Diviner",
+      "type": "image",
+      "_id": "hzwogHc8FgJFXMmX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/diviner.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965167086,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.hzwogHc8FgJFXMmX"
+    },
+    {
+      "sort": 6350000,
+      "name": "Evoker",
+      "type": "image",
+      "_id": "kFstrFfYAMz5QZmV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/evoker.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965175474,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.kFstrFfYAMz5QZmV"
+    },
+    {
+      "sort": 6450000,
+      "name": "Illusionist",
+      "type": "image",
+      "_id": "rDfM6y3Au4DQ9HS3",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/illusionist.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728965183704,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!0X0xAvYkcGA9vzoX.rDfM6y3Au4DQ9HS3"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": false,
+      "append": 4,
+      "order": 999999999
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334173182,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "0X0xAvYkcGA9vzoX",
+  "sort": 112500,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!0X0xAvYkcGA9vzoX"
+}

@@ -1,0 +1,245 @@
+{
+  "_id": "dmgCampaignPremi",
+  "name": "战役背景",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "Q3dG4K5emArn506R",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>第 4 章中概述的关于冒险的故事的所有内容，同样也适用于战役中的故事：战役像是一套系列漫画或电视节目，其中的每个冒险（就像一期漫画或一集剧集）都讲述了一个自成一体的故事，同时亦与更大的故事有所联系。战役的故事和冒险一样不是预先定死的——玩家角色的行动将会影响故事的展开。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776581097678,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCampaignPremi.Q3dG4K5emArn506R"
+    },
+    {
+      "sort": 200000,
+      "name": "战役中的角色",
+      "type": "text",
+      "_id": "PMDmCrjTzcMfg8Ge",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Campaign Characters</p><p>所有 D&amp;D 冒险的焦点都是角色们——你要与在背后负责扮演他们的玩家们共同谱写属于角色们的史诗篇章。</p><p>你可以多多与玩家合作交流，了解他们最感兴趣的内容是什么，这样你就可以创作出符合玩家心意的故事——他们所希望看到的、由自己的角色出演的精彩故事。如果你深入了解玩家及其角色的动机，你也能更加有效地准备一场冒险的导入情节。（见第 4 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDrawInThePlay]{导入玩家}“部分）。</p><h2>玩家参与</h2><p class=\"journal-original-h2\">Player Input</p><p>D&amp;D 战役并非由你一人独自创作。玩家们亦会通过角色的行为或是直接分享他们想体验的内容来为战役发展做出贡献。以下是两种了解玩家喜好的方向：</p><p><strong>直接参与。</strong>询问你的玩家：他们想在战役中做什么？你可以定期询问他们对战役的看法、想要更多地体验什么内容、以及想在游戏中进一步探索哪些要素。这些问话可以利用跑团结束之后闲暇时间进行。</p><p><strong>间接参与。</strong>玩家自创建角色开始所做出的选择，便可能表明了他们期待的游戏内容。例如，创建了一名游荡者角色的玩家，也许就想要靠自己的诡诈与欺骗大展身手；同样的，创建了一名野蛮人角色的玩家则可能更倾向于酣畅淋漓的战斗。你可以根据这些内容来记下每名玩家会喜欢的遭遇类型，并找出适合这名角色展现闪光点的情节。</p><h2>角色弧光</h2><p class=\"journal-original-h2\">Character Arcs</p><p>就像电影和文学作品中的大多数主角一样，D&amp;D 冒险者也是通过克服挑战与变化来积累经验、以此继续面对新的挑战与变化。将角色的动机融入冒险之中、并设置更高的游戏内收益，以此帮助角色成长，对玩家来说是十分令人兴奋的助力。作为 DM，你可以使用角色跟进表来记录每个玩家角色的关键信息。若要了解更多想法，请参考下文“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgPlanAdventure.JournalEntryPage.XWFimbsTgDSCRcMT]{让玩家投入}”部分。</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>使用角色卡跟进信息</h3><p>玩家角色卡和 NPC 角色卡都可以用来记录这些详细信息。</p></article></section><p><em><strong>角色动机。</strong></em>考虑一下角色们分别是因何种原因的推动而投入冒险之中的。这种动机通常分为以下几种：</p><p><strong>目标。</strong>角色的目标是推动角色投身冒险的短期原因。在战役开始时，这可能是对宝藏的渴望、对刺激的渴望、亦或是背景故事中的某些需求。随着角色继续冒险，他们会找到新的目标，例如：寻找失落的圣物、重现先祖的荣光、为殒命的导师复仇、打败某位反派。</p><p><strong>理想。</strong>角色的理想，即是这名角色希望通过穷极一生的冒险来实现的终极理想。例如，一名角色可能梦想着成为传奇骑士，或是为自己的家乡带来和平与安定。角色的理想未必要与其当前的目标有所关联。</p><p><strong>怪癖和鬼点子。</strong>怪癖和鬼点子反映了角色的喜好、冲动、还有其他特征。这些内容在游戏中时常出现，例如角色想要胜过一名粗鲁的旅店老板、或是表达自己对移位兽皮草的钟爱。</p><p>玩家角色的动机往往能在游戏过程中揭露。如果你不清楚某位角色的动机、或是其动机看起来似乎发生了变化，那你可以直接询问玩家本人以了解具体情况。</p><p><em><strong>家人、朋友、敌人</strong></em>。角色的起源（种族和背景）在一定程度上暗示了其背景故事——即，角色的家庭及其在成为冒险者之前所做的事情。你需要记下背景中可能会出现在战役里的特定角色：朋友、敌人、家人，还有其他值得注意的角色。</p><p>如果这些背景中的角色成为了战役中的重要角色，请与相应的玩家合作设计它们的细节。当你打算在战役中加入角色失散多年的兄弟姐妹或儿时的死对头时，应当保持谨慎，以避免做出破坏玩家信任的事情。在这些角色正式登场之前，请确保玩家不会因此感到不满。</p><p><em><strong>基于某个角色的冒险。</strong></em>设计冒险时，你应不时给出能让玩家演出角色动机、背景故事、以及类似元素的高光时刻。以下是一些关于此类冒险的例子：</p><ul><li class=\"Core-Styles_Core-Bulleted\">角色在过去的某位对手现身，要解决他们之间的恩怨。</li><li class=\"Core-Styles_Core-Bulleted\">一名擅长潜行的角色带领队伍中的其他人策划一场劫案，以此检验他们的技术。</li><li class=\"Core-Styles_Core-Bulleted\">一名角色得知了一件能用来拯救其家乡的魔法物品的位置。</li><li class=\"Core-Styles_Core-Bulleted\">一名施法者角色要加入某个特定的施法者结社，但这需要完成某项试炼。</li></ul><p>设计着重于于某一特定角色的冒险时，亦应确保其对整个队伍的吸引力——即使只是为了帮助他们的同伴。不过安排此类冒险时也应避免过于频繁地将冒险集中在某一特定的角色身上：你应找机会不时为每个角色运作基于该角色的冒险。</p><p><em><strong>设立新的目标。</strong></em>角色的目标可以随时改变，但你也能通过大约每隔 5 级就安排一次标志性的大胜来鼓励他们主动改变目标。在角色完成其的目标时，请思考并回答以下问题：</p><ul><li class=\"Core-Styles_Core-Bulleted\">完成这个目标会如何带来新的挑战？</li><li class=\"Core-Styles_Core-Bulleted\">这场胜利为何仅是角色所追求目标的冰山一角？</li><li class=\"Core-Styles_Core-Bulleted\">谁可能会因角色完成此目标而感到不安？</li><li class=\"Core-Styles_Core-Bulleted\">角色会想收获的、有助于实现其理想的奖励是什么？</li></ul><p>整理关于这些问题的回答，以此设计角色的新目标以给下一步的冒险提供灵感。</p><p><em><strong>以角色行动为基础。</strong></em>有时，让玩家通过其角色的行动来决定未来的冒险、以此影响战役的走向，是一件很有趣的事。例如，若是角色用他们积累的宝藏买下了一家酒馆，你就可以调整战役的内容，让这家酒馆在未来的冒险中发挥某些作用：也许某次冒险将会涉及到酒馆的竞争对手试图让角色们的酒馆倒闭；而另一次冒险则可能会将小酒馆用作一场谋杀之谜所上演的舞台。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581110902,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCampaignPremi.PMDmCrjTzcMfg8Ge"
+    },
+    {
+      "sort": 300000,
+      "name": "战役冲突",
+      "type": "text",
+      "_id": "IzpMNawOjfqvswS9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Campaign Conflicts</p><p>维持战役长久运行的一种方法便是依次给出三项引人注目的冲突——而战役中的冒险即是围绕这些冲突而展开的。这些冲突自战役的早期开始浮现，随着战役的展开，冒险亦将依次集中于不同的冲突上，以此维持玩家的兴奋感。</p><p>你可以使用@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTrackingSheet.JournalEntryPage.d1DCajODZHrrhjvj]{战役冲突跟进卡}来记录战役冲突（卡上有足够的空间，用于记录详细信息和注释）。这些冲突的规模大小可以随意设定，但其中最好要有至少一个冲突可以被快速解决。每场冲突都意味着冒险者与某些反派力量的交锋，不过你也可以设置两股对立的强大势力，并等待冒险者选择与其中的某个势力结盟（如果可以的话）。下文中“@UUID[.POSq3DLFFBnQJF9E]{奇幻风格}”一节给出了一些专注于某一特定主题的冲突范例。</p><p>如果一个冲突在战役结束前便圆满结束了，那就需要创建一个新的冲突来替换它。你也可以替换掉玩家没有感到共鸣的冲突，以及那些对你构建冒险造成麻烦的冲突。</p><h2>冲突弧线</h2><p class=\"journal-original-h2\">Conflict Arcs</p><p>在设计冲突时，请思考其在战役过程中会如何展现，如同设计角色弧光一样：角色们是怎样遇到这个冲突的？随着时间的推移，这个冲突会有何种发展？冲突将会在什么样的高潮中迎来结尾？</p><p>在构建冲突弧线时，你可以参考第 4 章中关于@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pHMEDq6JZOxYAm4U.JournalEntryPage.wkg7ZTl7O5iGTXrM]{游戏阶段}的内容。第 5、11 、17 级是划分角色强度与实力的里程碑——同样也可以是划分战役弧线的里程碑。游戏阶段的提升，是结束战役中的旧冲突并引入影响更深、威胁更大的新冲突的理想时机；新阶段的故事层级也能让角色意识到，他们一直在处理的冲突规模：例如，玩家们也许会发现，他们在前 4 级中一直对抗的盗贼团，不过是他们在 T2 中将要直面的敌对国家手下的傀儡。</p><p>本章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgGreyhawk00000]{灰鹰}”一节给出了冲突弧线的范例。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581156251,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCampaignPremi.IzpMNawOjfqvswS9"
+    },
+    {
+      "sort": 400000,
+      "name": "奇幻风格",
+      "type": "text",
+      "_id": "POSq3DLFFBnQJF9E",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Flavors of Fantasy</p><p>你的 D&amp;D 战役也许是受了某种特定奇幻风格的启发，而下文便介绍了几种奇幻风格。这些奇幻世界分支中的任何一个都可以受任何类型的文化圈的文化、神话、传说和幻想的启迪与点化：一场史诗般的奇幻战役可以借鉴法国的浪漫故事、或是中国武侠传奇；而一场神话奇幻战役则可以建立在希腊神话或是吉尔伽美什史诗等现实神话的基础上。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.aZuAvdvjcsPjUFiX cite=false]</p><h2>英雄奇幻</h2><p class=\"journal-original-h2\">Heroic Fantasy</p><p>英雄奇幻着眼于利用魔法之力抵抗怪物之威胁的冒险者们——此即是 D&amp;D 规则默认的基本型。</p><p><em><strong>英雄奇幻冲突。</strong></em>英雄奇幻风格的战役往往围绕着古老的地下城——并找到其中的宝藏、或是清剿藏身于此的怪物和反派。以下是推动此类战役运行的冲突范例：</p><p><strong>邪教团体。</strong>邪恶的秘教团渗透了一片祥和的国度，企图解放一位被缚于此地的某座地下城之中的古老邪恶存在——一旦这一邪物被释放，整片国度都将步入毁灭。</p><p><strong>真菌感染。</strong>为了包含原始森林免受猎人和殖民者的破坏，德鲁伊们释放了真菌瘟疫——随后这道瘟疫便彻底失控了。</p><p><strong>昔日敌手。</strong>一位曾于几年前和角色们交锋过的狡猾反派重新现身——这是用正义制裁它的大好时机。</p><h2>剑与巫术</h2><p class=\"journal-original-h2\">Sword and Sorcery</p><p>剑与巫术风格的战役往往发生在一处残酷的世界，其中充斥着邪恶的施法者与衰颓的城市。推动故事的主角们前进的动机，往往更多是个人的目的与欲望，而非无私奉献的美德。</p><p><em><strong>剑与巫术冲突。</strong></em>此类风格的战役中，行使魔法之人往往被认为是导致文明腐化与堕落的源泉，而魔法师们亦是此类设定中的经典反派。也正因此，魔法物品相对来说更加稀有，通常也都比较危险。以下是推动此类战役运行的冲突范例：</p><p><strong>邪恶冒险者。</strong>一队经验丰富的邪恶冒险者依靠其威能与影响力欺压凄惨的民众。</p><p><strong>邪恶武器。</strong>被一柄邪恶智能武器影响的一位骑士残害着一片曾经祥和的国度。邪教团体崇拜并守护着这柄武器——为了终结这场威胁，这件罪恶魔兵必须被摧毁。</p><p><strong>失落王朝。</strong>一个长久以来被人遗忘的王朝城市从汪洋深处或沙海之下升起，重见天日——而其人民随后掀起了一场征服之战。</p><h2>史诗奇幻</h2><p class=\"journal-original-h2\">Epic Fantasy</p><p>史诗奇幻战役以强调善恶冲突为其游戏中不变的元素，而冒险者们或多或少偏向善良一方。这些角色因崇高理想行动，而非自私自利，且会毫不犹豫的去面对无法想象的危机。角色们也有自己的道德挣扎，在对抗世界性邪恶威胁的同时还要跟内心的邪恶倾向作斗争。这种战役中的故事通常还包括一些浪漫元素：薄命鸳鸯的悲惨命运，超越生死的激情，以及虔诚骑士与所侍奉君王或贵族之间的忠诚情谊。</p><p><em><strong>史诗奇幻冲突。</strong></em>下列冲突可以作为史诗奇幻战役中的精彩情节：</p><p><strong>末日预言。</strong>一位先知预言了这个世界的终结——而角色们可以阻止末日的到来。然而，侍奉末日的邪教将会阻碍角色们的步伐，一次又一次。</p><p><strong>巨龙暴政。</strong>一条邪恶而又强大的巨龙进入了一处地区，破坏了这里的环境，并要求周围的聚落献上贡品。</p><p><strong>沉于昔日之敌。</strong>一位被认为早在无数年岁之前便已死去的邪恶存在自妖精荒野中完好归来。现在，它渴望向昔日那些同样早在无数年岁之前便已死去的敌人——的后代，进行复仇。</p><h2>神话奇幻</h2><p class=\"journal-original-h2\">Mythic Fantasy</p><p>神话奇幻战役的主题和故事基于古老的神话与传说，例如吉尔伽美什 Gilgamesh 或库丘林 Cu Chulainn 等。冒险者们试图完成传奇般的伟大功绩，期间甚至由众神协助或是受其阻挠——甚至其本身就带着神圣血统。他们面对的怪物和反派或许也有着同样的起源：地下城中的奇美拉也许不再是一个随机刷新的怪物，而是一位神灵的诅咒所带来的憎恶产物。</p><p><em><strong>神话奇幻冲突。</strong></em>下列冲突可以作神话奇幻战役中的精彩情节：</p><p><strong>神圣试炼。</strong>为了得到诸神的赠礼或青睐，冒险者们接下了一系列试炼，并将在最终抵达诸神的领域——他们也许可以于此提出自己的请求。</p><p><strong>神怒之日。</strong>由于一座神殿被毁，某位记仇的神灵向一处王国降下一系列越来越严重的灾祸，直到属于神殿的遗物重归其位。</p><p><strong>巨人！</strong>一座极为高耸的云上巨城悬浮于大地。角色们可以选择与其中的巨人死战，或是于双方之间促成长久的和平。</p><h2>超自然恐怖</h2><p class=\"journal-original-h2\">Supernatural Horror</p><p>如果想让战役涉及恐怖要素，那就可以考虑使用<em>《怪物图鉴》</em>中即有的大量适合超自然恐怖故事题材的生物。此类战役的要点是营造的恐怖氛围，小心翼翼亦步亦趋以及引人联想的描述。玩家们也必须参与这种营造——他们必须主动融入你试图营造的氛围中。</p><p>无论你是打算运作一个完整的恐怖战役，还是只打算进行一个毛骨悚然的单独冒险，你都最好先跟玩家们讨论讨论，确保他们同意你的计划。恐怖题材通常紧张且主观，不是每个人都能享受其中的乐趣（为了顺利运行此类恐怖风格的游戏，你可以和玩家讨论第 1 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgEnsuringFunFo]{确保所有人玩得开心}”中关于底线的内容）。</p><p><em><strong>超自然恐怖冲突。</strong></em>超自然恐怖主题的战役通常涉及远超凡人的亡灵和魔族大反派。以下是推动此类战役运行的冲突范例：</p><p><strong>无面领主。</strong>朱庇莱克斯，无面领主，已经从深渊中涌出，不断渗入幽暗地域。角色们得知了地下世界的住民正需要援手，以打败这位恶魔领主及其爪牙。</p><p><strong>死灵学院。</strong>吸血鬼们创办了一座研习死灵术的学院，吸引需要新鲜尸体进行研究的死灵师们加入。一支吸血鬼猎人战团正试图寻求角色们的帮助。</p><p><strong>不死魔君。</strong>一位受人尊敬的君主将信仰转投向奥喀斯，以此攫取力量，化作一位巫妖。</p><h2>阴谋</h2><p class=\"journal-original-h2\">Intrigue</p><p>政治阴谋、谍报活动、干扰破坏以及其他“匕首&amp;斗篷”风格的活动都可以作为一场惊心动魄的战役背景。在此种风格的游戏中，角色也许会更注重技能熟练项、和身居高位者打好关系，而非掌握攻击性法术和魔法武器。角色扮演和社交的作用将会比战斗更为重要，而队伍可能经历许多个场景也见不到一只怪物。不过，请务必在开始前让玩家们提知道即将开始的战役类型。否则可能会有玩家创建一名重视战斗能力的角色，并在一堆交涉手和间谍中无所适从。</p><p><em><strong>阴谋冲突。</strong></em>下列冲突可以作为阴谋战役中的精彩情节：</p><p><strong>双城之战。</strong>两座封国或聚落之间常年不和。在出手帮助了其中一方后，角色们亦被卷入了双方的对峙之中。</p><p><strong>僭王者。</strong>一处王国因为其元首的突然死亡而深陷混乱，而合法的王国继承人正在受到的敌对势力的威胁。</p><p><strong>顾问的阴谋。</strong>角色们引起了一位君王的兴趣，然而君王身边最受信任的顾问却将角色们看作了目标——这位顾问在暗中谋划着夺权，成为这片国度的真正掌权者。</p><h2>悬疑</h2><p class=\"journal-original-h2\">Mystery</p><p>悬疑主题的战役需要.角色们去扮演调查者，或是行走于各城镇间解决当局正棘手的案件。这种战役强调谜题和解密而非酷炫战斗。然而，一个除了解谜之外别无他物的团是很让人有挫败感的，所以请在其中加入一些其他类型的遭遇。</p><p><em><strong>悬疑冲突。</strong></em>悬疑内容也许会自始至终贯穿整个团。角色们需要层层拨茧，揭开事件的真相——然而最开始将他们引至悬疑之路的冒险很可能只是与悬疑事件本身擦肩而过。以下是悬疑战役的冲突范例：</p><p><strong>犯罪集团。</strong>一个分布广泛的犯罪集团寻求着获取经济或政治力量。这个集团的间谍无处不在，甚至就在冒险者的家庭和朋友之间。</p><p><strong>幻型刺客。</strong>一个由变形怪或其他变形伪装者组成的秘密结社正在慢慢地、一个接着一个地暗杀声名显赫之人。</p><p><strong>捉贼！</strong>一位仅偷盗贵重的珠宝和艺术作品的非凡窃贼在暗中活跃着。角色们可能会在得到无价之宝后被它盯上。</p><h2>历险</h2><p class=\"journal-original-h2\">Swashbuckling</p><p>海盗与火枪手式的历险记型冒险是一种节奏明快的战役。潇洒迷人的英雄们在宫庭的阴谋间穿梭，从阳台跳到等待的马匹上，甩掉紧随其后的追捕者。相比于探索地城，角色们会花更多时间在城市、皇室宫廷以及航行的船只中游走。尽管如此，英雄们或许最后还是要进到经典的地下城中，例如逃离一间囚室，或是在下水道中寻找反派的密室。</p><p><em><strong>历险冲突。</strong></em>下列冲突可以作为历险战役中的精彩情节：</p><p><strong>继承“遗产”。</strong>一名角色从一位逝去的亲人处继承了一件魔法物品——然而这位亲人的敌对者同样在追查这件物品的踪迹。</p><p><strong>海盗与私掠。</strong>一位新上任的君主向海军及私掠船发放委托，让它们猎杀海盗船以打击海盗行为。</p><p><strong>渊海觉醒。</strong>沉眠于大洋深处的一只渊海魔怪苏醒了，它派出自己的爪牙，诸如鲨华鱼人、迈罗人鱼、龙龟，袭击着海上的船只。</p><h2>战争</h2><p class=\"journal-original-h2\">War</p><p>一场战争型的战役着眼于扭转战事的英雄角色。角色们担当着特殊的使命：夺取某面增强亡灵军队的魔法标旗、集合援军打破围城、切入敌军侧翼直取魔将。冒险小队亦有可能必须固守某战术地点直至援军到达以支援大部队的战斗，拦截敌方斥候的信息，或是切断敌方补给线。搜集情报和外交任务还可以提供更多涉及战斗的冒险内容。</p><p><em><strong>战争冲突。</strong></em>下列冲突可以作为战争战役中的精彩情节：</p><p><strong>自由战士。</strong>缺乏武装、组织混乱的穷苦之人向暴君掀起了反旗。</p><p><strong>侵略战争。</strong>一个军国主义国家入侵了其爱好和平的邻国。</p><p><strong>棋盘上的弃子。</strong>一场大战持续了数十年，其最初爆发的原因早已被遗忘。被卷入战争中的人们努力地在这片荒芜而又残酷的世界中挣扎求生，寻找生命的意义与目标。</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh5ArtHandout.JournalEntryPage.VCQ8B9WTdy2nznwx classes=\"float-right size-three\" cite=false]</p><h2>混合</h2><p class=\"journal-original-h2\">Crossing the Streams</p><p>科幻作品、科学奇幻以及许多其他奇幻的元素同样根植于 D&amp;D 之中，而你的战役亦可以此为启发。例如，你可以让角色们穿过一面魔镜，进入刘易斯·卡罗尔笔下的不可思议之国；也可以带他们登上穿梭于星海之间的航船；甚至干脆将你的战役发生的世界设定为激光武器（见第 3 章中“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.GMvOOPDd9SacjrYl]{火器与爆炸物}”一段）和<em>魔法飞弹魔杖</em>并存的遥远未来。</p><p><em><strong>混合冲突。</strong></em>下列冲突可以作为创作混合式战役的灵感来源：</p><p><strong>魔镜之内。</strong>一道神秘的魔镜立在一座诡异的地城之中：这实际是一道传送门，通往一处奇遇故事发生之地——亦有可能通往某种类似现代世界的世界。</p><p><strong>伽马世界。</strong>角色们生活在一处后启示录废土世界中，虽然乍一看这是一个中世纪风格的世界，然而一些与世隔绝的偏远地区中依旧存在来自灾变之前的“未来科技”。</p><p><strong>荒宇入侵。</strong>太空船从天而降，登陆了角色们所在的世界，从中涌出了使用高科技武器的敌对生物大军。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581183503,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCampaignPremi.POSq3DLFFBnQJF9E"
+    },
+    {
+      "sort": 500000,
+      "name": "战役设定",
+      "type": "text",
+      "_id": "UEFS9CKQjJJFYVD9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Campaign Setting</p><p>战役设定如同@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgLayOutThePrem.JournalEntryPage.js9l546Rt1cRdNXk]{冒险设定}，是战役背景的重要组成部分，亦在某种程度上塑造了于其中展开的故事类型。</p><p>DM 在选择战役设定时有两种选项：</p><ul><li class=\"Core-Styles_Core-Bulleted\">使用出版物中的战役设定。</li><li class=\"Core-Styles_Core-Bulleted\">创作自己的战役设定。</li></ul><p>无论你是创作自己的战役设定还是使用出版物中的战役设定，游戏世界的主人都始终是你自己。你可以根据自己和玩家们的喜好来对其中的内容进行自定义。</p><h2>使用出版物中的设定</h2><p class=\"journal-original-h2\">Using a Published Setting</p><p>使用出版物中的战役设定的一大优点是，大部分构建世界相关的工作都已完成，供你使用。但这也意味着玩家可能和你本人一样详细了解这套战役设置。你可以通过修改战役设定中的某些关键要点来解决这个问题，使战役设定能更好地满足你的需求。这样做还有一个额外的好处：那就是“打破”玩家因对战役设定的了解而形成的某些期望。</p><p>D&amp;D 设定表给出了几个已出版的战役设定。</p><table><caption>D&amp;D 设定 D&amp;D Settings</caption><thead><tr><th>设定</th><th>描述</th></tr></thead><tbody><tr><td>浩劫残阳 Dark Sun</td><td>英雄们在一片被魔法污染、被众神抛弃的后启示录世界中冒险，留下属于自己的印记。</td></tr><tr><td>龙枪 Dragonlance</td><td>善之阵营与邪龙女王及其爪牙之间的长枪战争撼动着整个世界。</td></tr><tr><td>艾伯伦 Eberron</td><td>在致命的热战结束之后，魔法发达的各国之间重新结成了新的冷战局势，威胁着当下的和平。</td></tr><tr><td>艾桑椎亚 Exandria</td><td>英雄们在直播跑团节目《Critical Role》的世界中留下属于自己的名字。</td></tr><tr><td>被遗忘的国度 Forgotten Realms</td><td>传奇般的英雄与反派不断争夺着决定世界之命运的权力，废墟与地下城之中纷争不断——而这些遗迹皆属于昔日的覆灭王国与被遗忘的帝国。</td></tr><tr><td>灰鹰 Greyhawk</td><td>国与国之间的战事不断升温，在这样的背景之中，角色们搜刮地下城，寻求所需的魔法和力量，以此对抗日渐成长的邪恶势力。</td></tr><tr><td>异度风景 Planescape</td><td>印记城，众门之城，亦将是英雄们探索 D&amp;D 多元宇宙之奇景、以及世界中无数位面之开端。</td></tr><tr><td>鸦阁 Ravenloft</td><td>英雄们堕入了残酷不堪的恐惧领域：被邪恶领主们支配的受诅之地。他们必须找到逃出这个世界的办法。</td></tr><tr><td>拉尼卡 Ravnica *</td><td>在这座覆盖了全世界的宏伟巨城内，十大互相对立的派系将英雄们卷入一场危险与冒险交织的巨网之中。</td></tr><tr><td>魔法船 Spelljammer</td><td>乘坐法驱舰船在群星间漫游，探访浮于荒宇的浩瀚星海之上的无数世界。</td></tr><tr><td>斯翠海文 Strixhaven *</td><td>斯翠海文，一座魔法学院，亦是角色们学习与冒险的中轴。</td></tr><tr><td>塞洛斯 Theros *</td><td>灵感来自古希腊神话的战役设定，其中有许多英雄天命，等待着角色们去实现。</td></tr></tbody></table><p>* 这些设定基于<em>万智牌 Magic: The Gathering</em> 中的世界。</p><h2>创作自己的设定</h2><p class=\"journal-original-h2\">Creating Your Own Setting</p><p>自己创作一个世界的好处之一，就是无论你想把它写成什么样子，你都可以随心所欲地就这样把它写出来。玩家们永远不会比你自己更了解这个世界，这样既能让你感到安心，也能让玩家们对世界感到惊奇。同时，你只需要记住你自己创作的那部分内容，对于这个战役设定的原型设定内容，你不必时刻牢记。</p><p>无论你创作设定靠的是自己闭门钻研还是从出版物中的战役设定中借鉴元素，你所创作的作品都最好要与玩家们产生共鸣。在创建世界时，你可以询问玩家：你喜欢哪些设定和要素？之后，再用这些回答作为灵感，创作引人入胜的地点、令人难忘的住民、调动人心的冲突，以及能引起玩家共鸣的内在逻辑。</p><p><em><strong>五大关键问题。</strong></em>在构思新的战役设定时，可以思考并回答以下几道问题：</p><p><strong>战役设定的名字是？</strong>请为你的设定起一个令人回味的名字。战役的名字可以是一个反映游戏主题与基调的单词或短语，又或者仅是一个听起来很酷的虚构名词。你也可以先列出一份候选清单，在构思完其他内容之后再来决定战役设定的名字。</p><p><strong>重要的派系和组织？</strong>国家、神殿、行会、教团、秘密社团、学会，这些组织相互交织，塑造了战役设定的社会结构。哪些组织或团体在设定中承担关键作用？又有哪些组织可能会以赞助人、盟友或敌人的身份参与进玩家角色的生活？以及，有哪些组织可以让角色们加入，让他们可以成为这个大集体的一部分？</p><p><strong>魔法有多常见？</strong>施法者和魔法物品商店在世界中可能很常见、少见、甚至不存在。获取<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uRgDAGoGKx1w4VHw]{次等复原术}</em>、<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZEX9RmEByJuYNy83]{死者复活}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.YhF0iJp8uRb0wZjW]{传送法阵}</em>等法术的难易度又是如何？这个世界中的魔法，究竟是相当普及、以至于成为日常生活的一部分；还是相当稀有、以至于会被人认为是迷信？</p><p><strong>世界中藏着哪些秘密？</strong>每个战役设定都有一些秘密：诸如传说中位于海洋对面的另一片大地、暗藏着恐怖隐秘的阴暗森林、因为未知的理由不得安息的灵魂永世出没的城堡废墟、建造的目的早已被遗忘的古代地城。无需担心想出过多的秘密会带来坏处——你永远不知道有哪些谜团会抓住玩家的想象力，并因此成为战役的核心。别忘了将这些秘密记录在战役日志里。</p><p><strong>诸神（如果有）在世界里扮演什么角色？</strong>你的世界里存在着哪些强大神力、次等神力或准神？其中又有哪些得到崇拜？如果神祇切实存在，祂们对世界的参与程度又是如何？祂们究竟是遥远而超然的存在，还是会出现在崇拜者面前、插手凡人事务的存在？</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776581234242,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgCampaignPremi.UEFS9CKQjJJFYVD9"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": true,
+      "append": 5,
+      "type": "special",
+      "order": 500300,
+      "navigation": {
+        "previous": "dmgCreatingCampa",
+        "next": "dmgCampaignStart"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776581092441,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgCampaignPremi"
+}

@@ -1,0 +1,235 @@
+{
+  "name": "御风而行",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_wind-walk.webp",
+  "system": {
+    "activities": {
+      "RdgugibBT29Q5Pel": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "RdgugibBT29Q5Pel",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "VVgjpx3K2kaZYZtT"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "VVgjpx3K2kaZYZtT"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你和施法距离内你能看见的至多十个自愿生物在法术持续时间内变为气化形态，其外观有如一团云雾。处于该云雾形态的生物具有 300 尺的飞行速度且能够悬浮，对倒地状态免疫，并且对钝击、挥砍、穿刺伤害具有抗性。该形态下的生物除疾走和使用&amp;Reference[Magic]{魔法}动作变回原形以外不能执行其他动作。变回原形需要花 1 分钟的时间，在这段时间内该生物处于震慑状态。在法术终止前，该生物还可以再次变成云雾形态，而再次使用&amp;Reference[Magic]{魔法}动作进行变形同样要花 1 分钟时间。</p><p>如果法术终止时受术目标正以云雾形态飞行，则该目标将在 1 分钟内以每轮 60 尺的速度降落直至安全着陆。如果该生物降落 1 分钟后还没着陆，则在余下的距离中它将会如正常情况一样坠落。</p><p class=\"item-original\">Wind Walk</p>",
+      "chat": ""
+    },
+    "identifier": "wind-walk",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "8"
+    },
+    "level": 6,
+    "materials": {
+      "value": "一根蜡烛",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "云雾化身",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_wind-walk.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.Hc6jJ1Py61aAJt7v",
+      "transfer": false,
+      "_id": "VVgjpx3K2kaZYZtT",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 5,
+          "value": "300",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.hover",
+          "mode": 5,
+          "value": "true",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "piercing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "slashing",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "prone",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>当你处于该形态时，你具有 300 尺的飞行速度且能够悬浮，对倒地状态免疫，并且对钝击、挥砍、穿刺伤害具有抗性。</p><p>在该形态下，你无法执行除&amp;Reference[Dash]{疾走}和使用&amp;Reference[Magic]{魔法}动作变回原形以外的其他动作。变回原形需要花费 1 分钟，在此期间你处于震慑状态。</p><p>在法术终止前，你可以再次变成云雾形态，而再次使用&amp;Reference[Magic]{魔法}动作进行变形同样需要花费 1 分钟时间。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "transformed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733463552822,
+        "modifiedTime": 1734852225008,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!Hc6jJ1Py61aAJt7v.VVgjpx3K2kaZYZtT"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194965285,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Hc6jJ1Py61aAJt7v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Hc6jJ1Py61aAJt7v"
+}

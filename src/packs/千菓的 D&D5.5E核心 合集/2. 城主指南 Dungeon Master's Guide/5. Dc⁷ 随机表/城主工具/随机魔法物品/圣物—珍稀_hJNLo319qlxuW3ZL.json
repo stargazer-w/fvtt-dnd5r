@@ -1,0 +1,809 @@
+{
+  "name": "圣物—珍稀",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{随机魔法物品：圣物表}</p>",
+  "results": [
+    {
+      "range": [
+        1,
+        3
+      ],
+      "type": "text",
+      "_id": "I1SS1Od3Olw4InYc",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.rLet5sgfAEf8HOqp]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.I1SS1Od3Olw4InYc"
+    },
+    {
+      "range": [
+        4,
+        7
+      ],
+      "type": "text",
+      "_id": "iBQ1yJqX73SWCmYi",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6cIkXHz5lllARwSF]{+1 护甲}",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.iBQ1yJqX73SWCmYi"
+    },
+    {
+      "range": [
+        8,
+        9
+      ],
+      "type": "text",
+      "_id": "UFRy76rnHXUE1xuQ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jQmN7XhACrZqwPoh]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.UFRy76rnHXUE1xuQ"
+    },
+    {
+      "range": [
+        10,
+        11
+      ],
+      "type": "text",
+      "_id": "52iJQ6h4ZiYvnw6o",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.iwOL7iQoIVBQyIgk]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.52iJQ6h4ZiYvnw6o"
+    },
+    {
+      "range": [
+        12,
+        13
+      ],
+      "type": "text",
+      "_id": "iuAnezcrGocqu8cq",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.EltbJVmgGRcpxUuc]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.iuAnezcrGocqu8cq"
+    },
+    {
+      "range": [
+        14,
+        16
+      ],
+      "type": "text",
+      "_id": "5vi5MH4bqg2t1RoX",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.wS9XifnUcVNxsoha]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.5vi5MH4bqg2t1RoX"
+    },
+    {
+      "range": [
+        17,
+        19
+      ],
+      "type": "text",
+      "_id": "o7qjIoCPhT5PElNn",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.xAwgjRNETdHnI6az]（2 环或 3 环法术）",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.o7qjIoCPhT5PElNn"
+    },
+    {
+      "range": [
+        20,
+        22
+      ],
+      "type": "text",
+      "_id": "ZB5lGiszRyNR3z0R",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.4tXMSAKLNJQe7ld5]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.ZB5lGiszRyNR3z0R"
+    },
+    {
+      "range": [
+        23,
+        25
+      ],
+      "type": "text",
+      "_id": "PQbEfKEm3pd34hWG",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.R5UbH5GO7db0Ew5P]（黄铜或白银）",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.PQbEfKEm3pd34hWG"
+    },
+    {
+      "range": [
+        26,
+        28
+      ],
+      "type": "text",
+      "_id": "WhvJaemVxycEnK4V",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.NBzrF4bkhApdS1db]（储法或维生）",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.WhvJaemVxycEnK4V"
+    },
+    {
+      "range": [
+        29,
+        31
+      ],
+      "type": "text",
+      "_id": "ptdL27WaKyl6e6ag",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.dd4ZCR1Hv9Ul5qnT]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.ptdL27WaKyl6e6ag"
+    },
+    {
+      "range": [
+        32,
+        34
+      ],
+      "type": "text",
+      "_id": "MEBOFYtYuwGwYvJh",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DG9PpSOXwneVKotQ]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.MEBOFYtYuwGwYvJh"
+    },
+    {
+      "range": [
+        35,
+        37
+      ],
+      "type": "text",
+      "_id": "b1hG3ocTDXwJo1jA",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Ksfvf9qxQyo74h9t]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.b1hG3ocTDXwJo1jA"
+    },
+    {
+      "range": [
+        38,
+        40
+      ],
+      "type": "text",
+      "_id": "KQp7Ou0ImYKaZbJQ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.AJro6EBI3YkjcAY3]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.KQp7Ou0ImYKaZbJQ"
+    },
+    {
+      "range": [
+        41,
+        43
+      ],
+      "type": "text",
+      "_id": "D8TsWixvchn1Twtw",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.iyRMEN9bLdyJYLPk]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.D8TsWixvchn1Twtw"
+    },
+    {
+      "range": [
+        44,
+        51
+      ],
+      "type": "text",
+      "_id": "eZl3WCSdCmclejSq",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.TVj8uSpD6natq70a]{治疗药水（强效）}",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.eZl3WCSdCmclejSq"
+    },
+    {
+      "range": [
+        52,
+        54
+      ],
+      "type": "text",
+      "_id": "0hZil5aeBdouilvz",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.x4F3r0vC3ojXOhRO]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.0hZil5aeBdouilvz"
+    },
+    {
+      "range": [
+        55,
+        58
+      ],
+      "type": "text",
+      "_id": "rETjjPPKIaFz99Yr",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.cqnQsPaDteMzCZFH]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.rETjjPPKIaFz99Yr"
+    },
+    {
+      "range": [
+        59,
+        61
+      ],
+      "type": "text",
+      "_id": "mEk5l1UGDuZe8pcJ",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.IlLorVAuLIboUOvc]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.mEk5l1UGDuZe8pcJ"
+    },
+    {
+      "range": [
+        62,
+        65
+      ],
+      "type": "text",
+      "_id": "kpv5yyKrLTzlg3ci",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.kpv5yyKrLTzlg3ci"
+    },
+    {
+      "range": [
+        66,
+        73
+      ],
+      "type": "text",
+      "_id": "X5YVjpK1l7mSLC0t",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.EUmvU6AssH8rcIE3]（4 环或 5 环法术）",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.X5YVjpK1l7mSLC0t"
+    },
+    {
+      "range": [
+        74,
+        76
+      ],
+      "type": "text",
+      "_id": "1Deg30jaqEYkW2lj",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.jC5wZtqFqbpeNtQE]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.1Deg30jaqEYkW2lj"
+    },
+    {
+      "range": [
+        77,
+        79
+      ],
+      "type": "text",
+      "_id": "aHVBZsoRCUHuUUFP",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.YP67m8lAvxCmIAVg]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.aHVBZsoRCUHuUUFP"
+    },
+    {
+      "range": [
+        80,
+        82
+      ],
+      "type": "text",
+      "_id": "1YZxPgCpVGxDQPs7",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.vlwuspJlZKOgvABR]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.1YZxPgCpVGxDQPs7"
+    },
+    {
+      "range": [
+        83,
+        85
+      ],
+      "type": "text",
+      "_id": "EgHlBlE1DMdPRvE5",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Ax3xPKyRs8ZjiPNk]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.EgHlBlE1DMdPRvE5"
+    },
+    {
+      "range": [
+        86,
+        88
+      ],
+      "type": "text",
+      "_id": "dDTxYoJubE5VkW9F",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.aXpq9n6RNWpupvhY]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.dDTxYoJubE5VkW9F"
+    },
+    {
+      "range": [
+        89,
+        90
+      ],
+      "type": "text",
+      "_id": "el7u1iEqk7kfTHoy",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.1SSAQJcAR1dCNXwV]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.el7u1iEqk7kfTHoy"
+    },
+    {
+      "range": [
+        91,
+        93
+      ],
+      "type": "text",
+      "_id": "j7zsFPPoWx5EZ5Rm",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.uTxtDMVJUjUXPGxI]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.j7zsFPPoWx5EZ5Rm"
+    },
+    {
+      "range": [
+        94,
+        96
+      ],
+      "type": "text",
+      "_id": "SRslIALS5p8TZgm4",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.PjlgpfERFmTnjNyG]",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.SRslIALS5p8TZgm4"
+    },
+    {
+      "range": [
+        97,
+        100
+      ],
+      "type": "text",
+      "_id": "aGl4ObFHr7PCAFFp",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.K18TyF3LrRF8pF1p]{+2 战法师魔杖}",
+      "name": "",
+      "_key": "!tables.results!hJNLo319qlxuW3ZL.aGl4ObFHr7PCAFFp"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1762801045990,
+    "modifiedTime": 1762801045990,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "hJNLo319qlxuW3ZL",
+  "sort": 0,
+  "_key": "!tables!hJNLo319qlxuW3ZL"
+}

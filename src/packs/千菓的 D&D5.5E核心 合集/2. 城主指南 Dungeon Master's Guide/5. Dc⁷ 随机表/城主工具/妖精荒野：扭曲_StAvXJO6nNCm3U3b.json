@@ -1,0 +1,185 @@
+{
+  "name": "妖精荒野：扭曲",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.z54Gr7MC6dOLMlYO#妖精荒野魔法]{妖精荒野时间扭曲}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "_id": "ZmAOGtkt37aYf9qT",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "日变为分钟",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.ZmAOGtkt37aYf9qT"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        3,
+        6
+      ],
+      "drawn": false,
+      "_id": "EamS3Qkg62fVnqSW",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "日变为小时",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.EamS3Qkg62fVnqSW"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        13
+      ],
+      "drawn": false,
+      "_id": "NqiZYSAhq5s7d47r",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "无变化",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.NqiZYSAhq5s7d47r"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        17
+      ],
+      "drawn": false,
+      "_id": "N62YN4MyJDPbzji9",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "日变为周",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.N62YN4MyJDPbzji9"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        19
+      ],
+      "drawn": false,
+      "_id": "ebKkGTvovsbHbPRI",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "日变为月",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.ebKkGTvovsbHbPRI"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "_id": "PjG7Z2bTZ8sIxaef",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "日变为年",
+      "name": "",
+      "_key": "!tables.results!StAvXJO6nNCm3U3b.PjG7Z2bTZ8sIxaef"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750317182970,
+    "modifiedTime": 1750774506951,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d20",
+  "_id": "StAvXJO6nNCm3U3b",
+  "sort": 1600000,
+  "_key": "!tables!StAvXJO6nNCm3U3b"
+}

@@ -1,0 +1,144 @@
+{
+  "name": "坚韧狂暴",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_relentless-rage.webp",
+  "system": {
+    "activities": {
+      "J6ET11skqjL34ATm": {
+        "type": "save",
+        "_id": "J6ET11skqjL34ATm",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "10 + (@item.uses.spent * 5)"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "20"
+    },
+    "description": {
+      "value": "<p>你狂暴的力量让你即使身受重伤也能持续战斗。你的@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJta7LujWEfL2rS6]{狂暴}激活期间，如果你的生命值降至 0 且并未立即死亡，则你可以进行一次 DC 10 的[[/save]]{体质豁免}。成功则你的生命值将变为你野蛮人等级的两倍。</p><p>第一次使用此特性后，每当你再次使用此特性时其体质豁免 DC 提高 5。当你完成一次短休或长休后其 DC 重置为 10。</p><p class=\"item-original\">Relentless Rage</p>",
+      "chat": ""
+    },
+    "identifier": "relentless-rage",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "野蛮人"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731070004226,
+    "modifiedTime": 1758467461193,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "VgC8s6sMi0zaB8Ni",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!VgC8s6sMi0zaB8Ni"
+}

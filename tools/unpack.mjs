@@ -11,8 +11,8 @@
 import fs from "node:fs";
 import path from "node:path";
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
-import { PACK_CONFIG_FILE, readFolderMaps, readPacksTree, requireOriginModuleDir, safeName, stagePackForReading }
-  from "./common.mjs";
+import { PACK_CONFIG_FILE, PACK_FOLDER_FILE, readFolderMaps, readPacksTree, requireOriginModuleDir, safeName,
+  stagePackForReading } from "./common.mjs";
 
 const moduleDir = requireOriginModuleDir("npm run unpack");
 
@@ -29,6 +29,22 @@ if ( !originPacks.length ) {
 
 /** 包名 → src/packs 里的对应目录 */
 const { packDirs } = readPacksTree();
+
+/**
+ * 剥掉文档里的 `folder` 字段：src 里不写它（分组由目录结构表达），构建时会按目录注入。
+ * @param {string} dir 目录
+ */
+function stripFolderFields(dir) {
+  for ( const entry of fs.readdirSync(dir, { withFileTypes: true }) ) {
+    const full = path.join(dir, entry.name);
+    if ( entry.isDirectory() ) { stripFolderFields(full); continue; }
+    if ( !entry.name.endsWith(".json") || entry.name.startsWith("@") || entry.name === PACK_FOLDER_FILE ) continue;
+    const doc = JSON.parse(fs.readFileSync(full, "utf8"));
+    if ( !("folder" in doc) ) continue;
+    delete doc.folder;
+    fs.writeFileSync(full, `${JSON.stringify(doc, null, 2)}\n`);
+  }
+}
 
 const summary = [];
 
@@ -76,6 +92,7 @@ for ( const pack of originPacks ) {
     });
 
     if ( packConfig ) fs.writeFileSync(configPath, `${packConfig}\n`);
+    stripFolderFields(dest);
 
     const rel = path.relative(process.cwd(), dest).replaceAll("\\", "/");
     summary.push({ pack, dest, count });

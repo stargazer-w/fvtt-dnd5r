@@ -1,0 +1,82 @@
+{
+  "name": "角色职业",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "概览",
+      "type": "text",
+      "_id": "jlSMyO89AI0ZtQjd",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.aM4O5ms7ShU53CaZ inline]</p><p>玩家的职业为玩家提供了最激动人心的能力。这个章节提供了十二个职业，每个职业都包含了四个子职业——总结如下。</p><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/barbarian.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O]{野蛮人。}</strong></span>愤怒的风暴，鲁莽的冲入肉搏战。然后踏上……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O.JournalEntryPage.GvRPKO7EAbXB7TXM]{狂战士道途}</em>解放原始的暴力。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O.JournalEntryPage.DZftqg73PEeRWY4J]{兽心道途}</em>展露与动物的亲情。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O.JournalEntryPage.0NPflCZJaxFKhpXu]{世界树道途}</em>利用浩瀚无际的活力。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.r3WI0QUBUCyKnP7O.JournalEntryPage.JZkVWnkmB47BwtLi]{狂热者道途}</em>的愤怒与神祇合一。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/bard.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3]{吟游诗人。}</strong></span>展现魔法的力量，激励并治愈他们的盟友，或迷惑敌人。然后加入……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.PPMt7mHlvqyFQ1mw]{舞蹈学院}</em>在战斗中发挥敏捷性。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.ysmyEb6Euh5WLuA2]{迷惑学院}</em>编制妖精荒野的魅惑魔法。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.AK8mgYdk1zOiIU0w]{逸闻学院}</em>收集知识与奥秘。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.iAZwiVfhgi8KdNAD]{勇气学院}</em>挥舞着附带魔法的兵器。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/cleric.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt]{牧师。}</strong></span>调用神灵的力量来治疗、强化、打击。然后利用……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.aGYpgynZ3nkBCPaT]{生命领域}</em>掌管所有的治愈力量。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.ChPhvB57FhM48ECO]{光明领域}</em>挥舞灼烧与守护的神光。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.G4wCgd6yslvpvKyN]{诡术领域}</em>用幻术魔法骚扰敌人。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.qowfNigmkDRArlNt.JournalEntryPage.r6CueEIytzMeRwwo]{战争领域}</em>激发勇气、毁灭众敌。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/druid.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP]{德鲁伊。}</strong></span>引导自然的魔法，恢复、变形、控敌。然后参与……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.Ysgeru1iCA7CCe3x]{大地结社}</em>利用不同的环境释放魔法。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.HEtjvqXrKrZNyl8x]{月亮结社}</em>化身强力的动物形态。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.S1X2oB04w8E9Zo30]{海洋结社}</em>链接着潮汐与风暴。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.YylLR1bRh1jMMyDP.JournalEntryPage.QaSOPbllchjZ0UUG]{星辰结社}</em>取得了来自星座的力量。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/fighter.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf]{战士。}</strong></span>所有武器和护甲的大师。然后化身……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.ny3PA46G1H96t35Q]{战斗大师}</em>在战斗中使用特别的战技。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.oIre3TldjyfnGzQr]{勇士}</em>为了最巅峰的力量而奋进。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.DEHhd3OBGcHKeYcI]{奥法骑士}</em>学习辅助战斗的法术。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.X0KL1TWRl6RQ06wf.JournalEntryPage.rWPprptKcZe6MPiR]{灵能武士}</em>用灵能力量增强攻势。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/monk.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx]{武僧。}</strong></span>在近身作战中来回穿梭并发起强力且迅速的打击。然后成为……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx.JournalEntryPage.pP3bqMFIC1fGkF6b]{命流武者}</em>通过触碰造成伤害或治疗。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx.JournalEntryPage.jSyiy6GhaosYyPFj]{暗影武者}</em>利用阴影掩人耳目。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx.JournalEntryPage.eQl0Mw6uuMn5B0eu]{四象武者}</em>运用元素的力量。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ZSrNd1cKJpc2FqMx.JournalEntryPage.qha7pVaUwH2gYdk1]{散打武者}</em>是徒手战斗的大师。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/paladin.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV]{圣武士。}</strong></span>以神力和武术斩向敌人并守护盟友。然后立下……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV.JournalEntryPage.dw8zIx4aur7rRtx3]{奉献之誓}</em>效仿正义天使。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV.JournalEntryPage.SkezCP76yjrx4cwL]{荣耀之誓}</em>到达英雄的顶点。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV.JournalEntryPage.Mqzx5l1xSfqU1Nun]{古贤之誓}</em>保护生命、存留快乐、维护自然。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.A3n5d6aSbTNGxqIV.JournalEntryPage.uWOP3pIZ4bWX0oE6]{复仇之誓}</em>追捕作恶者。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/ranger.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw]{游侠。}</strong></span>将武斗技巧、自然魔法和生存技能结合在一起。然后化身……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.9Y6m5wyW2K8LUqzp]{驯兽师}</em>与原初野兽建立联系。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.3M6p7GyZeEPBlYOv]{妖精漫游者}</em>展示妖精的欢笑与愤怒。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.kydldl9wYbxqUuzD]{幽域追猎者}</em>狩猎潜伏于黑暗的敌人。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.kmE6XaEVgi3DKLvw.JournalEntryPage.80h94evzbL3MwLk1]{猎人}</em>以多种多样的武艺保护自然。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/rogue.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP]{游荡者。}</strong></span>隐匿身形躲避伤害的同时发起致命的偷袭。然后化身……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.yiBzQeWdFjXrWxY2]{诡术师}</em>施展法术强化隐匿能力。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.CT8AvC3zYbch3awT]{刺客}</em>提供刺杀与下毒业务。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.ktzTbf5xQEp9qm2c]{魂刃}</em>使用灵能利刃打击众敌。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.zRqR2wN57Z0BPzMP.JournalEntryPage.BiqRuwpBfYi32N2p]{盗贼}</em>精通潜入和寻宝。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/sorcerer.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7]{术士。}</strong></span>使用与生俱来的魔法，按照你的意愿来塑造力量。然后引导……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.zqwAE59wEiY1bbtm]{畸变术法}</em>使用奇异的灵能魔法。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.Uk7haOmnUX48CBuY]{时械术法}</em>利用寰宇间的秩序之力。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.h9Qhn4HyJyAnK5b9]{龙族术法}</em>吐纳龙之魔法。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.z7c2nyg00fI0CpxD]{狂野术法}</em>解放混沌魔力。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/warlock.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0]{魔契师。}</strong></span>通过神秘的知识施展法术。然后结下契约，与……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.dQHeGHmdwHIiODsr]{至高妖精宗主}</em>施展传送并使用妖精魔法。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.qheoOS8eeC6alP86]{天界宗主}</em>利用天界魔法治愈他人。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.4km6CWhHArWi0klF]{邪魔宗主}</em>呼唤罪業的力量。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.ftZAtHAsPUoMCDV0.JournalEntryPage.qQFJw2Bq3aVeCVNp]{旧日支配者宗主}</em>深入研究禁忌的学识。</p></div><hr /><div class=\"flex-center\"><img src=\"modules/dnd5e-collection-2024/assets/ui/phb/svg/wizard.svg\" style=\"max-width:40px;margin-right:10px\" /><p><span style=\"color:#800000\"><strong>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o]{法师。}</strong></span>学习奥术魔法，掌握所有使用方向的法术。然后化身……</p></div><div class=\"left-filigree\"><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o.JournalEntryPage.iMbdRPsxWV1pV61w]{防护师}</em>保护盟友，放逐仇敌。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o.JournalEntryPage.LTpN3JESyYoxT24T]{预言师}</em>探寻多元宇宙的隐秘。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o.JournalEntryPage.F5Nlk4mkB1nUUaob]{塑能师}</em>创造爆炸效应。</p><p><em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fQ9csZHPMIqE3A6o.JournalEntryPage.ZKPFPF7JbjO73m4I]{幻术师}</em>编织欺瞒的法术。</p></div>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776334085032,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!sCXjN6JzLcqhimHI.jlSMyO89AI0ZtQjd"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "chapter",
+      "showPages": true,
+      "position": 4,
+      "title": "第三章：角色职业",
+      "navigation": {
+        "previous": "pHMEDq6JZOxYAm4U",
+        "next": "r3WI0QUBUCyKnP7O"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.0.0",
+    "createdTime": 1727590956869,
+    "modifiedTime": 1776334081606,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "sCXjN6JzLcqhimHI",
+  "sort": 300000,
+  "categories": [],
+  "_key": "!journal!sCXjN6JzLcqhimHI"
+}

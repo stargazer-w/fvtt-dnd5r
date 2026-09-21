@@ -1,0 +1,473 @@
+{
+  "name": "维克那魔掌",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_hand-of-vecna.webp",
+  "system": {
+    "activities": {
+      "VrMCSAhNqTnPe6Fi": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.jDqnWyDvvIV8HxZh",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 1,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "VrMCSAhNqTnPe6Fi",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      },
+      "6HDfAPpH2TM3g1Fv": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.3X7rLuY8NbIxfYzw",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "6HDfAPpH2TM3g1Fv",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      },
+      "9D7HnwhJ9AJ0m7Pb": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.yJSpRz19Z2u5CPLo",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 7,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "9D7HnwhJ9AJ0m7Pb",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      },
+      "KmSyyzrwcdiEZZKA": {
+        "type": "cast",
+        "spell": {
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PxhcvadpOmDmVWFr",
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 7,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "ability": ""
+        },
+        "_id": "KmSyyzrwcdiEZZKA",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "5",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d4 + 4"
+        }
+      ],
+      "max": "8"
+    },
+    "description": {
+      "value": "<p><em>奇物，神器（需同调）</em></p><p><em><strong>魔掌的随机词条。</strong></em>魔掌是风干萎缩的左肢。其具有下列随机词条：</p><ul><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu]{次要增益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.OcWc8txQePfpNZG6]{主要增益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.X3favP6TQPrbd0Rz]{次要减益词条}</li></ul><p><em><strong>同调魔掌。</strong></em>要与魔掌进行同调，你必须将魔掌压在左手断肢的截面。魔掌会自行嫁接入你的手臂并成为一副正常运作的前肢。此后魔掌一旦被取下，你将立即死亡。</p><p><em><strong>魔掌词条。</strong></em>与魔掌维持同调期间，你的阵营为中立邪恶，且你获得以下增益：</p><p><strong>超级力量。</strong>你的力量变为 20，除非其已是 20 或更高。</p><p><strong>极寒之抚。</strong>任意你以魔掌进行的近战法术攻击或你以魔掌持握的武器进行的近战攻击命中时，额外造成 2d8 寒冷伤害。</p><p><strong>施法。</strong>魔掌具有 8 充能，并在每日黎明时重获 1d4 + 4 已消耗的充能。你能以魔掌施展维克纳魔掌法术表中的法术（豁免 DC 18）。表中表明了你施展对应的法术需要消耗多少充能。每当你以魔掌施展法术时，魔掌会对你施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.5KhBtK2VPnA5SzwC]{暗示术}</em>（豁免 DC 18，无需专注）要求你犯下恶行。魔掌可能对恶行有特定的要求，或是由你决定具体的行为。</p><table><caption>维克纳魔掌法术 Hand of Vecna Spells</caption><thead><tr><th>法术</th><th>充能消耗</th></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jDqnWyDvvIV8HxZh]{睡眠术}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3X7rLuY8NbIxfYzw]{缓慢术}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.yJSpRz19Z2u5CPLo]{传送术}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PxhcvadpOmDmVWFr]{死亡一指}</em></td><td>5</td></tr></tbody></table><details><summary><em><strong>法眼和魔掌词条。</strong></em></summary><p>同时与法眼和魔掌维持同调期间，你获得以下增益：</p><p><strong>危机感应。</strong>你的先攻检定具有优势。</p><p><strong>暗蚀抵抗。</strong>以一个&amp;Reference[Magic]{魔法}动作，你可以指定一名位于你 5 尺内的你可见的生物为目标。目标进行一次[[/save con 18 format=long]]，豁免失败则受到 7d6 暗蚀伤害，成功则受到半伤。因受此伤害生命值降至 0 的生物将被转化为@UUID[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.qbDaJPwVIVxGRvtz]{绿软泥}并覆盖其所处空间的地面。每个 5 尺立方的软泥代表一个单独的区域。目标着装或携带的由金属或有机材料制成的非魔法物件将被软泥摧毁。</p><p><strong>毒素免疫。</strong>你对毒素伤害和中毒状态具有免疫。</p><p><strong>再生。</strong>你的回合开始时，若你拥有至少 1 生命值，你恢复 1d10 生命值。</p><p><strong>祈愿。</strong>你可以施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>。该词条一经使用，30 天后你才能再次使用。</p></details><details><summary><em><strong>摧毁法眼和魔掌。</strong></em></summary><p>如果<em>维克那法眼</em>和<em>维克那魔掌</em>与同一生物维持同调，并且该生物被<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Nim1CBLAWSft7grX]{凯斯之剑}</em>斩杀，则法眼和魔掌即时迸出火焰烧成灰烬，并且被摧毁。任何其他摧毁法眼和魔掌的尝试似乎也是可行的，但这些神器会在维克那的其中一个隐藏宝库中重现，等着再临人间。</p></details><p class=\"item-original\">Hand of Vecna</p>",
+      "chat": ""
+    },
+    "identifier": "hand-of-vecna",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [
+    {
+      "name": "超级力量",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.wkHV1eAP83bKFEcJ",
+      "_id": "NBMNdGpYVqTsto4n",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 4,
+          "value": "20",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497161,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wkHV1eAP83bKFEcJ.NBMNdGpYVqTsto4n"
+    },
+    {
+      "name": "极寒之抚",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_cold.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.wkHV1eAP83bKFEcJ",
+      "_id": "pfFJKscMx3Yo0g9D",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "2d8[cold]",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "2d8[cold]",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193497165,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!wkHV1eAP83bKFEcJ.pfFJKscMx3Yo0g9D"
+    }
+  ],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.jWifI1DKOm7LmOgn",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1758177292790,
+    "modifiedTime": 1758464861462,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "wkHV1eAP83bKFEcJ",
+  "_key": "!items!wkHV1eAP83bKFEcJ"
+}

@@ -1,0 +1,488 @@
+{
+  "name": "虹光法墙",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ABJ_prismatic-wall.webp",
+  "system": {
+    "activities": {
+      "NXoTXP2Cf2STc6k6": {
+        "type": "utility",
+        "name": "直线形法墙",
+        "_id": "NXoTXP2Cf2STc6k6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "wall",
+            "size": "90",
+            "width": "1/12",
+            "height": "30",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "1Dt1LNM4rn86iDCK": {
+        "type": "utility",
+        "name": "球形法墙",
+        "_id": "1Dt1LNM4rn86iDCK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "sphere",
+            "size": "15",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "Hz0fGJ5YtrD5fdLo": {
+        "type": "save",
+        "name": "致盲豁免",
+        "_id": "Hz0fGJ5YtrD5fdLo",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "89VFXVID76b0Z8Fj",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": [
+          "89VFXVID76b0Z8Fj"
+        ]
+      },
+      "2OXYqXYzCYMuzRkz": {
+        "type": "save",
+        "name": "穿行豁免",
+        "_id": "2OXYqXYzCYMuzRkz",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [
+          {
+            "_id": "S4YYtyC0eMIzLDnF",
+            "onSave": false
+          },
+          {
+            "_id": "4qc7HpzBGb6Zuly7",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "half"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": [
+          "S4YYtyC0eMIzLDnF",
+          "4qc7HpzBGb6Zuly7"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>由光构成的闪光多彩平面形成一幅垂直而不透光的墙壁。墙壁至多长 90 尺，高 30 尺，厚 1 寸，并以施法距离内你能看见的一点为源点。你也可以将此墙塑造成一个直径至多 30 尺的球体，并以施法距离内你能看到的一点为中心。法墙在持续时间内一直存在。如果你指定法墙生成的空间有生物占据，则法术立即结束且不产生任何效应。</p><p>法墙发出 100 尺的&amp;Reference[Bright Light]{明亮光照}外加 100 尺的&amp;Reference[Dim Light]{微光光照}。你和施展该法术时指定的生物可以穿过法墙或停留在法墙附近而不受伤害。如果其他能看见法墙的生物移动到距墙 20 尺内或在该处开始其回合，则该生物必须进行一次[[/save activity=Hz0fGJ5YtrD5fdLo]]{体质豁免}，豁免失败则陷入&amp;Reference[blinded]{目盲}状态，持续 1 分钟。</p><p>法墙由七层组成，每层都有不同颜色。生物试图进入或穿过法墙时，将逐层穿过法墙所有的光层。其每穿过一层就必须进行一次[[/save activity=2OXYqXYzCYMuzRkz]]{敏捷豁免}，豁免失败则受虹光光层表中所述特性影响。</p><p>法墙具有 AC 10，可以被摧毁，不过也必须由红到紫的顺序一次一个光层地按照特定的方式逐层摧毁。某个光层一旦被摧毁则其在法术持续时间内保持被摧毁状态。<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LxthzbxPtlgAZ6c2]{反魔法场}</em>无法对法墙生效，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>只对紫墙有效。</p><table><caption>虹光光层 Prismatic Layers</caption><thead><tr><th>顺序</th><th>效应</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td><strong>红。</strong>豁免失败：12d6 点[[/damage 12d6 fire]]{火焰伤害}。豁免成功：半伤。额外效应：非魔法远程攻击无法穿过此层，此层受到 25 点寒冷伤害后被摧毁。</td></tr><tr><td style=\"text-align:center\">2</td><td><strong>橙。</strong>豁免失败：12d6 点[[/damage 12d6 acid]]{强酸伤害}。豁免成功：半伤。额外效应：魔法远程攻击无法穿过此层，此层受强风（如<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2pt4h2Fe1kf8ZhcN]{造风术}</em>创造的风）吹袭后被摧毁。</td></tr><tr><td style=\"text-align:center\">3</td><td><strong>黄。</strong>豁免失败：12d6 点[[/damage 12d6 lightning]]{闪电伤害}。豁免成功：半伤。额外效应：此层受到 60 点力场伤害后被摧毁。</td></tr><tr><td style=\"text-align:center\">4</td><td><strong>绿。</strong>豁免失败：12d6 点[[/damage 12d6 poison]]{毒素伤害}。豁免成功：半伤。额外效应：此层受<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.DclPZSG23QSoCRlj]{穿墙术}</em>，或者其它相同或更高环阶法术在固态表面开口的效应影响时被摧毁。</td></tr><tr><td style=\"text-align:center\">5</td><td><strong>蓝。</strong>豁免失败：12d6 点[[/damage 12d6 cold]]{寒冷伤害}。豁免成功：半伤。额外效应：此层受到 25 点火焰伤害后被摧毁。</td></tr><tr><td style=\"text-align:center\">6</td><td><strong>靛。</strong>豁免失败：目标陷入&amp;Reference[restrained]{束缚}状态，且其每个回合结束进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。在累计三次豁免成功后，状态终止。在累计三次豁免失败后，该生物被转化为石头陷入&amp;Reference[petrified]{石化}状态，直到此状态被<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1cgU7tJNnvOtYXzK]{高等复原术}</em>或类似效应解除为止。成功或失败的检定不需要连续；只要记录各情况的次数直至其中一方累计三次为止。额外效应：法术无法穿过此层，此层受到<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.u7IL5qlkhzAxCMFB]{昼明术}</em>的明亮光照照射后被摧毁。</td></tr><tr><td style=\"text-align:center\">7</td><td><strong>紫。</strong>豁免失败：目标陷入&amp;Reference[blinded]{目盲}状态且在下一个你的回合开始时进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。豁免成功，状态终止。豁免失败，状态终止，且该生物会被传送到另一个存在位面（由 DM 选择）。额外效应：此层受<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>解除后被摧毁。</td></tr></tbody></table><p class=\"item-original\">Prismatic Wall</p>",
+      "chat": ""
+    },
+    "identifier": "prismatic-wall",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 9,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "abj",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "强光眩目",
+      "img": "icons/magic/light/beams-strike-blue.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.A0TcNxhjE3Dly2hW",
+      "transfer": false,
+      "_id": "89VFXVID76b0Z8Fj",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[blinded]{目盲}状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733477670927,
+        "modifiedTime": 1734845174497,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!A0TcNxhjE3Dly2hW.89VFXVID76b0Z8Fj"
+    },
+    {
+      "name": "靛光影响",
+      "img": "icons/magic/light/beam-rays-blue-small.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.A0TcNxhjE3Dly2hW",
+      "transfer": false,
+      "_id": "S4YYtyC0eMIzLDnF",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[restrained]{束缚}状态，并且在每个回合结束时需要进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。累计三次豁免成功后，该状态终止。累计三次豁免失败后，你将被转化为石头并陷入&amp;Reference[petrified]{石化}状态。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733477794747,
+        "modifiedTime": 1734845056318,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!A0TcNxhjE3Dly2hW.S4YYtyC0eMIzLDnF"
+    },
+    {
+      "name": "紫光影响",
+      "img": "icons/magic/light/beam-explosion-pink-purple.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.A0TcNxhjE3Dly2hW",
+      "transfer": false,
+      "_id": "4qc7HpzBGb6Zuly7",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你陷入&amp;Reference[blinded]{目盲}状态，并且在下一个你的回合开始时需要进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}。豁免成功，状态终止。豁免失败，状态终止，同时你会被传送到另一个存在位面。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "blinded"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733477795795,
+        "modifiedTime": 1734845105289,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!A0TcNxhjE3Dly2hW.4qc7HpzBGb6Zuly7"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758727601822,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "A0TcNxhjE3Dly2hW",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!A0TcNxhjE3Dly2hW"
+}

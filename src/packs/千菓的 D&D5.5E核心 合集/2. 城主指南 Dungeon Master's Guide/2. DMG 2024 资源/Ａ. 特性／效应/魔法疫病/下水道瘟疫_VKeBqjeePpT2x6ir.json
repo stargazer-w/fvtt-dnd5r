@@ -1,0 +1,179 @@
+{
+  "name": "下水道瘟疫",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_contagion_sewer-plague.webp",
+  "system": {
+    "activities": {
+      "LVHYZnLcyT46zqPG": {
+        "type": "save",
+        "name": "抵抗疫病",
+        "_id": "LVHYZnLcyT46zqPG",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "抵抗疫病"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "11"
+          }
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>魔法疫病</em></p><p>污秽的药水和炼金废物可以产生下水道瘟疫：这种疫病在下水道和垃圾堆中滋生，并通过栖息在上述区域的生物传播，例如老鼠和食腐兽。任何被携带此疫病的生物伤到，或是接触了被此疫病污染的秽物或内脏的类人生物都必须成功通过一次[[/save format=long]]，否则将被下水道瘟疫感染。染疫的生物会在感染[[/r 1d4]]天之后开始承受以下效应：</p><p><strong>疲惫。</strong>该生物获得 1 级&amp;Reference[Exhaustion]{力竭}。</p><p><strong>虚弱。</strong>只要该生物具有任意来源的&amp;Reference[Exhaustion apply=false]{力竭}等级，它在消耗生命骰恢复生命值时就只能恢复一半的生命值。</p><p><strong>无休。</strong>只要该生物具有任意来源的&amp;Reference[Exhaustion apply=false]{力竭}等级， 它就不会因完成长休而恢复任何生命值、亦不会因此降低力竭等级。</p><p><em><strong>抵抗疫病。</strong></em>染疫的生物在每日黎明时都要进行一次[[/save format=long]]。豁免失败则病情恶化，该生物获得 1 级&amp;Reference[Exhaustion]{力竭}。豁免成功则该生物降低 1 级力竭。若该生物的力竭等级降至 0，则该生物康复。</p><p class=\"item-original\">Sewer Plague</p>",
+      "chat": ""
+    },
+    "identifier": "sewer-plague",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "疲惫",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_contagion_sewer-plague.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.VKeBqjeePpT2x6ir",
+      "_id": "KVuDDaY8VQfTsfdh",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得 1 级&amp;Reference[Exhaustion]{力竭}。</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "exhaustion"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1759948262657,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!VKeBqjeePpT2x6ir.KVuDDaY8VQfTsfdh"
+    }
+  ],
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.G0XMUBeShs0ORuFi",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750492766362,
+    "modifiedTime": 1762017220676,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "VKeBqjeePpT2x6ir",
+  "_key": "!items!VKeBqjeePpT2x6ir"
+}

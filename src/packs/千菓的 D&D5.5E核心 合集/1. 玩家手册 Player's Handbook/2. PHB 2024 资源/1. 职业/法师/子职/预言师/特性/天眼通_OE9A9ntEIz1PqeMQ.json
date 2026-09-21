@@ -1,0 +1,431 @@
+{
+  "name": "天眼通",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_diviner_the-third-eye.webp",
+  "system": {
+    "activities": {
+      "OpiialUc7vVWJb8W": {
+        "type": "utility",
+        "_id": "OpiialUc7vVWJb8W",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "黑暗视觉"
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "KkJw99n09rRD95zJ"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "黑暗视觉",
+        "img": "",
+        "appliedEffects": [
+          "KkJw99n09rRD95zJ"
+        ]
+      },
+      "ThkSWh0dhb71vug5": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "高等理解力"
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "qx8f3oR2bjpHRTg2"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "高等理解力",
+        "_id": "ThkSWh0dhb71vug5",
+        "img": "",
+        "appliedEffects": [
+          "qx8f3oR2bjpHRTg2"
+        ]
+      },
+      "8fDVpv2OYv7K68wr": {
+        "type": "enchant",
+        "name": "识破隐形",
+        "_id": "8fDVpv2OYv7K68wr",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "识破隐形"
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "aGHP0MJX1lQA56Ip",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": [
+                "Compendium.dnd5e-collection-2024.phb-content.Item.6yvW4KLYdWias6Au"
+              ]
+            }
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": true,
+          "categories": [],
+          "properties": [],
+          "type": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "aGHP0MJX1lQA56Ip"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你可以增强你的察觉能力。以一个&amp;Reference[Bonus Action]{附赠动作}，从以下增益中选择其一，其会持续至你开始一次短休或长休。你不能在完成一次短休或长休前再次使用这个特性。</p><p><em><strong>黑暗视觉。</strong></em>你获得 120 尺黑暗视觉。</p><p><em><strong>高等理解力。</strong></em>你可以读懂任何语言。</p><p><em><strong>识破隐形。</strong></em>你能不消耗法术位地施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc]{识破隐形}</em>。</p><p class=\"item-original\">The Third Eye</p>",
+      "chat": ""
+    },
+    "identifier": "the-third-eye",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "预言师"
+  },
+  "effects": [
+    {
+      "name": "黑暗视觉",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_diviner_the-third-eye.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.OE9A9ntEIz1PqeMQ",
+      "transfer": false,
+      "_id": "KkJw99n09rRD95zJ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.senses.darkvision",
+          "mode": 4,
+          "value": "120",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得 120 尺黑暗视觉。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736612820239,
+        "modifiedTime": 1736612846273,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!OE9A9ntEIz1PqeMQ.KkJw99n09rRD95zJ"
+    },
+    {
+      "name": "高等理解力",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_diviner_the-third-eye.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.OE9A9ntEIz1PqeMQ",
+      "transfer": false,
+      "_id": "qx8f3oR2bjpHRTg2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你可以读懂任何语言。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736612864723,
+        "modifiedTime": 1736612881058,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!OE9A9ntEIz1PqeMQ.qx8f3oR2bjpHRTg2"
+    },
+    {
+      "type": "enchantment",
+      "name": "识破隐形",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_diviner_the-third-eye.webp",
+      "disabled": false,
+      "_id": "aGHP0MJX1lQA56Ip",
+      "system": {},
+      "changes": [],
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736612919493,
+        "modifiedTime": 1736613050783,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!OE9A9ntEIz1PqeMQ.aGHP0MJX1lQA56Ip"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194974813,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "OE9A9ntEIz1PqeMQ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!OE9A9ntEIz1PqeMQ"
+}

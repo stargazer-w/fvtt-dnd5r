@@ -1,0 +1,101 @@
+{
+  "name": "守护灵光",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_aura-of-protection.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你散发出无形的保护性光环，覆盖以你为源点的 10 尺弥漫区域。只要你未陷入失能状态，此灵光就持续生效。</p><p>你与灵光内盟友的豁免结果获得相当于你魅力调整值的加值（最少为 +1）。</p><p>如果同时存在有其他圣武士，一个生物同时也只能从一个守护灵光中获得增益。这个生物自己选择享受谁的灵光。</p><p class=\"item-original\">Aura of Protection</p>",
+      "chat": ""
+    },
+    "identifier": "aura-of-protection",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "圣武士"
+  },
+  "effects": [
+    {
+      "name": "守护灵光",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_aura-of-protection.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.MB2LbrrF5SfC6jvP",
+      "_id": "XL2jviPyk8XsGkXC",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你的豁免结果获得相当于此来源魅力调整值的加值。</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735491333238,
+        "modifiedTime": 1735491546497,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!MB2LbrrF5SfC6jvP.XL2jviPyk8XsGkXC"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194972222,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "MB2LbrrF5SfC6jvP",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!MB2LbrrF5SfC6jvP"
+}

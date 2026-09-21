@@ -1,0 +1,174 @@
+{
+  "name": "鲁莽攻击",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_reckless-attack.webp",
+  "system": {
+    "activities": {
+      "VgY3IqpY602VSh4Y": {
+        "type": "utility",
+        "_id": "VgY3IqpY602VSh4Y",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "round",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "rL6lFR1amwaQPvi2"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你可以抛弃一切对防御的顾虑来发起更加狂乱的攻击。</p><p>你在自己回合中进行第一次攻击检定时，可以不顾一切地发起攻击。若如此做，直到你的下个回合开始时，你使用力量进行的攻击检定具有优势，但在此期间所有以你为目标的攻击检定也具有优势。</p><p class=\"item-original\">Reckless Attack</p>",
+      "chat": ""
+    },
+    "identifier": "reckless-attack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "野蛮人"
+  },
+  "effects": [
+    {
+      "name": "鲁莽攻击",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_barbarian_reckless-attack.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.pqzUiEoi83m6Z069",
+      "transfer": false,
+      "_id": "rL6lFR1amwaQPvi2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>直到你的下个回合开始时，你使用力量进行的攻击检定具有优势。</p><p>在此期间所有以你为目标的攻击检定具有优势。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732586883746,
+        "modifiedTime": 1735443283633,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!pqzUiEoi83m6Z069.rL6lFR1amwaQPvi2"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731070004226,
+    "modifiedTime": 1758195015778,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "pqzUiEoi83m6Z069",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pqzUiEoi83m6Z069"
+}

@@ -1,0 +1,306 @@
+{
+  "name": "玄奥秘法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_mystic-arcanum.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的宗主赋予你一种称为秘法的魔法奥秘。你可以选择一个 6 环的魔契师法术作为你的玄奥秘法。你可以施展该秘法，无需消耗法术位。以此消耗的秘法可以通过完成一次长休进行恢复。</p><p>在获得更高的魔契师等级后，你将可以选择更多的魔契师法术以该方式施展：第 13 级时可选一个 7 环法术，15 级时可选一个 8 环法术，17 级时可选一个 9 环法术。完成一次长休后，所有消耗掉的秘法都会恢复。</p><p>每当你提升魔契师等级时，你都可以将一个秘法的法术替换为另一个同环魔契师法术。</p><p class=\"item-original\">Mystic Arcanum</p>",
+      "chat": ""
+    },
+    "identifier": "mystic-arcanum",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "魔契师",
+    "advancement": [
+      {
+        "_id": "NnvF4haeW78h8dzg",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "11": {
+              "count": 1,
+              "replacement": false
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "level": "6",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "玄奥秘法（6 环）",
+        "hint": "你选择一个相应环阶的魔契师法术作为你的玄奥秘法。每当你提升魔契师等级时，你都可以将一个秘法的法术替换为另一个同环魔契师法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_mystic-arcanum.webp"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "13": {
+              "count": 1,
+              "replacement": false
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "level": "7",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "玄奥秘法（7 环）",
+        "hint": "你选择一个相应环阶的魔契师法术作为你的玄奥秘法。每当你提升魔契师等级时，你都可以将一个秘法的法术替换为另一个同环魔契师法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_mystic-arcanum.webp",
+        "_id": "jY6wQN6yHqLcGUzU"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "15": {
+              "count": 1,
+              "replacement": false
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "level": "8",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "玄奥秘法（8 环）",
+        "hint": "你选择一个相应环阶的魔契师法术作为你的玄奥秘法。每当你提升魔契师等级时，你都可以将一个秘法的法术替换为另一个同环魔契师法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_mystic-arcanum.webp",
+        "_id": "1GFE5E9ixNBMIocd"
+      },
+      {
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "17": {
+              "count": 1,
+              "replacement": false
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "allowDrops": true,
+          "type": "spell",
+          "pool": [],
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          },
+          "restriction": {
+            "level": "9",
+            "list": [
+              "class:warlock"
+            ]
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "玄奥秘法（9 环）",
+        "hint": "你选择一个相应环阶的魔契师法术作为你的玄奥秘法。每当你提升魔契师等级时，你都可以将一个秘法的法术替换为另一个同环魔契师法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_warlock_mystic-arcanum.webp",
+        "_id": "lshHTWs6sTtEyLHL"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777658547175,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "jYFpDCyOdfaoebbp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!jYFpDCyOdfaoebbp"
+}

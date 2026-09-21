@@ -1,0 +1,134 @@
+{
+  "name": "畸变术法",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/sorcerer_aberrant.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>操弄非自然的灵能力量</p></blockquote><p>某种外来的影响曾经用它的卷须将你的意识缠绕裹拢，给予了你灵能之力。如今，你能够使用这股力量触碰他人的内心，或是用它操控多元宇宙的魔法能量颠覆你周遭的世界。这种力量会从你身上如希望的灯塔一般照耀着旁人吗？抑或是使你成为恐惧之源，使他人得见你怪异的力量，受你的心灵所伤害呢？</p><p>也许一股从星界吹来的心灵之风将灵能力量灌入你的体内，抑或是你曾暴露在遥远国度扭曲的影响之下。此外，也可能是你被植入了一只夺心魔蝌蚪，但蜕变一直没能完成。现在，其灵能力量已经被你占为已有。无论你是怎么获得这种力量的，它都在你的心灵中熊熊燃烧。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.xo67PeLGvhBovzu7.JournalEntryPage.zqwAE59wEiY1bbtm]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NyCYF1XyRuggsfsC]{Aberrant Sorcery}</p>",
+      "chat": ""
+    },
+    "identifier": "aberrant",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.vdF0DmjI95coRoaB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.ychq6JKVYcXTerS3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "pRgmLhFJSdR9qhWF"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.vjaaBdlHak8VumVM",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PLMPSuQNBGOGfTn8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "H5v2zhzmFzxApmkC"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.v0t2997qCOQtfGvm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "9ZyYsY2shbhIf3IO"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.skbMvNQlLaVJNKoi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "nLBldnrEuYbY3foL"
+      }
+    ],
+    "classIdentifier": "sorcerer",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777579538940,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "NyCYF1XyRuggsfsC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!NyCYF1XyRuggsfsC"
+}

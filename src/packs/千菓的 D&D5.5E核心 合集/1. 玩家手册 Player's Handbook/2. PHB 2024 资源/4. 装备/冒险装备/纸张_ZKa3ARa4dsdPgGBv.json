@@ -1,0 +1,62 @@
+{
+  "name": "纸张",
+  "system": {
+    "description": {
+      "value": "<p>一页纸张能够写满 250 个手写单词。</p><p class=\"item-original\">Paper</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 2,
+      "denomination": "sp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "paper"
+  },
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_paper.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194990659,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ZKa3ARa4dsdPgGBv",
+  "sort": 3700000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ZKa3ARa4dsdPgGBv"
+}

@@ -1,0 +1,201 @@
+{
+  "name": "害兽帽",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_hat-of-vermin.webp",
+  "system": {
+    "activities": {
+      "4B9YraYjKYd2OGLS": {
+        "type": "summon",
+        "_id": "4B9YraYjKYd2OGLS",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "_id": "eZ70NFPhyyOGkyor",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Mmck4W7OF9r1xUQi"
+          },
+          {
+            "_id": "Kz4drchoCyklWThV",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.9gsPXkiOvhI3VJXi"
+          },
+          {
+            "_id": "Umb5ykEjbDmH3eM3",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": [],
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.qM8bDd0R5R73LB1b"
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>奇物，普通</em></p><p>这顶帽子有 3 充能。持握此帽期间，你可以用一个&amp;Reference[Magic]{魔法}动作消耗 1 充能，召唤你选择的下述三种生物之一：一只@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Mmck4W7OF9r1xUQi]{蝙蝠}，一只@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.9gsPXkiOvhI3VJXi]{青蛙}或一只@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.qM8bDd0R5R73LB1b]{鼠}。召唤出的生物魔法性地出现在帽子中，并且会试图尽快远离你。此生物对你和其他生物的态度是冷漠，且不在你的控制之下。它会如其种类的普通生物一般行动，且会在 1 小时或者生命值降至 0 点时消失。此帽在每日黎明时恢复所有已消耗的充能。</p><p class=\"item-original\">Hat of Vermin</p>",
+      "chat": ""
+    },
+    "identifier": "hat-of-vermin",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 100,
+      "denomination": "gp"
+    },
+    "rarity": "common",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757297811297,
+    "modifiedTime": 1758199224829,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "gp0hy1m3SGKtJ3Od",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!gp0hy1m3SGKtJ3Od"
+}

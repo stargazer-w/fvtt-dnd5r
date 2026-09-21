@@ -1,0 +1,56 @@
+{
+  "name": "鹰",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_barbarian_wild-heart_rage-of-the-wilds_eagle.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你激活狂暴时，作为你进入狂暴的附赠动作的一部分，你可以同时执行&amp;Reference[Disengage]{撤离}与&amp;Reference[Dash]{疾跑}动作。你的狂暴激活期间，你也可以以一个&amp;Reference[Bonus Action]{附赠动作}同时执行这两个动作。</p><p class=\"item-original\">Eagle, @UUID[Compendium.dnd5e-collection-2024.phb-content.Item.tyaHXmF2oHGxvkdc]{Rage of the Wilds}</p>",
+      "chat": ""
+    },
+    "identifier": "eagle",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1734070710511,
+    "modifiedTime": 1777118017638,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "_id": "KG8yu4S6r1eQ7Br6",
+  "sort": 0,
+  "_key": "!items!KG8yu4S6r1eQ7Br6"
+}

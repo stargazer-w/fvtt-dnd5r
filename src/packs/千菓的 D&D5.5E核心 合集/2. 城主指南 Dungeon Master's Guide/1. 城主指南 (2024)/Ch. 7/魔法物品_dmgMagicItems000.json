@@ -1,0 +1,532 @@
+{
+  "_id": "dmgMagicItems000",
+  "name": "魔法物品",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "魔法物品的类别",
+      "type": "text",
+      "_id": "ECu9eaTCA5POlB30",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Magic Item Categories</p><p>每件魔法物品都隶属于一个类别。魔法物品类别表列出了所有 9 个类别并给出了范例。这些类别的相关规则将在该表后有所述及。</p><table><caption>魔法物品类别 Magic Item Categories</caption><thead><tr><th>类别</th><th>范例</th></tr></thead><tbody><tr><td>护甲</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.6cIkXHz5lllARwSF]{+1 皮甲}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.M4m96jZPXBXj71tT]{+1 盾牌}</em></td></tr><tr><td>药水</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fjCySXxofVJVT2Cd]{治疗药水}</em></td></tr><tr><td>戒指</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.qWahloOexd5yXbtb]{隐形戒指}</em></td></tr><tr><td>权杖</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DdcOnMiyZ9T7OX7c]{不动权杖}</em></td></tr><tr><td>卷轴</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.EUmvU6AssH8rcIE3]{法术卷轴}</em></td></tr><tr><td>法杖</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.to51bFznAJfvn9F1]{强袭法杖}</em></td></tr><tr><td>魔杖</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.Nvhvo7k2s8sEnN0N]{火球魔杖}</em></td></tr><tr><td>武器</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.c32UlJVWuQyQnGeY]{+1 弹药}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.bMNkHScfliQBnGGZ]{+1 长剑}</em></td></tr><tr><td>奇物</td><td><em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.MtNdbAgGmGsr9opW]{次元袋}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.2RuMoPGw7kFC61J0]{精灵之靴}</em></td></tr></tbody></table><h2>护甲</h2><p class=\"journal-original-h2\">Armor</p><p>护甲类别的物品一般为<em>《玩家手册》</em>中所述护甲的魔法版本。除非一件护甲的描述另有说明，否则护甲必须被着装以发挥其魔法性质。</p><p>某些魔法护甲会注明该护甲的类型，例如链甲或板甲。若护甲并未标注类型，则你可以自行选择或随机决定其类型。</p><h2>药剂</h2><p class=\"journal-original-h2\">Potions</p><p>药水类别的物品可以是必须饮用生效的魔法酿造物，或者是必须对一名角色或一个物件涂抹生效的油状物。一般药水表现为装在小瓶中的 1 盎司液体。</p><p><em><strong>使用药剂。</strong></em>药水是消耗品。喝下药水或者将其施用于另一名角色身上都需要一个附赠动作。而施用一件油状药剂有可能会需要更久，如其描述所示。</p><p>一经使用过后，药水便会立即生效，且该药剂即被用尽。</p><p><em><strong>混合药剂。</strong></em>一名角色可能会在其仍处于一种药水效应影响之下的时候又喝下另一种药剂，或者把几种药水注入同一容器之中。在制造药水时所使用的奇怪原料将会导致产生无法预料的化学反应。</p><p>当一名角色将两种药水混合到一起时，则依据药水混合表进行掷骰。如果混合的药水多于两种，则为随后加入的每一种药水再进行一次掷骰。除非混合后的效应可以被立即观察到，否则在效应显现时，这些效应才会再被揭示出来。</p><p class=\"table-caption\">药剂混合 Potion Miscibility</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.7Z2rgGQNVrnPghbe rollable inline]</p><h2>戒指</h2><p class=\"journal-original-h2\">Rings</p><p>除非戒指的描述另有说明，否则戒指类别的物品必须被着装在手指或者类似的指趾上以发挥其魔法性质。</p><h2>权杖</h2><p class=\"journal-original-h2\">Rods</p><p>权杖类别的物品通常由金属，木头或骨头制成。权杖一般重量为 2 到 5 磅。</p><p>权杖可以被用作奥术法器，除非其描述另有说明。</p><h2>卷轴</h2><p class=\"journal-original-h2\">Scrolls</p><p>卷轴类别的物品可以是纸卷或羊皮卷，有时还会缠绕于木棒之上，且一般保存于象牙筒、玉筒、皮筒、金属筒或木筒中。<em>法术卷轴</em>是最常见的一种卷轴，能够以书写的形式储存一道法术。然而某些卷轴，例如<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.DfEopIEvHLRjQTP8]{保护卷轴}</em>，其中具有的就是一道咒文，而非法术。</p><p><em><strong>使用卷轴。</strong></em>卷轴是消耗品。将卷轴中的魔法释放出来需要使用者对卷轴进行阅读。当卷轴中的魔法被唤出后，该卷轴便无法再次使用。然后卷轴上的文字将消失或者其本身破碎化为尘埃。</p><p>除非卷轴的描述另有说明，任何能够看懂一门语言之书面文字的生物都能够阅读并尝试激活卷轴。</p><h2>法杖</h2><p class=\"journal-original-h2\">Staffs</p><p>法杖类别的物品具有各种各样的外观：一些法杖外表平滑且各处直径近乎相等，而另外一些则长得又疙瘩又扭曲；一些法杖由木头制成，而另外一些则由经抛光的金属或水晶所组成。法杖重量在 2 到 7 磅之间，并且也能很好地充当步行杖或者手杖。</p><p>法杖可以被用作一根非魔法长棍或者一件奥术法器，除非其描述另有说明。</p><h2>魔杖</h2><p class=\"journal-original-h2\">Wands</p><p>魔杖类别的物品一般 12 到 15 寸长，且一般由金属，木头或骨头制成。其顶端一般会用金属，骨头，木头或者其他一些材料进行装饰。</p><p>魔杖可以被用作奥术法器，除非其描述另有说明。</p><h2>武器</h2><p class=\"journal-original-h2\">Weapons</p><p>魔法武器一般为<em>《玩家手册》</em>中所述某种武器的魔法版本。某些魔法武器会在其描述中注明该武器的类型，例如长剑或长弓。若武器并未标注类型，则你可以自行选择或随机决定其类型。</p><p><em><strong>弹药。</strong></em>若一件魔法武器具有弹药词条，则对于任何意在规范某件武器魔法性与否的规则而言，从该武器中射出的均为魔法性子弹。</p><h2>奇物</h2><p class=\"journal-original-h2\">Wondrous Items</p><p>奇物类别的物品包括但不限于诸如靴子、腰带、斗篷、护符、徽章、头饰之类的可着装物品。背包、毛毯、小型塑像、号角、乐器等物品也都归于此类。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583829036,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.ECu9eaTCA5POlB30"
+    },
+    {
+      "sort": 0,
+      "name": "魔法物品的稀有度",
+      "type": "text",
+      "_id": "qDuny4owDodH8RDQ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Magic Item Rarity</p><p>每件魔法物品都具有一项稀有度，用以大致衡量某件物品与其他魔法物品相比所拥有的力量。其稀有度如魔法物品稀有度与价格表所示。</p><p>稀有度为普通的魔法物品，比如<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fjCySXxofVJVT2Cd]{治疗药水}</em>，数量最多。而神器，比如<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.99oCJEeu8hDAljSQ]{奥喀斯之杖}</em>，则是独一无二的无价之宝，极难获得。</p><h2>魔法物品根据稀有度的定价</h2><p class=\"journal-original-h2\">Magic Item Values by Rarity</p><p>稀有度为普通的魔法物品往往可以在小镇或城市中买到。非普通与珍稀的魔法物品则通常只能在城市中找到。而更珍稀的魔法物品则只在某些特殊地点有售，比如黄铜之城或印记城。若你允许角色在你的战役中买卖魔法物品，则稀有度可以帮助你为这些物品订立价格。魔法物品稀有度与价格表中提供的价格以金币为单位，但卖家也可能会要求以某项服务而非钱币来支付。</p><p>若一件魔法物品内含某件在<em>《玩家手册》</em>中所列出且拥有购买价格的物品（例如一把武器或一套护甲），则将该物品的价格与该魔法物品的价格相加。例如，<em>+1 护甲</em>（板甲）的价格为 5500 GP，即一件珍稀魔法物品的价格（4000 GP）与一件板甲的价格（1500 GP）之和。</p><table><caption>魔法物品稀有度与价格 Magic Item Rarities and Values</caption><thead><tr><th>稀有度</th><th>价格 *</th></tr></thead><tbody><tr><td>普通</td><td>100 GP</td></tr><tr><td>非普通</td><td>400 GP</td></tr><tr><td>珍稀</td><td>4000 GP</td></tr><tr><td>极珍稀</td><td>40000 GP</td></tr><tr><td>传说</td><td>200000 GP</td></tr><tr><td>神器</td><td>无价</td></tr></tbody></table><p class=\"Table-Styles_Table-Footnote\">* 除<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.EUmvU6AssH8rcIE3]{法术卷轴}</em>外，所有消耗品的价格减半。一张<em>法术卷轴</em>的价格为该卷轴@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.yFzzxIJsgpTWKtlt.JournalEntryPage.PqgP4xUdubWFmGgR#抄录法术卷轴]{抄录}时所需成本的两倍。</p><aside class=\"notable\"><h3>魔法物品的规则</h3><p>魔法物品的鉴定规则，同调规则与使用规则皆已在<em>《玩家手册》</em>中列出。额外的规则则如下所述。</p><p><span><em><strong>同调的先决条件。</strong></em></span>若魔法物品具有某项职业的先决条件，则一名生物必须属于该职业才能与该物品同调。如果一名生物必须是施法者才能与某物品同调，则若该生物能够通过其特质或特性施展至少一道法术（不能使用魔法物品或类似手段），那么该生物就具备同调该物品的资格。</p><p><span><em><strong>为特定生物制造的物品。</strong></em></span>用以着装的魔法物品一般会魔法般地自动调整其形状以适配其着装者。然而，你也可以令魔法物品不再调整自身以适配着装者。例如，一位特定的盔甲匠制造出来的物品可能只有那些体型和身材都和矮人差不多的家伙才能使用。</p><p><span><em><strong>罕见的身体构造。</strong></em></span>你可以自由决定某名生物是否可以着装某件并非为其身体构造而制造的物品。戒指套在一条触手上面或许还能生效，但一名长着蛇尾而非双腿的原体蛇人便无法着装魔法靴子。</p><p><span><em><strong>成对的物品。</strong></em></span>虽然规则规定成对的物品两者都必须被着装，但你也可以允许一些例外情况。例如，一名只有一条手臂的角色也可以使用单独一只<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.xft4Vyf6b1AGKw1n]{辟矢夺箭手套}</em>，只要另外一只手套还在该角色身上。</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583844990,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.qDuny4owDodH8RDQ"
+    },
+    {
+      "sort": 0,
+      "name": "奖励魔法物品",
+      "type": "text",
+      "_id": "FD4qYfk5uK3MbytC",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Awarding Magic Items</p><p>奖励魔法物品是 DM 的权力。当故事中需要某件魔法物品的出现或者玩家们拥有它会特别开心时，你便可以给予魔法物品作为奖励。该小节将帮助你决定哪一件魔法物品最终会被角色们收入囊中。</p><aside class=\"notable float-right size-three\"><h3>魔法物品是必需品吗？</h3><p>D&amp;D 游戏假定魔法物品都是偶然出现的，且除了诅咒物品之外，都应是非常有用的事物。角色和怪物在设计时便是在没有魔法物品帮助的情况下相互对峙，而这便意味着拥有魔法物品将会使得一个角色比同级的一般角色更加强大或更加全面。作为 DM，你永远不必担心奖励魔法物品的问题，这是为了让角色跟上战役的难度。魔法物品应是真切的奖赏——诱人，但并非必需品。</p></aside><h2>根据等级奖励的魔法物品</h2><p class=\"journal-original-h2\">Magic Items Awarded by Level</p><p>根据等级奖励的魔法物品表中展示了一支 D&amp;D 冒险团队在战役中通常会获得魔法物品的数量，且在 20 级时，魔法物品的总量将达到 100 件。该表亦展示了游玩过程的四个阶层中处于各个阶层时所应分发的，各个稀有度的魔法物品之数量。</p><p>神器在该表中忽略不计，因为神器绝大多数情况下都只是用来在高等级冒险中推动剧情的一个手段，且角色们也很难有机会能长时间拥有神器（因为神器往往应当被摧毁或是在战役末尾才被拿到）。</p><p><em><strong>玩家愿望单。</strong></em>鼓励你的玩家为他们希望其角色能在战役途中找到的魔法物品列一张愿望单。如果你想要给予某件魔法物品作为奖励但又不知道奖励什么好，那你就可以从你玩家的愿望单里面挑一件稀有度合适的魔法物品送了。</p><p><em><strong>为冒险过量准备。</strong></em>创建或修改冒险时，请假定角色们无法找齐你放置于冒险之中的所有魔法物品。一场冒险通常包含的物品数量可以比根据等级奖励的魔法物品表中的数字高出 25%（向上取整）。例如，一场预计将角色从 1 级升到 4 级的冒险应该包含 14 件物品而非 11 件，因为预计有 3 件物品不会被发现。</p><table><caption>根据等级奖励的魔法物品 Magic Items Awarded by Level</caption><thead><tr><th>角色等级（游戏阶段）</th><th>普通物品</th><th>非普通物品</th><th>珍稀物品</th><th>极珍稀物品</th><th>传说物品</th><th>物品总量</th></tr></thead><tbody><tr><td>1–4 (T1)</td><td>6</td><td>4</td><td>1</td><td>0</td><td>0</td><td>11</td></tr><tr><td>5–10 (T2)</td><td>10</td><td>17</td><td>6</td><td>1</td><td>0</td><td>34</td></tr><tr><td>11–16 (T3)</td><td>3</td><td>7</td><td>11</td><td>7</td><td>2</td><td>30</td></tr><tr><td>17–20 (T4)</td><td>0</td><td>0</td><td>5</td><td>11</td><td>9</td><td>25</td></tr><tr><td><strong>总計</strong></td><td><strong>19</strong></td><td><strong>28</strong></td><td><strong>23</strong></td><td><strong>19</strong></td><td><strong>11</strong></td><td><strong>100</strong></td></tr></tbody></table><h2>魔法物品跟进卡</h2><p class=\"journal-original-h2\">Magic Item Tracker</p><p>你可以使用@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgTrackingSheet.JournalEntryPage.v3Dy6zomR2zka7fh]{魔法物品跟进卡}来跟进角色们所拥有的魔法物品数量。每当角色们获得一件魔法物品时，则在当前角色所处的等级范围内与该物品稀有度相对应的其中一个空圈中打钩。如果角色们获得的魔法物品在当前等级范围内对应的稀有度空圈已被勾满，则转而检查更低阶段的空格是否被勾满。若所有更低阶段的空圈均被勾满，则在更高阶段的空圈中打钩。</p><h2>随机魔法物品稀有度</h2><p class=\"journal-original-h2\">Random Magic Item Rarity</p><p>当你决定令某处宝藏中包含魔法物品时，你有两种方法决定这些物品的稀有度。你可以基于你已给出的魔法物品来选择合适的稀有度（使用魔法物品跟进表以持续跟进），又或者可以根据魔法物品稀有度表进行掷骰决定。</p><p>要使用该表，你需要在首行找到角色所属的等级范围。然后掷 1d100，顺着该列向下找到掷骰结果所在行。然后在最右一列找到该物品的稀有度。</p><table><caption>魔法物品稀有度 Magic Item Rarities</caption><thead><tr><th colspan=\"5\">[[/r 1d100]]</th></tr><tr><th>等级 1–4</th><th>等级 5–10</th><th>等级 11–16</th><th>等级 17–20</th><th>物品稀有度</th></tr></thead><tbody><tr><td>01–54</td><td>01–30</td><td>01–11</td><td>—</td><td>普通</td></tr><tr><td>55–91</td><td>31–81</td><td>12–34</td><td>—</td><td>非普通</td></tr><tr><td>92–00</td><td>82–98</td><td>35–70</td><td>01–20</td><td>珍稀</td></tr><tr><td>—</td><td>99–00</td><td>71–93</td><td>21–64</td><td>极珍稀</td></tr><tr><td>—</td><td>—</td><td>94–00</td><td>65–00</td><td>传说</td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583868378,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.FD4qYfk5uK3MbytC"
+    },
+    {
+      "sort": 0,
+      "name": "激活魔法物品",
+      "type": "text",
+      "_id": "4AEfQUDZXzv0lAoA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Activating a Magic Item</p><p>激活某件魔法物品通常需要执行一个&amp;Reference[Magic]{魔法}动作。物品的使用者可能还需要做一些特别的事情。每项物品的类别或单件物品的描述都会详细说明激活一件物品的方式。</p><aside class=\"notable float-right size-three\"><h3>开卡魔法物品</h3><p>如果你正要为高于 1 级的角色展开一场战役，那么<em>《玩家手册》</em>将为你提供有关于这些角色开卡时应当携带的魔法物品数量以及这些魔法物品稀有度的建议。以下是关于如何决定角色们具体获得了什么魔法物品的建议：</p><p><strong>由 DM 选定。</strong>依你自己的判断来为每名角色选取物品。</p><p><strong>由玩家选定。</strong>让玩家们在特定的稀有度范围内选择任何他们想要的物品。</p><p><strong>随机决定。</strong>使用@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItemList.JournalEntryPage.1asrgLIXBkZK96Uz]{该章节末的表格}以随机决定起始物品。对于术士、魔契师及法师，则选用奥秘表。对于野蛮人、战士、圣武士和游侠，则选用武备表。对于吟游诗人、武僧和游荡者，则选用器具表。对于牧师和德鲁伊，则选用圣物表。你也可自由地尝试对你所使用的这些表格进行变更，以为每名角色给予一套有用的魔法物品的组合，且能够与角色的画风相匹配。例如，对于一名子职为奥法骑士的战士而言，你可能将会从奥秘表中选取一样物品，而其余物品则从武备表中选取。</p></aside><h2>命令语</h2><p class=\"journal-original-h2\">Command Word</p><p>命令语一般是一个字或者一句短语，必须对物品说出命令语或用命令语进行标记，该物品才会生效。以说话方式发出的命令语必须能够被听见，而在任何声音都被压制的空间——例如法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CkmXU8PLzSdQOsDU]{沉默术}</em>的效应空间内，命令语也会失效。</p><h2>消耗品</h2><p class=\"journal-original-h2\">Consumable Items</p><p>某些物品在激活后即被消耗——或者说被用尽。例如，<em>治疗药水</em>在内服生效后耗尽，卷轴上面的字在阅读过后即刻消失。消耗品一经使用，便失去其魔力。</p><h2>从物品中施展法术</h2><p class=\"journal-original-h2\">Spells Cast from Items</p><p>某些魔法物品允许其使用者从该物品中施展一道法术。该法术将以其可达到的最低环阶或最低施法者等级施展，施展时亦不会消耗使用者的任何法术环位，且无需任何法术成分，除非该物品的描述另有说明。该法术以其通常的施法时间、施法距离与持续时间所施展，且如果该法术需要专注，则该物品的使用者也必须维持专注。许多物品——例如药剂——可以绕过施法步骤并直接给予某道法术的效应，持续时间为该法术的通常持续时间。某些特定物品是这些规则的特例，它们会改变一道法术的施法时间，持续时间或者其他部分。</p><p>某些魔法物品可能会需要使用者在从该物品中施展法术时使用自身的施法属性。若该使用者的施法属性多于一项，则使用者必须选择使用哪一项施法属性。若使用者没有施法属性，则对该物品而言，使用者的施法属性调整值为 +0，使用者的熟练加值也适用于这条规则。</p><h2>充能</h2><p class=\"journal-original-h2\">Charges</p><p>某些魔法物品具有充能，若要激活其词条，则必须消耗其充能。一件物品所具有的充能次数在该物品被施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em>之后得以知晓。对某件物品进行同调的生物也将知晓该物品所具有的充能次数以及该物品能够重获多少充能。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583902166,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.4AEfQUDZXzv0lAoA"
+    },
+    {
+      "sort": 0,
+      "name": "“次日黎明”",
+      "type": "text",
+      "_id": "GcIebWGnwi7i7oaF",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">\"The Next Dawn\"</p><p>魔法物品往往会具有充能或者可在次日黎明时分或其他一些特定时间点恢复充能的词条。如果这样一件物品存在于某个无法发生上述特定事件的世界或存在位面，则由 DM 决定该物品何时将恢复充能。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583914750,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.GcIebWGnwi7i7oaF"
+    },
+    {
+      "sort": 0,
+      "name": "诅咒物品",
+      "type": "text",
+      "_id": "HyRrFlQhYbgRttRR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Cursed Items</p><p>魔法物品的描述将注明其是否带有诅咒。绝大多数鉴定物品的方法，包括<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Enj2mPEEXQ1Gm4da]{鉴定术}</em>，都无法发现这种诅咒。</p><p>对诅咒物品的同调无法自行结束，除非先将此物的诅咒解除，例如使用法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Jtt83qZ5kmO8nr1U]{移除诅咒}</em>。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583921779,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.HyRrFlQhYbgRttRR"
+    },
+    {
+      "sort": 0,
+      "name": "魔法物品的耐久",
+      "type": "text",
+      "_id": "W5mRHhmNWTWBooI5",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Magic Item Resilience</p><p>一件魔法物品的坚韧程度至少与同种类的非魔法物品的坚韧程度相当。除了药剂与卷轴之外，绝大多数魔法物品都具有所有伤害类型的抗性。</p><p>神器只能通过某些特殊手段摧毁。除此之外，它不受任何伤害所影响。若要了解如何摧毁一件神器，则通常需要进行研究或者完成一番探索。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583928119,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.W5mRHhmNWTWBooI5"
+    },
+    {
+      "sort": 0,
+      "name": "制作魔法物品",
+      "type": "text",
+      "_id": "CmKJpbyrDuVrAkIs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Crafting Magic Items</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh7ArtHandout.JournalEntryPage.W0F33KJqVbHhxFYc cite=false]</p><p><em>《玩家手册》</em>内含有关于酿造<em>治疗药水</em>与抄写<em>法术卷轴</em>的规则。而要制作其他魔法物品，则需遵循下述规则。在这些规则中，“你”指的是正在制作魔法物品的角色。</p><h2>奥秘熟练项</h2><p class=\"journal-original-h2\">Arcana Proficiency</p><p>若要制作魔法物品，则你与你的每位助手都必须具有奥秘技能的熟练。</p><h2>工具</h2><p class=\"journal-original-h2\">Tools</p><p>魔法物品工具表列出了制作每个类别的魔法物品所需的工具。你必须使用所需工具来制作物品且必须具有该工具的熟练。你的每位助手也必须具有该工具的熟练。有关工具的更多信息详见<em>《玩家手册》</em>。</p><table><caption>魔法物品工具 Magic Item Tools</caption><thead><tr><th style=\"white-space:nowrap\">物品种类</th><th>所需工具</th></tr></thead><tbody><tr><td>护甲</td><td>皮匠工具，铁匠工具，或者织布工具（根据工具描述中所注明的护甲种类进行选择）</td></tr><tr><td>药剂</td><td>炼金工具或者草药工具</td></tr><tr><td>戒指</td><td>珠宝匠工具</td></tr><tr><td>权杖</td><td>木雕工具</td></tr><tr><td>卷轴</td><td>书法工具</td></tr><tr><td>法杖</td><td>木雕工具</td></tr><tr><td>魔杖</td><td>木雕工具</td></tr><tr><td>武器</td><td>皮匠工具，铁匠工具，或者木雕工具（根据工具描述中所注明的武器种类进行选择）</td></tr><tr><td>奇物</td><td>修补工具或者作为魔法物品之基础的非魔法物品所需求的制作工具</td></tr></tbody></table><h2>法术</h2><p class=\"journal-original-h2\">Spells</p><p>若某件魔法物品允许其使用者从该物品中施展任意法术，则你必须在制作该魔法物品的每一天都准备着所有的这些法术。</p><h2>时间与成本</h2><p class=\"journal-original-h2\">Time and Cost</p><p>制作魔法物品所花费的时间与成本均基于该物品的稀有度，如魔法物品制作时间与成本表所示。</p><p><em><strong>每日的工作。</strong></em>你必须每日工作 8 小时以进行制作。如果一件魔法物品需要多日完成，则这些日期不必是连续的。</p><p><em><strong>助手。</strong></em>角色们可以齐心协力来缩短制作工期。将制作某件魔法物品所需的时间除以参与制作该物品的角色数量。一般来说，只有一名角色可以为你提供帮助，但 DM 可能也会允许更多的助手参与进来。</p><p><em><strong>原材料。</strong></em>该表内所述成本即代表制作一件魔法物品所需的原材料。由 DM 决定合适的原材料是否可以获取。在城市中，原材料将有 75% 的概率可以获取，而在任何其他聚居区中，该概率为 25%。若材料无法获取，则你必须等待至少 7 天，然后才能再次勘察该材料的可获取性。</p><p>若某件魔法物品内含一件拥有购买价格的物品（比如一把武器或一套护甲），则你还必须支付该物品的完整费用或者使用<em>《玩家手册》</em>中所述的规则以制作魔法物品。例如，要制作一套 <em>+1 护甲</em>（板甲），则你必须花费 3500 GP，或者花费 2000 GP 并在一件板甲的基础上进行制作。</p><table><caption>魔法物品制作时间与成本 Magic Item Crafting Time and Cost</caption><thead><tr><th>稀有度</th><th>时间 *</th><th>成本 *</th></tr></thead><tbody><tr><td>普通</td><td>5 日</td><td>50 GP</td></tr><tr><td>非普通</td><td>10 日</td><td>200 GP</td></tr><tr><td>珍稀</td><td>50 日</td><td>2,000 GP</td></tr><tr><td>极珍稀</td><td>125 日</td><td>20,000 GP</td></tr><tr><td>传奇</td><td>250 日</td><td>100,000 GP</td></tr></tbody></table><p class=\"Table-Styles_Table-Footnote\">* 除<em>法术卷轴</em>外，所有消耗品的制作时间与成本均减半。<em>法术卷轴</em>所需的制作时间与成本在<em>《玩家手册》</em>中已给出。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583943373,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.CmKJpbyrDuVrAkIs"
+    },
+    {
+      "sort": 100000,
+      "name": "魔法物品的独特特性",
+      "type": "text",
+      "_id": "0WfMqxMjsTpUyRDM",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Magic Item Special Features</p><p>你可以通过为某件魔法物品考虑背景故事以为该物品增添独特特性。该物品是谁制造的？其构造是否有什么不平常之处？它是为什么而被制造出来，而其最初的用途又是什么？有什么奇妙的小影响使得该物品有别于同类型的物品？对这些问题的回答可以帮助你将某件平平无奇的魔法物品，例如一把 <em>+1 长剑</em>，变得更耐人寻味。</p><p>使用下列表格来为某件魔法物品的过往历史填补细节。其中某些表格中的条目能够为特定物品增添有别于其他物品的更多意义。若你掷骰随机到了某些不合理的结果，则你可以再次掷骰并选择更合理的条目，或者直接以该结果作为引导自行编写属于你自己的独特特性。</p><p>在魔法物品的次级词条表以及魔法物品的影响表中，“你”指的是该物品的所有者。</p><p class=\"table-caption\">魔法物品的制作者或预设使用者 Magic Item's Creator or Intended User</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.VbRj5mOTM2y8n3i1 rollable inline]</p><p class=\"table-caption\">魔法物品的过往历史 Magic Item's History</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.ZR034oTNVOnOh7LJ rollable inline]</p><p class=\"table-caption\">魔法物品的次级词条 Magic Item's Minor Property</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.9dvtxlOso0rgoSv0 rollable inline]</p><p class=\"table-caption\">魔法物品的影响 Magic Item's Quirk</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.ggSxCauuDFklCvEl rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776583960167,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.0WfMqxMjsTpUyRDM"
+    },
+    {
+      "sort": 200000,
+      "name": "神器",
+      "type": "text",
+      "_id": "iA3mHmvlXvWKlyBo",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Artifacts</p><p>@Embed[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCh7ArtHandout.JournalEntryPage.NLzVvtnKHl64AfKv caption=false classes=\"float-right size-three\" cite=false]</p><p>神器是具有其独特起源与历史的，独一无二而世所罕见之强大的魔法物品。它可能被创造于某场威胁一个王国、一个世界甚至整个多元宇宙的灾难之中，并且在历史上的关键时刻曾发挥了相当大的作用。</p><p>某些神器会在人们最需要它时出现。不过对另一些神器来说，情况则正好相反，当这些神器被发掘出来之时，就连天地也因其现世而战栗。但无论是哪种情况，要将一件神器引入战役之前都必须三思。这件物品可能会是对立双方均希望占有的宝物，或者它将会是角色们克服最终挑战的必需品。</p><p>角色们通常不会在冒险的平常旅途中找到神器。事实上，神器只有在你想让它出现的时候才会出现，因为它们比起魔法物品更像是推动剧情的道具。追寻并找回某件神器往往是一场冒险的主要目的。角色们必须追索流言与传说，经历必要的试炼，闯入将要被遗忘的危险地域以找到他们苦苦寻求的神器。另一种情况下，某位著名的恶人已经拥有了该神器。取得神器并将其摧毁可能将是确保其力量不被邪恶利用的唯一方式。</p><h2>神器的词条</h2><p class=\"journal-original-h2\">Artifact Properties</p><p>除了神器描述中所述词条之外，一件神器还可能将拥有其他或减益或增益的词条。你可以在该小节所列出的表中选取这样的词条或者随机决定。你也可以发明一些新的增益或减益词条。每当某件神器重新出现于世间，其所具有的这些词条通常也会发生改变。</p><p>一件神器最多拥有 4 项次要增益词条与 2 项主要增益词条。该神器也最多拥有 4 项次要减益词条与 2 项主要减益词条。</p><p class=\"table-caption\">次要增益词条 Minor Beneficial Properties</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu rollable inline]</p><p class=\"table-caption\">主要增益词条 Major Beneficial Properties</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.OcWc8txQePfpNZG6 rollable inline]</p><p class=\"table-caption\">次要减益词条 Minor Detrimental Properties</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.X3favP6TQPrbd0Rz rollable inline]</p><p class=\"table-caption\">主要减益词条 Major Detrimental Properties</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.45ZCMYyS9SrTUzLw rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776584020943,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.iA3mHmvlXvWKlyBo"
+    },
+    {
+      "sort": 300000,
+      "name": "智能魔法物品",
+      "type": "text",
+      "_id": "AMFpeeVHTKXvGbHA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Sentient Magic Items</p><p>一些魔法物品拥有智能与性格。这样的魔法物品可能会拥有前主人的精魂或被其纠缠，又或者由于创造它的魔法而具有自我意识。智能魔法物品可能是其持用者值得珍惜的好盟友，亦可能是经久难除的眼中钉、肉中刺。</p><p>大部分智能物品都是武器，但一些其他类别的物品也能够展现出智能。一次性用品——例如药剂或卷轴——不可能成为智能物品。</p><p>智能魔法物品及其激活的词条均由 DM 所操控。智能物品的持有者如果与该物品打好关系，则可以使用这些词条。如果关系不好，则一场反噬将随之发生（见下文“反噬”）。</p><h2>智能魔法物品特质</h2><p class=\"journal-original-h2\">Sentient Magic Item Traits</p><p>当你创造一件智能魔法物品时，你需如同创建 NPC 一般创建该物品（在第 3 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.5GOEEHaai1dsSxbx]{非玩家角色}”中有所描述），但有下述例外。</p><p><em><strong>属性。</strong></em>智能魔法物品具有智力、感知与魅力属性值。为这些物品选择适合的属性值，或者以下述方式来随机决定其属性值：为每项属性值掷[[/r 4d6kh3]]，去掉最低的骰值并将其余骰值相加。</p><p><em><strong>阵营。</strong></em>智能魔法物品拥有阵营。其创造者或性质可能会为其阵营提供暗示。你也可以为该物品选择一个阵营或者根据智能物品的阵营表进行掷骰。</p><p><em><strong>沟通方式。</strong></em>智能物品会以分享情绪、心灵感应或大声说话的方式进行沟通。你可以为该物品选择一种沟通方式或者根据智能物品的沟通方式表进行掷骰。</p><p><em><strong>感官。</strong></em>智能物品可以在有限度的范围内感知周围事物。你可以为该物品选择一种感官或者根据智能物品的感官表进行掷骰。</p><p><em><strong>特殊目标。</strong></em>你可以为智能物品赋予一个追求的目标，它或许会为该目标抛弃一切。只要该物品的所有者对其的使用合乎该目标，该物品便能保持配合。而对该目标的背离则可能导致该物品与持有者之间的反噬（见下文“反噬”）。你可以为该物品选择一项特殊目标或者根据智能物品的特殊目标表进行掷骰。</p><p class=\"table-caption\">智能物品的阵营 Sentient Item's Alignment</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.HotpgkeDAXvfQI9Z rollable inline]</p><p class=\"table-caption\">智能物品的沟通方式 Sentient Item's Communication</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.WN6rZ1NOMsh2OxVJ rollable inline]</p><p class=\"table-caption\">智能物品的感官 Sentient Item's Senses</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.bdOB2iuEt2wn5vsq rollable inline]</p><p class=\"table-caption\">智能物品的特殊目标 Sentient Item's Special Purpose</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.C4qnOl9YqisAMZ8q rollable inline]</p><h2>反噬</h2><p class=\"journal-original-h2\">Conflict</p><p>当一件智能物品的持有者作出了有悖于该物品之阵营或目标的行为时，就可能产生反噬。当这样一场反噬发生时，该物品的持有者必须进行一次[[/save cha format=long]]（DC 为 12 + 该物品的魅力调整值）。豁免失败则该物品将提出下述一项或多项要求：</p><p><strong>阐述我的梦。</strong>该物品要求其持有者放弃其他所有目标，并开始追求该物品的目标。</p><p><strong>放弃它。</strong>该物品要求其持有者处理掉任何该物品觉得反感的事物。</p><p><strong>该换人了。</strong>该物品要求被交给其他人。</p><p><strong>不许抛下我。</strong>该物品要求在每时每刻都被携带或着装。</p><p>若其持有者拒绝顺从该物品的要求，则该物品将作出下述任意一项行为：</p><ul><li>令其持有者无法再与该物品同调。</li><li>屏蔽该物品已激活的一项或多项词条。</li><li>试图控制其持有者，然后该持有者必须进行一次[[/save cha format=long]]（DC 为 12 加该物品的魅力调整值）。豁免失败则持有者陷入&amp;Reference[charmed]{魅惑}状态，持续[[/r 1d12]]小时。在持有者以此法被魅惑期间，其必须顺从该物品的命令。若该持有者受到伤害，则其可以重新豁免，豁免成功则结束该效应。无论该物品是否成功控制其持有者，直至次日黎明，该物品都不能再次使用该能力。</li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776584037034,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.AMFpeeVHTKXvGbHA"
+    },
+    {
+      "sort": -100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "FsbanAqpAEtJoecr",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>魔法物品收集自陨落怪物所囤积的宝藏之中或是发掘自失落已久的宝库之中。这种物品会给予一名玩家难以用其他方式取得的能力，或是以奇妙的方式对其所有者的能力进行完善。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": 1728919466643,
+        "modifiedTime": 1776583807245,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgMagicItems000.FsbanAqpAEtJoecr"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "showPages": true,
+      "append": 7,
+      "order": 750000,
+      "type": "special",
+      "navigation": {
+        "previous": "dmgTreasure00000",
+        "next": "dmgMagicItemList"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776583803039,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 50000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgMagicItems000"
+}

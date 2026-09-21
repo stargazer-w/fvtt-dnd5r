@@ -1,0 +1,250 @@
+{
+  "name": "闪击炮",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_lightning-cannon.webp",
+  "system": {
+    "activities": {
+      "YPCLrSQvTMN8HDEc": {
+        "_id": "YPCLrSQvTMN8HDEc",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "闪电炮击"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "any",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": true,
+          "type": {
+            "value": "",
+            "classification": ""
+          },
+          "ability": "none",
+          "bonus": "6"
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "闪电炮击"
+      },
+      "I7uiDMN6MuHetI4g": {
+        "type": "utility",
+        "name": "瞄准",
+        "sort": -100000,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "瞄准"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "I7uiDMN6MuHetI4g"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>中型物件</em></p><p><strong>AC：</strong>19　<strong>HP：</strong>30</p><p><em><strong>闪电炮击（需要瞄准）。</strong></em>[[/attack extended]]。[[/damage extended]]。</p><p>闪击炮是一种镶嵌着奥法符文的小型青铜火炮，安装于重型三角炮架上。这种火炮射出的是霹雳般的电能炮弹。为闪击炮瞄准需要一次&amp;Reference[Utilize]{操作}动作，随后操作手便可执行闪电炮击动作。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.PxwuRYQetLXdj3GF]{Lightning Cannon}</p>",
+      "chat": ""
+    },
+    "identifier": "lightning-cannon",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 19
+    },
+    "damage": {
+      "base": {
+        "number": 4,
+        "denomination": 10,
+        "types": [
+          "lightning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": 300,
+      "long": 1200,
+      "reach": null,
+      "units": "ft"
+    },
+    "mastery": "",
+    "hp": {
+      "value": 30,
+      "max": 30,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [],
+  "sort": 25000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751040516201,
+    "modifiedTime": 1758453958480,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "TOjxRpbW3pGetfD1",
+  "_key": "!items!TOjxRpbW3pGetfD1"
+}

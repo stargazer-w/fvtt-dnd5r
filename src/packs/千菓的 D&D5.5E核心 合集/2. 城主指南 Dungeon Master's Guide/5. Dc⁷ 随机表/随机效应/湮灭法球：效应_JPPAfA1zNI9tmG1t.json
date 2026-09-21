@@ -1,0 +1,107 @@
+{
+  "name": "湮灭法球：效应",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>湮灭法球</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        50
+      ],
+      "drawn": false,
+      "_id": "y7efPGxVLVhuEKCo",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>法球被摧毁</p>",
+      "name": "",
+      "_key": "!tables.results!JPPAfA1zNI9tmG1t.y7efPGxVLVhuEKCo"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        51,
+        85
+      ],
+      "drawn": false,
+      "_id": "zKYyCRSpH0qWI7Xm",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>法球穿过位面传送门或进入异位面空间</p>",
+      "name": "",
+      "_key": "!tables.results!JPPAfA1zNI9tmG1t.zKYyCRSpH0qWI7Xm"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        86,
+        100
+      ],
+      "drawn": false,
+      "_id": "H08opEJv4PBAQotN",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>一个空间裂缝出现，将<em>湮灭法球</em>和位于其 180 尺内的所有生物和物件送到一个随机存在位面。</p>",
+      "name": "",
+      "_key": "!tables.results!JPPAfA1zNI9tmG1t.H08opEJv4PBAQotN"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1757942881463,
+    "modifiedTime": 1757942881463,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "JPPAfA1zNI9tmG1t",
+  "sort": 0,
+  "_key": "!tables!JPPAfA1zNI9tmG1t"
+}

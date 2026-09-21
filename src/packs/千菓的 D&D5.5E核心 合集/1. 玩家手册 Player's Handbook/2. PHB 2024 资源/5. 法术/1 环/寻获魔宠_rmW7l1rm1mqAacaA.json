@@ -1,0 +1,185 @@
+{
+  "name": "寻获魔宠",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_find-familiar.webp",
+  "system": {
+    "activities": {
+      "IiwpwtxYEJLsePj8": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "IiwpwtxYEJLsePj8",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [
+          "fey",
+          "celestial",
+          "fiend"
+        ],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "cr": "0",
+            "name": "CR 0 野兽",
+            "_id": "pYhpUcczul22aWTU",
+            "uuid": "",
+            "types": [
+              "beast"
+            ],
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "cr"
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你获得一只为你服务的魔宠，魔宠精魄可以采用下述你选择的动物形态之一：蝙蝠、猫、青蛙、鹰、蜥蜴、章鱼、猫头鹰、老鼠、渡鸦、蜘蛛、鼬，你也可以选择其他挑战等级为 0 的野兽作为魔宠的形态。魔宠出现在施法距离内一处未被占据的空间，虽然有着所选的生物属性数据，但其生物种类为天族，妖精或邪魔（由你选择）而非野兽。你的魔宠可脱离你独立行动，不过它会一直遵循你的命令行事。</p><p><em><strong>心灵连接。</strong></em>你的魔宠距你 100 尺内期间，你可以与其进行心灵交流。此外，你还可以用一个&amp;Reference[Bonus Action]{附赠动作}将自己的视觉和听觉切换到魔宠的感官，并一持续至你下一回合开始。在此期间，你同时享有该魔宠自身的特殊感官。</p><p>最后，当你施展施法距离为触碰的法术时，你的魔宠可以帮你传递这道触碰法术。此时你的魔宠必须距你 100 尺内，且其必须在你施展这道法术时执行一个&amp;Reference[Reaction]{反应}将其传递。</p><p><em><strong>战斗。</strong></em>魔宠是你和你盟友的盟友。战斗时，它为自己骰先攻，并在自己回合里行动。魔宠无法攻击，但是它能如常执行其他动作。</p><p class=\"MsoNormal\"><em><strong>魔宠的消失。</strong></em>当魔宠生命值降至 0 点时，它会消失。它会在你再次施展此法术后重新出现。你可以用一个&amp;Reference[Magic]{魔法}动作，暂时解散你的魔宠，将其送入一个口袋位面。你也可以选择永久解散它。暂时解散时，你可以用一个&amp;Reference[Magic]{魔法}动作使其重新出现于距你 30 尺内任意未占空间中。当魔宠生命值归 0 或消失进入了口袋位面时，它都会将自己穿着或携带的任何物品留在自己曾占据的空间中。</p><p><em><strong>独一无二。</strong></em>你在同一时间不能拥有多于一只魔宠。如果你在已拥有一只魔宠期间施展此法术，作为替代，你会使其采用一个新的符合条件的形态。</p><p class=\"item-original\">Find Familiar</p>",
+      "chat": ""
+    },
+    "identifier": "find-familiar",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "hour",
+      "value": 1,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 1,
+    "materials": {
+      "value": "价值至少 10 GP 的焚香，作为该法术的耗材",
+      "consumed": true,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "10"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758195018585,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "rmW7l1rm1mqAacaA",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!rmW7l1rm1mqAacaA"
+}

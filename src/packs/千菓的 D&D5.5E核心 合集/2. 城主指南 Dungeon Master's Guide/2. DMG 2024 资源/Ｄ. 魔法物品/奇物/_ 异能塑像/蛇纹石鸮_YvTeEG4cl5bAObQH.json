@@ -1,0 +1,190 @@
+{
+  "name": "蛇纹石鸮",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_figurine-of-wondrous-power.webp",
+  "system": {
+    "activities": {
+      "aCHqGvkrKchSPMij": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "@item.uses.max",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "hour",
+          "concentration": false,
+          "override": false,
+          "value": "8"
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "uYn2ko7qaQCXZQrv",
+            "uuid": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "",
+        "_id": "aCHqGvkrKchSPMij"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "day",
+          "type": "formula",
+          "formula": "1"
+        }
+      ],
+      "max": "2"
+    },
+    "description": {
+      "value": "<p><em>奇物，珍稀</em></p><p>这个蛇纹石鸮雕像可以变为一只<strong>巨猫头鹰</strong>，而其存在至多维持 8 小时。只要你和该猫头鹰在同一位面，它就可以和你通过心灵感应进行沟通。使用后，此雕像需要经过 2 日才能再次启动。</p><p>异能塑像是小到可以装在口袋里的小雕塑。当你用一个&amp;Reference[Magic]{魔法}动作来将雕像扔到你周围 60 尺以内的某处时，它将变成一只活体生物。如果雕像被扔到的地方被其他生物或物件占据，或者周围的空间不足以容纳该雕像变成的生物，则它将不会变成生物。</p><p>雕像变成的生物对你和你的盟友态度为友善。它能听懂你的语言并会按你的口头命令行事，使用你的先攻并在你回合结束后立即执行其回合。如果你不下达任何命令，则该生物会保护自己而不作其他动作。</p><p>生物存在的时间依雕像而不同。持续时间结束时，生物将变回异能塑像形态。当它的生命值降至 0，或是你在触碰它期间用一个&amp;Reference[Magic]{魔法}动作令其变回雕像时，它亦将提前变回雕像状态。变回雕像后，异能塑像的词条必须经过一段时间后才能再次启动。</p><p class=\"item-original\">Serpentine Owl, Figurine of Wondrous Power</p>",
+      "chat": ""
+    },
+    "identifier": "serpentine-owl-figurine-of-wondrous-power",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4000,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.AiLrli8FAJ0O8x8l",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895789311,
+    "modifiedTime": 1761895876369,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "YvTeEG4cl5bAObQH",
+  "_key": "!items!YvTeEG4cl5bAObQH"
+}

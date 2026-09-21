@@ -1,0 +1,359 @@
+{
+  "name": "原初行侣",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_beast-master_primal-companion.webp",
+  "system": {
+    "activities": {
+      "5ALg37i4DfL2Tgl3": {
+        "type": "summon",
+        "_id": "5ALg37i4DfL2Tgl3",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@abilities.wis.mod",
+          "hd": "@classes.ranger.levels",
+          "hp": "5 * @classes.ranger.levels",
+          "attackDamage": "@abilities.wis.mod",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "大地野兽",
+            "_id": "joU1fCz8YA798EEz",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.q6vfpNwBMnWnmDC1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "天空野兽",
+            "_id": "WmWgi94JlWsa8cdJ",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Q0JpORoOcnJx0Vnf",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "海洋野兽",
+            "_id": "Xx9JYJO7W541XXpF",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.t3SaBPxP1o7Pz1Nl",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "t6JjyKZDu9cyqfGf": {
+        "type": "summon",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "复甦"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "5",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "space",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@abilities.wis.mod",
+          "hd": "@classes.ranger.levels",
+          "hp": "5 * @classes.ranger.levels",
+          "attackDamage": "@abilities.wis.mod",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "大地野兽",
+            "_id": "joU1fCz8YA798EEz",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.q6vfpNwBMnWnmDC1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "天空野兽",
+            "_id": "WmWgi94JlWsa8cdJ",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Q0JpORoOcnJx0Vnf",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "海洋野兽",
+            "_id": "Xx9JYJO7W541XXpF",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.t3SaBPxP1o7Pz1Nl",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        },
+        "name": "复甦",
+        "_id": "t6JjyKZDu9cyqfGf",
+        "img": "",
+        "appliedEffects": []
+      },
+      "TvjiusPYabTvLvMh": {
+        "type": "utility",
+        "_id": "TvjiusPYabTvLvMh",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "指令"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "指令",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你魔法性的召唤出一只原初野兽，其力量来自于与你与自然的联系。你从@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.q6vfpNwBMnWnmDC1]{大地野兽}、@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.t3SaBPxP1o7Pz1Nl]{海洋野兽}和@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Q0JpORoOcnJx0Vnf]{天空野兽}中选择其一项作为它的数据卡。你决定原初野兽是何种动物，选择适合其数据卡的外形。无论你选择什么样的动物，这只野兽都带有原初之力的印痕，暗示着其超凡起源。</p><p>这只野兽对你和你的伙伴态度友善，并会听从你的命令。野兽会在你死亡时消失。</p><p><em><strong>战斗中的野兽。</strong></em>战斗中，原初野兽会在你的回合中行动。它能自主地移动或使用反应，但除非你在你的回合中以一个&amp;Reference[Bonus Action]{附赠动作}命令它执行其他动作，它只会执行&amp;Reference[Disengage]{回避}动作。命令的动作可以是其数据卡中列出的动作或是之外的其他动作。作为另一种命令方式，你也能在使用自己的&amp;Reference[Attack]{攻击}动作时，牺牲一次自己的攻击来命令野兽执行<strong>野兽打击</strong>动作。如果你陷入失能，野兽将会自主行动，而非仅使用&amp;Reference[Disengage]{回避}动作。</p><p><em><strong>复活或替换野兽。</strong></em>如果野兽死亡不超过 1 小时，你能以一个&amp;Reference[Magic]{魔法}动作，并消耗一个法术位使它复活。它会在 1 分钟后死而复生并获得所有生命值。</p><p>当你结束一次长休后，你能够召唤一只不同的原初野兽。这只新的野兽出现在位于你 5 尺内的一处未被占据的空间内，并由你选择其数据卡和外表。如果你已经通过此特性获得了一只原初野兽，它会在新的原初野兽出现时消失。</p><details><summary>大地野兽 数据卡</summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.q6vfpNwBMnWnmDC1 inline]</p></details><details><summary>天空野兽 数据卡</summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.Q0JpORoOcnJx0Vnf inline]</p></details><details><summary>海洋野兽 数据卡</summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.t3SaBPxP1o7Pz1Nl inline]</p></details><p class=\"item-original\">Primal Companion</p>",
+      "chat": ""
+    },
+    "identifier": "primal-companion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "驯兽师"
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1776351230642,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "js9Ccxw6HPKrJ9vX",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!js9Ccxw6HPKrJ9vX"
+}

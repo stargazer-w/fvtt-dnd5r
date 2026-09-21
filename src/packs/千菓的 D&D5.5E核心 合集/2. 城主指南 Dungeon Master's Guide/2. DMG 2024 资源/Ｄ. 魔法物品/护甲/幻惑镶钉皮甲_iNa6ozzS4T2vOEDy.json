@@ -1,0 +1,87 @@
+{
+  "name": "幻惑镶钉皮甲",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_ARM_glamoured-studded-leather.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>护甲（镶钉皮甲），珍稀</em></p><p>穿着这件护甲期间，你的 AC 获得 +1 加值。你还可以用一个&amp;Reference[Bonus Action]{附赠动作}使这件护甲的外观幻化为任何非金属的衣物或其他种类的护甲。幻化后的外观由你决定——包括颜色、样式和配饰——但其体积和重量不变。幻化外观的效应持续到你脱掉此护甲或再次改变护甲外观。</p><p class=\"item-original\">Glamoured Studded Leather</p>",
+      "chat": ""
+    },
+    "identifier": "glamoured-studded-leather",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 13,
+      "units": "lb"
+    },
+    "price": {
+      "value": 4045,
+      "denomination": "gp"
+    },
+    "rarity": "rare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "light",
+      "baseItem": "studded"
+    },
+    "armor": {
+      "value": 12,
+      "magicalBonus": 1,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "sort": 254688,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.HLdGMcpA1v1f1vPb",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751527138319,
+    "modifiedTime": 1758199225111,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "iNa6ozzS4T2vOEDy",
+  "_key": "!items!iNa6ozzS4T2vOEDy"
+}

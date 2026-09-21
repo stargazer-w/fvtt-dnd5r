@@ -1,0 +1,210 @@
+{
+  "_id": "dmgDrawInThePlay",
+  "name": "导入玩家",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "引言",
+      "type": "text",
+      "_id": "Juk0z5z3ywTMczia",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>如果冒险情景直接关系到某些角色或是他们所关心的人和地点，那通常来说就足够给冒角色们提供一个介入冒险的动机了。（不过此时请参考第 1 章“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgEnsuringFunFo.JournalEntryPage.5NXvjb1HLEYfUSf0]{尊重玩家}”小节中有关危害角色们所爱的人和地点的建议。）</p><p>如果冒险情景难以对角色们或他们所关心的人或地点产生一个足够鲜明的影响，你也可以使用其他方式引导玩家。这些方式最好能根据玩家及其角色的动机来量身定制。例如，有些冒险者小队扮演的是高尚的英雄，他们会毫不犹豫地回应无辜村民的求助；有些冒险者小队则是顽强的佣兵，他们只会对报酬做出回应；还有一些冒险者小队服务于神明、当权者或其他赞助者，而这些委托人则可能会直接或通过中间人间接地派遣他们前往探险。</p><aside class=\"notable\"><h3>推陈出新</h3><p>当你在为你的世界中增添有趣的配角时，可以参考以下几点：</p><p><strong>避免刻板。</strong>展现出身于同一文化环境下的多个角色之间的差异性。不过此时不要冒犯现实世界中存在的文化习俗。</p><p><strong>形象多样。</strong>使用性别、族群、性向，以及能力、信仰、地位、专业、兴趣和观点上的差别来充实一个人的特色。</p><p><strong>重新诠释。</strong>只要有可能，就对传统的概念进行重新诠释。以国王身份向冒险者们发布任务的神秘角色其实是乔装打扮成国王的其他人。塔中的巫师也许是一个被一群想要保护自己战利品的盗贼所预设好的幻象。</p><p><strong>设身处地。</strong>把 NPC 们当作拥有实际动机、生活在现实的人物对待。设身处地地思考，你会怎么做？</p></aside>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.0",
+        "createdTime": null,
+        "modifiedTime": 1776578133658,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgDrawInThePlay.Juk0z5z3ywTMczia"
+    },
+    {
+      "sort": 200000,
+      "name": "冒险赞助者",
+      "type": "text",
+      "_id": "bZ5ZIDKKitwmgxul",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Adventure Patrons</p><p>许多冒险都开始于一位赞助者请求角色们去接手一个请求或任务，并为他们的付出提供报酬。</p><p>花点时间去充实一个赞助者身份的 NPC 角色。偶尔，让角色们的赞助者背叛他们也很有意思。但是，如果你在一场战役中三番五次地滥用这种手法，也很可能导致玩家不愿再相信任何赞助者，并对你摆在他们面前的任何冒险引子都产生怀疑。</p><p>赞助者引子表将提供一些可以让赞助者引导玩家进入一个冒险情景的建议。第 5 章的“@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCampaignStart]{开始战役}”一节也提供了更多关于赞助者的建议。</p><p class=\"table-caption\">赞助者引子 Patron Hooks</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.uGnnbvKxYKeBylB5 rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 300800
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776578257703,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgDrawInThePlay.bZ5ZIDKKitwmgxul"
+    },
+    {
+      "sort": 300000,
+      "name": "超自然引子",
+      "type": "text",
+      "_id": "colDUZ7edAkS5VyE",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Supernatural Hooks</p><p>天界的预兆，鲜活的梦境，亦或是其他奇异的现象也可以将角色们引向一个冒险情景，并建议他们做出某种行动。超自然引子表提供了一些建议。</p><p class=\"table-caption\">超自然引子 Supernatural Hooks</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.V3jh4I7njrZ8AYRQ rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 300900
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776578264301,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgDrawInThePlay.colDUZ7edAkS5VyE"
+    },
+    {
+      "sort": 400000,
+      "name": "巧合引子",
+      "type": "text",
+      "_id": "h0soNT2AOrP0Sakg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h1\">Happenstance Hooks</p><p>有时，角色们在冒险中的登场纯粹是出于巧合——或者至少一切看起来是场巧合（实际上则可能受到了神明或者超自然力量的干预）。巧合引子表提供了一些思路。</p><p class=\"table-caption\">巧合引子 Happenstance Hooks</p><p>@Embed[Compendium.dnd5e-collection-2024.tables.RollTable.vCqbftRN7tQmTD9M rollable inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "16VfIpXxBgUtNgjR": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "order": 301000
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776578269213,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!dmgDrawInThePlay.h0soNT2AOrP0Sakg"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "dungeon-masters-guide.DMGJournalSheet"
+    },
+    "dnd5e": {
+      "append": 4,
+      "type": "special",
+      "order": 300700,
+      "showPages": true,
+      "navigation": {
+        "previous": "dmgLayOutThePrem",
+        "next": "dmgPlanEncounter"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727883339433,
+    "modifiedTime": 1776576664757,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "sort": 75000,
+  "ownership": {
+    "default": 0
+  },
+  "categories": [],
+  "_key": "!journal!dmgDrawInThePlay"
+}

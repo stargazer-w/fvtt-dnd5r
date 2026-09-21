@@ -1,0 +1,186 @@
+{
+  "name": "弃绝众敌",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_channelDivinity_abjure-foes.webp",
+  "system": {
+    "activities": {
+      "7bgp5KqEpALrFHfj": {
+        "type": "save",
+        "_id": "7bgp5KqEpALrFHfj",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.FOYD6iB6GLdmchH7",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "oAGxVxJDatSHNMou",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "(max(1,@abilities.cha.mod))",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>以一个&amp;Reference[Magic]{魔法}动作，你消耗一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FOYD6iB6GLdmchH7]{引导神力}次数，散发出能够吞没面前敌人的神圣威光。你高举圣徽或武器，选择位于你 60 尺内，数量至多等同于你魅力调整值（最少为 1）的可见生物作为目标。每个目标必须成功通过一次[[/save]]{感知豁免}，否则陷入&amp;Reference[frightened]{恐慌}状态，持续 1 分钟或直到其受到任何伤害为止。因此陷入恐慌的生物每回合只能执行下列选项之一：移动、执行一个动作或执行一个附赠动作。</p><p class=\"item-original\">Abjure Foes</p>",
+      "chat": ""
+    },
+    "identifier": "abjure-foes",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "channelDivinity"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "圣武士"
+  },
+  "effects": [
+    {
+      "name": "动摇",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_paladin_channelDivinity_abjure-foes.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.WEkHi4nEscBLKN9Z",
+      "transfer": false,
+      "_id": "oAGxVxJDatSHNMou",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在持续时间内陷入&amp;Reference[frightened]{恐慌}状态。</p><p>你每回合只能执行下列选项之一：移动、执行一个动作或执行一个附赠动作。</p><p>这个效应在你受到任意伤害时提前结束。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "frightened"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1735492582008,
+        "modifiedTime": 1735998796021,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!WEkHi4nEscBLKN9Z.oAGxVxJDatSHNMou"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758467592845,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "WEkHi4nEscBLKN9Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!WEkHi4nEscBLKN9Z"
+}

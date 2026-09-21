@@ -1,0 +1,201 @@
+{
+  "name": "巨虫术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_giant-insect.webp",
+  "system": {
+    "activities": {
+      "veBxUN2vkWk9N6oc": {
+        "type": "summon",
+        "_id": "veBxUN2vkWk9N6oc",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "@item.level",
+          "hd": "",
+          "hp": "10 * @item.level",
+          "attackDamage": "@item.level",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "黄蜂",
+            "_id": "wilPt3xQBlVHeAw5",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.OacGFkjBObB8l7uJ",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "蜈蚣",
+            "_id": "fsW4pkSnPzMhnW71",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.m1HmDLdvrj2JlNH2",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "蜘蛛",
+            "_id": "Q0dySErvrNvruAYB",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.Pe9mV1xl0qEe4Nk6",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你召唤一只巨化的蜈蚣、蜘蛛或黄蜂（你施法时选择）。其使用巨虫的数据，并会在施法距离内一处你可见的未占空间中显现。你选择的形态决定了其数据中的部分细节。该生物会在生命值降为 0 或是法术结束时消失。</p><p>该生物是你和你盟友的盟友。它在战斗中使用你的先攻，并在你回合结束后立即行动。它遵从于你的口头指令（无需任何动作）。如果你不发令，它将执行&amp;Reference[Dodge]{回避}动作并使用其移动力远离危险。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.OacGFkjBObB8l7uJ inline]</p></details><p><em><strong>升环施法。</strong></em>该生物的数据使用相应法术位的等级。</p><p class=\"item-original\">Giant Insect</p>",
+      "chat": ""
+    },
+    "identifier": "giant-insect",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 4,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194982330,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "TrLUou5GiQJHFfZC",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!TrLUou5GiQJHFfZC"
+}

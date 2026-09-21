@@ -1,0 +1,292 @@
+{
+  "name": "捕获打击",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_ensnaring-strike.webp",
+  "system": {
+    "activities": {
+      "yJ4PaDCaMGGTihz6": {
+        "type": "save",
+        "_id": "yJ4PaDCaMGGTihz6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "nmQyxLmFxAHb3FpD",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": [
+          "nmQyxLmFxAHb3FpD"
+        ]
+      },
+      "4RVCq8VbLn9Bz6zj": {
+        "type": "damage",
+        "_id": "4RVCq8VbLn9Bz6zj",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": true
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": "6",
+              "bonus": "",
+              "types": [
+                "piercing"
+              ],
+              "scaling": {
+                "mode": "whole"
+              }
+            }
+          ]
+        },
+        "name": "持续伤害",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你命中目标时，目标身上出现一根紧紧将其攫住的藤蔓，使其进行一次[[/save]]{力量豁免}，大型或更大体型的生物进行该豁免时具有优势。豁免失败，则目标将直到法术结束为止陷入&amp;Reference[restrained]{束缚}状态。豁免成功，则藤蔓立即枯萎，法术结束。</p><p>处于束缚状态期间，目标在其每回合开始受到[[/damage]]伤害。目标或其他位于其触及内的生物可用一个动作进行一次对抗法术豁免 DC 的[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}。检定成功则法术结束。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 1 环高一环，伤害就提高 1d6。</p><p class=\"item-original\">Ensnaring Strike</p>",
+      "chat": ""
+    },
+    "identifier": "ensnaring-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": "在你用武器命中目标后立即可用"
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "缠绕",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_ensnaring-strike.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.kEMZzoQcl3D4PT1v",
+      "transfer": false,
+      "_id": "nmQyxLmFxAHb3FpD",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你被一道法术产生的藤蔓紧紧攫住，令你陷入&amp;Reference[restrained]{束缚}状态。在你的每个回合开始时，你会受到其带来的[[/damage (@item.level)d6 piercing]]{穿刺伤害}（随法术环阶提升）。</p><p>你可以在自己的回合内，用一个动作尝试挣脱藤蔓。为此，你需要进行一次[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}，对抗施法者的法术豁免 DC。如果成功，藤蔓会枯萎，法术结束。</p><p>如果其他位于你触及范围内的生物愿意帮助，它们也可以用一个动作进行一次[[/skill ath dc=@attributes.spell.dc]]{力量 (运动) 检定}尝试为你挣脱藤蔓。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732381734401,
+        "modifiedTime": 1759776371083,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!kEMZzoQcl3D4PT1v.nmQyxLmFxAHb3FpD"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535148461,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "kEMZzoQcl3D4PT1v",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!kEMZzoQcl3D4PT1v"
+}

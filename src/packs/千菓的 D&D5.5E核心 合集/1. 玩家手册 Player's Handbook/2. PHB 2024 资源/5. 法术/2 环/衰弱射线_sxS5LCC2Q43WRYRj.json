@@ -1,0 +1,268 @@
+{
+  "name": "衰弱射线",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_ray-of-enfeeblement.webp",
+  "system": {
+    "activities": {
+      "ZcMuHJ5Eme2ntyw6": {
+        "type": "save",
+        "name": "施法",
+        "_id": "ZcMuHJ5Eme2ntyw6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "i3uMEYUUd9owOryT",
+            "onSave": false
+          },
+          {
+            "_id": "eSJNijosbRU0gNbt",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你向施法距离内的一名生物射出一道让人衰弱的能量射线。目标必须进行一次[[/save]]{体质豁免}。豁免成功，则目标直到你的下个回合开始在下一次攻击掷骰上具有劣势。</p><p>豁免失败，目标在持续时间内在使用力量属性的 D20 检定上具有劣势。在此期间，它同样会在其所有的伤害掷骰上减去 1d8。目标在每个其回合结束时可以重复豁免，豁免成功则法术终止。</p><p class=\"item-original\">Ray of Enfeeblement</p>",
+      "chat": ""
+    },
+    "identifier": "ray-of-enfeeblement",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 2,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "nec",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "攻击劣势",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_ray-of-enfeeblement.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.sxS5LCC2Q43WRYRj",
+      "transfer": false,
+      "_id": "i3uMEYUUd9owOryT",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在下一次攻击检定上具有劣势，直至施法者的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732446008959,
+        "modifiedTime": 1734755678173,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!sxS5LCC2Q43WRYRj.i3uMEYUUd9owOryT"
+    },
+    {
+      "name": "衰弱",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/NEC_ray-of-enfeeblement.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.sxS5LCC2Q43WRYRj",
+      "transfer": false,
+      "_id": "eSJNijosbRU0gNbt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "- 1d8",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "- 1d8",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "- 1d8",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "- 1d8",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内，所有涉及力量属性的 D20 检定上具有劣势。同时，你的所有伤害掷骰会减少 1d8。</p><p>在每个你的回合结束时，你可以重复进行一次[[/save con dc=@attributes.spell.dc]]{体质豁免}。如果豁免成功，法术效果将终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732446032466,
+        "modifiedTime": 1734755797796,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!sxS5LCC2Q43WRYRj.eSJNijosbRU0gNbt"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534640557,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "sxS5LCC2Q43WRYRj",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!sxS5LCC2Q43WRYRj"
+}

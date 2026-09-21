@@ -1,0 +1,84 @@
+{
+  "name": "盗贼黑话",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在施展自己游荡者才华的社区里学习了多样的语言。你习得盗贼黑话和第 2 章的@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.pHMEDq6JZOxYAm4U.JournalEntryPage.t1WP9VEevo4TOTXw#选择语言]{语言表}中的一项语言。</p><p class=\"item-original\">Thieves' Cant</p>",
+      "chat": ""
+    },
+    "identifier": "thieves-cant",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游荡者",
+    "advancement": [
+      {
+        "_id": "IHbn6EXoBfxHdj7c",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "languages:exotic:cant"
+          ],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 1,
+        "title": "盗贼黑话",
+        "hint": "你习得盗贼黑话和一项自选的语言。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777578494453,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "pi9dxt3qFcJfsRGH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!pi9dxt3qFcJfsRGH"
+}

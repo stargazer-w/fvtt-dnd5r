@@ -1,0 +1,62 @@
+{
+  "name": "长杆",
+  "system": {
+    "description": {
+      "value": "<p>一柄长杆有 10 尺长。你可以用它去触碰 10 尺外的东西。如果你必须为一次跳高或跳远进行力量（运动）检定的话，你可以使用长杆进行撑杆跳，来使这次检定具有优势。</p><p class=\"item-original\">Pole</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 5,
+      "denomination": "cp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 7,
+      "units": "lb"
+    },
+    "rarity": "",
+    "properties": [],
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "identifier": "pole"
+  },
+  "type": "loot",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_pole.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758195030326,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "zSaj8WlKmAFk9rc7",
+  "sort": 6800000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zSaj8WlKmAFk9rc7"
+}

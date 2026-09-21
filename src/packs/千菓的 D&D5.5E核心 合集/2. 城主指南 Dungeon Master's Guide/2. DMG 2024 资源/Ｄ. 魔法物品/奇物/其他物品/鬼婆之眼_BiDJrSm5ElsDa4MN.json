@@ -1,0 +1,230 @@
+{
+  "name": "鬼婆之眼",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_hag-eye.webp",
+  "system": {
+    "activities": {
+      "jXT1mw3Njgy6ISDg": {
+        "type": "cast",
+        "_id": "jXT1mw3Njgy6ISDg",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "self",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 2,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.6XP41j50xXNRsSwA",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "IcrXfR7Qs4b01lRo": {
+        "type": "cast",
+        "_id": "IcrXfR7Qs4b01lRo",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": null,
+            "override": false
+          },
+          "level": 2,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "3"
+    },
+    "description": {
+      "value": "<p><em>奇物，非普通</em></p><p>一颗鬼婆之眼具有 3 充能。你佩戴或持握这件物品期间可以消耗 1 充能以施展法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.6XP41j50xXNRsSwA]{黑暗视觉}</em>（只能以自身为目标）或<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wADlhnkkq5jIGxzc]{识破隐形}</em>。鬼婆之眼在每日黎明时恢复全部已消耗的充能。</p><p><em><strong>集会传感器。</strong>鬼婆之眼</em>通常会被托付给鬼婆的仆从以对其进行保护与转移。隶属于创造该鬼婆之眼集会的鬼婆若与鬼婆之眼处于同一存在位面上，则其可以用一个&amp;Reference[Magic]{魔法}动作透过<em>鬼婆之眼</em>视物。只要该鬼婆维持专注，则该效应将会一直持续。同一集会中的多个鬼婆可以同时透过该<em>鬼婆之眼</em>视物。</p><p><em><strong>创造鬼婆之眼。</strong></em>只有鬼婆集会才能够制造此物品，其成品由裹在清漆中的真实眼球制成，并通常镶在吊坠或其他可佩戴的物品之上。一个鬼婆集会在同一时间只能拥有一颗<em>鬼婆之眼</em>，制作一个新的则需全部三位集会成员进行一场特殊仪式。这场仪式耗时 1 小时，且若一名或多名鬼婆陷入失能状态，则仪式无法进行。若鬼婆们在仪式期间执行任何其他动作，则仪式失败并终止。</p><p class=\"item-original\">Hag Eye</p>",
+      "chat": ""
+    },
+    "identifier": "hag-eye",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 400,
+      "denomination": "gp"
+    },
+    "rarity": "uncommon",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1760693091981,
+    "modifiedTime": 1760694208057,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "BiDJrSm5ElsDa4MN",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!BiDJrSm5ElsDa4MN"
+}

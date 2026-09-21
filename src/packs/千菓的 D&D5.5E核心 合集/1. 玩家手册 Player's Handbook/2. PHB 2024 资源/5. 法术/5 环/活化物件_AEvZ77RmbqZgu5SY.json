@@ -1,0 +1,223 @@
+{
+  "name": "活化物件",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_animate-objects.webp",
+  "system": {
+    "activities": {
+      "LCFKHYyf50f2Nuuk": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "LCFKHYyf50f2Nuuk",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "巨型物件（3 单位）",
+            "_id": "5VgeVr1668bPBIFv",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.r4zoPeFNkXzD38fe",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "大型物件（2 单位）",
+            "_id": "5q3dzkmPVnPtQu8A",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.suCmtEDQ7seZa5IB",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "中型物件（1 单位）",
+            "_id": "JyL6hZ3uTiz45vP2",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.WeG6myVoXLmfc7g1",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "微型物件（1 单位）",
+            "_id": "UhQ7uRvHP8Te2sFF",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.orCNuesVVOkNbxuS",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "小型物件（1 单位）",
+            "_id": "Xgq6GfZIa6TjlVkJ",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.T0DCOOgi6InEkTln",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>物件在你的命令下“活”了过来。在施法距离内指定一定数量的未被携带或着装、也未被固定在一处表面的非超巨型非魔法物件作为法术目标。可活化物件的最大数量单位等于你的施法属性调整值，中型或小型目标算作一个单位，大型目标算作两个单位，巨型目标算作三个单位。</p><p>被指定的目标会活化并长出腿来，成为一个使用活化物件资料卡的构装。直到法术结束或其生命值降低为 0，该生物都受你的控制。每个你以该法术制造的生物都是你的盟友（对你的其它盟友亦是如此）。它在战斗中使用你的先攻，并在你回合结束后立即行动。</p><p>在法术结束前，你可以使用一个&amp;Reference[Bonus Action]{附赠动作}并以精神命令操纵 500 尺内任何你用此法术唤起的生物（如果你操纵多个生物，则你的命令可以同时传达给它们全部或是其中的某几个，不过只能使用同一种命令）。如果你不发令，它将执行回避动作并远离危险。当生命值降低为 0 时，活化物件会变回物件，并且会受到超出其生命值的剩余伤害。</p><details><summary><strong>生物数据卡</strong></summary><p>@Embed[Compendium.dnd5e-collection-2024.phb-creatures.Actor.orCNuesVVOkNbxuS inline]</p></details><p><em><strong>升环施法。</strong></em>你使用的法术位每比 5 环高一环，活化物件生物的猛击伤害就提升 1d4（中型或更小的物件）、1d6（大型物件）、1d12（巨型物件）。</p><p class=\"item-original\">Animate Objects</p>",
+      "chat": ""
+    },
+    "identifier": "animate-objects",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "object",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194953305,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "AEvZ77RmbqZgu5SY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!AEvZ77RmbqZgu5SY"
+}

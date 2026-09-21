@@ -1,0 +1,212 @@
+{
+  "name": "咒唤元素",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_conjure-elemental.webp",
+  "system": {
+    "activities": {
+      "NgWEqCyY3mrtaLOL": {
+        "type": "summon",
+        "name": "施法",
+        "_id": "NgWEqCyY3mrtaLOL",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "(2 * @item.level - 10)d8",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": true,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "气元素（闪电）",
+            "_id": "ttu0Yh6Y7iDJpVUq",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.aGgMZxLn6eB2W6LC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "土元素（雷鸣）",
+            "_id": "3GksYVeeBMdSUOuL",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.MeVcZDHJxXuEJKMu",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "火元素（火焰）",
+            "_id": "wVHgISoQYpIbVAds",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.HjWnZMJwKWYCj9Iu",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "",
+            "name": "水元素（寒冷）",
+            "_id": "BhOV65Ig4BsHhE3T",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.HUvBINy2VYsFHmBC",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你将来自元素位面的大型虚幻精魂咒唤在施法距离内一处未占据空间中。选择精魄的元素类别，这将决定它造成的伤害类型：气元素（闪电）、土元素（雷鸣）、火元素（火焰）或水元素（寒冷）。精魂在持续时间内一直存在。</p><p>每当一名你可见的生物进入精魂所在的空间或是在精魂 5 尺内开始其回合时，若没有生物被精魂束缚，你可以迫使其进行一次[[/save dex dc=@attributes.spell.dc]]{敏捷豁免}。失败则目标受到 8d8 的对应精魂类型的伤害并且直到法术结束为止，目标处于&amp;Reference[restrained]{束缚}状态。在处于束缚状态的目标回合开始时，其重新豁免，失败则目标受到 4d8 的对应精魂类型的伤害，豁免成功则目标不再被精魂束缚。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 5 环高一环，法术造成的伤害就增加 2d8。</p><p class=\"item-original\">Conjure Elemental</p>",
+      "chat": ""
+    },
+    "identifier": "conjure-elemental",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "10"
+    },
+    "level": 5,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194985086,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "VWgPbI7ZCkSdshqI",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!VWgPbI7ZCkSdshqI"
+}

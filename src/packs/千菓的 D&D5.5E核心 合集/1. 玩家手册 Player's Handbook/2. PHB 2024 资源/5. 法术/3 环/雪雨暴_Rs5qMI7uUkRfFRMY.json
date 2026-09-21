@@ -1,0 +1,148 @@
+{
+  "name": "雪雨暴",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/CON_sleet-storm.webp",
+  "system": {
+    "activities": {
+      "vIyCjOop4Ceyvp7T": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "vIyCjOop4Ceyvp7T",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你指定施法距离内一点，并使以该点为中心，高 40 尺、半径 20 尺的柱状区域内降下冷冻刺骨的冻雨和冰雹直至法术终止。该区域将造成&amp;Reference[Heavily Obscured]{重度遮蔽}，且该区域内的一切开放的明火都将被浇熄。</p><p>该区域的地面上变成&amp;Reference[Difficult Terrain]{困难地形}。生物在一个回合内第一次进入该区域或在区域内开始其回合时，它必须成功通过一次[[/save dex dc=@attributes.spell.dc]]{敏捷豁免}，否则将陷入&amp;Reference[prone]{倒地}状态并失去专注。</p><p class=\"item-original\">Sleet Storm</p>",
+      "chat": ""
+    },
+    "identifier": "sleet-storm",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 3,
+    "materials": {
+      "value": "一把迷你雨伞",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "150"
+    },
+    "school": "con",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": "cylinder",
+        "size": "20",
+        "height": "40",
+        "count": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758535830894,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "Rs5qMI7uUkRfFRMY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!Rs5qMI7uUkRfFRMY"
+}

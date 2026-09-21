@@ -1,0 +1,60 @@
+{
+  "name": "幽怖环身",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_creature_gloom-shroud.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>来自@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.mG9cIFR0V3B2x1ch]{堕影冥界}的些微能量环绕在[[lookup @name]]周围的 20 尺灵光区域内。区域内的其他生物在进行魅力检定与魅力豁免时具有劣势。</p><p class=\"item-original\">Gloom Shroud</p>",
+      "chat": ""
+    },
+    "identifier": "gloom-shroud",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [],
+    "cover": null,
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "repeatable": false
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750501018085,
+    "modifiedTime": 1758304458818,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "3Q0HftvoC0BMwpor",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!3Q0HftvoC0BMwpor"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "战争学者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你选择一种工匠工具并获得其熟练。此外，你选择一项战士 1 级可用的技能，并获得该技能的熟练。</p><p class=\"item-original\">Student of War</p>",
+      "chat": ""
+    },
+    "identifier": "student-of-war",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "战斗大师",
+    "advancement": [
+      {
+        "_id": "4YlLV9r7McNbtCNm",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "skills:prc",
+                "skills:ins",
+                "skills:his",
+                "skills:sur",
+                "skills:acr",
+                "skills:itm",
+                "skills:ani",
+                "skills:per",
+                "skills:ath"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 3,
+        "title": "战争学者",
+        "hint": "你选择一种工匠工具并获得其熟练。此外，你从战士技能表中额外获得一个技能的熟练。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_skill-prof.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777642290341,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "zvSyt6NecynBj2Sp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zvSyt6NecynBj2Sp"
+}

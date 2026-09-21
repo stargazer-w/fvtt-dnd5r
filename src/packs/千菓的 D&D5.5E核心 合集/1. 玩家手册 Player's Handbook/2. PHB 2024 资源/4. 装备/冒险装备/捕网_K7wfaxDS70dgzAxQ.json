@@ -1,0 +1,158 @@
+{
+  "name": "捕网",
+  "system": {
+    "description": {
+      "value": "<p>当你执行&amp;Reference[Attack]{攻击}动作，你可以将你的一次攻击替换为丢出一张捕网。你可以选择位于你 15 尺内可见的一个生物作为目标。该目标必须通过一次[[/save]]{敏捷豁免}（DC 等于 8 + 你的敏捷调整值 + 你的熟练加值），失败则陷入&amp;Reference[restrained]{束缚}状态，直至挣脱。体型是巨型及以上的目标将自动通过豁免。</p><p>被束缚的目标或者位于目标 5 尺内的生物，可以通过一个动作来进行一次[[/skill ath 10 format=long]]。若检定成功，被束缚的生物将被解放。摧毁捕网（AC 10；5 HP；免疫钝击、毒素和心灵伤害）也能解放被困目标并结束捕网的效果。</p><p class=\"item-original\">Net</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 1,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "PHB 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "uses": {
+      "max": "",
+      "autoDestroy": false,
+      "spent": 0,
+      "recovery": []
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "activities": {
+      "cQZLMquRxFEhOxM3": {
+        "type": "save",
+        "name": "丢出",
+        "_id": "cQZLMquRxFEhOxM3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "value": "15",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": "dex",
+          "dc": {
+            "calculation": "dex",
+            "formula": ""
+          }
+        }
+      }
+    },
+    "identifier": "net"
+  },
+  "type": "consumable",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/GEAR_net.webp",
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758463253378,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "K7wfaxDS70dgzAxQ",
+  "sort": 2200000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!K7wfaxDS70dgzAxQ"
+}

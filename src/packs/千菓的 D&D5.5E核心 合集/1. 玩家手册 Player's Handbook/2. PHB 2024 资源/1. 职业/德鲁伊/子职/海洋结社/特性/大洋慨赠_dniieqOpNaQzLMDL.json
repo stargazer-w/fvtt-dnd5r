@@ -1,0 +1,273 @@
+{
+  "name": "大洋慨赠",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_sea_oceanic-gift.webp",
+  "system": {
+    "activities": {
+      "5VTqHhn9bHCXzfri": {
+        "type": "utility",
+        "name": "赋予光环",
+        "_id": "5VTqHhn9bHCXzfri",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "赋予光环"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "TlwtAv0TjuBkFBQJ"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "TlwtAv0TjuBkFBQJ"
+        ]
+      },
+      "FTkcKg6YnGXt8Jtx": {
+        "type": "utility",
+        "name": "分享光环",
+        "_id": "FTkcKg6YnGXt8Jtx",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "分享光环"
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "TlwtAv0TjuBkFBQJ"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": [
+          "TlwtAv0TjuBkFBQJ"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>当你使用@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3TUXAzfCpWg5Ngxn]{瀚海之怒}时，你可以让 60 尺内一个自愿生物而非你自己身上显现出光环。该生物获得光环的所有增益，并在特性中使用你的法术豁免 DC 和感知调整值。</p><p>此外，如果你消耗两次而非一次@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野变形}使用次数，你可以同时在你自己和另一个生物身上显现出灵光。</p><p class=\"item-original\">Oceanic Gift</p>",
+      "chat": ""
+    },
+    "identifier": "oceanic-gift",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "海洋结社"
+  },
+  "effects": [
+    {
+      "name": "瀚海之怒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_sea_wrath-of-the-sea.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.dniieqOpNaQzLMDL",
+      "transfer": false,
+      "_id": "TlwtAv0TjuBkFBQJ",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "cold",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "lightning",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "thunder",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 600,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你周围显现出海浪形态的光环，当你解除它（无需任何动作）、再度显现灵光或陷入失能时，它会提前结束。</p><p>同时，你的光环给予你以下额外增益。</p><p><em><strong>飞行。</strong></em>你获得等于你的速度的飞行速度。</p><p><em><strong>抗性。</strong></em>你获得对寒冷、闪电和雷鸣伤害的抗性。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1734183189299,
+        "modifiedTime": 1735457917182,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!dniieqOpNaQzLMDL.TlwtAv0TjuBkFBQJ"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194995560,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "dniieqOpNaQzLMDL",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!dniieqOpNaQzLMDL"
+}

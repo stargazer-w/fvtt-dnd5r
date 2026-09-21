@@ -1,0 +1,281 @@
+{
+  "name": "主要动作",
+  "type": "feat",
+  "_id": "BPQglJjmgXc96UIf",
+  "img": "modules/dnd5e-collection-2024/assets/icons/effects/MARK_generic_magic.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": ""
+  },
+  "effects": [
+    {
+      "name": "疾走",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_speed.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.BPQglJjmgXc96UIf",
+      "_id": "0ZN39L2fMwXfl6xH",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得供当前回合使用的一些额外移动力。额外移动力的量等于你的速度。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732346634243,
+        "modifiedTime": 1759948329870,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!BPQglJjmgXc96UIf.0ZN39L2fMwXfl6xH"
+    },
+    {
+      "name": "撤离",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_disengaged.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.BPQglJjmgXc96UIf",
+      "_id": "pLnv7q99VghNcIvz",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>当前回合的剩余时间内，你的移动不会引发借机攻击。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732347594817,
+        "modifiedTime": 1759948335530,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!BPQglJjmgXc96UIf.pLnv7q99VghNcIvz"
+    },
+    {
+      "name": "回避",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_dodge.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.BPQglJjmgXc96UIf",
+      "_id": "SxZQAyVdhnwGup3j",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>直至你的下个回合开始，任何以你为目标的攻击检定具有劣势，除非你看不见攻击者，且你进行的敏捷豁免具有优势。</p><p>如果你陷入失能或你的速度降至了 0，你会失去这些增益。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732347661285,
+        "modifiedTime": 1759948344863,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!BPQglJjmgXc96UIf.SxZQAyVdhnwGup3j"
+    },
+    {
+      "name": "预备",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_ready.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.BPQglJjmgXc96UIf",
+      "_id": "6B1AkCCWihy3qjOu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1732347752898,
+        "modifiedTime": 1759948348544,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!BPQglJjmgXc96UIf.6B1AkCCWihy3qjOu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "qVlhELJIaanIsDyq": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1732346576173,
+    "modifiedTime": 1763001744684,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_key": "!items!BPQglJjmgXc96UIf"
+}

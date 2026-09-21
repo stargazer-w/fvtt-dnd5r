@@ -1,0 +1,781 @@
+{
+  "name": "脆弱诅咒",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex.webp",
+  "system": {
+    "activities": {
+      "gAQbrxt62d08QOn4": {
+        "type": "utility",
+        "name": "施法",
+        "_id": "gAQbrxt62d08QOn4",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "value": null,
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "AkDXNyfy32zXNvE5": {
+        "type": "utility",
+        "name": "力量诅咒",
+        "_id": "AkDXNyfy32zXNvE5",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "9WHzxgI6OU6VefPe"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature"
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_str.webp",
+        "appliedEffects": []
+      },
+      "4WqAngIdPkDFfi6Q": {
+        "type": "utility",
+        "name": "敏捷诅咒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "mQWd7LE2OfsCwcCT"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_dex.webp",
+        "_id": "4WqAngIdPkDFfi6Q",
+        "appliedEffects": [
+          "9WHzxgI6OU6VefPe"
+        ]
+      },
+      "y8JlCHGURu2ogbCB": {
+        "type": "utility",
+        "name": "体质诅咒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "xrzPNjovXqA2wjrC"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_con.webp",
+        "_id": "y8JlCHGURu2ogbCB",
+        "appliedEffects": [
+          "mQWd7LE2OfsCwcCT"
+        ]
+      },
+      "WLYfkFNM7hwxhDkp": {
+        "type": "utility",
+        "name": "智力诅咒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "mMcDmp1ItktaNm37"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_int.webp",
+        "_id": "WLYfkFNM7hwxhDkp",
+        "appliedEffects": [
+          "xrzPNjovXqA2wjrC"
+        ]
+      },
+      "zLeIP06Kf7SJ6Tca": {
+        "type": "utility",
+        "name": "感知诅咒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "g6F8C8inEKpiUZfk"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_wis.webp",
+        "_id": "zLeIP06Kf7SJ6Tca",
+        "appliedEffects": [
+          "mMcDmp1ItktaNm37"
+        ]
+      },
+      "jMFpfkQFlmQe201z": {
+        "type": "utility",
+        "name": "魅力诅咒",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": false,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": true,
+          "value": ""
+        },
+        "effects": [
+          {
+            "_id": "vtshdqay0Jh827U4"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_cha.webp",
+        "_id": "jMFpfkQFlmQe201z",
+        "appliedEffects": [
+          "g6F8C8inEKpiUZfk"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你对施法距离内一个你能看见的一个生物施加诅咒。直到法术终止前，你对命中该目标的任意攻击都将额外造成 1d6 点暗蚀伤害。此外，你在施展该法术的同时选择一项属性，使该目标进行所选属性的属性检定时具有劣势。</p><p>如果目标在法术终止前 HP 降至 0，则你可以在法术终止前后续的某一回合中使用一个&amp;Reference[Bonus Action]{附赠动作}诅咒另一个生物。</p><p><em><strong>升环施法。</strong></em>使用 2 环法术位施展该法术时，其专注可以维持至多 4 小时。使用 3 环或 4 环法术位施展该法术时，其专注可以维持至多 8 小时。使用 5 环或更高法术位施展该法术时，其专注可以维持至多 24 小时。</p><p class=\"item-original\">Hex</p>",
+      "chat": ""
+    },
+    "identifier": "hex",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "bonus",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "hour",
+      "value": "1"
+    },
+    "level": 1,
+    "materials": {
+      "value": "一只风干的蝾螈眼",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "90"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "力量诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_str.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "9WHzxgI6OU6VefPe",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以力量进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385192023,
+        "modifiedTime": 1734700505971,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.9WHzxgI6OU6VefPe"
+    },
+    {
+      "name": "敏捷诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_dex.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "mQWd7LE2OfsCwcCT",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以敏捷进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385490250,
+        "modifiedTime": 1734700517558,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.mQWd7LE2OfsCwcCT"
+    },
+    {
+      "name": "体质诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_con.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "xrzPNjovXqA2wjrC",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以体质进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385529950,
+        "modifiedTime": 1734700523175,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.xrzPNjovXqA2wjrC"
+    },
+    {
+      "name": "智力诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_int.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "mMcDmp1ItktaNm37",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以智力进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385565576,
+        "modifiedTime": 1734700528213,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.mMcDmp1ItktaNm37"
+    },
+    {
+      "name": "感知诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_wis.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "g6F8C8inEKpiUZfk",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以感知进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732385621085,
+        "modifiedTime": 1734700499841,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.g6F8C8inEKpiUZfk"
+    },
+    {
+      "name": "魅力诅咒",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_hex_cha.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.XW0ppsxwSzgFOt7i",
+      "transfer": false,
+      "_id": "vtshdqay0Jh827U4",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你以魅力进行的属性检定具有劣势。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "cursed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1732536017944,
+        "modifiedTime": 1734700511498,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!XW0ppsxwSzgFOt7i.vtshdqay0Jh827U4"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758194987739,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "XW0ppsxwSzgFOt7i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!XW0ppsxwSzgFOt7i"
+}

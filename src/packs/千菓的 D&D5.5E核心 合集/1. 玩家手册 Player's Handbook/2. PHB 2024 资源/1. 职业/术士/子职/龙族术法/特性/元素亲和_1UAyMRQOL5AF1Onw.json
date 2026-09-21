@@ -1,0 +1,86 @@
+{
+  "name": "元素亲和",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_elemental-affinity.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的龙族魔法与龙族相关的伤害类型有较强的亲和力。选择以下伤害类型之一：强酸、冷冻、火焰、闪电、或毒素。</p><p>你获得对所选伤害类型的抗性，且当你施放造成那种伤害的法术时，你可以将你的魅力调整值加到那个法术的其中一次伤害掷骰中。</p><p class=\"item-original\">Elemental Affinity</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-affinity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "龙族术法",
+    "advancement": [
+      {
+        "_id": "fguHRMJglWoVPSAX",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "dr:poison",
+                "dr:cold",
+                "dr:fire",
+                "dr:acid",
+                "dr:lightning"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 6,
+        "title": "元素亲和",
+        "hint": "你获得对所选伤害类型的抗性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_sorcerer_draconic_elemental-affinity.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777579716261,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "1UAyMRQOL5AF1Onw",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!1UAyMRQOL5AF1Onw"
+}

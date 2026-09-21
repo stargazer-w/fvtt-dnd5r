@@ -1,0 +1,111 @@
+{
+  "name": "勇气学院",
+  "type": "subclass",
+  "img": "modules/dnd5e-collection-2024/assets/icons/classes/subclasses/bard_valor.webp",
+  "system": {
+    "description": {
+      "value": "<blockquote><p>颂歌独唱旧英杰</p></blockquote><p>勇气学院的吟游诗人是无畏的故事讲述者，他们的故事承载了过往伟大英雄的记忆。这些人在穹顶之下、篝火之侧、人群之间歌唱豪杰的功绩。他们四处旅行，用双眼记录史诗的发生，将传奇深埋心底并传承下去。他们激励新一代人勇攀高峰，达到与古老英雄同样的高度。</p><p>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.iAZwiVfhgi8KdNAD]{此见子职细节}</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wFCTybAVFDx4w6rV]{College of Valor}</p>",
+      "chat": ""
+    },
+    "identifier": "valor",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.B6tFO0fRYAwmP2ZG"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "2tQdr5e0c8Jv0Zhp"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.q8sW212AOXlSxBAm"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "TUt1bvCopnG20zTc"
+      },
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.h19uakdMEMx6il1T"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.G62HoQntUsqUsAqK"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "子职特性",
+        "hint": "你的子职业赋予你以下职业特性。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_feature.webp",
+        "_id": "aZjcMmVfKefHKf5b"
+      }
+    ],
+    "classIdentifier": "bard",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731134919701,
+    "modifiedTime": 1777200808708,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "wFCTybAVFDx4w6rV",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!wFCTybAVFDx4w6rV"
+}

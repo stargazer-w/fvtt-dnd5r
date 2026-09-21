@@ -1,0 +1,223 @@
+{
+  "name": "攻城塔",
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_siege-tower.webp",
+  "system": {
+    "activities": {
+      "WcCp0rFX07y6hMBd": {
+        "_id": "WcCp0rFX07y6hMBd",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {}
+        },
+        "damage": {
+          "critical": {},
+          "includeBase": true,
+          "parts": []
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>超巨型物件</em></p><p><strong>AC：</strong>15　<strong>HP：</strong>200</p><p>攻城塔是一种可移动的木质建筑，其主体由木梁作为框架，墙壁由木板铺成。塔底设置了大型的木轮或滚轴，让其可被士兵或负重牲畜推拉从而进行移动。中型或更小体型的生物可以使用攻城塔到达至多 40 尺高的城墙上。攻城塔内的生物对来自塔外的攻击与其他效应处于&amp;Reference[Total Cover]{全掩护}。</p><p class=\"item-original\">@UUID[Compendium.dnd5e-collection-2024.dmg-creatures.Actor.1C2A06bNWb6ZQbDu]{Siege Tower}</p>",
+      "chat": ""
+    },
+    "identifier": "siege-tower",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": 0,
+    "crewed": false,
+    "type": {
+      "value": "siege",
+      "baseItem": ""
+    },
+    "ammunition": {},
+    "armor": {
+      "value": 15
+    },
+    "damage": {
+      "base": {
+        "number": null,
+        "denomination": 0,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      },
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "magicalBonus": null,
+    "properties": [],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": null,
+      "units": ""
+    },
+    "mastery": "",
+    "hp": {
+      "value": 200,
+      "max": 200,
+      "dt": null,
+      "conditions": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "掩护：攻城塔",
+      "img": "modules/dnd5e-collection-2024/assets/portraits/objects/SIEGE_siege-tower.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.tZFTqce9P3Mgf4zo",
+      "_id": "xjAl9jBuZSYaGOiB",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "coverTotal"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1751716764845,
+        "modifiedTime": 1759749229979,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!tZFTqce9P3Mgf4zo.xjAl9jBuZSYaGOiB"
+    }
+  ],
+  "sort": -50000,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.fkOI7mk96l2Gt2Nq",
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1751042346161,
+    "modifiedTime": 1758199879420,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "tZFTqce9P3Mgf4zo",
+  "_key": "!items!tZFTqce9P3Mgf4zo"
+}

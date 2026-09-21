@@ -17,9 +17,10 @@
 ```bash
 npm install       # 首次使用
 npm run build     # src → dist（compendium 编译为 LevelDB，其余原样同步）
+npm run check     # 校验 src/packs 自身：目录 ↔ _Folder.json ↔ 文档 folder 一致、_key 不重复
 npm run dev     -- "<Foundry 的 modules 目录>"  # build + 把 dist 同步进该目录（可传多个）
 npm run unpack  -- "<原始模组目录>"             # 用其中的 packs/ 重新解包出 src/packs
-npm run verify  -- "<原始模组目录>"             # 以原始模组为基准校验 dist（逐文件 / 逐条目）
+npm run verify  -- "<原始模组目录>"             # 与原始模组逐条目对照（src 允许与它不同，日常验收用 check）
 ```
 
 构建产物在 `dist/`，把它整个放进 Foundry 的 `Data/modules/` 即可使用，等同于下方「安装模块」的下载版。

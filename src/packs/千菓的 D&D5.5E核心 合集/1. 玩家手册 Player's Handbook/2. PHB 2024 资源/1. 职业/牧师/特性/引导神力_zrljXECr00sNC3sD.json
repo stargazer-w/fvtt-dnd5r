@@ -1,0 +1,91 @@
+{
+  "name": "引导神力",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_channel-divinity.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "formula",
+          "formula": "1"
+        },
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.cleric.channel-divinity"
+    },
+    "description": {
+      "value": "<p>你能从外层位面引导神圣能量，并用其引动魔法效应。你起始时具有两种选项：@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.q7wFmAr0rVFxL2Yq]{神圣火花}与@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Hnmm7WEWCoaKQLrC]{驱散亡灵}，其效果如下所示。每当你使用你的引导神力时，你选择要创造哪种效应。你会在更高的牧师等级获得更多选项。</p><p>你可以使用引导神力两次，你在完成一次短休时恢复一次使用次数，而在完成一次长休时重获所有已使用的次数。你在达到特定的牧师等级时获得额外的使用次数，具体见牧师特性表中引导神力一栏。</p><p>如果某个引导神力效应需要目标进行豁免，则其豁免 DC 等于本职业的施法特性中的法术豁免 DC。</p><p><em><strong>神圣火花。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你将你的圣徽指向 30 尺内一个你可见的其他生物，并将神圣能量凝聚于该生物。投掷 1d8 加上你的感知调整值，你为该生物恢复该数值的生命或迫使其进行一次[[/save con format=long]]，失败则受到等同该数值的暗蚀或光耀伤害（由你选择），成功则伤害减半（向下取整）。</p><p><em><strong>驱散亡灵。</strong></em>以一个&amp;Reference[Magic]{魔法}动作，你展现圣徽，斥退诸亡灵生物。你 30 尺内每个由你选择的亡灵都必须进行一次[[/save wis format=long]]，失败则陷入&amp;Reference[frightened]{恐慌}和&amp;Reference[incapacitated]{失能}状态，持续 1 分钟。在这段持续时间内，被驱散的生物会尽可能远离你。此效应在其受到伤害时提前结束，你陷入失能状态或是死亡也会结束此效应。</p><p class=\"item-original\">Channel Divinity</p>",
+      "chat": ""
+    },
+    "identifier": "channel-divinity",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "牧师",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.q7wFmAr0rVFxL2Yq"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.Hnmm7WEWCoaKQLrC"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "引导神力",
+        "hint": "这个特性为你提供了以下子项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_cleric_channel-divinity.webp",
+        "_id": "E2PBT7iBVz5atPOF"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777638867496,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "zrljXECr00sNC3sD",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!zrljXECr00sNC3sD"
+}

@@ -1,0 +1,289 @@
+{
+  "name": "德鲁伊",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "德鲁伊",
+      "type": "text",
+      "_id": "UCOh3zlvGxyk5jLr",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.psX0aM7vWPnjDy1f inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ivh0XDvnUSFMDD9B inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776348937592,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.UCOh3zlvGxyk5jLr"
+    },
+    {
+      "sort": 200000,
+      "name": "大地结社",
+      "type": "text",
+      "_id": "Ysgeru1iCA7CCe3x",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Circle of the Land</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.55qTkqdgKib5iHch inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.nZYRZlB2TkxCbQC5 inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.I5aoNJ3PC6nEEUJs]{大地结社法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iuL8nK6eebDOLeEi]{大地之援}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kRat1G7brVvPiJbw]{自然恢复}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS]{自然守御}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK]{自然庇护}</td></tr></tbody></table><p class=\"item-title\">3 级：大地结社法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.I5aoNJ3PC6nEEUJs inline]</p><p class=\"item-title\">3 级：大地之援</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.iuL8nK6eebDOLeEi inline]</p><p class=\"item-title\">6 级：自然恢复</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kRat1G7brVvPiJbw inline]</p><p class=\"item-title\">10 级：自然守御</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.NTEe9lKrwodqh2QS inline]</p><p class=\"item-title\">14 级：自然庇护</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.CkHoZIOKoP4JTTNK inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776349097998,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.Ysgeru1iCA7CCe3x"
+    },
+    {
+      "sort": 300000,
+      "name": "月亮结社",
+      "type": "text",
+      "_id": "HEtjvqXrKrZNyl8x",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Circle of the Moon</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.TrdrCdHhUOT5jx2i inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.n1JJcOrHZkyaTHZ3 inline classes=\"left three\"]</p><table border=\"0\" class=\"right-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WdDsEEpxIFkbve9C]{结社形态}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FcpAsXs6Wg0pSRo0]{月亮结社法术}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PS8YxA1CZ7tlKcxo]{进阶结社形态}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.KkyAzRf1IIeZfDcN]{月光飞步}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.kPQnw2FUVt43mnwj]{月辉形态}</td></tr></tbody></table><p class=\"item-title\">3 级：结社形态</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WdDsEEpxIFkbve9C inline]</p><p class=\"item-title\">3 级：月亮结社法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.FcpAsXs6Wg0pSRo0 inline]</p><p class=\"item-title\">6 级：进阶结社形态</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.PS8YxA1CZ7tlKcxo inline]</p><p class=\"item-title\">10 级：月光飞步</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.KkyAzRf1IIeZfDcN inline]</p><p class=\"item-title\">14 级：月辉形态</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.kPQnw2FUVt43mnwj inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776349234826,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.HEtjvqXrKrZNyl8x"
+    },
+    {
+      "sort": 400000,
+      "name": "海洋结社",
+      "type": "text",
+      "_id": "S1X2oB04w8E9Zo30",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Circle of the Sea</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.ww1m8eetVK6h43LZ inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.mHpIstCE24qkzKqy inline classes=\"right three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UpBNNBRe1fS9aygO]{海洋结社法术}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3TUXAzfCpWg5Ngxn]{瀚海之怒}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dz6exvzGWG8utzRh]{水生亲和}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XfsT7ST3P4jLDFIe]{风暴降生}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dniieqOpNaQzLMDL]{大洋慨赠}</td></tr></tbody></table><p class=\"item-title\">3 级：海洋结社法术</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UpBNNBRe1fS9aygO inline]</p><p class=\"item-title\">3 级：瀚海之怒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3TUXAzfCpWg5Ngxn inline]</p><p class=\"item-title\">6 级：水生亲和</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dz6exvzGWG8utzRh inline]</p><p class=\"item-title\">10 级：风暴降生</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.XfsT7ST3P4jLDFIe inline]</p><p class=\"item-title\">14 级：大洋慨赠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dniieqOpNaQzLMDL inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776349278530,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.S1X2oB04w8E9Zo30"
+    },
+    {
+      "sort": 500000,
+      "name": "星辰结社",
+      "type": "text",
+      "_id": "QaSOPbllchjZ0UUG",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Circle of the Stars</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.hFb1G3I6ibncR2v7 inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.lOyX9K8LEAd5IswG inline classes=\"left three\"]</p><table border=\"0\" class=\"left-three\"><thead><tr></tr></thead><tbody><tr><th>等级</th><th>职业特性</th></tr><tr><td style=\"text-align:center\">3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dYCpzHu235cVWZra]{星图}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3zzXljAqkuZRN2fp]{星耀形态}</td></tr><tr><td style=\"text-align:center\">6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.qVPe1eG9B8gLFKAd]{宇宙预兆}</td></tr><tr><td style=\"text-align:center\">10</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7AO57wWRc36RipRq]{闪烁星座}</td></tr><tr><td style=\"text-align:center\">14</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.j7aOxUGww8ds9zY2]{灿若繁星}</td></tr></tbody></table><p class=\"item-title\">3 级：星图</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dYCpzHu235cVWZra inline]</p><p class=\"item-title\">3 级：星耀形态</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.3zzXljAqkuZRN2fp inline]</p><p class=\"item-title\">6 级：宇宙预兆</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.qVPe1eG9B8gLFKAd inline]</p><p class=\"item-title\">10 级：闪烁星座</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.7AO57wWRc36RipRq inline]</p><p class=\"item-title\">14 级：灿若繁星</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.j7aOxUGww8ds9zY2 inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776349341563,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.QaSOPbllchjZ0UUG"
+    },
+    {
+      "sort": 150000,
+      "name": "德鲁伊职业特性",
+      "type": "text",
+      "_id": "dNkuMIJKZigOPfIX",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Druid Class Features</p><p>德鲁伊在到达特定等级时会获得下述职业特性，如德鲁伊特性表中所示。</p><table border=\"0\"><caption>德鲁伊特性 Druid Features</caption><thead><tr><th rowspan=\"2\">等级</th><th rowspan=\"2\">熟练加值</th><th rowspan=\"2\">职业特性</th><th rowspan=\"2\">荒野变形</th><th rowspan=\"2\">戏法</th><th rowspan=\"2\">准备法术</th><th colspan=\"9\">——每环法术位——</th></tr><tr><th>1 环</th><th>2 环</th><th>3 环</th><th>4 环</th><th>5 环</th><th>6 环</th><th>7 环</th><th>8 环</th><th>9 环</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vnHWDsXHp1cWQIG8]{施法}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dEfBCnWcwleB9BaD]{德鲁伊语}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WzpOSkZxUxOoVPPo]{原初誓约}</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:center\">+ 2</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9]{荒野形态}，@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.l95dzHvfWV32LpNs]{荒野伙伴}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">5</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:center\">+ 2</td><td>德鲁伊子职</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">6</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:center\">+ 2</td><td>属性值提升</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">7</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.BJ4axhomBsPV5P6x]{荒野复苏}</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">9</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:center\">+ 3</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">10</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:center\">+ 3</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.cGpzSE1XYCTPk0CB]{元素之怒}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">11</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:center\">+ 3</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">12</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">9</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">14</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">10</td><td style=\"text-align:center\">+ 4</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">15</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">11</td><td style=\"text-align:center\">+ 4</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">12</td><td style=\"text-align:center\">+ 4</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">16</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">13</td><td style=\"text-align:center\">+ 5</td><td>—</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">14</td><td style=\"text-align:center\">+ 5</td><td>子职特性</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">17</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">15</td><td style=\"text-align:center\">+ 5</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.RE2RPXhCrCj9PsIe]{元素神威}</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">16</td><td style=\"text-align:center\">+ 5</td><td>属性值提升</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">18</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">—</td></tr><tr><td style=\"text-align:center\">17</td><td style=\"text-align:center\">+ 6</td><td>—</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">19</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">18</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.UyAGk8IT7J4NmHOE]{兽形施法}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">20</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">19</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MPK59AszkgrruOBm]{传奇恩惠}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">21</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr><tr><td style=\"text-align:center\">20</td><td style=\"text-align:center\">+ 6</td><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.MPzuFK4Re431RMmw]{大德鲁伊}</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">22</td><td style=\"text-align:center\">4</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">3</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">2</td><td style=\"text-align:center\">1</td><td style=\"text-align:center\">1</td></tr></tbody></table><p class=\"item-title\">1 级：施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.vnHWDsXHp1cWQIG8 inline]</p><p class=\"item-title\">1 级：德鲁伊语</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dEfBCnWcwleB9BaD inline]</p><p class=\"item-title\">1 级：原初誓约</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.WzpOSkZxUxOoVPPo inline]</p><p class=\"item-title\">2 级：荒野形态</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.IvUWrrwW3Tz3sUq9 inline]</p><p class=\"item-title\">2 级：荒野伙伴</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.l95dzHvfWV32LpNs inline]</p><p class=\"item-title\">3 级：德鲁伊子职</p><p>你选择获得一项德鲁伊子职：大地结社、月亮结社、海洋结社或星辰结社。子职业的内容见后文。子职是一种特化，在特定的德鲁伊等级给予你对应的独特能力。此后你将获得每一个你所选的子职的能力，只要其所需等级等于或低于你的德鲁伊等级。</p><p class=\"item-original\">Druid Subclass</p><p class=\"item-title\">4 级：属性值提升</p><p>你获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VPr2AKr8xjuGehX3]{属性值提升}专长或其它你满足条件的专长。你还会在你的德鲁伊等级达到第 8、第 12、第 16 级时再次获得本特性。</p><p class=\"item-original\">Ability Score Improvement</p><p class=\"item-title\">5 级：荒野复苏</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.BJ4axhomBsPV5P6x inline]</p><p class=\"item-title\">7 级：元素之怒</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.cGpzSE1XYCTPk0CB inline]</p><p class=\"item-title\">15 级：元素神威</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.RE2RPXhCrCj9PsIe inline]</p><p class=\"item-title\">18 级：兽形施法</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.UyAGk8IT7J4NmHOE inline]</p><p class=\"item-title\">19 级：传奇恩惠</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MPK59AszkgrruOBm inline]</p><p class=\"item-title\">20 级：大德鲁伊</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.MPzuFK4Re431RMmw inline]</p><h1>德鲁伊子职业</h1><p class=\"journal-original-h1\">Druid Subclasses</p><p>德鲁伊子职是一种你在达到特定德鲁伊等级时，职业会给予你的特化能力，其具体能力取决于子职描述。德鲁伊们会形成松散的联系，他们称之为“结社”。本段提供了以下四个子职业：大地结社、月亮结社、海洋结社或星辰结社。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.0X0xAvYkcGA9vzoX.JournalEntryPage.pBmHaKHliLvuPfUs inline]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "Jqoj9dwIRPPEU1Xu": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": 1730385568056,
+        "modifiedTime": 1776349032542,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!YylLR1bRh1jMMyDP.dNkuMIJKZigOPfIX"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 4,
+      "order": 500400,
+      "navigation": {
+        "previous": "qowfNigmkDRArlNt",
+        "next": "X0KL1TWRl6RQ06wf"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1727591001263,
+    "modifiedTime": 1776334126882,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "_id": "YylLR1bRh1jMMyDP",
+  "sort": 106250,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "categories": [],
+  "_key": "!journal!YylLR1bRh1jMMyDP"
+}

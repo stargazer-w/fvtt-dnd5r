@@ -1,0 +1,802 @@
+{
+  "name": "奥喀斯之杖",
+  "system": {
+    "description": {
+      "value": "<p><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.m5sVvygLw8QzMyh5]{魔杖}，神器（需同调）</em></p><section class=\"item-quote\"><p>这根阴森恐怖的魔杖由奥喀斯制作并使用。它不时从其恶魔领主创造者的手中溜走，神奇地出现在恶魔领主感到有机会实现其邪恶目的的地方。</p></section><p>魔杖顶端是一个骷髅头，它曾属于一个被奥喀斯残杀的人类英雄。魔杖可以魔法地改变自身大小以适合其持用者的身形。所有位于<em>奥喀斯之杖</em> 10 尺内的圣水将被摧毁。</p><p>除奥喀斯外，任何生物与魔杖进行同调时，必须进行一次[[/save con 17 format=long]]。豁免成功，则该生物受到[[/damage 10d6 necrotic]]伤害。豁免失败，则该生物死亡，若其是类人，则变为一只@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.louRCjMpG5jx9Zuv]{丧尸}。</p><details><summary><em><strong>魔法武器。</strong></em></summary><p>你可以将魔杖用作一把魔法@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FGjUVf3Ed9zjarRt]{硬头锤}，用魔杖进行的攻击检定和伤害掷骰获得 +3 加值，魔杖命中时，额外造成 2d12 暗蚀伤害。</p></details><details><summary><em><strong>防护。</strong></em></summary><p>持握魔杖时，你的护甲等级获得 +3 加值。</p></details><details><summary><em><strong>法术。</strong></em></summary><p>魔杖具有 7 充能并在每日黎明时重获 1d4 + 3 已消耗的充能。你可以从中施展下表中的法术（豁免 DC 18）。表中表明了你施展对应的法术需要消耗多少充能。</p><table><thead><tr><th>法术</th><th>充能消耗</th></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zdIXi2IeUa2uhMAt]{活化死尸}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.pBiqkcEYPnRqOlS0]{死者交谈}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sXEJfbqf05VjLSsp]{枯萎术}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sRRXCVx2N98byfWf]{死亡法阵}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PxhcvadpOmDmVWFr]{死亡一指}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.wGoB7uO7cFOnKJUQ]{律令死亡}</em></td><td>4</td></tr></tbody></table><p>奥喀斯与受其祝福的追随者与魔杖维持同调期间，他们施展以上每个法术的充能消耗降低 2（最低为 0）。</p></details><details><summary><em><strong>呼唤亡灵。</strong></em></summary><p>持握魔杖期间，你能够以&amp;Reference[Magic]{魔法}动作咒唤 15 只@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.louRCjMpG5jx9Zuv]{丧尸}和 15 具@UUID[Compendium.dnd5e-collection-2024.phb-creatures.Actor.0NSEwg9YpNbAD9QS]{骷髅}，这些亡灵将魔法的自地面中升起或在你 300 尺内的未占据空间中生成，它们将服从你的命令，它们被摧毁或次日黎明时，它们会倒塌为一堆无生命的骨头和腐尸。该词条一经使用，直至次日黎明你都无法再次使用。</p><p>奥喀斯在持握魔杖期间可以召唤任意种类的亡灵，而非仅仅是丧尸和骷髅。这些亡灵不会在次日黎明消亡，而是存在直至奥喀斯将他们驱散。</p></details><details><summary><em><strong>随机词条。</strong></em></summary><p>奥喀斯之杖具有下列随机词条：</p><ul><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu]{次要增益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.OcWc8txQePfpNZG6]{主要增益词条}</li><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.X3favP6TQPrbd0Rz]{次要减益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.45ZCMYyS9SrTUzLw]{主要减益词条}</li></ul></details><details><summary><em><strong>智能。</strong></em></summary><p><em>奥喀斯之杖</em>是一根混乱邪恶的智能魔杖，其智力 16，感知 12，魅力 16。它具有 120 尺听觉及 120 尺黑暗视觉。奥喀斯之杖说通用语和炼狱语并可以通过心灵感应与持用者交流。</p></details><details><summary><em><strong>个性。</strong></em></summary><p>魔杖的目标是满足奥喀斯杀戮多元宇宙一切的欲望。魔杖残暴，虚无，且毫无幽默感。为了进一步完成奥喀斯的目标，魔杖会假装忠诚于其现任使用者，甚至给对方许下根本不打算应允的承诺，比如发誓帮助对方推翻奥喀斯本尊。</p></details><details><summary><em><strong>摧毁奥喀斯之杖。</strong></em></summary><p>要摧毁奥喀斯之杖，需要魔杖上骷髅头的英雄本尊将其带到正能量位面。要做到这点，必须先让这位故去已久的英雄重新复活——这并非易事，奥喀斯囚禁了他的灵魂，藏在一个守备森严的秘密地点。</p><p>将魔杖浸没在正能量（例如弥漫在正位面的正能量）中将导致其崩坏炸裂，但如果无法满足上述的前提条件，破坏的魔杖将立即在奥喀斯所控制的深渊层域中重新形成。</p></details><p class=\"item-original\">Wand of Orcus</p>",
+      "chat": ""
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "source": {
+      "custom": "",
+      "rules": "2024",
+      "revision": 1,
+      "book": "DMG 2024",
+      "page": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "range": {
+      "value": null,
+      "long": null,
+      "units": "ft",
+      "reach": null
+    },
+    "uses": {
+      "max": "7",
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d4 + 3"
+        }
+      ]
+    },
+    "damage": {
+      "versatile": {
+        "number": null,
+        "denomination": null,
+        "bonus": "",
+        "types": [],
+        "custom": {
+          "enabled": true,
+          "formula": ""
+        },
+        "scaling": {
+          "mode": "",
+          "number": null,
+          "formula": ""
+        }
+      },
+      "base": {
+        "number": 1,
+        "denomination": 6,
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "bonus": ""
+      }
+    },
+    "armor": {
+      "value": null
+    },
+    "hp": {
+      "value": null,
+      "max": null,
+      "dt": null,
+      "conditions": ""
+    },
+    "type": {
+      "value": "simpleM",
+      "baseItem": "mace"
+    },
+    "magicalBonus": 3,
+    "properties": [
+      "foc",
+      "mgc"
+    ],
+    "proficient": null,
+    "activities": {
+      "KiHlb6kIDAvWmnhv": {
+        "type": "attack",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "concentration": false,
+          "value": "",
+          "units": "inst",
+          "special": "",
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "value": "5",
+          "units": "ft",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": false,
+          "override": false
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 12,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "scaling": {
+                "number": 1
+              }
+            }
+          ]
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "_id": "KiHlb6kIDAvWmnhv",
+        "name": ""
+      },
+      "9NCWvOvhD9KiDOgK": {
+        "type": "cast",
+        "_id": "9NCWvOvhD9KiDOgK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.zdIXi2IeUa2uhMAt",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "pFB0d0HtAn69QCJy": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.pBiqkcEYPnRqOlS0",
+          "ability": ""
+        },
+        "name": "",
+        "_id": "pFB0d0HtAn69QCJy"
+      },
+      "y7A7PggwfAsUN8tF": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 4,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.sXEJfbqf05VjLSsp",
+          "ability": ""
+        },
+        "name": "",
+        "_id": "y7A7PggwfAsUN8tF"
+      },
+      "D1QeUXIsmWueu86R": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 6,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.sRRXCVx2N98byfWf",
+          "ability": ""
+        },
+        "name": "",
+        "_id": "D1QeUXIsmWueu86R"
+      },
+      "WMLh5mbcqhiA30ga": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 7,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PxhcvadpOmDmVWFr",
+          "ability": ""
+        },
+        "name": "",
+        "_id": "WMLh5mbcqhiA30ga"
+      },
+      "4U1hOiHJNQBHq5Rv": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "4",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 18,
+            "override": true
+          },
+          "level": 9,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.wGoB7uO7cFOnKJUQ",
+          "ability": ""
+        },
+        "name": "",
+        "_id": "4U1hOiHJNQBHq5Rv"
+      },
+      "IbNr9XcIGsejR1UR": {
+        "type": "summon",
+        "name": "呼唤亡灵",
+        "_id": "IbNr9XcIGsejR1UR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": true,
+          "value": "300",
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "dawn",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "15",
+            "name": "",
+            "_id": "trQRGQSK8mrPELSp",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.louRCjMpG5jx9Zuv",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          },
+          {
+            "count": "15",
+            "name": "",
+            "_id": "VDkC2GXVXtYjazx0",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.0NSEwg9YpNbAD9QS",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "identifier": "",
+          "mode": ""
+        }
+      }
+    },
+    "ammunition": {},
+    "mastery": "sap",
+    "identifier": "wand-of-orcus"
+  },
+  "type": "weapon",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WAND_wand-of-orcus.webp",
+  "effects": [
+    {
+      "name": "防护",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/GENERIC_passive_positive.webp",
+      "origin": "Compendium.dnd5e-collection-2024.dmg-content.Item.99oCJEeu8hDAljSQ",
+      "_id": "aH2PYTRoR5zQK0uu",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "3",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": null,
+        "modifiedTime": 1758193496613,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!99oCJEeu8hDAljSQ.aH2PYTRoR5zQK0uu"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1756869519552,
+    "modifiedTime": 1758727494860,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "99oCJEeu8hDAljSQ",
+  "sort": 1150000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!99oCJEeu8hDAljSQ"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "魅影生灵",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_illusionist_phantasmal-creatures.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你总是准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.SUVyjzkR4KQWbCul]{野兽召唤术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mTZQF9DfqSqqC31y]{妖精召唤术}</em>。你施展其中任意一道法术时，可以选择将其学派变为幻术学派，这会使召唤出的生物变得虚幻。你可以不消耗法术位地施展这两道法术的幻术版本各一次，但无需法术位地施展这两道法术会使其召唤出的生物只有一半生命值。一旦你无需法术位地施展了其中任意一道法术，则直到完成一次长休，你都不能再次以此法施展那道法术。</p><p class=\"item-original\">Phantasmal Creatures</p>",
+      "chat": ""
+    },
+    "identifier": "phantasmal-creatures",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "幻术师",
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "魅影生灵",
+        "_id": "gkRAAW0EFWHWbMOH",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.SUVyjzkR4KQWbCul"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.mTZQF9DfqSqqC31y"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 6,
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_illusionist_phantasmal-creatures.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777660289624,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "QpHVFifFEXb122rt",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!QpHVFifFEXb122rt"
+}

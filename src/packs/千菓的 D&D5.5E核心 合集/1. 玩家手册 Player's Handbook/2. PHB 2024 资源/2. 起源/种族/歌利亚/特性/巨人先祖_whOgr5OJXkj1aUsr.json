@@ -1,0 +1,108 @@
+{
+  "name": "巨人先祖",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_goliath_giant-ancestry.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@prof"
+    },
+    "description": {
+      "value": "<p>你是巨人的后裔。选择以下好处之一——来自你祖先的超自然恩惠；你可以使用所选恩惠的次数等于你的熟练加值，当你完成一次长休后，你重获全部已消耗的使用次数：</p><p><strong>云之远迹（云巨人）。</strong>以一个&amp;Reference[Bonus Action]{附赠动作}，你可以魔法地传送到 30 尺内一处你可以看到的未占空间。</p><p><strong>火之燃烧（火巨人）。</strong>当你以攻击检定击中目标并对其造成伤害时，你可以对该目标额外造成 1d10 点火焰伤害。</p><p><strong>霜之刺骨（霜巨人）。</strong>当你以攻击检定击中目标并对其造成伤害时，你可以对该目标额外造成 1d6 点冷冻伤害，并直到你的下一回合开始，其速度降低 10 尺。</p><p><strong>山之翻撞（山丘巨人）。</strong>当你以攻击检定击中一个大型或更小体型的生物并对其造成伤害时，你可以令其陷入&amp;Reference[prone]{倒地}状态。</p><p><strong>石之坚韧（石巨人）。</strong>当你受到伤害时，你可以用&amp;Reference[Reaction]{反应}掷一枚 d12。在掷骰结果上加上你的体质调整值，然后减少等量的伤害。</p><p><strong>风暴之鸣（风暴巨人）。</strong>当你被距离你 60 尺以内的生物造成伤害时，你可以使用&amp;Reference[Reaction]{反应}对该生物造成 1d8 点雷鸣伤害。</p><p class=\"item-original\">Giant Ancestry</p>",
+      "chat": ""
+    },
+    "identifier": "giant-ancestry",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "race",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "歌利亚",
+    "advancement": [
+      {
+        "_id": "kIexVc2HiOeW29aH",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "0": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": false,
+          "type": null,
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.SzWjsFdOrO17rKtV"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.lM8nISO3vj3FY6Q9"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.9kAMw0MTWLOBI5HY"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.BTBa8HSkAGRlPVnW"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.gQHIVaBewX4B6sps"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.lpTcM2Kko6hvukoO"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "巨人先祖",
+        "hint": "你选择获得以下特性之一。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_goliath_giant-ancestry.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1730958212709,
+    "modifiedTime": 1777693581100,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "whOgr5OJXkj1aUsr",
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!whOgr5OJXkj1aUsr"
+}

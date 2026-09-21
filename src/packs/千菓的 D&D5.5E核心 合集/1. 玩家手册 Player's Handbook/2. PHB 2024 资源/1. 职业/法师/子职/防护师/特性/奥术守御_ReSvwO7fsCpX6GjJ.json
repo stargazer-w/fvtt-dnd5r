@@ -1,0 +1,285 @@
+{
+  "name": "奥术守御",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_abjurer_arcane-ward.webp",
+  "system": {
+    "activities": {
+      "sKTAYQndVZ9rexfM": {
+        "type": "summon",
+        "name": "塑造结界",
+        "_id": "sKTAYQndVZ9rexfM",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "塑造结界"
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "2 * @classes.wizard.levels + @abilities.int.mod",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "epx32LiUYyarBZV2",
+            "uuid": "Compendium.dnd5e-collection-2024.phb-creatures.Actor.aPdP7xL5EceKB19K",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "types": []
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "VcgAgR15M511EqxL": {
+        "type": "heal",
+        "name": "恢复结界 (法术位)",
+        "_id": "VcgAgR15M511EqxL",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": "恢复结界"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": "",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@scaling * 2"
+          },
+          "scaling": {
+            "number": 1,
+            "mode": ""
+          },
+          "bonus": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>你可以在自己周围编织魔法来保护自己。当你消耗法术位施展一道防护学派法术时，你能同时使用该法术的一缕魔力为自己创建一个魔法结界，该结界会持续至你完成一次长休为止。该结界的最大生命值等同于你法师等级的两倍加上你的智力调整值。每当你受到伤害时，结界就会代替你承受伤害，如果你有任何抗性或易伤，则应在计算结界承伤之前先结算抗性和易伤。如果该伤害会使结界的生命值降为 0，则你将承受所有剩余伤害。当结界的生命值为 0 时，它无法吸收伤害，但其魔力仍然存在。</p><p>每当你消耗法术位施展一道防护学派法术时，结界就会恢复等同于该法术位环阶两倍的生命值。除此之外，以一个&amp;Reference[Bonus Action]{附赠动作}，你也可以消耗一个法术位使结界恢复等同于所消耗法术位环阶两倍的生命值。</p><p>结界一经创建，直至完成一次长休前都无法被再次创建。</p><p class=\"item-original\">Arcane Ward</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-ward",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "防护师"
+  },
+  "effects": [
+    {
+      "name": "奥术守御",
+      "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_wizard_abjurer_arcane-ward.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.ReSvwO7fsCpX6GjJ",
+      "transfer": false,
+      "_id": "zqh1U5TMrrWZxBr7",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 86400,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>这个魔法结界会在你受到伤害时代替你承受伤害，如果你有任何抗性或易伤，则应在计算结界承伤之前先结算抗性和易伤。</p><p>如果该伤害会使结界的生命值降为 0，则你将承受所有剩余伤害。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1736612019061,
+        "modifiedTime": 1736612138141,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!ReSvwO7fsCpX6GjJ.zqh1U5TMrrWZxBr7"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758194979677,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "ReSvwO7fsCpX6GjJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!ReSvwO7fsCpX6GjJ"
+}

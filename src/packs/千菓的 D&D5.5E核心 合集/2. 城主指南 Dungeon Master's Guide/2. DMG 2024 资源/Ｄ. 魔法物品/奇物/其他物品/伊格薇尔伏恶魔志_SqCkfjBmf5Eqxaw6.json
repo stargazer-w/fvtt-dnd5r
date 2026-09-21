@@ -1,0 +1,630 @@
+{
+  "name": "伊格薇尔伏恶魔志",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_demonomicon-of-iggwilv.webp",
+  "system": {
+    "activities": {
+      "D7QEGdPh17XPZ5FR": {
+        "type": "save",
+        "name": "封印",
+        "_id": "D7QEGdPh17XPZ5FR",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "spec",
+          "concentration": false,
+          "override": false,
+          "special": ""
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "cha"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "20"
+          }
+        }
+      },
+      "vuqPpkMZ4qqt9ZFj": {
+        "type": "cast",
+        "_id": "vuqPpkMZ4qqt9ZFj",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.zAC6NL1hj5EdH9xz",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "T8uA8pmnRZqAFdcV": {
+        "type": "cast",
+        "_id": "T8uA8pmnRZqAFdcV",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": 3,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.v7wDE7G4S5tpde17",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "hVI8altuoCdFq10d": {
+        "type": "cast",
+        "_id": "hVI8altuoCdFq10d",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": 5,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.nwOhvyfxFOB5Wf8P",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "wOdrsLgdPHH16B3a": {
+        "type": "cast",
+        "_id": "wOdrsLgdPHH16B3a",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": 6,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.3T9dAhgZkv0LgGi3",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "CRJQH9lVzlBoQsCz": {
+        "type": "cast",
+        "_id": "CRJQH9lVzlBoQsCz",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.vncSyGg2cttZVJ1b",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "VUmT8kLYTn7i0Zb9": {
+        "type": "cast",
+        "_id": "VUmT8kLYTn7i0Zb9",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": null,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.0F8DCDSOPas8fhtr",
+          "ability": ""
+        },
+        "name": ""
+      },
+      "UGzobCbMbSUrgnF3": {
+        "type": "cast",
+        "_id": "UGzobCbMbSUrgnF3",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "attack": null,
+            "save": 20,
+            "override": true
+          },
+          "level": 6,
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.PQ68PAVNGCV8rSTX",
+          "ability": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "dawn",
+          "type": "formula",
+          "formula": "1d8"
+        }
+      ],
+      "max": "8"
+    },
+    "description": {
+      "value": "<p><em>奇物，神器（需同调）</em></p><section class=\"item-quote\"><p>这篇记录着深渊之无限层级及其居民的论文，由@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgALoreGlossary.JournalEntryPage.M5Ctj4fNMIhQGbIU]{伊格薇尔伏}撰写，被公认为是多元宇宙中最详细且最亵渎的恶魔学著作。这本书记载了关于深渊与恶魔的所有亵渎事项，无论其有多古远或者多时新。恶魔们曾试图删减过其中的文本，虽部分内容已从书脊上撕下，但大部分篇章仍存，并不断揭示着恶魔的秘密。这本书隐藏着一块神秘的深渊位面碎片，使得此书无论被撕掉多少页，也会时刻保持更新，这本书也不仅仅只是满足于成为一本参考材料。</p></section><details><summary><em><strong>深渊学识。</strong></em></summary><p>每当你进行智力检定以辨别有关恶魔的信息或进行与深渊相关的感知（求生）检定时，你都可以参考恶魔志。若如此做，你在检定上具有优势。</p></details><details><summary><em><strong>迷惑。</strong></em></summary><p>携带此书期间，每当你施展只针对邪魔的<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.v7wDE7G4S5tpde17]{防护法阵}</em>或对邪魔施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nwOhvyfxFOB5Wf8P]{异界誓缚}</em>时，无论你使用什么环阶的法术位（若有），该法术都将以 9 环版本施展。此外，邪魔在对抗这些法术的豁免检定中具有劣势。</p></details><details><summary><em><strong>封印。</strong></em></summary><p>恶魔志的前十页是空白的，持握此书期间，你能够以&amp;Reference[Magic]{魔法}动作指定一名你可见的被困在<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.v7wDE7G4S5tpde17]{防护法阵}</em>中的邪魔，其必须成功通过一次[[/save format=long]]，否则将被困在恶魔志的一张空白页中，空白页上将写满有关被困生物广为人知的名字与其堕落事迹的文字。此动作一经使用，直至次日黎明你都无法再次使用。</p><p>当你完成一次长休时，若你与恶魔志存在于同一位面，则书中所困的生物可以尝试附身你，你进行一次[[/save format=long]]，豁免失败则被该生物附身，其将如操控傀儡一般操控你。附身生物能够以一个&amp;Reference[Magic]{魔法}动作释放你并显现在离你最近的未占据空间中。豁免成功，则该邪魔在之后七天内无法再次尝试附身你（但另一名被困于书中的邪魔仍可尝试附身）。</p><p>当此书被发现时，已记录有[[/r 1d4]]名邪魔——通常是各种种类的恶魔。</p></details><details><summary><em><strong>鞭笞邪魔。</strong></em></summary><p>携带此书期间，你施展的法术对邪魔进行伤害掷骰时，你取可能的最大值，无需掷骰。</p></details><details><summary><em><strong>法术。</strong></em></summary><p>此书具有 8 充能，并在每日黎明时重获 1d8 已消耗的充能。持握此书期间，你能够以&amp;Reference[Magic]{魔法}动作从中施展下列法术之一（豁免 DC 20）。表中表明了你施展对应的法术需要消耗多少充能。</p><table><thead><tr><th>法术</th><th>充能消耗</th></tr></thead><tbody><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.zAC6NL1hj5EdH9xz]{塔莎狂笑术}</em></td><td>0</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.v7wDE7G4S5tpde17]{防护法阵}</em></td><td>1</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nwOhvyfxFOB5Wf8P]{异界誓缚}</em></td><td>2</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3T9dAhgZkv0LgGi3]{魔魂壶}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.vncSyGg2cttZVJ1b]{异界誓盟}</em></td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0F8DCDSOPas8fhtr]{位面转移}</em>（仅限至@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgCosmology0000.JournalEntryPage.eebjYzXomRPabghO]{无底深渊}）</td><td>3</td></tr><tr><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PQ68PAVNGCV8rSTX]{邪魔召唤术}</em></td><td>3</td></tr></tbody></table></details><details><summary><em><strong>随机词条。</strong></em></summary><p>恶魔志具有下列随机词条：</p><ul><li>2 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.4FqpYsaAsJShRdEu]{次要增益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.X3favP6TQPrbd0Rz]{次要减益词条}</li><li>1 项@UUID[Compendium.dnd5e-collection-2024.tables.RollTable.45ZCMYyS9SrTUzLw]{主要减益词条}</li></ul></details><details><summary><em><strong>摧毁恶魔志。</strong></em></summary><p>要摧毁这本书，必须有六位不同的恶魔领主分别撕下书内六分之一的页数。书页被撕下后会在 24 小时内恢复。而在所有书页被撕下与恢复之前，任何打开剩余装订部分的人都会被传送到一处隐藏在书中的新生深渊层级。这处领域具有一定自我意识且十分危险，中心处有一件遗失许久的神器，<em>弗拉兹-厄鲁之杖</em>。如果法杖被带离这处口袋位面，魔典会立刻变成一本<em>《反序古典》</em>普通而过时的抄本，这本书是创造恶魔志的基底。法杖一旦出现，恶魔领主弗拉兹-厄鲁会立刻知晓。</p></details><p class=\"item-original\">Demonomicon of Iggwilv</p>",
+      "chat": ""
+    },
+    "identifier": "demonomicon-of-iggwilv",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "artifact",
+    "attunement": "required",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895718520,
+    "modifiedTime": 1761895875322,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "SqCkfjBmf5Eqxaw6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!SqCkfjBmf5Eqxaw6"
+}

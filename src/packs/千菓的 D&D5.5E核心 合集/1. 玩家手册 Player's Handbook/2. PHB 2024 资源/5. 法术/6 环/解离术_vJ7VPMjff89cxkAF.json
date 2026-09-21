@@ -1,0 +1,176 @@
+{
+  "name": "解离术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/TRS_disintegrate.webp",
+  "system": {
+    "activities": {
+      "FqO4Yhv1amcoiSNO": {
+        "type": "save",
+        "name": "施法",
+        "_id": "FqO4Yhv1amcoiSNO",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 10,
+              "denomination": 6,
+              "bonus": "40",
+              "types": [
+                "force"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 3,
+                "formula": ""
+              }
+            }
+          ],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你向施法距离内一个你能看见的目标射出一道绿色射线。该目标可以是一名生物或一个非魔法物件，或者是魔法力场的造物（例如由<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iFhf1xG1jvsgL0Q1]{力场墙}</em>创造的墙壁）。</p><p>目标生物必须进行一次[[/save]]{敏捷豁免}，豁免失败则受 10d6 + 40 点力场伤害，若目标生命值因此降至 0，则目标连同其穿着和携带的非魔法物品一起变成一堆灰尘。因此死亡的生物只能通过<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.D0loISbu0UWuUOyt]{完全复生术}</em>或<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CQdMJeo4FI5jLAPU]{祈愿术}</em>复活。</p><p>此法术会直接解离大型或更小的非魔法物件或魔法力场造物。如果目标是巨型或更大的物件或魔法力场造物，则此法术会解离其 10 尺立方大小的部分。</p><p><em><strong>升环施法。</strong></em>使用的法术位每比 6 环高一环，伤害就提高 3d6。</p><p class=\"item-original\">Disintegrate</p>",
+      "chat": ""
+    },
+    "identifier": "disintegrate",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "inst"
+    },
+    "level": 6,
+    "materials": {
+      "value": "一块天然磁石和灰尘",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "school": "trs",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534500757,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "vJ7VPMjff89cxkAF",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!vJ7VPMjff89cxkAF"
+}

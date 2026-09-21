@@ -1,0 +1,334 @@
+{
+  "name": "快步如风",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_monk_ki_step-of-the-wind.webp",
+  "system": {
+    "activities": {
+      "hlNla1mP6zsA3gi9": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "FI98pQXLm0Ae6leA"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "疾走",
+        "_id": "hlNla1mP6zsA3gi9",
+        "img": "",
+        "appliedEffects": [
+          "FI98pQXLm0Ae6leA"
+        ]
+      },
+      "7o2UtNipkMbdIC7d": {
+        "type": "utility",
+        "name": "撤离・疾走",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.dnd5e-collection-2024.phb-content.Item.P7m7nJOWHvkKCrrl",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "Eb4cVI6eF6mPdyIg"
+          },
+          {
+            "_id": "FI98pQXLm0Ae6leA"
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "self",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "_id": "7o2UtNipkMbdIC7d",
+        "img": "",
+        "appliedEffects": [
+          "Eb4cVI6eF6mPdyIg",
+          "FI98pQXLm0Ae6leA"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><span style=\"font-family:var(--dnd5e-font-roboto-condensed)\">你能以一个&amp;Reference[Bonus Action]{附赠动作}执行&amp;Reference[Dash]{疾走}动作。此外，你可以消耗 1 点功力，以一个&amp;Reference[Bonus Action]{附赠动作}同时执行&amp;Reference[Disengage]{撤离}与&amp;Reference[Dash]{疾走}动作，同时使你该回合内的跳跃距离翻倍。</span></p><p>在你 10 级获得@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.lVGtoDLSJxlZeSDr]{出神入化}特性后，适用以下增益。</p><p><em><strong>出神入化。</strong></em>当你消耗功力使用快步如风时，你可以选择你周围 5 尺内一个体型为大型或更小的自愿生物。在你的回合结束前，该生物将一直随你移动。该生物如此移动不会触发借机攻击。</p><p class=\"item-original\">Step of the Wind</p>",
+      "chat": ""
+    },
+    "identifier": "step-of-the-wind",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": "ki"
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "武僧"
+  },
+  "effects": [
+    {
+      "name": "撤离",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_disengaged.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.z5VEfRThm5s9Q2Bs",
+      "_id": "Eb4cVI6eF6mPdyIg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>当前回合的剩余时间内，你的移动不会引发借机攻击。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1735374805517,
+        "modifiedTime": 1759948180179,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!z5VEfRThm5s9Q2Bs.Eb4cVI6eF6mPdyIg"
+    },
+    {
+      "name": "疾走",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/BUFF_physical_speed.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.z5VEfRThm5s9Q2Bs",
+      "_id": "FI98pQXLm0Ae6leA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.burrow",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.climb",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.movement.swim",
+          "mode": 1,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 1,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你获得供当前回合使用的一些额外移动力。额外移动力的量等于你的速度。</p>",
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1735374806136,
+        "modifiedTime": 1759948184437,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!z5VEfRThm5s9Q2Bs.FI98pQXLm0Ae6leA"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1758195029787,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "z5VEfRThm5s9Q2Bs",
+  "sort": 150000,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!z5VEfRThm5s9Q2Bs"
+}

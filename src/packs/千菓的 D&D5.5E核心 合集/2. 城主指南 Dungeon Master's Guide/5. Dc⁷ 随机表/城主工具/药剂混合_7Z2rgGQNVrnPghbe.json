@@ -1,0 +1,237 @@
+{
+  "name": "药剂混合",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "<p>@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgMagicItems000.JournalEntryPage.ECu9eaTCA5POlB30#药剂]{药剂混合}</p>",
+  "results": [
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_id": "8TVGb4N8xmzC5qZQ",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均失去其效应，且该混合物将在以其自身为中心 5 尺半径的球状区域内产生一场魔法性爆炸。该区域内的每名生物将受到[[/damage 4d10 force]]伤害。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.8TVGb4N8xmzC5qZQ"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        2,
+        8
+      ],
+      "drawn": false,
+      "_id": "R1CRyJl9PVGvqqba",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均失去其效应，且该混合物变成一种由你所选择的服用型@UUID[Compendium.dnd5e-collection-2024.dungeon-masters-guide.JournalEntry.dmgDmsToolbox000.JournalEntryPage.UfAEdm3LbTzvQHC5]{毒药}。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.R1CRyJl9PVGvqqba"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        15
+      ],
+      "drawn": false,
+      "_id": "knKdgvWb5MWJU2wr",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均失去其效应。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.knKdgvWb5MWJU2wr"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        25
+      ],
+      "drawn": false,
+      "_id": "yOJINL6BpVcyjjLB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "其中一种药水失去其效应。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.yOJINL6BpVcyjjLB"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        26,
+        35
+      ],
+      "drawn": false,
+      "_id": "ByYADwhmvwnd7MrH",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均生效，但它们所有以数值表示的效应及其持续时间均减半。若某种药水没有任何以数值表示的效应，也没有持续时间，则该药水失效。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.ByYADwhmvwnd7MrH"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        36,
+        90
+      ],
+      "drawn": false,
+      "_id": "BiMGLOw046uFyoSG",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均如常生效。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.BiMGLOw046uFyoSG"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        91,
+        99
+      ],
+      "drawn": false,
+      "_id": "xwTr82O2XvRpEXxj",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "两种药水均生效，但它们所有以数值表示的效应及其持续时间均翻倍。若两种药水都没有任何能够以该方式翻倍的地方，则两者如常生效。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.xwTr82O2XvRpEXxj"
+    },
+    {
+      "type": "text",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "_id": "BzP8SW1DjDxMVXsB",
+      "img": "icons/svg/d20-black.svg",
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.351",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "只有其中一种药水可以生效，但其效应将变为永久效应。选择一项最直截了当的或者看上去最能整活的效应，使其变为永久效应。例如，<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fjCySXxofVJVT2Cd]</em>可能会为饮用者提高 2d4 + 2 点生命值上限，又或者<em>@UUID[Compendium.dnd5e-collection-2024.dmg-content.Item.fTFbgNIhSffg9QBw]</em>可能会给予饮用者无期限的隐形状态。依你的裁决，法术<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.rhan6UOTxX3x8YrO]{解除魔法}</em>或者类似的法术或许能够终止该持续中的效应。",
+      "name": "",
+      "_key": "!tables.results!7Z2rgGQNVrnPghbe.BzP8SW1DjDxMVXsB"
+    }
+  ],
+  "replacement": true,
+  "displayRoll": true,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1750338418710,
+    "modifiedTime": 1761898473731,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "formula": "1d100",
+  "_id": "7Z2rgGQNVrnPghbe",
+  "sort": 1900000,
+  "_key": "!tables!7Z2rgGQNVrnPghbe"
+}

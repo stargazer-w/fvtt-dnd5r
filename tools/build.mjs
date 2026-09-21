@@ -9,11 +9,12 @@
  * 用法：npm run build
  */
 import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import { CACHE_DIR, DIST_DIR, DIST_PACKS_DIR, PACK_CONFIG_FILE, SRC_DIR, SRC_PACKS_DIR, digestDirectory,
-  getManifest, readPacksTree, syncDirectory } from "./common.mjs";
+  getManifest, readPacksTree, stagePackForCompiling, syncDirectory } from "./common.mjs";
 
 /** 记录上次编译时 src/packs 的摘要，用来判断是否需要重新编译 */
 const PACKS_STAMP = path.join(CACHE_DIR, "packs.stamp");
@@ -54,8 +55,15 @@ export async function build() {
         console.warn(`跳过 ${pack.name}：找不到源目录`);
         continue;
       }
-      entries += countDocuments(src);
-      await compilePack(src, dest, { recursive: true, log: false });
+      // src 里不写 folder（分组由目录结构表达），编译前先物化一份带 folder 的副本
+      const staging = fs.mkdtempSync(path.join(os.tmpdir(), "fvtt-stage-"));
+      try {
+        stagePackForCompiling(src, staging);
+        entries += countDocuments(src);
+        await compilePack(staging, dest, { recursive: true, log: false });
+      } finally {
+        fs.rmSync(staging, { recursive: true, force: true });
+      }
       console.log(`  ${pack.path.padEnd(26)} 已编译`);
     }
     fs.mkdirSync(CACHE_DIR, { recursive: true });

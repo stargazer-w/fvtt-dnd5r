@@ -1,0 +1,57 @@
+{
+  "name": "施法",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spellcasting.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你在你的吟游艺术中学会了如何施展法术。参见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk]{第 7 章}有关施法的规则。下述信息将详述如何将这些规则应用于吟游诗人法术，具体法术详见@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.fNF1GpDQAc8CNGMk.JournalEntryPage.wwia6Wwo4BgE9GSI]{吟游诗人法术列表}。</p><p><em><strong>戏法。</strong></em>你已知两个你选择的吟游诗人戏法。推荐选择<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jNU7adv2rucUPkKN]{舞光术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.Omg54HcWrx1T21li]{恶言相加}</em>。</p><p>每当你获得一个吟游诗人等级时，你都能将通过此特性已知的其中一个戏法替换为另一个你所选择的吟游诗人戏法。</p><p>当你的吟游诗人等级达到 4 级和 10 级时，你都能习得另一个你所选择的吟游诗人戏法，如吟游诗人特性表中戏法一列所示。</p><p><em><strong>法术位。</strong></em>@UUID[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.NEqUIUlivXxgZwW3.JournalEntryPage.6AVyhb5ZRQGFYIjM]{吟游诗人特性表}显示了你可用于施放 1 环及以上法术的法术位数量。你在完成一次长休时恢复所有已消耗的法术位。</p><p><em><strong>1 环及以上的准备法术。</strong></em>你准备可供你以此特性施展的 1 环及更高环阶的法术列表。最初，选择四道吟游诗人法术。推荐选择<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.1lhrJ04UQGNmZNfn]{魅惑人类}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.iiSaCFEa4sk1Cy7W]{七彩喷射}</em>，<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7TnlLsQaf6xyCLkw]{不谐低语}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.87l8gOHlAmpnuYsn]{治愈真言}</em>。</p><p>已准备法术数量会随你吟游诗人等级的提升而增加，如吟游诗人特性表中的准备法术一列所示。每当这一列的数字增加时，从吟游诗人法术列表中选择额外法术准备，直至已准备法术的数量与表格中的数字一致。你必须拥有与准备法术的环阶相对应环阶的法术位。例如，如果你是一位 3 级吟游诗人，则你的准备法术列表能包括六道 1 环或 2 环的吟游诗人法术，随意组合。</p><p>如果其他吟游诗人特性给了你永远已准备的法术，这些法术不计入你以此法准备的法术数量，但这些法术对你而言都视为吟游诗人法术。</p><p><em><strong>改变你的准备法术。</strong></em>每当你获得一个吟游诗人等级时，你就可以将你准备列表上的一道法术替换为你拥有对应环阶法术位的另一道吟游诗人法术。</p><p><em><strong>施法属性。</strong></em>你吟游诗人法术的施法属性是魅力。</p><p><em><strong>施法法器。</strong></em>你可以使用乐器作为你吟游诗人法术的施法法器。</p><p class=\"item-original\">Spellcasting</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "吟游诗人",
+    "advancement": []
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777308606765,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "gEFdjSp6h1Mv8Xu2",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!gEFdjSp6h1Mv8Xu2"
+}

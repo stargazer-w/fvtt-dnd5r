@@ -85,15 +85,46 @@ src/packs/千菓的 D&D5.5E 合集/
 要新增一个包，就在合适的位置建目录（**目录名去掉序号前缀就是它在模块里显示的名字**，序号决定位置）、
 放 `@pack.json`、把文档放进去；把包换到别的分组，直接移动目录（顺带改序号）即可。
 
+### 包内的分组
+
+包里面还有一层「compendium 分组」：**目录里有 `_Folder.json` 才是真实分组**，没有的就只是磁盘上的组织
+（里面的文档属于最近一层祖先分组）。所以重组分组只要做两件事：
+
+1. 把文件放到对应目录
+2. 需要新分组就建一个 `_Folder.json`（`_id` 16 位、`name` 是分组名、`sort` 决定同级顺序；`folder` 不用写）
+
+**文档的 `folder` 字段不写在源文件里**——它是目录结构的投影，`npm run build` 编译前会按目录注入
+（产物里这个字段仍然必需：LevelDB 没有目录概念，Foundry 靠它归组）。从 Foundry 导出、或从别处
+拷来的 JSON 可能带着它，跑 `npm run folders:write` 清掉即可（`npm run check` 也会把它列为提示）。
+
+分组名以 `_Folder.json` 的 `name` 为准，目录名只是投影：Windows 不允许的名字（如 `* 法术卷轴`、
+结尾的点）在目录里会变成 `_` 或被去掉，所以有二十多处目录名与分组名不完全一致（`check` 列为提示）。
+
+`npm run check` 校验源是否自洽：`_key` 是否齐备 / 重复 / 与包类型匹配、分组 `_id` 是否合法唯一、
+有没有残留的 `folder` 字段、空分组等。
+
+本仓库会按自己的设计调整原始模组的分组（例如 `1. 职业` 按职业重整为
+`{职业}/[{职业}.json, 特性/, 子职/{子职}/[{子职}.json, 特性/]]`，6 个选项列表跟随归属）：
+**`src/` 是唯一数据源**，`reference/origin` 只是历史快照，`npm run verify` 只在想对照时用。
+
+**把条目搬到另一个包**时：条目的 `_key`（`!items!<id>`）不变，文件直接换位置，但 UUID 里的包名会变
+（`…derived-content.Item.<id>` → `…phb-content.Item.<id>`），所以**所有引用都要一起改写**
+（`@Embed`、`@UUID`、`data-uuid`、activity 的 consumption target、嵌在字符串里的宏代码都算），
+并处理搬空的分组文档（`folder` 字段不用管，构建时按目录注入）。
+已做过的例子：`2. Dc⁷ 派生物品` 里「来自职业/子职特性」的 37 篇（13 个分组）搬进了
+`Ａ. 职业/**/特性/`，与对应的特性放在同一目录，并改写了 42 处引用。
+
 ## 命令
 
 ```bash
 npm install       # 首次使用，安装 @foundryvtt/foundryvtt-cli / classic-level
 
 npm run build     # src → dist
+npm run check     # 校验 src/packs 自身：目录 ↔ _Folder.json ↔ 文档 folder 一致、_key 不重复
+npm run folders   # 清掉源文件里多余的 folder 字段（默认只报告；加 --write 或 npm run folders:write 才删）
 npm run dev     -- "<Foundry 的 modules 目录>"  # 各模组文件夹所在的那一层；build + 把 dist 同步进去（可传多个）
 npm run unpack  -- "<原始模组目录>"             # 解包其中的 packs/ 到 src/packs（会先清空 src/packs）
-npm run verify  -- "<原始模组目录>"             # 用它的 packs/ 与其余文件作比对基准，校验 dist
+npm run verify  -- "<原始模组目录>"             # 与原始模组逐条目对照（src 允许与它不同，日常验收用 check）
 ```
 
 `build` 只复制大小或修改时间有变化的素材，且只有 `src/packs` 发生变化时才会重新编译 compendium；

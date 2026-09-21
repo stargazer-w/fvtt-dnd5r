@@ -1,0 +1,275 @@
+{
+  "name": "画廊",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "Vi Escapes the Lord of Blades",
+      "type": "image",
+      "_id": "oigXm44lXs35DNSH",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "在艾伯伦的苍穹之上，发明家蔚和她的修理团队奋力逃脱刀锋领主以及一艘燃烧着绿色烈焰的坠毁飞艇！"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/vi-escapes-lord-of-blades.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750321448584,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.oigXm44lXs35DNSH"
+    },
+    {
+      "sort": 0,
+      "name": "Glasses and Tools",
+      "type": "image",
+      "_id": "ONNSLmGXIAKNksBs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/glasses-tools.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728970086182,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.ONNSLmGXIAKNksBs"
+    },
+    {
+      "sort": 0,
+      "name": "Dragonborn Warlock Channels Magic",
+      "type": "image",
+      "_id": "EjxAfYmIpsg2fs00",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一位魔契师通过奥术法器引导魔法。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/dragonborn-warlock-channels-magic.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750321517410,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.EjxAfYmIpsg2fs00"
+    },
+    {
+      "sort": 0,
+      "name": "Lantern and Net",
+      "type": "image",
+      "_id": "mbqrCWYtrH6U00pI",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/lantern-net.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728970105465,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.mbqrCWYtrH6U00pI"
+    },
+    {
+      "sort": 0,
+      "name": "Dragonborn Exploring with Lantern",
+      "type": "image",
+      "_id": "lAOpY1sPLtCZwvS1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": ""
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/dragonborn-exploring-with-lantern.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1728970114714,
+        "lastModifiedBy": "Jqoj9dwIRPPEU1Xu",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.lAOpY1sPLtCZwvS1"
+    },
+    {
+      "sort": 0,
+      "name": "Wizard and Familiar Shopping",
+      "type": "image",
+      "_id": "YHtZU3O5MQdVjqoJ",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {
+        "caption": "一名法师和她的魔宠在午后时光采购物品。"
+      },
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": "modules/dnd5e-collection-2024/assets/journal-art/players-handbook/wizard-familiar-shopping.webp",
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1750321766685,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!pDZH4axEmSmOJrEY.YHtZU3O5MQdVjqoJ"
+    }
+  ],
+  "flags": {
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    },
+    "dnd5e": {
+      "type": "special",
+      "showPages": false,
+      "append": 7,
+      "order": 801300
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1728961008023,
+    "modifiedTime": 1776364104791,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "pDZH4axEmSmOJrEY",
+  "sort": 200000,
+  "categories": [],
+  "_key": "!journal!pDZH4axEmSmOJrEY"
+}

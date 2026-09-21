@@ -1,0 +1,204 @@
+{
+  "name": "强迫术",
+  "type": "spell",
+  "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_compulsion.webp",
+  "system": {
+    "activities": {
+      "rzE0nD0pekPY2K5J": {
+        "type": "save",
+        "_id": "rzE0nD0pekPY2K5J",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "kOD2TyZR5wqJDeZU",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "施法",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>每个你所选择的，施法距离内你能看到的生物必须成功通过一次[[/save]]{感知豁免}。否则直到法术结束陷入&amp;Reference[charmed]{魅惑}状态。</p><p>法术持续期间，你可以以一个&amp;Reference[Bonus Action]{附赠动作}指向某个水平方向。随后，每个被魅惑的目标在其下一回合里必须使用其所有的移动力尽可能的向该方向移动，并采取最安全的路线。在移动之后，目标可以重复此豁免，成功则结束自己身上的效应。</p><p class=\"item-original\">Compulsion</p>",
+      "chat": ""
+    },
+    "identifier": "compulsion",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "activation": {
+      "type": "action",
+      "value": null,
+      "condition": ""
+    },
+    "duration": {
+      "units": "minute",
+      "value": "1"
+    },
+    "level": 4,
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "school": "enc",
+    "target": {
+      "template": {
+        "contiguous": false,
+        "units": "ft",
+        "type": ""
+      },
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      }
+    }
+  },
+  "effects": [
+    {
+      "name": "强迫移动",
+      "img": "modules/dnd5e-collection-2024/assets/icons/spells/ENC_compulsion.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.xVwnpaN79CoHGto7",
+      "transfer": false,
+      "_id": "kOD2TyZR5wqJDeZU",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": null,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你在法术持续时间内陷入&amp;Reference[charmed]{魅惑}状态。</p><p>你必须在每个回合开始时，尽可能使用你的所有移动力朝着施法者所指示的方向前进，并采取最安全的路线。在移动之后，你可以再进行一次[[/save wis dc=@attributes.spell.dc]]{感知豁免}，豁免成功则该法术效应终止。</p>",
+      "tint": "#ffffff",
+      "statuses": [
+        "charmed"
+      ],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.1.1",
+        "createdTime": 1733039310247,
+        "modifiedTime": 1734783720105,
+        "lastModifiedBy": "qVlhELJIaanIsDyq",
+        "exportSource": null
+      },
+      "_key": "!items.effects!xVwnpaN79CoHGto7.kOD2TyZR5wqJDeZU"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729314954469,
+    "modifiedTime": 1758534382025,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "xVwnpaN79CoHGto7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!xVwnpaN79CoHGto7"
+}

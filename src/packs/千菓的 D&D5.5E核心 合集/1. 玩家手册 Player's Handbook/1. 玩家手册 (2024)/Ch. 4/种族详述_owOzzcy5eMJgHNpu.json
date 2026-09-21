@@ -1,0 +1,494 @@
+{
+  "name": "种族详述",
+  "pages": [
+    {
+      "sort": 0,
+      "name": "概览",
+      "type": "text",
+      "_id": "7iLsgz6RUQJVpUsH",
+      "system": {},
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p>本章中的十个种族依英文首字母顺序排列：@UUID[.vN6Ugk7UOj38fpdv]{阿斯莫}，@UUID[.Duq9xnLywFNK3gv1]{龙裔}，@UUID[.4zCNgk0JSKVzv9Y9]{矮人}，@UUID[.h9oGyt2Wh9mp0xbg]{精灵}，@UUID[.BKZ4ViHHUMxaqPz4]{侏儒}，@UUID[.l4PycBAExkT2g62X]{歌利亚}，@UUID[.I5mX89tfojsyQmdA]{半身人}，@UUID[.8t4u8CWYbxubXflR]{人类}，@UUID[.qUxclCvBClnEafEY]{兽人}，和@UUID[.xiCNZr3S4OmJezyv]{提夫林}。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {
+          "type": "special",
+          "tocHidden": true
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.0.0",
+        "createdTime": null,
+        "modifiedTime": 1776354675511,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.7iLsgz6RUQJVpUsH"
+    },
+    {
+      "sort": 0,
+      "name": "阿斯莫",
+      "type": "text",
+      "_id": "vN6Ugk7UOj38fpdv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Aasimar</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.TdlQbbW2Y2hDXo8P inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1oV0rwHdyiciBr4d caption=false]</p>",
+        "markdown": ""
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354680622,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.vN6Ugk7UOj38fpdv"
+    },
+    {
+      "sort": 0,
+      "name": "龙裔",
+      "type": "text",
+      "_id": "Duq9xnLywFNK3gv1",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Dragonborn</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.9YQ0UyDuXpqumI4N inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lCgdTEvzS1tA8OJL caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776354695473,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.Duq9xnLywFNK3gv1"
+    },
+    {
+      "sort": 0,
+      "name": "矮人",
+      "type": "text",
+      "_id": "4zCNgk0JSKVzv9Y9",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Dwarf</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.Law1cWEJKsojwvDo inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.lxh3I7mC3ChaDKZz caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355261115,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.4zCNgk0JSKVzv9Y9"
+    },
+    {
+      "sort": 0,
+      "name": "精灵",
+      "type": "text",
+      "_id": "h9oGyt2Wh9mp0xbg",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Elf</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.uHPcuMZNSBvkOzRz inline]</p><p>由大神科瑞隆所创造的原初精灵们可以随意改变自身的身体形态。但因为原初精灵们曾伙同另一位精灵神祇罗丝阴谋篡夺科瑞隆的神域，而被科瑞隆诅咒，他们失去了这种能力。当罗丝被逐入深渊时，大多数精灵都和她断绝了关系，并得到了科瑞隆的原谅，但科瑞隆从精灵身上收回的东西却是永远不再了。</p><p>失去了随心所欲变形能力的精灵们退回到了妖精荒野，这个位面的影响又加深了他们的悲伤。随着时间推移，好奇心又使他们中的许多人前往探索其他存在位面，其中包括了物质位面的各个世界。</p><p>精灵们双耳尖尖，少有胡须和体毛。他们的寿命长达 750 岁。他们不需要睡觉，而是在需要休息的时候进入一种出神状态取而代之。在这种状态下，精灵们在沉浸于自己的记忆和冥思中的同时，还能感知到周围的环境。</p><p>精灵在一个地方居住千年以上后，环境会微妙的改变精灵，使他们获得特定的魔法。卓尔，高等精灵，木精灵，都是这种转变的例证。</p><h3>卓尔</h3><p class=\"journal-original-h3\">Drow</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AstpNvq2RQdkmLyQ]{卓尔}是典型的幽暗地域居民，也是被其改变的典型。有些承载着其魔力的卓尔会避开幽暗地域定居并形成特别的社群。比如艾伯伦设定中的卓尔，是生活在希恩德瑞克雨林和乱石遗迹之中的。</p><h3>高等精灵</h3><p class=\"journal-original-h3\">High Elves</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PtyabYzTo0C4jxkr]{高等精灵}则是应妖精荒野与物质位面之间的魔力交汇而生。在某些世界，高等精灵会用其他的名字称呼自己。例如被遗忘国度世界设定中的日精灵和月精灵就是高等精灵，龙枪世界设定的西瓦纳斯提精灵和奎灵纳斯提精灵，以及艾伯伦世界设定的艾伦诺都是如此。</p><h3>木精灵</h3><p class=\"journal-original-h3\">Wood Elves</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CdDoZhdSwNfY3Opo]{木精灵}身上承载着来自原初森林的魔力。木精灵在多元宇宙中有着许多别名，包括野精灵，绿精灵和森林精灵等。灰鹰世界设定的格鲁盖其精灵就是隐居其中的木精灵，而卡岗纳斯提精灵和泰伦那多精灵则分别是龙枪与艾伯伦世界设定的木精灵。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.TtvnRE5XYEc7Udiq cite=false]</p><h2>精灵特质</h2><p class=\"journal-original-h2\">Elf Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>中型（约 5–6 尺高）</p><p><strong>速度：</strong>30 尺</p><p>作为精灵，你有以下特殊特质：</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>精灵血系。</strong></em>你属于一支精灵血系，并因此获得了超自然能力。从精灵血系表中选择其一。你获得该血系的 1 级好处。</p><p>当你到达 3 级和 5 级时，你分别习得一道表格上更高级的法术；你时刻准备着这道习得的法术，且可以不消耗法术位施展此法术一次，当你完成一次长休后，你重获施展该道法术的能力。你也可以用任何你拥有的相应环阶法术位施展该道法术。</p><p>智力、感知或魅力是你用此特质施展法术时的关键属性（当你选择血系时选择属性）。</p><p><em><strong>精类血统。</strong></em>你在进行避免或结束魅惑状态的豁免时具有优势。</p><p><em><strong>敏锐感官。</strong></em>你具有洞悉、察觉或求生之一技能的熟练。</p><p><em><strong>出神。</strong></em>你不需要睡觉，魔法也不能让你陷入睡眠。你可以用 4 小时完成长休，但期间你必须出于出神的冥想状态，在这期间你能保持意识清醒。</p><table><caption>精灵血系 Elven Lineages</caption><thead><tr><th>血系</th><th>1 级</th><th>3 级</th><th>5 级</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.AstpNvq2RQdkmLyQ]{卓尔}</td><td><p>你的黑暗视觉提升至 120 尺。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jNU7adv2rucUPkKN]{舞光术}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.h1Qg5REz27bZsFVj]{妖火}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nJXVzbrQWj7TD32S]{黑暗术}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.PtyabYzTo0C4jxkr]{高等精灵}</td><td><p>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n]{魔法伎俩}</em>戏法。<br />当你结束一次长休后，你可以将它替换为一个法师法术列表中的另一个戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.V3R7ySjbxqIr6D6I]{侦测魔法}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.CdDoZhdSwNfY3Opo]{木精灵}</td><td><p>你的速度提升至 35 尺。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.XlWruJmpZpxGtcTc]{德鲁伊伎俩}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.w6XA7RxbogJtvSaM]{大步奔行}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7cFinqIAXTK3hEiZ]{行动无踪}</em></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355362774,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.h9oGyt2Wh9mp0xbg"
+    },
+    {
+      "sort": 0,
+      "name": "侏儒",
+      "type": "text",
+      "_id": "BKZ4ViHHUMxaqPz4",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Gnome</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.sdCb93O2voNb3mNI inline]</p><p>侏儒是由发明、幻影以及地下生命之神祇所创造出来的奇妙魔法族裔。侏儒的先民们因为其神秘的天性和居住在森林与地道中的习性而很少被外人遇见。他们用机敏弥补了体型上的缺陷。他们用陷阱迷宫般的隧道迷惑掠夺者。他们还从像加尔 · 闪金，贝尔凡 · 野游者和巴瑞瓦 · 影斗篷这样会伪装拜访他们的神祇处学到了魔法。这些魔法最终创造出了@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.3m2Uo3vZHlB0Ekrm]{岩石侏儒}和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.hL4zJJNhgfQoSSYJ]{森林侏儒}两个血系。</p><p>侏儒们有着娇小的身材，大眼睛和尖耳朵，还有大约 425 岁的寿命。侏儒们就非常喜欢头上有“顶”的感觉，哪怕这个“顶”只不过是帽子也好。</p><h3>侏儒特质</h3><p class=\"journal-original-h3\">Gnome Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>小型（约 3–4 尺高）</p><p><strong>速度：</strong>30 尺</p><p>作为一个侏儒，你有以下特殊特质：</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>侏儒狡黠。</strong></em>你在智力，感知与魅力豁免上具有优势。</p><p><em><strong>侏儒血系。</strong></em>你属于一支侏儒血系，并因此获得了一些超自然能力。从下列选项中选择其一，无论你选择哪个，你用此特质施展法术时的关键属性都是智力、感知或魅力（当你选择血系时选择属性）。</p><p><strong>森林侏儒。</strong>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.JiMaBuExPb4AUKSh]{次级幻影}</em>戏法。你也始终准备了<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jQRd32RmMYG1DClA]{动物交谈}</em>法术，你可以不消耗法术位施展此法术，次数等于你的熟练加值，当你完成一次长休后，你重获全部已消耗的使用次数。你也可以用任何你拥有的法术位施展那道法术。</p><p><strong>岩石侏儒。</strong>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.NIAbAPgT8OE60Gxi]{修复术}</em>和<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n]{魔法伎俩}</em>戏法。此外，你可以花费 10 分钟时间，通过施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.jaCnmYn0CEGOXe1n]{魔法伎俩}</em>法术来创造一个微型发条装置（AC 5，1 HP），比如一件玩具，一个打火机，或一个音乐盒。当你创造这个设备时，你可以从<em>魔法伎俩</em>戏法中选择一个效果来决定它的功能；当你或其他生物使用附赠动作触碰该装置并激活它时，该装置就会产生效果。如果选择的效果存在选项，则在创建时选择其中一项应用。例如，你选择法术中的点燃或熄灭效果，就要决定设备是用来点火还是熄火的；一台设备不能做到两个功能。你同时最多拥有三台这样的装置，每一个都会在被创建出来的 8 小时后解体消失。你也可以触摸你的一台设备，用一个&amp;Reference[utilize]{操作}动作将其拆除。</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355542938,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.BKZ4ViHHUMxaqPz4"
+    },
+    {
+      "sort": 0,
+      "name": "歌利亚",
+      "type": "text",
+      "_id": "l4PycBAExkT2g62X",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Goliath</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.32XrkCqVSkNjQf8y inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.1gxDo3kVikjvJup0 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355587079,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.l4PycBAExkT2g62X"
+    },
+    {
+      "sort": 0,
+      "name": "半身人",
+      "type": "text",
+      "_id": "I5mX89tfojsyQmdA",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Halfling</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.4cKqoh8yer2MgbmK inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.LklDcf4rX9vqA184 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355614169,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.I5mX89tfojsyQmdA"
+    },
+    {
+      "sort": 0,
+      "name": "人类",
+      "type": "text",
+      "_id": "8t4u8CWYbxubXflR",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Human</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.ZUyWNmBKCcq52XFt inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.fRB3LQ544Q5jzXBO caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355641539,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.8t4u8CWYbxubXflR"
+    },
+    {
+      "sort": 0,
+      "name": "兽人",
+      "type": "text",
+      "_id": "qUxclCvBClnEafEY",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Orc</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.g1RLjMFTY0pOKQ2k inline]</p><p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.GaOyarYdnva1faR7 caption=false]</p>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355673970,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.qUxclCvBClnEafEY"
+    },
+    {
+      "sort": 0,
+      "name": "提夫林",
+      "type": "text",
+      "_id": "xiCNZr3S4OmJezyv",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 2
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<p class=\"journal-original-h2\">Tiefling</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.xNpHqtg3FpmRpP4O inline]</p><p>提夫林要么出生在下层位面，要么有来自那里的祖先。提夫林（音近 TEE-fling）会与魔鬼、恶魔或其他的什么邪魔有着血缘关系。而这种与下层位面的联系是提夫林所承继的邪魔遗赠，它带有着力量，但对提夫林的道德观念没有影响。</p><p>提夫林需要选择他们想要接受或者厌恨的的邪魔遗赠，以下是三种遗赠。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.kfb2P1ZEUszRMWwC classes=\"three center\" cite=false]</p><h3>深渊</h3><p class=\"journal-original-h3\">Abyssal</p><p>无底深渊 Abyss 中的增熵，喧癫空隧 Pandemonium 中的混乱，卡瑟利 Carceri 的绝望，都呼唤着带有@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7fWZr1G7md3rbOOL]{深渊}遗赠的提夫林。犄角、皮毛、长牙和特殊的气味是这些提夫林共同具有的身体特征，他们中大多数的血管里奔流着恶魔之血。</p><h3>幽冥</h3><p class=\"journal-original-h3\">Chthonic</p><p>拥有@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.23zQt7o8TbiCTXps]{幽冥}邪魔遗赠的提夫林不仅能感受到卡瑟利 Carceri 的泥淖，也能感受到焦炎地狱 Gehenna 中的贪婪，哈迪斯 Hades 中的阴暗。这些提夫林中，有的肤色苍白，彷如死尸。另一些则如同梦魔与魅魔般美丽，还有的则是有着与其那夜鬼婆、尤格罗斯魔或其他中立邪恶的邪魔先祖相似的身体特征。</p><p>@Embed[Compendium.dnd5e-collection-2024.players-handbook.JournalEntry.5mr01HFZ5MkbHxCo.JournalEntryPage.vGhCVOnkSn0srDpE inline classes=\"right three\"]</p><h3>炼狱</h3><p class=\"journal-original-h3\">Infernal</p><p>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HYKPbRQ0jow8pwfA]{炼狱}遗赠将提夫林绑定于焦炎地狱 Gehenna、九层地狱 Nine Hells、还有修罗场 Acheron 的狂暴战场。魔角、尖刺、尾巴，金色的眼睛和一股淡淡的硫磺或硝烟味，是这些提夫林共有的身体特征，他们中的大多数都有着一位魔鬼祖先。</p><h2>提夫林特质</h2><p class=\"journal-original-h2\">Tiefling Traits</p><p><strong>生物类型：</strong>类人</p><p><strong>体型：</strong>中型（约 6–7 尺高）或小型（约 3–4 尺高），在选择种族时决定</p><p><strong>速度：</strong>30 尺</p><p><em><strong>黑暗视觉。</strong></em>你拥有 60 尺&amp;Reference[Darkvision]{黑暗视觉}。</p><p><em><strong>邪魔遗赠。</strong></em>你承载着一份给予了你超自然能力的邪魔遗赠。从邪魔遗赠表中选择其一。你获得该遗赠的 1 级好处。</p><p>当你到达 3 级和 5 级时，你分别学会一道表格上更高级的法术；你时刻准备着这道习得的法术，且可以不消耗法术位施展此法术一次，当你完成一次长休后，你重获施展该道法术的能力。你也可以用任何你拥有的相应环阶法术位施展该道法术。智力、感知或魅力，是你用此特质施展法术时的关键属性（当你选择遗赠时选择属性）。</p><p><em><strong>异界存在。</strong></em>你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.D9f0iZuL8BD9pfTx]{奇术}</em>戏法。当你用此特质施展它时，这道法术的施法属性与你邪魔遗赠特性所用的属性相同。</p><table><caption>邪魔遗赠 Fiendish Legacies</caption><thead><tr><th>遗赠</th><th>1 级</th><th>3 级</th><th>5 级</th></tr></thead><tbody><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.7fWZr1G7md3rbOOL]{深渊}</td><td><p>你获得对毒素伤害的抗性。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nz4AzzQBruyzom2F]{毒气喷溅}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mm0h36JwAtiqN4Uy]{致病射线}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.WJtXG4RuJhysvKp3]{定身类人}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.23zQt7o8TbiCTXps]{幽冥}</td><td><p>你获得对暗蚀伤害的抗性。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.gMFY0mzWacVrw2wL]{颤栗之触}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2DBEnjSXORE5ScJh]{虚假生命}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.sxS5LCC2Q43WRYRj]{衰弱射线}</em></td></tr><tr><td>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.HYKPbRQ0jow8pwfA]{炼狱}</td><td><p>你获得对火焰伤害的抗性。<br />你习得<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uHTVTyyr08JgRQ2U]{火焰箭}</em>戏法。</p></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mK8TeXFCU0dKXajv]{炼狱叱喝}</em></td><td><em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.nJXVzbrQWj7TD32S]{黑暗术}</em></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "rL0ykqNFC97PcTW6": 3
+      },
+      "flags": {
+        "dnd5e": {}
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": null,
+        "modifiedTime": 1776355844039,
+        "lastModifiedBy": "GLIfUNNHfWOyxO28",
+        "exportSource": null
+      },
+      "category": null,
+      "_key": "!journal.pages!owOzzcy5eMJgHNpu.xiCNZr3S4OmJezyv"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "type": "special",
+      "showPages": true,
+      "append": 5,
+      "order": 600300,
+      "navigation": {
+        "previous": "T3NalTzBdplpcIwd",
+        "next": "ge4f5a7mc55QciIn"
+      }
+    },
+    "core": {
+      "sheetClass": "players-handbook.PHBJournalSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1728960355363,
+    "modifiedTime": 1776354671006,
+    "lastModifiedBy": "GLIfUNNHfWOyxO28",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_id": "owOzzcy5eMJgHNpu",
+  "sort": 400000,
+  "categories": [],
+  "_key": "!journal!owOzzcy5eMJgHNpu"
+}

@@ -1,0 +1,85 @@
+{
+  "name": "学者",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_wizard_scholar.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>在学习法术之余，你还对一门学术领域有过专门的研究。从下列技能中选择一项你具有熟练的技能：奥秘、历史、自然或宗教。你获得所选技能的&amp;Reference[Expertise]{专精}。</p><p class=\"item-original\">Scholar</p>",
+      "chat": ""
+    },
+    "identifier": "scholar",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "法师",
+    "advancement": [
+      {
+        "_id": "5rU8BLeu7OZYNSGr",
+        "type": "Trait",
+        "configuration": {
+          "mode": "expertise",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:arc",
+                "skills:his",
+                "skills:nat",
+                "skills:rel"
+              ]
+            }
+          ]
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 2,
+        "title": "学者",
+        "hint": "你选择获得以下一项熟练技能的专精。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_wizard_scholar.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777581755066,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "PbBd1OCP0ClLUwwd",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!PbBd1OCP0ClLUwwd"
+}

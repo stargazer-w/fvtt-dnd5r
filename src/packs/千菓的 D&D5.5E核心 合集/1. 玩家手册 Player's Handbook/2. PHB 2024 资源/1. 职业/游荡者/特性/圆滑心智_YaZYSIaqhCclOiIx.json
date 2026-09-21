@@ -1,0 +1,78 @@
+{
+  "name": "圆滑心智",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_slippery-mind.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你狡猾的头脑很难被人控制。你获得感知豁免与魅力豁免的熟练项。</p><p class=\"item-original\">Slippery Mind</p>",
+      "chat": ""
+    },
+    "identifier": "slippery-mind",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "游荡者",
+    "advancement": [
+      {
+        "_id": "FiaNLovfP6tnY4tD",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "saves:wis",
+            "saves:cha"
+          ],
+          "choices": []
+        },
+        "value": {
+          "chosen": []
+        },
+        "level": 15,
+        "title": "圆滑心智",
+        "hint": "你获得感知豁免与魅力豁免的熟练项。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_rogue_slippery-mind.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777578697575,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "YaZYSIaqhCclOiIx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!YaZYSIaqhCclOiIx"
+}

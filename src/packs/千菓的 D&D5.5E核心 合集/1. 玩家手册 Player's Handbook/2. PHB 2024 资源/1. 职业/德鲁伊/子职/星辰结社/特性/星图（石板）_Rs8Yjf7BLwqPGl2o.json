@@ -1,0 +1,81 @@
+{
+  "name": "星图（石板）",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_druid_stars_star-map.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>@Embed[Compendium.dnd5e-collection-2024.phb-content.Item.dYCpzHu235cVWZra inline]</p>",
+      "chat": ""
+    },
+    "identifier": "-",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "crew": {
+      "value": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "proficient": null,
+    "properties": [
+      "foc"
+    ],
+    "strength": null,
+    "type": {
+      "value": "",
+      "baseItem": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "CeZkjlhN2tfJgg4n": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Item.F9j52HxErzTrZtrV",
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1777640951947,
+    "modifiedTime": 1777640951947,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n"
+  },
+  "_id": "Rs8Yjf7BLwqPGl2o",
+  "_key": "!items!Rs8Yjf7BLwqPGl2o"
+}

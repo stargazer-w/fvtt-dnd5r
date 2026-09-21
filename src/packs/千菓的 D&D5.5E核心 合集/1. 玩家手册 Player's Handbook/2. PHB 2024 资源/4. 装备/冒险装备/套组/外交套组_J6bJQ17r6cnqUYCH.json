@@ -1,0 +1,70 @@
+{
+  "name": "外交套组",
+  "type": "container",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/CONT_gear-pack.webp",
+  "system": {
+    "description": {
+      "value": "<p>外交套组包含以下物品：@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.dQ7SIDsbX763hm2w]{箱子}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.2EVRDOTrckVoJarT]{高档服装}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.69bobwGPMiW2bO3g]{墨水}、5 支@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.LsRVEcHwAsMGcfJ3]{墨水笔}、@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.riInqSptvw3RN9Jm]{油灯}、2 个@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.mLEUIA3kquClvLCa]{地图或卷轴匣}、4 扁瓶@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.0z2DXUukgntx1slB]{燃油}、5 张@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.ZKa3ARa4dsdPgGBv]{纸张}、5 张@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.FQxfTTUpDyMGM1eo]{羊皮纸}、香水和@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.VKf7dg56SmF8IO8M]{火绒盒}。</p><p class=\"item-original\">Diplomat's Pack</p>",
+      "chat": ""
+    },
+    "identifier": "diplomats-pack",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 39,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "properties": [],
+    "capacity": {
+      "type": "weight",
+      "value": null
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1729826692272,
+    "modifiedTime": 1758194967424,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "J6bJQ17r6cnqUYCH",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!J6bJQ17r6cnqUYCH"
+}

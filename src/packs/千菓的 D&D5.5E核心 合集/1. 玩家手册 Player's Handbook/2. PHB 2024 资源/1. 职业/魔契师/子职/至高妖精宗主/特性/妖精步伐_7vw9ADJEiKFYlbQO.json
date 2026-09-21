@@ -1,0 +1,289 @@
+{
+  "name": "妖精步伐",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_warlock_archfey_steps-of-the-fey.webp",
+  "system": {
+    "activities": {
+      "t2OVl9VTpH52D40C": {
+        "type": "heal",
+        "_id": "t2OVl9VTpH52D40C",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "复苏步伐"
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "ft",
+          "special": "",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": 1,
+          "denomination": "10",
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "bonus": ""
+        },
+        "name": "复苏步伐",
+        "img": "",
+        "appliedEffects": []
+      },
+      "WAfKIG4Yu1Z07pYc": {
+        "type": "save",
+        "_id": "WAfKIG4Yu1Z07pYc",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": "嘲弄步伐 "
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "21AUeEIoaQJfWumB",
+            "onSave": false
+          }
+        ],
+        "range": {
+          "override": false,
+          "units": "spec",
+          "special": "",
+          "value": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": "creature",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "parts": [],
+          "onSave": "none"
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "嘲弄步伐 ",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你的宗主授予你在位面的边界之间穿行的能力。你可以无需消耗法术位地施展<em>@UUID[Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L]{迷踪步}</em>，次数等于你的魅力调整值（至少 1 次），并在完成一次长休后恢复所有消耗的次数。</p><p>此外，每当你施展该法术时，你都可以选择造成下列额外效应之一。</p><p><em><strong>复苏步伐。</strong></em>在你传送之后，一个你可见的位于你 10 尺内的生物获得 1d10 临时生命值。</p><p><em><strong>嘲弄步伐。</strong></em>位于你传送前的空间 5 尺内的生物必须进行一次对抗你法术豁免 DC 的[[/save]]{感知豁免}，豁免失败则其在对除你之外的生物发动攻击检定时具有劣势，直至你的下一回合开始。</p><p class=\"item-original\">Steps of the Fey</p>",
+      "chat": ""
+    },
+    "identifier": "steps-of-the-fey",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "至高妖精宗主",
+    "advancement": [
+      {
+        "_id": "DVy7wbt5c6pPxM7j",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.uCKpeqTpJHbyaX5L"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "uses": {
+              "max": "(max(1,@abilities.cha.mod))",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "method": "atwill",
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "妖精步伐",
+        "hint": "你始终准备了以下法术。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/CLASS_generic_spell.webp"
+      }
+    ]
+  },
+  "effects": [
+    {
+      "name": "嘲弄",
+      "img": "modules/dnd5e-collection-2024/assets/icons/effects/DEBUFF_physical_taunted.webp",
+      "origin": "Compendium.dnd5e-collection-2024.phb-content.Item.7vw9ADJEiKFYlbQO",
+      "transfer": false,
+      "_id": "21AUeEIoaQJfWumB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "",
+          "mode": 2,
+          "value": "",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 7,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>你对其他生物发动攻击检定时具有劣势，直至此来源的下回合开始。</p>",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "4.3.6",
+        "createdTime": 1736608819280,
+        "modifiedTime": 1759947984712,
+        "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+        "exportSource": null
+      },
+      "_key": "!items.effects!7vw9ADJEiKFYlbQO.21AUeEIoaQJfWumB"
+    }
+  ],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777658767218,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "7vw9ADJEiKFYlbQO",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!7vw9ADJEiKFYlbQO"
+}

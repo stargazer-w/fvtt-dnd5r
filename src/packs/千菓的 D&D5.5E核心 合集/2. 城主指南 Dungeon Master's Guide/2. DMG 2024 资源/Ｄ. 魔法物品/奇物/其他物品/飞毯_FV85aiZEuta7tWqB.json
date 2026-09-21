@@ -1,0 +1,161 @@
+{
+  "name": "飞毯",
+  "type": "equipment",
+  "img": "modules/dnd5e-collection-2024/assets/icons/items/MAG_WOND_carpet-of-flying.webp",
+  "system": {
+    "activities": {
+      "MipXkcVGpmBJHcDi": {
+        "type": "summon",
+        "_id": "MipXkcVGpmBJHcDi",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><em>奇物，极珍稀</em></p><p>你可以用一个&amp;Reference[Magic]{魔法}动作，说出飞毯的命令词来让它起飞或悬停。只要你在飞毯周围 30 尺内，它就会按照你的指示移动。</p><p>飞毯有四种不同的尺寸，其具体如何则由 DM 进行选择或随机决定。飞毯的载重上限为表中数值的两倍，但超过正常载重时飞毯的飞行速度减半。</p><table><thead><tr><th>[[/r 1d100]]</th><th>尺寸</th><th>载重</th><th>飞行速度</th></tr></thead><tbody><tr><td>01–20</td><td>3 尺 × 5 尺</td><td>200 磅</td><td>80 尺</td></tr><tr><td>21–55</td><td>4 尺 × 6 尺</td><td>400 磅</td><td>60 尺</td></tr><tr><td>56–80</td><td>5 尺 × 7 尺</td><td>600 磅</td><td>40 尺</td></tr><tr><td>81–00</td><td>6 尺 × 9 尺</td><td>800 磅</td><td>30 尺</td></tr></tbody></table><p class=\"item-original\">Carpet of Flying</p>",
+      "chat": ""
+    },
+    "identifier": "carpet-of-flying",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "DMG 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 40000,
+      "denomination": "gp"
+    },
+    "rarity": "veryRare",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "cover": null,
+    "crewed": false,
+    "type": {
+      "value": "wondrous",
+      "baseItem": ""
+    },
+    "armor": {
+      "value": null,
+      "magicalBonus": null,
+      "dex": null
+    },
+    "properties": [
+      "mgc"
+    ],
+    "strength": null,
+    "proficient": null
+  },
+  "effects": [],
+  "flags": {
+    "dnd5e": {
+      "riders": {
+        "activity": [],
+        "effect": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "4.3.6",
+    "createdTime": 1761895695988,
+    "modifiedTime": 1761895874032,
+    "lastModifiedBy": "dWA6Gj2SYcZMP8wT",
+    "exportSource": null
+  },
+  "_id": "FV85aiZEuta7tWqB",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "dWA6Gj2SYcZMP8wT": 3
+  },
+  "_key": "!items!FV85aiZEuta7tWqB"
+}

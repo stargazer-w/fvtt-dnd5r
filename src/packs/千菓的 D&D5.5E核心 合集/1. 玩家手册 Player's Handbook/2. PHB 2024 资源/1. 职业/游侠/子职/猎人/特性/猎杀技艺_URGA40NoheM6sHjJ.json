@@ -1,0 +1,93 @@
+{
+  "name": "猎杀技艺",
+  "type": "feat",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_hunter_hunters-prey.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>你选择并获得以下特性选项之一。当你完成一次短休或长休时，你可以将所选的选项替换为另一个。</p><p><em><strong>巨像屠夫。</strong></em>你强而有力的攻击可以击倒最强壮的对手。当你用武器命中生物时，如果该敌人生命值不满，则该武器额外对目标造成 1d8 点伤害。你每回合只能造成一次这种额外伤害。</p><p><em><strong>灭族者。</strong></em>每个你的回合一次，当你用武器进行攻击时，你可以用该武器对位于目标 5 尺内的另一生物发动另一次攻击。额外攻击的目标必须处于你武器射程或范围内，且是你这回合没有攻击过的目标。</p><p class=\"item-original\">Hunter's Prey</p><section class=\"dc7-note\"><p>你可以编辑此物品，并于“升级”选项卡中的“<em class=\"fa-solid fa-gear\">​</em>”更改选择项。</p></section>",
+      "chat": ""
+    },
+    "identifier": "hunters-prey",
+    "source": {
+      "revision": 1,
+      "rules": "2024",
+      "book": "PHB 2024",
+      "page": "",
+      "custom": "",
+      "license": ""
+    },
+    "enchant": {},
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": null
+    },
+    "properties": [],
+    "requirements": "猎人",
+    "advancement": [
+      {
+        "_id": "6RdpbKXHnpE8jHcO",
+        "type": "ItemChoice",
+        "configuration": {
+          "choices": {
+            "3": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "allowDrops": true,
+          "type": "feat",
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.QzELuYxFyn8oflZG"
+            },
+            {
+              "uuid": "Compendium.dnd5e-collection-2024.phb-content.Item.X2GT1H1B35VpSzdz"
+            }
+          ],
+          "spell": null,
+          "restriction": {
+            "type": "class",
+            "subtype": "huntersPrey",
+            "list": []
+          }
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "猎杀技艺",
+        "hint": "你选择并获得以下特性选项之一。当你完成一次短休或长休时，你可以将所选的选项替换为另一个。",
+        "icon": "modules/dnd5e-collection-2024/assets/icons/abilities/SUBCLASS_ranger_hunter_hunters-prey.webp"
+      }
+    ]
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1731684876559,
+    "modifiedTime": 1777576366252,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
+    "exportSource": null
+  },
+  "_id": "URGA40NoheM6sHjJ",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Jqoj9dwIRPPEU1Xu": 3
+  },
+  "_key": "!items!URGA40NoheM6sHjJ"
+}
