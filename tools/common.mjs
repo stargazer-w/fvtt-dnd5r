@@ -55,13 +55,31 @@ export const PACK_CONFIG_FILE = "@pack.json";
 export const FOLDER_CONFIG_FILE = "@folder.json";
 
 /**
+ * 结构目录名的序号前缀：`1. 門戶` → 序号 1、名字「門戶」。
+ * 顺序写进名字里，资源管理器也会照这个顺序显示；构建时前缀被剥掉。
+ */
+const ORDER_PREFIX = /^(\d+)\.\s*(.+)$/;
+
+/**
+ * 拆开目录名的序号前缀。
+ * @param {string} name 目录名
+ * @returns {{order: number, name: string}} 没有序号时 order 为最大值，即排到最后
+ */
+function splitDirName(name) {
+  const matched = ORDER_PREFIX.exec(name);
+  if ( !matched ) return { order: Number.MAX_SAFE_INTEGER, name };
+  return { order: Number(matched[1]), name: matched[2] };
+}
+
+/**
  * 读取 `src/packs` 的目录树。
  *
  * 目录结构对应 module.json 的 `packFolders`：
  * - 含 `@pack.json` 的目录是一个包，其子目录不再参与结构（里面是解包出的文档）
- * - 含 `@folder.json` 的目录是一个文件夹，目录名即文件夹名，子目录是它的 packs / folders
- * - 每个目录自己声明在同级里的位置：控制文件里的 `@order`（数字，小的在前；没写的排到最后）
- *   Foundry 的 `sorting: "m"` 靠数组顺序排序，而文件系统只能按名称返回条目，因此需要它
+ * - 含 `@folder.json` 的目录是一个文件夹，子目录是它的 packs / folders
+ * - 目录名的前缀 `序号. ` 决定它在同级里的位置（小的在前；不写序号的排到最后、按名称）
+ *   Foundry 的 `sorting: "m"` 靠数组顺序排序，而文件系统只能按名称返回条目，因此顺序写在名字里
+ * - 目录名去掉序号即文件夹名 / 包的 label，所以导出的名字都不含序号
  *
  * @returns {{packFolders: object[], packs: object[], packDirs: Map<string, string>}}
  *   `packFolders` 可直接写进 module.json；`packs` 为各包配置；`packDirs` 为「包名 → 目录」。
@@ -78,17 +96,17 @@ export function readPacksTree() {
   const readJson = file => (fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : null);
 
   /**
-   * 读取目录自身的顺序标识（写在它的 @folder.json / @pack.json 里）。
-   * @param {string} dir 目录
-   * @returns {number}   未声明时返回最大值，即排到最后
+   * 列出目录里的子目录，按目录名的序号前缀排序。
+   * @param {string} dir 父目录
+   * @returns {{path: string, order: number, name: string}[]} 已排好序的子目录
    */
-  const readOrder = dir => {
-    for ( const file of [PACK_CONFIG_FILE, FOLDER_CONFIG_FILE] ) {
-      const config = readJson(path.join(dir, file));
-      if ( config ) return (typeof config["@order"] === "number") ? config["@order"] : Number.MAX_SAFE_INTEGER;
-    }
-    return Number.MAX_SAFE_INTEGER;
-  };
+  const listDirs = dir => fs.readdirSync(dir, { withFileTypes: true })
+    .filter(entry => entry.isDirectory())
+    .map(entry => ({ path: path.join(dir, entry.name), ...splitDirName(entry.name) }))
+    .sort((a, b) => {
+      if ( a.order !== b.order ) return a.order - b.order;
+      return (a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0);
+    });
 
   /**
    * 递归读取一个目录。
@@ -96,36 +114,32 @@ export function readPacksTree() {
    * @returns {{type: "pack", name: string}|{type: "folder", folder: object}}
    */
   const walk = dir => {
+    const dirName = splitDirName(path.basename(dir)).name;
+
     const packConfig = readJson(path.join(dir, PACK_CONFIG_FILE));
     if ( packConfig ) {
-      // "@order" 只用于排序，不写进 module.json
-      const { "@order": order, ...config } = packConfig;
-      packs.push(config);
-      packDirs.set(config.name, dir);
-      return { type: "pack", name: config.name };
+      // label 由目录名（去掉序号）表达，与文件夹的 name 同理；
+      // 插回 name 之后，让产物里的字段顺序与原文件一致
+      const { name, ...rest } = packConfig;
+      if ( !name ) throw new Error(`@pack.json 缺少 name：${dir}`);
+      const entry = { name, label: dirName, ...rest };
+      packs.push(entry);
+      packDirs.set(name, dir);
+      return { type: "pack", name };
     }
 
     const raw = readJson(path.join(dir, FOLDER_CONFIG_FILE));
     if ( !raw ) {
       throw new Error(`目录既不是包也不是文件夹，缺少 ${PACK_CONFIG_FILE} / ${FOLDER_CONFIG_FILE}：${dir}`);
     }
-    // name 由目录名决定，"@order" 只用于排序，两者都不写进 module.json
-    const { "@order": order, name: _name, ...rest } = raw;
-    const folder = { name: path.basename(dir), ...rest };
-
-    const children = fs.readdirSync(dir, { withFileTypes: true })
-      .filter(entry => entry.isDirectory())
-      .sort((a, b) => {
-        const orderA = readOrder(path.join(dir, a.name));
-        const orderB = readOrder(path.join(dir, b.name));
-        if ( orderA !== orderB ) return orderA - orderB;
-        return (a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0);
-      });
+    // name 由目录名决定，不写进 module.json
+    const { name: _name, ...rest } = raw;
+    const folder = { name: dirName, ...rest };
 
     const packNames = [];
     const folders = [];
-    for ( const child of children ) {
-      const node = walk(path.join(dir, child.name));
+    for ( const child of listDirs(dir) ) {
+      const node = walk(child.path);
       if ( node.type === "pack" ) packNames.push(node.name);
       else folders.push(node.folder);
     }
@@ -134,13 +148,9 @@ export function readPacksTree() {
     return { type: "folder", folder };
   };
 
-  const topLevel = fs.readdirSync(SRC_PACKS_DIR, { withFileTypes: true })
-    .filter(entry => entry.isDirectory())
-    .sort((a, b) => ((a.name < b.name) ? -1 : ((a.name > b.name) ? 1 : 0)));
-
-  const packFolders = topLevel.map(entry => {
-    const node = walk(path.join(SRC_PACKS_DIR, entry.name));
-    if ( node.type !== "folder" ) throw new Error(`src/packs 的顶层只能是文件夹目录：${entry.name}`);
+  const packFolders = listDirs(SRC_PACKS_DIR).map(entry => {
+    const node = walk(entry.path);
+    if ( node.type !== "folder" ) throw new Error(`src/packs 的顶层只能是文件夹目录：${entry.path}`);
     return node.folder;
   });
 

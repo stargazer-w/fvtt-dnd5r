@@ -1,0 +1,12 @@
+{
+  "name": "derived-creatures",
+  "path": "packs/derived-creatures",
+  "type": "Actor",
+  "banner": "modules/dnd5e-collection-2024/assets/banners/green.webp",
+  "ownership": {
+    "PLAYER": "NONE",
+    "ASSISTANT": "OWNER"
+  },
+  "module": "dnd5e-collection-2024",
+  "system": "dnd5e"
+}

@@ -9,14 +9,15 @@ src/                       ← 唯一数据源，目录结构与最终模组完�
 ├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png
 ├── module.json            ← packs / packFolders 的占位值写成说明文字，构建时由目录结构填充
 └── packs/                 ← 目录结构对应 module.json 的 packFolders
-    └── <文件夹>/<包名>/
+    └── <分组>/             ← 目录名前缀「序号. 」表示它在同级里的位置；含 @folder.json
         ├── @folder.json   ← 控制文件：标识这是文件夹，存放它的非结构字段
-        ├── @pack.json     ← 控制文件：标识这是包，存放 module.json 里对应的 pack 配置
-        └── <文档>.json    ← compendium 数据（<名称>_<文档ID>.json）
+        └── <包 label>/     ← 同样带序号前缀；含 @pack.json
+            ├── @pack.json ← 控制文件：标识这是包，存放 module.json 里对应的 pack 配置
+            └── <文档>.json ← compendium 数据（<名称>_<文档ID>.json）
 dist/                      ← 构建产物：完整可安装模组（不进版本库）
 ├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png   ← 原样同步
 ├── module.json            ← 由 src/module.json + 目录结构生成
-└── packs/<包名>/          ← 由 JSON 编译回的 LevelDB（路径取自 @pack.json）
+└── packs/<包 name>/       ← 由 JSON 编译回的 LevelDB（目录名取自 @pack.json 的 name）
 ```
 
 只有 `packs` 在两边类型不同（`src` 是 JSON，`dist` 是 LevelDB）；其余是文本或媒体文件，构建时原样复制。
@@ -25,29 +26,49 @@ dist/                      ← 构建产物：完整可安装模组（不进版�
 
 `src/packs/` 的目录层级就是 Foundry 里的 compendium 分组：
 
-- **文件夹**：目录里有 `@folder.json`，**目录名即文件夹名**，子目录是它的子文件夹或包
-- **包**：目录里有 `@pack.json`，**目录名即包名**，目录里其余 JSON 是该包的文档
+- **文件夹**：目录里有 `@folder.json`，**目录名（去掉序号）即分组名**，子目录是它的子文件夹或包
+- **包**：目录里有 `@pack.json`，**目录名（去掉序号）即它的 label**（模块里显示的名字），
+  目录里其余 JSON 是该包的文档
   （有 `@pack.json` 的目录不再向下解析结构，所以包内的 compendium 子文件夹不会与分组混淆）
 
 `@folder.json` 与 `@pack.json` 是专用的**控制文件**（`@` 前缀标识“这是给打包工具读的，不是数据”），
-两者都只放非结构字段——`name` 由目录名、`packs`/`folders` 由子目录表达：
+里面只放非结构字段——分组名、包的 label、顺序都由目录名表达，`packs` / `folders` 由子目录表达：
 
 ```jsonc
-// src/packs/千菓的 D&D5.5E 合集/核心规则/@folder.json
-{ "@order": 1, "sorting": "m", "color": "#5d0814" }
+// src/packs/千菓的 D&D5.5E 合集/2. 核心规则/@folder.json
+{ "sorting": "m", "color": "#5d0814" }
 
-// src/packs/千菓的 D&D5.5E 合集/核心规则/玩家手册 Player's Handbook/phb-content/@pack.json
-{ "@order": 1, "name": "phb-content", "label": "PHB 2024 资源", "path": "packs/phb-content", "type": "Item", … }
+// src/packs/千菓的 D&D5.5E 合集/2. 核心规则/1. 玩家手册 Player's Handbook/2. PHB 2024 资源/@pack.json
+{ "name": "phb-content", "path": "packs/phb-content", "type": "Item", … }
 ```
 
-**`@order` 是这个目录在同级里的位置**（数字，小的在前；没写的排到最后、按名称），由子目录自己声明。
-它不能省：这些分组的 `sorting` 都是 `"m"`（手动排序），Foundry 按数组顺序显示，
-而文件系统只能按名称返回条目——纯按名排序会得到「城主指南 / 怪物图鉴 / 玩家手册」，与原顺序不符。
-新增目录时不写 `@order` 就自动排到最后，不必回头改父级。
+### 顺序写在目录名里
 
-`@pack.json` 里除 `@order` 外的字段就是 `module.json` 中对应的那条 pack 配置
-（`name` / `label` / `path` / `type` / `banner` …）；`@order` 与 `@folder.json` 里可能出现的
-`name` 都只用于解析结构，生成 `module.json` 时会被剔除。
+目录名的前缀 `序号. ` 就是这个目录在同级里的位置（小的在前），构建时会被剥掉：
+
+```
+src/packs/千菓的 D&D5.5E 合集/
+├── 1. 門戶/                          ← label「門戶」
+├── 2. 核心规则/                       ← 分组名「核心规则」，子目录的序号从 1 重新数
+│   └── 1. 玩家手册 Player's Handbook/
+│       ├── 1. 玩家手册 (2024)/        ← @pack.json 的 name 是 players-handbook
+│       └── 2. PHB 2024 资源/         ← label「PHB 2024 资源」
+└── 3. 派生内容/
+    └── 1. Dc⁷ 随机表/ 2. Dc⁷ 派生物品/ 3. Dc⁷ 派生造物/ 4. Dc⁷ 宏/
+```
+
+序号不能省：这些分组的 `sorting` 都是 `"m"`（手动排序），Foundry 按数组顺序显示，
+而文件系统只能按名称返回条目——纯按名排序会得到「城主指南 / 怪物图鉴 / 玩家手册」，与原顺序不符。
+之所以写进名字里而不是单独一个字段，是为了让资源管理器也照这个顺序显示（VS Code 只提供
+名称 / 类型 / 修改时间三种排序，没有自定义排序的入口）。
+
+- 序号按数字比较，两位数不用补零；不写序号的目录排在最后、按名称
+- `src/packs` 下只有一个分组目录，它不需要序号（同级没有比较对象）
+- 想调整位置就改序号，不必回头改父级的任何东西；序号只用于排序，不会出现在产物里
+
+`@pack.json` 里是 `module.json` 中对应的那条 pack 配置（`name` / `path` / `type` / `banner` …）。
+`label` 不出现在文件里——**它由目录名（去掉序号）表达**；文件夹的 `name` 同理，两者都以目录名为准。
+生成 `module.json` 时，`label` 会按目录名补回 `name` 之后。
 
 > **别把两种文件名搞混**：`_Folder.json`（下划线 + 大写 F）是 Foundry 的 compendium 文件夹文档，
 > 属于**数据**，由 `unpack` 生成、位于包目录内部；`@folder.json` 是打包工具的**控制文件**，
@@ -57,11 +78,12 @@ dist/                      ← 构建产物：完整可安装模组（不进版�
 构建时会被目录结构生成的内容覆盖（键的位置保持不变）：
 
 ```jsonc
-"packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删包请改目录结构（各包目录里的 @pack.json）。",
-"packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 及其 @order）。"
+"packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删资源包请改目录结构（@pack.json 标识该目录为一个资源包并定义其属性；目录名去掉「序号. 」前缀即它的 label）。",
+"packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 标识该目录为一个资源目录并定义其属性；目录名前缀「序号. 」控制它所在的顺序，仅对父目录 sorting 为 m 时生效）。"
 ```
 
-要新增一个包，就在合适的位置建目录、放 `@pack.json`、把文档放进去；把包换到别的文件夹，直接移动目录即可。
+要新增一个包，就在合适的位置建目录（**目录名去掉序号前缀就是它在模块里显示的名字**，序号决定位置）、
+放 `@pack.json`、把文档放进去；把包换到别的分组，直接移动目录（顺带改序号）即可。
 
 ## 命令
 

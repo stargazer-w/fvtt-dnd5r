@@ -1,0 +1,11 @@
+{
+  "name": "dungeon-masters-guide",
+  "path": "packs/dungeon-masters-guide",
+  "type": "JournalEntry",
+  "banner": "modules/dnd5e-collection-2024/assets/banners/dmg-2024.webp",
+  "module": "dnd5e-collection-2024",
+  "system": "dnd5e",
+  "flags": {
+    "display": "table-of-contents"
+  }
+}

@@ -10,7 +10,8 @@
 其余（素材、脚本、样式、模板、`module.json`）就是原始文件本身。
 
 `src/packs/` 的目录层级就是 Foundry 里的 compendium 分组（对应 `module.json` 的 `packFolders`）：
-文件夹目录放控制文件 `@folder.json`、包目录放 `@pack.json`，目录名即分组名 / 包名；
+文件夹目录放控制文件 `@folder.json`、包目录放 `@pack.json`，目录名前缀 `序号. ` 表示它在同级里的位置，
+去掉序号就是分组名 / 包的 label（顺序写进名字里，资源管理器也照这个顺序显示）；
 `module.json` 里这两个字段用一句说明文字占位，构建时自动填充。详见 [tools/README.md](tools/README.md)。
 
 ```bash
@@ -22,7 +23,7 @@ npm run verify  -- "<原始模组目录>"             # 以原始模组为基准
 ```
 
 构建产物在 `dist/`，把它整个放进 Foundry 的 `Data/modules/` 即可使用，等同于下方「安装模块」的下载版。
-维护 compendium 数据时直接编辑 `src/packs/<包名>/` 下的 JSON，再跑一次 `npm run build` 即可。
+维护 compendium 数据时直接编辑 `src/packs/<包目录>/` 下的 JSON，再跑一次 `npm run build` 即可。
 
 上面这些路径参数也可以写进仓库根目录的 `local.config.json`，省得每次敲
 （该文件已被 `.gitignore` 忽略，不会进版本库；相对路径按仓库根目录解析）：

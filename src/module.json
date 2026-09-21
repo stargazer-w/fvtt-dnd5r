@@ -48,8 +48,8 @@
             }
         ]
     },
-    "packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删资源包请改目录结构（@pack.json 标识该目录为一个资源包，并定义其属性）。",
-    "packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 标识该目录为一个资源目录，并定义其属性， @order 字段用来控制它所在的顺序，仅对父目录sorting为m时生效）。",
+    "packs": "占位：由 src/packs 的目录结构生成，构建时覆盖。增删资源包请改目录结构（@pack.json 标识该目录为一个资源包并定义其属性；目录名去掉「序号. 」前缀即它的 label）。",
+    "packFolders": "占位：由 src/packs 的目录结构生成，构建时覆盖。调整分组与顺序请改目录结构（@folder.json 标识该目录为一个资源目录并定义其属性；目录名前缀「序号. 」控制它所在的顺序，仅对父目录 sorting 为 m 时生效）。",
     "url": "https://github.com/chiga777/dnd5e-collection-2024",
     "manifest": "",
     "download": "",

@@ -71,7 +71,7 @@ function fileMatches(a, b) {
  * 比较两份 module.json。
  *
  * 两份清单的 `packs` 与 `packFolders` 都来自 compendium 的目录结构：侧边栏的分组与顺序由
- * `packFolders` 决定（其内部顺序已按控制文件里的 `@order` 还原，按序比较），而顶层 `packs`
+ * `packFolders` 决定（其内部顺序已按目录名的序号前缀还原，按序比较），而顶层 `packs`
  * 只是一个平铺列表，顺序不影响显示，因此对它按 name 排序后再比较。
  * @param {any} a 原始清单
  * @param {any} b 生成的清单
