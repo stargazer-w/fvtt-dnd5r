@@ -13,7 +13,7 @@ src/                       ← 唯一数据源，目录结构与最终模组完�
         ├── @folder.json   ← 控制文件：标识这是文件夹，存放它的非结构字段
         └── <包 label>/     ← 同样带序号前缀；含 @pack.json
             ├── @pack.json ← 控制文件：标识这是包，存放 module.json 里对应的 pack 配置
-            └── <文档>.json ← compendium 数据（<名称>_<文档ID>.json）
+            └── <文档>.json ← compendium 数据（<名称>.json）
 dist/                      ← 构建产物：完整可安装模组（不进版本库）
 ├── assets/ fonts/ lang/ scripts/ styles/ templates/ CHIGA.png   ← 原样同步
 ├── module.json            ← 由 src/module.json + 目录结构生成
@@ -159,6 +159,14 @@ npm run verify  -- "<原始模组目录>"             # 与原始模组逐条目
   模组数据里写死了 `modules/dnd5e-collection-2024/...` 形式的资源路径，改名会让素材 404。
 - 可重复执行；若发现旧链接会先移除（避免复制时写穿到 `dist` 自身）。
 - `npm run dev -- --link` 会改用 junction，仅适用于 Foundry 原生跑在 Windows 上的情况。
+- compendium 包在 `dist` 与目标不一致时就会被同步过去（不只看「本次是否重新编译」，否则
+  先 `npm run build` 再 `npm run dev` 只会报「未变化」，Foundry 里永远是旧数据）。
+  但**动包之前会先确认 Foundry 没打开它们**：LevelDB 会独占当前的 `.log` 与 `MANIFEST`，
+  连 `stat` 都会报 `EPERM`（`LOCK` 文件反而能正常打开，不能拿它判断），`dev` 据此停手——
+  在 Foundry 运行中改写包，塞进去的 `.ldb` 会被它的会话当成「无引用文件」回收掉，最终留下空包。
+- 所以动过 `src/packs` 的标准部署顺序是：
+  `docker stop <Foundry 容器>` → `npm run dev` → `docker start <容器>`；
+  只改素材 / 脚本 / 结构（没碰 `src/packs`）时不用停。
 - 更干净的替代方案：给容器加一条绑定挂载（Docker 支持嵌套挂载），之后只需 `npm run build`，连复制都省了：
 
   ```yaml
@@ -171,11 +179,12 @@ npm run verify  -- "<原始模组目录>"             # 与原始模组逐条目
 
 | 对象 | 规则 | 示例 |
 | --- | --- | --- |
-| 文档 | `<名称>_<文档ID>.json` | `长剑_xQ3EhFvRURUZzGnv.json` |
+| 文档 | `<名称>.json`；只有同一文件夹里重名的才附上 `_ID` | `长剑.json`、`吐息武器（火焰）.json` |
 | compendium 文件夹（包内的分类） | 与文件夹同名，每个文件夹另存一个 `_Folder.json` | `Ｄ. 装备/武器/简易近战/_Folder.json` |
 
 - 名称保留中文，仅替换 Windows 非法字符（`\ / : * ? " < > |`）并截断到 80 字符。
-- 追加文档 ID 后缀是为了保证同级重名文档（例如大量同名物品）不会互相覆盖。
+- 拼写、重命名、增删文件都不影响数据身份：真正决定条目身份的是文件内部的 `_key`（= `!<collection>!<文档ID>`）。
+- 万一将来出现同文件夹重名的两篇，`npm run unpack` 会自动给它们补回 `_ID` 后缀；`npm run check` 也会报错提醒。
 - 目录层级与 Foundry 中的 compendium 文件夹结构一一对应。
 
 > 编译时是**递归**读取 `src/packs/<包名>/` 下所有 `.json`，

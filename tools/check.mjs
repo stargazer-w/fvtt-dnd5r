@@ -66,6 +66,8 @@ for ( const pack of packs ) {
    */
   const walk = (dir, parentId, rel) => {
     let groupId = parentId;
+    /** @type {Map<string, string>} 本目录已用过的文件名（小写）→ 原文件名 */
+    const fileNames = new Map();
     if ( fs.existsSync(path.join(dir, FOLDER_FILE)) ) {
       const doc = readJson(path.join(dir, FOLDER_FILE));
       groupId = doc._id;
@@ -89,6 +91,13 @@ for ( const pack of packs ) {
       const childRel = rel ? `${rel}/${entry.name}` : entry.name;
       if ( entry.isDirectory() ) { walk(full, groupId, childRel); continue; }
       if ( entry.name === FOLDER_FILE || entry.name === PACK_CONFIG_FILE ) continue;
+      // 同目录内文件名必须唯一（Windows 不区分大小写，重名会互相覆盖）
+      const lower = entry.name.toLowerCase();
+      if ( fileNames.has(lower) ) {
+        errors.push(`${at(childRel)}：同目录内文件名重复（不区分大小写），与「${fileNames.get(lower)}」冲突`);
+      } else {
+        fileNames.set(lower, entry.name);
+      }
       if ( !entry.name.endsWith(".json") ) {
         warnings.push(`${at(childRel)}：不是 JSON 文件，打包时会忽略`);
         continue;

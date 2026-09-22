@@ -1,7 +1,7 @@
 {
-  "name": "吐息武器",
+  "name": "吐息武器（寒冷）",
   "type": "feat",
-  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon.webp",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon_cold.webp",
   "system": {
     "activities": {
       "oNEwvam1T2ly66N2": {
@@ -24,7 +24,8 @@
             {
               "type": "itemUses",
               "value": "1",
-              "target": ""
+              "target": "",
+              "scaling": {}
             }
           ]
         },
@@ -74,30 +75,34 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "poison",
-                "cold",
-                "fire",
-                "acid",
-                "lightning"
-              ]
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
             }
           ],
           "onSave": "half"
         },
         "save": {
-          "ability": "dex",
+          "ability": [
+            "dex"
+          ],
           "dc": {
             "calculation": "con",
             "formula": ""
           }
         },
-        "img": "",
+        "flags": {},
         "visibility": {
+          "identifier": "",
           "level": {
             "min": null,
             "max": null
           },
-          "identifier": ""
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
         }
       },
       "bW4B5GjLrkcMUUxk": {
@@ -119,7 +124,8 @@
             {
               "type": "itemUses",
               "value": "1",
-              "target": ""
+              "target": "",
+              "scaling": {}
             }
           ]
         },
@@ -170,31 +176,35 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "poison",
-                "cold",
-                "fire",
-                "acid",
-                "lightning"
-              ]
+                "cold"
+              ],
+              "scaling": {
+                "number": 1
+              }
             }
           ],
           "onSave": "half"
         },
         "save": {
-          "ability": "dex",
+          "ability": [
+            "dex"
+          ],
           "dc": {
             "calculation": "con",
             "formula": ""
           }
         },
         "_id": "bW4B5GjLrkcMUUxk",
-        "img": "",
+        "flags": {},
         "visibility": {
+          "identifier": "",
           "level": {
             "min": null,
             "max": null
           },
-          "identifier": ""
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
         }
       }
     },
@@ -227,32 +237,35 @@
       "subtype": ""
     },
     "prerequisites": {
-      "level": null
+      "level": null,
+      "items": [],
+      "repeatable": false
     },
     "properties": [],
     "requirements": "龙裔",
-    "advancement": []
+    "advancement": [],
+    "crewed": false
   },
   "effects": [],
-  "ownership": {
-    "default": 0,
-    "Jqoj9dwIRPPEU1Xu": 3
-  },
   "flags": {
     "dnd5e": {}
   },
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
+    "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
-    "createdTime": 1730880517001,
-    "modifiedTime": 1777695329401,
-    "lastModifiedBy": "CeZkjlhN2tfJgg4n",
-    "exportSource": null
+    "createdTime": 1777695993632,
+    "modifiedTime": 1777695993632,
+    "lastModifiedBy": "CeZkjlhN2tfJgg4n"
   },
-  "_id": "YKCvosPbYJfdD1Yq",
-  "sort": 3100000,
-  "_key": "!items!YKCvosPbYJfdD1Yq"
+  "ownership": {
+    "default": 0,
+    "CeZkjlhN2tfJgg4n": 3
+  },
+  "_id": "NqRzyvRBssawYJx8",
+  "sort": 0,
+  "_key": "!items!NqRzyvRBssawYJx8"
 }

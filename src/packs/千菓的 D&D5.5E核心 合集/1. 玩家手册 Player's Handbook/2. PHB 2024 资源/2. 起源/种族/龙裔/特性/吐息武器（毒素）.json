@@ -1,7 +1,7 @@
 {
-  "name": "吐息武器",
+  "name": "吐息武器（毒素）",
   "type": "feat",
-  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon_acid.webp",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon_poison.webp",
   "system": {
     "activities": {
       "oNEwvam1T2ly66N2": {
@@ -75,7 +75,7 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "acid"
+                "poison"
               ],
               "scaling": {
                 "number": 1
@@ -176,7 +176,7 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "acid"
+                "poison"
               ],
               "scaling": {
                 "number": 1
@@ -265,7 +265,7 @@
     "default": 0,
     "CeZkjlhN2tfJgg4n": 3
   },
-  "_id": "YtyFFSj323fJHpW9",
+  "_id": "LwAKHj3RQQE6Nu51",
   "sort": 0,
-  "_key": "!items!YtyFFSj323fJHpW9"
+  "_key": "!items!LwAKHj3RQQE6Nu51"
 }

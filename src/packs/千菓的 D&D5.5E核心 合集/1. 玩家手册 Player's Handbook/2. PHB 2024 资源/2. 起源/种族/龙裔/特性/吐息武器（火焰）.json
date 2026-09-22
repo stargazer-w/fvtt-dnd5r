@@ -1,7 +1,7 @@
 {
-  "name": "吐息武器",
+  "name": "吐息武器（火焰）",
   "type": "feat",
-  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon_poison.webp",
+  "img": "modules/dnd5e-collection-2024/assets/icons/abilities/TRAIT_dragonborn_breath-weapon_fire.webp",
   "system": {
     "activities": {
       "oNEwvam1T2ly66N2": {
@@ -75,7 +75,7 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "poison"
+                "fire"
               ],
               "scaling": {
                 "number": 1
@@ -176,7 +176,7 @@
               "denomination": 0,
               "bonus": "",
               "types": [
-                "poison"
+                "fire"
               ],
               "scaling": {
                 "number": 1
@@ -265,7 +265,7 @@
     "default": 0,
     "CeZkjlhN2tfJgg4n": 3
   },
-  "_id": "LwAKHj3RQQE6Nu51",
+  "_id": "REk7CHOo1syzNSel",
   "sort": 0,
-  "_key": "!items!LwAKHj3RQQE6Nu51"
+  "_key": "!items!REk7CHOo1syzNSel"
 }

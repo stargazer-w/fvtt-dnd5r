@@ -45,6 +45,65 @@ if ( !modulesDirs.length ) {
 
 const { recompiled } = await build();
 
+/**
+ * 目标里的 compendium 是否与 dist 不一致（按文件名 + 大小 + 修改时间粗比，不看内容）。
+ *
+ * 只看「本次是否重新编译」是不够的：先跑 `npm run build` 再跑 `npm run dev` 时，
+ * 本次并没有重编译，但 dist 其实已经新了，只看重编译标记就会永远不同步目标里的包。
+ * 结果：dev 报「未变化」并 exit 0，Foundry 里却还是旧数据。
+ * @param {string} fromRoot dist 的 packs 目录
+ * @param {string} toRoot   目标模组的 packs 目录
+ * @returns {boolean} 是否需要把这些包同步过去
+ */
+function packsNeedSync(fromRoot, toRoot) {
+  for ( const entry of fs.readdirSync(fromRoot, { withFileTypes: true }) ) {
+    if ( !entry.isDirectory() ) continue;
+    const from = path.join(fromRoot, entry.name);
+    const to = path.join(toRoot, entry.name);
+    if ( !fs.existsSync(to) ) return true;
+    // LOCK 是各库自己的锁文件，两边本来就不同，不参与比较
+    const names = fs.readdirSync(from).filter(name => name !== "LOCK");
+    const others = fs.readdirSync(to).filter(name => name !== "LOCK");
+    if ( names.length !== others.length ) return true;
+    for ( const name of names ) {
+      if ( !others.includes(name) ) return true;
+      const a = fs.statSync(path.join(from, name));
+      const b = fs.statSync(path.join(to, name));
+      if ( a.size !== b.size || Math.abs(a.mtimeMs - b.mtimeMs) >= 1 ) return true;
+    }
+  }
+  return false;
+}
+
+/**
+ * 目标里的 compendium 是否正被 Foundry 占用。
+ *
+ * 不能拿 `LOCK` 文件判断：Foundry（Node 版 LevelDB）把它开成可共享，本地能照常打开。
+ * 真正的信号是当前的 `.log` 与 `MANIFEST`：LevelDB 把它们独占住，连 `stat` 都会报 EPERM
+ * （实测：容器在跑时所有包都是这两个文件报 EPERM，停掉后消失）。
+ * @param {string} packsRoot 目标模组的 packs 目录
+ * @returns {string[]} 被占用的包名
+ */
+function packsInUse(packsRoot) {
+  const inUse = [];
+  if ( !fs.existsSync(packsRoot) ) return inUse;
+  for ( const entry of fs.readdirSync(packsRoot, { withFileTypes: true }) ) {
+    if ( !entry.isDirectory() ) continue;
+    const dir = path.join(packsRoot, entry.name);
+    for ( const name of fs.readdirSync(dir) ) {
+      const locked = name.endsWith(".log") || name.endsWith(".ldb") || name.startsWith("MANIFEST");
+      if ( !locked ) continue;
+      const full = path.join(dir, name);
+      try {
+        if ( fs.statSync(full).size ) fs.closeSync(fs.openSync(full, "r+"));
+      } catch ( error ) {
+        if ( ["EPERM", "EBUSY", "EACCES"].includes(error.code) ) { inUse.push(entry.name); break; }
+      }
+    }
+  }
+  return inUse;
+}
+
 /** 同步失败计数（被占用的文件、写不完整的包） */
 let failures = 0;
 
@@ -63,24 +122,16 @@ for ( const modulesDir of modulesDirs ) {
     fs.symlinkSync(DIST_DIR, target, "junction");
     console.log(`已链接：${target}\n     ->  ${DIST_DIR}`);
   } else {
-    // 正要动 compendium 时，先探测目标里的包是否正被 Foundry 打开：
-    // LevelDB 会独占 LOCK 文件，探得占用就直接停手——在 Foundry 运行中改写包，
-    // 塞进去的 .ldb 会被它的会话当成「无引用文件」回收掉，最终留下空包。
-    if ( recompiled ) {
-      const packsDir = path.join(target, "packs");
-      const inUse = [];
-      if ( fs.existsSync(packsDir) ) {
-        for ( const pack of fs.readdirSync(packsDir, { withFileTypes: true }) ) {
-          if ( !pack.isDirectory() ) continue;
-          const lock = path.join(packsDir, pack.name, "LOCK");
-          if ( !fs.existsSync(lock) ) continue;
-          try {
-            fs.closeSync(fs.openSync(lock, "r+"));
-          } catch {
-            inUse.push(pack.name);
-          }
-        }
+    // 要动 compendium 时，先确认目标里的包没被 Foundry 打开：
+    // 在 Foundry 运行中改写包，塞进去的 .ldb 会被它的会话当成「无引用文件」回收掉，最终留下空包。
+    const packsFrom = path.join(DIST_DIR, "packs");
+    const packsTo = path.join(target, "packs");
+    const needPacks = !!(recompiled || !fs.existsSync(packsTo) || packsNeedSync(packsFrom, packsTo));
+    if ( needPacks ) {
+      if ( !recompiled && fs.existsSync(packsTo) ) {
+        console.log("compendium 未重新编译，但 dist 与目标不一致，需要重新同步这些包");
       }
+      const inUse = packsInUse(packsTo);
       if ( inUse.length ) {
         console.error(`\n✗ 有 ${inUse.length} 个 compendium 正被 Foundry 占用：${inUse.join(", ")}`);
         console.error("\n请先停掉 Foundry（关闭浏览器 / 退回设置界面都不够——服务端进程仍握着这些包）：");
@@ -90,9 +141,9 @@ for ( const modulesDir of modulesDirs ) {
       }
     }
 
-    // compendium 没重新编译时完全不动目标里的 packs：
+    // compendium 与 dist 一致时完全不动目标里的 packs：
     // Foundry 会一直持有已打开的 LevelDB，重写/删除会被系统直接拒绝
-    const { copied, skipped, removed, failed } = syncDirectory(DIST_DIR, target, rel => (rel === "packs") && !recompiled);
+    const { copied, skipped, removed, failed } = syncDirectory(DIST_DIR, target, rel => (rel === "packs") && !needPacks);
     console.log(`已同步：${target}\n     复制 ${copied} 个 / 未变化 ${skipped} 个 / 清理 ${removed} 个`);
 
     // 同步后核对每个包是否还有数据：漏掉 .ldb 会让 Foundry 读到空包
@@ -101,9 +152,13 @@ for ( const modulesDir of modulesDirs ) {
       if ( !pack.isDirectory() ) continue;
       const from = path.join(DIST_DIR, "packs", pack.name);
       const dir = path.join(target, "packs", pack.name);
+      // 被占用的文件 stat 会报 EPERM，视同「读不到」而不是让命令崩掉
       const sizeOf = where => fs.readdirSync(where)
         .filter(name => name.endsWith(".ldb") || name.endsWith(".log"))
-        .reduce((sum, name) => sum + fs.statSync(path.join(where, name)).size, 0);
+        .reduce((sum, name) => {
+          try { return sum + fs.statSync(path.join(where, name)).size; }
+          catch { return sum; }
+        }, 0);
       if ( !sizeOf(from) ) continue; // dist 里本来就是空包，不判断
       if ( !fs.existsSync(dir) ) { broken.push(`${pack.name}（整个目录缺失）`); continue; }
       if ( !sizeOf(dir) ) broken.push(`${pack.name}（没有 .ldb，.log 也是空的）`);

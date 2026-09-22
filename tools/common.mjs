@@ -317,16 +317,23 @@ export function stagePackForCompiling(sourceDir, destDir) {
  * - `leafNames` 为同级不重名的文件夹名，可直接交给 foundryvtt-cli 的
  *   `transformFolderName`（该回调要求返回“单层目录名”而非完整路径）。
  * - `paths` 为形如 `武器/近战武器` 的完整相对路径。
+ * - `duplicateNames` 为「同一个文件夹里名字重复（不区分大小写）」的键，
+ *   `transformName` 靠它决定哪篇需要在文件名里附上 `_ID`。
  * @param {string} packDir 已修复过的包目录
- * @returns {Promise<{leafNames: Map<string, string>, paths: Map<string, string>}>}
+ * @returns {Promise<{leafNames: Map<string, string>, paths: Map<string, string>, duplicateNames: Set<string>}>}
  */
 export async function readFolderMaps(packDir) {
   const db = new ClassicLevel(packDir, { keyEncoding: "utf8", valueEncoding: "json", createIfMissing: false });
   /** @type {Array<{_id: string, name: string, folder?: string|null}>} */
   const folders = [];
+  /** @type {any[]} 主文档（不含嵌入集合） */
+  const documents = [];
   // classic-level 的类型没有反映 valueEncoding: "json"，这里显式声明迭代出来的值类型
   for await ( const [key, doc] of /** @type {AsyncIterable<[string, any]>} */ (db.iterator()) ) {
+    const [, collection] = key.split("!");
+    if ( collection?.includes(".") ) continue; // 嵌入集合，文件名不参与命名
     if ( key.startsWith("!folders!") ) folders.push(doc);
+    else documents.push(doc);
   }
   await db.close();
 
@@ -367,7 +374,26 @@ export async function readFolderMaps(packDir) {
   };
   for ( const folder of folders ) resolvePath(folder);
 
-  return { leafNames, paths };
+  // 同一文件夹里名字重复的（不区分大小写）：文件名要附上 _ID，否则会互相覆盖
+  const nameCounts = new Map();
+  for ( const doc of documents ) {
+    const key = nameKey(paths.get(doc.folder) ?? "", doc.name, doc._id);
+    nameCounts.set(key, (nameCounts.get(key) ?? 0) + 1);
+  }
+  const duplicateNames = new Set([...nameCounts].filter(([, count]) => count > 1).map(([key]) => key));
+
+  return { leafNames, paths, duplicateNames };
+}
+
+/**
+ * 「文件夹 + 名字」的判重键（名字先按 safeName 规范化，再忽略大小写）。
+ * @param {string} folder 文件夹相对路径（包根为 ""）
+ * @param {string} name   文档名
+ * @param {string} id     文档 id（无名时的回退）
+ * @returns {string}
+ */
+export function nameKey(folder, name, id) {
+  return `${folder}\0${safeName(name, id).toLowerCase()}`;
 }
 
 /**

@@ -11,7 +11,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
-import { PACK_CONFIG_FILE, PACK_FOLDER_FILE, readFolderMaps, readPacksTree, requireOriginModuleDir, safeName,
+import { PACK_CONFIG_FILE, PACK_FOLDER_FILE, nameKey, readFolderMaps, readPacksTree, requireOriginModuleDir, safeName,
   stagePackForReading } from "./common.mjs";
 
 const moduleDir = requireOriginModuleDir("npm run unpack");
@@ -63,7 +63,7 @@ for ( const pack of originPacks ) {
 
   const staging = stagePackForReading(source);
   try {
-    const { leafNames, paths } = await readFolderMaps(staging);
+    const { leafNames, paths, duplicateNames } = await readFolderMaps(staging);
 
     // extractPack 的 clean 会清空目标目录，先把包配置备份出来
     const configPath = path.join(dest, PACK_CONFIG_FILE);
@@ -79,10 +79,12 @@ for ( const pack of originPacks ) {
       // 文件夹本体写成 <目录>/_Folder.json，目录名保留中文
       transformFolderName: doc => leafNames.get(doc._id) ?? safeName(doc.name, doc._id),
 
-      // 文档文件名使用「名称_文档ID.json」，既能直读内容又保证不重名
+      // 文档文件名使用「名称.json」；同一文件夹里重名的才附上 `_ID`（否则会互相覆盖）
       transformName: (doc, { documentType, folder }) => {
         if ( documentType === "Folder" ) return undefined; // 交给默认规则生成 _Folder.json
-        const filename = `${safeName(doc.name, doc._id)}_${doc._id}.json`;
+        const base = safeName(doc.name, doc._id);
+        const suffix = duplicateNames.has(nameKey(folder ?? "", doc.name, doc._id)) ? `_${doc._id}` : "";
+        const filename = `${base}${suffix}.json`;
         return folder ? path.join(folder, filename) : filename;
       },
 
